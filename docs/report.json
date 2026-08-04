@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 17:17:08",
+  "captured_at": "2026-08-04 17:25:47",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3520.99,
-      "tps_non_vote": 1888.53,
-      "vote_share_pct": 46.36,
-      "avg_slot_time_secs": 0.4213,
-      "latest_sample_slot": 437215640,
+      "tps_total": 3731.53,
+      "tps_non_vote": 2116.68,
+      "vote_share_pct": 43.28,
+      "avg_slot_time_secs": 0.4237,
+      "latest_sample_slot": 437216892,
       "samples_used": 5,
-      "block_height": 415270439,
-      "current_slot": 437215711
+      "block_height": 415271662,
+      "current_slot": 437216935
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 31713,
+      "slot_index": 32935,
       "slots_in_epoch": 432000,
-      "progress_pct": 7.34,
-      "eta_hours": 44.5,
-      "transaction_count": 535089872444
+      "progress_pct": 7.62,
+      "eta_hours": 44.3,
+      "transaction_count": 535091781775
     },
     "validators": {
       "active_count": 692,
@@ -97,18 +97,18 @@
       ]
     },
     "supply": {
-      "total_sol": 631630577.45,
-      "circulating_sol": 581307963.8,
+      "total_sol": 631630572.46,
+      "circulating_sol": 581307958.81,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     }
   },
   "market": {
     "price": {
-      "usd": 73.98,
-      "change_24h_pct": 0.56,
-      "market_cap_usd": 43004464873.54299,
-      "volume_24h_usd": 1375436290.3852715,
+      "usd": 73.99,
+      "change_24h_pct": 0.38,
+      "market_cap_usd": 43022565976.33334,
+      "volume_24h_usd": 1376260229.846477,
       "source": "coingecko"
     },
     "tvl": {
@@ -147,16 +147,16 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15859089443.12,
+      "total_usd": 15842726948.06,
       "by_peg": {
-        "peggedUSD": 15797276563.42,
-        "peggedEUR": 57086160.06,
+        "peggedUSD": 15781166950.16,
+        "peggedEUR": 56830214.19,
         "peggedJPY": 51.36,
-        "peggedCHF": 1384584.14,
-        "peggedAUD": 54694.2,
-        "peggedVAR": 2388097.44,
-        "peggedGBP": 727759.81,
-        "peggedTRY": 170092.05,
+        "peggedCHF": 1385002.59,
+        "peggedAUD": 54694.43,
+        "peggedVAR": 2390801.44,
+        "peggedGBP": 727694.03,
+        "peggedTRY": 170099.22,
         "peggedCAD": 1439.96,
         "peggedKRW": 0.68
       },

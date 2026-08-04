@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 17:17:08 UTC by SolPulse.
+Generated 2026-08-04 17:25:47 UTC by SolPulse.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-04 17:17:08 UTC by SolPulse.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,888.53 |
-| Total TPS (incl. votes) | 3,520.99 |
-| Vote share of transactions | 46.36% |
-| Average slot time | 0.4213 s |
-| Current slot | 437,215,711 |
-| Block height | 415,270,439 |
+| Non-vote TPS | 2,116.68 |
+| Total TPS (incl. votes) | 3,731.53 |
+| Vote share of transactions | 43.28% |
+| Average slot time | 0.4237 s |
+| Current slot | 437,216,935 |
+| Block height | 415,271,662 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 7.34% complete (`#...................`), ~44.5 hours remaining.
+Epoch **1012** — 7.62% complete (`##..................`), ~44.3 hours remaining.
 
-Slot 31,713 of 432,000. Lifetime transaction count: 535,089,872,444.
+Slot 32,935 of 432,000. Lifetime transaction count: 535,091,781,775.
 
 ## Validators
 
@@ -58,12 +58,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.98 (up 0.56%) |
-| Market cap | $43.00B |
+| SOL price | $73.99 (up 0.38%) |
+| Market cap | $43.02B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.55%) |
-| Stablecoin supply | $15.86B |
+| Stablecoin supply | $15.84B |
 
 ### Top DEXes by 24h volume
 
@@ -77,7 +77,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 ## Supply
 
-Circulating 581,307,964 SOL of 631,630,577 total (92.03%).
+Circulating 581,307,959 SOL of 631,630,572 total (92.03%).
 
 ## Sources
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-04 21:53:01",
+  "captured_at": "2026-08-04 22:51:32",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4236,
+      "measured_slot_time_secs": 0.4226,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.9,
+      "deviation_from_target_pct": 5.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3845.56,
-      "tps_non_vote": 2228.63,
-      "vote_share_pct": 42.05,
-      "avg_slot_time_secs": 0.4249,
-      "latest_sample_slot": 437254715,
+      "tps_total": 3242.52,
+      "tps_non_vote": 1630.55,
+      "vote_share_pct": 49.71,
+      "avg_slot_time_secs": 0.4219,
+      "latest_sample_slot": 437263049,
       "samples_used": 5,
-      "block_height": 415309427,
-      "current_slot": 437254745
+      "block_height": 415317713,
+      "current_slot": 437263051
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 70746,
+      "slot_index": 79051,
       "slots_in_epoch": 432000,
-      "progress_pct": 16.38,
-      "eta_hours": 42.5,
-      "eta_basis_slot_secs": 0.4236,
-      "transaction_count": 535154226050
+      "progress_pct": 18.3,
+      "eta_hours": 41.4,
+      "eta_basis_slot_secs": 0.4226,
+      "transaction_count": 535166448734
     },
     "validators": {
-      "active_count": 691,
-      "delinquent_count": 8,
-      "delinquent_pct": 1.14,
-      "delinquent_stake_sol": 23319.52,
-      "delinquent_stake_pct": 0.005,
-      "total_active_stake_sol": 434400163.46,
+      "active_count": 692,
+      "delinquent_count": 7,
+      "delinquent_pct": 1.0,
+      "delinquent_stake_sol": 1825.62,
+      "delinquent_stake_pct": 0.0,
+      "total_active_stake_sol": 434421657.36,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 261,
+      "zero_commission_count": 262,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -63,7 +63,7 @@
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12265636.09,
-          "stake_pct": 2.824,
+          "stake_pct": 2.823,
           "commission": 0
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 631630409.17,
-      "circulating_sol": 581307465.3,
-      "non_circulating_sol": 50322943.87,
+      "total_sol": 631630377.27,
+      "circulating_sol": 581307428.64,
+      "non_circulating_sol": 50322948.63,
       "circulating_pct": 92.03
     },
     "transaction_fees": {
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5XLef8aR648oZxNspto4psH9q9TFo51TAnhamQ4bYQE4jWJLCFooBD1uNbmQHvvUGzcsh6RufumCkpiEotZ6Pg1A",
-      "latest_block_time": 1785880380,
-      "errors_in_recent": 7
+      "latest_signature": "5rAGuJbiQqdKY7kTYxuK1Aq4J6PC4snoDzJsE5G9NNrjSBjTJfrAZrWvXAsbqYoWsjUAFyWwGQDsPbXRahBaKn1N",
+      "latest_block_time": 1785883886,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1488,
+      "unique_signers_sampled": 1764,
       "blocks_sampled": 3,
-      "transactions_sampled": 4576,
-      "non_vote_transactions_sampled": 2531,
-      "signers_per_block": 496.0,
-      "non_vote_share_pct": 55.31,
+      "transactions_sampled": 4304,
+      "non_vote_transactions_sampled": 2236,
+      "signers_per_block": 588.0,
+      "non_vote_share_pct": 51.95,
       "sampled_slots": [
-        437254571,
-        437253071,
-        437251571
+        437262869,
+        437261369,
+        437259869
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.09,
-      "change_24h_pct": 0.56,
-      "market_cap_usd": 43068911885.56965,
-      "volume_24h_usd": 1397453642.7610896,
+      "usd": 74.0,
+      "change_24h_pct": 0.76,
+      "market_cap_usd": 43019254925.70713,
+      "volume_24h_usd": 1383342387.4478145,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4800066028.95,
+      "tvl_usd": 4804075869.92,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 146758393
+          "volume_24h_usd": 149683816
         },
         {
           "name": "BisonFi",
@@ -179,25 +179,25 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 107919858
+          "volume_24h_usd": 106739522
         },
         {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 90451890
+          "name": "Raydium AMM",
+          "volume_24h_usd": 88376395
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15911527302.65,
+      "total_usd": 16035765280.94,
       "by_peg": {
-        "peggedUSD": 15848767788.63,
-        "peggedEUR": 57998794.47,
-        "peggedJPY": 51.36,
-        "peggedCHF": 1388001.54,
-        "peggedAUD": 54582.23,
-        "peggedVAR": 2418752.34,
-        "peggedGBP": 727772.11,
+        "peggedUSD": 15973014954.49,
+        "peggedEUR": 57987984.55,
+        "peggedJPY": 47.82,
+        "peggedCHF": 1388383.95,
+        "peggedAUD": 54609.35,
+        "peggedVAR": 2419950.48,
+        "peggedGBP": 727790.32,
         "peggedTRY": 170119.33,
         "peggedCAD": 1439.96,
         "peggedKRW": 0.68
@@ -251,8 +251,8 @@
           "fees_24h_usd": 614784
         },
         {
-          "name": "Collector Crypt",
-          "fees_24h_usd": 341950
+          "name": "Pyth Pro",
+          "fees_24h_usd": 500579
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2284,7 +2284,73 @@
     "source": "solana-improvement-documents + agave feature-set + live RPC"
   },
   "social": {
-    "error": "no usable posts; accounts failed: solana, solanalabs, SuperteamDAO"
+    "posts": [
+      {
+        "handle": "solana",
+        "text": "We wanted to merge the most authentic crypto-native experience with an industry where @Solana will make an exponential impact through pay-ins, pay-outs, and net new product experiences (\ud83e\udd2b) This stream was just the beginning Solana",
+        "created_at": "Tue Aug 04 22:13:51 +0000 2026",
+        "url": "https://x.com/solana/status/2084764780792029285"
+      },
+      {
+        "handle": "solana",
+        "text": "you know what I said solana merch\u2026 time to reset the levels https://t.co/RXA6SuiG1s",
+        "created_at": "Tue Aug 04 21:37:51 +0000 2026",
+        "url": "https://x.com/solana/status/2084755720181039548"
+      },
+      {
+        "handle": "solana",
+        "text": "WSOP: Solana Showdown has its first champion. \ud83c\udfc6 @rasmr_eth takes the bracelet. https://t.co/0fPmcHhlxW",
+        "created_at": "Tue Aug 04 21:36:12 +0000 2026",
+        "url": "https://x.com/solana/status/2084755305964192200"
+      },
+      {
+        "handle": "solana",
+        "text": "I've been doing a lot of reflecting on why I do what I do, and what's got me excited about the current moment: This is the first major economic disruption in history where your ability to have a stake in its future isn't gated by which cou\u2026",
+        "created_at": "Tue Aug 04 19:24:40 +0000 2026",
+        "url": "https://x.com/solana/status/2084722206345752629"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Crack open the map with @lootgo_official \ud83c\udff4\u200d\u2620\ufe0f Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: \u21b3 Loot Goblin: Open up 5 loot boxes \u21b3 Boost Seeker: Buy + deploy 1 SKR Booster on the ma\u2026",
+        "created_at": "Tue Aug 04 17:03:38 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2084686710630400035"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found \u2600\ufe0f Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek \ud83e\uddf5 https://t.co/U4TiVcEmkG",
+        "created_at": "Thu Jul 30 16:08:04 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2082860788369477800"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Three months in the Incubator > three years figuring it out alone \u2013 3 months of hands-on mentorship from Solana OGs IRL in NYC \u2013 Weekly workshops, office hours, and 1:1s \u2013 Demo day in front of the ecosystem's top VCs and builders Apply now\u2026",
+        "created_at": "Wed Apr 22 16:11:02 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046985139029479873"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open \u2014 join us in NYC for 3 months starting September 2026. \ud83d\udcc5 Deadline: June 5. \u2705 Rolling review \u2014 early applicants prioritized.\u2026",
+        "created_at": "Wed Apr 22 15:24:05 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046973323620577341"
+      }
+    ],
+    "accounts_reached": [
+      "solana",
+      "solanalabs",
+      "SuperteamDAO"
+    ],
+    "accounts_failed": [],
+    "count": 8,
+    "source": "x.com syndication timeline (keyless)",
+    "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "tps_non_vote",
+      "severity": "critical",
+      "message": "tps_non_vote is 3.9 sigma below its 29-point mean",
+      "value": 1630.55,
+      "expected": 2326.089
+    }
+  ]
 }

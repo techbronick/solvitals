@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 19:52:32 UTC by SolVitals.
+Generated 2026-08-04 19:53:14 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **unique_signers_sampled** — unique_signers_sampled is 3.3 sigma above its 20-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,464.33 |
-| Total TPS (incl. votes) | 4,089.69 |
-| Vote share of transactions | 39.74% |
-| Average slot time | 0.4213 s |
-| Current slot | 437,237,715 |
-| Block height | 415,292,416 |
+| Non-vote TPS | 2,485.42 |
+| Total TPS (incl. votes) | 4,113.52 |
+| Vote share of transactions | 39.58% |
+| Average slot time | 0.4208 s |
+| Current slot | 437,237,818 |
+| Block height | 415,292,518 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 12.43% complete (`##..................`), ~44.5 hours remaining.
+Epoch **1012** — 12.46% complete (`##..................`), ~44.4 hours remaining.
 
-Slot 53,715 of 432,000. Lifetime transaction count: 535,126,061,103.
+Slot 53,819 of 432,000. Lifetime transaction count: 535,126,259,799.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 53,715 of 432,000. Lifetime transaction count: 535,126,061,103.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4234 s |
-| Deviation from 0.4s target | 5.85% |
+| Measured slot time (`getBlockTime`) | 0.423 s |
+| Deviation from 0.4s target | 5.75% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.17 (up 0.21%) |
-| Market cap | $43.12B |
+| SOL price | $74.15 (up 0.21%) |
+| Market cap | $43.11B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.00%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$786.85K** |
+| **REV (total)** | **$784.27K** |
 | Network fees | $614.78K |
-| MEV tips (out-of-protocol) | $172.06K (21.87% of REV) |
-| Annualised REV run-rate | $287.20M |
+| MEV tips (out-of-protocol) | $169.48K (21.61% of REV) |
+| Annualised REV run-rate | $286.26M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $149.87K |
+| Jito MEV Tips | $147.29K |
 | Harmonic | $14.74K |
 | bloXroute | $7.45K |
 | Pyth Express Relay | $1 |
@@ -153,11 +153,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 2,200 |
+| Unique fee payers (sampled) | 1,903 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,981 |
-| Non-vote share of sample | 64.5% |
-| Signers per block | 733.3 |
+| Transactions in sample | 4,732 |
+| Non-vote share of sample | 56.72% |
+| Signers per block | 634.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 581,307,660 SOL of 631,630,483 total (92.03%).
+Circulating 581,307,659 SOL of 631,630,483 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -200,19 +200,6 @@ The same metric is published by multiple providers with different methodologies.
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
 | Active Addresses | 2026-08-03 | 25.3% | Allium: 656,890, Dune: 524,215 |
-
-## Announcements from key accounts
-
-- **@solana** — It’s time. @WSOP: Solana Showdown. Watch the first hand get dealt: https://t.co/5xBhujGp6o [(link)](https://x.com/solana/status/2084715067875225936)
-- **@solana** — $SPCX and $AMD are releasing their earnings today, both after the bell. Frontier Traders members can trade these and 21+ other equities markets for a $25,000 prize pool: https://t.co/Btu90ghHmU [(link)](https://x.com/solana/status/2084720893914194360)
-- **@solana** — Grim Reaper Mode https://t.co/FGWt9BBjrs [(link)](https://x.com/solana/status/2084719457369485416)
-- **@solana** — the @solana x @WSOP setup has been a really well put together production, cool to see crossover of two different worlds mesh so well we'll be playing at the same table the WSOP finalists are playing at in ~3 hours streamed here live on @X [(link)](https://x.com/solana/status/2084674922270663153)
-- **@solanalabs** — Three months in the Incubator &gt; three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply … [(link)](https://x.com/solanalabs/status/2046985139029479873)
-- **@solanalabs** — 1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open — join us in NYC for 3 months starting September 2026. 📅 Deadline: June 5. ✅ Rolling review — early applicants prioritized.… [(link)](https://x.com/solanalabs/status/2046973323620577341)
-- **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
-- **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)
-
-_Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused._
 
 ## Upcoming upgrades and protocol changes
 

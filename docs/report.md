@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 18:38:56 UTC by SolPulse.
+Generated 2026-08-04 18:54:33 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,29 +10,29 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,276.25 |
-| Total TPS (incl. votes) | 3,918.25 |
-| Vote share of transactions | 41.91% |
-| Average slot time | 0.4196 s |
-| Current slot | 437,227,282 |
-| Block height | 415,281,996 |
+| Non-vote TPS | 2,428.91 |
+| Total TPS (incl. votes) | 4,058.27 |
+| Vote share of transactions | 40.15% |
+| Average slot time | 0.4190 s |
+| Current slot | 437,229,504 |
+| Block height | 415,284,214 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 10.02% complete (`##..................`), ~43.2 hours remaining.
+Epoch **1012** — 10.53% complete (`##..................`), ~42.9 hours remaining.
 
-Slot 43,283 of 432,000. Lifetime transaction count: 535,108,978,383.
+Slot 45,504 of 432,000. Lifetime transaction count: 535,112,538,675.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 691 |
-| Delinquent validators | 8 (1.14%) |
-| Stake held by delinquents | 115,689 SOL (0.027%) |
-| Total active stake | 434,307,794 SOL |
+| Active validators | 692 |
+| Delinquent validators | 7 (1.00%) |
+| Stake held by delinquents | 1,826 SOL (0.000%) |
+| Total active stake | 434,421,657 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 263 |
@@ -43,14 +43,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,808,220 | 3.87% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,003,205 | 3.685% | 0% |
-| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,472,697 | 2.872% | 5% |
-| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,265,636 | 2.824% | 0% |
-| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,189,333 | 2.116% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,837,285 | 2.035% | 10% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,808,220 | 3.869% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,003,205 | 3.684% | 0% |
+| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,472,697 | 2.871% | 5% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,265,636 | 2.823% | 0% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,189,333 | 2.115% | 7% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,837,285 | 2.034% | 10% |
 | 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,157,244 | 1.878% | 0% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,899,432 | 1.819% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,899,432 | 1.818% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,479,271 | 1.722% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,653,304 | 1.532% | 0% |
 
@@ -58,8 +58,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.14 (up 0.27%) |
-| Market cap | $43.10B |
+| SOL price | $74.09 (up 0.15%) |
+| Market cap | $43.07B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.00%) |
@@ -118,11 +118,11 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,440 |
-| Blocks sampled | 3 |
-| Transactions in sample | 3,992 |
-| Non-vote share of sample | 48.77% |
-| Signers per block | 480.0 |
+| Unique fee payers (sampled) | 1,398 |
+| Blocks sampled | 2 |
+| Transactions in sample | 4,289 |
+| Non-vote share of sample | 68.57% |
+| Signers per block | 699.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -138,7 +138,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 581,307,914 SOL of 631,630,528 total (92.03%).
+Circulating 581,503,919 SOL of 631,630,518 total (92.06%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -165,6 +165,53 @@ The same metric is published by multiple providers with different methodologies.
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
 | Active Addresses | 2026-08-03 | 25.3% | Allium: 656,890, Dune: 524,215 |
+
+## Upcoming upgrades and protocol changes
+
+| Metric | Value |
+| --- | --- |
+| Improvement proposals tracked | 123 |
+| With an assigned feature gate | 25 |
+| Gates live on mainnet | 22 |
+| Gates awaiting mainnet | 3 |
+
+### Proposals by status
+
+| Status | Count |
+| --- | --- |
+| Review | 51 |
+| Activated | 25 |
+| Implemented | 14 |
+| Idea | 13 |
+| Accepted | 9 |
+| Withdrawn | 5 |
+| Draft | 3 |
+| Living | 2 |
+| Stagnant | 1 |
+
+**Cluster versions:** mainnet `4.1.0` · testnet `4.1.2` · devnet `4.1.2`
+
+_Clusters are running different versions, which is itself a rollout-in-progress signal._
+
+### Named proposals
+
+| SIMD | Title | Status | Feature gate |
+| --- | --- | --- | --- |
+| SIMD-0326 | Alpenglow | Review | no gate assigned yet |
+| SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
+| SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
+| SIMD-0384 | Alpenglow migration | Review | no gate assigned yet |
+| SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
+
+_A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
+
+### Gated features not yet live on mainnet
+
+| SIMD | Feature | Mainnet | Testnet | Devnet |
+| --- | --- | --- | --- | --- |
+| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
+| SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
+| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
 
 ## Ecosystem and community news
 
@@ -196,3 +243,4 @@ _Source: official Solana news feed (solana.com/news)._
 | TVL, DEX volume, stablecoins, fees, tokenized assets | DeFiLlama public API | No |
 | Daily active addresses, ecosystem growth (incl. Dune-computed) | solana.com/data | No |
 | Ecosystem and community news | solana.com/news RSS | No |
+| Upcoming upgrades | SIMD repo + Agave feature-set + live RPC | No |

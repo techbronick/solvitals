@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-04 18:37:39",
+  "captured_at": "2026-08-04 18:38:27",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
@@ -12,16 +12,16 @@
       "avg_slot_time_secs": 0.4196,
       "latest_sample_slot": 437227122,
       "samples_used": 5,
-      "block_height": 415281813,
-      "current_slot": 437227099
+      "block_height": 415281927,
+      "current_slot": 437227213
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 43099,
+      "slot_index": 43213,
       "slots_in_epoch": 432000,
-      "progress_pct": 9.98,
+      "progress_pct": 10.0,
       "eta_hours": 43.2,
-      "transaction_count": 535108678651
+      "transaction_count": 535108852144
     },
     "validators": {
       "active_count": 691,
@@ -97,32 +97,32 @@
       ]
     },
     "supply": {
-      "total_sol": 631630528.39,
-      "circulating_sol": 581307914.75,
+      "total_sol": 631630527.94,
+      "circulating_sol": 581307914.29,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1685,
+      "unique_signers_sampled": 1668,
       "blocks_sampled": 3,
-      "transactions_sampled": 5157,
-      "non_vote_transactions_sampled": 3157,
-      "signers_per_block": 561.7,
-      "non_vote_share_pct": 61.22,
+      "transactions_sampled": 4435,
+      "non_vote_transactions_sampled": 2385,
+      "signers_per_block": 556.0,
+      "non_vote_share_pct": 53.78,
       "sampled_slots": [
-        437226917,
-        437225417,
-        437223917
+        437227030,
+        437225530,
+        437224030
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.2,
-      "change_24h_pct": 0.38,
-      "market_cap_usd": 43133563397.50016,
-      "volume_24h_usd": 1365522502.7888541,
+      "usd": 74.14,
+      "change_24h_pct": 0.27,
+      "market_cap_usd": 43097795639.357864,
+      "volume_24h_usd": 1367386194.6607466,
       "source": "coingecko"
     },
     "tvl": {
@@ -2019,5 +2019,13 @@
     "count": 8,
     "source": "solana.com/news"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "tps_non_vote",
+      "severity": "warning",
+      "message": "tps_non_vote is 2.2 sigma above its 11-point mean",
+      "value": 2580.38,
+      "expected": 2207.4691
+    }
+  ]
 }

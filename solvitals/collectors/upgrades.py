@@ -20,6 +20,7 @@ exists on devnet and not mainnet is a change in flight.
 import io
 import re
 import tarfile
+import zlib
 from typing import Any, Dict, List, Optional
 
 from .. import config
@@ -109,6 +110,11 @@ def _activation_status(pubkeys: List[str], rpc_url: str) -> Dict[str, Optional[D
             timeout=45.0,
         )
         values = ((body.get("result") or {}).get("value")) or []
+        if len(values) != len(batch):
+            # A short response means we did not get an answer for the tail.
+            # Recording those as "absent" would invent facts, so they are left
+            # out of the map entirely and render as unknown.
+            batch = batch[: len(values)]
         for pubkey, account in zip(batch, values):
             if not account:
                 out[pubkey] = None  # gate does not exist on this cluster
@@ -137,24 +143,39 @@ def _collect() -> Dict[str, Any]:
     except (FetchError,) + DATA_ERRORS:
         gate_names = {}
 
-    gated = [p for p in proposals if p.get("feature_gate") in gate_names]
+    # A feature field may be prose ("fill in once accepted") rather than a key.
+    def _is_pubkey(v):
+        return bool(v) and re.fullmatch(r"[1-9A-HJ-NP-Za-km-z]{32,44}", v or "") is not None
+
+    gated = [p for p in proposals if _is_pubkey(p.get("feature_gate"))]
     pubkeys = [p["feature_gate"] for p in gated]
 
     # Query every configured cluster: a gate live on devnet but absent on
     # mainnet is precisely "an upcoming upgrade".
     clusters: Dict[str, Dict[str, Any]] = {}
+    unreachable: List[str] = []
     for name, url in config.CLUSTER_RPCS.items():
         try:
             clusters[name] = _activation_status(pubkeys, url)
-        except (FetchError,) + DATA_ERRORS as exc:
-            clusters[name] = {}
+        except (FetchError,) + DATA_ERRORS:
+            # Critical: do NOT fall back to an empty map. An empty map makes
+            # every gate look like "not created", turning a failed query into a
+            # confident and wrong factual claim.
+            unreachable.append(name)
 
     tracked = []
     for p in gated:
         gate = p["feature_gate"]
         per_cluster = {}
-        for cluster, statuses in clusters.items():
-            state = statuses.get(gate)
+        for cluster in config.CLUSTER_RPCS:
+            if cluster in unreachable:
+                per_cluster[cluster] = "unknown (RPC unreachable)"
+                continue
+            statuses = clusters.get(cluster, {})
+            if gate not in statuses:
+                per_cluster[cluster] = "unknown (not queried)"
+                continue
+            state = statuses[gate]
             if state is None:
                 per_cluster[cluster] = "not created"
             elif state.get("activated"):
@@ -177,14 +198,11 @@ def _collect() -> Dict[str, Any]:
         p for p in proposals
         if p["simd"] in HIGHLIGHT or "alpenglow" in (p.get("title") or "").lower()
     ]
+    tracked_by_simd = {t["simd"]: t for t in tracked}
     for h in highlights:
-        gate = h.get("feature_gate")
-        h["clusters"] = (
-            {c: ("not created" if s.get(gate) is None
-                 else "active" if s.get(gate, {}).get("activated") else "pending")
-             for c, s in clusters.items()}
-            if gate and gate in gate_names else {}
-        )
+        match = tracked_by_simd.get(h["simd"])
+        h["clusters"] = match["clusters"] if match else {}
+        h["gate_assigned"] = _is_pubkey(h.get("feature_gate"))
 
     # Live cluster versions: divergence between clusters is itself a rollout signal.
     versions = {}
@@ -207,6 +225,7 @@ def _collect() -> Dict[str, Any]:
         "active_on_mainnet": active_mainnet,
         "pending_on_mainnet": len(tracked) - active_mainnet,
         "cluster_versions": versions,
+        "clusters_unreachable": unreachable,
         "highlights": highlights,
         "recently_pending": [
             t for t in tracked
@@ -223,5 +242,7 @@ def collect() -> Dict[str, Any]:
         return {"error": str(exc)}
     except DATA_ERRORS as exc:
         return {"error": "unexpected upgrade data: {}: {}".format(type(exc).__name__, exc)}
-    except tarfile.TarError as exc:
-        return {"error": "could not read SIMD archive: {}".format(exc)}
+    except (tarfile.TarError, EOFError, zlib.error) as exc:
+        # A truncated or bit-flipped gzip raises EOFError/zlib.error from deep
+        # inside the decompressor, not TarError.
+        return {"error": "could not read SIMD archive: {}: {}".format(type(exc).__name__, exc)}

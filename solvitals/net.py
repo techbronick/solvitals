@@ -121,7 +121,10 @@ def request_bytes(url: str, timeout: float = 60.0, retries: int = 3, backoff: fl
 
 def request_bytes_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> bytes:
     """Binary equivalent of request_text_cached, with the same stale-fallback."""
-    os.makedirs(cache_dir, exist_ok=True)
+    try:
+        os.makedirs(cache_dir, exist_ok=True)
+    except OSError:
+        pass
     path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".bin")
 
     if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:
@@ -142,24 +145,30 @@ def request_bytes_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **k
                 pass
         raise
 
-    tmp = path + ".tmp"
-    with open(tmp, "wb") as handle:
-        handle.write(body)
-    os.replace(tmp, path)
+    try:
+        tmp = path + ".tmp"
+        with open(tmp, "wb") as handle:
+            handle.write(body)
+        os.replace(tmp, path)
+    except OSError:
+        pass
     return body
 
 
 def request_text_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> str:
     """Text equivalent of request_json_cached, with the same stale-fallback."""
-    os.makedirs(cache_dir, exist_ok=True)
+    try:
+        os.makedirs(cache_dir, exist_ok=True)
+    except OSError:
+        pass
     path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".txt")
 
     if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:
         try:
             with open(path, "r", encoding="utf-8") as handle:
                 return handle.read()
-        except OSError:
-            pass
+        except (OSError, UnicodeDecodeError):
+            pass  # corrupt cache falls through to a refetch
 
     try:
         body = request_text(url, **kwargs)
@@ -168,14 +177,17 @@ def request_text_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kw
             try:
                 with open(path, "r", encoding="utf-8") as handle:
                     return handle.read()
-            except OSError:
+            except (OSError, UnicodeDecodeError):
                 pass
         raise
 
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as handle:
-        handle.write(body)
-    os.replace(tmp, path)
+    try:
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as handle:
+            handle.write(body)
+        os.replace(tmp, path)
+    except OSError:
+        pass  # an unwritable cache must not cost us the fetched data
     return body
 
 
@@ -189,7 +201,10 @@ def request_json_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kw
     A stale-but-present cache is also the fallback when the fetch fails, which
     keeps the section populated through a transient outage.
     """
-    os.makedirs(cache_dir, exist_ok=True)
+    try:
+        os.makedirs(cache_dir, exist_ok=True)
+    except OSError:
+        pass
     path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".json")
 
     if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:

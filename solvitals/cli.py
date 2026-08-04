@@ -56,14 +56,28 @@ def run_once(output_dir: str, quiet: bool = False) -> Dict[str, Any]:
     store.append(snapshot)
     history = history + [current]
 
-    outputs = {
-        "report.json": json.dumps(snapshot, indent=2),
-        "report.md": md_render.render(snapshot, findings),
-        "index.html": html_render.render(snapshot, findings, history),
-    }
-    for name, body in outputs.items():
+    # JSON first and unconditionally: it is the machine-readable record and the
+    # least likely to fail. The two rendered formats are then attempted
+    # independently, so a formatting bug in one cannot cost the others -- the
+    # previous shape built all three before writing any, meaning a single
+    # render exception produced no output at all.
+    render_errors = []
+    outputs = [("report.json", lambda: json.dumps(snapshot, indent=2))]
+    outputs.append(("report.md", lambda: md_render.render(snapshot, findings)))
+    outputs.append(("index.html", lambda: html_render.render(snapshot, findings, history)))
+
+    for name, build in outputs:
+        try:
+            body = build()
+        except Exception as exc:  # a renderer must never take the run down
+            render_errors.append("{}: {}: {}".format(name, type(exc).__name__, exc))
+            continue
         with open(os.path.join(output_dir, name), "w", encoding="utf-8") as handle:
             handle.write(body)
+
+    if render_errors and not quiet:
+        for err in render_errors:
+            print("    RENDER FAILED  {}".format(err), file=sys.stderr)
 
     if not quiet:
         errors = _count_errors(snapshot)

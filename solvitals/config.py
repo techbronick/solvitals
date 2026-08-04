@@ -64,6 +64,7 @@ X_ACCOUNTS = [h for h in os.environ.get(
     "SOLVITALS_X_ACCOUNTS", "solana,solanalabs,SuperteamDAO").split(",") if h]
 SOCIAL_CACHE_TTL = int(os.environ.get("SOLVITALS_SOCIAL_TTL", "3600"))
 SOCIAL_POSTS_PER_ACCOUNT = int(os.environ.get("SOLVITALS_SOCIAL_POSTS", "4"))
+SOCIAL_TOTAL_POSTS = int(os.environ.get("SOLVITALS_SOCIAL_TOTAL", "8"))
 
 # Upcoming upgrades. The tarball avoids GitHub's unauthenticated API rate limit,
 # which shared CI runner IPs routinely exhaust.

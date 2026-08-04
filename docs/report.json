@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "captured_at": "2026-08-04 19:53:14",
   "generator": "solvitals/1.0.0",
   "chain": {
@@ -6,6 +7,15 @@
       "measured_slot_time_secs": 0.423,
       "target_slot_time_secs": 0.4,
       "deviation_from_target_pct": 5.75,
+=======
+  "captured_at": "2026-08-04 19:55:57",
+  "generator": "solvitals/1.0.0",
+  "chain": {
+    "slot_timing": {
+      "measured_slot_time_secs": 0.4232,
+      "target_slot_time_secs": 0.4,
+      "deviation_from_target_pct": 5.8,
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,6 +23,7 @@
       "status": "ok"
     },
     "performance": {
+<<<<<<< HEAD
       "tps_total": 4113.52,
       "tps_non_vote": 2485.42,
       "vote_share_pct": 39.58,
@@ -30,6 +41,25 @@
       "eta_hours": 44.4,
       "eta_basis_slot_secs": 0.423,
       "transaction_count": 535126259799
+=======
+      "tps_total": 4162.1,
+      "tps_non_vote": 2527.56,
+      "vote_share_pct": 39.27,
+      "avg_slot_time_secs": 0.4184,
+      "latest_sample_slot": 437238136,
+      "samples_used": 5,
+      "block_height": 415292910,
+      "current_slot": 437238210
+    },
+    "epoch": {
+      "epoch": 1012,
+      "slot_index": 54211,
+      "slots_in_epoch": 432000,
+      "progress_pct": 12.55,
+      "eta_hours": 44.4,
+      "eta_basis_slot_secs": 0.4232,
+      "transaction_count": 535126877023
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
     },
     "validators": {
       "active_count": 692,
@@ -105,9 +135,15 @@
       ]
     },
     "supply": {
+<<<<<<< HEAD
       "total_sol": 631630482.52,
       "circulating_sol": 581307659.19,
       "non_circulating_sol": 50322823.33,
+=======
+      "total_sol": 631630480.9,
+      "circulating_sol": 581307652.54,
+      "non_circulating_sol": 50322828.36,
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
       "circulating_pct": 92.03
     },
     "transaction_fees": {
@@ -126,6 +162,7 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
+<<<<<<< HEAD
       "latest_signature": "3vyYz66bx87VVEHqQCbCpB9r6BnrBjAqTGwAcGqLVLgBtmJdK8RYTrFyw6jn7FWXiMpBU2rtX1sLKWPF2kTgrCT2",
       "latest_block_time": 1785873192,
       "errors_in_recent": 4
@@ -141,16 +178,40 @@
         437237641,
         437236141,
         437234641
+=======
+      "latest_signature": "j4xRjyks3vDXpiN7edJbfbk8QXKJRDaDM4Txujg8utqxCYKuxxyE4k9xgusSjWNTRVXnotFxoUv6H1re72tKfK2",
+      "latest_block_time": 1785873354,
+      "errors_in_recent": 0
+    },
+    "activity": {
+      "unique_signers_sampled": 1680,
+      "blocks_sampled": 3,
+      "transactions_sampled": 4456,
+      "non_vote_transactions_sampled": 2419,
+      "signers_per_block": 560.0,
+      "non_vote_share_pct": 54.29,
+      "sampled_slots": [
+        437238031,
+        437236531,
+        437235031
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
+<<<<<<< HEAD
       "usd": 74.15,
       "change_24h_pct": 0.21,
       "market_cap_usd": 43108185376.73973,
       "volume_24h_usd": 1352913887.3831913,
+=======
+      "usd": 74.14,
+      "change_24h_pct": 0.17,
+      "market_cap_usd": 43095287058.334335,
+      "volume_24h_usd": 1353854576.7787,
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
       "source": "coingecko"
     },
     "tvl": {
@@ -2082,14 +2143,15 @@
       "Living": 2,
       "Stagnant": 1
     },
-    "gated_count": 25,
+    "gated_count": 33,
     "active_on_mainnet": 22,
-    "pending_on_mainnet": 3,
+    "pending_on_mainnet": 11,
     "cluster_versions": {
       "mainnet": "4.1.0",
       "testnet": "4.1.2",
       "devnet": "4.1.2"
     },
+    "clusters_unreachable": [],
     "highlights": [
       {
         "simd": "0326",
@@ -2098,7 +2160,8 @@
         "category": "Standard",
         "created": "2025-07-25",
         "feature_gate": "(fill in with feature key and github tracking issues once accepted)",
-        "clusters": {}
+        "clusters": {},
+        "gate_assigned": false
       },
       {
         "simd": "0337",
@@ -2107,7 +2170,8 @@
         "category": "Standard",
         "created": "2025-08-13",
         "feature_gate": "TBD",
-        "clusters": {}
+        "clusters": {},
+        "gate_assigned": false
       },
       {
         "simd": "0357",
@@ -2116,7 +2180,8 @@
         "category": "Standard",
         "created": "2025-09-11",
         "feature_gate": "(fill in with feature key and github tracking issues once accepted)",
-        "clusters": {}
+        "clusters": {},
+        "gate_assigned": false
       },
       {
         "simd": "0384",
@@ -2125,7 +2190,12 @@
         "category": "Standard",
         "created": "2025-10-21",
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
-        "clusters": {}
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        },
+        "gate_assigned": true
       },
       {
         "simd": "0525",
@@ -2134,10 +2204,59 @@
         "category": "Standard",
         "created": "2026-05-01",
         "feature_gate": null,
-        "clusters": {}
+        "clusters": {},
+        "gate_assigned": false
       }
     ],
     "recently_pending": [
+      {
+        "simd": "0163",
+        "title": "Lift the CPI caller restriction",
+        "status": "Withdrawn",
+        "feature_name": null,
+        "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0178",
+        "title": "SBPF Static Syscalls",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0189",
+        "title": "SBPF stricter ELF headers",
+        "status": "Idea",
+        "feature_name": null,
+        "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0219",
+        "title": "Stricter ABI and Runtime Constraints",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
       {
         "simd": "0268",
         "title": "Raise CPI Nesting Limit",
@@ -2163,6 +2282,54 @@
         }
       },
       {
+        "simd": "0384",
+        "title": "Alpenglow migration",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0387",
+        "title": "BLS Pubkey management in vote account",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0406",
+        "title": "Maximum instruction accounts",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0430",
+        "title": "Relax Program Buffer Constraints",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
         "simd": "0529",
         "title": "Big Integer ModExp Syscall",
         "status": "Idea",
@@ -2178,7 +2345,11 @@
     "source": "solana-improvement-documents + agave feature-set + live RPC"
   },
   "social": {
+<<<<<<< HEAD
     "error": "no accounts reachable this run: solana, solanalabs, SuperteamDAO"
+=======
+    "error": "no usable posts; accounts failed: solana, solanalabs, SuperteamDAO"
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
   },
   "anomalies": []
 }

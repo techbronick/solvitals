@@ -72,7 +72,8 @@ def _series(rows: List[Dict[str, Any]], provider: str, limit: int = config.ECOSY
         (r for r in rows if r.get("providerName") == provider),
         key=lambda r: r.get("date") or "",
     )
-    return [{"date": p["date"], "value": p["value"]} for p in points[-limit:]]
+    return [{"date": p.get("date"), "value": p.get("value")} for p in points[-limit:]
+            if p.get("value") is not None]
 
 
 def _collect() -> Dict[str, Any]:

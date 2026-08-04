@@ -12,8 +12,9 @@ machine-readable JSON.
 It also tracks protocol upgrades through to **live feature-gate activation**
 across mainnet, testnet and devnet — so it reports what is actually switched on,
 not just what has been proposed. Two things that surfaced: mainnet is running a
-different Agave version from testnet and devnet, and Alpenglow has no feature
-gate on any cluster, meaning it is not switchable anywhere yet.
+different Agave version from testnet and devnet, and the Alpenglow migration's
+feature gate exists but its account has not been created on any cluster — so it
+is assigned, and not switchable anywhere yet.
 
 **Zero dependencies.** Python 3.7+ standard library only — no `pip install`, no
 API keys, no accounts. Clone and run.
@@ -100,10 +101,9 @@ secondary endpoints before giving up.
   a single RWA total hides what's happening in tokenized equities specifically.
   Equity issuers (xStocks, Ondo Global Markets) are separated and reported both
   in absolute terms and as a share.
-- **Fees are labelled the fee component of REV, not REV.** Real Economic Value
-  is conventionally fees plus out-of-protocol MEV tips. Tip data needs a keyed
-  source, so what's collected is fees, and the report says so rather than
-  overstating the number.
+- **REV is network fees plus MEV tips, and neither is the number DeFiLlama
+  hands you first.** See the REV section below — the obvious field is 10x too
+  big.
 
 ### On active addresses — two measurements, deliberately
 
@@ -158,9 +158,10 @@ devnet but absent on mainnet is a change in flight.
 
 Two live findings at time of writing: mainnet runs a different Agave version
 from testnet and devnet, which is itself a rollout signal; and Alpenglow
-(SIMD-0326, plus three related proposals) has no feature gate assigned on any
-cluster yet, so it is not switchable anywhere — a more precise statement than
-"upcoming".
+(SIMD-0326) has no feature key assigned yet, while the Alpenglow *migration*
+proposal (SIMD-0384) does carry one — `a1penGLz8…` — whose account has not been
+created on mainnet, testnet or devnet. So it is assigned but not switchable
+anywhere: a more precise statement than "upcoming".
 
 Note the bounty writes "SIMD-525"; the repository zero-pads to four digits, so
 the proposal is SIMD-0525 ("Reduce Slot Times", Draft).
@@ -338,9 +339,11 @@ solvitals/
   anomalies.py               threshold + z-score detection
   collectors/
     rpc.py                   on-chain metrics via Solana JSON-RPC
-    market.py                price, TVL, DEX volume, stablecoins, fees, RWA
+    market.py                price, TVL, DEX volume, stablecoins, REV, RWA
     ecosystem.py             solana.com/data (incl. Dune-computed metrics)
     news.py                  official Solana news RSS
+    social.py                announcements from key X accounts
+    upgrades.py              SIMDs + Agave feature gates + live activation
   render/
     markdown.py              Markdown report
     html.py                  self-contained interactive dashboard

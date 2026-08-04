@@ -43,30 +43,33 @@ share — each with 30 days of history and per-metric provider attribution.
 
 **News (solana.com/news RSS):** latest ecosystem and community announcements.
 
-**Upcoming upgrades (SIMD repo + Agave + live RPC):** all 123 improvement
-proposals with status breakdown, the 25 carrying feature gates, and live
-activation state for each gate across mainnet, testnet and devnet — plus
+**Upcoming upgrades (SIMD repo + Agave + live RPC):** every improvement proposal with a status breakdown, those carrying an assigned
+feature key, and live activation state for each gate across mainnet, testnet and
+devnet — plus
 per-cluster Agave versions.
 
 **Address activity (Solana JSON-RPC):** live unique signers sampled from recent
 blocks, signers per block, non-vote transaction share.
 
-## Three judgement calls worth explaining
+## Four judgement calls worth explaining
 
 **Non-vote TPS leads, not raw TPS.** Solana counts consensus votes as
 transactions, so raw TPS runs well above the figure people mean -- about 1.8x
 at the time of writing. Both are reported; the honest one is the headline.
 
 **Tokenized equities are separated from RWA.** The RWA category is dominated by
-treasuries and private credit — BlackRock BUIDL alone is $676M — so a single RWA
+treasuries and private credit — BlackRock BUIDL alone is a third of it — so a single RWA
 total buries what's happening in equities. Equity issuers are identified,
 tagged in the dashboard, and reported both absolutely and as a share.
 
-**Fees are labelled the fee component of REV, not REV.** REV conventionally
-includes out-of-protocol MEV tips. I checked whether Jito's API could supply
-them keylessly: it responds without a key, but ignores the epoch parameter and
-returns zeroed reward fields, so the data isn't retrievable. Rather than present
-fees as full REV, the report says exactly what it measured.
+**REV is computed properly, and the obvious number is wrong.** DeFiLlama's
+chain-level total for Solana is the sum across all 283 protocols on it — DEXes,
+launchpads, wallets, bots — not network fees. Reporting that as REV overstates
+it by more than 10x. Network fees are the single `Chain`-category row (~$615K);
+out-of-protocol MEV tips are the `MEV` rows (~$172K, mostly Jito). REV is their
+sum, ~$787K/day, and both arrive in a payload already being downloaded. Protocol
+fees are reported separately as `app_fees`, because they answer a different
+question.
 
 **Two active-address numbers, not one.** Daily active addresses come from
 solana.com's feed, deduplicated across the full day by the provider .
@@ -98,10 +101,10 @@ reports what is genuinely switched on where, and keeps working as new proposals
 land.
 
 It surfaces two things a static list wouldn't. Mainnet is running a different
-Agave version from testnet and devnet, which is a rollout in progress. And
-Alpenglow has **no feature gate assigned on any cluster** — it isn't merely
-pending, it hasn't reached the point of being switchable at all. That's a more
-precise and more useful statement than "coming soon".
+Agave version from testnet and devnet, which is a rollout in progress. And the Alpenglow picture is more precise than "coming soon": SIMD-0326 has no
+feature key assigned yet, while the migration proposal SIMD-0384 carries
+`a1penGLz8…` whose account does not exist on mainnet, testnet or devnet. Gate
+assigned, account uncreated, switchable nowhere.
 
 (Small note: the brief writes SIMD-525; the repo zero-pads, so it's SIMD-0525,
 "Reduce Slot Times", currently Draft.)

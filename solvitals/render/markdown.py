@@ -8,6 +8,10 @@ SEVERITY_ICON = {"critical": "[CRITICAL]", "warning": "[WARNING]", "info": "[INF
 def _fmt_usd(value: Any, decimals: int = 0) -> str:
     if value is None:
         return "n/a"
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        return str(value)
     for unit, size in (("T", 1e12), ("B", 1e9), ("M", 1e6), ("K", 1e3)):
         if abs(value) >= size:
             return "${:,.2f}{}".format(value / size, unit)
@@ -17,7 +21,10 @@ def _fmt_usd(value: Any, decimals: int = 0) -> str:
 def _fmt_num(value: Any, decimals: int = 0) -> str:
     if value is None:
         return "n/a"
-    return "{:,.{}f}".format(value, decimals)
+    try:
+        return "{:,.{}f}".format(float(value), decimals)
+    except (TypeError, ValueError):
+        return str(value)
 
 
 def _fmt_delta(value: Any) -> str:
@@ -349,7 +356,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
             if key not in m:
                 continue
             row = m[key]
-            unit = row.get("unit") or ""
+            unit = str(row.get("unit") or "")
             value = row.get("value")
             shown = _fmt_usd(value) if unit.lower() in ("usd", "dollars") else _fmt_num(value, 2 if unit == "Percent" else 0)
             lines.append(

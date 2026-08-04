@@ -15,8 +15,10 @@ would be keyword counting dressed up as analysis, and the honest deliverable is
 the announcements themselves.
 """
 
+import html as html_lib
 import json
 import re
+from email.utils import parsedate_to_datetime
 from typing import Any, Dict, List
 
 from .. import config
@@ -48,8 +50,19 @@ def _extract(payload: Any) -> List[Dict[str, Any]]:
 
 
 def _clean(text: str, limit: int = 240) -> str:
-    text = WS_RE.sub(" ", text or "").strip()
+    # Timeline text arrives HTML-escaped (&gt;, &amp;). Unescape once here so the
+    # renderers escape exactly once, instead of showing literal "&amp;gt;".
+    text = html_lib.unescape(text or "")
+    text = WS_RE.sub(" ", text).strip()
     return text[: limit - 1] + "…" if len(text) > limit else text
+
+
+def _timestamp(created_at: Any) -> float:
+    """Parse X's RFC-2822-ish timestamp for sorting. Unparseable sorts oldest."""
+    try:
+        return parsedate_to_datetime(created_at).timestamp()
+    except Exception:
+        return 0.0
 
 
 def _for_handle(handle: str) -> List[Dict[str, Any]]:
@@ -73,6 +86,7 @@ def _for_handle(handle: str) -> List[Dict[str, Any]]:
                 "handle": handle,
                 "text": _clean(text),
                 "created_at": tweet.get("created_at"),
+                "_sort": _timestamp(tweet.get("created_at")),
                 "url": "https://x.com/{}/status/{}".format(handle, tweet.get("id_str") or ""),
             }
         )
@@ -92,11 +106,17 @@ def _collect() -> Dict[str, Any]:
             failed.append({"handle": handle, "reason": str(exc)[:120]})
 
     if not posts:
-        return {
-            "error": "no accounts reachable this run: {}".format(
-                ", ".join(f["handle"] for f in failed) or "none configured"
-            )
-        }
+        if failed:
+            return {"error": "no usable posts; accounts failed: {}".format(
+                ", ".join(f["handle"] for f in failed))}
+        return {"error": "accounts reachable but returned no usable announcements"}
+
+    # Newest first across all accounts -- otherwise a stale post from one
+    # account outranks today's from another.
+    posts.sort(key=lambda p: p.get("_sort") or 0, reverse=True)
+    for p in posts:
+        p.pop("_sort", None)
+    posts = posts[: config.SOCIAL_TOTAL_POSTS]
 
     return {
         "posts": posts,
@@ -119,3 +139,5 @@ def collect() -> Dict[str, Any]:
         return {"error": str(exc)}
     except DATA_ERRORS as exc:
         return {"error": "unexpected timeline shape: {}: {}".format(type(exc).__name__, exc)}
+    except RecursionError:
+        return {"error": "timeline payload nested too deeply to parse"}

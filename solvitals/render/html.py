@@ -197,6 +197,10 @@ def _safe_url(url: Any) -> str:
 def _fmt_usd(value: Any, decimals: int = 0) -> str:
     if value is None:
         return "n/a"
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        return _esc(value)
     for unit, size in (("T", 1e12), ("B", 1e9), ("M", 1e6), ("K", 1e3)):
         if abs(value) >= size:
             return "${:,.2f}{}".format(value / size, unit)
@@ -204,9 +208,17 @@ def _fmt_usd(value: Any, decimals: int = 0) -> str:
 
 
 def _fmt_num(value: Any, decimals: int = 0) -> str:
+    """Format a number, tolerating whatever an upstream actually sent.
+
+    Third-party values are not guaranteed numeric; a string here used to raise
+    ValueError out of the renderer and take the whole run down.
+    """
     if value is None:
         return "n/a"
-    return "{:,.{}f}".format(value, decimals)
+    try:
+        return "{:,.{}f}".format(float(value), decimals)
+    except (TypeError, ValueError):
+        return _esc(value)
 
 
 def _sparkline(series: List[Dict[str, Any]], key: str, fmt, provenance: str = "local") -> str:
@@ -226,7 +238,11 @@ def _sparkline(series: List[Dict[str, Any]], key: str, fmt, provenance: str = "l
     points = [(row.get("captured_at"), row.get(key)) for row in series if row.get(key) is not None]
     if len(points) < 2:
         return '<div class="no-history">Trend appears after 2+ readings</div>'
-    if len({v for _, v in points}) == 1:
+    try:
+        distinct = len({v for _, v in points})
+    except TypeError:
+        distinct = 2  # unhashable values: treat as varying rather than crashing
+    if distinct == 1:
         return '<div class="no-history">No movement across {} readings</div>'.format(len(points))
 
     w, h, pad = 240.0, 34.0, 4.0
@@ -444,7 +460,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             _tile(
                 "Daily active addresses",
                 _fmt_num(daa.get("value")),
-                "{} · {}".format(daa.get("date"), daa.get("provider")),
+                "{} · {}".format(_esc(daa.get("date")), _esc(daa.get("provider"))),
                 _sparkline_from_series(daa.get("history") or [], lambda v: "{:,.0f}".format(v)),
             ),
         )
@@ -454,7 +470,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             _tile(
                 "Daily fee payers",
                 _fmt_num(fee_payers.get("value")),
-                "{} · {}".format(fee_payers.get("date"), fee_payers.get("provider")),
+                "{} · {}".format(_esc(fee_payers.get("date")), _esc(fee_payers.get("provider"))),
                 _sparkline_from_series(fee_payers.get("history") or [], lambda v: "{:,.0f}".format(v)),
             )
         )
@@ -531,7 +547,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         for name, section in (snapshot.get(group) or {}).items():
             if isinstance(section, dict) and "error" in section:
                 degraded.append((name, section["error"]))
-    for group in ("ecosystem", "news"):
+    for group in ("ecosystem", "news", "upgrades", "social"):
         section = snapshot.get(group) or {}
         if "error" in section:
             degraded.append((group, section["error"]))

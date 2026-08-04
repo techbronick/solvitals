@@ -1,6 +1,10 @@
 # Solana Ecosystem Report
 
+<<<<<<< HEAD
 Generated 2026-08-04 19:53:14 UTC by SolVitals.
+=======
+Generated 2026-08-04 19:55:57 UTC by SolVitals.
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 ## Alerts
 
@@ -10,20 +14,35 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
+<<<<<<< HEAD
 | Non-vote TPS | 2,485.42 |
 | Total TPS (incl. votes) | 4,113.52 |
 | Vote share of transactions | 39.58% |
 | Average slot time | 0.4208 s |
 | Current slot | 437,237,818 |
 | Block height | 415,292,518 |
+=======
+| Non-vote TPS | 2,527.56 |
+| Total TPS (incl. votes) | 4,162.10 |
+| Vote share of transactions | 39.27% |
+| Average slot time | 0.4184 s |
+| Current slot | 437,238,210 |
+| Block height | 415,292,910 |
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
+<<<<<<< HEAD
 Epoch **1012** — 12.46% complete (`##..................`), ~44.4 hours remaining.
 
 Slot 53,819 of 432,000. Lifetime transaction count: 535,126,259,799.
+=======
+Epoch **1012** — 12.55% complete (`###.................`), ~44.4 hours remaining.
+
+Slot 54,211 of 432,000. Lifetime transaction count: 535,126,877,023.
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 ## Transaction costs and slot timing
 
@@ -34,14 +53,23 @@ Slot 53,819 of 432,000. Lifetime transaction count: 535,126,259,799.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
+<<<<<<< HEAD
 | Measured slot time (`getBlockTime`) | 0.423 s |
 | Deviation from 0.4s target | 5.75% |
+=======
+| Measured slot time (`getBlockTime`) | 0.4232 s |
+| Deviation from 0.4s target | 5.8% |
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
+<<<<<<< HEAD
 `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+=======
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 ## Validators
 
@@ -76,8 +104,13 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
+<<<<<<< HEAD
 | SOL price | $74.15 (up 0.21%) |
 | Market cap | $43.11B |
+=======
+| SOL price | $74.14 (up 0.17%) |
+| Market cap | $43.10B |
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.00%) |
@@ -153,11 +186,19 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
+<<<<<<< HEAD
 | Unique fee payers (sampled) | 1,903 |
 | Blocks sampled | 3 |
 | Transactions in sample | 4,732 |
 | Non-vote share of sample | 56.72% |
 | Signers per block | 634.3 |
+=======
+| Unique fee payers (sampled) | 1,680 |
+| Blocks sampled | 3 |
+| Transactions in sample | 4,456 |
+| Non-vote share of sample | 54.29% |
+| Signers per block | 560.0 |
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +214,11 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
+<<<<<<< HEAD
 Circulating 581,307,659 SOL of 631,630,483 total (92.03%).
+=======
+Circulating 581,307,653 SOL of 631,630,481 total (92.03%).
+>>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 ## Ecosystem growth (solana.com/data)
 
@@ -206,9 +251,9 @@ The same metric is published by multiple providers with different methodologies.
 | Metric | Value |
 | --- | --- |
 | Improvement proposals tracked | 123 |
-| With an assigned feature gate | 25 |
+| With an assigned feature gate | 33 |
 | Gates live on mainnet | 22 |
-| Gates awaiting mainnet | 3 |
+| Gates awaiting mainnet | 11 |
 
 ### Proposals by status
 
@@ -235,7 +280,7 @@ _Clusters are running different versions, which is itself a rollout-in-progress 
 | SIMD-0326 | Alpenglow | Review | no gate assigned yet |
 | SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
 | SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
-| SIMD-0384 | Alpenglow migration | Review | no gate assigned yet |
+| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: not created, devnet: not created |
 | SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
 
 _A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
@@ -244,8 +289,16 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 | SIMD | Feature | Mainnet | Testnet | Devnet |
 | --- | --- | --- | --- | --- |
+| SIMD-0163 | `None` | not created | not created | not created |
+| SIMD-0178 | `None` | not created | not created | not created |
+| SIMD-0189 | `None` | not created | not created | not created |
+| SIMD-0219 | `None` | not created | not created | not created |
 | SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
 | SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
+| SIMD-0384 | `None` | not created | not created | not created |
+| SIMD-0387 | `None` | not created | not created | not created |
+| SIMD-0406 | `None` | not created | not created | not created |
+| SIMD-0430 | `None` | not created | not created | not created |
 | SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
 
 ## Ecosystem and community news

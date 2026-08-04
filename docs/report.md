@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 18:54:33 UTC by SolVitals.
+Generated 2026-08-04 18:54:59 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,428.91 |
-| Total TPS (incl. votes) | 4,058.27 |
-| Vote share of transactions | 40.15% |
-| Average slot time | 0.4190 s |
-| Current slot | 437,229,504 |
-| Block height | 415,284,214 |
+| Non-vote TPS | 2,321.83 |
+| Total TPS (incl. votes) | 3,939.68 |
+| Vote share of transactions | 41.07% |
+| Average slot time | 0.4213 s |
+| Current slot | 437,229,562 |
+| Block height | 415,284,273 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 10.53% complete (`##..................`), ~42.9 hours remaining.
+Epoch **1012** — 10.55% complete (`##..................`), ~42.9 hours remaining.
 
-Slot 45,504 of 432,000. Lifetime transaction count: 535,112,538,675.
+Slot 45,562 of 432,000. Lifetime transaction count: 535,112,632,295.
 
 ## Validators
 
@@ -89,7 +89,7 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.79B |
-| Tokenized equities | $397.61M (22.25% of RWA) |
+| Tokenized equities | $397.61M (22.26% of RWA) |
 | RWA protocols on Solana | 24 |
 
 ### Tokenized equity issuers
@@ -97,7 +97,7 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | Protocol | Value | 24h |
 | --- | --- | --- |
 | xStocks | $371.03M | 2.111% |
-| Ondo Global Markets | $26.58M | 2.675% |
+| Ondo Global Markets | $26.58M | 2.748% |
 
 ### Largest tokenized-asset protocols
 
@@ -105,9 +105,9 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | --- | --- | --- |
 | BlackRock BUIDL | $675.72M | RWA |
 | xStocks | $371.03M | RWA |
-| OnRe | $250.09M | RWA |
-| Ondo Yield Assets | $178.74M | RWA |
-| Hastra | $173.22M | RWA |
+| OnRe | $250.08M | RWA |
+| Ondo Yield Assets | $178.26M | RWA |
+| Hastra | $173.24M | RWA |
 | Ondo Global Markets | $26.58M | RWA |
 | Theo Network thBill | $26.34M | RWA |
 | Apollo Diversified Credit Securitize Fund | $24.84M | RWA |
@@ -118,11 +118,11 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,398 |
-| Blocks sampled | 2 |
-| Transactions in sample | 4,289 |
-| Non-vote share of sample | 68.57% |
-| Signers per block | 699.0 |
+| Unique fee payers (sampled) | 1,450 |
+| Blocks sampled | 3 |
+| Transactions in sample | 5,152 |
+| Non-vote share of sample | 60.48% |
+| Signers per block | 483.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -138,7 +138,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 581,503,919 SOL of 631,630,518 total (92.06%).
+Circulating 581,307,875 SOL of 631,630,518 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 

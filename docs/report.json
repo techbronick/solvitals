@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 17:41:51",
+  "captured_at": "2026-08-04 17:42:18",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3784.1,
-      "tps_non_vote": 2157.0,
-      "vote_share_pct": 43.0,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 437219147,
+      "tps_total": 3761.91,
+      "tps_non_vote": 2129.31,
+      "vote_share_pct": 43.4,
+      "avg_slot_time_secs": 0.4202,
+      "latest_sample_slot": 437219291,
       "samples_used": 5,
-      "block_height": 415273932,
-      "current_slot": 437219206
+      "block_height": 415273992,
+      "current_slot": 437219265
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 35208,
+      "slot_index": 35265,
       "slots_in_epoch": 432000,
-      "progress_pct": 8.15,
+      "progress_pct": 8.16,
       "eta_hours": 44.1,
-      "transaction_count": 535095363499
+      "transaction_count": 535095449307
     },
     "validators": {
       "active_count": 692,
@@ -97,22 +97,22 @@
       ]
     },
     "supply": {
-      "total_sol": 631630563.1,
-      "circulating_sol": 581307949.45,
+      "total_sol": 631630562.88,
+      "circulating_sol": 581307949.23,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1737,
+      "unique_signers_sampled": 1468,
       "blocks_sampled": 3,
-      "transactions_sampled": 4801,
-      "non_vote_transactions_sampled": 2718,
-      "signers_per_block": 579.0,
-      "non_vote_share_pct": 56.61,
+      "transactions_sampled": 5036,
+      "non_vote_transactions_sampled": 2992,
+      "signers_per_block": 489.3,
+      "non_vote_share_pct": 59.41,
       "sampled_slots": [
-        437219026,
-        437217526,
-        437216026
+        437219081,
+        437217581,
+        437216081
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -126,9 +126,9 @@
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4780416444.92,
+      "tvl_usd": 4778228384.7,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.39,
+      "share_of_all_chains_pct": 6.38,
       "source": "defillama"
     },
     "dex_volume": {
@@ -209,15 +209,15 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1783639286.21,
+      "total_rwa_usd": 1785898390.32,
       "protocol_count": 24,
-      "equities_usd": 394180289.03,
-      "equities_share_pct": 22.1,
+      "equities_usd": 396737263.24,
+      "equities_share_pct": 22.21,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 367649854.9,
-          "change_24h_pct": 1.369,
+          "tvl_usd": 370206829.11,
+          "change_24h_pct": 1.698,
           "category": "RWA",
           "is_equity": true
         },
@@ -239,8 +239,8 @@
         },
         {
           "name": "xStocks",
-          "tvl_usd": 367649854.9,
-          "change_24h_pct": 1.369,
+          "tvl_usd": 370206829.11,
+          "change_24h_pct": 1.698,
           "category": "RWA",
           "is_equity": true
         },
@@ -253,15 +253,15 @@
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 179139856.12,
-          "change_24h_pct": 0.242,
+          "tvl_usd": 178740072.65,
+          "change_24h_pct": 0.083,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 173157454.39,
-          "change_24h_pct": -0.753,
+          "tvl_usd": 173222001.4,
+          "change_24h_pct": -0.078,
           "category": "RWA",
           "is_equity": false
         },
@@ -281,15 +281,15 @@
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 24835918.93,
-          "change_24h_pct": -0.03,
+          "tvl_usd": 24839059.42,
+          "change_24h_pct": -0.027,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Nest Credit",
-          "tvl_usd": 22285535.72,
-          "change_24h_pct": -1.818,
+          "tvl_usd": 22290612.58,
+          "change_24h_pct": -1.498,
           "category": "RWA",
           "is_equity": false
         },

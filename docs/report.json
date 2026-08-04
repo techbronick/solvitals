@@ -1,27 +1,35 @@
 {
-  "captured_at": "2026-08-04 19:46:06",
+  "captured_at": "2026-08-04 19:51:24",
   "generator": "solvitals/1.0.0",
   "chain": {
+    "slot_timing": {
+      "measured_slot_time_secs": 0.4238,
+      "target_slot_time_secs": 0.4,
+      "deviation_from_target_pct": 5.95,
+      "slots_spanned": 5000,
+      "method": "getBlockTime"
+    },
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4103.78,
-      "tps_non_vote": 2484.11,
-      "vote_share_pct": 39.47,
-      "avg_slot_time_secs": 0.4219,
-      "latest_sample_slot": 437236762,
+      "tps_total": 4157.46,
+      "tps_non_vote": 2536.75,
+      "vote_share_pct": 38.98,
+      "avg_slot_time_secs": 0.4231,
+      "latest_sample_slot": 437237574,
       "samples_used": 5,
-      "block_height": 415291501,
-      "current_slot": 437236801
+      "block_height": 415292252,
+      "current_slot": 437237551
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 52802,
+      "slot_index": 53551,
       "slots_in_epoch": 432000,
-      "progress_pct": 12.22,
-      "eta_hours": 42.1,
-      "transaction_count": 535124467060
+      "progress_pct": 12.4,
+      "eta_hours": 44.6,
+      "eta_basis_slot_secs": 0.4238,
+      "transaction_count": 535125782373
     },
     "validators": {
       "active_count": 692,
@@ -97,32 +105,52 @@
       ]
     },
     "supply": {
-      "total_sol": 631630487.21,
-      "circulating_sol": 581307679.44,
-      "non_circulating_sol": 50322807.77,
+      "total_sol": 631630483.78,
+      "circulating_sol": 581307668.24,
+      "non_circulating_sol": 50322815.54,
       "circulating_pct": 92.03
     },
+    "transaction_fees": {
+      "median_priority_fee_microlamports": 0,
+      "p75_priority_fee_microlamports": 0,
+      "p95_priority_fee_microlamports": 0,
+      "max_priority_fee_microlamports": 0,
+      "zero_fee_slot_share_pct": 100.0,
+      "slots_sampled": 150,
+      "base_fee_lamports_per_signature": 5000,
+      "median_total_fee_sol": 5e-06,
+      "note": "Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature."
+    },
+    "watched_account": {
+      "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "label": "SPL Token program",
+      "balance_sol": 0.1928,
+      "recent_signature_count": 10,
+      "latest_signature": "5fawo1UC8X1GYwHgxGV5DyASSGVVc28M9qDf2APaDxaPS8ytXWYAtg5jJybC2dqMTUyoPLCcRhFcuHV44yN78PNN",
+      "latest_block_time": 1785873079,
+      "errors_in_recent": 4
+    },
     "activity": {
-      "unique_signers_sampled": 1674,
+      "unique_signers_sampled": 1693,
       "blocks_sampled": 3,
-      "transactions_sampled": 4876,
-      "non_vote_transactions_sampled": 2816,
-      "signers_per_block": 558.0,
-      "non_vote_share_pct": 57.75,
+      "transactions_sampled": 4875,
+      "non_vote_transactions_sampled": 2845,
+      "signers_per_block": 564.3,
+      "non_vote_share_pct": 58.36,
       "sampled_slots": [
-        437236621,
-        437235121,
-        437233621
+        437237370,
+        437235870,
+        437234370
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.2,
-      "change_24h_pct": 0.28,
-      "market_cap_usd": 43138345671.00359,
-      "volume_24h_usd": 1353848130.0266743,
+      "usd": 74.19,
+      "change_24h_pct": 0.26,
+      "market_cap_usd": 43123500721.90407,
+      "volume_24h_usd": 1349001306.9439776,
       "source": "coingecko"
     },
     "tvl": {
@@ -2150,7 +2178,65 @@
     "source": "solana-improvement-documents + agave feature-set + live RPC"
   },
   "social": {
-    "error": "no accounts reachable this run: solana, solanalabs, SuperteamDAO"
+    "posts": [
+      {
+        "handle": "solana",
+        "text": "It\u2019s time. @WSOP: Solana Showdown. Watch the first hand get dealt: https://t.co/5xBhujGp6o",
+        "created_at": "Tue Aug 04 18:56:18 +0000 2026",
+        "url": "https://x.com/solana/status/2084715067875225936"
+      },
+      {
+        "handle": "solana",
+        "text": "$SPCX and $AMD are releasing their earnings today, both after the bell. Frontier Traders members can trade these and 21+ other equities markets for a $25,000 prize pool: https://t.co/Btu90ghHmU",
+        "created_at": "Tue Aug 04 19:19:28 +0000 2026",
+        "url": "https://x.com/solana/status/2084720893914194360"
+      },
+      {
+        "handle": "solana",
+        "text": "Grim Reaper Mode https://t.co/FGWt9BBjrs",
+        "created_at": "Tue Aug 04 19:13:45 +0000 2026",
+        "url": "https://x.com/solana/status/2084719457369485416"
+      },
+      {
+        "handle": "solana",
+        "text": "the @solana x @WSOP setup has been a really well put together production, cool to see crossover of two different worlds mesh so well we'll be playing at the same table the WSOP finalists are playing at in ~3 hours streamed here live on @X",
+        "created_at": "Tue Aug 04 16:16:47 +0000 2026",
+        "url": "https://x.com/solana/status/2084674922270663153"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Three months in the Incubator &gt; three years figuring it out alone \u2013 3 months of hands-on mentorship from Solana OGs IRL in NYC \u2013 Weekly workshops, office hours, and 1:1s \u2013 Demo day in front of the ecosystem's top VCs and builders Apply \u2026",
+        "created_at": "Wed Apr 22 16:11:02 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046985139029479873"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open \u2014 join us in NYC for 3 months starting September 2026. \ud83d\udcc5 Deadline: June 5. \u2705 Rolling review \u2014 early applicants prioritized.\u2026",
+        "created_at": "Wed Apr 22 15:24:05 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046973323620577341"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Crack open the map with @lootgo_official \ud83c\udff4\u200d\u2620\ufe0f Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: \u21b3 Loot Goblin: Open up 5 loot boxes \u21b3 Boost Seeker: Buy + deploy 1 SKR Booster on the ma\u2026",
+        "created_at": "Tue Aug 04 17:03:38 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2084686710630400035"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found \u2600\ufe0f Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek \ud83e\uddf5 https://t.co/U4TiVcEmkG",
+        "created_at": "Thu Jul 30 16:08:04 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2082860788369477800"
+      }
+    ],
+    "accounts_reached": [
+      "solana",
+      "solanalabs",
+      "SuperteamDAO"
+    ],
+    "accounts_failed": [],
+    "count": 8,
+    "source": "x.com syndication timeline (keyless)",
+    "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
   "anomalies": []
 }

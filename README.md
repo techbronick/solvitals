@@ -2,6 +2,8 @@
 
 **→ [Live dashboard](https://techbronick.github.io/solvitals/)** — refreshes itself every 15 minutes.
 
+[![SolVitals dashboard](docs/assets/dashboard.png)](https://techbronick.github.io/solvitals/)
+
 An auto-updating report on the state of the Solana ecosystem. One command
 collects on-chain and economic data, checks it for anomalies, and writes three
 outputs: an interactive HTML dashboard, a human-readable Markdown report, and
@@ -283,6 +285,34 @@ Markdown report — if something is wrong, it should be the first thing you read
   screen-reader and colourblind readers.
 - Fully self-contained: no CDN, no fonts, no network calls at view time. Open
   `index.html` from disk or serve it statically.
+
+## Known limits
+
+Stated plainly, because a dashboard that hides its own uncertainty is worse than
+one that admits it.
+
+- **Priority-fee samples can read zero.** `getRecentPrioritizationFees` returns
+  the per-slot *minimum*, and when the network is uncongested that is legitimately
+  0 across all 150 slots. The report shows the percentile spread and the share of
+  slots needing no fee, so a zero median is interpretable rather than suspicious.
+- **Local history starts empty.** Sparklines fed by this instance's own polling
+  need several runs before they mean anything, and the z-score detector needs 8
+  points. Tiles say so rather than drawing a line through one value. Metrics
+  sourced from solana.com arrive with the provider's own daily series and are
+  labelled separately, so they show a real trend immediately.
+- **Provider figures disagree.** Allium and Dune currently differ by roughly 25%
+  on daily active addresses. Neither is wrong; they count differently. The report
+  flags the gap instead of silently picking one.
+- **X/Twitter ingestion is best-effort.** The keyless syndication endpoint
+  rate-limits roughly one request in five. A miss degrades that section only.
+- **No sentiment scoring.** Without a model it would be keyword counting
+  presented as analysis.
+- **Tokenized assets are reported as value outstanding, not traded volume.**
+  DeFiLlama exposes TVL per protocol; the brief asked for volumes. The
+  distinction is stated rather than blurred.
+- **The public mainnet RPC rate-limits** under a 15-minute cadence from shared CI
+  IPs. Collectors degrade per-section and retry; a private endpoint is advisable
+  for anything heavier.
 
 ## Tests
 

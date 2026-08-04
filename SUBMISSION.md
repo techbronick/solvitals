@@ -183,6 +183,20 @@ I deliberately do **not** attempt sentiment scoring. Without a model, that would
 be keyword counting presented as analysis, and the announcements themselves are
 the honest deliverable.
 
+## Known limits
+
+- Priority-fee medians can legitimately read zero when the network is
+  uncongested; percentile spread and zero-fee slot share are shown so it is
+  interpretable.
+- Locally-polled sparklines need several runs to mean anything; tiles say so
+  rather than drawing a line through one value, and provider-sourced series are
+  visually distinguished because they carry real daily history.
+- Providers disagree (Allium vs Dune, ~25% on active addresses). The gap is
+  flagged, not resolved by fiat.
+- X ingestion is best-effort — the keyless endpoint rate-limits ~1 in 5.
+- Tokenized assets are value outstanding, not traded volume; the brief said
+  volumes and DeFiLlama exposes TVL.
+
 ## Honest notes for the sponsor
 
 A few things I ran into that are worth knowing regardless of who wins:

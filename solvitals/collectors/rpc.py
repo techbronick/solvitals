@@ -72,19 +72,22 @@ def network_performance() -> Dict[str, Any]:
     }
 
 
-def epoch() -> Dict[str, Any]:
+def epoch(measured_slot_secs: Optional[float] = None) -> Dict[str, Any]:
     info = _call("getEpochInfo")
     slot_index = info.get("slotIndex", 0)
     slots_in_epoch = info.get("slotsInEpoch", 0) or 1
     progress = 100 * slot_index / slots_in_epoch
-    # ~400ms target slot time gives a usable estimate of time remaining.
-    remaining_secs = (slots_in_epoch - slot_index) * 0.4
+    # Prefer the measured slot time over the 0.4s target -- the chain routinely
+    # runs a few percent slower, which compounds over a 432,000-slot epoch.
+    slot_secs = measured_slot_secs or 0.4
+    remaining_secs = (slots_in_epoch - slot_index) * slot_secs
     return {
         "epoch": info.get("epoch"),
         "slot_index": slot_index,
         "slots_in_epoch": slots_in_epoch,
         "progress_pct": round(progress, 2),
         "eta_hours": round(remaining_secs / 3600, 1),
+        "eta_basis_slot_secs": slot_secs,
         "transaction_count": info.get("transactionCount"),
     }
 
@@ -143,6 +146,95 @@ def validators() -> Dict[str, Any]:
         "median_commission": sorted(commissions)[len(commissions) // 2] if commissions else None,
         "zero_commission_count": sum(1 for c in commissions if c == 0),
         "top_validators": top,
+    }
+
+
+def transaction_fees() -> Dict[str, Any]:
+    """Median and percentile priority fees, plus the base fee.
+
+    `getRecentPrioritizationFees` returns the per-slot minimum priority fee
+    observed over roughly the last 150 slots. The median of that is the number
+    that answers "what does it currently cost to get included", which the
+    aggregate USD fee totals cannot.
+    """
+    samples = _call("getRecentPrioritizationFees", [[]])
+    fees = sorted(
+        s.get("prioritizationFee", 0) for s in (samples or []) if s.get("prioritizationFee") is not None
+    )
+    if not fees:
+        return {"error": "no prioritization fee samples returned"}
+
+    def pct(p: float) -> int:
+        return fees[min(len(fees) - 1, int(len(fees) * p))]
+
+    median = fees[len(fees) // 2]
+    nonzero = [f for f in fees if f > 0]
+    return {
+        "median_priority_fee_microlamports": median,
+        "p75_priority_fee_microlamports": pct(0.75),
+        "p95_priority_fee_microlamports": pct(0.95),
+        "max_priority_fee_microlamports": fees[-1],
+        "zero_fee_slot_share_pct": round(100 * (len(fees) - len(nonzero)) / len(fees), 1),
+        "slots_sampled": len(fees),
+        # Base fee is a protocol constant: 5000 lamports per signature.
+        "base_fee_lamports_per_signature": 5000,
+        "median_total_fee_sol": round(
+            (5000 + median * 200_000 / 1_000_000) / LAMPORTS_PER_SOL, 9
+        ),
+        "note": (
+            "Priority fees are per compute unit in micro-lamports. Median total "
+            "assumes a 200k CU transaction with one signature."
+        ),
+    }
+
+
+def watched_account() -> Dict[str, Any]:
+    """Balance and recent activity for a notable on-chain account.
+
+    Demonstrates the account-level read path (`getBalance`,
+    `getSignaturesForAddress`) and gives the report a concrete, checkable
+    reference point rather than only aggregates.
+    """
+    address = config.WATCHED_ACCOUNT
+    balance = _call("getBalance", [address])
+    lamports = (balance or {}).get("value")
+    signatures = _call("getSignaturesForAddress", [address, {"limit": 10}]) or []
+
+    slot_times = []
+    for sig in signatures[:3]:
+        if sig.get("blockTime"):
+            slot_times.append(sig["blockTime"])
+
+    return {
+        "address": address,
+        "label": config.WATCHED_ACCOUNT_LABEL,
+        "balance_sol": round(lamports / LAMPORTS_PER_SOL, 4) if lamports is not None else None,
+        "recent_signature_count": len(signatures),
+        "latest_signature": signatures[0].get("signature") if signatures else None,
+        "latest_block_time": slot_times[0] if slot_times else None,
+        "errors_in_recent": sum(1 for s in signatures if s.get("err")),
+    }
+
+
+def slot_timing() -> Dict[str, Any]:
+    """Measured wall-clock slot time via `getBlockTime`.
+
+    Epoch ETA elsewhere assumes the 0.4s target. This measures what the chain
+    is actually doing, which is what should drive the estimate.
+    """
+    tip = _call("getSlot")
+    span = config.SLOT_TIMING_SPAN
+    t_now = _call("getBlockTime", [tip - 100])
+    t_then = _call("getBlockTime", [tip - 100 - span])
+    if t_now is None or t_then is None:
+        return {"error": "block times unavailable for sampled slots"}
+    measured = (t_now - t_then) / float(span)
+    return {
+        "measured_slot_time_secs": round(measured, 4),
+        "target_slot_time_secs": 0.4,
+        "deviation_from_target_pct": round(100 * (measured - 0.4) / 0.4, 2),
+        "slots_spanned": span,
+        "method": "getBlockTime",
     }
 
 
@@ -235,12 +327,23 @@ def collect() -> Dict[str, Any]:
     the whole run -- schema drift is at least as likely as an outage.
     """
     out = {}
+    # Slot timing runs first so the epoch ETA can use the measured value.
+    measured = None
+    try:
+        timing = slot_timing()
+        out["slot_timing"] = timing
+        measured = timing.get("measured_slot_time_secs")
+    except (FetchError,) + DATA_ERRORS as exc:
+        out["slot_timing"] = {"error": str(exc)}
+
     for name, fn in (
         ("health", health),
         ("performance", network_performance),
-        ("epoch", epoch),
+        ("epoch", lambda: epoch(measured)),
         ("validators", validators),
         ("supply", supply),
+        ("transaction_fees", transaction_fees),
+        ("watched_account", watched_account),
         ("activity", active_addresses),
     ):
         try:

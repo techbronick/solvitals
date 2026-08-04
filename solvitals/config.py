@@ -50,6 +50,14 @@ SOLANA_NEWS_URL = "https://solana.com/news/rss.xml"
 NEWS_CACHE_TTL = int(os.environ.get("SOLVITALS_NEWS_TTL", "3600"))
 NEWS_ITEMS = int(os.environ.get("SOLVITALS_NEWS_ITEMS", "8"))
 
+# A notable account to report balance and recent activity for. Defaults to the
+# SPL Token program, which is always busy and always exists.
+WATCHED_ACCOUNT = os.environ.get(
+    "SOLVITALS_WATCHED_ACCOUNT", "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA")
+WATCHED_ACCOUNT_LABEL = os.environ.get("SOLVITALS_WATCHED_ACCOUNT_LABEL", "SPL Token program")
+# Slots spanned when measuring real wall-clock slot time.
+SLOT_TIMING_SPAN = int(os.environ.get("SOLVITALS_SLOT_TIMING_SPAN", "5000"))
+
 # X/Twitter announcements via the public syndication endpoint (keyless).
 X_TIMELINE_URL = "https://syndication.twitter.com/srv/timeline-profile/screen-name/{handle}"
 X_ACCOUNTS = [h for h in os.environ.get(

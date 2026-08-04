@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 output/
+!docs/assets/
 !output/.gitkeep
 .DS_Store
 .venv/

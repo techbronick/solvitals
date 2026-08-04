@@ -104,6 +104,37 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
         )
     lines.append("")
 
+    tf = chain.get("transaction_fees", {})
+    st = chain.get("slot_timing", {})
+    wa = chain.get("watched_account", {})
+    if "error" not in tf or "error" not in st:
+        lines.extend(["## Transaction costs and slot timing", "", "| Metric | Value |", "| --- | --- |"])
+        if "error" not in tf:
+            lines.extend([
+                "| Median priority fee | {} micro-lamports/CU |".format(_fmt_num(tf.get("median_priority_fee_microlamports"))),
+                "| 75th percentile | {} |".format(_fmt_num(tf.get("p75_priority_fee_microlamports"))),
+                "| 95th percentile | {} |".format(_fmt_num(tf.get("p95_priority_fee_microlamports"))),
+                "| Slots needing no priority fee | {}% |".format(tf.get("zero_fee_slot_share_pct")),
+                "| Median total fee (200k CU, 1 sig) | {} SOL |".format(tf.get("median_total_fee_sol")),
+            ])
+        if "error" not in st:
+            lines.extend([
+                "| Measured slot time (`getBlockTime`) | {} s |".format(st.get("measured_slot_time_secs")),
+                "| Deviation from 0.4s target | {}% |".format(st.get("deviation_from_target_pct")),
+            ])
+        lines.append("")
+        if "error" not in tf:
+            lines.append("_{}_".format(tf.get("note", "")))
+            lines.append("")
+    if "error" not in wa:
+        lines.extend([
+            "### Watched account", "",
+            "`{}` ({}) — balance {} SOL, {} recent signatures, {} with errors.".format(
+                wa.get("address"), wa.get("label"), wa.get("balance_sol"),
+                wa.get("recent_signature_count"), wa.get("errors_in_recent")),
+            "",
+        ])
+
     val = chain.get("validators", {})
     lines.append("## Validators")
     lines.append("")

@@ -316,6 +316,8 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     fees = market.get("fees", {})
     rwa = market.get("tokenized_assets", {})
     act = chain.get("activity", {})
+    tf = chain.get("transaction_fees", {})
+    st = chain.get("slot_timing", {})
     eco = snapshot.get("ecosystem") or {}
     eco_metrics = eco.get("metrics") or {}
     news = snapshot.get("news") or {}
@@ -380,6 +382,16 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             str(val.get("nakamoto_coefficient") or "n/a"),
             "validators to halt consensus",
             _sparkline(history, "nakamoto_coefficient", lambda v: "{:.0f}".format(v)),
+        ),
+        _tile(
+            "Median priority fee",
+            _fmt_num(tf.get("median_priority_fee_microlamports")),
+            "micro-lamports/CU · {}% of slots need none".format(tf.get("zero_fee_slot_share_pct")),
+        ),
+        _tile(
+            "Measured slot time",
+            "{} s".format(_fmt_num(st.get("measured_slot_time_secs"), 4)),
+            "via getBlockTime · {}% vs 0.4s target".format(st.get("deviation_from_target_pct")),
         ),
         _tile(
             "Avg slot time",
@@ -641,7 +653,10 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("Non-vote TPS", _fmt_num(perf.get("tps_non_vote"), 2)),
         ("Total TPS (incl. votes)", _fmt_num(perf.get("tps_total"), 2)),
         ("Vote share of transactions", "{}%".format(_fmt_num(perf.get("vote_share_pct"), 2))),
-        ("Average slot time", "{} s".format(_fmt_num(perf.get("avg_slot_time_secs"), 4))),
+        ("Average slot time (perf samples)", "{} s".format(_fmt_num(perf.get("avg_slot_time_secs"), 4))),
+        ("Measured slot time (getBlockTime)", "{} s".format(_fmt_num(st.get("measured_slot_time_secs"), 4))),
+        ("Median priority fee (micro-lamports/CU)", _fmt_num(tf.get("median_priority_fee_microlamports"))),
+        ("Slots needing no priority fee", "{}%".format(tf.get("zero_fee_slot_share_pct")) if tf.get("zero_fee_slot_share_pct") is not None else "n/a"),
         ("Current slot", _fmt_num(perf.get("current_slot"))),
         ("Block height", _fmt_num(perf.get("block_height"))),
         ("Active validators", _fmt_num(val.get("active_count"))),

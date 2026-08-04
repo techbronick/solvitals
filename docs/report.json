@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 18:38:27",
+  "captured_at": "2026-08-04 18:38:56",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4218.29,
-      "tps_non_vote": 2580.38,
-      "vote_share_pct": 38.83,
+      "tps_total": 3918.25,
+      "tps_non_vote": 2276.25,
+      "vote_share_pct": 41.91,
       "avg_slot_time_secs": 0.4196,
-      "latest_sample_slot": 437227122,
+      "latest_sample_slot": 437227265,
       "samples_used": 5,
-      "block_height": 415281927,
-      "current_slot": 437227213
+      "block_height": 415281996,
+      "current_slot": 437227282
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 43213,
+      "slot_index": 43283,
       "slots_in_epoch": 432000,
-      "progress_pct": 10.0,
+      "progress_pct": 10.02,
       "eta_hours": 43.2,
-      "transaction_count": 535108852144
+      "transaction_count": 535108978383
     },
     "validators": {
       "active_count": 691,
@@ -97,22 +97,22 @@
       ]
     },
     "supply": {
-      "total_sol": 631630527.94,
-      "circulating_sol": 581307914.29,
+      "total_sol": 631630527.62,
+      "circulating_sol": 581307913.97,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1668,
+      "unique_signers_sampled": 1440,
       "blocks_sampled": 3,
-      "transactions_sampled": 4435,
-      "non_vote_transactions_sampled": 2385,
-      "signers_per_block": 556.0,
-      "non_vote_share_pct": 53.78,
+      "transactions_sampled": 3992,
+      "non_vote_transactions_sampled": 1947,
+      "signers_per_block": 480.0,
+      "non_vote_share_pct": 48.77,
       "sampled_slots": [
-        437227030,
-        437225530,
-        437224030
+        437227101,
+        437225601,
+        437224101
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -2019,13 +2019,5 @@
     "count": 8,
     "source": "solana.com/news"
   },
-  "anomalies": [
-    {
-      "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.2 sigma above its 11-point mean",
-      "value": 2580.38,
-      "expected": 2207.4691
-    }
-  ]
+  "anomalies": []
 }

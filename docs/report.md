@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 18:38:27 UTC by SolPulse.
+Generated 2026-08-04 18:38:56 UTC by SolPulse.
 
 ## Alerts
 
-- [WARNING] **tps_non_vote** — tps_non_vote is 2.2 sigma above its 11-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,580.38 |
-| Total TPS (incl. votes) | 4,218.29 |
-| Vote share of transactions | 38.83% |
+| Non-vote TPS | 2,276.25 |
+| Total TPS (incl. votes) | 3,918.25 |
+| Vote share of transactions | 41.91% |
 | Average slot time | 0.4196 s |
-| Current slot | 437,227,213 |
-| Block height | 415,281,927 |
+| Current slot | 437,227,282 |
+| Block height | 415,281,996 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 10.0% complete (`##..................`), ~43.2 hours remaining.
+Epoch **1012** — 10.02% complete (`##..................`), ~43.2 hours remaining.
 
-Slot 43,213 of 432,000. Lifetime transaction count: 535,108,852,144.
+Slot 43,283 of 432,000. Lifetime transaction count: 535,108,978,383.
 
 ## Validators
 
@@ -118,11 +118,11 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,668 |
+| Unique fee payers (sampled) | 1,440 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,435 |
-| Non-vote share of sample | 53.78% |
-| Signers per block | 556.0 |
+| Transactions in sample | 3,992 |
+| Non-vote share of sample | 48.77% |
+| Signers per block | 480.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 

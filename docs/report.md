@@ -1,30 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 18:31:17 UTC by SolPulse.
+Generated 2026-08-04 18:31:48 UTC by SolPulse.
 
 ## Alerts
 
 - [WARNING] **nakamoto_coefficient** — nakamoto_coefficient is 18 (below 20)
-- [WARNING] **price_usd** — price_usd is 2.3 sigma above its 8-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,255.05 |
-| Total TPS (incl. votes) | 3,855.73 |
-| Vote share of transactions | 41.51% |
+| Non-vote TPS | 2,213.04 |
+| Total TPS (incl. votes) | 3,813.53 |
+| Vote share of transactions | 41.97% |
 | Average slot time | 0.4292 s |
-| Current slot | 437,226,192 |
-| Block height | 415,280,907 |
+| Current slot | 437,226,266 |
+| Block height | 415,280,981 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 9.77% complete (`##..................`), ~43.3 hours remaining.
+Epoch **1012** — 9.78% complete (`##..................`), ~43.3 hours remaining.
 
-Slot 42,193 of 432,000. Lifetime transaction count: 535,107,063,496.
+Slot 42,266 of 432,000. Lifetime transaction count: 535,107,197,484.
 
 ## Validators
 
@@ -90,14 +89,14 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.79B |
-| Tokenized equities | $396.79M (22.22% of RWA) |
+| Tokenized equities | $397.61M (22.25% of RWA) |
 | RWA protocols on Solana | 24 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $370.21M | 1.698% |
+| xStocks | $371.03M | 2.111% |
 | Ondo Global Markets | $26.58M | 2.675% |
 
 ### Largest tokenized-asset protocols
@@ -105,7 +104,7 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $675.72M | RWA |
-| xStocks | $370.21M | RWA |
+| xStocks | $371.03M | RWA |
 | OnRe | $250.09M | RWA |
 | Ondo Yield Assets | $178.74M | RWA |
 | Hastra | $173.22M | RWA |
@@ -119,11 +118,11 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,716 |
+| Unique fee payers (sampled) | 2,151 |
 | Blocks sampled | 3 |
-| Transactions in sample | 6,509 |
-| Non-vote share of sample | 68.61% |
-| Signers per block | 572.0 |
+| Transactions in sample | 5,690 |
+| Non-vote share of sample | 63.41% |
+| Signers per block | 717.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -139,7 +138,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 581,307,919 SOL of 631,630,533 total (92.03%).
+Circulating 581,307,919 SOL of 631,630,532 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 

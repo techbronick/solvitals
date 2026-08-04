@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 18:31:17",
+  "captured_at": "2026-08-04 18:31:48",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3855.73,
-      "tps_non_vote": 2255.05,
-      "vote_share_pct": 41.51,
+      "tps_total": 3813.53,
+      "tps_non_vote": 2213.04,
+      "vote_share_pct": 41.97,
       "avg_slot_time_secs": 0.4292,
-      "latest_sample_slot": 437226091,
+      "latest_sample_slot": 437226220,
       "samples_used": 5,
-      "block_height": 415280907,
-      "current_slot": 437226192
+      "block_height": 415280981,
+      "current_slot": 437226266
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 42193,
+      "slot_index": 42266,
       "slots_in_epoch": 432000,
-      "progress_pct": 9.77,
+      "progress_pct": 9.78,
       "eta_hours": 43.3,
-      "transaction_count": 535107063496
+      "transaction_count": 535107197484
     },
     "validators": {
       "active_count": 692,
@@ -97,22 +97,22 @@
       ]
     },
     "supply": {
-      "total_sol": 631630532.59,
-      "circulating_sol": 581307918.94,
+      "total_sol": 631630532.25,
+      "circulating_sol": 581307918.6,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1716,
+      "unique_signers_sampled": 2151,
       "blocks_sampled": 3,
-      "transactions_sampled": 6509,
-      "non_vote_transactions_sampled": 4466,
-      "signers_per_block": 572.0,
-      "non_vote_share_pct": 68.61,
+      "transactions_sampled": 5690,
+      "non_vote_transactions_sampled": 3608,
+      "signers_per_block": 717.0,
+      "non_vote_share_pct": 63.41,
       "sampled_slots": [
-        437226012,
-        437224512,
-        437223012
+        437226080,
+        437224580,
+        437223080
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -209,15 +209,15 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1785948130.73,
+      "total_rwa_usd": 1786779100.58,
       "protocol_count": 24,
-      "equities_usd": 396787003.65,
-      "equities_share_pct": 22.22,
+      "equities_usd": 397605823.61,
+      "equities_share_pct": 22.25,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 370206829.11,
-          "change_24h_pct": 1.698,
+          "tvl_usd": 371025649.07,
+          "change_24h_pct": 2.111,
           "category": "RWA",
           "is_equity": true
         },
@@ -239,8 +239,8 @@
         },
         {
           "name": "xStocks",
-          "tvl_usd": 370206829.11,
-          "change_24h_pct": 1.698,
+          "tvl_usd": 371025649.07,
+          "change_24h_pct": 2.111,
           "category": "RWA",
           "is_equity": true
         },
@@ -4896,13 +4896,6 @@
       "message": "nakamoto_coefficient is 18 (below 20)",
       "value": 18,
       "expected": "> 20"
-    },
-    {
-      "metric": "price_usd",
-      "severity": "warning",
-      "message": "price_usd is 2.3 sigma above its 8-point mean",
-      "value": 74.25,
-      "expected": 74.0375
     }
   ]
 }

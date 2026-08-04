@@ -300,8 +300,8 @@ output format touches one file.
 
 ## Sample output
 
-**Live dashboard: https://techbronick.github.io/solvitals/** — refreshed every 15
-minutes by GitHub Actions.
+**Live dashboard: [techbronick.github.io/solvitals](https://techbronick.github.io/solvitals/)** —
+refreshed every 15 minutes by GitHub Actions.
 
 Committed samples of all three output formats:
 

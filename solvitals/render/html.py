@@ -85,6 +85,9 @@ button.toggle:hover { color: var(--ink); }
 .spark .hit { fill: transparent; cursor: crosshair; }
 .spark .cross { stroke: var(--axis); stroke-width: 1; display: none; }
 .spark.on .cross { display: block; }
+.spark-src { font-size: 10.5px; color: var(--muted); margin-top: 2px; letter-spacing: 0.02em; }
+.spark-provider .line { stroke-dasharray: none; }
+.spark-local .line { stroke-dasharray: 3 2; }
 .no-history { font-size: 12px; color: var(--muted); margin-top: 9px;
               padding: 8px 0 2px; border-top: 1px solid var(--grid); }
 
@@ -206,15 +209,25 @@ def _fmt_num(value: Any, decimals: int = 0) -> str:
     return "{:,.{}f}".format(value, decimals)
 
 
-def _sparkline(series: List[Dict[str, Any]], key: str, fmt) -> str:
+def _sparkline(series: List[Dict[str, Any]], key: str, fmt, provenance: str = "local") -> str:
     """Single-series sparkline. Width 100% via viewBox; 34px tall.
 
-    Fewer than two points is not a trend, so the tile says so rather than
-    drawing a misleading flat line.
+    Draws nothing when there is no trend to show. Two cases count as "no
+    trend": fewer than two readings, and every reading identical. The second
+    matters more than it sounds -- slow-moving metrics repeat their value for
+    hours, and a flat line sitting under a "+11.9% 24h" delta reads as a broken
+    chart. Saying "no movement recorded" is both honest and more informative.
+
+    `provenance` separates a provider's own daily series from this instance's
+    polling history. They are different kinds of evidence and should not look
+    identical: one is a month of real daily data, the other may be an hour of
+    self-polling.
     """
     points = [(row.get("captured_at"), row.get(key)) for row in series if row.get(key) is not None]
     if len(points) < 2:
-        return '<div class="no-history">Trend appears after 2+ runs</div>'
+        return '<div class="no-history">Trend appears after 2+ readings</div>'
+    if len({v for _, v in points}) == 1:
+        return '<div class="no-history">No movement across {} readings</div>'.format(len(points))
 
     w, h, pad = 240.0, 34.0, 4.0
     values = [v for _, v in points]
@@ -235,18 +248,23 @@ def _sparkline(series: List[Dict[str, Any]], key: str, fmt) -> str:
 
     path = " ".join("{},{}".format(c["x"], c["y"]) for c in coords)
     last = coords[-1]
+    label = ("{} daily points from the data provider".format(len(coords))
+             if provenance == "provider" else
+             "{} readings collected by this instance".format(len(coords)))
     return (
-        '<svg class="spark" viewBox="0 0 {w} {h}" preserveAspectRatio="none" '
-        'role="img" aria-label="Trend over the last {n} readings" '
+        '<svg class="spark spark-{prov}" viewBox="0 0 {w} {h}" preserveAspectRatio="none" '
+        'role="img" aria-label="{label}" '
         "data-points='{pts}'>"
         '<polyline class="line" points="{path}"/>'
         '<line class="cross" y1="0" y2="{h}" x1="0" x2="0"/>'
         '<circle class="dot" r="3" cx="{cx}" cy="{cy}"/>'
         '<rect class="hit" x="0" y="0" width="{w}" height="{h}"/>'
         "</svg>"
+        '<div class="spark-src">{srctext}</div>'
     ).format(
-        w=w, h=h, n=len(coords), pts=json.dumps(coords).replace("'", "&#39;"),
+        w=w, h=h, prov=provenance, label=label, pts=json.dumps(coords).replace("'", "&#39;"),
         path=path, cx=last["x"], cy=last["y"],
+        srctext=("provider daily series" if provenance == "provider" else "collected here"),
     )
 
 
@@ -263,7 +281,7 @@ def _sparkline_from_series(points: List[Dict[str, Any]], fmt) -> str:
         for p in points
         if p.get("value") is not None
     ]
-    return _sparkline(rows, "v", fmt)
+    return _sparkline(rows, "v", fmt, provenance="provider")
 
 
 def _tile(label: str, value: str, sub: str = "", spark: str = "") -> str:
@@ -302,6 +320,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     eco_metrics = eco.get("metrics") or {}
     news = snapshot.get("news") or {}
     up = snapshot.get("upgrades") or {}
+    soc = snapshot.get("social") or {}
 
     # --- Alerts -----------------------------------------------------------
     if findings:
@@ -374,10 +393,15 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             "{} protocols tracked".format(dex.get("protocol_count") or "n/a"),
         ),
         _tile(
-            "Network fees 24h",
-            _fmt_usd(fees.get("fees_24h_usd")),
-            _delta(fees.get("change_24h_pct")) or "fee component of REV",
-            _sparkline(history, "fees_24h_usd", _fmt_usd),
+            "REV 24h",
+            _fmt_usd(fees.get("rev_24h_usd")),
+            "network fees + MEV tips",
+            _sparkline(history, "rev_24h_usd", _fmt_usd),
+        ),
+        _tile(
+            "App fees 24h",
+            _fmt_usd(fees.get("app_fees_24h_usd")),
+            _delta(fees.get("app_fees_change_24h_pct")) or "earned by apps, not the network",
         ),
         _tile(
             "Tokenized RWA",
@@ -597,6 +621,20 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
                 '<tbody>{}</tbody></table></div>').format(pending_rows) if pending_rows else "",
         )
 
+    # --- Announcements -----------------------------------------------------
+    social_items = "".join(
+        '<li><a href="{}" target="_blank" rel="noopener">@{}</a>'
+        '<div class="news-sub">{}</div></li>'.format(
+            _esc(_safe_url(p.get("url"))), _esc(p.get("handle")), _esc(p.get("text"))
+        )
+        for p in (soc.get("posts") or [])
+    )
+    social_block = (
+        '<ul class="news">{}</ul>'
+        '<p class="note">Announcements only — replies and retweets filtered. '
+        "Source rate-limits intermittently; a failed account degrades this section alone.</p>"
+    ).format(social_items) if social_items else ""
+
     # --- Full metric table (the accessible view of every tile) ------------
     supply_pct = sup.get("circulating_pct")
     table_rows = [
@@ -616,9 +654,11 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("DeFi TVL", _fmt_usd(tvl.get("tvl_usd"))),
         ("DEX volume 24h", _fmt_usd(dex.get("volume_24h_usd"))),
         ("Stablecoin supply", _fmt_usd(stables.get("total_usd"))),
-        ("Network fees 24h", _fmt_usd(fees.get("fees_24h_usd"))),
-        ("Network fees 30d", _fmt_usd(fees.get("fees_30d_usd"))),
-        ("Annualised fee run-rate", _fmt_usd(fees.get("annualised_usd"))),
+        ("REV 24h (network fees + MEV tips)", _fmt_usd(fees.get("rev_24h_usd"))),
+        ("  of which network fees", _fmt_usd(fees.get("network_fees_24h_usd"))),
+        ("  of which MEV tips", _fmt_usd(fees.get("mev_tips_24h_usd"))),
+        ("Annualised REV run-rate", _fmt_usd(fees.get("rev_annualised_usd"))),
+        ("Application fees 24h (not network revenue)", _fmt_usd(fees.get("app_fees_24h_usd"))),
         ("Tokenized RWA total", _fmt_usd(rwa.get("total_rwa_usd"))),
         ("Tokenized equities", _fmt_usd(rwa.get("equities_usd"))),
         ("Daily active addresses", _fmt_num((eco_metrics.get("active_addresses") or {}).get("value"))),
@@ -644,7 +684,14 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Solana Ecosystem Dashboard</title>
+<title>Solana Ecosystem Dashboard — SolVitals</title>
+<meta name="description" content="Auto-updating report on the state of the Solana ecosystem: network health, validators, REV, tokenized assets, and live feature-gate activation across mainnet, testnet and devnet.">
+<meta property="og:title" content="SolVitals — Solana Ecosystem Dashboard">
+<meta property="og:description" content="Network health, validators, REV, tokenized assets, and live feature-gate activation. Refreshes every 15 minutes. Python stdlib only.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://techbronick.github.io/solvitals/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231a1a19'/%3E%3Cpath d='M4 20l5-6 5 4 5-9 5 7 4-3' fill='none' stroke='%233987e5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>{css}</style>
 </head>
 <body>
@@ -669,6 +716,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
   <h2>Epoch progress</h2>
   <div class="grid">{epoch}</div>
 
+  {upgrade_heading}
+  {upgrades}
+
   <h2>Top validators by stake</h2>
   {validators}
   <p class="note">The Nakamoto coefficient is the number of validators that would need to
@@ -688,8 +738,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
   {news_heading}
   {news}
 
-  {upgrade_heading}
-  {upgrades}
+  {social_heading}
+  {social}
+
 
   <h2>All metrics</h2>
   {metrics}
@@ -721,6 +772,8 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         divergence_heading="<h2>Where data providers disagree</h2>" if divergence_block else "",
         news=news_block,
         news_heading="<h2>Ecosystem and community news</h2>" if news_block else "",
+        social=social_block,
+        social_heading="<h2>Announcements from key accounts</h2>" if social_block else "",
         upgrades=upgrade_block,
         upgrade_heading="<h2>Upcoming upgrades and protocol changes</h2>" if upgrade_block else "",
     )

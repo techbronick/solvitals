@@ -1,35 +1,35 @@
 {
-  "captured_at": "2026-08-04 19:28:12",
+  "captured_at": "2026-08-04 19:44:31",
   "generator": "solvitals/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3640.51,
-      "tps_non_vote": 2025.44,
-      "vote_share_pct": 44.36,
-      "avg_slot_time_secs": 0.4243,
-      "latest_sample_slot": 437234178,
+      "tps_total": 4164.77,
+      "tps_non_vote": 2543.43,
+      "vote_share_pct": 38.93,
+      "avg_slot_time_secs": 0.4231,
+      "latest_sample_slot": 437236584,
       "samples_used": 5,
-      "block_height": 415288983,
-      "current_slot": 437234273
+      "block_height": 415291278,
+      "current_slot": 437236578
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 50274,
+      "slot_index": 52578,
       "slots_in_epoch": 432000,
-      "progress_pct": 11.64,
-      "eta_hours": 42.4,
-      "transaction_count": 535120161421
+      "progress_pct": 12.17,
+      "eta_hours": 42.2,
+      "transaction_count": 535124064600
     },
     "validators": {
-      "active_count": 692,
-      "delinquent_count": 7,
-      "delinquent_pct": 1.0,
-      "delinquent_stake_sol": 1825.62,
-      "delinquent_stake_pct": 0.0,
-      "total_active_stake_sol": 434421657.36,
+      "active_count": 691,
+      "delinquent_count": 8,
+      "delinquent_pct": 1.14,
+      "delinquent_stake_sol": 1898745.81,
+      "delinquent_stake_pct": 0.437,
+      "total_active_stake_sol": 432524737.16,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 262,
@@ -37,92 +37,92 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 16808219.81,
-          "stake_pct": 3.869,
+          "stake_pct": 3.886,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16003204.52,
-          "stake_pct": 3.684,
+          "stake_pct": 3.7,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12472697.16,
-          "stake_pct": 2.871,
+          "stake_pct": 2.884,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12265636.09,
-          "stake_pct": 2.823,
+          "stake_pct": 2.836,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9189333.01,
-          "stake_pct": 2.115,
+          "stake_pct": 2.125,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8837285.49,
-          "stake_pct": 2.034,
+          "stake_pct": 2.043,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8157243.65,
-          "stake_pct": 1.878,
+          "stake_pct": 1.886,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7899431.53,
-          "stake_pct": 1.818,
+          "stake_pct": 1.826,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7479271.15,
-          "stake_pct": 1.722,
+          "stake_pct": 1.729,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6653304.21,
-          "stake_pct": 1.532,
+          "stake_pct": 1.538,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 631630498.45,
-      "circulating_sol": 581307744.31,
-      "non_circulating_sol": 50322754.15,
+      "total_sol": 631630488.26,
+      "circulating_sol": 581307682.37,
+      "non_circulating_sol": 50322805.89,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1432,
+      "unique_signers_sampled": 1603,
       "blocks_sampled": 3,
-      "transactions_sampled": 5232,
-      "non_vote_transactions_sampled": 3215,
-      "signers_per_block": 477.3,
-      "non_vote_share_pct": 61.45,
+      "transactions_sampled": 5627,
+      "non_vote_transactions_sampled": 3530,
+      "signers_per_block": 534.3,
+      "non_vote_share_pct": 62.73,
       "sampled_slots": [
-        437234094,
-        437232594,
-        437231094
+        437236396,
+        437234896,
+        437233396
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.14,
-      "change_24h_pct": 0.14,
-      "market_cap_usd": 43095523900.94187,
-      "volume_24h_usd": 1349994856.8547873,
+      "usd": 74.18,
+      "change_24h_pct": 0.27,
+      "market_cap_usd": 43124001281.70739,
+      "volume_24h_usd": 1352731273.8187726,
       "source": "coingecko"
     },
     "tvl": {
@@ -177,13 +177,35 @@
       "source": "defillama"
     },
     "fees": {
-      "fees_24h_usd": 8405852.930000002,
-      "fees_7d_usd": 54219103.56,
-      "fees_30d_usd": 216136577.74999997,
-      "change_24h_pct": 11.9,
-      "annualised_usd": 3068136319.45,
+      "rev_24h_usd": 786847.52,
+      "network_fees_24h_usd": 614784,
+      "mev_tips_24h_usd": 172063.52,
+      "mev_share_of_rev_pct": 21.87,
+      "rev_annualised_usd": 287199344.8,
+      "mev_breakdown": [
+        {
+          "name": "Jito MEV Tips",
+          "tips_24h_usd": 149871
+        },
+        {
+          "name": "Harmonic",
+          "tips_24h_usd": 14744
+        },
+        {
+          "name": "bloXroute",
+          "tips_24h_usd": 7448
+        },
+        {
+          "name": "Pyth Express Relay",
+          "tips_24h_usd": 0.52
+        }
+      ],
+      "app_fees_24h_usd": 8405852.930000002,
+      "app_fees_7d_usd": 54219103.56,
+      "app_fees_30d_usd": 216136577.74999997,
+      "app_fees_change_24h_pct": 11.9,
       "protocol_count": 283,
-      "top_fee_earners": [
+      "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
           "fees_24h_usd": 2272406
@@ -205,7 +227,7 @@
           "fees_24h_usd": 341950
         }
       ],
-      "note": "Fee component of REV; excludes out-of-protocol MEV tips.",
+      "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
       "source": "defillama"
     },
     "tokenized_assets": {
@@ -2126,6 +2148,67 @@
       }
     ],
     "source": "solana-improvement-documents + agave feature-set + live RPC"
+  },
+  "social": {
+    "posts": [
+      {
+        "handle": "solana",
+        "text": "It\u2019s time. @WSOP: Solana Showdown. Watch the first hand get dealt: https://t.co/5xBhujGp6o",
+        "created_at": "Tue Aug 04 18:56:18 +0000 2026",
+        "url": "https://x.com/solana/status/2084715067875225936"
+      },
+      {
+        "handle": "solana",
+        "text": "$SPCX and $AMD are releasing their earnings today, both after the bell. Frontier Traders members can trade these and 21+ other equities markets for a $25,000 prize pool: https://t.co/Btu90ghHmU",
+        "created_at": "Tue Aug 04 19:19:28 +0000 2026",
+        "url": "https://x.com/solana/status/2084720893914194360"
+      },
+      {
+        "handle": "solana",
+        "text": "Grim Reaper Mode https://t.co/FGWt9BBjrs",
+        "created_at": "Tue Aug 04 19:13:45 +0000 2026",
+        "url": "https://x.com/solana/status/2084719457369485416"
+      },
+      {
+        "handle": "solana",
+        "text": "the @solana x @WSOP setup has been a really well put together production, cool to see crossover of two different worlds mesh so well we'll be playing at the same table the WSOP finalists are playing at in ~3 hours streamed here live on @X",
+        "created_at": "Tue Aug 04 16:16:47 +0000 2026",
+        "url": "https://x.com/solana/status/2084674922270663153"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Three months in the Incubator &gt; three years figuring it out alone \u2013 3 months of hands-on mentorship from Solana OGs IRL in NYC \u2013 Weekly workshops, office hours, and 1:1s \u2013 Demo day in front of the ecosystem's top VCs and builders Apply \u2026",
+        "created_at": "Wed Apr 22 16:11:02 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046985139029479873"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open \u2014 join us in NYC for 3 months starting September 2026. \ud83d\udcc5 Deadline: June 5. \u2705 Rolling review \u2014 early applicants prioritized.\u2026",
+        "created_at": "Wed Apr 22 15:24:05 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2046973323620577341"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Crack open the map with @lootgo_official \ud83c\udff4\u200d\u2620\ufe0f Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: \u21b3 Loot Goblin: Open up 5 loot boxes \u21b3 Boost Seeker: Buy + deploy 1 SKR Booster on the ma\u2026",
+        "created_at": "Tue Aug 04 17:03:38 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2084686710630400035"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found \u2600\ufe0f Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek \ud83e\uddf5 https://t.co/U4TiVcEmkG",
+        "created_at": "Thu Jul 30 16:08:04 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2082860788369477800"
+      }
+    ],
+    "accounts_reached": [
+      "solana",
+      "solanalabs",
+      "SuperteamDAO"
+    ],
+    "accounts_failed": [],
+    "count": 8,
+    "source": "x.com syndication timeline (keyless)",
+    "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
   "anomalies": []
 }

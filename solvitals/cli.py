@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import Any, Dict
 
 from . import __version__, anomalies, config, store
-from .collectors import ecosystem, market, news, rpc, upgrades
+from .collectors import ecosystem, market, news, rpc, social, upgrades
 from .render import html as html_render
 from .render import markdown as md_render
 
@@ -27,6 +27,7 @@ def collect() -> Dict[str, Any]:
         "ecosystem": ecosystem.collect(),
         "news": news.collect(),
         "upgrades": upgrades.collect(),
+        "social": social.collect(),
     }
 
 
@@ -36,7 +37,7 @@ def _count_errors(snapshot: Dict[str, Any]) -> int:
         for section in snapshot.get(group, {}).values():
             if isinstance(section, dict) and "error" in section:
                 total += 1
-    for group in ("ecosystem", "news", "upgrades"):
+    for group in ("ecosystem", "news", "upgrades", "social"):
         if "error" in (snapshot.get(group) or {}):
             total += 1
     return total

@@ -39,7 +39,7 @@ here, so this document cannot go stale.
 **Ecosystem growth (solana.com/data):** daily active addresses, daily fee
 payers, transaction counts split by vote/non-vote and success/failure, DEX
 volume and traders, transfer volume, total stake, validator count, Top-3 ASN
-share — each with 90 days of history and per-metric provider attribution.
+share — each with 30 days of history and per-metric provider attribution.
 
 **News (solana.com/news RSS):** latest ecosystem and community announcements.
 
@@ -169,16 +169,19 @@ is $399/month. But solana.com's data feed *republishes Dune-computed metrics
 keylessly* with per-row provider attribution, so Dune-sourced figures (including
 the headline daily active addresses number) are ingested and labelled as such.
 
-**Twitter is not covered, and I'd rather say why than ship something fragile.**
-I tested every keyless route: `syndication.twitter.com` returns 429 on every
-attempt; `cdn.syndication.twimg.com` works only for a tweet ID you already know,
-so there's no discovery; `nitter.poast.org` returns 403; `xcancel.com` returns a
-"not yet whitelisted" stub. The one survivor, `nitter.net/solana/rss`, returned a
-0-byte body on one of my test runs. Building a headline feature on an endpoint
-that fails intermittently would make the dashboard *less* reliable, and the
-report's whole design is that a source outage degrades one section rather than
-the run. If X access were available, the collector interface is a single
-function returning a dict — it slots in without touching anything else.
+**X/Twitter is covered, keylessly.** X has no free API, but the public
+syndication endpoint that renders embedded timelines returns recent posts with
+no key and no account. It rate-limits roughly one request in five — which is
+exactly the failure profile the per-collector isolation was built for, so a miss
+costs this section alone and the cached copy is reused. Announcements from
+@solana, @solanalabs and @SuperteamDAO are pulled; replies and retweets are
+filtered out. Other keyless routes were tested and are genuinely dead:
+nitter.poast.org 403, xcancel.com returns a not-whitelisted stub, nitter.net
+returned a 0-byte body.
+
+I deliberately do **not** attempt sentiment scoring. Without a model, that would
+be keyword counting presented as analysis, and the announcements themselves are
+the honest deliverable.
 
 ## Honest notes for the sponsor
 

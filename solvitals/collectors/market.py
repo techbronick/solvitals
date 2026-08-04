@@ -82,27 +82,65 @@ def stablecoins() -> Dict[str, Any]:
 
 
 def fees() -> Dict[str, Any]:
-    """Network fees -- the fee half of Real Economic Value.
+    """Real Economic Value: network fees plus out-of-protocol MEV tips.
 
-    REV is conventionally fees plus out-of-protocol MEV tips (Jito). Tip data
-    isn't available without a keyed source, so what's reported here is the fee
-    component, labelled as such rather than passed off as full REV.
+    The important detail is that DeFiLlama's chain-level `total24h` is NOT
+    network fees -- it is the sum across every protocol on Solana (DEXes,
+    launchpads, wallets, Telegram bots, ~283 of them). Reporting that as
+    "network fees" overstates the figure by more than an order of magnitude.
+
+    Network fees are the single `category == "Chain"` row. MEV tips are the
+    `category == "MEV"` rows (Jito being most of it). REV is the sum of those
+    two, and both come from a payload already being fetched -- no key needed.
+
+    Protocol-wide fees are still worth reporting; they are just a different
+    quantity, so they are labelled `app_fees_24h_usd` rather than conflated.
     """
     body = request_json(config.DEFILLAMA_FEES_URL)
-    total_24h = body.get("total24h")
     protocols = body.get("protocols") or []
-    top = sorted(protocols, key=lambda p: p.get("total24h") or 0, reverse=True)[:5]
+
+    def _sum(category: str) -> float:
+        return sum(
+            p.get("total24h") or 0 for p in protocols if (p.get("category") or "") == category
+        )
+
+    network_fees = _sum("Chain")
+    mev_tips = _sum("MEV")
+    rev = network_fees + mev_tips
+
+    mev_breakdown = sorted(
+        (
+            {"name": p.get("name"), "tips_24h_usd": p.get("total24h")}
+            for p in protocols
+            if (p.get("category") or "") == "MEV" and (p.get("total24h") or 0) > 0
+        ),
+        key=lambda r: r["tips_24h_usd"],
+        reverse=True,
+    )
+    top_apps = sorted(protocols, key=lambda p: p.get("total24h") or 0, reverse=True)[:5]
+
     return {
-        "fees_24h_usd": total_24h,
-        "fees_7d_usd": body.get("total7d"),
-        "fees_30d_usd": body.get("total30d"),
-        "change_24h_pct": body.get("change_1d"),
-        "annualised_usd": round(total_24h * 365, 2) if total_24h else None,
+        "rev_24h_usd": round(rev, 2) if rev else None,
+        "network_fees_24h_usd": round(network_fees, 2) if network_fees else None,
+        "mev_tips_24h_usd": round(mev_tips, 2) if mev_tips else None,
+        "mev_share_of_rev_pct": round(100 * mev_tips / rev, 2) if rev else None,
+        "rev_annualised_usd": round(rev * 365, 2) if rev else None,
+        "mev_breakdown": mev_breakdown,
+        # Fees earned by applications built on Solana -- a much larger number,
+        # and a different thing from what the network itself captures.
+        "app_fees_24h_usd": body.get("total24h"),
+        "app_fees_7d_usd": body.get("total7d"),
+        "app_fees_30d_usd": body.get("total30d"),
+        "app_fees_change_24h_pct": body.get("change_1d"),
         "protocol_count": len(protocols),
-        "top_fee_earners": [
-            {"name": p.get("name"), "fees_24h_usd": p.get("total24h")} for p in top
+        "top_fee_earning_apps": [
+            {"name": p.get("name"), "fees_24h_usd": p.get("total24h")} for p in top_apps
         ],
-        "note": "Fee component of REV; excludes out-of-protocol MEV tips.",
+        "note": (
+            "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol "
+            "MEV tips ('MEV' category). app_fees is the separate, much larger "
+            "figure for fees earned by applications on Solana."
+        ),
         "source": "defillama",
     }
 

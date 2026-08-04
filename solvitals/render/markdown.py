@@ -177,25 +177,47 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
     if "error" not in fees:
         lines.extend(
             [
-                "### Network fees (REV)",
+                "### Real Economic Value (REV)",
                 "",
-                "| Window | Fees |",
+                "| Component | 24h |",
                 "| --- | --- |",
-                "| 24 hours | {}{} |".format(
-                    _fmt_usd(fees.get("fees_24h_usd")), _fmt_delta(fees.get("change_24h_pct"))
+                "| **REV (total)** | **{}** |".format(_fmt_usd(fees.get("rev_24h_usd"))),
+                "| Network fees | {} |".format(_fmt_usd(fees.get("network_fees_24h_usd"))),
+                "| MEV tips (out-of-protocol) | {} ({}% of REV) |".format(
+                    _fmt_usd(fees.get("mev_tips_24h_usd")), fees.get("mev_share_of_rev_pct")
                 ),
-                "| 7 days | {} |".format(_fmt_usd(fees.get("fees_7d_usd"))),
-                "| 30 days | {} |".format(_fmt_usd(fees.get("fees_30d_usd"))),
-                "| Annualised run-rate | {} |".format(_fmt_usd(fees.get("annualised_usd"))),
+                "| Annualised REV run-rate | {} |".format(_fmt_usd(fees.get("rev_annualised_usd"))),
                 "",
-                "_{}_".format(fees.get("note", "")),
+                "_REV is what the **network** captures. It is a different and much smaller "
+                "figure than fees earned by applications built on Solana, which follow "
+                "separately -- conflating the two overstates REV by more than 10x._",
                 "",
             ]
         )
-        if fees.get("top_fee_earners"):
-            lines.extend(["| Top fee earner | Fees (24h) |", "| --- | --- |"])
-            for p in fees["top_fee_earners"]:
-                lines.append("| {} | {} |".format(p.get("name"), _fmt_usd(p.get("fees_24h_usd"))))
+        if fees.get("mev_breakdown"):
+            lines.extend(["| MEV source | Tips (24h) |", "| --- | --- |"])
+            for m in fees["mev_breakdown"]:
+                lines.append("| {} | {} |".format(m.get("name"), _fmt_usd(m.get("tips_24h_usd"))))
+            lines.append("")
+        lines.extend([
+            "### Application fees (distinct from REV)",
+            "",
+            "Fees earned by the {} applications built on Solana -- DEXes, launchpads, "
+            "wallets and bots. Economically interesting, but not network revenue.".format(
+                fees.get("protocol_count")),
+            "",
+            "| Window | Application fees |",
+            "| --- | --- |",
+            "| 24 hours | {}{} |".format(_fmt_usd(fees.get("app_fees_24h_usd")),
+                                         _fmt_delta(fees.get("app_fees_change_24h_pct"))),
+            "| 7 days | {} |".format(_fmt_usd(fees.get("app_fees_7d_usd"))),
+            "| 30 days | {} |".format(_fmt_usd(fees.get("app_fees_30d_usd"))),
+            "",
+        ])
+        if fees.get("top_fee_earning_apps"):
+            lines.extend(["| Top fee-earning app | Fees (24h) |", "| --- | --- |"])
+            for a in fees["top_fee_earning_apps"]:
+                lines.append("| {} | {} |".format(a.get("name"), _fmt_usd(a.get("fees_24h_usd"))))
             lines.append("")
 
     rwa = market.get("tokenized_assets", {})
@@ -330,6 +352,16 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
                 )
             lines.append("")
 
+    soc = snapshot.get("social") or {}
+    if "error" not in soc and soc.get("posts"):
+        lines.extend(["## Announcements from key accounts", ""])
+        for post in soc["posts"]:
+            lines.append("- **@{}** — {} [(link)]({})".format(
+                post.get("handle"), post.get("text"), post.get("url")))
+        lines.append("")
+        lines.append("_{}_".format(soc.get("note", "")))
+        lines.append("")
+
     up = snapshot.get("upgrades") or {}
     if "error" not in up and up.get("proposal_count"):
         lines.extend([
@@ -405,6 +437,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
             "| Daily active addresses, ecosystem growth (incl. Dune-computed) | solana.com/data | No |",
             "| Ecosystem and community news | solana.com/news RSS | No |",
             "| Upcoming upgrades | SIMD repo + Agave feature-set + live RPC | No |",
+            "| Announcements from key accounts | x.com syndication timeline | No |",
             "",
         ]
     )

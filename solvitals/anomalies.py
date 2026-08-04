@@ -36,7 +36,7 @@ Z_SCORE_METRICS = (
     "price_usd",
     "tvl_usd",
     "stablecoins_usd",
-    "fees_24h_usd",
+    "rev_24h_usd",
     "rwa_total_usd",
     "equities_usd",
     "unique_signers_sampled",

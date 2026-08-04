@@ -50,6 +50,13 @@ SOLANA_NEWS_URL = "https://solana.com/news/rss.xml"
 NEWS_CACHE_TTL = int(os.environ.get("SOLVITALS_NEWS_TTL", "3600"))
 NEWS_ITEMS = int(os.environ.get("SOLVITALS_NEWS_ITEMS", "8"))
 
+# X/Twitter announcements via the public syndication endpoint (keyless).
+X_TIMELINE_URL = "https://syndication.twitter.com/srv/timeline-profile/screen-name/{handle}"
+X_ACCOUNTS = [h for h in os.environ.get(
+    "SOLVITALS_X_ACCOUNTS", "solana,solanalabs,SuperteamDAO").split(",") if h]
+SOCIAL_CACHE_TTL = int(os.environ.get("SOLVITALS_SOCIAL_TTL", "3600"))
+SOCIAL_POSTS_PER_ACCOUNT = int(os.environ.get("SOLVITALS_SOCIAL_POSTS", "4"))
+
 # Upcoming upgrades. The tarball avoids GitHub's unauthenticated API rate limit,
 # which shared CI runner IPs routinely exhaust.
 SIMD_TARBALL_URL = (

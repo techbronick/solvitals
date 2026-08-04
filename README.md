@@ -1,9 +1,17 @@
 # SolVitals
 
+**→ [Live dashboard](https://techbronick.github.io/solvitals/)** — refreshes itself every 15 minutes.
+
 An auto-updating report on the state of the Solana ecosystem. One command
 collects on-chain and economic data, checks it for anomalies, and writes three
 outputs: an interactive HTML dashboard, a human-readable Markdown report, and
 machine-readable JSON.
+
+It also tracks protocol upgrades through to **live feature-gate activation**
+across mainnet, testnet and devnet — so it reports what is actually switched on,
+not just what has been proposed. Two things that surfaced: mainnet is running a
+different Agave version from testnet and devnet, and Alpenglow has no feature
+gate on any cluster, meaning it is not switchable anywhere yet.
 
 **Zero dependencies.** Python 3.7+ standard library only — no `pip install`, no
 API keys, no accounts. Clone and run.
@@ -155,6 +163,22 @@ cluster yet, so it is not switchable anywhere — a more precise statement than
 Note the bounty writes "SIMD-525"; the repository zero-pads to four digits, so
 the proposal is SIMD-0525 ("Reduce Slot Times", Draft).
 
+### REV, and why the obvious number is wrong
+
+DeFiLlama's chain-level `total24h` for Solana is **not** network fees — it is the
+sum across all ~283 protocols on Solana, including DEXes, launchpads, wallets and
+Telegram bots. Reporting that as network revenue overstates it by more than 10x.
+
+Network fees are the single `category == "Chain"` row. Out-of-protocol MEV tips
+are the `category == "MEV"` rows, Jito being most of it. REV is the sum of those
+two, and both arrive in a payload this project already downloads — no key, no
+extra request.
+
+So the report gives **REV = network fees + MEV tips**, with the components shown
+separately, and reports protocol-wide fees as `app_fees`, clearly labelled as a
+different quantity. Currently REV runs around $790K/day against roughly $8.4M in
+application fees — two real numbers that answer two different questions.
+
 ### Caching
 
 DeFiLlama's full protocol list is roughly 8 MB and its RWA figures move on a
@@ -232,7 +256,7 @@ stay quiet when a metric is consistently bad.
 | Delinquent validators | ≥ 5% | ≥ 10% |
 | Average slot time | ≥ 0.65 s | ≥ 0.9 s |
 | Non-vote TPS | ≤ 800 | ≤ 400 |
-| Nakamoto coefficient | ≤ 20 | ≤ 15 |
+| Nakamoto coefficient | ≤ 14 | ≤ 10 |
 | RPC health | — | any non-`ok` status |
 
 **Statistical deviation** — a metric more than 2σ (warning) or 3σ (critical)

@@ -24,6 +24,18 @@ DEFILLAMA_DEX_URL = (
     "?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
 )
 DEFILLAMA_STABLES_URL = "https://stablecoins.llama.fi/stablecoinchains"
+DEFILLAMA_FEES_URL = (
+    "https://api.llama.fi/overview/fees/solana"
+    "?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
+)
+# ~8 MB. Cached rather than refetched every run -- see net.request_json_cached.
+DEFILLAMA_PROTOCOLS_URL = "https://api.llama.fi/protocols"
+PROTOCOLS_CACHE_TTL = int(os.environ.get("SOLPULSE_PROTOCOLS_TTL", "21600"))  # 6h
+
+# Recent blocks sampled to estimate active addresses, and how far apart they sit.
+# Spacing them spreads the sample over time instead of one contiguous burst.
+ADDRESS_SAMPLE_BLOCKS = int(os.environ.get("SOLPULSE_ADDRESS_SAMPLE_BLOCKS", "3"))
+ADDRESS_SAMPLE_SPACING = int(os.environ.get("SOLPULSE_ADDRESS_SAMPLE_SPACING", "1500"))
 
 # How many 60-second performance samples to average TPS over.
 PERF_SAMPLE_COUNT = int(os.environ.get("SOLPULSE_PERF_SAMPLES", "5"))

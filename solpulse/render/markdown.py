@@ -173,6 +173,89 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
     lines.append("| Stablecoin supply | {} |".format(_fmt_usd(stables.get("total_usd"))))
     lines.append("")
 
+    fees = market.get("fees", {})
+    if "error" not in fees:
+        lines.extend(
+            [
+                "### Network fees (REV)",
+                "",
+                "| Window | Fees |",
+                "| --- | --- |",
+                "| 24 hours | {}{} |".format(
+                    _fmt_usd(fees.get("fees_24h_usd")), _fmt_delta(fees.get("change_24h_pct"))
+                ),
+                "| 7 days | {} |".format(_fmt_usd(fees.get("fees_7d_usd"))),
+                "| 30 days | {} |".format(_fmt_usd(fees.get("fees_30d_usd"))),
+                "| Annualised run-rate | {} |".format(_fmt_usd(fees.get("annualised_usd"))),
+                "",
+                "_{}_".format(fees.get("note", "")),
+                "",
+            ]
+        )
+        if fees.get("top_fee_earners"):
+            lines.extend(["| Top fee earner | Fees (24h) |", "| --- | --- |"])
+            for p in fees["top_fee_earners"]:
+                lines.append("| {} | {} |".format(p.get("name"), _fmt_usd(p.get("fees_24h_usd"))))
+            lines.append("")
+
+    rwa = market.get("tokenized_assets", {})
+    if "error" not in rwa:
+        lines.extend(
+            [
+                "## Tokenized assets",
+                "",
+                "| Metric | Value |",
+                "| --- | --- |",
+                "| Total tokenized RWA | {} |".format(_fmt_usd(rwa.get("total_rwa_usd"))),
+                "| Tokenized equities | {} ({}% of RWA) |".format(
+                    _fmt_usd(rwa.get("equities_usd")), rwa.get("equities_share_pct")
+                ),
+                "| RWA protocols on Solana | {} |".format(rwa.get("protocol_count")),
+                "",
+            ]
+        )
+        if rwa.get("equity_protocols"):
+            lines.extend(
+                ["### Tokenized equity issuers", "", "| Protocol | Value | 24h |", "| --- | --- | --- |"]
+            )
+            for p in rwa["equity_protocols"]:
+                lines.append(
+                    "| {} | {} | {}% |".format(
+                        p.get("name"), _fmt_usd(p.get("tvl_usd")), p.get("change_24h_pct")
+                    )
+                )
+            lines.append("")
+        if rwa.get("top_protocols"):
+            lines.extend(
+                ["### Largest tokenized-asset protocols", "", "| Protocol | Value | Category |", "| --- | --- | --- |"]
+            )
+            for p in rwa["top_protocols"]:
+                lines.append(
+                    "| {} | {} | {} |".format(
+                        p.get("name"), _fmt_usd(p.get("tvl_usd")), p.get("category")
+                    )
+                )
+            lines.append("")
+
+    act = chain.get("activity", {})
+    if "error" not in act:
+        lines.extend(
+            [
+                "## Address activity",
+                "",
+                "| Metric | Value |",
+                "| --- | --- |",
+                "| Unique fee payers (sampled) | {} |".format(_fmt_num(act.get("unique_signers_sampled"))),
+                "| Blocks sampled | {} |".format(act.get("blocks_sampled")),
+                "| Transactions in sample | {} |".format(_fmt_num(act.get("transactions_sampled"))),
+                "| Non-vote share of sample | {}% |".format(act.get("non_vote_share_pct")),
+                "| Signers per block | {} |".format(act.get("signers_per_block")),
+                "",
+                "_{}_".format(act.get("note", "")),
+                "",
+            ]
+        )
+
     if dex.get("top_dexes"):
         lines.extend(["### Top DEXes by 24h volume", "", "| DEX | Volume (24h) |", "| --- | --- |"])
         for d in dex["top_dexes"]:

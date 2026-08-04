@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 17:25:47 UTC by SolPulse.
+Generated 2026-08-04 17:41:00 UTC by SolPulse.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-04 17:25:47 UTC by SolPulse.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,116.68 |
-| Total TPS (incl. votes) | 3,731.53 |
-| Vote share of transactions | 43.28% |
-| Average slot time | 0.4237 s |
-| Current slot | 437,216,935 |
-| Block height | 415,271,662 |
+| Non-vote TPS | 2,147.47 |
+| Total TPS (incl. votes) | 3,764.98 |
+| Vote share of transactions | 42.96% |
+| Average slot time | 0.4231 s |
+| Current slot | 437,219,084 |
+| Block height | 415,273,810 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 7.62% complete (`##..................`), ~44.3 hours remaining.
+Epoch **1012** — 8.12% complete (`##..................`), ~44.1 hours remaining.
 
-Slot 32,935 of 432,000. Lifetime transaction count: 535,091,781,775.
+Slot 35,086 of 432,000. Lifetime transaction count: 535,095,161,648.
 
 ## Validators
 
@@ -58,12 +58,73 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.99 (up 0.38%) |
+| SOL price | $74.00 (up 0.59%) |
 | Market cap | $43.02B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.55%) |
 | Stablecoin supply | $15.84B |
+
+### Network fees (REV)
+
+| Window | Fees |
+| --- | --- |
+| 24 hours | $8.41M (up 11.90%) |
+| 7 days | $54.22M |
+| 30 days | $216.14M |
+| Annualised run-rate | $3.07B |
+
+_Fee component of REV; excludes out-of-protocol MEV tips._
+
+| Top fee earner | Fees (24h) |
+| --- | --- |
+| PumpSwap | $2.27M |
+| pump.fun | $1.26M |
+| Axiom | $1.11M |
+| Solana | $614.78K |
+| Collector Crypt | $564.57K |
+
+## Tokenized assets
+
+| Metric | Value |
+| --- | --- |
+| Total tokenized RWA | $1.78B |
+| Tokenized equities | $394.18M (22.1% of RWA) |
+| RWA protocols on Solana | 24 |
+
+### Tokenized equity issuers
+
+| Protocol | Value | 24h |
+| --- | --- | --- |
+| xStocks | $367.65M | 1.369% |
+| Ondo Global Markets | $26.53M | 2.533% |
+
+### Largest tokenized-asset protocols
+
+| Protocol | Value | Category |
+| --- | --- | --- |
+| BlackRock BUIDL | $675.72M | RWA |
+| xStocks | $367.65M | RWA |
+| OnRe | $250.09M | RWA |
+| Ondo Yield Assets | $179.14M | RWA |
+| Hastra | $173.16M | RWA |
+| Ondo Global Markets | $26.53M | RWA |
+| Theo Network thBill | $26.34M | RWA |
+| Apollo Diversified Credit Securitize Fund | $24.84M | RWA |
+| Nest Credit | $22.29M | RWA |
+| VanEck Treasury Fund | $13.91M | RWA |
+
+## Address activity
+
+| Metric | Value |
+| --- | --- |
+| Unique fee payers (sampled) | 1,468 |
+| Blocks sampled | 3 |
+| Transactions in sample | 3,969 |
+| Non-vote share of sample | 48.95% |
+| Signers per block | 489.3 |
+
+_Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
 ### Top DEXes by 24h volume
 
@@ -77,7 +138,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 ## Supply
 
-Circulating 581,307,959 SOL of 631,630,572 total (92.03%).
+Circulating 581,307,950 SOL of 631,630,564 total (92.03%).
 
 ## Sources
 

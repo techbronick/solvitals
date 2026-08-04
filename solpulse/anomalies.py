@@ -26,7 +26,16 @@ LOWER_THRESHOLDS = {
     "nakamoto_coefficient": (20, 15),
 }
 
-Z_SCORE_METRICS = ("tps_non_vote", "price_usd", "tvl_usd", "stablecoins_usd")
+Z_SCORE_METRICS = (
+    "tps_non_vote",
+    "price_usd",
+    "tvl_usd",
+    "stablecoins_usd",
+    "fees_24h_usd",
+    "rwa_total_usd",
+    "equities_usd",
+    "unique_signers_sampled",
+)
 Z_WARNING = 2.0
 Z_CRITICAL = 3.0
 MIN_HISTORY = 8

@@ -113,6 +113,9 @@ th { color: var(--muted); font-weight: 600; font-size: 11.5px;
 tbody tr:last-child td { border-bottom: none; }
 td.num, th.num { text-align: right; }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+.tag { display: inline-block; font-size: 10.5px; letter-spacing: 0.05em;
+       text-transform: uppercase; color: var(--series); border: 1px solid var(--series);
+       border-radius: 4px; padding: 1px 5px; margin-left: 6px; vertical-align: 1px; }
 .scroll { overflow-x: auto; }
 .note { color: var(--muted); font-size: 12.5px; margin-top: 9px; }
 .err { color: var(--serious); font-size: 13px; }
@@ -249,6 +252,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     tvl = market.get("tvl", {})
     dex = market.get("dex_volume", {})
     stables = market.get("stablecoins", {})
+    fees = market.get("fees", {})
+    rwa = market.get("tokenized_assets", {})
+    act = chain.get("activity", {})
 
     # --- Alerts -----------------------------------------------------------
     if findings:
@@ -320,6 +326,30 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             _fmt_usd(dex.get("volume_24h_usd")),
             "{} protocols tracked".format(dex.get("protocol_count") or "n/a"),
         ),
+        _tile(
+            "Network fees 24h",
+            _fmt_usd(fees.get("fees_24h_usd")),
+            _delta(fees.get("change_24h_pct")) or "fee component of REV",
+            _sparkline(history, "fees_24h_usd", _fmt_usd),
+        ),
+        _tile(
+            "Tokenized RWA",
+            _fmt_usd(rwa.get("total_rwa_usd")),
+            "{} protocols".format(rwa.get("protocol_count") or "n/a"),
+            _sparkline(history, "rwa_total_usd", _fmt_usd),
+        ),
+        _tile(
+            "Tokenized equities",
+            _fmt_usd(rwa.get("equities_usd")),
+            "{}% of tokenized RWA".format(rwa.get("equities_share_pct") or "n/a"),
+            _sparkline(history, "equities_usd", _fmt_usd),
+        ),
+        _tile(
+            "Active addresses",
+            _fmt_num(act.get("unique_signers_sampled")),
+            "unique signers in {} sampled blocks".format(act.get("blocks_sampled") or "?"),
+            _sparkline(history, "unique_signers_sampled", lambda v: "{:,.0f} signers".format(v)),
+        ),
     ]
 
     # --- Epoch ------------------------------------------------------------
@@ -369,6 +399,22 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         '<th class="num">Volume 24h</th></tr></thead><tbody>{}</tbody></table></div>'
     ).format(dex_rows) if dex_rows else ""
 
+    # --- Tokenized assets table -------------------------------------------
+    rwa_rows = "".join(
+        "<tr><td>{}{}</td><td class='num'>{}</td><td>{}</td></tr>".format(
+            _esc(p.get("name")),
+            ' <span class="tag">equity</span>' if p.get("is_equity") else "",
+            _fmt_usd(p.get("tvl_usd")),
+            _esc(p.get("category")),
+        )
+        for p in (rwa.get("top_protocols") or [])
+    )
+    rwa_table = (
+        '<div class="scroll"><table><thead><tr><th>Protocol</th>'
+        '<th class="num">Value</th><th>Category</th></tr></thead>'
+        "<tbody>{}</tbody></table></div>"
+    ).format(rwa_rows) if rwa_rows else "<p class='note'>No tokenized-asset data this run.</p>"
+
     # --- Full metric table (the accessible view of every tile) ------------
     supply_pct = sup.get("circulating_pct")
     table_rows = [
@@ -388,6 +434,13 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("DeFi TVL", _fmt_usd(tvl.get("tvl_usd"))),
         ("DEX volume 24h", _fmt_usd(dex.get("volume_24h_usd"))),
         ("Stablecoin supply", _fmt_usd(stables.get("total_usd"))),
+        ("Network fees 24h", _fmt_usd(fees.get("fees_24h_usd"))),
+        ("Network fees 30d", _fmt_usd(fees.get("fees_30d_usd"))),
+        ("Annualised fee run-rate", _fmt_usd(fees.get("annualised_usd"))),
+        ("Tokenized RWA total", _fmt_usd(rwa.get("total_rwa_usd"))),
+        ("Tokenized equities", _fmt_usd(rwa.get("equities_usd"))),
+        ("Unique fee payers (sampled)", _fmt_num(act.get("unique_signers_sampled"))),
+        ("Non-vote share of sampled txs", "{}%".format(act.get("non_vote_share_pct"))),
         ("Circulating supply", "{} SOL{}".format(
             _fmt_num(sup.get("circulating_sol")),
             " ({}%)".format(supply_pct) if supply_pct else "")),
@@ -437,6 +490,11 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
   <h2>Top DEXes by 24h volume</h2>
   {dex}
 
+  <h2>Tokenized real-world assets</h2>
+  {rwa}
+  <p class="note">Tokenized equities are broken out from treasuries, credit and
+  commodities, which dominate the RWA category overall.</p>
+
   <h2>All metrics</h2>
   {metrics}
 
@@ -453,5 +511,5 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         css=CSS, js=JS, stamp=_esc(snapshot.get("captured_at")), runs=len(history),
         alerts=alerts, tiles="".join(tiles), epoch=epoch_block,
         validators=validator_table, dex=dex_table or "<p class='note'>No DEX data this run.</p>",
-        metrics=metric_table,
+        rwa=rwa_table, metrics=metric_table,
     )

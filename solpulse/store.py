@@ -27,6 +27,10 @@ def _flatten(snapshot: Dict[str, Any]) -> Dict[str, Any]:
         "price_usd": market.get("price", {}).get("usd"),
         "tvl_usd": market.get("tvl", {}).get("tvl_usd"),
         "stablecoins_usd": market.get("stablecoins", {}).get("total_usd"),
+        "fees_24h_usd": market.get("fees", {}).get("fees_24h_usd"),
+        "rwa_total_usd": market.get("tokenized_assets", {}).get("total_rwa_usd"),
+        "equities_usd": market.get("tokenized_assets", {}).get("equities_usd"),
+        "unique_signers_sampled": chain.get("activity", {}).get("unique_signers_sampled"),
     }
 
 

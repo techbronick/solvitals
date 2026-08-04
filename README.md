@@ -43,6 +43,9 @@ under cron, systemd, or CI:
 | `SOLPULSE_PERF_SAMPLES` | `5` | 60s performance samples averaged for TPS |
 | `SOLPULSE_OUTPUT_DIR` | `output` | Output directory |
 | `SOLPULSE_HISTORY_WINDOW` | `288` | History points retained as the anomaly baseline |
+| `SOLPULSE_PROTOCOLS_TTL` | `21600` | Cache TTL in seconds for the DeFiLlama protocol list |
+| `SOLPULSE_ADDRESS_SAMPLE_BLOCKS` | `3` | Blocks sampled for the address-activity estimate |
+| `SOLPULSE_ADDRESS_SAMPLE_SPACING` | `1500` | Slot spacing between sampled blocks |
 
 ## Data sources
 
@@ -55,10 +58,13 @@ Priority was given to sources that need no key and no third-party package.
 | Validators, stake, delinquency | Solana JSON-RPC | `getVoteAccounts` | No |
 | Supply | Solana JSON-RPC | `getSupply` | No |
 | Node health | Solana JSON-RPC | `getHealth` | No |
+| Address activity | Solana JSON-RPC | `getBlock` over sampled slots | No |
 | SOL price, market cap | CoinGecko public API | REST | No |
 | DeFi TVL, chain rank | DeFiLlama | REST | No |
 | DEX volume, top DEXes | DeFiLlama | REST | No |
 | Stablecoin supply | DeFiLlama | REST | No |
+| Network fees (REV) | DeFiLlama | REST | No |
+| Tokenized RWA and equities | DeFiLlama | REST (cached 6h) | No |
 
 ### How they're integrated
 
@@ -79,6 +85,41 @@ secondary endpoints before giving up.
   validator *count* alone doesn't capture.
 - **Delinquent stake, not just delinquent count.** Seven delinquent validators
   holding 0.001% of stake is noise; seven holding 15% is an incident.
+- **Tokenized equities are broken out from RWA.** The RWA category is dominated
+  by treasuries and private credit — BlackRock BUIDL alone is a third of it — so
+  a single RWA total hides what's happening in tokenized equities specifically.
+  Equity issuers (xStocks, Ondo Global Markets) are separated and reported both
+  in absolute terms and as a share.
+- **Fees are labelled the fee component of REV, not REV.** Real Economic Value
+  is conventionally fees plus out-of-protocol MEV tips. Tip data needs a keyed
+  source, so what's collected is fees, and the report says so rather than
+  overstating the number.
+
+### On active addresses — what this does and doesn't measure
+
+The report samples recent blocks and counts unique fee payers. It deliberately
+does **not** claim to report daily active addresses.
+
+A true 24h unique-address count requires deduplicating signers across roughly
+216,000 blocks. No keyless source exposes that figure, fetching it per run would
+be absurd, and extrapolating from a sample would overcount badly because active
+addresses reappear in many blocks over a day.
+
+What's reported instead is honest and still useful: how many distinct addresses
+are transacting right now, signers per block, and the non-vote share of sampled
+transactions. Tracked over time these show the shape of network activity, and
+the anomaly detector watches them for deviation like any other series. Sample
+width and spacing are configurable via `SOLPULSE_ADDRESS_SAMPLE_BLOCKS` and
+`SOLPULSE_ADDRESS_SAMPLE_SPACING`.
+
+### Caching
+
+DeFiLlama's full protocol list is roughly 8 MB and its RWA figures move on a
+daily cadence. Re-downloading it every refresh would dominate run time and be
+rude to a free API, so it's cached on disk with a 6-hour TTL
+(`SOLPULSE_PROTOCOLS_TTL`). Cache writes are atomic, corrupt cache files fall
+through to a refetch, and a stale cache is used as the fallback when the network
+call fails — so the section stays populated through a transient outage.
 
 ## Automation strategy
 
@@ -152,9 +193,10 @@ stay quiet when a metric is consistently bad.
 | RPC health | — | any non-`ok` status |
 
 **Statistical deviation** — a metric more than 2σ (warning) or 3σ (critical)
-from its own trailing mean, applied to non-vote TPS, SOL price, TVL and
-stablecoin supply. Needs at least 8 history points before it will fire, so a
-fresh install doesn't alarm on itself.
+from its own trailing mean, applied to non-vote TPS, SOL price, TVL, stablecoin
+supply, network fees, tokenized RWA, tokenized equities, and sampled active
+addresses. Needs at least 8 history points before it will fire, so a fresh
+install doesn't alarm on itself.
 
 The current reading is appended to history *after* detection runs, so a value is
 never part of the baseline it's measured against.

@@ -4,7 +4,9 @@ The bounty rewards solutions that need no API keys and no third-party packages,
 so everything here goes through urllib rather than requests/httpx.
 """
 
+import hashlib
 import json
+import os
 import time
 import urllib.error
 import urllib.request
@@ -54,3 +56,41 @@ def request_json(
             time.sleep(backoff ** attempt)
 
     raise FetchError("{}: {}".format(url, last_error))
+
+
+def request_json_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> Any:
+    """Fetch with an on-disk TTL cache.
+
+    Some upstream payloads are large and slow-moving -- DeFiLlama's full
+    protocol list is roughly 8 MB and its RWA figures move on a daily cadence.
+    Re-downloading that every refresh would be rude to a free API and would
+    dominate the run time, so responses are cached and reused until stale.
+    A stale-but-present cache is also the fallback when the fetch fails, which
+    keeps the section populated through a transient outage.
+    """
+    os.makedirs(cache_dir, exist_ok=True)
+    path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".json")
+
+    if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:
+        try:
+            with open(path, "r", encoding="utf-8") as handle:
+                return json.load(handle)
+        except (json.JSONDecodeError, OSError):
+            pass  # corrupt cache is not fatal -- fall through and refetch
+
+    try:
+        body = request_json(url, **kwargs)
+    except FetchError:
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as handle:
+                    return json.load(handle)
+            except (json.JSONDecodeError, OSError):
+                pass
+        raise
+
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as handle:
+        json.dump(body, handle)
+    os.replace(tmp, path)  # atomic: a reader never sees a half-written cache
+    return body

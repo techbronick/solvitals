@@ -7,7 +7,15 @@ provider outage degrades one section instead of the whole report.
 from typing import Any, Dict
 
 from .. import config
-from ..net import FetchError, request_json
+from ..net import FetchError, request_json, request_json_cached
+
+# Categories DeFiLlama uses for tokenized real-world assets.
+RWA_CATEGORIES = ("RWA", "RWA Lending")
+
+# Protocols that tokenize listed equities specifically, as opposed to treasuries,
+# credit or commodities. The bounty asks for equities in particular, and the
+# category alone doesn't separate them.
+EQUITY_PROTOCOLS = ("xstocks", "ondo global markets", "remora", "swarm")
 
 
 def price() -> Dict[str, Any]:
@@ -73,6 +81,77 @@ def stablecoins() -> Dict[str, Any]:
     }
 
 
+def fees() -> Dict[str, Any]:
+    """Network fees -- the fee half of Real Economic Value.
+
+    REV is conventionally fees plus out-of-protocol MEV tips (Jito). Tip data
+    isn't available without a keyed source, so what's reported here is the fee
+    component, labelled as such rather than passed off as full REV.
+    """
+    body = request_json(config.DEFILLAMA_FEES_URL)
+    total_24h = body.get("total24h")
+    protocols = body.get("protocols") or []
+    top = sorted(protocols, key=lambda p: p.get("total24h") or 0, reverse=True)[:5]
+    return {
+        "fees_24h_usd": total_24h,
+        "fees_7d_usd": body.get("total7d"),
+        "fees_30d_usd": body.get("total30d"),
+        "change_24h_pct": body.get("change_1d"),
+        "annualised_usd": round(total_24h * 365, 2) if total_24h else None,
+        "protocol_count": len(protocols),
+        "top_fee_earners": [
+            {"name": p.get("name"), "fees_24h_usd": p.get("total24h")} for p in top
+        ],
+        "note": "Fee component of REV; excludes out-of-protocol MEV tips.",
+        "source": "defillama",
+    }
+
+
+def tokenized_assets() -> Dict[str, Any]:
+    """Tokenized real-world assets on Solana, with equities broken out.
+
+    Sourced from the full protocol list, which is large and slow-moving, so it
+    is cached (see config.PROTOCOLS_CACHE_TTL) rather than refetched each run.
+    """
+    protocols = request_json_cached(
+        config.DEFILLAMA_PROTOCOLS_URL, ttl_secs=config.PROTOCOLS_CACHE_TTL, timeout=60.0
+    )
+    rows = []
+    for p in protocols:
+        if "Solana" not in (p.get("chains") or []):
+            continue
+        if (p.get("category") or "") not in RWA_CATEGORIES:
+            continue
+        value = (p.get("chainTvls") or {}).get("Solana")
+        if not value:
+            continue
+        name = p.get("name") or ""
+        rows.append(
+            {
+                "name": name,
+                "tvl_usd": round(value, 2),
+                "change_24h_pct": round(p["change_1d"], 3) if p.get("change_1d") is not None else None,
+                "category": p.get("category"),
+                "is_equity": any(k in name.lower() for k in EQUITY_PROTOCOLS),
+            }
+        )
+
+    rows.sort(key=lambda r: r["tvl_usd"], reverse=True)
+    equities = [r for r in rows if r["is_equity"]]
+    total = sum(r["tvl_usd"] for r in rows)
+    return {
+        "total_rwa_usd": round(total, 2),
+        "protocol_count": len(rows),
+        "equities_usd": round(sum(r["tvl_usd"] for r in equities), 2),
+        "equities_share_pct": round(100 * sum(r["tvl_usd"] for r in equities) / total, 2)
+        if total
+        else None,
+        "equity_protocols": equities,
+        "top_protocols": rows[:10],
+        "source": "defillama",
+    }
+
+
 def collect() -> Dict[str, Any]:
     out = {}
     for name, fn in (
@@ -80,6 +159,8 @@ def collect() -> Dict[str, Any]:
         ("tvl", tvl),
         ("dex_volume", dex_volume),
         ("stablecoins", stablecoins),
+        ("fees", fees),
+        ("tokenized_assets", tokenized_assets),
     ):
         try:
             out[name] = fn()

@@ -153,6 +153,69 @@ def supply() -> Dict[str, Any]:
     }
 
 
+def active_addresses() -> Dict[str, Any]:
+    """Unique fee payers observed across a sample of recent blocks.
+
+    Deliberately *not* called "daily active addresses". A true daily unique
+    count requires deduplicating signers across every block in 24 hours --
+    roughly 216,000 blocks -- which no keyless source exposes and which would be
+    absurd to fetch per run. Extrapolating a sample would also overcount badly,
+    because active addresses reappear in many blocks over a day.
+
+    What this measures is honest and still useful: how many distinct addresses
+    are transacting right now, and what share of transactions are votes. Tracked
+    over time it shows the shape of activity even though the absolute number is
+    not a daily figure.
+    """
+    tip = _call("getSlot")
+    sampled, signers, tx_total, vote_total = [], set(), 0, 0
+
+    for i in range(config.ADDRESS_SAMPLE_BLOCKS):
+        # Step back from the tip: recent enough to still be served, spaced so the
+        # sample isn't one contiguous burst of near-identical blocks.
+        slot = tip - 200 - (i * config.ADDRESS_SAMPLE_SPACING)
+        try:
+            block = _call(
+                "getBlock",
+                [slot, {"encoding": "jsonParsed", "maxSupportedTransactionVersion": 0,
+                        "transactionDetails": "accounts", "rewards": False}],
+            )
+        except FetchError:
+            continue  # skipped slots and pruned history are both normal
+        if not block:
+            continue
+
+        txs = block.get("transactions") or []
+        tx_total += len(txs)
+        sampled.append(slot)
+        for tx in txs:
+            keys = (tx.get("transaction") or {}).get("accountKeys") or []
+            for key in keys:
+                if key.get("signer"):
+                    signers.add(key.get("pubkey"))
+            # Vote transactions carry exactly one signer and touch the vote program.
+            if any(k.get("pubkey") == "Vote111111111111111111111111111111111111111" for k in keys):
+                vote_total += 1
+
+    if not sampled:
+        return {"error": "no blocks could be sampled"}
+
+    non_vote = tx_total - vote_total
+    return {
+        "unique_signers_sampled": len(signers),
+        "blocks_sampled": len(sampled),
+        "transactions_sampled": tx_total,
+        "non_vote_transactions_sampled": non_vote,
+        "signers_per_block": round(len(signers) / len(sampled), 1),
+        "non_vote_share_pct": round(100 * non_vote / tx_total, 2) if tx_total else None,
+        "sampled_slots": sampled,
+        "note": (
+            "Unique fee payers across sampled blocks -- an activity indicator, "
+            "not a 24h unique-address count."
+        ),
+    }
+
+
 def _safe(fn):
     try:
         return fn()
@@ -169,6 +232,7 @@ def collect() -> Dict[str, Any]:
         ("epoch", epoch),
         ("validators", validators),
         ("supply", supply),
+        ("activity", active_addresses),
     ):
         try:
             out[name] = fn()

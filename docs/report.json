@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 19:04:21",
+  "captured_at": "2026-08-04 19:28:12",
   "generator": "solvitals/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4070.61,
-      "tps_non_vote": 2444.11,
-      "vote_share_pct": 39.96,
-      "avg_slot_time_secs": 0.4225,
-      "latest_sample_slot": 437230812,
+      "tps_total": 3640.51,
+      "tps_non_vote": 2025.44,
+      "vote_share_pct": 44.36,
+      "avg_slot_time_secs": 0.4243,
+      "latest_sample_slot": 437234178,
       "samples_used": 5,
-      "block_height": 415285594,
-      "current_slot": 437230883
+      "block_height": 415288983,
+      "current_slot": 437234273
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 46884,
+      "slot_index": 50274,
       "slots_in_epoch": 432000,
-      "progress_pct": 10.85,
-      "eta_hours": 42.8,
-      "transaction_count": 535114849704
+      "progress_pct": 11.64,
+      "eta_hours": 42.4,
+      "transaction_count": 535120161421
     },
     "validators": {
       "active_count": 692,
@@ -32,7 +32,7 @@
       "total_active_stake_sol": 434421657.36,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 263,
+      "zero_commission_count": 262,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -97,36 +97,36 @@
       ]
     },
     "supply": {
-      "total_sol": 631630512.27,
-      "circulating_sol": 581307827.55,
-      "non_circulating_sol": 50322684.72,
+      "total_sol": 631630498.45,
+      "circulating_sol": 581307744.31,
+      "non_circulating_sol": 50322754.15,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1773,
+      "unique_signers_sampled": 1432,
       "blocks_sampled": 3,
-      "transactions_sampled": 5883,
-      "non_vote_transactions_sampled": 3794,
-      "signers_per_block": 591.0,
-      "non_vote_share_pct": 64.49,
+      "transactions_sampled": 5232,
+      "non_vote_transactions_sampled": 3215,
+      "signers_per_block": 477.3,
+      "non_vote_share_pct": 61.45,
       "sampled_slots": [
-        437230700,
-        437229200,
-        437227700
+        437234094,
+        437232594,
+        437231094
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.11,
-      "change_24h_pct": 0.19,
-      "market_cap_usd": 43081201007.02765,
-      "volume_24h_usd": 1352125389.4279494,
+      "usd": 74.14,
+      "change_24h_pct": 0.14,
+      "market_cap_usd": 43095523900.94187,
+      "volume_24h_usd": 1349994856.8547873,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4782671186.33,
+      "tvl_usd": 4784792457.85,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.39,
       "source": "defillama"
@@ -151,25 +151,25 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 96458931
+          "volume_24h_usd": 103288705
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 88984252
+          "volume_24h_usd": 89374486
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15854523803.31,
+      "total_usd": 15867258168.69,
       "by_peg": {
-        "peggedUSD": 15791831484.1,
-        "peggedEUR": 57936499.14,
+        "peggedUSD": 15804549512.92,
+        "peggedEUR": 57951237.94,
         "peggedJPY": 51.36,
-        "peggedCHF": 1386776.86,
-        "peggedAUD": 54693.38,
-        "peggedVAR": 2414850.8,
-        "peggedGBP": 727887.7,
+        "peggedCHF": 1384938.91,
+        "peggedAUD": 54693.29,
+        "peggedVAR": 2418607.69,
+        "peggedGBP": 727566.59,
         "peggedTRY": 170119.33,
         "peggedCAD": 1439.96,
         "peggedKRW": 0.68

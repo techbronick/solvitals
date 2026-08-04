@@ -1,21 +1,11 @@
 {
-<<<<<<< HEAD
-  "captured_at": "2026-08-04 19:53:14",
+  "captured_at": "2026-08-04 19:56:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
       "measured_slot_time_secs": 0.423,
       "target_slot_time_secs": 0.4,
       "deviation_from_target_pct": 5.75,
-=======
-  "captured_at": "2026-08-04 19:55:57",
-  "generator": "solvitals/1.0.0",
-  "chain": {
-    "slot_timing": {
-      "measured_slot_time_secs": 0.4232,
-      "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.8,
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -23,43 +13,23 @@
       "status": "ok"
     },
     "performance": {
-<<<<<<< HEAD
-      "tps_total": 4113.52,
-      "tps_non_vote": 2485.42,
-      "vote_share_pct": 39.58,
+      "tps_total": 3922.81,
+      "tps_non_vote": 2296.19,
+      "vote_share_pct": 41.47,
       "avg_slot_time_secs": 0.4208,
-      "latest_sample_slot": 437237737,
+      "latest_sample_slot": 437238276,
       "samples_used": 5,
-      "block_height": 415292518,
-      "current_slot": 437237818
+      "block_height": 415292993,
+      "current_slot": 437238293
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 53819,
+      "slot_index": 54295,
       "slots_in_epoch": 432000,
-      "progress_pct": 12.46,
+      "progress_pct": 12.57,
       "eta_hours": 44.4,
       "eta_basis_slot_secs": 0.423,
-      "transaction_count": 535126259799
-=======
-      "tps_total": 4162.1,
-      "tps_non_vote": 2527.56,
-      "vote_share_pct": 39.27,
-      "avg_slot_time_secs": 0.4184,
-      "latest_sample_slot": 437238136,
-      "samples_used": 5,
-      "block_height": 415292910,
-      "current_slot": 437238210
-    },
-    "epoch": {
-      "epoch": 1012,
-      "slot_index": 54211,
-      "slots_in_epoch": 432000,
-      "progress_pct": 12.55,
-      "eta_hours": 44.4,
-      "eta_basis_slot_secs": 0.4232,
-      "transaction_count": 535126877023
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+      "transaction_count": 535127012419
     },
     "validators": {
       "active_count": 692,
@@ -135,16 +105,10 @@
       ]
     },
     "supply": {
-<<<<<<< HEAD
-      "total_sol": 631630482.52,
-      "circulating_sol": 581307659.19,
-      "non_circulating_sol": 50322823.33,
-=======
-      "total_sol": 631630480.9,
-      "circulating_sol": 581307652.54,
-      "non_circulating_sol": 50322828.36,
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
-      "circulating_pct": 92.03
+      "total_sol": 631630480.54,
+      "circulating_sol": 509467070.87,
+      "non_circulating_sol": 122163409.67,
+      "circulating_pct": 80.66
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
@@ -162,56 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-<<<<<<< HEAD
-      "latest_signature": "3vyYz66bx87VVEHqQCbCpB9r6BnrBjAqTGwAcGqLVLgBtmJdK8RYTrFyw6jn7FWXiMpBU2rtX1sLKWPF2kTgrCT2",
-      "latest_block_time": 1785873192,
-      "errors_in_recent": 4
+      "latest_signature": "5D4ruNvjT5QmLJTvc7yhmPddEx1Wa87ZwnRQfZoeb1ZBM1vdDAhckRMpQRfUTSNeodA2RAB9te7mCizpsM3gLRgb",
+      "latest_block_time": 1785873393,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1903,
+      "unique_signers_sampled": 2016,
       "blocks_sampled": 3,
-      "transactions_sampled": 4732,
-      "non_vote_transactions_sampled": 2684,
-      "signers_per_block": 634.3,
-      "non_vote_share_pct": 56.72,
+      "transactions_sampled": 5482,
+      "non_vote_transactions_sampled": 3467,
+      "signers_per_block": 672.0,
+      "non_vote_share_pct": 63.24,
       "sampled_slots": [
-        437237641,
-        437236141,
-        437234641
-=======
-      "latest_signature": "j4xRjyks3vDXpiN7edJbfbk8QXKJRDaDM4Txujg8utqxCYKuxxyE4k9xgusSjWNTRVXnotFxoUv6H1re72tKfK2",
-      "latest_block_time": 1785873354,
-      "errors_in_recent": 0
-    },
-    "activity": {
-      "unique_signers_sampled": 1680,
-      "blocks_sampled": 3,
-      "transactions_sampled": 4456,
-      "non_vote_transactions_sampled": 2419,
-      "signers_per_block": 560.0,
-      "non_vote_share_pct": 54.29,
-      "sampled_slots": [
-        437238031,
-        437236531,
-        437235031
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+        437238118,
+        437236618,
+        437235118
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-<<<<<<< HEAD
-      "usd": 74.15,
-      "change_24h_pct": 0.21,
-      "market_cap_usd": 43108185376.73973,
-      "volume_24h_usd": 1352913887.3831913,
-=======
-      "usd": 74.14,
-      "change_24h_pct": 0.17,
-      "market_cap_usd": 43095287058.334335,
-      "volume_24h_usd": 1353854576.7787,
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+      "usd": 74.1,
+      "change_24h_pct": 0.19,
+      "market_cap_usd": 43073838495.77333,
+      "volume_24h_usd": 1353422221.1395147,
       "source": "coingecko"
     },
     "tvl": {
@@ -266,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 784268.52,
+      "rev_24h_usd": 786847.52,
       "network_fees_24h_usd": 614784,
-      "mev_tips_24h_usd": 169484.52,
-      "mev_share_of_rev_pct": 21.61,
-      "rev_annualised_usd": 286258009.8,
+      "mev_tips_24h_usd": 172063.52,
+      "mev_share_of_rev_pct": 21.87,
+      "rev_annualised_usd": 287199344.8,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 147292
+          "tips_24h_usd": 149871
         },
         {
           "name": "Harmonic",
@@ -2345,11 +2284,7 @@
     "source": "solana-improvement-documents + agave feature-set + live RPC"
   },
   "social": {
-<<<<<<< HEAD
-    "error": "no accounts reachable this run: solana, solanalabs, SuperteamDAO"
-=======
     "error": "no usable posts; accounts failed: solana, solanalabs, SuperteamDAO"
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
   },
   "anomalies": []
 }

@@ -1,10 +1,6 @@
 # Solana Ecosystem Report
 
-<<<<<<< HEAD
-Generated 2026-08-04 19:53:14 UTC by SolVitals.
-=======
-Generated 2026-08-04 19:55:57 UTC by SolVitals.
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+Generated 2026-08-04 19:56:34 UTC by SolVitals.
 
 ## Alerts
 
@@ -14,35 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-<<<<<<< HEAD
-| Non-vote TPS | 2,485.42 |
-| Total TPS (incl. votes) | 4,113.52 |
-| Vote share of transactions | 39.58% |
+| Non-vote TPS | 2,296.19 |
+| Total TPS (incl. votes) | 3,922.81 |
+| Vote share of transactions | 41.47% |
 | Average slot time | 0.4208 s |
-| Current slot | 437,237,818 |
-| Block height | 415,292,518 |
-=======
-| Non-vote TPS | 2,527.56 |
-| Total TPS (incl. votes) | 4,162.10 |
-| Vote share of transactions | 39.27% |
-| Average slot time | 0.4184 s |
-| Current slot | 437,238,210 |
-| Block height | 415,292,910 |
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+| Current slot | 437,238,293 |
+| Block height | 415,292,993 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-<<<<<<< HEAD
-Epoch **1012** — 12.46% complete (`##..................`), ~44.4 hours remaining.
+Epoch **1012** — 12.57% complete (`###.................`), ~44.4 hours remaining.
 
-Slot 53,819 of 432,000. Lifetime transaction count: 535,126,259,799.
-=======
-Epoch **1012** — 12.55% complete (`###.................`), ~44.4 hours remaining.
-
-Slot 54,211 of 432,000. Lifetime transaction count: 535,126,877,023.
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+Slot 54,295 of 432,000. Lifetime transaction count: 535,127,012,419.
 
 ## Transaction costs and slot timing
 
@@ -53,23 +34,14 @@ Slot 54,211 of 432,000. Lifetime transaction count: 535,126,877,023.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-<<<<<<< HEAD
 | Measured slot time (`getBlockTime`) | 0.423 s |
 | Deviation from 0.4s target | 5.75% |
-=======
-| Measured slot time (`getBlockTime`) | 0.4232 s |
-| Deviation from 0.4s target | 5.8% |
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-<<<<<<< HEAD
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
-=======
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -104,13 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-<<<<<<< HEAD
-| SOL price | $74.15 (up 0.21%) |
-| Market cap | $43.11B |
-=======
-| SOL price | $74.14 (up 0.17%) |
-| Market cap | $43.10B |
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+| SOL price | $74.10 (up 0.19%) |
+| Market cap | $43.07B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.00%) |
@@ -120,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$784.27K** |
+| **REV (total)** | **$786.85K** |
 | Network fees | $614.78K |
-| MEV tips (out-of-protocol) | $169.48K (21.61% of REV) |
-| Annualised REV run-rate | $286.26M |
+| MEV tips (out-of-protocol) | $172.06K (21.87% of REV) |
+| Annualised REV run-rate | $287.20M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $147.29K |
+| Jito MEV Tips | $149.87K |
 | Harmonic | $14.74K |
 | bloXroute | $7.45K |
 | Pyth Express Relay | $1 |
@@ -186,19 +153,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-<<<<<<< HEAD
-| Unique fee payers (sampled) | 1,903 |
+| Unique fee payers (sampled) | 2,016 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,732 |
-| Non-vote share of sample | 56.72% |
-| Signers per block | 634.3 |
-=======
-| Unique fee payers (sampled) | 1,680 |
-| Blocks sampled | 3 |
-| Transactions in sample | 4,456 |
-| Non-vote share of sample | 54.29% |
-| Signers per block | 560.0 |
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+| Transactions in sample | 5,482 |
+| Non-vote share of sample | 63.24% |
+| Signers per block | 672.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -214,11 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-<<<<<<< HEAD
-Circulating 581,307,659 SOL of 631,630,483 total (92.03%).
-=======
-Circulating 581,307,653 SOL of 631,630,481 total (92.03%).
->>>>>>> 31d2913 (Fix false Alpenglow claim, three run-killing crashes, doc contradictions)
+Circulating 509,467,071 SOL of 631,630,481 total (80.66%).
 
 ## Ecosystem growth (solana.com/data)
 

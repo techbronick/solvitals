@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 17:42:18",
+  "captured_at": "2026-08-04 17:50:57",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3761.91,
-      "tps_non_vote": 2129.31,
-      "vote_share_pct": 43.4,
-      "avg_slot_time_secs": 0.4202,
-      "latest_sample_slot": 437219291,
+      "tps_total": 4001.59,
+      "tps_non_vote": 2376.44,
+      "vote_share_pct": 40.61,
+      "avg_slot_time_secs": 0.4208,
+      "latest_sample_slot": 437220436,
       "samples_used": 5,
-      "block_height": 415273992,
-      "current_slot": 437219265
+      "block_height": 415275218,
+      "current_slot": 437220496
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 35265,
+      "slot_index": 36497,
       "slots_in_epoch": 432000,
-      "progress_pct": 8.16,
-      "eta_hours": 44.1,
-      "transaction_count": 535095449307
+      "progress_pct": 8.45,
+      "eta_hours": 43.9,
+      "transaction_count": 535097500891
     },
     "validators": {
       "active_count": 692,
@@ -97,38 +97,38 @@
       ]
     },
     "supply": {
-      "total_sol": 631630562.88,
-      "circulating_sol": 581307949.23,
+      "total_sol": 631630557.48,
+      "circulating_sol": 581307943.83,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1468,
+      "unique_signers_sampled": 1614,
       "blocks_sampled": 3,
-      "transactions_sampled": 5036,
-      "non_vote_transactions_sampled": 2992,
-      "signers_per_block": 489.3,
-      "non_vote_share_pct": 59.41,
+      "transactions_sampled": 4995,
+      "non_vote_transactions_sampled": 2903,
+      "signers_per_block": 538.0,
+      "non_vote_share_pct": 58.12,
       "sampled_slots": [
-        437219081,
-        437217581,
-        437216081
+        437220316,
+        437218816,
+        437217316
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.03,
-      "change_24h_pct": 0.57,
-      "market_cap_usd": 43034827426.29471,
-      "volume_24h_usd": 1377113331.539521,
+      "usd": 73.97,
+      "change_24h_pct": 0.44,
+      "market_cap_usd": 42998586736.52016,
+      "volume_24h_usd": 1375386218.505694,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4778228384.7,
+      "tvl_usd": 4780416444.92,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.38,
+      "share_of_all_chains_pct": 6.39,
       "source": "defillama"
     },
     "dex_volume": {

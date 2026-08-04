@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 18:54:59",
+  "captured_at": "2026-08-04 19:04:21",
   "generator": "solvitals/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3939.68,
-      "tps_non_vote": 2321.83,
-      "vote_share_pct": 41.07,
-      "avg_slot_time_secs": 0.4213,
-      "latest_sample_slot": 437229499,
+      "tps_total": 4070.61,
+      "tps_non_vote": 2444.11,
+      "vote_share_pct": 39.96,
+      "avg_slot_time_secs": 0.4225,
+      "latest_sample_slot": 437230812,
       "samples_used": 5,
-      "block_height": 415284273,
-      "current_slot": 437229562
+      "block_height": 415285594,
+      "current_slot": 437230883
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 45562,
+      "slot_index": 46884,
       "slots_in_epoch": 432000,
-      "progress_pct": 10.55,
-      "eta_hours": 42.9,
-      "transaction_count": 535112632295
+      "progress_pct": 10.85,
+      "eta_hours": 42.8,
+      "transaction_count": 535114849704
     },
     "validators": {
       "active_count": 692,
@@ -97,32 +97,32 @@
       ]
     },
     "supply": {
-      "total_sol": 631630518.04,
-      "circulating_sol": 581307875.33,
-      "non_circulating_sol": 50322642.7,
+      "total_sol": 631630512.27,
+      "circulating_sol": 581307827.55,
+      "non_circulating_sol": 50322684.72,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1450,
+      "unique_signers_sampled": 1773,
       "blocks_sampled": 3,
-      "transactions_sampled": 5152,
-      "non_vote_transactions_sampled": 3116,
-      "signers_per_block": 483.3,
-      "non_vote_share_pct": 60.48,
+      "transactions_sampled": 5883,
+      "non_vote_transactions_sampled": 3794,
+      "signers_per_block": 591.0,
+      "non_vote_share_pct": 64.49,
       "sampled_slots": [
-        437229378,
-        437227878,
-        437226378
+        437230700,
+        437229200,
+        437227700
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.09,
-      "change_24h_pct": 0.15,
-      "market_cap_usd": 43069510418.75608,
-      "volume_24h_usd": 1355784839.608367,
+      "usd": 74.11,
+      "change_24h_pct": 0.19,
+      "market_cap_usd": 43081201007.02765,
+      "volume_24h_usd": 1352125389.4279494,
       "source": "coingecko"
     },
     "tvl": {

@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 17:41:00",
+  "captured_at": "2026-08-04 17:41:51",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3764.98,
-      "tps_non_vote": 2147.47,
-      "vote_share_pct": 42.96,
+      "tps_total": 3784.1,
+      "tps_non_vote": 2157.0,
+      "vote_share_pct": 43.0,
       "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 437219003,
+      "latest_sample_slot": 437219147,
       "samples_used": 5,
-      "block_height": 415273810,
-      "current_slot": 437219084
+      "block_height": 415273932,
+      "current_slot": 437219206
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 35086,
+      "slot_index": 35208,
       "slots_in_epoch": 432000,
-      "progress_pct": 8.12,
+      "progress_pct": 8.15,
       "eta_hours": 44.1,
-      "transaction_count": 535095161648
+      "transaction_count": 535095363499
     },
     "validators": {
       "active_count": 692,
@@ -97,32 +97,32 @@
       ]
     },
     "supply": {
-      "total_sol": 631630563.62,
-      "circulating_sol": 581307949.97,
+      "total_sol": 631630563.1,
+      "circulating_sol": 581307949.45,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
-      "unique_signers_sampled": 1468,
+      "unique_signers_sampled": 1737,
       "blocks_sampled": 3,
-      "transactions_sampled": 3969,
-      "non_vote_transactions_sampled": 1943,
-      "signers_per_block": 489.3,
-      "non_vote_share_pct": 48.95,
+      "transactions_sampled": 4801,
+      "non_vote_transactions_sampled": 2718,
+      "signers_per_block": 579.0,
+      "non_vote_share_pct": 56.61,
       "sampled_slots": [
-        437218906,
-        437217406,
-        437215906
+        437219026,
+        437217526,
+        437216026
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.0,
-      "change_24h_pct": 0.59,
-      "market_cap_usd": 43018343866.73526,
-      "volume_24h_usd": 1376220682.8761196,
+      "usd": 74.03,
+      "change_24h_pct": 0.57,
+      "market_cap_usd": 43034827426.29471,
+      "volume_24h_usd": 1377113331.539521,
       "source": "coingecko"
     },
     "tvl": {

@@ -1,29 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 18:30:19 UTC by SolPulse.
+Generated 2026-08-04 18:31:17 UTC by SolPulse.
 
 ## Alerts
 
 - [WARNING] **nakamoto_coefficient** — nakamoto_coefficient is 18 (below 20)
+- [WARNING] **price_usd** — price_usd is 2.3 sigma above its 8-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,245.67 |
-| Total TPS (incl. votes) | 3,859.14 |
-| Vote share of transactions | 41.81% |
-| Average slot time | 0.4255 s |
-| Current slot | 437,226,067 |
-| Block height | 415,280,779 |
+| Non-vote TPS | 2,255.05 |
+| Total TPS (incl. votes) | 3,855.73 |
+| Vote share of transactions | 41.51% |
+| Average slot time | 0.4292 s |
+| Current slot | 437,226,192 |
+| Block height | 415,280,907 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 9.74% complete (`##..................`), ~43.3 hours remaining.
+Epoch **1012** — 9.77% complete (`##..................`), ~43.3 hours remaining.
 
-Slot 42,070 of 432,000. Lifetime transaction count: 535,106,866,839.
+Slot 42,193 of 432,000. Lifetime transaction count: 535,107,063,496.
 
 ## Validators
 
@@ -58,8 +59,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.26 (up 0.46%) |
-| Market cap | $43.18B |
+| SOL price | $74.25 (up 0.42%) |
+| Market cap | $43.16B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.71B (up 27.00%) |
@@ -120,8 +121,8 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | --- | --- |
 | Unique fee payers (sampled) | 1,716 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,790 |
-| Non-vote share of sample | 57.27% |
+| Transactions in sample | 6,509 |
+| Non-vote share of sample | 68.61% |
 | Signers per block | 572.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._

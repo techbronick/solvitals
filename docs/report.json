@@ -1,27 +1,27 @@
 {
-  "captured_at": "2026-08-04 18:30:19",
+  "captured_at": "2026-08-04 18:31:17",
   "generator": "solpulse/1.0.0",
   "chain": {
     "health": {
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3859.14,
-      "tps_non_vote": 2245.67,
-      "vote_share_pct": 41.81,
-      "avg_slot_time_secs": 0.4255,
-      "latest_sample_slot": 437225972,
+      "tps_total": 3855.73,
+      "tps_non_vote": 2255.05,
+      "vote_share_pct": 41.51,
+      "avg_slot_time_secs": 0.4292,
+      "latest_sample_slot": 437226091,
       "samples_used": 5,
-      "block_height": 415280779,
-      "current_slot": 437226067
+      "block_height": 415280907,
+      "current_slot": 437226192
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 42070,
+      "slot_index": 42193,
       "slots_in_epoch": 432000,
-      "progress_pct": 9.74,
+      "progress_pct": 9.77,
       "eta_hours": 43.3,
-      "transaction_count": 535106866839
+      "transaction_count": 535107063496
     },
     "validators": {
       "active_count": 692,
@@ -97,32 +97,32 @@
       ]
     },
     "supply": {
-      "total_sol": 631630533.08,
-      "circulating_sol": 581307919.43,
+      "total_sol": 631630532.59,
+      "circulating_sol": 581307918.94,
       "non_circulating_sol": 50322613.65,
       "circulating_pct": 92.03
     },
     "activity": {
       "unique_signers_sampled": 1716,
       "blocks_sampled": 3,
-      "transactions_sampled": 4790,
-      "non_vote_transactions_sampled": 2743,
+      "transactions_sampled": 6509,
+      "non_vote_transactions_sampled": 4466,
       "signers_per_block": 572.0,
-      "non_vote_share_pct": 57.27,
+      "non_vote_share_pct": 68.61,
       "sampled_slots": [
-        437225895,
-        437224395,
-        437222895
+        437226012,
+        437224512,
+        437223012
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.26,
-      "change_24h_pct": 0.46,
-      "market_cap_usd": 43178643208.35623,
-      "volume_24h_usd": 1368258849.1676204,
+      "usd": 74.25,
+      "change_24h_pct": 0.42,
+      "market_cap_usd": 43160631023.58574,
+      "volume_24h_usd": 1366680942.6595957,
       "source": "coingecko"
     },
     "tvl": {
@@ -4896,6 +4896,13 @@
       "message": "nakamoto_coefficient is 18 (below 20)",
       "value": 18,
       "expected": "> 20"
+    },
+    {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.3 sigma above its 8-point mean",
+      "value": 74.25,
+      "expected": 74.0375
     }
   ]
 }

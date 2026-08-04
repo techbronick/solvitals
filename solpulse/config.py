@@ -38,6 +38,9 @@ SOLANA_DATA_URL = "https://solana.com/api/databricks/data?days={}".format(
     os.environ.get("SOLPULSE_ECOSYSTEM_DAYS", "90")
 )
 SOLANA_DATA_CACHE_TTL = int(os.environ.get("SOLPULSE_ECOSYSTEM_TTL", "21600"))  # 6h
+# History points embedded per ecosystem metric. Enough for a readable sparkline
+# without inflating report.json, which is committed on every refresh.
+ECOSYSTEM_SERIES_POINTS = int(os.environ.get("SOLPULSE_ECOSYSTEM_SERIES_POINTS", "30"))
 # Relative spread between providers measuring the same metric on the same day
 # before it is reported as a divergence.
 DIVERGENCE_THRESHOLD = float(os.environ.get("SOLPULSE_DIVERGENCE_THRESHOLD", "0.15"))

@@ -11,6 +11,7 @@ Both are needed. Thresholds alone miss a TVL collapse that stays "large";
 z-scores alone stay quiet when a metric is consistently bad.
 """
 
+import os
 from typing import Any, Dict, List, Optional
 
 SEVERITY_ORDER = {"critical": 0, "warning": 1, "info": 2}
@@ -23,7 +24,11 @@ UPPER_THRESHOLDS = {
 # metric -> (warning, critical), compared as "value at or below is worse"
 LOWER_THRESHOLDS = {
     "tps_non_vote": (800.0, 400.0),
-    "nakamoto_coefficient": (20, 15),
+    # Solana's Nakamoto coefficient has sat in the high teens for years (18 at
+    # time of writing). A warning bound above the normal operating value would
+    # fire on every single run, which trains the reader to ignore alerts. These
+    # bounds mark genuine deterioration from the status quo.
+    "nakamoto_coefficient": (14, 10),
 }
 
 Z_SCORE_METRICS = (
@@ -39,6 +44,13 @@ Z_SCORE_METRICS = (
 Z_WARNING = 2.0
 Z_CRITICAL = 3.0
 MIN_HISTORY = 8
+
+# A z-score is meaningless when the baseline barely moves: a near-flat series
+# has a tiny standard deviation, so a rounding-level change scores hundreds of
+# sigma. Several tracked metrics (TVL, stablecoin supply, cached RWA figures)
+# update far more slowly than the refresh interval, so this is the normal case,
+# not an edge case. A deviation must ALSO clear this relative move to count.
+MIN_RELATIVE_MOVE = float(os.environ.get("SOLPULSE_MIN_RELATIVE_MOVE", "0.02"))
 
 
 def _mean(values: List[float]) -> float:
@@ -69,7 +81,7 @@ def _check_thresholds(current: Dict[str, Any]) -> List[Dict[str, Any]]:
         if value is None:
             continue
         if value >= crit:
-            found.append(_finding(metric, "critical", "{} is {} (critical above {})".format(metric, value, crit), value, "< {}".format(warn)))
+            found.append(_finding(metric, "critical", "{} is {} (critical above {})".format(metric, value, crit), value, "< {}".format(crit)))
         elif value >= warn:
             found.append(_finding(metric, "warning", "{} is {} (elevated above {})".format(metric, value, warn), value, "< {}".format(warn)))
 
@@ -78,7 +90,7 @@ def _check_thresholds(current: Dict[str, Any]) -> List[Dict[str, Any]]:
         if value is None:
             continue
         if value <= crit:
-            found.append(_finding(metric, "critical", "{} is {} (critical below {})".format(metric, value, crit), value, "> {}".format(warn)))
+            found.append(_finding(metric, "critical", "{} is {} (critical below {})".format(metric, value, crit), value, "> {}".format(crit)))
         elif value <= warn:
             found.append(_finding(metric, "warning", "{} is {} (below {})".format(metric, value, warn), value, "> {}".format(warn)))
     return found
@@ -98,6 +110,10 @@ def _check_deviation(current: Dict[str, Any], history: List[Dict[str, Any]]) -> 
         if stdev == 0:
             continue
         z = (value - mean) / stdev
+        # Guard against a near-flat baseline turning noise into a huge sigma.
+        relative_move = abs(value - mean) / abs(mean) if mean else 0.0
+        if relative_move < MIN_RELATIVE_MOVE:
+            continue
         direction = "above" if z > 0 else "below"
         severity = None
         if abs(z) >= Z_CRITICAL:

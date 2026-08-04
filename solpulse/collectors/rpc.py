@@ -8,7 +8,7 @@ that metric rather than aborting the run.
 from typing import Any, Dict, List, Optional
 
 from .. import config
-from ..net import FetchError, request_json
+from ..net import DATA_ERRORS, FetchError, request_json
 
 LAMPORTS_PER_SOL = 1_000_000_000
 
@@ -59,10 +59,11 @@ def network_performance() -> Dict[str, Any]:
     latest = samples[0]
     return {
         "tps_total": round(total_txns / total_secs, 2) if total_secs else None,
-        "tps_non_vote": round(total_non_vote / total_secs, 2) if total_secs and total_non_vote else None,
-        "vote_share_pct": round(100 * (1 - total_non_vote / total_txns), 2)
-        if total_txns and total_non_vote
-        else None,
+        # `is not None`, not truthiness: zero non-vote transactions is exactly
+        # the halt condition the TPS threshold exists to catch, and treating it
+        # as "missing" made that alert unreachable.
+        "tps_non_vote": round(total_non_vote / total_secs, 2) if total_secs else None,
+        "vote_share_pct": round(100 * (1 - total_non_vote / total_txns), 2) if total_txns else None,
         "avg_slot_time_secs": round(total_secs / total_slots, 4) if total_slots else None,
         "latest_sample_slot": latest.get("slot"),
         "samples_used": len(samples),
@@ -104,12 +105,17 @@ def validators() -> Dict[str, Any]:
 
     # Nakamoto coefficient: validators needed to reach 33% of stake and halt
     # consensus. The single most useful decentralisation number.
-    running, nakamoto = 0.0, 0
-    for stake, _ in staked:
-        running += stake
-        nakamoto += 1
-        if total_stake and running / total_stake >= 0.33:
-            break
+    running, nakamoto = 0.0, None
+    if total_stake:
+        count = 0
+        for stake, _ in staked:
+            running += stake
+            count += 1
+            # Strictly greater than one third -- the superminority threshold is
+            # 33.3...%, not 33%.
+            if running / total_stake > 1.0 / 3.0:
+                nakamoto = count
+                break
 
     top = [
         {
@@ -157,15 +163,13 @@ def active_addresses() -> Dict[str, Any]:
     """Unique fee payers observed across a sample of recent blocks.
 
     Deliberately *not* called "daily active addresses". A true daily unique
-    count requires deduplicating signers across every block in 24 hours --
-    roughly 216,000 blocks -- which no keyless source exposes and which would be
-    absurd to fetch per run. Extrapolating a sample would also overcount badly,
-    because active addresses reappear in many blocks over a day.
+    count means deduplicating signers across ~216,000 blocks, which is not
+    something a per-run collector can do -- that figure comes from the
+    ecosystem collector instead (solana.com/data, provider-deduplicated).
 
-    What this measures is honest and still useful: how many distinct addresses
-    are transacting right now, and what share of transactions are votes. Tracked
-    over time it shows the shape of activity even though the absolute number is
-    not a daily figure.
+    This measures something the daily number cannot: who is transacting *right
+    now*. The daily figure lags by a day; this is current. Both are reported,
+    each labelled for what it is.
     """
     tip = _call("getSlot")
     sampled, signers, tx_total, vote_total = [], set(), 0, 0
@@ -219,12 +223,17 @@ def active_addresses() -> Dict[str, Any]:
 def _safe(fn):
     try:
         return fn()
-    except FetchError:
+    except (FetchError,) + DATA_ERRORS:
         return None
 
 
 def collect() -> Dict[str, Any]:
-    """Run every on-chain collector, isolating failures per section."""
+    """Run every on-chain collector, isolating failures per section.
+
+    Catches malformed-response errors as well as transport failures. An upstream
+    that returns valid JSON of an unexpected shape must cost one section, not
+    the whole run -- schema drift is at least as likely as an outage.
+    """
     out = {}
     for name, fn in (
         ("health", health),
@@ -238,4 +247,6 @@ def collect() -> Dict[str, Any]:
             out[name] = fn()
         except FetchError as exc:
             out[name] = {"error": str(exc)}
+        except DATA_ERRORS as exc:
+            out[name] = {"error": "unexpected response shape: {}: {}".format(type(exc).__name__, exc)}
     return out

@@ -28,21 +28,24 @@ CSS = """
   --series:      #3987e5;
   --good:        #0ca30c;
   --warning:     #fab219;
-  --serious:     #ec835a;
   --critical:    #d03b3b;
 }
 :root[data-theme="light"] {
   color-scheme: light;
   --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
-  --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7;
+  --muted: #6b6a66; --grid: #e1e0d9; --axis: #c3c2b7;
   --border: rgba(11,11,11,0.10); --series: #2a78d6; --good: #006300;
+  /* Status steps re-chosen for the light surface: the dark-mode values drop
+     to 1.8:1 here, which would make the WARNING label effectively invisible. */
+  --warning: #8a5a00; --critical: #b32020;
 }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
     color-scheme: light;
     --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
-    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7;
+    --muted: #6b6a66; --grid: #e1e0d9; --axis: #c3c2b7;
     --border: rgba(11,11,11,0.10); --series: #2a78d6; --good: #006300;
+    --warning: #8a5a00; --critical: #b32020;
   }
 }
 body {
@@ -118,7 +121,7 @@ td.num, th.num { text-align: right; }
        border-radius: 4px; padding: 1px 5px; margin-left: 6px; vertical-align: 1px; }
 .scroll { overflow-x: auto; }
 .note { color: var(--muted); font-size: 12.5px; margin-top: 9px; }
-.err { color: var(--serious); font-size: 13px; }
+.err { color: var(--warning); font-size: 13px; }
 
 #tip { position: fixed; pointer-events: none; opacity: 0; transition: opacity .1s;
        background: var(--surface); color: var(--ink); border: 1px solid var(--border);
@@ -159,7 +162,7 @@ JS = """
       svg.classList.add('on');
       line.setAttribute('x1', p.x); line.setAttribute('x2', p.x);
       dot.setAttribute('cx', p.x); dot.setAttribute('cy', p.y);
-      tip.innerHTML = '<strong>' + p.v + '</strong><br>' + p.t;
+      tip.textContent = p.v + '  ' + p.t;
       tip.style.opacity = 1;
       var w = tip.offsetWidth;
       tip.style.left = Math.min(window.innerWidth - w - 8, Math.max(8, e.clientX - w / 2)) + 'px';
@@ -178,6 +181,13 @@ JS = """
 
 def _esc(value: Any) -> str:
     return html_escape.escape(str(value), quote=True)
+
+
+def _safe_url(url: Any) -> str:
+    """Allow only http(s) links. Feed items are third-party content, and
+    escaping alone would still permit a clickable javascript: URL."""
+    text = str(url or "")
+    return text if text.startswith(("https://", "http://")) else ""
 
 
 def _fmt_usd(value: Any, decimals: int = 0) -> str:
@@ -208,13 +218,18 @@ def _sparkline(series: List[Dict[str, Any]], key: str, fmt) -> str:
     w, h, pad = 240.0, 34.0, 4.0
     values = [v for _, v in points]
     lo, hi = min(values), max(values)
-    span = (hi - lo) or (abs(hi) or 1) * 0.02
     step = w / (len(points) - 1)
+    flat = hi == lo
+    span = (hi - lo) or 1.0
 
     coords = []
     for i, (stamp, value) in enumerate(points):
         x = i * step
-        y = pad + (h - 2 * pad) * (1 - (value - lo) / span)
+        # A perfectly stable series is drawn through the middle of the tile.
+        # Normalising it against an artificial span pinned it to the bottom,
+        # which reads as "bottomed out" rather than "unchanged".
+        frac = 0.5 if flat else (value - lo) / span
+        y = pad + (h - 2 * pad) * (1 - frac)
         coords.append({"x": round(x, 2), "y": round(y, 2), "v": fmt(value), "t": stamp or ""})
 
     path = " ".join("{},{}".format(c["x"], c["y"]) for c in coords)
@@ -251,6 +266,8 @@ def _sparkline_from_series(points: List[Dict[str, Any]], fmt) -> str:
 
 
 def _tile(label: str, value: str, sub: str = "", spark: str = "") -> str:
+    # value/sub carry pre-built markup from callers (deltas, sparklines), so they
+    # are composed from already-escaped parts rather than escaped wholesale here.
     sub_html = '<div class="sub">{}</div>'.format(sub) if sub else ""
     return (
         '<div class="tile"><div class="label">{}</div>'
@@ -419,9 +436,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             '<rect x="0" y="3" width="{w}" height="6" rx="3" fill="var(--series)"/>'
             "</svg></div>"
         ).format(
-            n=_esc(ep.get("epoch")), pct=pct,
+            n=_esc(ep.get("epoch")), pct=_esc(pct),
             i=_fmt_num(ep.get("slot_index")), t=_fmt_num(ep.get("slots_in_epoch")),
-            eta=ep.get("eta_hours"), w=round(240 * pct / 100, 1),
+            eta=_esc(ep.get("eta_hours")), w=round(240 * float(pct or 0) / 100, 1),
         )
 
     # --- Validator table --------------------------------------------------
@@ -429,7 +446,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         "<tr><td>{i}</td><td class='mono'>{acct}</td><td class='num'>{stake}</td>"
         "<td class='num'>{pct}%</td><td class='num'>{comm}%</td></tr>".format(
             i=i, acct=_esc(v.get("vote_account")), stake=_fmt_num(v.get("stake_sol")),
-            pct=v.get("stake_pct"), comm=v.get("commission"),
+            pct=_esc(v.get("stake_pct")), comm=_esc(v.get("commission")),
         )
         for i, v in enumerate(val.get("top_validators", []), 1)
     )
@@ -467,6 +484,33 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         "<tbody>{}</tbody></table></div>"
     ).format(rwa_rows) if rwa_rows else "<p class='note'>No tokenized-asset data this run.</p>"
 
+    # --- Degraded sections -------------------------------------------------
+    # The docs promise a failed section reports why. Tiles fall back to "n/a",
+    # which shows that something is missing but not what -- so failures are
+    # collected and explained in one place.
+    degraded = []
+    for group in ("chain", "market"):
+        for name, section in (snapshot.get(group) or {}).items():
+            if isinstance(section, dict) and "error" in section:
+                degraded.append((name, section["error"]))
+    for group in ("ecosystem", "news"):
+        section = snapshot.get(group) or {}
+        if "error" in section:
+            degraded.append((group, section["error"]))
+
+    degraded_block = (
+        '<div class="alerts">{}</div>'.format(
+            "".join(
+                '<div class="alert warning"><span class="icon">UNAVAILABLE</span>'
+                '<span class="body"><span class="metric">{}</span> '
+                '<span class="detail">{}</span></span></div>'.format(_esc(n), _esc(e))
+                for n, e in degraded
+            )
+        )
+        if degraded
+        else ""
+    )
+
     # --- Provider divergence ----------------------------------------------
     div_rows = "".join(
         "<tr><td>{}</td><td>{}</td><td class='num'>{}%</td><td>{}</td></tr>".format(
@@ -488,7 +532,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     news_items = "".join(
         '<li><a href="{}" target="_blank" rel="noopener">{}</a>'
         '<div class="news-sub">{}</div></li>'.format(
-            _esc(i.get("link")), _esc(i.get("title")), _esc(i.get("summary") or "")
+            _esc(_safe_url(i.get("link"))), _esc(i.get("title")), _esc(i.get("summary") or "")
         )
         for i in (news.get("items") or [])
     )
@@ -510,7 +554,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("Delinquent validators", _fmt_num(val.get("delinquent_count"))),
         ("Total active stake", "{} SOL".format(_fmt_num(val.get("total_active_stake_sol")))),
         ("Nakamoto coefficient", str(val.get("nakamoto_coefficient") or "n/a")),
-        ("Median commission", "{}%".format(val.get("median_commission"))),
+        ("Median commission", "{}%".format(val.get("median_commission")) if val.get("median_commission") is not None else "n/a"),
         ("SOL price", _fmt_usd(price.get("usd"), 2)),
         ("Market cap", _fmt_usd(price.get("market_cap_usd"))),
         ("DeFi TVL", _fmt_usd(tvl.get("tvl_usd"))),
@@ -524,7 +568,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("Daily active addresses", _fmt_num((eco_metrics.get("active_addresses") or {}).get("value"))),
         ("Daily fee payers", _fmt_num((eco_metrics.get("fee_payers") or {}).get("value"))),
         ("Live signers (sampled, not daily)", _fmt_num(act.get("unique_signers_sampled"))),
-        ("Non-vote share of sampled txs", "{}%".format(act.get("non_vote_share_pct"))),
+        ("Non-vote share of sampled txs", "{}%".format(act.get("non_vote_share_pct")) if act.get("non_vote_share_pct") is not None else "n/a"),
         ("Circulating supply", "{} SOL{}".format(
             _fmt_num(sup.get("circulating_sol")),
             " ({}%)".format(supply_pct) if supply_pct else "")),
@@ -559,6 +603,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
 
   <h2>Alerts</h2>
   {alerts}
+
+  {degraded_heading}
+  {degraded}
 
   <h2>Key metrics</h2>
   <div class="grid">{tiles}</div>
@@ -607,6 +654,8 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
 </html>""".format(
         css=CSS, js=JS, stamp=_esc(snapshot.get("captured_at")), runs=len(history),
         alerts=alerts, tiles="".join(tiles), epoch=epoch_block,
+        degraded=degraded_block,
+        degraded_heading="<h2>Unavailable this run</h2>" if degraded_block else "",
         validators=validator_table, dex=dex_table or "<p class='note'>No DEX data this run.</p>",
         rwa=rwa_table, metrics=metric_table,
         divergence=divergence_block,

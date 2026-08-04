@@ -42,7 +42,7 @@ under cron, systemd, or CI:
 | `SOLPULSE_REFRESH_INTERVAL` | `300` | Seconds between refreshes in watch mode |
 | `SOLPULSE_PERF_SAMPLES` | `5` | 60s performance samples averaged for TPS |
 | `SOLPULSE_OUTPUT_DIR` | `output` | Output directory |
-| `SOLPULSE_HISTORY_WINDOW` | `288` | History points retained as the anomaly baseline |
+| `SOLPULSE_HISTORY_WINDOW` | `288` | Trailing history points used as the anomaly baseline |
 | `SOLPULSE_PROTOCOLS_TTL` | `21600` | Cache TTL in seconds for the DeFiLlama protocol list |
 | `SOLPULSE_ADDRESS_SAMPLE_BLOCKS` | `3` | Blocks sampled for the address-activity estimate |
 | `SOLPULSE_ADDRESS_SAMPLE_SPACING` | `1500` | Slot spacing between sampled blocks |
@@ -78,8 +78,8 @@ secondary endpoints before giving up.
 ### Metrics chosen deliberately
 
 - **Non-vote TPS is the headline, not raw TPS.** Solana counts consensus votes
-  as transactions, so the raw figure runs roughly 1.5× higher than the number
-  people mean by "TPS". Both are reported; the honest one leads.
+  as transactions, so the raw figure runs well above the number people mean by
+  "TPS" -- about 1.8x currently. Both are reported; the honest one leads.
 - **Nakamoto coefficient** — how many validators would need to collude to reach
   33% of stake and halt consensus. A single number for decentralisation that
   validator *count* alone doesn't capture.
@@ -101,7 +101,7 @@ The report gives **both** a true daily active address count and a live sample,
 because they answer different questions.
 
 **Daily active addresses** come from solana.com's own data API, deduplicated
-across the full day by the provider. Current reading: ~524k (Dune). This is the
+across the full day by the provider, and attributed to that provider. This is the
 number people mean by "daily active addresses", and it cannot be derived from
 RPC — deduplicating signers across ~216,000 blocks per day is not something a
 per-run collector can do.
@@ -232,6 +232,18 @@ Markdown report — if something is wrong, it should be the first thing you read
 - Fully self-contained: no CDN, no fonts, no network calls at view time. Open
   `index.html` from disk or serve it statically.
 
+## Tests
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+16 tests over the pure logic -- anomaly thresholds, z-score behaviour on flat
+and moving baselines, finding severity order, and history load/append including
+corrupt-line tolerance. Network collectors aren't unit-tested; what matters
+there is that malformed responses degrade one section instead of killing the
+run, which is covered by the isolation described above.
+
 ## Project layout
 
 ```
@@ -244,10 +256,14 @@ solpulse/
   anomalies.py               threshold + z-score detection
   collectors/
     rpc.py                   on-chain metrics via Solana JSON-RPC
-    market.py                price, TVL, DEX volume, stablecoins
+    market.py                price, TVL, DEX volume, stablecoins, fees, RWA
+    ecosystem.py             solana.com/data (incl. Dune-computed metrics)
+    news.py                  official Solana news RSS
   render/
     markdown.py              Markdown report
     html.py                  self-contained interactive dashboard
+tests/
+  test_core.py               unit tests for anomalies and history
 ```
 
 Collectors don't know about renderers, and renderers don't know where data came

@@ -27,6 +27,15 @@ jobs:
           python-version: "3.11"
 
       # No pip install step: SolPulse is standard library only.
+      # Runners are ephemeral, so without this the on-disk TTL cache never
+      # survives a run and the large upstream payloads are refetched every time.
+      - name: Restore fetch cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: solpulse-cache-${{ github.run_id }}
+          restore-keys: solpulse-cache-
+
       - name: Generate report
         run: python3 main.py --output-dir docs --quiet
 

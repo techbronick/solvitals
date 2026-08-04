@@ -32,8 +32,9 @@ TVL and cross-chain rank, DEX volume with top venues, stablecoin supply by peg,
 network fees across 24h/7d/30d with an annualised run-rate and top fee earners.
 
 **Tokenized assets (DeFiLlama):** total tokenized RWA on Solana with **equities
-broken out separately** — currently $394M across xStocks and Ondo Global
-Markets, 22% of a $1.78B RWA total.
+broken out separately**, with xStocks and Ondo Global Markets identified as
+the equity issuers. Live figures are in the linked report rather than quoted
+here, so this document cannot go stale.
 
 **Ecosystem growth (solana.com/data):** daily active addresses, daily fee
 payers, transaction counts split by vote/non-vote and success/failure, DEX
@@ -48,8 +49,8 @@ blocks, signers per block, non-vote transaction share.
 ## Three judgement calls worth explaining
 
 **Non-vote TPS leads, not raw TPS.** Solana counts consensus votes as
-transactions, so raw TPS runs roughly 1.5× the figure people mean. Both are
-reported; the honest one is the headline.
+transactions, so raw TPS runs well above the figure people mean -- about 1.8x
+at the time of writing. Both are reported; the honest one is the headline.
 
 **Tokenized equities are separated from RWA.** The RWA category is dominated by
 treasuries and private credit — BlackRock BUIDL alone is $676M — so a single RWA
@@ -63,7 +64,7 @@ returns zeroed reward fields, so the data isn't retrievable. Rather than present
 fees as full REV, the report says exactly what it measured.
 
 **Two active-address numbers, not one.** Daily active addresses come from
-solana.com's feed, deduplicated across the full day by the provider (~524k).
+solana.com's feed, deduplicated across the full day by the provider .
 Sampled live signers come from `getBlock` and measure who is transacting *right
 now* — which the daily figure can't show, because it lags a day. Both are
 reported, each labelled for what it is. Collapsing them into one number would
@@ -76,9 +77,10 @@ solana.com's feed carries the same metric from several providers, and their
 methodologies don't agree. Rather than silently picking one, the collector flags
 any metric where same-day readings diverge past a threshold.
 
-This is live, not theoretical. Right now Dune and Allium differ by **25% on
-daily active addresses**, and DEX volume varies enormously depending on which
-venues a provider counts. A dashboard reporting a single number without that
+This is live, not theoretical. Dune and Allium currently differ materially on daily active addresses. DEX
+volume is deliberately excluded from this check -- providers there count
+entirely different venue sets, so the gap reflects scope, not methodology, and
+reporting it as a disagreement would be noise. A dashboard reporting a single number without that
 caveat is quietly misleading, and the disagreement is genuinely more informative
 than either figure alone.
 
@@ -161,7 +163,7 @@ function returning a dict — it slots in without touching anything else.
 A few things I ran into that are worth knowing regardless of who wins:
 
 - **`getRecentPerformanceSamples` is easy to misread.** It counts vote
-  transactions, so naive TPS reporting overstates user activity by roughly 1.5×.
+  transactions, so naive TPS reporting overstates user activity by nearly 2x.
   Several public Solana dashboards quote the inflated figure.
 - **Provider disagreement on core metrics is larger than I expected** — 25% on
   daily active addresses between two reputable providers. Anyone building

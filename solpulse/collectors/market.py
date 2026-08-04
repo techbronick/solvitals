@@ -7,7 +7,7 @@ provider outage degrades one section instead of the whole report.
 from typing import Any, Dict
 
 from .. import config
-from ..net import FetchError, request_json, request_json_cached
+from ..net import DATA_ERRORS, FetchError, request_json, request_json_cached
 
 # Categories DeFiLlama uses for tokenized real-world assets.
 RWA_CATEGORIES = ("RWA", "RWA Lending")
@@ -166,4 +166,6 @@ def collect() -> Dict[str, Any]:
             out[name] = fn()
         except FetchError as exc:
             out[name] = {"error": str(exc)}
+        except DATA_ERRORS as exc:
+            out[name] = {"error": "unexpected response shape: {}: {}".format(type(exc).__name__, exc)}
     return out

@@ -21,7 +21,7 @@ methodologies, disagreement between them is itself signal -- see `divergence`.
 from typing import Any, Dict, List, Optional
 
 from .. import config
-from ..net import FetchError, request_json_cached
+from ..net import DATA_ERRORS, FetchError, request_json_cached
 
 # Metrics worth surfacing, mapped to the key used in the report.
 TRACKED = {
@@ -43,6 +43,12 @@ TRACKED = {
 # number is stable run to run rather than flipping between methodologies.
 PROVIDER_PREFERENCE = ("Dune", "Allium", "Top Ledger", "Artemis", "Blockworks")
 
+# Divergence is only meaningful where providers are genuinely measuring the same
+# quantity. DEX volume is deliberately excluded: providers there count different
+# venue sets entirely (one reads ~20x another), so surfacing that as a
+# "disagreement" would look like a bug rather than a finding.
+DIVERGENCE_METRICS = ("Active Addresses", "Fee Payers", "Transaction Count (Total)", "Total Stake", "Validator Count")
+
 
 def _latest_by_provider(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     """Most recent row per provider for one metric."""
@@ -61,7 +67,7 @@ def _pick(by_provider: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
     return next(iter(by_provider.values()), None)
 
 
-def _series(rows: List[Dict[str, Any]], provider: str, limit: int = 90) -> List[Dict[str, Any]]:
+def _series(rows: List[Dict[str, Any]], provider: str, limit: int = config.ECOSYSTEM_SERIES_POINTS) -> List[Dict[str, Any]]:
     points = sorted(
         (r for r in rows if r.get("providerName") == provider),
         key=lambda r: r.get("date") or "",
@@ -69,7 +75,7 @@ def _series(rows: List[Dict[str, Any]], provider: str, limit: int = 90) -> List[
     return [{"date": p["date"], "value": p["value"]} for p in points[-limit:]]
 
 
-def collect() -> Dict[str, Any]:
+def _collect() -> Dict[str, Any]:
     """Fetch and reshape solana.com's metric feed.
 
     Cached: the payload is ~340 KB for 30 days and the underlying figures update
@@ -115,6 +121,8 @@ def collect() -> Dict[str, Any]:
         # Multi-source correlation: where two providers measure the same thing
         # on the same day and disagree materially, that gap is worth surfacing
         # rather than hiding behind a single chosen number.
+        if metric_name not in DIVERGENCE_METRICS:
+            continue
         same_day = {
             p: r["value"]
             for p, r in by_provider.items()
@@ -145,3 +153,15 @@ def collect() -> Dict[str, Any]:
             "republishes provider-computed analytics including Dune."
         ),
     }
+
+
+def collect() -> Dict[str, Any]:
+    """Public entry point. Isolates malformed-payload failures like every other
+    collector -- the reshaping below touches third-party rows whose shape is not
+    guaranteed."""
+    try:
+        return _collect()
+    except FetchError as exc:
+        return {"error": str(exc)}
+    except DATA_ERRORS as exc:
+        return {"error": "unexpected response shape: {}: {}".format(type(exc).__name__, exc)}

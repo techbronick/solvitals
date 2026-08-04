@@ -5,12 +5,32 @@ so everything here goes through urllib rather than requests/httpx.
 """
 
 import hashlib
+import http.client
 import json
 import os
 import time
 import urllib.error
 import urllib.request
 from typing import Any, Dict, Optional
+
+# Everything a network read can realistically raise. urllib leaks
+# http.client exceptions (IncompleteRead on a truncated large download is the
+# realistic one here, given the 8 MB protocol list), and a non-UTF-8 body
+# raises UnicodeDecodeError, which is a ValueError.
+TRANSPORT_ERRORS = (
+    urllib.error.URLError,
+    http.client.HTTPException,
+    TimeoutError,
+    OSError,
+    ValueError,  # covers JSONDecodeError and UnicodeDecodeError
+)
+
+# Response data is third-party and its shape is not guaranteed. Reshaping it
+# can raise any of these, and a collector must degrade rather than kill the run.
+DATA_ERRORS = (KeyError, TypeError, AttributeError, IndexError, ValueError)
+
+# Cap on cached/text bodies to bound memory on a hostile or broken response.
+MAX_BODY_BYTES = int(os.environ.get("SOLPULSE_MAX_BODY_BYTES", str(32 * 1024 * 1024)))
 
 USER_AGENT = "solpulse/1.0 (+https://github.com/)"
 
@@ -21,7 +41,10 @@ class FetchError(Exception):
 
 def _open(req: urllib.request.Request, timeout: float) -> bytes:
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+        body = resp.read(MAX_BODY_BYTES + 1)
+    if len(body) > MAX_BODY_BYTES:
+        raise FetchError("response exceeded {} bytes".format(MAX_BODY_BYTES))
+    return body
 
 
 def request_json(
@@ -50,7 +73,7 @@ def request_json(
             last_error = exc
             if exc.code not in (429, 500, 502, 503, 504):
                 break
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as exc:
+        except TRANSPORT_ERRORS as exc:
             last_error = exc
         if attempt < retries - 1:
             time.sleep(backoff ** attempt)
@@ -70,7 +93,7 @@ def request_text(url: str, timeout: float = 20.0, retries: int = 3, backoff: flo
             last_error = exc
             if exc.code not in (429, 500, 502, 503, 504):
                 break
-        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        except TRANSPORT_ERRORS as exc:
             last_error = exc
         if attempt < retries - 1:
             time.sleep(backoff ** attempt)
@@ -124,7 +147,7 @@ def request_json_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kw
         try:
             with open(path, "r", encoding="utf-8") as handle:
                 return json.load(handle)
-        except (json.JSONDecodeError, OSError):
+        except (ValueError, OSError):
             pass  # corrupt cache is not fatal -- fall through and refetch
 
     try:
@@ -134,7 +157,7 @@ def request_json_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kw
             try:
                 with open(path, "r", encoding="utf-8") as handle:
                     return json.load(handle)
-            except (json.JSONDecodeError, OSError):
+            except (ValueError, OSError):
                 pass
         raise
 

@@ -35,7 +35,14 @@ network fees across 24h/7d/30d with an annualised run-rate and top fee earners.
 broken out separately** — currently $394M across xStocks and Ondo Global
 Markets, 22% of a $1.78B RWA total.
 
-**Address activity (Solana JSON-RPC):** unique fee payers sampled from recent
+**Ecosystem growth (solana.com/data):** daily active addresses, daily fee
+payers, transaction counts split by vote/non-vote and success/failure, DEX
+volume and traders, transfer volume, total stake, validator count, Top-3 ASN
+share — each with 90 days of history and per-metric provider attribution.
+
+**News (solana.com/news RSS):** latest ecosystem and community announcements.
+
+**Address activity (Solana JSON-RPC):** live unique signers sampled from recent
 blocks, signers per block, non-vote transaction share.
 
 ## Three judgement calls worth explaining
@@ -55,12 +62,25 @@ them keylessly: it responds without a key, but ignores the epoch parameter and
 returns zeroed reward fields, so the data isn't retrievable. Rather than present
 fees as full REV, the report says exactly what it measured.
 
-The same principle governs address activity. A true daily-unique-address count
-requires deduplicating signers across ~216,000 blocks — no keyless source
-exposes it, and extrapolating a sample overcounts badly because active addresses
-recur across blocks all day. So the report gives unique fee payers across a
-configurable sample and labels it an activity indicator, not a 24h count. I'd
-rather ship a number that's true than one that's impressive.
+**Two active-address numbers, not one.** Daily active addresses come from
+solana.com's feed, deduplicated across the full day by the provider (~524k).
+Sampled live signers come from `getBlock` and measure who is transacting *right
+now* — which the daily figure can't show, because it lags a day. Both are
+reported, each labelled for what it is. Collapsing them into one number would
+have meant either a stale figure presented as live, or a sample presented as a
+daily count.
+
+## Multi-source correlation: where providers disagree
+
+solana.com's feed carries the same metric from several providers, and their
+methodologies don't agree. Rather than silently picking one, the collector flags
+any metric where same-day readings diverge past a threshold.
+
+This is live, not theoretical. Right now Dune and Allium differ by **25% on
+daily active addresses**, and DEX volume varies enormously depending on which
+venues a provider counts. A dashboard reporting a single number without that
+caveat is quietly misleading, and the disagreement is genuinely more informative
+than either figure alone.
 
 ## Automation
 
@@ -117,10 +137,42 @@ Severity is always paired with a text label, and every tile value also appears
 in a full metrics table, so nothing depends on colour alone. Fully
 self-contained: no CDN, no fonts, no network calls at view time.
 
-## Not covered
+## On Dune, and on Twitter
 
-Dune-sourced metrics and Twitter sentiment. Dune's API returns 401 without a key
-and starts at $399/month, which conflicts with the no-API-key preference. I chose
-to go deeper on keyless sources rather than add a paid dependency — but if a Dune
-key is acceptable, the collector interface is a single function returning a dict,
-so it slots in without touching anything else.
+**Dune is covered, without a key.** Dune's own API is hard-closed — `api.dune.com`
+returns 401, embed routes hit a Cloudflare challenge, and the cheapest API tier
+is $399/month. But solana.com's data feed *republishes Dune-computed metrics
+keylessly* with per-row provider attribution, so Dune-sourced figures (including
+the headline daily active addresses number) are ingested and labelled as such.
+
+**Twitter is not covered, and I'd rather say why than ship something fragile.**
+I tested every keyless route: `syndication.twitter.com` returns 429 on every
+attempt; `cdn.syndication.twimg.com` works only for a tweet ID you already know,
+so there's no discovery; `nitter.poast.org` returns 403; `xcancel.com` returns a
+"not yet whitelisted" stub. The one survivor, `nitter.net/solana/rss`, returned a
+0-byte body on one of my test runs. Building a headline feature on an endpoint
+that fails intermittently would make the dashboard *less* reliable, and the
+report's whole design is that a source outage degrades one section rather than
+the run. If X access were available, the collector interface is a single
+function returning a dict — it slots in without touching anything else.
+
+## Honest notes for the sponsor
+
+A few things I ran into that are worth knowing regardless of who wins:
+
+- **`getRecentPerformanceSamples` is easy to misread.** It counts vote
+  transactions, so naive TPS reporting overstates user activity by roughly 1.5×.
+  Several public Solana dashboards quote the inflated figure.
+- **Provider disagreement on core metrics is larger than I expected** — 25% on
+  daily active addresses between two reputable providers. Anyone building
+  ecosystem reporting should treat single-source numbers with suspicion.
+- **The bounty references "SIMD-525"**; the repo zero-pads to four digits, so
+  the proposal is SIMD-0525. Minor, but it makes searching harder.
+- **The brief's "autonomous agent concept of SolPulse"** has no single canonical
+  referent I could find — the name is shared by a faucet token, a trading-bot
+  site, several dashboards and a musician. I built to the described behaviour
+  (self-scheduling, self-publishing, judgment layer) rather than to any one
+  product.
+- **The public mainnet RPC rate-limits hard** under a 15-minute cadence from
+  shared CI IPs. Anyone deploying this pattern should budget for a private
+  endpoint.

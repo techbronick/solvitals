@@ -126,6 +126,15 @@ td.num, th.num { text-align: right; }
        font-variant-numeric: tabular-nums; box-shadow: 0 4px 14px rgba(0,0,0,.4); z-index: 9; }
 footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--grid);
          color: var(--muted); font-size: 12.5px; }
+footer p { margin: 0 0 8px; }
+footer a { color: var(--series); }
+ul.news { list-style: none; margin: 0; padding: 0; display: flex;
+          flex-direction: column; gap: 8px; }
+ul.news li { background: var(--surface); border: 1px solid var(--border);
+             border-radius: 9px; padding: 11px 14px; }
+ul.news a { color: var(--ink); text-decoration: none; font-weight: 560; }
+ul.news a:hover { color: var(--series); }
+.news-sub { color: var(--ink-2); font-size: 13px; margin-top: 3px; }
 """
 
 JS = """
@@ -225,6 +234,22 @@ def _sparkline(series: List[Dict[str, Any]], key: str, fmt) -> str:
     )
 
 
+def _sparkline_from_series(points: List[Dict[str, Any]], fmt) -> str:
+    """Sparkline over a provider-supplied {date, value} series.
+
+    Distinct from _sparkline, which reads this instance's own run history. Data
+    sourced from solana.com carries months of real history, so those tiles show
+    a genuine trend from the first run rather than waiting for local readings to
+    accumulate.
+    """
+    rows = [
+        {"captured_at": p.get("date"), "v": p.get("value")}
+        for p in points
+        if p.get("value") is not None
+    ]
+    return _sparkline(rows, "v", fmt)
+
+
 def _tile(label: str, value: str, sub: str = "", spark: str = "") -> str:
     sub_html = '<div class="sub">{}</div>'.format(sub) if sub else ""
     return (
@@ -255,6 +280,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     fees = market.get("fees", {})
     rwa = market.get("tokenized_assets", {})
     act = chain.get("activity", {})
+    eco = snapshot.get("ecosystem") or {}
+    eco_metrics = eco.get("metrics") or {}
+    news = snapshot.get("news") or {}
 
     # --- Alerts -----------------------------------------------------------
     if findings:
@@ -345,12 +373,36 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
             _sparkline(history, "equities_usd", _fmt_usd),
         ),
         _tile(
-            "Active addresses",
+            "Live signers (sampled)",
             _fmt_num(act.get("unique_signers_sampled")),
-            "unique signers in {} sampled blocks".format(act.get("blocks_sampled") or "?"),
+            "right now, across {} sampled blocks".format(act.get("blocks_sampled") or "?"),
             _sparkline(history, "unique_signers_sampled", lambda v: "{:,.0f} signers".format(v)),
         ),
     ]
+
+    # Daily active addresses come with 90 days of real provider history, so the
+    # sparkline is drawn from that rather than from this instance's own runs.
+    daa = eco_metrics.get("active_addresses")
+    if daa:
+        tiles.insert(
+            0,
+            _tile(
+                "Daily active addresses",
+                _fmt_num(daa.get("value")),
+                "{} · {}".format(daa.get("date"), daa.get("provider")),
+                _sparkline_from_series(daa.get("history") or [], lambda v: "{:,.0f}".format(v)),
+            ),
+        )
+    fee_payers = eco_metrics.get("fee_payers")
+    if fee_payers:
+        tiles.append(
+            _tile(
+                "Daily fee payers",
+                _fmt_num(fee_payers.get("value")),
+                "{} · {}".format(fee_payers.get("date"), fee_payers.get("provider")),
+                _sparkline_from_series(fee_payers.get("history") or [], lambda v: "{:,.0f}".format(v)),
+            )
+        )
 
     # --- Epoch ------------------------------------------------------------
     if "error" in ep:
@@ -415,6 +467,36 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         "<tbody>{}</tbody></table></div>"
     ).format(rwa_rows) if rwa_rows else "<p class='note'>No tokenized-asset data this run.</p>"
 
+    # --- Provider divergence ----------------------------------------------
+    div_rows = "".join(
+        "<tr><td>{}</td><td>{}</td><td class='num'>{}%</td><td>{}</td></tr>".format(
+            _esc(d["metric"]), _esc(d["date"]), d["spread_pct"],
+            _esc(", ".join("{}: {:,.0f}".format(p, v) for p, v in d["by_provider"].items())),
+        )
+        for d in (eco.get("provider_divergence") or [])
+    )
+    divergence_block = (
+        '<div class="scroll"><table><thead><tr><th>Metric</th><th>Date</th>'
+        '<th class="num">Spread</th><th>Provider readings</th></tr></thead>'
+        "<tbody>{}</tbody></table></div>"
+        '<p class="note">The same metric is published by several providers with different '
+        "methodologies. Where they disagree by more than 15% on the same day it is flagged "
+        "here rather than hidden behind a single chosen number.</p>"
+    ).format(div_rows) if div_rows else ""
+
+    # --- News -------------------------------------------------------------
+    news_items = "".join(
+        '<li><a href="{}" target="_blank" rel="noopener">{}</a>'
+        '<div class="news-sub">{}</div></li>'.format(
+            _esc(i.get("link")), _esc(i.get("title")), _esc(i.get("summary") or "")
+        )
+        for i in (news.get("items") or [])
+    )
+    news_block = (
+        '<ul class="news">{}</ul>'
+        '<p class="note">Source: official Solana news feed.</p>'
+    ).format(news_items) if news_items else ""
+
     # --- Full metric table (the accessible view of every tile) ------------
     supply_pct = sup.get("circulating_pct")
     table_rows = [
@@ -439,7 +521,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         ("Annualised fee run-rate", _fmt_usd(fees.get("annualised_usd"))),
         ("Tokenized RWA total", _fmt_usd(rwa.get("total_rwa_usd"))),
         ("Tokenized equities", _fmt_usd(rwa.get("equities_usd"))),
-        ("Unique fee payers (sampled)", _fmt_num(act.get("unique_signers_sampled"))),
+        ("Daily active addresses", _fmt_num((eco_metrics.get("active_addresses") or {}).get("value"))),
+        ("Daily fee payers", _fmt_num((eco_metrics.get("fee_payers") or {}).get("value"))),
+        ("Live signers (sampled, not daily)", _fmt_num(act.get("unique_signers_sampled"))),
         ("Non-vote share of sampled txs", "{}%".format(act.get("non_vote_share_pct"))),
         ("Circulating supply", "{} SOL{}".format(
             _fmt_num(sup.get("circulating_sol")),
@@ -495,13 +579,26 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
   <p class="note">Tokenized equities are broken out from treasuries, credit and
   commodities, which dominate the RWA category overall.</p>
 
+  {divergence_heading}
+  {divergence}
+
+  {news_heading}
+  {news}
+
   <h2>All metrics</h2>
   {metrics}
 
   <footer>
-    Generated by SolPulse. Sources: Solana JSON-RPC (mainnet-beta), CoinGecko, DeFiLlama.
-    No API keys required. Sparklines show the last {runs} readings from this
-    instance's own history.
+    <p><strong>Other output formats:</strong>
+      <a href="report.md">Markdown report</a> ·
+      <a href="report.json">JSON</a> ·
+      <a href="history.jsonl">metric history</a> ·
+      <a href="https://github.com/techbronick/solpulse">source on GitHub</a>
+    </p>
+    <p>Sources: Solana JSON-RPC (mainnet-beta), solana.com/data, solana.com/news,
+    CoinGecko, DeFiLlama. No API keys required, Python standard library only.
+    Tiles sourced from this instance's own history show {runs} readings; tiles
+    sourced from solana.com carry the provider's own daily series.</p>
   </footer>
 </div>
 <div id="tip"></div>
@@ -512,4 +609,8 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         alerts=alerts, tiles="".join(tiles), epoch=epoch_block,
         validators=validator_table, dex=dex_table or "<p class='note'>No DEX data this run.</p>",
         rwa=rwa_table, metrics=metric_table,
+        divergence=divergence_block,
+        divergence_heading="<h2>Where data providers disagree</h2>" if divergence_block else "",
+        news=news_block,
+        news_heading="<h2>Ecosystem and community news</h2>" if news_block else "",
     )

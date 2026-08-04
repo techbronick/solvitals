@@ -32,6 +32,21 @@ DEFILLAMA_FEES_URL = (
 DEFILLAMA_PROTOCOLS_URL = "https://api.llama.fi/protocols"
 PROTOCOLS_CACHE_TTL = int(os.environ.get("SOLPULSE_PROTOCOLS_TTL", "21600"))  # 6h
 
+# The public, keyless API behind solana.com/data. Republishes metrics from 13
+# providers including Dune, with per-row provider attribution.
+SOLANA_DATA_URL = "https://solana.com/api/databricks/data?days={}".format(
+    os.environ.get("SOLPULSE_ECOSYSTEM_DAYS", "90")
+)
+SOLANA_DATA_CACHE_TTL = int(os.environ.get("SOLPULSE_ECOSYSTEM_TTL", "21600"))  # 6h
+# Relative spread between providers measuring the same metric on the same day
+# before it is reported as a divergence.
+DIVERGENCE_THRESHOLD = float(os.environ.get("SOLPULSE_DIVERGENCE_THRESHOLD", "0.15"))
+
+# Official Solana news feed (RSS, keyless).
+SOLANA_NEWS_URL = "https://solana.com/news/rss.xml"
+NEWS_CACHE_TTL = int(os.environ.get("SOLPULSE_NEWS_TTL", "3600"))
+NEWS_ITEMS = int(os.environ.get("SOLPULSE_NEWS_ITEMS", "8"))
+
 # Recent blocks sampled to estimate active addresses, and how far apart they sit.
 # Spacing them spreads the sample over time instead of one contiguous burst.
 ADDRESS_SAMPLE_BLOCKS = int(os.environ.get("SOLPULSE_ADDRESS_SAMPLE_BLOCKS", "3"))

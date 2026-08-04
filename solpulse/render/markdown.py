@@ -277,15 +277,81 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
             ]
         )
 
+    eco = snapshot.get("ecosystem") or {}
+    if "error" not in eco and eco.get("metrics"):
+        m = eco["metrics"]
+        lines.extend(
+            [
+                "## Ecosystem growth (solana.com/data)",
+                "",
+                "| Metric | Value | As of | Provider |",
+                "| --- | --- | --- | --- |",
+            ]
+        )
+        for key in (
+            "active_addresses", "fee_payers", "transactions_total", "non_vote_success",
+            "non_vote_failed", "dex_volume", "dex_traders", "transfer_volume",
+            "total_stake", "validator_count", "top3_asn_share",
+        ):
+            if key not in m:
+                continue
+            row = m[key]
+            unit = row.get("unit") or ""
+            value = row.get("value")
+            shown = _fmt_usd(value) if unit.lower() in ("usd", "dollars") else _fmt_num(value, 2 if unit == "Percent" else 0)
+            lines.append(
+                "| {} | {} | {} | {} |".format(row.get("label"), shown, row.get("date"), row.get("provider"))
+            )
+        lines.append("")
+        lines.append(
+            "_Daily active addresses are deduplicated across the full day by the provider — "
+            "distinct from the live block sample below, which measures current activity._"
+        )
+        lines.append("")
+
+        if eco.get("provider_divergence"):
+            lines.extend(
+                [
+                    "### Where providers disagree",
+                    "",
+                    "The same metric is published by multiple providers with different "
+                    "methodologies. Divergences above threshold on the same day:",
+                    "",
+                    "| Metric | Date | Spread | Provider readings |",
+                    "| --- | --- | --- | --- |",
+                ]
+            )
+            for d in eco["provider_divergence"]:
+                readings = ", ".join(
+                    "{}: {:,.0f}".format(p, v) for p, v in d["by_provider"].items()
+                )
+                lines.append(
+                    "| {} | {} | {}% | {} |".format(d["metric"], d["date"], d["spread_pct"], readings)
+                )
+            lines.append("")
+
+    news = snapshot.get("news") or {}
+    if "error" not in news and news.get("items"):
+        lines.extend(["## Ecosystem and community news", ""])
+        for item in news["items"]:
+            lines.append("- **[{}]({})**".format(item["title"], item["link"]))
+            if item.get("summary"):
+                lines.append("  {}".format(item["summary"]))
+        lines.append("")
+        lines.append("_Source: official Solana news feed (solana.com/news)._")
+        lines.append("")
+
     lines.extend(
         [
             "## Sources",
             "",
             "| Section | Source | Key required |",
             "| --- | --- | --- |",
-            "| Performance, epoch, validators, supply | Solana JSON-RPC (mainnet-beta) | No |",
+            "| Performance, epoch, validators, supply, address sample | Solana JSON-RPC (mainnet-beta) | No |",
             "| SOL price and market cap | CoinGecko public API | No |",
-            "| TVL, DEX volume, stablecoins | DeFiLlama public API | No |",
+            "| TVL, DEX volume, stablecoins, fees, tokenized assets | DeFiLlama public API | No |",
+            "| Daily active addresses, ecosystem growth (incl. Dune-computed) | solana.com/data | No |",
+            "| Ecosystem and community news | solana.com/news RSS | No |",
             "",
         ]
     )

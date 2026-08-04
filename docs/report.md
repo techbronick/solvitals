@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-04 17:50:57 UTC by SolPulse.
+Generated 2026-08-04 18:30:19 UTC by SolPulse.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-04 17:50:57 UTC by SolPulse.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,376.44 |
-| Total TPS (incl. votes) | 4,001.59 |
-| Vote share of transactions | 40.61% |
-| Average slot time | 0.4208 s |
-| Current slot | 437,220,496 |
-| Block height | 415,275,218 |
+| Non-vote TPS | 2,245.67 |
+| Total TPS (incl. votes) | 3,859.14 |
+| Vote share of transactions | 41.81% |
+| Average slot time | 0.4255 s |
+| Current slot | 437,226,067 |
+| Block height | 415,280,779 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 8.45% complete (`##..................`), ~43.9 hours remaining.
+Epoch **1012** — 9.74% complete (`##..................`), ~43.3 hours remaining.
 
-Slot 36,497 of 432,000. Lifetime transaction count: 535,097,500,891.
+Slot 42,070 of 432,000. Lifetime transaction count: 535,106,866,839.
 
 ## Validators
 
@@ -58,12 +58,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.97 (up 0.44%) |
-| Market cap | $43.00B |
+| SOL price | $74.26 (up 0.46%) |
+| Market cap | $43.18B |
 | DeFi TVL | $4.78B |
 | TVL rank across chains | 4 |
-| DEX volume (24h) | $1.71B (up 27.55%) |
-| Stablecoin supply | $15.84B |
+| DEX volume (24h) | $1.71B (up 27.00%) |
+| Stablecoin supply | $15.85B |
 
 ### Network fees (REV)
 
@@ -82,14 +82,14 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | pump.fun | $1.26M |
 | Axiom | $1.11M |
 | Solana | $614.78K |
-| Collector Crypt | $564.57K |
+| Collector Crypt | $341.95K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.79B |
-| Tokenized equities | $396.74M (22.21% of RWA) |
+| Tokenized equities | $396.79M (22.22% of RWA) |
 | RWA protocols on Solana | 24 |
 
 ### Tokenized equity issuers
@@ -97,7 +97,7 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | Protocol | Value | 24h |
 | --- | --- | --- |
 | xStocks | $370.21M | 1.698% |
-| Ondo Global Markets | $26.53M | 2.533% |
+| Ondo Global Markets | $26.58M | 2.675% |
 
 ### Largest tokenized-asset protocols
 
@@ -108,7 +108,7 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 | OnRe | $250.09M | RWA |
 | Ondo Yield Assets | $178.74M | RWA |
 | Hastra | $173.22M | RWA |
-| Ondo Global Markets | $26.53M | RWA |
+| Ondo Global Markets | $26.58M | RWA |
 | Theo Network thBill | $26.34M | RWA |
 | Apollo Diversified Credit Securitize Fund | $24.84M | RWA |
 | Nest Credit | $22.29M | RWA |
@@ -118,11 +118,11 @@ _Fee component of REV; excludes out-of-protocol MEV tips._
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,614 |
+| Unique fee payers (sampled) | 1,716 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,995 |
-| Non-vote share of sample | 58.12% |
-| Signers per block | 538.0 |
+| Transactions in sample | 4,790 |
+| Non-vote share of sample | 57.27% |
+| Signers per block | 572.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -133,17 +133,67 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $731.06M |
 | BisonFi | $134.69M |
 | Orca DEX | $124.38M |
-| Manifest Trade | $92.02M |
-| Meteora DLMM | $86.59M |
+| Manifest Trade | $96.46M |
+| Meteora DLMM | $88.98M |
 
 ## Supply
 
-Circulating 581,307,944 SOL of 631,630,557 total (92.03%).
+Circulating 581,307,919 SOL of 631,630,533 total (92.03%).
+
+## Ecosystem growth (solana.com/data)
+
+| Metric | Value | As of | Provider |
+| --- | --- | --- | --- |
+| Active Addresses | 524,215 | 2026-08-03 | Dune |
+| Fee Payers | 2,256,304 | 2026-08-03 | Dune |
+| Transaction Count (Total) | 292,540,125 | 2026-08-03 | Dune |
+| Non Vote Transaction Count (Success) | 89,425,120 | 2026-08-03 | Dune |
+| Non Vote Transaction Count (Failed) | 63,705,940 | 2026-08-03 | Dune |
+| DEX Volume | $636.61M | 2026-08-03 | Dune |
+| DEX Traders | 347,997 | 2026-08-03 | Dune |
+| Transfer Volume | $5.72B | 2026-08-02 | Dune |
+| Total Stake | 431,992,013 | 2026-08-04 | Stakewiz |
+| Validator Count | 689 | 2026-08-04 | Stakewiz |
+| Top 3 ASN Share | 46.11 | 2026-08-04 | Stakewiz |
+
+_Daily active addresses are deduplicated across the full day by the provider — distinct from the live block sample below, which measures current activity._
+
+### Where providers disagree
+
+The same metric is published by multiple providers with different methodologies. Divergences above threshold on the same day:
+
+| Metric | Date | Spread | Provider readings |
+| --- | --- | --- | --- |
+| Active Addresses | 2026-08-03 | 25.3% | Allium: 656,890, Dune: 524,215 |
+| DEX Volume | 2026-08-03 | 1890.3% | Birdeye: 12,670,599,231, DeFiLlama: 729,286,413, Dune: 636,612,087 |
+
+## Ecosystem and community news
+
+- **[Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)**
+  The last cycle was built on software and cheap money. This one is built from steel, silicon, and energy; and the tokens moving the capital behind it. Speaker applications are now live for Breakpoint 2026:
+- **[Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)**
+  Collector Crypt has crossed $1.6B in volume as Solana apps bring vaulted cards, packs, buybacks, and physical redemption onchain.
+- **[Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)**
+  Learn how BlackRock, J.P. Morgan, Visa, Franklin Templeton, and other institutions are building the future of tokenized real-world assets on Solana.
+- **[Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)**
+  SIMD-0286 activated on mainnet to raise block limits to 100M CUs, alongside new Agave, Firedancer, SDK, and LiteSVM releases.
+- **[Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)**
+  The Resource and Inclusion Fees SIMD was accepted alongside new Agave, Firedancer, and program SDK releases.
+- **[Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint)**
+  Read how Crossmint’s Solana infrastructure supports Western Union USDPT, fomo’s $4B volume, Tala wallets, and Wirex smart wallets.
+- **[Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)**
+  A data-backed analysis of whether Solana can reduce the rent-exempt requirement from 6,960 to 696 lamports per byte without creating immediate state-growth risk, covering attack economics, account persistence, AccountsD…
+- **[Solana Changelog: July 16, 2026](https://solana.com/news/solana-changelog-july-16-2026)**
+  Agave, Firedancer, Frankendancer, Solana Program JS SDKs, LiteSVM, Mollusk, and Surfpool shipped new releases.
+
+_Source: official Solana news feed (solana.com/news)._
 
 ## Sources
 
 | Section | Source | Key required |
 | --- | --- | --- |
-| Performance, epoch, validators, supply | Solana JSON-RPC (mainnet-beta) | No |
+| Performance, epoch, validators, supply, address sample | Solana JSON-RPC (mainnet-beta) | No |
 | SOL price and market cap | CoinGecko public API | No |
-| TVL, DEX volume, stablecoins | DeFiLlama public API | No |
+| TVL, DEX volume, stablecoins, fees, tokenized assets | DeFiLlama public API | No |
+| Daily active addresses, ecosystem growth (incl. Dune-computed) | solana.com/data | No |
+| Ecosystem and community news | solana.com/news RSS | No |

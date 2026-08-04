@@ -58,6 +58,55 @@ def request_json(
     raise FetchError("{}: {}".format(url, last_error))
 
 
+def request_text(url: str, timeout: float = 20.0, retries: int = 3, backoff: float = 1.5) -> str:
+    """Fetch a URL as text. Used for RSS/XML, which is not JSON."""
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml, */*"}
+    last_error = None
+    for attempt in range(retries):
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            return _open(req, timeout).decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            last_error = exc
+            if exc.code not in (429, 500, 502, 503, 504):
+                break
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_error = exc
+        if attempt < retries - 1:
+            time.sleep(backoff ** attempt)
+    raise FetchError("{}: {}".format(url, last_error))
+
+
+def request_text_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> str:
+    """Text equivalent of request_json_cached, with the same stale-fallback."""
+    os.makedirs(cache_dir, exist_ok=True)
+    path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".txt")
+
+    if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:
+        try:
+            with open(path, "r", encoding="utf-8") as handle:
+                return handle.read()
+        except OSError:
+            pass
+
+    try:
+        body = request_text(url, **kwargs)
+    except FetchError:
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as handle:
+                    return handle.read()
+            except OSError:
+                pass
+        raise
+
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as handle:
+        handle.write(body)
+    os.replace(tmp, path)
+    return body
+
+
 def request_json_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> Any:
     """Fetch with an on-disk TTL cache.
 

@@ -18,7 +18,7 @@ open output/index.html
 
 | File | Purpose |
 |---|---|
-| `output/index.html` | Interactive dashboard — dark theme, sparklines with hover tooltips, sortable metric tables |
+| `output/index.html` | Interactive dashboard — dark theme, sparklines with hover tooltips, full metric tables |
 | `output/report.md` | Markdown report suitable for pasting into Notion, GitHub, or a newsletter |
 | `output/report.json` | Structured data for downstream tooling |
 | `output/history.jsonl` | Append-only metric history; the baseline for anomaly detection |
@@ -95,22 +95,37 @@ secondary endpoints before giving up.
   source, so what's collected is fees, and the report says so rather than
   overstating the number.
 
-### On active addresses — what this does and doesn't measure
+### On active addresses — two measurements, deliberately
 
-The report samples recent blocks and counts unique fee payers. It deliberately
-does **not** claim to report daily active addresses.
+The report gives **both** a true daily active address count and a live sample,
+because they answer different questions.
 
-A true 24h unique-address count requires deduplicating signers across roughly
-216,000 blocks. No keyless source exposes that figure, fetching it per run would
-be absurd, and extrapolating from a sample would overcount badly because active
-addresses reappear in many blocks over a day.
+**Daily active addresses** come from solana.com's own data API, deduplicated
+across the full day by the provider. Current reading: ~524k (Dune). This is the
+number people mean by "daily active addresses", and it cannot be derived from
+RPC — deduplicating signers across ~216,000 blocks per day is not something a
+per-run collector can do.
 
-What's reported instead is honest and still useful: how many distinct addresses
-are transacting right now, signers per block, and the non-vote share of sampled
-transactions. Tracked over time these show the shape of network activity, and
-the anomaly detector watches them for deviation like any other series. Sample
-width and spacing are configurable via `SOLPULSE_ADDRESS_SAMPLE_BLOCKS` and
-`SOLPULSE_ADDRESS_SAMPLE_SPACING`.
+**Sampled unique fee payers** come from `getBlock` over a spread of recent
+slots. This is *not* a daily figure and isn't presented as one. It measures how
+many distinct addresses are transacting right now, which the daily number can't
+show because it lags by a day. Sample width and spacing are configurable via
+`SOLPULSE_ADDRESS_SAMPLE_BLOCKS` and `SOLPULSE_ADDRESS_SAMPLE_SPACING`.
+
+Reporting both, clearly labelled, beats picking one and hoping the reader
+assumes the other.
+
+### Provider divergence — where sources disagree
+
+solana.com's feed carries the same metric from multiple providers, each with its
+own methodology, and they do not always agree. Rather than silently picking one,
+the collector flags any metric where providers measuring the same day differ by
+more than a configurable threshold (default 15%).
+
+This is live, not hypothetical: Dune and Allium currently differ by ~25% on
+daily active addresses, and DEX volume figures diverge far more widely depending
+on which venues a provider counts. A dashboard that showed one number without
+that caveat would be quietly misleading.
 
 ### Caching
 
@@ -241,7 +256,18 @@ output format touches one file.
 
 ## Sample output
 
-See `output/` after a run. A live hosted version is at: _(add your Pages URL)_
+**Live dashboard: https://techbronick.github.io/solpulse/** — refreshed every 15
+minutes by GitHub Actions.
+
+Committed samples of all three output formats:
+
+- [`docs/index.html`](docs/index.html) — the dashboard (also served live above)
+- [`docs/report.md`](docs/report.md) — Markdown report
+- [`docs/report.json`](docs/report.json) — structured JSON
+- [`docs/history.jsonl`](docs/history.jsonl) — accumulated metric history
+
+Running locally writes the same set to `output/`, which is gitignored so the
+repo only carries the published copies in `docs/`.
 
 ## License
 

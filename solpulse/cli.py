@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import Any, Dict
 
 from . import __version__, anomalies, config, store
-from .collectors import market, rpc
+from .collectors import ecosystem, market, news, rpc
 from .render import html as html_render
 from .render import markdown as md_render
 
@@ -24,6 +24,8 @@ def collect() -> Dict[str, Any]:
         "generator": "solpulse/{}".format(__version__),
         "chain": rpc.collect(),
         "market": market.collect(),
+        "ecosystem": ecosystem.collect(),
+        "news": news.collect(),
     }
 
 
@@ -33,6 +35,9 @@ def _count_errors(snapshot: Dict[str, Any]) -> int:
         for section in snapshot.get(group, {}).values():
             if isinstance(section, dict) and "error" in section:
                 total += 1
+    for group in ("ecosystem", "news"):
+        if "error" in (snapshot.get(group) or {}):
+            total += 1
     return total
 
 

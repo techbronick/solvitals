@@ -1,0 +1,209 @@
+"""Human-readable Markdown report."""
+
+from typing import Any, Dict, List
+
+SEVERITY_ICON = {"critical": "[CRITICAL]", "warning": "[WARNING]", "info": "[INFO]"}
+
+
+def _fmt_usd(value: Any, decimals: int = 0) -> str:
+    if value is None:
+        return "n/a"
+    for unit, size in (("T", 1e12), ("B", 1e9), ("M", 1e6), ("K", 1e3)):
+        if abs(value) >= size:
+            return "${:,.2f}{}".format(value / size, unit)
+    return "${:,.{}f}".format(value, decimals)
+
+
+def _fmt_num(value: Any, decimals: int = 0) -> str:
+    if value is None:
+        return "n/a"
+    return "{:,.{}f}".format(value, decimals)
+
+
+def _fmt_delta(value: Any) -> str:
+    if value is None:
+        return ""
+    arrow = "up" if value >= 0 else "down"
+    return " ({} {:.2f}%)".format(arrow, abs(value))
+
+
+def _section_error(data: Dict[str, Any]) -> str:
+    return "> Unavailable this run: {}\n".format(data["error"])
+
+
+def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
+    chain = snapshot.get("chain", {})
+    market = snapshot.get("market", {})
+    lines = [
+        "# Solana Ecosystem Report",
+        "",
+        "Generated {} UTC by SolPulse.".format(snapshot.get("captured_at")),
+        "",
+    ]
+
+    # Anomalies lead: if something is wrong, it should be the first thing read.
+    lines.append("## Alerts")
+    lines.append("")
+    if findings:
+        for f in findings:
+            lines.append(
+                "- {} **{}** — {}".format(
+                    SEVERITY_ICON.get(f["severity"], "[INFO]"), f["metric"], f["message"]
+                )
+            )
+    else:
+        lines.append("No anomalies detected against configured thresholds and recent history.")
+    lines.append("")
+
+    perf = chain.get("performance", {})
+    lines.append("## Network Performance")
+    lines.append("")
+    if "error" in perf:
+        lines.append(_section_error(perf))
+    else:
+        lines.extend(
+            [
+                "| Metric | Value |",
+                "| --- | --- |",
+                "| Non-vote TPS | {} |".format(_fmt_num(perf.get("tps_non_vote"), 2)),
+                "| Total TPS (incl. votes) | {} |".format(_fmt_num(perf.get("tps_total"), 2)),
+                "| Vote share of transactions | {}% |".format(_fmt_num(perf.get("vote_share_pct"), 2)),
+                "| Average slot time | {} s |".format(_fmt_num(perf.get("avg_slot_time_secs"), 4)),
+                "| Current slot | {} |".format(_fmt_num(perf.get("current_slot"))),
+                "| Block height | {} |".format(_fmt_num(perf.get("block_height"))),
+                "",
+                "_Non-vote TPS is the figure that reflects user activity; consensus votes are "
+                "transactions on Solana and inflate the raw count._",
+            ]
+        )
+    lines.append("")
+
+    ep = chain.get("epoch", {})
+    lines.append("## Epoch")
+    lines.append("")
+    if "error" in ep:
+        lines.append(_section_error(ep))
+    else:
+        filled = int(round(ep.get("progress_pct", 0) / 5))
+        lines.extend(
+            [
+                "Epoch **{}** — {}% complete (`{}{}`), ~{} hours remaining.".format(
+                    ep.get("epoch"),
+                    ep.get("progress_pct"),
+                    "#" * filled,
+                    "." * (20 - filled),
+                    ep.get("eta_hours"),
+                ),
+                "",
+                "Slot {} of {}. Lifetime transaction count: {}.".format(
+                    _fmt_num(ep.get("slot_index")),
+                    _fmt_num(ep.get("slots_in_epoch")),
+                    _fmt_num(ep.get("transaction_count")),
+                ),
+            ]
+        )
+    lines.append("")
+
+    val = chain.get("validators", {})
+    lines.append("## Validators")
+    lines.append("")
+    if "error" in val:
+        lines.append(_section_error(val))
+    else:
+        lines.extend(
+            [
+                "| Metric | Value |",
+                "| --- | --- |",
+                "| Active validators | {} |".format(_fmt_num(val.get("active_count"))),
+                "| Delinquent validators | {} ({}%) |".format(
+                    _fmt_num(val.get("delinquent_count")), _fmt_num(val.get("delinquent_pct"), 2)
+                ),
+                "| Stake held by delinquents | {} SOL ({}%) |".format(
+                    _fmt_num(val.get("delinquent_stake_sol")), _fmt_num(val.get("delinquent_stake_pct"), 3)
+                ),
+                "| Total active stake | {} SOL |".format(_fmt_num(val.get("total_active_stake_sol"))),
+                "| Nakamoto coefficient | {} |".format(val.get("nakamoto_coefficient")),
+                "| Median commission | {}% |".format(val.get("median_commission")),
+                "| Zero-commission validators | {} |".format(_fmt_num(val.get("zero_commission_count"))),
+                "",
+                "_The Nakamoto coefficient is the number of validators that would need to collude "
+                "to control 33% of stake and halt consensus. Higher is more decentralised._",
+                "",
+                "### Top validators by stake",
+                "",
+                "| # | Vote account | Stake (SOL) | Share | Commission |",
+                "| --- | --- | --- | --- | --- |",
+            ]
+        )
+        for i, v in enumerate(val.get("top_validators", []), 1):
+            lines.append(
+                "| {} | `{}` | {} | {}% | {}% |".format(
+                    i,
+                    v.get("vote_account"),
+                    _fmt_num(v.get("stake_sol")),
+                    v.get("stake_pct"),
+                    v.get("commission"),
+                )
+            )
+    lines.append("")
+
+    lines.append("## Economics")
+    lines.append("")
+    price = market.get("price", {})
+    tvl = market.get("tvl", {})
+    dex = market.get("dex_volume", {})
+    stables = market.get("stablecoins", {})
+    lines.extend(["| Metric | Value |", "| --- | --- |"])
+    lines.append(
+        "| SOL price | {}{} |".format(
+            _fmt_usd(price.get("usd"), 2) if "error" not in price else "n/a",
+            _fmt_delta(price.get("change_24h_pct")),
+        )
+    )
+    lines.append("| Market cap | {} |".format(_fmt_usd(price.get("market_cap_usd"))))
+    lines.append("| DeFi TVL | {} |".format(_fmt_usd(tvl.get("tvl_usd"))))
+    lines.append(
+        "| TVL rank across chains | {} |".format(tvl.get("rank_by_tvl") or "n/a")
+    )
+    lines.append(
+        "| DEX volume (24h) | {}{} |".format(
+            _fmt_usd(dex.get("volume_24h_usd")), _fmt_delta(dex.get("change_24h_pct"))
+        )
+    )
+    lines.append("| Stablecoin supply | {} |".format(_fmt_usd(stables.get("total_usd"))))
+    lines.append("")
+
+    if dex.get("top_dexes"):
+        lines.extend(["### Top DEXes by 24h volume", "", "| DEX | Volume (24h) |", "| --- | --- |"])
+        for d in dex["top_dexes"]:
+            lines.append("| {} | {} |".format(d.get("name"), _fmt_usd(d.get("volume_24h_usd"))))
+        lines.append("")
+
+    sup = chain.get("supply", {})
+    if "error" not in sup:
+        lines.extend(
+            [
+                "## Supply",
+                "",
+                "Circulating {} SOL of {} total ({}%).".format(
+                    _fmt_num(sup.get("circulating_sol")),
+                    _fmt_num(sup.get("total_sol")),
+                    sup.get("circulating_pct"),
+                ),
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "## Sources",
+            "",
+            "| Section | Source | Key required |",
+            "| --- | --- | --- |",
+            "| Performance, epoch, validators, supply | Solana JSON-RPC (mainnet-beta) | No |",
+            "| SOL price and market cap | CoinGecko public API | No |",
+            "| TVL, DEX volume, stablecoins | DeFiLlama public API | No |",
+            "",
+        ]
+    )
+    return "\n".join(lines)

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solana Ecosystem Dashboard</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+:root {
+  color-scheme: dark;
+  --page:        #0d0d0d;
+  --surface:     #1a1a19;
+  --ink:         #ffffff;
+  --ink-2:       #c3c2b7;
+  --muted:       #898781;
+  --grid:        #2c2c2a;
+  --axis:        #383835;
+  --border:      rgba(255,255,255,0.10);
+  --series:      #3987e5;
+  --good:        #0ca30c;
+  --warning:     #fab219;
+  --serious:     #ec835a;
+  --critical:    #d03b3b;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+  --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10); --series: #2a78d6; --good: #006300;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7;
+    --border: rgba(11,11,11,0.10); --series: #2a78d6; --good: #006300;
+  }
+}
+body {
+  margin: 0; padding: 32px 24px 64px;
+  background: var(--page); color: var(--ink);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+header { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline;
+         justify-content: space-between; margin-bottom: 28px; }
+h1 { font-size: 22px; font-weight: 620; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.07em;
+     text-transform: uppercase; color: var(--muted); margin: 36px 0 14px; }
+.stamp { color: var(--ink-2); font-size: 13px; font-variant-numeric: tabular-nums; }
+button.toggle {
+  background: transparent; color: var(--ink-2); border: 1px solid var(--border);
+  border-radius: 7px; padding: 5px 11px; font: inherit; font-size: 13px; cursor: pointer;
+}
+button.toggle:hover { color: var(--ink); }
+
+.grid { display: grid; gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.tile { background: var(--surface); border: 1px solid var(--border);
+        border-radius: 11px; padding: 15px 16px 12px; min-width: 0; }
+.tile .label { font-size: 12px; color: var(--muted); letter-spacing: 0.02em;
+               display: flex; align-items: center; gap: 6px; }
+.tile .value { font-size: 27px; font-weight: 600; margin-top: 5px;
+               letter-spacing: -0.02em; line-height: 1.15; overflow-wrap: anywhere; }
+.tile .sub { font-size: 12.5px; color: var(--ink-2); margin-top: 3px;
+             font-variant-numeric: tabular-nums; }
+.delta.up { color: var(--good); } .delta.down { color: var(--critical); }
+.spark { margin-top: 9px; display: block; width: 100%; height: 34px; overflow: visible; }
+.spark .line { fill: none; stroke: var(--series); stroke-width: 2;
+               stroke-linecap: round; stroke-linejoin: round; }
+.spark .dot { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+.spark .hit { fill: transparent; cursor: crosshair; }
+.spark .cross { stroke: var(--axis); stroke-width: 1; display: none; }
+.spark.on .cross { display: block; }
+.no-history { font-size: 12px; color: var(--muted); margin-top: 9px;
+              padding: 8px 0 2px; border-top: 1px solid var(--grid); }
+
+.alerts { display: flex; flex-direction: column; gap: 8px; }
+.alert { display: flex; gap: 11px; align-items: flex-start; background: var(--surface);
+         border: 1px solid var(--border); border-left-width: 3px;
+         border-radius: 9px; padding: 11px 14px; }
+.alert.critical { border-left-color: var(--critical); }
+.alert.warning  { border-left-color: var(--warning); }
+.alert.info     { border-left-color: var(--series); }
+.alert .icon { font-weight: 700; font-size: 12px; letter-spacing: 0.04em;
+               padding-top: 1px; white-space: nowrap; }
+.alert.critical .icon { color: var(--critical); }
+.alert.warning  .icon { color: var(--warning); }
+.alert.info     .icon { color: var(--series); }
+.alert .body { min-width: 0; }
+.alert .metric { font-weight: 600; }
+.alert .detail { color: var(--ink-2); font-size: 13.5px; }
+.ok { background: var(--surface); border: 1px solid var(--border);
+      border-left: 3px solid var(--good); border-radius: 9px;
+      padding: 11px 14px; color: var(--ink-2); }
+.ok strong { color: var(--good); }
+
+table { width: 100%; border-collapse: collapse; background: var(--surface);
+        border: 1px solid var(--border); border-radius: 11px; overflow: hidden;
+        font-variant-numeric: tabular-nums; font-size: 13.5px; }
+th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--grid); }
+th { color: var(--muted); font-weight: 600; font-size: 11.5px;
+     letter-spacing: 0.06em; text-transform: uppercase; }
+tbody tr:last-child td { border-bottom: none; }
+td.num, th.num { text-align: right; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+.scroll { overflow-x: auto; }
+.note { color: var(--muted); font-size: 12.5px; margin-top: 9px; }
+.err { color: var(--serious); font-size: 13px; }
+
+#tip { position: fixed; pointer-events: none; opacity: 0; transition: opacity .1s;
+       background: var(--surface); color: var(--ink); border: 1px solid var(--border);
+       border-radius: 7px; padding: 6px 9px; font-size: 12.5px;
+       font-variant-numeric: tabular-nums; box-shadow: 0 4px 14px rgba(0,0,0,.4); z-index: 9; }
+footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--grid);
+         color: var(--muted); font-size: 12.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Solana Ecosystem Dashboard</h1>
+      <div class="stamp">Updated 2026-08-04 17:17:08 UTC &middot; 1 readings recorded</div>
+    </div>
+    <button class="toggle" id="themeBtn" type="button">Toggle theme</button>
+  </header>
+
+  <h2>Alerts</h2>
+  <div class="alert warning"><span class="icon">WARNING</span><span class="body"><span class="metric">nakamoto_coefficient</span> <span class="detail">nakamoto_coefficient is 18 (below 20)</span></span></div>
+
+  <h2>Key metrics</h2>
+  <div class="grid"><div class="tile"><div class="label">Non-vote TPS</div><div class="value">1,888.5</div><div class="sub">excludes consensus votes</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">SOL price</div><div class="value">$73.98</div><div class="sub"><span class="delta up">&#9650; 0.56%</span> 24h</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">DeFi TVL</div><div class="value">$4.78B</div><div class="sub">rank #4 across chains</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">Stablecoin supply</div><div class="value">$15.86B</div><div class="sub">on Solana</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">Delinquent validators</div><div class="value">1.00%</div><div class="sub">7 of 692 active</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">Nakamoto coefficient</div><div class="value">18</div><div class="sub">validators to halt consensus</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">Avg slot time</div><div class="value">0.4213 s</div><div class="sub">target 0.4 s</div><div class="no-history">Trend appears after 2+ runs</div></div><div class="tile"><div class="label">DEX volume 24h</div><div class="value">$1.71B</div><div class="sub">114 protocols tracked</div></div></div>
+
+  <h2>Epoch progress</h2>
+  <div class="grid"><div class="tile"><div class="label">Epoch 1012</div><div class="value">7.34%</div><div class="sub">slot 31,713 of 432,000 &middot; ~44.5 h remaining</div><svg class="spark" viewBox="0 0 240 12" preserveAspectRatio="none" role="img" aria-label="Epoch 1012 is 7.34 percent complete"><rect x="0" y="3" width="240" height="6" rx="3" fill="var(--grid)"/><rect x="0" y="3" width="17.6" height="6" rx="3" fill="var(--series)"/></svg></div></div>
+
+  <h2>Top validators by stake</h2>
+  <div class="scroll"><table><thead><tr><th>#</th><th>Vote account</th><th class="num">Stake (SOL)</th><th class="num">Share</th><th class="num">Commission</th></tr></thead><tbody><tr><td>1</td><td class='mono'>CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1</td><td class='num'>16,808,220</td><td class='num'>3.869%</td><td class='num'>7%</td></tr><tr><td>2</td><td class='mono'>he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk</td><td class='num'>16,003,205</td><td class='num'>3.684%</td><td class='num'>0%</td></tr><tr><td>3</td><td class='mono'>CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb</td><td class='num'>12,472,697</td><td class='num'>2.871%</td><td class='num'>5%</td></tr><tr><td>4</td><td class='mono'>3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g</td><td class='num'>12,265,636</td><td class='num'>2.823%</td><td class='num'>0%</td></tr><tr><td>5</td><td class='mono'>26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx</td><td class='num'>9,189,333</td><td class='num'>2.115%</td><td class='num'>7%</td></tr><tr><td>6</td><td class='mono'>51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm</td><td class='num'>8,837,285</td><td class='num'>2.034%</td><td class='num'>10%</td></tr><tr><td>7</td><td class='mono'>8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD</td><td class='num'>8,157,244</td><td class='num'>1.878%</td><td class='num'>0%</td></tr><tr><td>8</td><td class='mono'>9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF</td><td class='num'>7,899,432</td><td class='num'>1.818%</td><td class='num'>7%</td></tr><tr><td>9</td><td class='mono'>CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB</td><td class='num'>7,479,271</td><td class='num'>1.722%</td><td class='num'>5%</td></tr><tr><td>10</td><td class='mono'>DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a</td><td class='num'>6,653,304</td><td class='num'>1.532%</td><td class='num'>0%</td></tr></tbody></table></div>
+  <p class="note">The Nakamoto coefficient is the number of validators that would need to
+  collude to control 33% of stake and halt consensus. Higher is more decentralised.</p>
+
+  <h2>Top DEXes by 24h volume</h2>
+  <div class="scroll"><table><thead><tr><th>DEX</th><th class="num">Volume 24h</th></tr></thead><tbody><tr><td>PumpSwap</td><td class='num'>$731.06M</td></tr><tr><td>BisonFi</td><td class='num'>$134.69M</td></tr><tr><td>Orca DEX</td><td class='num'>$124.38M</td></tr><tr><td>Manifest Trade</td><td class='num'>$92.02M</td></tr><tr><td>Meteora DLMM</td><td class='num'>$86.59M</td></tr></tbody></table></div>
+
+  <h2>All metrics</h2>
+  <div class="scroll"><table><thead><tr><th>Metric</th><th class="num">Value</th></tr></thead><tbody><tr><td>Non-vote TPS</td><td class='num'>1,888.53</td></tr><tr><td>Total TPS (incl. votes)</td><td class='num'>3,520.99</td></tr><tr><td>Vote share of transactions</td><td class='num'>46.36%</td></tr><tr><td>Average slot time</td><td class='num'>0.4213 s</td></tr><tr><td>Current slot</td><td class='num'>437,215,711</td></tr><tr><td>Block height</td><td class='num'>415,270,439</td></tr><tr><td>Active validators</td><td class='num'>692</td></tr><tr><td>Delinquent validators</td><td class='num'>7</td></tr><tr><td>Total active stake</td><td class='num'>434,421,657 SOL</td></tr><tr><td>Nakamoto coefficient</td><td class='num'>18</td></tr><tr><td>Median commission</td><td class='num'>5%</td></tr><tr><td>SOL price</td><td class='num'>$73.98</td></tr><tr><td>Market cap</td><td class='num'>$43.00B</td></tr><tr><td>DeFi TVL</td><td class='num'>$4.78B</td></tr><tr><td>DEX volume 24h</td><td class='num'>$1.71B</td></tr><tr><td>Stablecoin supply</td><td class='num'>$15.86B</td></tr><tr><td>Circulating supply</td><td class='num'>581,307,964 SOL (92.03%)</td></tr></tbody></table></div>
+
+  <footer>
+    Generated by SolPulse. Sources: Solana JSON-RPC (mainnet-beta), CoinGecko, DeFiLlama.
+    No API keys required. Sparklines show the last 1 readings from this
+    instance's own history.
+  </footer>
+</div>
+<div id="tip"></div>
+<script>
+(function () {
+  var root = document.documentElement, tip = document.getElementById('tip');
+  document.getElementById('themeBtn').addEventListener('click', function () {
+    var dark = getComputedStyle(root).getPropertyValue('color-scheme').trim() === 'dark';
+    root.setAttribute('data-theme', dark ? 'light' : 'dark');
+  });
+
+  document.querySelectorAll('.spark').forEach(function (svg) {
+    var pts = JSON.parse(svg.dataset.points || '[]');
+    if (!pts.length) return;
+    var line = svg.querySelector('.cross'), dot = svg.querySelector('.dot');
+    var hit = svg.querySelector('.hit');
+
+    hit.addEventListener('pointermove', function (e) {
+      var box = svg.getBoundingClientRect();
+      var ratio = (e.clientX - box.left) / box.width;
+      var i = Math.max(0, Math.min(pts.length - 1, Math.round(ratio * (pts.length - 1))));
+      var p = pts[i];
+      svg.classList.add('on');
+      line.setAttribute('x1', p.x); line.setAttribute('x2', p.x);
+      dot.setAttribute('cx', p.x); dot.setAttribute('cy', p.y);
+      tip.innerHTML = '<strong>' + p.v + '</strong><br>' + p.t;
+      tip.style.opacity = 1;
+      var w = tip.offsetWidth;
+      tip.style.left = Math.min(window.innerWidth - w - 8, Math.max(8, e.clientX - w / 2)) + 'px';
+      tip.style.top = (e.clientY - tip.offsetHeight - 12) + 'px';
+    });
+    hit.addEventListener('pointerleave', function () {
+      svg.classList.remove('on');
+      tip.style.opacity = 0;
+      var last = pts[pts.length - 1];
+      dot.setAttribute('cx', last.x); dot.setAttribute('cy', last.y);
+    });
+  });
+})();
+</script>
+</body>
+</html>

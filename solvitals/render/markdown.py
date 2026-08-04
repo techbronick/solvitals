@@ -37,7 +37,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
     lines = [
         "# Solana Ecosystem Report",
         "",
-        "Generated {} UTC by SolPulse.".format(snapshot.get("captured_at")),
+        "Generated {} UTC by SolVitals.".format(snapshot.get("captured_at")),
         "",
     ]
 
@@ -330,6 +330,58 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
                 )
             lines.append("")
 
+    up = snapshot.get("upgrades") or {}
+    if "error" not in up and up.get("proposal_count"):
+        lines.extend([
+            "## Upcoming upgrades and protocol changes",
+            "",
+            "| Metric | Value |",
+            "| --- | --- |",
+            "| Improvement proposals tracked | {} |".format(up.get("proposal_count")),
+            "| With an assigned feature gate | {} |".format(up.get("gated_count")),
+            "| Gates live on mainnet | {} |".format(up.get("active_on_mainnet")),
+            "| Gates awaiting mainnet | {} |".format(up.get("pending_on_mainnet")),
+            "",
+        ])
+        if up.get("by_status"):
+            lines.extend(["### Proposals by status", "", "| Status | Count |", "| --- | --- |"])
+            for k, v in up["by_status"].items():
+                lines.append("| {} | {} |".format(k, v))
+            lines.append("")
+        versions = up.get("cluster_versions") or {}
+        if versions:
+            lines.append("**Cluster versions:** " + " · ".join(
+                "{} `{}`".format(c, v or "unknown") for c, v in versions.items()))
+            lines.append("")
+            distinct = {v for v in versions.values() if v}
+            if len(distinct) > 1:
+                lines.append("_Clusters are running different versions, which is itself a "
+                             "rollout-in-progress signal._")
+                lines.append("")
+        if up.get("highlights"):
+            lines.extend(["### Named proposals", "", "| SIMD | Title | Status | Feature gate |",
+                          "| --- | --- | --- | --- |"])
+            for h in up["highlights"]:
+                clusters = h.get("clusters") or {}
+                gate = ", ".join("{}: {}".format(c, s) for c, s in clusters.items()) if clusters \
+                    else "no gate assigned yet"
+                lines.append("| SIMD-{} | {} | {} | {} |".format(
+                    h.get("simd"), h.get("title"), h.get("status"), gate))
+            lines.append("")
+            lines.append("_A proposal with no feature gate has not reached the point of being "
+                         "switchable on any cluster. Alpenglow is at that stage today._")
+            lines.append("")
+        if up.get("recently_pending"):
+            lines.extend(["### Gated features not yet live on mainnet", "",
+                          "| SIMD | Feature | Mainnet | Testnet | Devnet |",
+                          "| --- | --- | --- | --- | --- |"])
+            for t in up["recently_pending"]:
+                c = t.get("clusters") or {}
+                lines.append("| SIMD-{} | `{}` | {} | {} | {} |".format(
+                    t.get("simd"), t.get("feature_name"),
+                    c.get("mainnet", "?"), c.get("testnet", "?"), c.get("devnet", "?")))
+            lines.append("")
+
     news = snapshot.get("news") or {}
     if "error" not in news and news.get("items"):
         lines.extend(["## Ecosystem and community news", ""])
@@ -352,6 +404,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]]) -> str:
             "| TVL, DEX volume, stablecoins, fees, tokenized assets | DeFiLlama public API | No |",
             "| Daily active addresses, ecosystem growth (incl. Dune-computed) | solana.com/data | No |",
             "| Ecosystem and community news | solana.com/news RSS | No |",
+            "| Upcoming upgrades | SIMD repo + Agave feature-set + live RPC | No |",
             "",
         ]
     )

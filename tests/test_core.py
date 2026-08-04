@@ -15,7 +15,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from solpulse import anomalies, config, store  # noqa: E402
+from solvitals import anomalies, config, store  # noqa: E402
 
 
 class TestAnomalyThresholds(unittest.TestCase):

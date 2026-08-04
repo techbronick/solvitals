@@ -50,7 +50,7 @@ MIN_HISTORY = 8
 # sigma. Several tracked metrics (TVL, stablecoin supply, cached RWA figures)
 # update far more slowly than the refresh interval, so this is the normal case,
 # not an edge case. A deviation must ALSO clear this relative move to count.
-MIN_RELATIVE_MOVE = float(os.environ.get("SOLPULSE_MIN_RELATIVE_MOVE", "0.02"))
+MIN_RELATIVE_MOVE = float(os.environ.get("SOLVITALS_MIN_RELATIVE_MOVE", "0.02"))
 
 
 def _mean(values: List[float]) -> float:

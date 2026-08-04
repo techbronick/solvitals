@@ -1,12 +1,12 @@
-# SolPulse — submission
+# SolVitals — submission
 
-**Repo:** https://github.com/techbronick/solpulse
-**Live dashboard:** https://techbronick.github.io/solpulse/
-**Sample outputs:** [`docs/report.md`](https://github.com/techbronick/solpulse/blob/main/docs/report.md) · [`docs/report.json`](https://github.com/techbronick/solpulse/blob/main/docs/report.json)
+**Repo:** https://github.com/techbronick/solvitals
+**Live dashboard:** https://techbronick.github.io/solvitals/
+**Sample outputs:** [`docs/report.md`](https://github.com/techbronick/solvitals/blob/main/docs/report.md) · [`docs/report.json`](https://github.com/techbronick/solvitals/blob/main/docs/report.json)
 
 ---
 
-SolPulse is an auto-updating report on the state of the Solana ecosystem. One
+SolVitals is an auto-updating report on the state of the Solana ecosystem. One
 command collects on-chain and economic data, checks it for anomalies, and writes
 an interactive dashboard, a Markdown report and structured JSON.
 
@@ -15,7 +15,7 @@ no accounts. Clone and run. The live dashboard above refreshes itself every 15
 minutes through GitHub Actions with no server involved.
 
 ```bash
-git clone https://github.com/techbronick/solpulse && cd solpulse
+git clone https://github.com/techbronick/solvitals && cd solvitals
 python3 main.py && open output/index.html
 ```
 
@@ -42,6 +42,11 @@ volume and traders, transfer volume, total stake, validator count, Top-3 ASN
 share — each with 90 days of history and per-metric provider attribution.
 
 **News (solana.com/news RSS):** latest ecosystem and community announcements.
+
+**Upcoming upgrades (SIMD repo + Agave + live RPC):** all 123 improvement
+proposals with status breakdown, the 25 carrying feature gates, and live
+activation state for each gate across mainnet, testnet and devnet — plus
+per-cluster Agave versions.
 
 **Address activity (Solana JSON-RPC):** live unique signers sampled from recent
 blocks, signers per block, non-vote transaction share.
@@ -83,6 +88,23 @@ entirely different venue sets, so the gap reflects scope, not methodology, and
 reporting it as a disagreement would be noise. A dashboard reporting a single number without that
 caveat is quietly misleading, and the disagreement is genuinely more informative
 than either figure alone.
+
+## Tracking upgrades to actual activation
+
+The brief names Alpenglow and SIMD-525 under "upcoming upgrades". Rather than
+hardcode a list that goes stale, this joins the SIMD repository, Agave's
+feature-set source, and `getMultipleAccounts` against three clusters — so it
+reports what is genuinely switched on where, and keeps working as new proposals
+land.
+
+It surfaces two things a static list wouldn't. Mainnet is running a different
+Agave version from testnet and devnet, which is a rollout in progress. And
+Alpenglow has **no feature gate assigned on any cluster** — it isn't merely
+pending, it hasn't reached the point of being switchable at all. That's a more
+precise and more useful statement than "coming soon".
+
+(Small note: the brief writes SIMD-525; the repo zero-pads, so it's SIMD-0525,
+"Reduce Slot Times", currently Draft.)
 
 ## Automation
 

@@ -57,6 +57,7 @@ body {
 header { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline;
          justify-content: space-between; margin-bottom: 28px; }
 h1 { font-size: 22px; font-weight: 620; margin: 0; letter-spacing: -0.01em; }
+h3 { font-size: 13.5px; font-weight: 600; margin: 22px 0 10px; color: var(--ink-2); }
 h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.07em;
      text-transform: uppercase; color: var(--muted); margin: 36px 0 14px; }
 .stamp { color: var(--ink-2); font-size: 13px; font-variant-numeric: tabular-nums; }
@@ -300,6 +301,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
     eco = snapshot.get("ecosystem") or {}
     eco_metrics = eco.get("metrics") or {}
     news = snapshot.get("news") or {}
+    up = snapshot.get("upgrades") or {}
 
     # --- Alerts -----------------------------------------------------------
     if findings:
@@ -541,6 +543,60 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         '<p class="note">Source: official Solana news feed.</p>'
     ).format(news_items) if news_items else ""
 
+    # --- Upcoming upgrades -------------------------------------------------
+    upgrade_block = ""
+    if "error" not in up and up.get("proposal_count"):
+        versions = up.get("cluster_versions") or {}
+        distinct = {v for v in versions.values() if v}
+        version_line = " · ".join(
+            "{} <strong>{}</strong>".format(_esc(c), _esc(v or "unknown")) for c, v in versions.items()
+        )
+        drift = (
+            '<p class="note">Clusters are running different versions — a rollout in progress.</p>'
+            if len(distinct) > 1 else ""
+        )
+        stat_tiles = "".join([
+            _tile("Proposals tracked", _fmt_num(up.get("proposal_count")), "SIMD repository"),
+            _tile("With a feature gate", _fmt_num(up.get("gated_count")), "switchable on-chain"),
+            _tile("Live on mainnet", _fmt_num(up.get("active_on_mainnet")), "gates activated"),
+            _tile("Awaiting mainnet", _fmt_num(up.get("pending_on_mainnet")), "gates pending"),
+        ])
+        highlight_rows = "".join(
+            "<tr><td>SIMD-{}</td><td>{}</td><td>{}</td><td>{}</td></tr>".format(
+                _esc(h.get("simd")), _esc(h.get("title")), _esc(h.get("status")),
+                _esc(", ".join("{}: {}".format(c, s) for c, s in (h.get("clusters") or {}).items())
+                     or "no gate assigned yet"),
+            )
+            for h in (up.get("highlights") or [])
+        )
+        pending_rows = "".join(
+            "<tr><td>SIMD-{}</td><td class='mono'>{}</td><td>{}</td><td>{}</td><td>{}</td></tr>".format(
+                _esc(t.get("simd")), _esc(t.get("feature_name")),
+                _esc((t.get("clusters") or {}).get("mainnet", "?")),
+                _esc((t.get("clusters") or {}).get("testnet", "?")),
+                _esc((t.get("clusters") or {}).get("devnet", "?")),
+            )
+            for t in (up.get("recently_pending") or [])
+        )
+        upgrade_block = (
+            '<div class="grid">{tiles}</div>'
+            '<p class="note" style="margin-top:14px">Cluster versions: {versions}</p>{drift}'
+            '{hl_head}{hl}'
+            '{pd_head}{pd}'
+        ).format(
+            tiles=stat_tiles, versions=version_line, drift=drift,
+            hl_head="<h3>Named proposals</h3>" if highlight_rows else "",
+            hl=('<div class="scroll"><table><thead><tr><th>SIMD</th><th>Title</th>'
+                '<th>Status</th><th>Feature gate</th></tr></thead><tbody>{}</tbody></table></div>'
+                '<p class="note">A proposal with no feature gate has not reached the point of '
+                'being switchable on any cluster. Alpenglow is at that stage today.</p>'
+                ).format(highlight_rows) if highlight_rows else "",
+            pd_head="<h3>Gated features not yet live on mainnet</h3>" if pending_rows else "",
+            pd=('<div class="scroll"><table><thead><tr><th>SIMD</th><th>Feature</th>'
+                '<th>Mainnet</th><th>Testnet</th><th>Devnet</th></tr></thead>'
+                '<tbody>{}</tbody></table></div>').format(pending_rows) if pending_rows else "",
+        )
+
     # --- Full metric table (the accessible view of every tile) ------------
     supply_pct = sup.get("circulating_pct")
     table_rows = [
@@ -632,6 +688,9 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
   {news_heading}
   {news}
 
+  {upgrade_heading}
+  {upgrades}
+
   <h2>All metrics</h2>
   {metrics}
 
@@ -640,7 +699,7 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
       <a href="report.md">Markdown report</a> ·
       <a href="report.json">JSON</a> ·
       <a href="history.jsonl">metric history</a> ·
-      <a href="https://github.com/techbronick/solpulse">source on GitHub</a>
+      <a href="https://github.com/techbronick/solvitals">source on GitHub</a>
     </p>
     <p>Sources: Solana JSON-RPC (mainnet-beta), solana.com/data, solana.com/news,
     CoinGecko, DeFiLlama. No API keys required, Python standard library only.
@@ -662,4 +721,6 @@ def render(snapshot: Dict[str, Any], findings: List[Dict[str, Any]], history: Li
         divergence_heading="<h2>Where data providers disagree</h2>" if divergence_block else "",
         news=news_block,
         news_heading="<h2>Ecosystem and community news</h2>" if news_block else "",
+        upgrades=upgrade_block,
+        upgrade_heading="<h2>Upcoming upgrades and protocol changes</h2>" if upgrade_block else "",
     )

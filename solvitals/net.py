@@ -30,9 +30,9 @@ TRANSPORT_ERRORS = (
 DATA_ERRORS = (KeyError, TypeError, AttributeError, IndexError, ValueError)
 
 # Cap on cached/text bodies to bound memory on a hostile or broken response.
-MAX_BODY_BYTES = int(os.environ.get("SOLPULSE_MAX_BODY_BYTES", str(32 * 1024 * 1024)))
+MAX_BODY_BYTES = int(os.environ.get("SOLVITALS_MAX_BODY_BYTES", str(32 * 1024 * 1024)))
 
-USER_AGENT = "solpulse/1.0 (+https://github.com/)"
+USER_AGENT = "solvitals/1.0 (+https://github.com/)"
 
 
 class FetchError(Exception):
@@ -98,6 +98,55 @@ def request_text(url: str, timeout: float = 20.0, retries: int = 3, backoff: flo
         if attempt < retries - 1:
             time.sleep(backoff ** attempt)
     raise FetchError("{}: {}".format(url, last_error))
+
+
+def request_bytes(url: str, timeout: float = 60.0, retries: int = 3, backoff: float = 1.5) -> bytes:
+    """Fetch raw bytes. Used for the SIMD tarball."""
+    headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
+    last_error = None
+    for attempt in range(retries):
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            return _open(req, timeout)
+        except urllib.error.HTTPError as exc:
+            last_error = exc
+            if exc.code not in (429, 500, 502, 503, 504):
+                break
+        except TRANSPORT_ERRORS as exc:
+            last_error = exc
+        if attempt < retries - 1:
+            time.sleep(backoff ** attempt)
+    raise FetchError("{}: {}".format(url, last_error))
+
+
+def request_bytes_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> bytes:
+    """Binary equivalent of request_text_cached, with the same stale-fallback."""
+    os.makedirs(cache_dir, exist_ok=True)
+    path = os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:16] + ".bin")
+
+    if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < ttl_secs:
+        try:
+            with open(path, "rb") as handle:
+                return handle.read()
+        except OSError:
+            pass
+
+    try:
+        body = request_bytes(url, **kwargs)
+    except FetchError:
+        if os.path.exists(path):
+            try:
+                with open(path, "rb") as handle:
+                    return handle.read()
+            except OSError:
+                pass
+        raise
+
+    tmp = path + ".tmp"
+    with open(tmp, "wb") as handle:
+        handle.write(body)
+    os.replace(tmp, path)
+    return body
 
 
 def request_text_cached(url: str, ttl_secs: int, cache_dir: str = ".cache", **kwargs) -> str:

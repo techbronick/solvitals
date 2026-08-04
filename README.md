@@ -1,4 +1,4 @@
-# SolPulse
+# SolVitals
 
 An auto-updating report on the state of the Solana ecosystem. One command
 collects on-chain and economic data, checks it for anomalies, and writes three
@@ -9,7 +9,7 @@ machine-readable JSON.
 API keys, no accounts. Clone and run.
 
 ```bash
-git clone <repo-url> && cd solpulse
+git clone https://github.com/techbronick/solvitals && cd solvitals
 python3 main.py
 open output/index.html
 ```
@@ -37,15 +37,15 @@ under cron, systemd, or CI:
 
 | Variable | Default | Purpose |
 |---|---|---|
-| `SOLPULSE_RPC_URL` | `api.mainnet-beta.solana.com` | Primary RPC endpoint |
-| `SOLPULSE_RPC_FALLBACKS` | `solana-rpc.publicnode.com` | Comma-separated fallbacks |
-| `SOLPULSE_REFRESH_INTERVAL` | `300` | Seconds between refreshes in watch mode |
-| `SOLPULSE_PERF_SAMPLES` | `5` | 60s performance samples averaged for TPS |
-| `SOLPULSE_OUTPUT_DIR` | `output` | Output directory |
-| `SOLPULSE_HISTORY_WINDOW` | `288` | Trailing history points used as the anomaly baseline |
-| `SOLPULSE_PROTOCOLS_TTL` | `21600` | Cache TTL in seconds for the DeFiLlama protocol list |
-| `SOLPULSE_ADDRESS_SAMPLE_BLOCKS` | `3` | Blocks sampled for the address-activity estimate |
-| `SOLPULSE_ADDRESS_SAMPLE_SPACING` | `1500` | Slot spacing between sampled blocks |
+| `SOLVITALS_RPC_URL` | `api.mainnet-beta.solana.com` | Primary RPC endpoint |
+| `SOLVITALS_RPC_FALLBACKS` | `solana-rpc.publicnode.com` | Comma-separated fallbacks |
+| `SOLVITALS_REFRESH_INTERVAL` | `300` | Seconds between refreshes in watch mode |
+| `SOLVITALS_PERF_SAMPLES` | `5` | 60s performance samples averaged for TPS |
+| `SOLVITALS_OUTPUT_DIR` | `output` | Output directory |
+| `SOLVITALS_HISTORY_WINDOW` | `288` | Trailing history points used as the anomaly baseline |
+| `SOLVITALS_PROTOCOLS_TTL` | `21600` | Cache TTL in seconds for the DeFiLlama protocol list |
+| `SOLVITALS_ADDRESS_SAMPLE_BLOCKS` | `3` | Blocks sampled for the address-activity estimate |
+| `SOLVITALS_ADDRESS_SAMPLE_SPACING` | `1500` | Slot spacing between sampled blocks |
 
 ## Data sources
 
@@ -110,7 +110,7 @@ per-run collector can do.
 slots. This is *not* a daily figure and isn't presented as one. It measures how
 many distinct addresses are transacting right now, which the daily number can't
 show because it lags by a day. Sample width and spacing are configurable via
-`SOLPULSE_ADDRESS_SAMPLE_BLOCKS` and `SOLPULSE_ADDRESS_SAMPLE_SPACING`.
+`SOLVITALS_ADDRESS_SAMPLE_BLOCKS` and `SOLVITALS_ADDRESS_SAMPLE_SPACING`.
 
 Reporting both, clearly labelled, beats picking one and hoping the reader
 assumes the other.
@@ -127,12 +127,40 @@ daily active addresses, and DEX volume figures diverge far more widely depending
 on which venues a provider counts. A dashboard that showed one number without
 that caveat would be quietly misleading.
 
+### Upcoming upgrades — tracked to live activation
+
+Most ecosystem dashboards report what the chain *is doing*. This also reports
+what is about to change, by joining three keyless sources:
+
+1. **The SIMD repository** — every Solana Improvement Document with its status
+   and, where assigned, the feature-gate pubkey that switches it on. Fetched as
+   a single tarball rather than per-file API calls, which sidesteps GitHub's
+   unauthenticated rate limit — shared CI runner IPs exhaust that budget
+   routinely.
+2. **Agave's `feature-set` source** — maps gate pubkeys to readable names.
+3. **The chain itself** — `getMultipleAccounts` on those pubkeys, across
+   mainnet, testnet and devnet. The account is 9 bytes: an Option tag plus a
+   little-endian activation slot.
+
+That answers a question a static proposal list cannot: not "what has been
+proposed" but "what is switched on, on which cluster, right now". A gate live on
+devnet but absent on mainnet is a change in flight.
+
+Two live findings at time of writing: mainnet runs a different Agave version
+from testnet and devnet, which is itself a rollout signal; and Alpenglow
+(SIMD-0326, plus three related proposals) has no feature gate assigned on any
+cluster yet, so it is not switchable anywhere — a more precise statement than
+"upcoming".
+
+Note the bounty writes "SIMD-525"; the repository zero-pads to four digits, so
+the proposal is SIMD-0525 ("Reduce Slot Times", Draft).
+
 ### Caching
 
 DeFiLlama's full protocol list is roughly 8 MB and its RWA figures move on a
 daily cadence. Re-downloading it every refresh would dominate run time and be
 rude to a free API, so it's cached on disk with a 6-hour TTL
-(`SOLPULSE_PROTOCOLS_TTL`). Cache writes are atomic, corrupt cache files fall
+(`SOLVITALS_PROTOCOLS_TTL`). Cache writes are atomic, corrupt cache files fall
 through to a refetch, and a stale cache is used as the fallback when the network
 call fails — so the section stays populated through a transient outage.
 
@@ -144,12 +172,12 @@ Three deployment shapes, in increasing order of how hands-off they are:
 
 ```ini
 [Unit]
-Description=SolPulse
+Description=SolVitals
 After=network-online.target
 
 [Service]
-ExecStart=/usr/bin/python3 /opt/solpulse/main.py --watch --interval 300
-WorkingDirectory=/opt/solpulse
+ExecStart=/usr/bin/python3 /opt/solvitals/main.py --watch --interval 300
+WorkingDirectory=/opt/solvitals
 Restart=always
 
 [Install]
@@ -159,7 +187,7 @@ WantedBy=multi-user.target
 **2. Cron** — for a periodic single run:
 
 ```cron
-*/5 * * * * cd /opt/solpulse && /usr/bin/python3 main.py --quiet
+*/5 * * * * cd /opt/solvitals && /usr/bin/python3 main.py --quiet
 ```
 
 **3. GitHub Actions** — refreshes and publishes to Pages with no server at all.
@@ -248,7 +276,7 @@ run, which is covered by the isolation described above.
 
 ```
 main.py                      entry point
-solpulse/
+solvitals/
   cli.py                     argument parsing, run loop, output writing
   config.py                  settings, all env-overridable
   net.py                     stdlib HTTP with retry/backoff
@@ -272,7 +300,7 @@ output format touches one file.
 
 ## Sample output
 
-**Live dashboard: https://techbronick.github.io/solpulse/** — refreshed every 15
+**Live dashboard: https://techbronick.github.io/solvitals/** — refreshed every 15
 minutes by GitHub Actions.
 
 Committed samples of all three output formats:

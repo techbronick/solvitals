@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-05 12:13:23",
+  "captured_at": "2026-08-05 14:32:37",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4232,
+      "measured_slot_time_secs": 0.4228,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.8,
+      "deviation_from_target_pct": 5.7,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3304.81,
-      "tps_non_vote": 1665.05,
-      "vote_share_pct": 49.62,
-      "avg_slot_time_secs": 0.4184,
-      "latest_sample_slot": 437376960,
+      "tps_total": 4169.36,
+      "tps_non_vote": 2521.74,
+      "vote_share_pct": 39.52,
+      "avg_slot_time_secs": 0.4172,
+      "latest_sample_slot": 437396717,
       "samples_used": 5,
-      "block_height": 415431429,
-      "current_slot": 437376928
+      "block_height": 415451190,
+      "current_slot": 437396695
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 192928,
+      "slot_index": 212696,
       "slots_in_epoch": 432000,
-      "progress_pct": 44.66,
-      "eta_hours": 28.1,
-      "eta_basis_slot_secs": 0.4232,
-      "transaction_count": 535319117411
+      "progress_pct": 49.24,
+      "eta_hours": 25.8,
+      "eta_basis_slot_secs": 0.4228,
+      "transaction_count": 535349453677
     },
     "validators": {
       "active_count": 692,
@@ -40,7 +40,7 @@
       "total_active_stake_sol": 434421657.36,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 261,
+      "zero_commission_count": 260,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631629974.58,
-      "circulating_sol": 581307025.9,
+      "total_sol": 631629894.93,
+      "circulating_sol": 581306946.25,
       "non_circulating_sol": 50322948.68,
       "circulating_pct": 92.03
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2Pj9jN7nmrkTv1BaPvEz6sfvdKkDwFF7YvGAYAyLgv1rTkyToHsrr4BGkqgUi51HS5tJdhA3PpVdD4b8GubvqWG4",
-      "latest_block_time": 1785931996,
+      "latest_signature": "3sEjYSEbXqe5m3yHjii21FPdULw3DwfYw1mzRHHkrXuuUaL26dGQXuiKFdm7rujNpvpqy4qNWehR8gqYPz7cN5EF",
+      "latest_block_time": 1785940357,
       "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1274,
+      "unique_signers_sampled": 1624,
       "blocks_sampled": 3,
-      "transactions_sampled": 4010,
-      "non_vote_transactions_sampled": 1953,
-      "signers_per_block": 424.7,
-      "non_vote_share_pct": 48.7,
+      "transactions_sampled": 4613,
+      "non_vote_transactions_sampled": 2570,
+      "signers_per_block": 541.3,
+      "non_vote_share_pct": 55.71,
       "sampled_slots": [
-        437376744,
-        437375244,
-        437373744
+        437396521,
+        437395021,
+        437393521
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 73.86,
-      "change_24h_pct": 0.1,
-      "market_cap_usd": 42932922715.394714,
-      "volume_24h_usd": 1503986088.4396625,
+      "usd": 73.71,
+      "change_24h_pct": 0.27,
+      "market_cap_usd": 42845902516.05545,
+      "volume_24h_usd": 1590650232.7665367,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4794904604.97,
+      "tvl_usd": 4788969036.27,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.41,
+      "share_of_all_chains_pct": 6.4,
       "source": "defillama"
     },
     "dex_volume": {
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 156720526
+          "volume_24h_usd": 158390629
         },
         {
           "name": "BisonFi",
@@ -179,41 +179,41 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 123154636
+          "volume_24h_usd": 122329035
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 88695616
+          "volume_24h_usd": 92283329
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15677233137.11,
+      "total_usd": 15658954445.88,
       "by_peg": {
-        "peggedUSD": 15614638702.36,
-        "peggedEUR": 58019785.42,
-        "peggedJPY": 45.11,
-        "peggedCHF": 1379249.26,
-        "peggedAUD": 2636.97,
-        "peggedVAR": 2408404.85,
-        "peggedGBP": 613360.25,
+        "peggedUSD": 15597244599.98,
+        "peggedEUR": 57132232.12,
+        "peggedJPY": 45.42,
+        "peggedCHF": 1379895.82,
+        "peggedAUD": 2636.64,
+        "peggedVAR": 2410442.66,
+        "peggedGBP": 613638.37,
         "peggedTRY": 169510.77,
-        "peggedCAD": 1441.44,
+        "peggedCAD": 1443.42,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 768504,
+      "rev_24h_usd": 766680,
       "network_fees_24h_usd": 613997,
-      "mev_tips_24h_usd": 154507,
-      "mev_share_of_rev_pct": 20.1,
-      "rev_annualised_usd": 280503960,
+      "mev_tips_24h_usd": 152683,
+      "mev_share_of_rev_pct": 19.91,
+      "rev_annualised_usd": 279838200,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 133538
+          "tips_24h_usd": 131714
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 7546
         }
       ],
-      "app_fees_24h_usd": 10128064.69,
-      "app_fees_7d_usd": 56834140.54999999,
-      "app_fees_30d_usd": 220178670.43999994,
-      "app_fees_change_24h_pct": 18.68,
+      "app_fees_24h_usd": 10230930.69,
+      "app_fees_7d_usd": 56937007.54999999,
+      "app_fees_30d_usd": 220281537.43999994,
+      "app_fees_change_24h_pct": 19.89,
       "protocol_count": 283,
       "top_fee_earning_apps": [
         {
@@ -2086,12 +2086,10 @@
     "pending_on_mainnet": 11,
     "cluster_versions": {
       "mainnet": "4.1.0",
-      "testnet": null,
+      "testnet": "4.2.0-rc.0",
       "devnet": "4.2.0-rc.0"
     },
-    "clusters_unreachable": [
-      "testnet"
-    ],
+    "clusters_unreachable": [],
     "highlights": [
       {
         "simd": "0326",
@@ -2132,7 +2130,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         },
         "gate_assigned": true
@@ -2157,7 +2155,7 @@
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2169,7 +2167,7 @@
         "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2181,7 +2179,7 @@
         "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2193,7 +2191,7 @@
         "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2205,7 +2203,7 @@
         "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2217,7 +2215,7 @@
         "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2229,7 +2227,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2241,7 +2239,7 @@
         "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2253,7 +2251,7 @@
         "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2265,7 +2263,7 @@
         "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2277,7 +2275,7 @@
         "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       }

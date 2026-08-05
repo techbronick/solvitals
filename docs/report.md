@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-05 14:32:37 UTC by SolVitals.
+Generated 2026-08-05 16:19:48 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,521.74 |
-| Total TPS (incl. votes) | 4,169.36 |
-| Vote share of transactions | 39.52% |
-| Average slot time | 0.4172 s |
-| Current slot | 437,396,695 |
-| Block height | 415,451,190 |
+| Non-vote TPS | 2,042.65 |
+| Total TPS (incl. votes) | 3,669.15 |
+| Vote share of transactions | 44.33% |
+| Average slot time | 0.4208 s |
+| Current slot | 437,411,841 |
+| Block height | 415,466,325 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 49.24% complete (`##########..........`), ~25.8 hours remaining.
+Epoch **1012** — 52.74% complete (`###########.........`), ~24.1 hours remaining.
 
-Slot 212,696 of 432,000. Lifetime transaction count: 535,349,453,677.
+Slot 227,842 of 432,000. Lifetime transaction count: 535,373,507,517.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 212,696 of 432,000. Lifetime transaction count: 535,349,453,677.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4228 s |
-| Deviation from 0.4s target | 5.7% |
+| Measured slot time (`getBlockTime`) | 0.4242 s |
+| Deviation from 0.4s target | 6.05% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -53,7 +53,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 434,421,657 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 260 |
+| Zero-commission validators | 259 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.71 (up 0.27%) |
-| Market cap | $42.85B |
+| SOL price | $74.10 (up 0.31%) |
+| Market cap | $43.07B |
 | DeFi TVL | $4.79B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.75B (up 2.04%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$766.68K** |
+| **REV (total)** | **$765.36K** |
 | Network fees | $614.00K |
-| MEV tips (out-of-protocol) | $152.68K (19.91% of REV) |
-| Annualised REV run-rate | $279.84M |
+| MEV tips (out-of-protocol) | $151.37K (19.78% of REV) |
+| Annualised REV run-rate | $279.36M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $131.71K |
+| Jito MEV Tips | $130.40K |
 | Harmonic | $13.42K |
 | bloXroute | $7.55K |
 
@@ -123,26 +123,26 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.79B |
-| Tokenized equities | $397.77M (22.25% of RWA) |
+| Tokenized equities | $397.15M (22.2% of RWA) |
 | RWA protocols on Solana | 24 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $371.04M | 2.096% |
-| Ondo Global Markets | $26.73M | 2.097% |
+| xStocks | $370.09M | 0.663% |
+| Ondo Global Markets | $27.07M | 0.164% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $676.49M | RWA |
-| xStocks | $371.04M | RWA |
-| OnRe | $250.19M | RWA |
-| Ondo Yield Assets | $178.61M | RWA |
-| Hastra | $173.43M | RWA |
-| Ondo Global Markets | $26.73M | RWA |
+| xStocks | $370.09M | RWA |
+| OnRe | $250.54M | RWA |
+| Ondo Yield Assets | $178.87M | RWA |
+| Hastra | $173.78M | RWA |
+| Ondo Global Markets | $27.07M | RWA |
 | Theo Network thBill | $26.34M | RWA |
 | Apollo Diversified Credit Securitize Fund | $24.83M | RWA |
 | Nest Credit | $22.30M | RWA |
@@ -152,11 +152,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,624 |
+| Unique fee payers (sampled) | 1,620 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,613 |
-| Non-vote share of sample | 55.71% |
-| Signers per block | 541.3 |
+| Transactions in sample | 4,407 |
+| Non-vote share of sample | 53.71% |
+| Signers per block | 540.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -167,12 +167,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $658.51M |
 | Orca DEX | $158.39M |
 | BisonFi | $140.51M |
-| Manifest Trade | $122.33M |
-| Meteora DLMM | $92.28M |
+| Manifest Trade | $106.93M |
+| Meteora DLMM | $96.75M |
 
 ## Supply
 
-Circulating 581,306,946 SOL of 631,629,895 total (92.03%).
+Circulating 581,306,849 SOL of 631,629,798 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -236,9 +236,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.1.0` · testnet `4.2.0-rc.0` · devnet `4.2.0-rc.0`
-
-_Clusters are running different versions, which is itself a rollout-in-progress signal._
+**Cluster versions:** mainnet `4.2.0-rc.0` · testnet `4.2.0-rc.0` · devnet `4.2.0-rc.0`
 
 ### Named proposals
 

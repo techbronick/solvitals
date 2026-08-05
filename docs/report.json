@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-05 01:22:23",
+  "captured_at": "2026-08-05 04:36:04",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4212,
+      "measured_slot_time_secs": 0.421,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.3,
+      "deviation_from_target_pct": 5.25,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3294.21,
-      "tps_non_vote": 1669.75,
-      "vote_share_pct": 49.31,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 437284463,
+      "tps_total": 2935.24,
+      "tps_non_vote": 1301.29,
+      "vote_share_pct": 55.67,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 437311857,
       "samples_used": 5,
-      "block_height": 415339079,
-      "current_slot": 437284442
+      "block_height": 415366533,
+      "current_slot": 437311932
     },
     "epoch": {
       "epoch": 1012,
-      "slot_index": 100442,
+      "slot_index": 127932,
       "slots_in_epoch": 432000,
-      "progress_pct": 23.25,
-      "eta_hours": 38.8,
-      "eta_basis_slot_secs": 0.4212,
-      "transaction_count": 535197345700
+      "progress_pct": 29.61,
+      "eta_hours": 35.6,
+      "eta_basis_slot_secs": 0.421,
+      "transaction_count": 535237049968
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631630296.18,
-      "circulating_sol": 581307347.55,
+      "total_sol": 631630191.91,
+      "circulating_sol": 581307243.28,
       "non_circulating_sol": 50322948.63,
       "circulating_pct": 92.03
     },
@@ -126,52 +126,52 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2CkG2kbCHYpZNTC3UhnvCRVzA52brY7LGtbgoid5WzNmqw47LBBZueeq3xWXReMbTUZqEuTAfaktRdeFD8me3Cf1",
-      "latest_block_time": 1785892936,
+      "latest_signature": "5WRm4Nok3DVJtciZm9H6xUpTXCxXuck36iFPxHvSJkAjS4eTidxJfqUKJrTV6UavxoaWecphcAzC6mgCeUKo2rjH",
+      "latest_block_time": 1785904557,
       "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1592,
+      "unique_signers_sampled": 1409,
       "blocks_sampled": 3,
-      "transactions_sampled": 4410,
-      "non_vote_transactions_sampled": 2352,
-      "signers_per_block": 530.7,
-      "non_vote_share_pct": 53.33,
+      "transactions_sampled": 3821,
+      "non_vote_transactions_sampled": 1760,
+      "signers_per_block": 469.7,
+      "non_vote_share_pct": 46.06,
       "sampled_slots": [
-        437284259,
-        437282759,
-        437281259
+        437311747,
+        437310247,
+        437308747
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 73.5,
-      "change_24h_pct": 0.51,
-      "market_cap_usd": 42723005995.04102,
-      "volume_24h_usd": 1413920300.5631235,
+      "usd": 73.76,
+      "change_24h_pct": 0.07,
+      "market_cap_usd": 42874827485.325584,
+      "volume_24h_usd": 1493884001.29619,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4792880810.48,
+      "tvl_usd": 4799868464.07,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.39,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1798497606.57,
-      "volume_7d_usd": 10410821239.98,
-      "change_24h_pct": 5.02,
+      "volume_24h_usd": 1738979711.9299998,
+      "volume_7d_usd": 11188344624.98,
+      "change_24h_pct": 1.54,
       "protocol_count": 114,
       "top_dexes": [
         {
           "name": "PumpSwap",
-          "volume_24h_usd": 731063993
+          "volume_24h_usd": 658510303
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 149447096
+          "volume_24h_usd": 150160718
         },
         {
           "name": "BisonFi",
@@ -179,76 +179,72 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 107783635
+          "volume_24h_usd": 109098980
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 88052110
+          "volume_24h_usd": 90511349
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15981898404.24,
+      "total_usd": 15967453850.58,
       "by_peg": {
-        "peggedUSD": 15919149677.44,
-        "peggedEUR": 57997977.56,
+        "peggedUSD": 15904674611.22,
+        "peggedEUR": 58016844.13,
         "peggedJPY": 43.55,
-        "peggedCHF": 1378714.28,
-        "peggedAUD": 54693.22,
-        "peggedVAR": 2415982.14,
-        "peggedGBP": 729756.08,
+        "peggedCHF": 1389711.1,
+        "peggedAUD": 51201.07,
+        "peggedVAR": 2419442.23,
+        "peggedGBP": 730436.26,
         "peggedTRY": 170119.33,
-        "peggedCAD": 1439.96,
+        "peggedCAD": 1441.02,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 774142.52,
-      "network_fees_24h_usd": 614784,
-      "mev_tips_24h_usd": 159358.52,
-      "mev_share_of_rev_pct": 20.59,
-      "rev_annualised_usd": 282562019.8,
+      "rev_24h_usd": 769191,
+      "network_fees_24h_usd": 613997,
+      "mev_tips_24h_usd": 155194,
+      "mev_share_of_rev_pct": 20.18,
+      "rev_annualised_usd": 280754715,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 137166
+          "tips_24h_usd": 134225
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 14744
+          "tips_24h_usd": 13423
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 7448
-        },
-        {
-          "name": "Pyth Express Relay",
-          "tips_24h_usd": 0.52
+          "tips_24h_usd": 7546
         }
       ],
-      "app_fees_24h_usd": 8639493.93,
-      "app_fees_7d_usd": 48682633.48999999,
-      "app_fees_30d_usd": 212027163.37999994,
-      "app_fees_change_24h_pct": 2.78,
+      "app_fees_24h_usd": 9962757.69,
+      "app_fees_7d_usd": 55985317.54999999,
+      "app_fees_30d_usd": 219329847.43999994,
+      "app_fees_change_24h_pct": 18.52,
       "protocol_count": 283,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
-          "fees_24h_usd": 2272406
+          "fees_24h_usd": 2254604
         },
         {
           "name": "pump.fun",
-          "fees_24h_usd": 1255601
+          "fees_24h_usd": 1358778
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 1109617
+          "fees_24h_usd": 1118258
         },
         {
           "name": "Solana",
-          "fees_24h_usd": 614784
+          "fees_24h_usd": 613997
         },
         {
           "name": "Pyth Pro",
@@ -2305,27 +2301,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "We wanted to merge the most authentic crypto-native experience with an industry where @Solana will make an exponential impact through pay-ins, pay-outs, and net new product experiences (\ud83e\udd2b) This stream was just the beginning Solana",
-        "created_at": "Tue Aug 04 22:13:51 +0000 2026",
-        "url": "https://x.com/solana/status/2084764780792029285"
+        "text": "Who wants next? https://t.co/fECJfhh5st",
+        "created_at": "Wed Aug 05 03:08:12 +0000 2026",
+        "url": "https://x.com/solana/status/2084838857997213962"
       },
       {
         "handle": "solana",
-        "text": "you know what I said solana merch\u2026 time to reset the levels https://t.co/RXA6SuiG1s",
-        "created_at": "Tue Aug 04 21:37:51 +0000 2026",
-        "url": "https://x.com/solana/status/2084755720181039548"
+        "text": "bro really made $50K just to log on X and flex on all of us \ud83d\ude2d can\u2019t even blame him",
+        "created_at": "Wed Aug 05 02:58:22 +0000 2026",
+        "url": "https://x.com/solana/status/2084836383039078900"
+      },
+      {
+        "handle": "solana",
+        "text": "https://t.co/M3Yx9hf1Uw",
+        "created_at": "Wed Aug 05 02:40:35 +0000 2026",
+        "url": "https://x.com/solana/status/2084831907863486594"
       },
       {
         "handle": "solana",
         "text": "WSOP: Solana Showdown has its first champion. \ud83c\udfc6 @rasmr_eth takes the bracelet. https://t.co/0fPmcHhlxW",
         "created_at": "Tue Aug 04 21:36:12 +0000 2026",
         "url": "https://x.com/solana/status/2084755305964192200"
-      },
-      {
-        "handle": "solana",
-        "text": "I've been doing a lot of reflecting on why I do what I do, and what's got me excited about the current moment: This is the first major economic disruption in history where your ability to have a stake in its future isn't gated by which cou\u2026",
-        "created_at": "Tue Aug 04 19:24:40 +0000 2026",
-        "url": "https://x.com/solana/status/2084722206345752629"
       },
       {
         "handle": "solanalabs",
@@ -2365,10 +2361,10 @@
   "anomalies": [
     {
       "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.6 sigma below its 31-point mean",
-      "value": 1669.75,
-      "expected": 2284.0113
+      "severity": "critical",
+      "message": "tps_non_vote is 3.7 sigma below its 32-point mean",
+      "value": 1301.29,
+      "expected": 2264.8156
     }
   ]
 }

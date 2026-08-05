@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-05 20:46:17 UTC by SolVitals.
+Generated 2026-08-05 22:04:02 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.0 sigma below its 22-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,351.45 |
-| Total TPS (incl. votes) | 3,987.58 |
-| Vote share of transactions | 41.03% |
-| Average slot time | 0.4196 s |
-| Current slot | 437,449,695 |
-| Block height | 415,504,140 |
+| Non-vote TPS | 2,338.46 |
+| Total TPS (incl. votes) | 3,968.51 |
+| Vote share of transactions | 41.07% |
+| Average slot time | 0.4202 s |
+| Current slot | 437,460,715 |
+| Block height | 415,515,140 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 61.5% complete (`############........`), ~19.6 hours remaining.
+Epoch **1012** — 64.05% complete (`#############.......`), ~18.1 hours remaining.
 
-Slot 265,696 of 432,000. Lifetime transaction count: 535,432,815,399.
+Slot 276,715 of 432,000. Lifetime transaction count: 535,450,527,717.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 265,696 of 432,000. Lifetime transaction count: 535,432,815,399.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.425 s |
-| Deviation from 0.4s target | 6.25% |
+| Measured slot time (`getBlockTime`) | 0.4206 s |
+| Deviation from 0.4s target | 5.15% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.46 (up 0.19%) |
-| Market cap | $43.28B |
+| SOL price | $74.09 (up 0.15%) |
+| Market cap | $43.06B |
 | DeFi TVL | $4.81B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.75B (up 2.04%) |
-| Stablecoin supply | $15.62B |
+| Stablecoin supply | $15.61B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$757.99K** |
+| **REV (total)** | **$756.45K** |
 | Network fees | $614.00K |
-| MEV tips (out-of-protocol) | $144.00K (19.0% of REV) |
-| Annualised REV run-rate | $276.67M |
+| MEV tips (out-of-protocol) | $142.46K (18.83% of REV) |
+| Annualised REV run-rate | $276.10M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $123.03K |
+| Jito MEV Tips | $121.49K |
 | Harmonic | $13.42K |
 | bloXroute | $7.55K |
 
@@ -116,7 +116,7 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.36M |
 | Axiom | $1.12M |
 | Solana | $614.00K |
-| Pyth Pro | $500.58K |
+| fomo Wallet | $466.21K |
 
 ## Tokenized assets
 
@@ -152,11 +152,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,619 |
+| Unique fee payers (sampled) | 1,578 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,287 |
-| Non-vote share of sample | 61.38% |
-| Signers per block | 539.7 |
+| Transactions in sample | 4,345 |
+| Non-vote share of sample | 53.21% |
+| Signers per block | 526.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,14 +165,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $658.51M |
-| Orca DEX | $153.48M |
 | BisonFi | $140.51M |
-| Meteora DLMM | $91.05M |
-| Raydium AMM | $88.51M |
+| Orca DEX | $138.32M |
+| Meteora DLMM | $90.56M |
+| Manifest Trade | $89.64M |
 
 ## Supply
 
-Circulating 581,306,652 SOL of 631,629,601 total (92.03%).
+Circulating 581,306,605 SOL of 631,629,553 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -236,9 +236,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.1.0` · testnet `4.2.0-rc.0` · devnet `4.2.0-rc.0`
-
-_Clusters are running different versions, which is itself a rollout-in-progress signal._
+**Cluster versions:** mainnet `4.2.0-rc.0` · testnet `4.2.0-rc.0` · devnet `4.2.0-rc.0`
 
 ### Named proposals
 
@@ -270,6 +268,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Webinar Recap: Giving AI agents a native way to pay with X402](https://solana.com/news/webinar-recap-agentic-payments)**
+  X402 has processed roughly 200M transactions and $50B in volume, giving AI agents a stablecoin-native way to pay for web resources.
 - **[Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)**
   The last cycle was built on software and cheap money. This one is built from steel, silicon, and energy; and the tokens moving the capital behind it. Speaker applications are now live for Breakpoint 2026:
 - **[Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)**
@@ -284,8 +284,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Read how Crossmint’s Solana infrastructure supports Western Union USDPT, fomo’s $4B volume, Tala wallets, and Wirex smart wallets.
 - **[Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)**
   A data-backed analysis of whether Solana can reduce the rent-exempt requirement from 6,960 to 696 lamports per byte without creating immediate state-growth risk, covering attack economics, account persistence, AccountsD…
-- **[Solana Changelog: July 16, 2026](https://solana.com/news/solana-changelog-july-16-2026)**
-  Agave, Firedancer, Frankendancer, Solana Program JS SDKs, LiteSVM, Mollusk, and Surfpool shipped new releases.
 
 _Source: official Solana news feed (solana.com/news)._
 

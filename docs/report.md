@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-05 23:16:41 UTC by SolVitals.
+Generated 2026-08-06 00:14:49 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.1 sigma below its 24-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,928.17 |
-| Total TPS (incl. votes) | 3,555.84 |
-| Vote share of transactions | 45.77% |
-| Average slot time | 0.4213 s |
-| Current slot | 437,471,040 |
-| Block height | 415,525,462 |
+| Non-vote TPS | 1,904.62 |
+| Total TPS (incl. votes) | 3,526.75 |
+| Vote share of transactions | 45.99% |
+| Average slot time | 0.4225 s |
+| Current slot | 437,479,289 |
+| Block height | 415,533,707 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1012** — 66.44% complete (`#############.......`), ~17.0 hours remaining.
+Epoch **1012** — 68.35% complete (`##############......`), ~16.1 hours remaining.
 
-Slot 287,040 of 432,000. Lifetime transaction count: 535,466,265,527.
+Slot 295,290 of 432,000. Lifetime transaction count: 535,478,197,938.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 287,040 of 432,000. Lifetime transaction count: 535,466,265,527.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4214 s |
-| Deviation from 0.4s target | 5.35% |
+| Measured slot time (`getBlockTime`) | 0.4228 s |
+| Deviation from 0.4s target | 5.7% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -47,13 +47,13 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 691 |
-| Delinquent validators | 8 (1.14%) |
-| Stake held by delinquents | 52,081 SOL (0.012%) |
-| Total active stake | 434,371,402 SOL |
+| Active validators | 692 |
+| Delinquent validators | 7 (1.00%) |
+| Stake held by delinquents | 1,826 SOL (0.000%) |
+| Total active stake | 434,421,657 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 258 |
+| Zero-commission validators | 259 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,14 +61,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,808,220 | 3.87% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,808,220 | 3.869% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,003,205 | 3.684% | 0% |
 | 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,472,697 | 2.871% | 5% |
-| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,265,636 | 2.824% | 0% |
-| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,189,333 | 2.116% | 7% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,265,636 | 2.823% | 0% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,189,333 | 2.115% | 7% |
 | 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,837,285 | 2.034% | 10% |
 | 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,157,244 | 1.878% | 0% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,899,432 | 1.819% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,899,432 | 1.818% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,479,271 | 1.722% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,653,304 | 1.532% | 0% |
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.91 (down 0.36%) |
-| Market cap | $42.96B |
-| DeFi TVL | $4.81B |
+| SOL price | $74.02 (up 0.54%) |
+| Market cap | $43.02B |
+| DeFi TVL | $4.80B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.75B (up 2.04%) |
-| Stablecoin supply | $15.63B |
+| Stablecoin supply | $15.61B |
 
 ### Real Economic Value (REV)
 
@@ -152,11 +152,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,754 |
+| Unique fee payers (sampled) | 1,464 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,098 |
-| Non-vote share of sample | 60.34% |
-| Signers per block | 584.7 |
+| Transactions in sample | 3,867 |
+| Non-vote share of sample | 47.19% |
+| Signers per block | 488.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,13 +166,13 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $658.51M |
 | BisonFi | $140.51M |
-| Orca DEX | $139.81M |
-| Manifest Trade | $93.62M |
-| Meteora DLMM | $91.32M |
+| Orca DEX | $140.01M |
+| Manifest Trade | $95.10M |
+| Meteora DLMM | $91.92M |
 
 ## Supply
 
-Circulating 581,306,562 SOL of 631,629,511 total (92.03%).
+Circulating 581,306,529 SOL of 631,629,478 total (92.03%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -202,10 +202,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — 🇰🇷 Solana Summit is coming to Korea. From Traditional Finance to the Internet Capital Markets. Hosted in Yeouido, Korea's financial hub in Seoul, the Korea edition focuses exclusively on institutional adoption. Attendance is by application… [(link)](https://x.com/solana/status/2084887018862186931)
-- **@solana** — Who wants next? https://t.co/fECJfhh5st [(link)](https://x.com/solana/status/2084838857997213962)
-- **@solana** — bro really made $50K just to log on X and flex on all of us 😭 can’t even blame him [(link)](https://x.com/solana/status/2084836383039078900)
-- **@solana** — WSOP: Solana Showdown has its first champion. 🏆 @rasmr_eth takes the bracelet. https://t.co/0fPmcHhlxW [(link)](https://x.com/solana/status/2084755305964192200)
+- **@solana** — JUST IN: Solana processed ~$1.45B in tokenized equities volume in July, approximately 82% of all tokenized stock trading across every chain. Source: @Blockworks https://t.co/FoonJsJYB2 [(link)](https://x.com/solana/status/2085112453529244115)
+- **@solana** — Every collector has a favorite card from their childhood. Chances are, it's made its way to Solana. [(link)](https://x.com/solana/status/2085111811561689323)
+- **@solana** — https://t.co/B6skbLpRMj [(link)](https://x.com/solana/status/2085033431579468251)
+- **@solana** — Tokenised funds have moved from pilots to production, and distribution is the last barrier. Project Harmonia brings them to Solana through Allfunds' network of 3,300+ asset managers. "A project that is going to completely transform the way… [(link)](https://x.com/solana/status/2085007086937952377)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

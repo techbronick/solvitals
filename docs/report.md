@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-07 19:27:42 UTC by SolVitals.
+Generated 2026-08-07 20:04:21 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,280.39 |
-| Total TPS (incl. votes) | 3,899.46 |
-| Vote share of transactions | 41.52% |
-| Average slot time | 0.4249 s |
-| Current slot | 437,847,664 |
-| Block height | 415,901,701 |
+| Non-vote TPS | 2,408.23 |
+| Total TPS (incl. votes) | 4,042.88 |
+| Vote share of transactions | 40.43% |
+| Average slot time | 0.4184 s |
+| Current slot | 437,852,898 |
+| Block height | 415,906,934 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1013** — 53.63% complete (`###########.........`), ~23.6 hours remaining.
+Epoch **1013** — 54.84% complete (`###########.........`), ~22.8 hours remaining.
 
-Slot 231,665 of 432,000. Lifetime transaction count: 536,011,018,992.
+Slot 236,900 of 432,000. Lifetime transaction count: 536,019,276,178.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 231,665 of 432,000. Lifetime transaction count: 536,011,018,992.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4234 s |
-| Deviation from 0.4s target | 5.85% |
+| Measured slot time (`getBlockTime`) | 0.4206 s |
+| Deviation from 0.4s target | 5.15% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -76,9 +76,9 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.77 (up 1.62%) |
-| Market cap | $42.95B |
-| DeFi TVL | $4.73B |
+| SOL price | $73.95 (up 1.58%) |
+| Market cap | $43.05B |
+| DeFi TVL | $4.72B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.38B (down 15.75%) |
 | Stablecoin supply | $15.59B |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$645.36K** |
+| **REV (total)** | **$644.91K** |
 | Network fees | $516.12K |
-| MEV tips (out-of-protocol) | $129.23K (20.03% of REV) |
-| Annualised REV run-rate | $235.55M |
+| MEV tips (out-of-protocol) | $128.79K (19.97% of REV) |
+| Annualised REV run-rate | $235.39M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $110.97K |
+| Jito MEV Tips | $110.53K |
 | Harmonic | $11.85K |
 | bloXroute | $6.41K |
 | Pyth Express Relay | $3 |
@@ -124,40 +124,41 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.81B |
-| Tokenized equities | $395.84M (21.89% of RWA) |
-| RWA protocols on Solana | 25 |
+| Tokenized equities | $399.95M (22.06% of RWA) |
+| RWA protocols on Solana | 26 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $368.58M | 0.654% |
-| Ondo Global Markets | $27.26M | 1.373% |
+| xStocks | $372.57M | 1.54% |
+| Ondo Global Markets | $27.16M | 1.312% |
+| Remora Markets | $216.38K | None% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| BlackRock BUIDL | $697.09M | RWA |
-| xStocks | $368.58M | RWA |
-| OnRe | $251.58M | RWA |
-| Ondo Yield Assets | $178.53M | RWA |
-| Hastra | $173.86M | RWA |
-| Ondo Global Markets | $27.26M | RWA |
+| BlackRock BUIDL | $697.16M | RWA |
+| xStocks | $372.57M | RWA |
+| OnRe | $251.59M | RWA |
+| Ondo Yield Assets | $179.01M | RWA |
+| Hastra | $173.65M | RWA |
+| Ondo Global Markets | $27.16M | RWA |
 | Theo Network thBill | $26.34M | RWA |
-| Apollo Diversified Credit Securitize Fund | $24.87M | RWA |
-| Nest Credit | $22.33M | RWA |
+| Apollo Diversified Credit Securitize Fund | $24.86M | RWA |
+| Nest Credit | $22.32M | RWA |
 | VanEck Treasury Fund | $13.91M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,480 |
+| Unique fee payers (sampled) | 1,932 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,185 |
-| Non-vote share of sample | 60.37% |
-| Signers per block | 493.3 |
+| Transactions in sample | 5,658 |
+| Non-vote share of sample | 63.43% |
+| Signers per block | 644.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,12 +169,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $560.33M |
 | BisonFi | $115.36M |
 | Orca DEX | $106.02M |
-| Raydium AMM | $88.36M |
-| Meteora DLMM | $77.19M |
+| Raydium AMM | $89.61M |
+| Meteora DLMM | $76.98M |
 
 ## Supply
 
-Circulating 582,051,677 SOL of 631,756,298 total (92.13%).
+Circulating 582,051,655 SOL of 631,756,275 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 

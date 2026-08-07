@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-07 13:34:52",
+  "captured_at": "2026-08-07 14:37:23",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4224,
+      "measured_slot_time_secs": 0.424,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.6,
+      "deviation_from_target_pct": 6.0,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4450.92,
-      "tps_non_vote": 2796.64,
-      "vote_share_pct": 37.17,
-      "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 437797504,
+      "tps_total": 4460.64,
+      "tps_non_vote": 2829.84,
+      "vote_share_pct": 36.56,
+      "avg_slot_time_secs": 0.4208,
+      "latest_sample_slot": 437806424,
       "samples_used": 5,
-      "block_height": 415851655,
-      "current_slot": 437797601
+      "block_height": 415860495,
+      "current_slot": 437806453
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 181601,
+      "slot_index": 190453,
       "slots_in_epoch": 432000,
-      "progress_pct": 42.04,
-      "eta_hours": 29.4,
-      "eta_basis_slot_secs": 0.4224,
-      "transaction_count": 535925214258
+      "progress_pct": 44.09,
+      "eta_hours": 28.4,
+      "eta_basis_slot_secs": 0.424,
+      "transaction_count": 535941448502
     },
     "validators": {
-      "active_count": 692,
-      "delinquent_count": 8,
-      "delinquent_pct": 1.14,
-      "delinquent_stake_sol": 273355.41,
-      "delinquent_stake_pct": 0.063,
-      "total_active_stake_sol": 434566532.22,
+      "active_count": 693,
+      "delinquent_count": 7,
+      "delinquent_pct": 1.0,
+      "delinquent_stake_sol": 1716.78,
+      "delinquent_stake_pct": 0.0,
+      "total_active_stake_sol": 434838170.85,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 262,
@@ -45,68 +45,68 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 16882234.36,
-          "stake_pct": 3.885,
+          "stake_pct": 3.882,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 15996914.31,
-          "stake_pct": 3.681,
+          "stake_pct": 3.679,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12487724.13,
-          "stake_pct": 2.874,
+          "stake_pct": 2.872,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12275238.62,
-          "stake_pct": 2.825,
+          "stake_pct": 2.823,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9139569.3,
-          "stake_pct": 2.103,
+          "stake_pct": 2.102,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8868459.05,
-          "stake_pct": 2.041,
+          "stake_pct": 2.039,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8166426.73,
-          "stake_pct": 1.879,
+          "stake_pct": 1.878,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7921631.56,
-          "stake_pct": 1.823,
+          "stake_pct": 1.822,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7637449.59,
-          "stake_pct": 1.757,
+          "stake_pct": 1.756,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6569156.25,
-          "stake_pct": 1.512,
+          "stake_pct": 1.511,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 631756526.08,
-      "circulating_sol": 582051906.17,
+      "total_sol": 631756483.46,
+      "circulating_sol": 582051863.54,
       "non_circulating_sol": 49704619.91,
       "circulating_pct": 92.13
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4g59E4DQnnK2LTdB9F7VRCGDDReVwVA92YALeoB17Up6nB3Lq9iVcvWfBiAYavsVH4Qe8NLZfiu538qEw8TofhaP",
-      "latest_block_time": 1786109688,
-      "errors_in_recent": 3
+      "latest_signature": "xchpQsi4EswGL97C1ae66ckSgewi8WyD2DAhdiiDnwdoan6chK4K3FQXsFtYUcEBaAyPcBMY45CHWqSm9idURoY",
+      "latest_block_time": 1786113438,
+      "errors_in_recent": 8
     },
     "activity": {
-      "unique_signers_sampled": 1948,
+      "unique_signers_sampled": 1538,
       "blocks_sampled": 3,
-      "transactions_sampled": 5488,
-      "non_vote_transactions_sampled": 3598,
-      "signers_per_block": 649.3,
-      "non_vote_share_pct": 65.56,
+      "transactions_sampled": 6025,
+      "non_vote_transactions_sampled": 3999,
+      "signers_per_block": 512.7,
+      "non_vote_share_pct": 66.37,
       "sampled_slots": [
-        437797421,
-        437795921,
-        437794421
+        437806273,
+        437804773,
+        437803273
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 73.88,
-      "change_24h_pct": 1.43,
-      "market_cap_usd": 43001052713.8682,
-      "volume_24h_usd": 1441682883.6609006,
+      "usd": 74.1,
+      "change_24h_pct": 1.14,
+      "market_cap_usd": 43132949103.80448,
+      "volume_24h_usd": 1520540501.3312538,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4733566954.24,
+      "tvl_usd": 4732718768.38,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.25,
+      "share_of_all_chains_pct": 6.24,
       "source": "defillama"
     },
     "dex_volume": {
@@ -175,7 +175,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 94761441
+          "volume_24h_usd": 103250413
         },
         {
           "name": "Orca DEX",
@@ -183,37 +183,37 @@
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 75095498
+          "volume_24h_usd": 76368119
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15471912175.93,
+      "total_usd": 15527568989.84,
       "by_peg": {
-        "peggedUSD": 15409216143.74,
-        "peggedEUR": 58060782.31,
-        "peggedJPY": 50.75,
-        "peggedCHF": 1383202.31,
-        "peggedAUD": 2633.69,
-        "peggedVAR": 2469407.32,
-        "peggedGBP": 614132.66,
+        "peggedUSD": 15464632210.72,
+        "peggedEUR": 58291056.43,
+        "peggedJPY": 51.04,
+        "peggedCHF": 1383777.81,
+        "peggedAUD": 2641.1,
+        "peggedVAR": 2479241.72,
+        "peggedGBP": 614182.85,
         "peggedTRY": 164376.25,
-        "peggedCAD": 1446.22,
+        "peggedCAD": 1451.23,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 641432.28,
+      "rev_24h_usd": 642129.28,
       "network_fees_24h_usd": 516121,
-      "mev_tips_24h_usd": 125311.28,
-      "mev_share_of_rev_pct": 19.54,
-      "rev_annualised_usd": 234122782.2,
+      "mev_tips_24h_usd": 126008.28,
+      "mev_share_of_rev_pct": 19.62,
+      "rev_annualised_usd": 234377187.2,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 107052
+          "tips_24h_usd": 107749
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 3.28
         }
       ],
-      "app_fees_24h_usd": 8904173.120000001,
-      "app_fees_7d_usd": 57062389.210000016,
-      "app_fees_30d_usd": 219006820.40000004,
-      "app_fees_change_24h_pct": 14.48,
+      "app_fees_24h_usd": 8978153.120000001,
+      "app_fees_7d_usd": 57136395.210000016,
+      "app_fees_30d_usd": 219080826.40000004,
+      "app_fees_change_24h_pct": 15.43,
       "protocol_count": 283,
       "top_fee_earning_apps": [
         {
@@ -248,7 +248,7 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 577291
+          "fees_24h_usd": 577295
         },
         {
           "name": "Solana",
@@ -2290,15 +2290,15 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "xStocks is leading tokenized equity ownership on @Solana. 9 of the 10 most-held tokenized equities are xStocks. 190K+ total holders and growing. https://t.co/q4VCE7itg4",
-        "created_at": "Fri Aug 07 10:59:03 +0000 2026",
-        "url": "https://x.com/solana/status/2085682124091212053"
+        "text": "Solana Exclusive \u26a1\ufe0f Helius Is Building the Most Scalable Privacy Layer in Crypto \"Everything you'd expect from a bank, you'll be able to do on Solana. Fully onchain. No compromises.\" - Mert, Founder & CEO of Helius Genfinity Founder @IOV_O\u2026",
+        "created_at": "Fri Aug 07 13:19:47 +0000 2026",
+        "url": "https://x.com/solana/status/2085717543084327030"
       },
       {
         "handle": "solana",
-        "text": "Watch the full talk at @StanfordSBA: https://t.co/FGIPvNvzsg",
-        "created_at": "Fri Aug 07 09:23:08 +0000 2026",
-        "url": "https://x.com/solana/status/2085657987931353486"
+        "text": "xStocks is leading tokenized equity ownership on @Solana. 9 of the 10 most-held tokenized equities are xStocks. 190K+ total holders and growing. https://t.co/q4VCE7itg4",
+        "created_at": "Fri Aug 07 10:59:03 +0000 2026",
+        "url": "https://x.com/solana/status/2085682124091212053"
       },
       {
         "handle": "solana",
@@ -2308,9 +2308,9 @@
       },
       {
         "handle": "solana",
-        "text": "SOLANA SUMMER HOUSE IS BACK ON 8/29. JOIN US. https://t.co/XAgt76go9k https://t.co/R7duZswrGI",
-        "created_at": "Thu Aug 06 17:10:59 +0000 2026",
-        "url": "https://x.com/solana/status/2085413338213933392"
+        "text": "Blockchains aren't just databases. They're economies. Solana has tens of thousands of participants building, transacting, and working within its ecosystem. That creates real GDP, real revenue. You can benchmark it like a small country or a\u2026",
+        "created_at": "Thu Aug 06 14:54:50 +0000 2026",
+        "url": "https://x.com/solana/status/2085379073854063094"
       },
       {
         "handle": "solanalabs",

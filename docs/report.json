@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-07 22:04:22",
+  "captured_at": "2026-08-07 22:52:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3242.77,
-      "tps_non_vote": 1594.21,
-      "vote_share_pct": 50.84,
-      "avg_slot_time_secs": 0.4178,
-      "latest_sample_slot": 437869907,
+      "tps_total": 3659.08,
+      "tps_non_vote": 2041.44,
+      "vote_share_pct": 44.21,
+      "avg_slot_time_secs": 0.4231,
+      "latest_sample_slot": 437876756,
       "samples_used": 5,
-      "block_height": 415923956,
-      "current_slot": 437869921
+      "block_height": 415930873,
+      "current_slot": 437876838
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 253922,
+      "slot_index": 260838,
       "slots_in_epoch": 432000,
-      "progress_pct": 58.78,
-      "eta_hours": 20.8,
+      "progress_pct": 60.38,
+      "eta_hours": 20.0,
       "eta_basis_slot_secs": 0.42,
-      "transaction_count": 536044768527
+      "transaction_count": 536054829769
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631756208.48,
-      "circulating_sol": 582051588.18,
+      "total_sol": 631756182.22,
+      "circulating_sol": 582051561.93,
       "non_circulating_sol": 49704620.3,
       "circulating_pct": 92.13
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3vfZkRg3P9ti2vnLHHqLhmS77AjKmz4VA5eFUMM5KRZzRnqsd57vRMV9HHaYUrRvPJRy8z5N2dKheWpse9Kt24oV",
-      "latest_block_time": 1786140256,
-      "errors_in_recent": 7
+      "latest_signature": "45hpA1Tnq5AHsv3ArjF8K8SJgaGHmiuKLGSh2LKEgSUVheiexe4jHB3G54KSKM2dCCE8AWHong4H6KzS5bY1JcaP",
+      "latest_block_time": 1786143166,
+      "errors_in_recent": 8
     },
     "activity": {
-      "unique_signers_sampled": 1368,
+      "unique_signers_sampled": 1502,
       "blocks_sampled": 3,
-      "transactions_sampled": 3891,
-      "non_vote_transactions_sampled": 1894,
-      "signers_per_block": 456.0,
-      "non_vote_share_pct": 48.68,
+      "transactions_sampled": 4048,
+      "non_vote_transactions_sampled": 2041,
+      "signers_per_block": 500.7,
+      "non_vote_share_pct": 50.42,
       "sampled_slots": [
-        437869741,
-        437868241,
-        437866741
+        437876657,
+        437875157,
+        437873657
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 73.58,
-      "change_24h_pct": 1.12,
-      "market_cap_usd": 42830049691.86725,
-      "volume_24h_usd": 1552260420.4020498,
+      "usd": 73.56,
+      "change_24h_pct": 1.25,
+      "market_cap_usd": 42817337399.8814,
+      "volume_24h_usd": 1559133166.6340728,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4732191190.06,
+      "tvl_usd": 4723770222.69,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.24,
+      "share_of_all_chains_pct": 6.25,
       "source": "defillama"
     },
     "dex_volume": {
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15580970331.79,
+      "total_usd": 15634799089.21,
       "by_peg": {
-        "peggedUSD": 15518107560.99,
-        "peggedEUR": 58207692.41,
-        "peggedJPY": 53.4,
-        "peggedCHF": 1386015.4,
-        "peggedAUD": 2644.49,
-        "peggedVAR": 2487426.28,
-        "peggedGBP": 614774.51,
-        "peggedTRY": 162710.21,
-        "peggedCAD": 1453.42,
+        "peggedUSD": 15571949185.07,
+        "peggedEUR": 58197143.51,
+        "peggedJPY": 53.37,
+        "peggedCHF": 1384743.48,
+        "peggedAUD": 2644.07,
+        "peggedVAR": 2486474.48,
+        "peggedGBP": 614675.92,
+        "peggedTRY": 162715.28,
+        "peggedCAD": 1453.34,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 644513.28,
+      "rev_24h_usd": 642592.28,
       "network_fees_24h_usd": 516121,
-      "mev_tips_24h_usd": 128392.28,
-      "mev_share_of_rev_pct": 19.92,
-      "rev_annualised_usd": 235247347.2,
+      "mev_tips_24h_usd": 126471.28,
+      "mev_share_of_rev_pct": 19.68,
+      "rev_annualised_usd": 234546182.2,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 110133
+          "tips_24h_usd": 108212
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Solana Exclusive \u26a1\ufe0f Helius Is Building the Most Scalable Privacy Layer in Crypto \"Everything you'd expect from a bank, you'll be able to do on Solana. Fully onchain. No compromises.\" - Mert, Founder & CEO of Helius Genfinity Founder @IOV_O\u2026",
-        "created_at": "Fri Aug 07 13:19:47 +0000 2026",
-        "url": "https://x.com/solana/status/2085717543084327030"
+        "text": "the everything chain https://t.co/TkrZKsqxOE",
+        "created_at": "Fri Aug 07 22:24:48 +0000 2026",
+        "url": "https://x.com/solana/status/2085854698863464740"
       },
       {
         "handle": "solana",
-        "text": "xStocks is leading tokenized equity ownership on @Solana. 9 of the 10 most-held tokenized equities are xStocks. 190K+ total holders and growing. https://t.co/q4VCE7itg4",
-        "created_at": "Fri Aug 07 10:59:03 +0000 2026",
-        "url": "https://x.com/solana/status/2085682124091212053"
+        "text": "Learn more about @HeliusPrivacy and watch the whole Privacy Show with @catmcgee @mert @tilo_cpn here: https://t.co/0pgb87GXWH",
+        "created_at": "Fri Aug 07 20:21:15 +0000 2026",
+        "url": "https://x.com/solana/status/2085823608668983757"
       },
       {
         "handle": "solana",
-        "text": "Vibhu on why Solana is the Netflix of finance: \"The vision of Solana is one marketplace where every asset and every market live together in a single place\" \"I think it's basically inevitable at this point that every asset in the world will\u2026",
-        "created_at": "Fri Aug 07 09:23:05 +0000 2026",
-        "url": "https://x.com/solana/status/2085657975885332942"
+        "text": "The Solana ecosystem in Nigeria has officially come of age. Tomorrow, on the Solana Summit Nigeria 2026 stage, you\u2019ll hear directly from some of the most exciting local and regional companies building on Solana, integrating Solana infrastr\u2026",
+        "created_at": "Fri Aug 07 16:30:05 +0000 2026",
+        "url": "https://x.com/solana/status/2085765434125504520"
       },
       {
         "handle": "solana",
-        "text": "Blockchains aren't just databases. They're economies. Solana has tens of thousands of participants building, transacting, and working within its ecosystem. That creates real GDP, real revenue. You can benchmark it like a small country or a\u2026",
-        "created_at": "Thu Aug 06 14:54:50 +0000 2026",
-        "url": "https://x.com/solana/status/2085379073854063094"
+        "text": "You probably would have played better, right? Prove it. Next tables: Breakpoint 2026 and @WSOP: Bahamas. https://t.co/DPGcXdgVFJ",
+        "created_at": "Fri Aug 07 15:10:16 +0000 2026",
+        "url": "https://x.com/solana/status/2085745344881811710"
       },
       {
         "handle": "solanalabs",

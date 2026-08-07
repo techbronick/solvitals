@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-07 22:04:22 UTC by SolVitals.
+Generated 2026-08-07 22:52:52 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,594.21 |
-| Total TPS (incl. votes) | 3,242.77 |
-| Vote share of transactions | 50.84% |
-| Average slot time | 0.4178 s |
-| Current slot | 437,869,921 |
-| Block height | 415,923,956 |
+| Non-vote TPS | 2,041.44 |
+| Total TPS (incl. votes) | 3,659.08 |
+| Vote share of transactions | 44.21% |
+| Average slot time | 0.4231 s |
+| Current slot | 437,876,838 |
+| Block height | 415,930,873 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1013** — 58.78% complete (`############........`), ~20.8 hours remaining.
+Epoch **1013** — 60.38% complete (`############........`), ~20.0 hours remaining.
 
-Slot 253,922 of 432,000. Lifetime transaction count: 536,044,768,527.
+Slot 260,838 of 432,000. Lifetime transaction count: 536,054,829,769.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 8 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.58 (up 1.12%) |
-| Market cap | $42.83B |
-| DeFi TVL | $4.73B |
+| SOL price | $73.56 (up 1.25%) |
+| Market cap | $42.82B |
+| DeFi TVL | $4.72B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.38B (down 15.75%) |
-| Stablecoin supply | $15.58B |
+| Stablecoin supply | $15.63B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$644.51K** |
+| **REV (total)** | **$642.59K** |
 | Network fees | $516.12K |
-| MEV tips (out-of-protocol) | $128.39K (19.92% of REV) |
-| Annualised REV run-rate | $235.25M |
+| MEV tips (out-of-protocol) | $126.47K (19.68% of REV) |
+| Annualised REV run-rate | $234.55M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $110.13K |
+| Jito MEV Tips | $108.21K |
 | Harmonic | $11.85K |
 | bloXroute | $6.41K |
 | Pyth Express Relay | $3 |
@@ -154,11 +154,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,368 |
+| Unique fee payers (sampled) | 1,502 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,891 |
-| Non-vote share of sample | 48.68% |
-| Signers per block | 456.0 |
+| Transactions in sample | 4,048 |
+| Non-vote share of sample | 50.42% |
+| Signers per block | 500.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,051,588 SOL of 631,756,208 total (92.13%).
+Circulating 582,051,562 SOL of 631,756,182 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -204,10 +204,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Solana Exclusive ⚡️ Helius Is Building the Most Scalable Privacy Layer in Crypto "Everything you'd expect from a bank, you'll be able to do on Solana. Fully onchain. No compromises." - Mert, Founder & CEO of Helius Genfinity Founder @IOV_O… [(link)](https://x.com/solana/status/2085717543084327030)
-- **@solana** — xStocks is leading tokenized equity ownership on @Solana. 9 of the 10 most-held tokenized equities are xStocks. 190K+ total holders and growing. https://t.co/q4VCE7itg4 [(link)](https://x.com/solana/status/2085682124091212053)
-- **@solana** — Vibhu on why Solana is the Netflix of finance: "The vision of Solana is one marketplace where every asset and every market live together in a single place" "I think it's basically inevitable at this point that every asset in the world will… [(link)](https://x.com/solana/status/2085657975885332942)
-- **@solana** — Blockchains aren't just databases. They're economies. Solana has tens of thousands of participants building, transacting, and working within its ecosystem. That creates real GDP, real revenue. You can benchmark it like a small country or a… [(link)](https://x.com/solana/status/2085379073854063094)
+- **@solana** — the everything chain https://t.co/TkrZKsqxOE [(link)](https://x.com/solana/status/2085854698863464740)
+- **@solana** — Learn more about @HeliusPrivacy and watch the whole Privacy Show with @catmcgee @mert @tilo_cpn here: https://t.co/0pgb87GXWH [(link)](https://x.com/solana/status/2085823608668983757)
+- **@solana** — The Solana ecosystem in Nigeria has officially come of age. Tomorrow, on the Solana Summit Nigeria 2026 stage, you’ll hear directly from some of the most exciting local and regional companies building on Solana, integrating Solana infrastr… [(link)](https://x.com/solana/status/2085765434125504520)
+- **@solana** — You probably would have played better, right? Prove it. Next tables: Breakpoint 2026 and @WSOP: Bahamas. https://t.co/DPGcXdgVFJ [(link)](https://x.com/solana/status/2085745344881811710)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

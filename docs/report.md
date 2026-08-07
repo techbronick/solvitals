@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-07 23:22:50 UTC by SolVitals.
+Generated 2026-08-07 23:54:09 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,821.88 |
-| Total TPS (incl. votes) | 3,439.98 |
-| Vote share of transactions | 47.04% |
-| Average slot time | 0.4255 s |
-| Current slot | 437,881,098 |
-| Block height | 415,935,133 |
+| Non-vote TPS | 1,607.98 |
+| Total TPS (incl. votes) | 3,219.32 |
+| Vote share of transactions | 50.05% |
+| Average slot time | 0.4249 s |
+| Current slot | 437,885,550 |
+| Block height | 415,939,580 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1013** — 61.37% complete (`############........`), ~19.6 hours remaining.
+Epoch **1013** — 62.4% complete (`############........`), ~19.1 hours remaining.
 
-Slot 265,099 of 432,000. Lifetime transaction count: 536,061,160,290.
+Slot 269,550 of 432,000. Lifetime transaction count: 536,068,016,067.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,7 +76,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.67 (up 1.65%) |
+| SOL price | $73.66 (up 1.71%) |
 | Market cap | $42.88B |
 | DeFi TVL | $4.72B |
 | TVL rank across chains | 4 |
@@ -154,11 +154,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,660 |
+| Unique fee payers (sampled) | 1,487 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,990 |
-| Non-vote share of sample | 59.12% |
-| Signers per block | 553.3 |
+| Transactions in sample | 3,972 |
+| Non-vote share of sample | 49.5% |
+| Signers per block | 495.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,051,545 SOL of 631,756,166 total (92.13%).
+Circulating 582,051,527 SOL of 631,756,147 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 

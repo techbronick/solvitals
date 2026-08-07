@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-07 00:35:23 UTC by SolVitals.
+Generated 2026-08-07 03:36:45 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.1 sigma below its 32-point mean
+- [CRITICAL] **rev_24h_usd** — rev_24h_usd is 5.0 sigma below its 33-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,944.77 |
-| Total TPS (incl. votes) | 3,563.77 |
-| Vote share of transactions | 45.43% |
-| Average slot time | 0.4249 s |
-| Current slot | 437,686,616 |
-| Block height | 415,740,879 |
+| Non-vote TPS | 1,601.94 |
+| Total TPS (incl. votes) | 3,246.10 |
+| Vote share of transactions | 50.65% |
+| Average slot time | 0.4190 s |
+| Current slot | 437,712,360 |
+| Block height | 415,766,602 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1013** — 16.35% complete (`###.................`), ~42.3 hours remaining.
+Epoch **1013** — 22.31% complete (`####................`), ~39.3 hours remaining.
 
-Slot 70,617 of 432,000. Lifetime transaction count: 535,775,433,619.
+Slot 96,360 of 432,000. Lifetime transaction count: 535,811,264,749.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 70,617 of 432,000. Lifetime transaction count: 535,775,433,619.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4214 s |
-| Deviation from 0.4s target | 5.35% |
+| Measured slot time (`getBlockTime`) | 0.422 s |
+| Deviation from 0.4s target | 5.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,30 +76,30 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $72.60 (down 2.05%) |
-| Market cap | $42.25B |
-| DeFi TVL | $4.72B |
+| SOL price | $72.67 (down 1.10%) |
+| Market cap | $42.30B |
+| DeFi TVL | $4.71B |
 | TVL rank across chains | 4 |
-| DEX volume (24h) | $1.54B (down 5.71%) |
-| Stablecoin supply | $15.66B |
+| DEX volume (24h) | $1.40B (down 14.50%) |
+| Stablecoin supply | $15.67B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$717.38K** |
-| Network fees | $589.53K |
-| MEV tips (out-of-protocol) | $127.85K (17.82% of REV) |
-| Annualised REV run-rate | $261.84M |
+| **REV (total)** | **$642.56K** |
+| Network fees | $516.12K |
+| MEV tips (out-of-protocol) | $126.44K (19.68% of REV) |
+| Annualised REV run-rate | $234.53M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
 | Jito MEV Tips | $108.18K |
-| Harmonic | $13.50K |
-| bloXroute | $6.18K |
-| Pyth Express Relay | $1 |
+| Harmonic | $11.85K |
+| bloXroute | $6.41K |
+| Pyth Express Relay | $3 |
 
 ### Application fees (distinct from REV)
 
@@ -107,17 +107,17 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.07M (up 3.80%) |
-| 7 days | $50.19M |
-| 30 days | $212.14M |
+| 24 hours | $8.80M (up 13.17%) |
+| 7 days | $56.32M |
+| 30 days | $218.27M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $2.00M |
-| pump.fun | $1.28M |
-| Axiom | $982.24K |
-| Solana | $589.53K |
+| PumpSwap | $1.87M |
+| pump.fun | $1.17M |
+| Axiom | $911.99K |
 | Raydium AMM | $559.63K |
+| Solana | $516.12K |
 
 ## Tokenized assets
 
@@ -153,11 +153,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,425 |
+| Unique fee payers (sampled) | 1,472 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,409 |
-| Non-vote share of sample | 53.21% |
-| Signers per block | 475.0 |
+| Transactions in sample | 3,879 |
+| Non-vote share of sample | 47.67% |
+| Signers per block | 490.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,15 +165,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| PumpSwap | $606.68M |
-| BisonFi | $130.67M |
-| Raydium AMM | $93.78M |
-| Orca DEX | $89.86M |
-| pump.fun | $76.20M |
+| PumpSwap | $560.33M |
+| BisonFi | $115.36M |
+| Orca DEX | $90.70M |
+| Raydium AMM | $88.93M |
+| Meteora DLMM | $74.03M |
 
 ## Supply
 
-Circulating 582,052,307 SOL of 631,756,927 total (92.13%).
+Circulating 582,052,211 SOL of 631,756,831 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,10 +203,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — JUST IN: Solana processed ~$1.45B in tokenized equities volume in July, approximately 82% of all tokenized stock trading across every chain. Source: @Blockworks https://t.co/FoonJsJYB2 [(link)](https://x.com/solana/status/2085112453529244115)
-- **@solana** — Every collector has a favorite card from their childhood. Chances are, it's made its way to Solana. [(link)](https://x.com/solana/status/2085111811561689323)
-- **@solana** — https://t.co/B6skbLpRMj [(link)](https://x.com/solana/status/2085033431579468251)
-- **@solana** — Tokenised funds have moved from pilots to production, and distribution is the last barrier. Project Harmonia brings them to Solana through Allfunds' network of 3,300+ asset managers. "A project that is going to completely transform the way… [(link)](https://x.com/solana/status/2085007086937952377)
+- **@solana** — Rachit from Sunrise on whether we will see companies with tokens list on the NASDAQ in the future "In the next 10 -15 years if we do our jobs correctly, the right way to IPO and raise capital will be onchain" "The goal is to get more peopl… [(link)](https://x.com/solana/status/2085502850508202031)
+- **@solana** — SOLANA SUMMER HOUSE IS BACK ON 8/29. JOIN US. https://t.co/XAgt76go9k https://t.co/R7duZswrGI [(link)](https://x.com/solana/status/2085413338213933392)
+- **@solana** — .@Backpack Securities brings real stocks onchain. Every share is bought through the U.S. brokerage system, then withdrawn onto Solana as a token that moves freely across the ecosystem. Deposit it back and it redeems one-to-one for the unde… [(link)](https://x.com/solana/status/2085393027812483550)
+- **@solana** — .@Backpack Securities brings real stocks onchain. Every share is bought through the U.S. brokerage system, then withdrawn onto Solana as a token that moves freely across the ecosystem. Deposit it back and it redeems one-to-one for the unde… [(link)](https://x.com/solana/status/2085393027812483550)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

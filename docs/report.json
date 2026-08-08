@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 13:24:01",
+  "captured_at": "2026-08-08 14:03:14",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4216,
+      "measured_slot_time_secs": 0.4212,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.4,
+      "deviation_from_target_pct": 5.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3310.45,
-      "tps_non_vote": 1684.33,
-      "vote_share_pct": 49.12,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 438000669,
+      "tps_total": 3354.61,
+      "tps_non_vote": 1728.21,
+      "vote_share_pct": 48.48,
+      "avg_slot_time_secs": 0.4225,
+      "latest_sample_slot": 438006274,
       "samples_used": 5,
-      "block_height": 416054728,
-      "current_slot": 438000737
+      "block_height": 416060320,
+      "current_slot": 438006329
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 384738,
+      "slot_index": 390330,
       "slots_in_epoch": 432000,
-      "progress_pct": 89.06,
-      "eta_hours": 5.5,
-      "eta_basis_slot_secs": 0.4216,
-      "transaction_count": 536220060370
+      "progress_pct": 90.35,
+      "eta_hours": 4.9,
+      "eta_basis_slot_secs": 0.4212,
+      "transaction_count": 536228167170
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631755746.78,
-      "circulating_sol": 582051126.49,
+      "total_sol": 631755725.54,
+      "circulating_sol": 582051105.25,
       "non_circulating_sol": 49704620.3,
       "circulating_pct": 92.13
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5T7YDKmnFV4HnDhuEm7EWUdoHCQ1myJhaMTYoPLPkj8KLoaegvUjv225cB115KvMMwzz8Rur4hnWr6SPt171PUaL",
-      "latest_block_time": 1786195436,
-      "errors_in_recent": 4
+      "latest_signature": "5WTNqo9ESPecnuTdVg6Y59tU93dNRhJqcEG3vKyrHctusnnJTnadq7aZahzXh4pBPkuhE4iVktqYh4uR1rnqwXXs",
+      "latest_block_time": 1786197792,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1533,
+      "unique_signers_sampled": 1555,
       "blocks_sampled": 3,
-      "transactions_sampled": 3962,
-      "non_vote_transactions_sampled": 1916,
-      "signers_per_block": 511.0,
-      "non_vote_share_pct": 48.36,
+      "transactions_sampled": 4156,
+      "non_vote_transactions_sampled": 2096,
+      "signers_per_block": 518.3,
+      "non_vote_share_pct": 50.43,
       "sampled_slots": [
-        438000557,
-        437999057,
-        437997557
+        438006153,
+        438004653,
+        438003153
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.44,
-      "change_24h_pct": 2.13,
-      "market_cap_usd": 43898911644.71133,
-      "volume_24h_usd": 1507785369.030883,
+      "usd": 75.49,
+      "change_24h_pct": 1.98,
+      "market_cap_usd": 43935302043.88646,
+      "volume_24h_usd": 1449558234.534979,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4779504072.98,
+      "tvl_usd": 4796971535.26,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.29,
+      "share_of_all_chains_pct": 6.32,
       "source": "defillama"
     },
     "dex_volume": {
@@ -183,37 +183,37 @@
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 78524715
+          "volume_24h_usd": 76788076
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15636100224.19,
+      "total_usd": 15639632885.8,
       "by_peg": {
-        "peggedUSD": 15573264356.32,
-        "peggedEUR": 58185084.27,
+        "peggedUSD": 15576798777.48,
+        "peggedEUR": 58193133.23,
         "peggedJPY": 53.53,
-        "peggedCHF": 1385419.3,
-        "peggedAUD": 2648.11,
-        "peggedVAR": 2482004.06,
-        "peggedGBP": 615492.57,
+        "peggedCHF": 1385686.81,
+        "peggedAUD": 2649.09,
+        "peggedVAR": 2472051.35,
+        "peggedGBP": 615368.32,
         "peggedTRY": 163711.15,
-        "peggedCAD": 1454.21,
+        "peggedCAD": 1454.15,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 675801.97,
+      "rev_24h_usd": 675587.97,
       "network_fees_24h_usd": 552239,
-      "mev_tips_24h_usd": 123562.97,
-      "mev_share_of_rev_pct": 18.28,
-      "rev_annualised_usd": 246667719.05,
+      "mev_tips_24h_usd": 123348.97,
+      "mev_share_of_rev_pct": 18.26,
+      "rev_annualised_usd": 246589609.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 104792
+          "tips_24h_usd": 104578
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 7.97
         }
       ],
-      "app_fees_24h_usd": 8040372.0200000005,
-      "app_fees_7d_usd": 56970397.97,
-      "app_fees_30d_usd": 218615319.56,
-      "app_fees_change_24h_pct": -10.45,
+      "app_fees_24h_usd": 8149608.0200000005,
+      "app_fees_7d_usd": 57079630.97,
+      "app_fees_30d_usd": 218724390.56,
+      "app_fees_change_24h_pct": -9.23,
       "protocol_count": 283,
       "top_fee_earning_apps": [
         {
@@ -252,7 +252,7 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 416494
+          "fees_24h_usd": 416493
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2356,5 +2356,13 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.7 sigma above its 90-point mean",
+      "value": 75.49,
+      "expected": 73.9988
+    }
+  ]
 }

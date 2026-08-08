@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 14:46:32",
+  "captured_at": "2026-08-08 15:17:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4222,
+      "measured_slot_time_secs": 0.4256,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.55,
+      "deviation_from_target_pct": 6.4,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3799.28,
-      "tps_non_vote": 2167.88,
-      "vote_share_pct": 42.94,
-      "avg_slot_time_secs": 0.4213,
-      "latest_sample_slot": 438012493,
+      "tps_total": 3863.08,
+      "tps_non_vote": 2258.2,
+      "vote_share_pct": 41.54,
+      "avg_slot_time_secs": 0.4286,
+      "latest_sample_slot": 438016828,
       "samples_used": 5,
-      "block_height": 416066476,
-      "current_slot": 438012488
+      "block_height": 416070884,
+      "current_slot": 438016896
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 396489,
+      "slot_index": 400897,
       "slots_in_epoch": 432000,
-      "progress_pct": 91.78,
-      "eta_hours": 4.2,
-      "eta_basis_slot_secs": 0.4222,
-      "transaction_count": 536237423443
+      "progress_pct": 92.8,
+      "eta_hours": 3.7,
+      "eta_basis_slot_secs": 0.4256,
+      "transaction_count": 536245005147
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631755701.44,
-      "circulating_sol": 582051081.14,
+      "total_sol": 631755681.78,
+      "circulating_sol": 582051061.48,
       "non_circulating_sol": 49704620.3,
       "circulating_pct": 92.13
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2Dn7C2LY9re5Yp3zntDapmevENrhQpPo1En77Revtyhej7jdnwaUHW6JHUaJ59fjyU69sBk6DyhjxwYPQq6nYzMu",
-      "latest_block_time": 1786200387,
-      "errors_in_recent": 7
+      "latest_signature": "27ZCGJY995iEDD54RD8hKD5ksni8MVwkYBtkLnyPJx6ZBDsm8SVTwybH19aTZn1yKSmGokrso6D6wkRiCsC8rJar",
+      "latest_block_time": 1786202267,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1444,
+      "unique_signers_sampled": 1732,
       "blocks_sampled": 3,
-      "transactions_sampled": 4648,
-      "non_vote_transactions_sampled": 2606,
-      "signers_per_block": 481.3,
-      "non_vote_share_pct": 56.07,
+      "transactions_sampled": 5537,
+      "non_vote_transactions_sampled": 3482,
+      "signers_per_block": 577.3,
+      "non_vote_share_pct": 62.89,
       "sampled_slots": [
-        438012309,
-        438010809,
-        438009309
+        438016715,
+        438015215,
+        438013715
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.92,
-      "change_24h_pct": 2.64,
-      "market_cap_usd": 44188115067.60741,
-      "volume_24h_usd": 1458412865.3550115,
+      "usd": 76.6,
+      "change_24h_pct": 3.84,
+      "market_cap_usd": 44585325990.02902,
+      "volume_24h_usd": 1524541313.2605183,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4796937974.45,
+      "tvl_usd": 4800430265.02,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.32,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 675587.97,
+      "rev_24h_usd": 672493.97,
       "network_fees_24h_usd": 552239,
-      "mev_tips_24h_usd": 123348.97,
-      "mev_share_of_rev_pct": 18.26,
-      "rev_annualised_usd": 246589609.05,
+      "mev_tips_24h_usd": 120254.97,
+      "mev_share_of_rev_pct": 17.88,
+      "rev_annualised_usd": 245460299.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 104578
+          "tips_24h_usd": 101484
         },
         {
           "name": "Harmonic",
@@ -259,22 +259,22 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1829675901.77,
+      "total_rwa_usd": 1829923151.56,
       "protocol_count": 26,
-      "equities_usd": 401747673.26,
-      "equities_share_pct": 21.96,
+      "equities_usd": 402284410.64,
+      "equities_share_pct": 21.98,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 374206950.11,
-          "change_24h_pct": 2.25,
+          "tvl_usd": 374666235.03,
+          "change_24h_pct": 1.65,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 27324315.7,
-          "change_24h_pct": 1.566,
+          "tvl_usd": 27401768.16,
+          "change_24h_pct": 0.153,
           "category": "RWA",
           "is_equity": true
         },
@@ -296,57 +296,57 @@
         },
         {
           "name": "xStocks",
-          "tvl_usd": 374206950.11,
-          "change_24h_pct": 2.25,
+          "tvl_usd": 374666235.03,
+          "change_24h_pct": 1.65,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "OnRe",
-          "tvl_usd": 251713052.23,
-          "change_24h_pct": 0.057,
+          "tvl_usd": 251713366.44,
+          "change_24h_pct": 0.046,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 178448570.73,
-          "change_24h_pct": -0.34,
+          "tvl_usd": 178485311.31,
+          "change_24h_pct": -0.298,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 173568863.95,
-          "change_24h_pct": -0.014,
+          "tvl_usd": 173562803.59,
+          "change_24h_pct": -0.137,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 27324315.7,
-          "change_24h_pct": 1.566,
+          "tvl_usd": 27401768.16,
+          "change_24h_pct": 0.153,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Theo Network thBill",
           "tvl_usd": 26343450,
-          "change_24h_pct": 0.009,
+          "change_24h_pct": 0.0,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 24883172.73,
-          "change_24h_pct": 0.03,
+          "tvl_usd": 24881233.2,
+          "change_24h_pct": 0.15,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Nest Credit",
-          "tvl_usd": 22329225.77,
-          "change_24h_pct": -0.202,
+          "tvl_usd": 22332025.61,
+          "change_24h_pct": 0.053,
           "category": "RWA",
           "is_equity": false
         },
@@ -365,9 +365,9 @@
     "metrics": {
       "active_addresses": {
         "label": "Active Addresses",
-        "value": 620214,
+        "value": 480444,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -378,10 +378,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 444513
-          },
           {
             "date": "2026-07-09",
             "value": 425537
@@ -497,14 +493,18 @@
           {
             "date": "2026-08-06",
             "value": 620214
+          },
+          {
+            "date": "2026-08-07",
+            "value": 480444
           }
         ]
       },
       "fee_payers": {
         "label": "Fee Payers",
-        "value": 2018346,
+        "value": 2049648,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -515,10 +515,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 1719624
-          },
           {
             "date": "2026-07-09",
             "value": 1926110
@@ -634,14 +630,18 @@
           {
             "date": "2026-08-06",
             "value": 2018346
+          },
+          {
+            "date": "2026-08-07",
+            "value": 2049648
           }
         ]
       },
       "fees": {
         "label": "Fees",
-        "value": 7107.81680865143,
+        "value": 7500.9331080778375,
         "unit": "SOL",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -650,10 +650,6 @@
           "Dune"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 6559.366339323773
-          },
           {
             "date": "2026-07-09",
             "value": 6621.138937852632
@@ -744,39 +740,43 @@
           },
           {
             "date": "2026-07-31",
-            "value": 7102.607058389227
+            "value": 7102.607058389234
           },
           {
             "date": "2026-08-01",
-            "value": 5900.682112593854
+            "value": 5900.68211259385
           },
           {
             "date": "2026-08-02",
-            "value": 5763.565437046751
+            "value": 5763.5654370467555
           },
           {
             "date": "2026-08-03",
-            "value": 8379.289212944075
+            "value": 8379.28921294406
           },
           {
             "date": "2026-08-04",
-            "value": 8360.733688426959
+            "value": 8360.733688426955
           },
           {
             "date": "2026-08-05",
-            "value": 8029.999084559264
+            "value": 8029.999084559278
           },
           {
             "date": "2026-08-06",
-            "value": 7107.81680865143
+            "value": 7107.8168086514315
+          },
+          {
+            "date": "2026-08-07",
+            "value": 7500.9331080778375
           }
         ]
       },
       "dex_volume": {
         "label": "DEX Volume",
-        "value": 1135160311.7167726,
+        "value": 626599018.8529348,
         "unit": "USD",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -790,10 +790,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 2211329441.472103
-          },
           {
             "date": "2026-07-09",
             "value": 2125072306.5169656
@@ -884,7 +880,7 @@
           },
           {
             "date": "2026-07-31",
-            "value": 1584255556.5550897
+            "value": 1584255556.5550895
           },
           {
             "date": "2026-08-01",
@@ -892,11 +888,11 @@
           },
           {
             "date": "2026-08-02",
-            "value": 1022171273.881059
+            "value": 1022171273.8810593
           },
           {
             "date": "2026-08-03",
-            "value": 1409819635.1480827
+            "value": 1409819635.1480825
           },
           {
             "date": "2026-08-04",
@@ -904,19 +900,23 @@
           },
           {
             "date": "2026-08-05",
-            "value": 1335291548.4628584
+            "value": 1335291548.462858
           },
           {
             "date": "2026-08-06",
-            "value": 1135160311.7167726
+            "value": 1135160312.6430724
+          },
+          {
+            "date": "2026-08-07",
+            "value": 626599018.8529348
           }
         ]
       },
       "dex_traders": {
         "label": "DEX Traders",
-        "value": 555487,
+        "value": 406675,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -924,10 +924,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 612458
-          },
           {
             "date": "2026-07-09",
             "value": 668697
@@ -1043,14 +1039,18 @@
           {
             "date": "2026-08-06",
             "value": 555487
+          },
+          {
+            "date": "2026-08-07",
+            "value": 406675
           }
         ]
       },
       "transactions_total": {
         "label": "Transaction Count (Total)",
-        "value": 292862694,
+        "value": 301223434,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -1058,10 +1058,6 @@
           "Token Terminal"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 298019524
-          },
           {
             "date": "2026-07-09",
             "value": 291049420
@@ -1177,14 +1173,18 @@
           {
             "date": "2026-08-06",
             "value": 292862694
+          },
+          {
+            "date": "2026-08-07",
+            "value": 301223434
           }
         ]
       },
       "non_vote_success": {
         "label": "Non Vote Transaction Count (Success)",
-        "value": 83556620,
+        "value": 84074803,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -1194,10 +1194,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 104645951
-          },
           {
             "date": "2026-07-09",
             "value": 97302608
@@ -1313,14 +1309,18 @@
           {
             "date": "2026-08-06",
             "value": 83556620
+          },
+          {
+            "date": "2026-08-07",
+            "value": 84074803
           }
         ]
       },
       "non_vote_failed": {
         "label": "Non Vote Transaction Count (Failed)",
-        "value": 68952862,
+        "value": 76522216,
         "unit": "Count",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -1330,10 +1330,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 45209161
-          },
           {
             "date": "2026-07-09",
             "value": 46012648
@@ -1449,14 +1445,18 @@
           {
             "date": "2026-08-06",
             "value": 68952862
+          },
+          {
+            "date": "2026-08-07",
+            "value": 76522216
           }
         ]
       },
       "total_stake": {
         "label": "Total Stake",
-        "value": 434451870.87306666,
+        "value": 434693960.8426681,
         "unit": "SOL",
-        "date": "2026-08-07",
+        "date": "2026-08-08",
         "provider": "Stakewiz",
         "providers_reporting": [
           "Stakewiz",
@@ -1464,10 +1464,6 @@
           "Validators App"
         ],
         "history": [
-          {
-            "date": "2026-07-09",
-            "value": 429240745.01243144
-          },
           {
             "date": "2026-07-10",
             "value": 427958026.02083343
@@ -1583,6 +1579,10 @@
           {
             "date": "2026-08-07",
             "value": 434451870.87306666
+          },
+          {
+            "date": "2026-08-08",
+            "value": 434693960.8426681
           }
         ]
       },
@@ -1590,7 +1590,7 @@
         "label": "Validator Count",
         "value": 690,
         "unit": "Count",
-        "date": "2026-08-07",
+        "date": "2026-08-08",
         "provider": "Stakewiz",
         "providers_reporting": [
           "Stakewiz",
@@ -1599,10 +1599,6 @@
           "Validators App"
         ],
         "history": [
-          {
-            "date": "2026-07-09",
-            "value": 704
-          },
           {
             "date": "2026-07-10",
             "value": 703
@@ -1718,14 +1714,18 @@
           {
             "date": "2026-08-07",
             "value": 690
+          },
+          {
+            "date": "2026-08-08",
+            "value": 690
           }
         ]
       },
       "transfer_volume": {
         "label": "Transfer Volume",
-        "value": 12171785963.73368,
+        "value": 12545350855.49514,
         "unit": "USD",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -1737,10 +1737,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-08",
-            "value": 16306934835.835327
-          },
           {
             "date": "2026-07-09",
             "value": 19353281573.102825
@@ -1835,7 +1831,7 @@
           },
           {
             "date": "2026-08-01",
-            "value": 5739306384.153271
+            "value": 5739306384.153272
           },
           {
             "date": "2026-08-02",
@@ -1847,33 +1843,33 @@
           },
           {
             "date": "2026-08-04",
-            "value": 13707361047.364887
+            "value": 13707361047.360025
           },
           {
             "date": "2026-08-05",
-            "value": 14881099387.852568
+            "value": 14881099387.852905
           },
           {
             "date": "2026-08-06",
-            "value": 12171785963.73368
+            "value": 12171785963.732063
+          },
+          {
+            "date": "2026-08-07",
+            "value": 12545350855.49514
           }
         ]
       },
       "top3_asn_share": {
         "label": "Top 3 ASN Share",
-        "value": 42.91585039300955,
+        "value": 43.07815537175668,
         "unit": "Percent",
-        "date": "2026-08-07",
+        "date": "2026-08-08",
         "provider": "Stakewiz",
         "providers_reporting": [
           "Stakewiz",
           "Validators App"
         ],
         "history": [
-          {
-            "date": "2026-07-09",
-            "value": 43.093778445628054
-          },
           {
             "date": "2026-07-10",
             "value": 43.566895546653186
@@ -1989,6 +1985,10 @@
           {
             "date": "2026-08-07",
             "value": 42.91585039300955
+          },
+          {
+            "date": "2026-08-08",
+            "value": 43.07815537175668
           }
         ]
       }
@@ -1996,13 +1996,12 @@
     "provider_divergence": [
       {
         "metric": "Active Addresses",
-        "date": "2026-08-06",
-        "spread_pct": 112.0,
+        "date": "2026-08-07",
+        "spread_pct": 97.4,
         "by_provider": {
-          "Allium": 629784,
-          "Blockworks": 307427,
-          "Dune": 620214,
-          "RWA": 651752
+          "Allium": 612600,
+          "Blockworks": 310368,
+          "Dune": 480444
         }
       }
     ],
@@ -2022,7 +2021,7 @@
       "Validators App"
     ],
     "metric_count": 12,
-    "generated_at": "2026-08-08T00:42:17.033Z",
+    "generated_at": "2026-08-08T13:11:37.848Z",
     "range_days": 90,
     "source": "solana.com/data",
     "note": "Official solana.com metric feed. Keyless and unauthenticated; republishes provider-computed analytics including Dune."
@@ -2360,9 +2359,9 @@
     {
       "metric": "price_usd",
       "severity": "critical",
-      "message": "price_usd is 3.3 sigma above its 91-point mean",
-      "value": 75.92,
-      "expected": 74.0152
+      "message": "price_usd is 4.2 sigma above its 92-point mean",
+      "value": 76.6,
+      "expected": 74.0359
     }
   ]
 }

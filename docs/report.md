@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-08 10:06:00 UTC by SolVitals.
+Generated 2026-08-08 10:48:41 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,368.37 |
-| Total TPS (incl. votes) | 2,972.78 |
-| Vote share of transactions | 53.97% |
-| Average slot time | 0.4280 s |
-| Current slot | 437,972,571 |
-| Block height | 416,026,564 |
+| Non-vote TPS | 1,158.43 |
+| Total TPS (incl. votes) | 2,784.27 |
+| Vote share of transactions | 58.39% |
+| Average slot time | 0.4231 s |
+| Current slot | 437,978,641 |
+| Block height | 416,032,636 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1013** — 82.54% complete (`#################...`), ~8.8 hours remaining.
+Epoch **1013** — 83.94% complete (`#################...`), ~8.1 hours remaining.
 
-Slot 356,572 of 432,000. Lifetime transaction count: 536,184,253,493.
+Slot 362,641 of 432,000. Lifetime transaction count: 536,191,548,894.
 
 ## Transaction costs and slot timing
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.90 (up 1.67%) |
-| Market cap | $43.58B |
+| SOL price | $74.99 (up 2.09%) |
+| Market cap | $43.64B |
 | DeFi TVL | $4.77B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.36B (down 1.30%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$676.96K** |
+| **REV (total)** | **$676.56K** |
 | Network fees | $552.24K |
-| MEV tips (out-of-protocol) | $124.72K (18.42% of REV) |
-| Annualised REV run-rate | $247.09M |
+| MEV tips (out-of-protocol) | $124.32K (18.38% of REV) |
+| Annualised REV run-rate | $246.95M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $105.95K |
+| Jito MEV Tips | $105.55K |
 | Harmonic | $12.97K |
 | bloXroute | $5.79K |
 | Pyth Express Relay | $8 |
@@ -107,9 +107,9 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.22M (down 8.40%) |
-| 7 days | $56.49M |
-| 30 days | $218.14M |
+| 24 hours | $8.20M (down 8.65%) |
+| 7 days | $56.55M |
+| 30 days | $218.20M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -154,11 +154,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,402 |
+| Unique fee payers (sampled) | 1,459 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,626 |
-| Non-vote share of sample | 43.41% |
-| Signers per block | 467.3 |
+| Transactions in sample | 3,915 |
+| Non-vote share of sample | 47.77% |
+| Signers per block | 486.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,051,220 SOL of 631,755,840 total (92.13%).
+Circulating 582,051,201 SOL of 631,755,821 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 

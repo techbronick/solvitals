@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-08 22:15:56 UTC by SolVitals.
+Generated 2026-08-08 22:53:10 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,103.11 |
-| Total TPS (incl. votes) | 3,734.04 |
-| Vote share of transactions | 43.68% |
-| Average slot time | 0.4225 s |
-| Current slot | 438,075,973 |
-| Block height | 416,129,904 |
+| Non-vote TPS | 2,069.62 |
+| Total TPS (incl. votes) | 3,693.65 |
+| Vote share of transactions | 43.97% |
+| Average slot time | 0.4231 s |
+| Current slot | 438,081,256 |
+| Block height | 416,135,186 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1014** — 6.48% complete (`#...................`), ~47.4 hours remaining.
+Epoch **1014** — 7.7% complete (`##..................`), ~46.9 hours remaining.
 
-Slot 27,973 of 432,000. Lifetime transaction count: 536,344,093,520.
+Slot 33,257 of 432,000. Lifetime transaction count: 536,352,534,129.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 27,973 of 432,000. Lifetime transaction count: 536,344,093,520.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.422 s |
-| Deviation from 0.4s target | 5.5% |
+| Measured slot time (`getBlockTime`) | 0.423 s |
+| Deviation from 0.4s target | 5.75% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.14 (up 3.38%) |
-| Market cap | $44.33B |
+| SOL price | $76.03 (up 3.34%) |
+| Market cap | $44.26B |
 | DeFi TVL | $4.82B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.36B (down 1.28%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$676.95K** |
+| **REV (total)** | **$681.23K** |
 | Network fees | $552.24K |
-| MEV tips (out-of-protocol) | $124.71K (18.42% of REV) |
-| Annualised REV run-rate | $247.09M |
+| MEV tips (out-of-protocol) | $128.99K (18.94% of REV) |
+| Annualised REV run-rate | $248.65M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $105.94K |
+| Jito MEV Tips | $110.22K |
 | Harmonic | $12.97K |
 | bloXroute | $5.79K |
 | Pyth Express Relay | $8 |
@@ -154,11 +154,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,547 |
+| Unique fee payers (sampled) | 1,623 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,361 |
-| Non-vote share of sample | 52.76% |
-| Signers per block | 515.7 |
+| Transactions in sample | 4,413 |
+| Non-vote share of sample | 53.82% |
+| Signers per block | 541.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -169,12 +169,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $396.73M |
 | BisonFi | $147.36M |
 | HumidiFi | $79.38M |
-| Raydium AMM | $69.75M |
+| Raydium AMM | $71.87M |
 | pump.fun | $69.58M |
 
 ## Supply
 
-Circulating 582,166,483 SOL of 631,883,589 total (92.13%).
+Circulating 582,166,461 SOL of 631,883,567 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -204,6 +204,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — ? [(link)](https://x.com/solana/status/2086178414319337783)
+- **@solana** — Top 3 announcements from Solana Summit Nigeria 2026 🇳🇬 https://t.co/vi8p75IvxX [(link)](https://x.com/solana/status/2086138867178934570)
+- **@solana** — Critters Quest mainnet is OPEN. Build. Gather. Craft. Hunt. Raid. Masters play first. Clones follow in 24h. https://t.co/53RarjLcji https://t.co/E7tVc2Qs4a [(link)](https://x.com/solana/status/2086120252300013881)
 - **@solana** — https://t.co/oNE8Aba5eM [(link)](https://x.com/solana/status/2086010473602777096)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 22:15:56",
+  "captured_at": "2026-08-08 22:53:10",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.422,
+      "measured_slot_time_secs": 0.423,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.5,
+      "deviation_from_target_pct": 5.75,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3734.04,
-      "tps_non_vote": 2103.11,
-      "vote_share_pct": 43.68,
-      "avg_slot_time_secs": 0.4225,
-      "latest_sample_slot": 438075900,
+      "tps_total": 3693.65,
+      "tps_non_vote": 2069.62,
+      "vote_share_pct": 43.97,
+      "avg_slot_time_secs": 0.4231,
+      "latest_sample_slot": 438081221,
       "samples_used": 5,
-      "block_height": 416129904,
-      "current_slot": 438075973
+      "block_height": 416135186,
+      "current_slot": 438081256
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 27973,
+      "slot_index": 33257,
       "slots_in_epoch": 432000,
-      "progress_pct": 6.48,
-      "eta_hours": 47.4,
-      "eta_basis_slot_secs": 0.422,
-      "transaction_count": 536344093520
+      "progress_pct": 7.7,
+      "eta_hours": 46.9,
+      "eta_basis_slot_secs": 0.423,
+      "transaction_count": 536352534129
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631883588.94,
-      "circulating_sol": 582166483.02,
+      "total_sol": 631883566.98,
+      "circulating_sol": 582166461.06,
       "non_circulating_sol": 49717105.92,
       "circulating_pct": 92.13
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3fs2JydZtNNx6jyVYLmMCsxyZV3gvTRrNvC7Msd8gVrnNUXxNjB82v8E4zG5WB21rEt1jDB6y1QVZG4ghVJdYKbS",
-      "latest_block_time": 1786227350,
-      "errors_in_recent": 4
+      "latest_signature": "5issFAhfMyx7wUvRY5VdzXDmyYEL7dNrWhYUtZd9kxyWT1r7RDHmpWgGvBiq6aLev9JwVA3Nadnnv8D2ic1AMAg3",
+      "latest_block_time": 1786229587,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1547,
+      "unique_signers_sampled": 1623,
       "blocks_sampled": 3,
-      "transactions_sampled": 4361,
-      "non_vote_transactions_sampled": 2301,
-      "signers_per_block": 515.7,
-      "non_vote_share_pct": 52.76,
+      "transactions_sampled": 4413,
+      "non_vote_transactions_sampled": 2375,
+      "signers_per_block": 541.0,
+      "non_vote_share_pct": 53.82,
       "sampled_slots": [
-        438075792,
-        438074292,
-        438072792
+        438081079,
+        438079579,
+        438078079
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.14,
-      "change_24h_pct": 3.38,
-      "market_cap_usd": 44330699181.50689,
-      "volume_24h_usd": 1400642940.1403635,
+      "usd": 76.03,
+      "change_24h_pct": 3.34,
+      "market_cap_usd": 44258955410.5725,
+      "volume_24h_usd": 1389282888.1951184,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4822453807.46,
+      "tvl_usd": 4821777547.98,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.34,
       "source": "defillama"
@@ -179,7 +179,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 69751911
+          "volume_24h_usd": 71873631
         },
         {
           "name": "pump.fun",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15659170086.06,
+      "total_usd": 15658432124.98,
       "by_peg": {
-        "peggedUSD": 15596343571.36,
-        "peggedEUR": 58199063.92,
-        "peggedJPY": 50.49,
-        "peggedCHF": 1392875.96,
-        "peggedAUD": 2643.21,
-        "peggedVAR": 2451318.29,
-        "peggedGBP": 615503.75,
-        "peggedTRY": 163604.15,
-        "peggedCAD": 1454.26,
+        "peggedUSD": 15595610338.81,
+        "peggedEUR": 58193521.43,
+        "peggedJPY": 50.5,
+        "peggedCHF": 1391403.93,
+        "peggedAUD": 2645.42,
+        "peggedVAR": 2453680.36,
+        "peggedGBP": 615430.86,
+        "peggedTRY": 163598.64,
+        "peggedCAD": 1454.35,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 676947.97,
+      "rev_24h_usd": 681230.97,
       "network_fees_24h_usd": 552239,
-      "mev_tips_24h_usd": 124708.97,
-      "mev_share_of_rev_pct": 18.42,
-      "rev_annualised_usd": 247086009.05,
+      "mev_tips_24h_usd": 128991.97,
+      "mev_share_of_rev_pct": 18.94,
+      "rev_annualised_usd": 248649304.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 105938
+          "tips_24h_usd": 110221
         },
         {
           "name": "Harmonic",
@@ -2298,6 +2298,24 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "?",
+        "created_at": "Sat Aug 08 19:51:07 +0000 2026",
+        "url": "https://x.com/solana/status/2086178414319337783"
+      },
+      {
+        "handle": "solana",
+        "text": "Top 3 announcements from Solana Summit Nigeria 2026 \ud83c\uddf3\ud83c\uddec https://t.co/vi8p75IvxX",
+        "created_at": "Sat Aug 08 17:13:59 +0000 2026",
+        "url": "https://x.com/solana/status/2086138867178934570"
+      },
+      {
+        "handle": "solana",
+        "text": "Critters Quest mainnet is OPEN. Build. Gather. Craft. Hunt. Raid. Masters play first. Clones follow in 24h. https://t.co/53RarjLcji https://t.co/E7tVc2Qs4a",
+        "created_at": "Sat Aug 08 16:00:01 +0000 2026",
+        "url": "https://x.com/solana/status/2086120252300013881"
+      },
+      {
+        "handle": "solana",
         "text": "https://t.co/oNE8Aba5eM",
         "created_at": "Sat Aug 08 08:43:47 +0000 2026",
         "url": "https://x.com/solana/status/2086010473602777096"
@@ -2333,7 +2351,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 5,
+    "count": 8,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

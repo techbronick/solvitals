@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 17:57:00",
+  "captured_at": "2026-08-08 18:26:11",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4248,
+      "measured_slot_time_secs": 0.4232,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 6.2,
+      "deviation_from_target_pct": 5.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4021.65,
-      "tps_non_vote": 2399.12,
-      "vote_share_pct": 40.34,
-      "avg_slot_time_secs": 0.4219,
-      "latest_sample_slot": 438039342,
+      "tps_total": 3974.98,
+      "tps_non_vote": 2362.71,
+      "vote_share_pct": 40.56,
+      "avg_slot_time_secs": 0.4249,
+      "latest_sample_slot": 438043423,
       "samples_used": 5,
-      "block_height": 416093300,
-      "current_slot": 438039334
+      "block_height": 416097432,
+      "current_slot": 438043466
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 423335,
+      "slot_index": 427467,
       "slots_in_epoch": 432000,
-      "progress_pct": 97.99,
-      "eta_hours": 1.0,
-      "eta_basis_slot_secs": 0.4248,
-      "transaction_count": 536282499808
+      "progress_pct": 98.95,
+      "eta_hours": 0.5,
+      "eta_basis_slot_secs": 0.4232,
+      "transaction_count": 536289444479
     },
     "validators": {
       "active_count": 691,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 631755583.34,
-      "circulating_sol": 582050963.04,
-      "non_circulating_sol": 49704620.3,
+      "total_sol": 631755565.35,
+      "circulating_sol": 582050945.06,
+      "non_circulating_sol": 49704620.29,
       "circulating_pct": 92.13
     },
     "transaction_fees": {
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4t1md8i1sz37rDrXrFnoSVVE3qThX22YgGGEieRPz25jdoi5btZPzBn4Y3GU3ZFTwzMTGmfk5VxQ4zEtagGnFTM",
-      "latest_block_time": 1786211818,
+      "latest_signature": "61GYDNnzFbx2TZYCNd613uxFsS6NxdiTTLuDV9c8bo9jtfK25pSQ9Rd6DN7VosTCpAVFLy7iwnPJtjfTJN2ecjqS",
+      "latest_block_time": 1786213569,
       "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1526,
+      "unique_signers_sampled": 1734,
       "blocks_sampled": 3,
-      "transactions_sampled": 5006,
-      "non_vote_transactions_sampled": 2965,
-      "signers_per_block": 508.7,
-      "non_vote_share_pct": 59.23,
+      "transactions_sampled": 5257,
+      "non_vote_transactions_sampled": 3234,
+      "signers_per_block": 578.0,
+      "non_vote_share_pct": 61.52,
       "sampled_slots": [
-        438039159,
-        438037659,
-        438036159
+        438043290,
+        438041790,
+        438040290
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.33,
-      "change_24h_pct": 4.2,
-      "market_cap_usd": 44428428480.11447,
-      "volume_24h_usd": 1492064315.3955853,
+      "usd": 76.12,
+      "change_24h_pct": 3.64,
+      "market_cap_usd": 44307202044.88488,
+      "volume_24h_usd": 1477409601.6393893,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4820606853.98,
+      "tvl_usd": 4824990782.95,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.35,
       "source": "defillama"
@@ -183,7 +183,7 @@
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 73981745
+          "volume_24h_usd": 73213499
         }
       ],
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 670914.97,
+      "rev_24h_usd": 672862.97,
       "network_fees_24h_usd": 552239,
-      "mev_tips_24h_usd": 118675.97,
-      "mev_share_of_rev_pct": 17.69,
-      "rev_annualised_usd": 244883964.05,
+      "mev_tips_24h_usd": 120623.97,
+      "mev_share_of_rev_pct": 17.93,
+      "rev_annualised_usd": 245594984.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 99905
+          "tips_24h_usd": 101853
         },
         {
           "name": "Harmonic",
@@ -228,9 +228,9 @@
           "tips_24h_usd": 7.97
         }
       ],
-      "app_fees_24h_usd": 8154900.0200000005,
-      "app_fees_7d_usd": 57095177.97,
-      "app_fees_30d_usd": 218751883.56,
+      "app_fees_24h_usd": 8154920.0200000005,
+      "app_fees_7d_usd": 57095197.97,
+      "app_fees_30d_usd": 218751903.56,
       "app_fees_change_24h_pct": -9.18,
       "protocol_count": 283,
       "top_fee_earning_apps": [
@@ -252,7 +252,7 @@
         },
         {
           "name": "Meteora DLMM",
-          "fees_24h_usd": 425454
+          "fees_24h_usd": 477287
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2359,9 +2359,9 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.8 sigma above its 97-point mean",
-      "value": 76.33,
-      "expected": 74.1559
+      "message": "price_usd is 2.4 sigma above its 98-point mean",
+      "value": 76.12,
+      "expected": 74.1781
     }
   ]
 }

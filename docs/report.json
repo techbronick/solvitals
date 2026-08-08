@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 10:48:41",
+  "captured_at": "2026-08-08 11:18:32",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4214,
+      "measured_slot_time_secs": 0.42,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.35,
+      "deviation_from_target_pct": 5.0,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2784.27,
-      "tps_non_vote": 1158.43,
-      "vote_share_pct": 58.39,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 437978620,
+      "tps_total": 2824.71,
+      "tps_non_vote": 1196.7,
+      "vote_share_pct": 57.63,
+      "avg_slot_time_secs": 0.4219,
+      "latest_sample_slot": 437982883,
       "samples_used": 5,
-      "block_height": 416032636,
-      "current_slot": 437978641
+      "block_height": 416036901,
+      "current_slot": 437982909
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 362641,
+      "slot_index": 366909,
       "slots_in_epoch": 432000,
-      "progress_pct": 83.94,
-      "eta_hours": 8.1,
-      "eta_basis_slot_secs": 0.4214,
-      "transaction_count": 536191548894
+      "progress_pct": 84.93,
+      "eta_hours": 7.6,
+      "eta_basis_slot_secs": 0.42,
+      "transaction_count": 536196797592
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631755821.24,
-      "circulating_sol": 582051200.94,
+      "total_sol": 631755807.6,
+      "circulating_sol": 582051187.3,
       "non_circulating_sol": 49704620.3,
       "circulating_pct": 92.13
     },
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4DZM2SHKiJyE6s4hxQ3DJ94gTdLAWVYQZUefBAB1FeQ4y3v5ffP8Ue53PppaENKDUyU4G7ePHb5aWXQQfuJbC8Gs",
-      "latest_block_time": 1786186113,
+      "latest_signature": "5bLZQaq6N3TcopWCtQLjAaBryAKajpC17sf8RLrzoqKdGVY52B3uhbFehBids9uDk8QsTtDRUMQmKVQckVt2uPe1",
+      "latest_block_time": 1786187906,
       "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1459,
+      "unique_signers_sampled": 1435,
       "blocks_sampled": 3,
-      "transactions_sampled": 3915,
-      "non_vote_transactions_sampled": 1870,
-      "signers_per_block": 486.3,
-      "non_vote_share_pct": 47.77,
+      "transactions_sampled": 3729,
+      "non_vote_transactions_sampled": 1702,
+      "signers_per_block": 478.3,
+      "non_vote_share_pct": 45.64,
       "sampled_slots": [
-        437978455,
-        437976955,
-        437975455
+        437982727,
+        437981227,
+        437979727
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.99,
-      "change_24h_pct": 2.09,
-      "market_cap_usd": 43639099011.95908,
-      "volume_24h_usd": 1523960795.7217984,
+      "usd": 75.29,
+      "change_24h_pct": 2.44,
+      "market_cap_usd": 43824417281.99899,
+      "volume_24h_usd": 1567035709.9547403,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4769051243.96,
+      "tvl_usd": 4774227468.49,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.29,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1361153628.02,
-      "volume_7d_usd": 10355259646.529999,
-      "change_24h_pct": -1.3,
+      "volume_24h_usd": 1362524618.02,
+      "volume_7d_usd": 10493544201.529999,
+      "change_24h_pct": -1.2,
       "protocol_count": 114,
       "top_dexes": [
         {
@@ -183,7 +183,7 @@
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 77595773
+          "volume_24h_usd": 76947890
         }
       ],
       "source": "defillama"
@@ -230,7 +230,7 @@
       ],
       "app_fees_24h_usd": 8201168.0200000005,
       "app_fees_7d_usd": 56553903.97,
-      "app_fees_30d_usd": 218198883.56,
+      "app_fees_30d_usd": 218198825.56,
       "app_fees_change_24h_pct": -8.65,
       "protocol_count": 283,
       "top_fee_earning_apps": [
@@ -2299,27 +2299,27 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Netflix rewired entertainment Amazon rewired shopping Solana is finance 2.0",
+        "created_at": "Sat Aug 08 10:16:35 +0000 2026",
+        "url": "https://x.com/solana/status/2086033827961672107"
+      },
+      {
+        "handle": "solana",
+        "text": "https://t.co/oNE8Aba5eM",
+        "created_at": "Sat Aug 08 08:43:47 +0000 2026",
+        "url": "https://x.com/solana/status/2086010473602777096"
+      },
+      {
+        "handle": "solana",
         "text": "the everything chain https://t.co/TkrZKsqxOE",
         "created_at": "Fri Aug 07 22:24:48 +0000 2026",
         "url": "https://x.com/solana/status/2085854698863464740"
       },
       {
         "handle": "solana",
-        "text": "Learn more about @HeliusPrivacy and watch the whole Privacy Show with @catmcgee @mert @tilo_cpn here: https://t.co/0pgb87GXWH",
-        "created_at": "Fri Aug 07 20:21:15 +0000 2026",
-        "url": "https://x.com/solana/status/2085823608668983757"
-      },
-      {
-        "handle": "solana",
-        "text": "The Solana ecosystem in Nigeria has officially come of age. Tomorrow, on the Solana Summit Nigeria 2026 stage, you\u2019ll hear directly from some of the most exciting local and regional companies building on Solana, integrating Solana infrastr\u2026",
-        "created_at": "Fri Aug 07 16:30:05 +0000 2026",
-        "url": "https://x.com/solana/status/2085765434125504520"
-      },
-      {
-        "handle": "solana",
-        "text": "You probably would have played better, right? Prove it. Next tables: Breakpoint 2026 and @WSOP: Bahamas. https://t.co/DPGcXdgVFJ",
-        "created_at": "Fri Aug 07 15:10:16 +0000 2026",
-        "url": "https://x.com/solana/status/2085745344881811710"
+        "text": "Meme Madness. $100,000 in prizes. A 7 day long up/down prediction tournament on ultra fast paced instantly resolved meme markets. Starting on 8/17. Pre-register now at https://t.co/KuttnyzQkc and refer friends to earn bonus credits that ap\u2026",
+        "created_at": "Fri Aug 07 19:49:51 +0000 2026",
+        "url": "https://x.com/solana/status/2085815704205267044"
       },
       {
         "handle": "solanalabs",

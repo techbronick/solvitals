@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-08 09:30:10",
+  "captured_at": "2026-08-08 10:06:00",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4208,
+      "measured_slot_time_secs": 0.4214,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.2,
+      "deviation_from_target_pct": 5.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2681.16,
-      "tps_non_vote": 1056.46,
-      "vote_share_pct": 60.6,
-      "avg_slot_time_secs": 0.4213,
-      "latest_sample_slot": 437967374,
+      "tps_total": 2972.78,
+      "tps_non_vote": 1368.37,
+      "vote_share_pct": 53.97,
+      "avg_slot_time_secs": 0.428,
+      "latest_sample_slot": 437972568,
       "samples_used": 5,
-      "block_height": 416021461,
-      "current_slot": 437967467
+      "block_height": 416026564,
+      "current_slot": 437972571
     },
     "epoch": {
       "epoch": 1013,
-      "slot_index": 351467,
+      "slot_index": 356572,
       "slots_in_epoch": 432000,
-      "progress_pct": 81.36,
-      "eta_hours": 9.4,
-      "eta_basis_slot_secs": 0.4208,
-      "transaction_count": 536178159719
+      "progress_pct": 82.54,
+      "eta_hours": 8.8,
+      "eta_basis_slot_secs": 0.4214,
+      "transaction_count": 536184253493
     },
     "validators": {
       "active_count": 692,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631755856.32,
-      "circulating_sol": 582051236.02,
+      "total_sol": 631755840.36,
+      "circulating_sol": 582051220.06,
       "non_circulating_sol": 49704620.3,
       "circulating_pct": 92.13
     },
@@ -126,21 +126,21 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3JbbPWSVCMLGUzkxdBEF7p89Hauv1ZtSsVorV7bEdc8aeNLB5uGSJyebqcMtQxM884qVrS1cKEM9KTGm5LyFV38n",
-      "latest_block_time": 1786181406,
-      "errors_in_recent": 0
+      "latest_signature": "5aJSsCZssQf2CVhRkzEedGKKXGCLH2DSwX5Rr2uGCxzGwJEK15VNEZ2kf9CrpHmzXhtyqFtbvQQA4s5PeQhdSQZY",
+      "latest_block_time": 1786183560,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1383,
+      "unique_signers_sampled": 1402,
       "blocks_sampled": 3,
-      "transactions_sampled": 3527,
-      "non_vote_transactions_sampled": 1494,
-      "signers_per_block": 461.0,
-      "non_vote_share_pct": 42.36,
+      "transactions_sampled": 3626,
+      "non_vote_transactions_sampled": 1574,
+      "signers_per_block": 467.3,
+      "non_vote_share_pct": 43.41,
       "sampled_slots": [
-        437967288,
-        437965788,
-        437964288
+        437972398,
+        437970898,
+        437969398
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -148,13 +148,13 @@
   "market": {
     "price": {
       "usd": 74.9,
-      "change_24h_pct": 1.94,
-      "market_cap_usd": 43595611002.294624,
-      "volume_24h_usd": 1584357084.300431,
+      "change_24h_pct": 1.67,
+      "market_cap_usd": 43581916950.28717,
+      "volume_24h_usd": 1538254435.9050567,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4767152445.05,
+      "tvl_usd": 4767152449.78,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.29,
       "source": "defillama"
@@ -178,12 +178,12 @@
           "volume_24h_usd": 100414357
         },
         {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 80117718
-        },
-        {
           "name": "HumidiFi",
           "volume_24h_usd": 79382479
+        },
+        {
+          "name": "Meteora DLMM",
+          "volume_24h_usd": 77595773
         }
       ],
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 676656.97,
+      "rev_24h_usd": 676963.97,
       "network_fees_24h_usd": 552239,
-      "mev_tips_24h_usd": 124417.97,
-      "mev_share_of_rev_pct": 18.39,
-      "rev_annualised_usd": 246979794.05,
+      "mev_tips_24h_usd": 124724.97,
+      "mev_share_of_rev_pct": 18.42,
+      "rev_annualised_usd": 247091849.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 105647
+          "tips_24h_usd": 105954
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 7.97
         }
       ],
-      "app_fees_24h_usd": 8222644.0200000005,
-      "app_fees_7d_usd": 56488478.97,
-      "app_fees_30d_usd": 218133480.56,
-      "app_fees_change_24h_pct": -8.41,
+      "app_fees_24h_usd": 8223831.0200000005,
+      "app_fees_7d_usd": 56491406.97,
+      "app_fees_30d_usd": 218136386.56,
+      "app_fees_change_24h_pct": -8.4,
       "protocol_count": 283,
       "top_fee_earning_apps": [
         {
@@ -248,7 +248,7 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 577295
+          "fees_24h_usd": 577290
         },
         {
           "name": "Solana",

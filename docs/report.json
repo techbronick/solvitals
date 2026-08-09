@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-09 22:26:59",
+  "captured_at": "2026-08-09 22:57:45",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4248,
+      "measured_slot_time_secs": 0.4242,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 6.2,
+      "deviation_from_target_pct": 6.05,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4354.62,
-      "tps_non_vote": 2717.17,
-      "vote_share_pct": 37.6,
-      "avg_slot_time_secs": 0.4196,
-      "latest_sample_slot": 438282114,
+      "tps_total": 3736.88,
+      "tps_non_vote": 2139.38,
+      "vote_share_pct": 42.75,
+      "avg_slot_time_secs": 0.4292,
+      "latest_sample_slot": 438286444,
       "samples_used": 5,
-      "block_height": 416335943,
-      "current_slot": 438282095
+      "block_height": 416340285,
+      "current_slot": 438286438
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 234096,
+      "slot_index": 238438,
       "slots_in_epoch": 432000,
-      "progress_pct": 54.19,
-      "eta_hours": 23.4,
-      "eta_basis_slot_secs": 0.4248,
-      "transaction_count": 536653852192
+      "progress_pct": 55.19,
+      "eta_hours": 22.8,
+      "eta_basis_slot_secs": 0.4242,
+      "transaction_count": 536660857559
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631882772.26,
-      "circulating_sol": 582165657.17,
+      "total_sol": 631882754.15,
+      "circulating_sol": 582165639.07,
       "non_circulating_sol": 49717115.08,
       "circulating_pct": 92.13
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3B178VxUG9jpj7cDvtJnUKkLHyyjxAqSdq5KHRNcuBfTUUTEFPrRM9ZQqUCCXoL2NJ78bncg6ajfhZUYU2aS8kby",
-      "latest_block_time": 1786314416,
-      "errors_in_recent": 4
+      "latest_signature": "vbJeY1tcigEqerEg6k2EwPtWxe42V8aYYubwgvmr275wAzBRCEpEUFpvaYD6vWWUKekdcp96SpzSMj3kfrYLiHQ",
+      "latest_block_time": 1786316260,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1740,
+      "unique_signers_sampled": 1515,
       "blocks_sampled": 3,
-      "transactions_sampled": 5324,
-      "non_vote_transactions_sampled": 3197,
-      "signers_per_block": 580.0,
-      "non_vote_share_pct": 60.05,
+      "transactions_sampled": 4629,
+      "non_vote_transactions_sampled": 2602,
+      "signers_per_block": 505.0,
+      "non_vote_share_pct": 56.21,
       "sampled_slots": [
-        438281920,
-        438280420,
-        438278920
+        438286258,
+        438284758,
+        438283258
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.43,
-      "change_24h_pct": 1.64,
-      "market_cap_usd": 45079410351.3373,
-      "volume_24h_usd": 1059277345.8136948,
+      "usd": 76.82,
+      "change_24h_pct": 1.22,
+      "market_cap_usd": 44719430156.60571,
+      "volume_24h_usd": 1070196014.217506,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4858926049.22,
+      "tvl_usd": 4864192126.79,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.39,
       "source": "defillama"
@@ -174,12 +174,12 @@
           "volume_24h_usd": 114484112
         },
         {
-          "name": "pump.fun",
-          "volume_24h_usd": 69502213
+          "name": "Raydium AMM",
+          "volume_24h_usd": 70358226
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 67405072
+          "name": "pump.fun",
+          "volume_24h_usd": 69502213
         },
         {
           "name": "HumidiFi",
@@ -2290,27 +2290,9 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Group breaks are live on Gacha Sports. Topps Chrome Update Basketball. The biggest product in the hobby. Inside it: the biggest chase card in NBA history. The $2,000,000 Cooper Flagg bounty card. Break #1 Wednesday 3PM PST. Slots are live \u2026",
-        "created_at": "Sun Aug 09 15:10:57 +0000 2026",
-        "url": "https://x.com/solana/status/2086470294085177659"
-      },
-      {
-        "handle": "solana",
-        "text": "Solana\u2019s stablecoin supply climbed from $1.5B to $16.7B in 3 years The overall stablecoin market grew 2.5x Solana grew 11x It\u2019s now among the top 3 networks by stablecoin supply, with over $500B in gross transfer volume in July. More capit\u2026",
-        "created_at": "Sun Aug 09 13:03:40 +0000 2026",
-        "url": "https://x.com/solana/status/2086438263183577596"
-      },
-      {
-        "handle": "solana",
         "text": "A $15T asset manager. A 175-year-old payments giant. A billion transactions in seven days. Different sides of finance, all moving through one network. Solana. Here\u2019s everything that happened this week: \ud83d\udcf0 Headline News - @BlackRock filed wi\u2026",
         "created_at": "Sun Aug 09 13:00:00 +0000 2026",
         "url": "https://x.com/solana/status/2086437339769774452"
-      },
-      {
-        "handle": "solana",
-        "text": "Vibhu reveals one of the craziest startups building on Solana: \"JurassicFi is literally tokenizing dinosaur fossils\" \"The dinosaur fossil market is on fire. A T-Rex sold for $50M at auction last week\" \"A couple of weeks ago these guys rais\u2026",
-        "created_at": "Sun Aug 09 05:32:50 +0000 2026",
-        "url": "https://x.com/solana/status/2086324807772348848"
       },
       {
         "handle": "solanalabs",
@@ -2343,17 +2325,9 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 8,
+    "count": 5,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "price_usd",
-      "severity": "warning",
-      "message": "price_usd is 2.0 sigma above its 138-point mean",
-      "value": 77.43,
-      "expected": 74.8475
-    }
-  ]
+  "anomalies": []
 }

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-09 15:19:25",
+  "captured_at": "2026-08-09 15:54:36",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4224,
+      "measured_slot_time_secs": 0.4266,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.6,
+      "deviation_from_target_pct": 6.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4340.65,
-      "tps_non_vote": 2724.98,
-      "vote_share_pct": 37.22,
-      "avg_slot_time_secs": 0.4237,
-      "latest_sample_slot": 438221527,
+      "tps_total": 4506.86,
+      "tps_non_vote": 2912.11,
+      "vote_share_pct": 35.38,
+      "avg_slot_time_secs": 0.4255,
+      "latest_sample_slot": 438226565,
       "samples_used": 5,
-      "block_height": 416275505,
-      "current_slot": 438221619
+      "block_height": 416280444,
+      "current_slot": 438226572
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 173619,
+      "slot_index": 178572,
       "slots_in_epoch": 432000,
-      "progress_pct": 40.19,
-      "eta_hours": 30.3,
-      "eta_basis_slot_secs": 0.4224,
-      "transaction_count": 536546470478
+      "progress_pct": 41.34,
+      "eta_hours": 30.0,
+      "eta_basis_slot_secs": 0.4266,
+      "transaction_count": 536555544277
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631883055.04,
-      "circulating_sol": 582165939.96,
+      "total_sol": 631883031.34,
+      "circulating_sol": 582165916.25,
       "non_circulating_sol": 49717115.08,
       "circulating_pct": 92.13
     },
@@ -114,8 +114,8 @@
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 0,
-      "zero_fee_slot_share_pct": 100.0,
+      "max_priority_fee_microlamports": 111333,
+      "zero_fee_slot_share_pct": 99.3,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "31azFN53tz18h9dXs5jAKN7DHdrq7YxfahmP6xu9gvt2qZLcLRCo7wZw13EHD6NKcsWSoGHK9j6iPZWChbSST6jF",
-      "latest_block_time": 1786288758,
+      "latest_signature": "2dTp8EwjBMb7SkRyWEQk9kgfhnsLWHdk348m1neu4KQyCNAkWCdkePT8BAh1KFJakuXsjKHPsBsYaXJ2c64Qxhtm",
+      "latest_block_time": 1786290871,
       "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1685,
+      "unique_signers_sampled": 2023,
       "blocks_sampled": 3,
-      "transactions_sampled": 5552,
-      "non_vote_transactions_sampled": 3510,
-      "signers_per_block": 561.7,
-      "non_vote_share_pct": 63.22,
+      "transactions_sampled": 6641,
+      "non_vote_transactions_sampled": 4512,
+      "signers_per_block": 674.3,
+      "non_vote_share_pct": 67.94,
       "sampled_slots": [
-        438221437,
-        438219937,
-        438218437
+        438226392,
+        438224892,
+        438223392
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.86,
-      "change_24h_pct": 0.32,
-      "market_cap_usd": 44743763583.339264,
-      "volume_24h_usd": 1033958160.2696887,
+      "usd": 77.08,
+      "change_24h_pct": 0.9,
+      "market_cap_usd": 44871872820.08567,
+      "volume_24h_usd": 1038679468.5785823,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4827576876.01,
+      "tvl_usd": 4831074592.7,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.35,
       "source": "defillama"
@@ -183,7 +183,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 63958409
+          "volume_24h_usd": 60784448
         }
       ],
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 740253.7,
+      "rev_24h_usd": 740748.7,
       "network_fees_24h_usd": 598670,
-      "mev_tips_24h_usd": 141583.7,
-      "mev_share_of_rev_pct": 19.13,
-      "rev_annualised_usd": 270192600.5,
+      "mev_tips_24h_usd": 142078.7,
+      "mev_share_of_rev_pct": 19.18,
+      "rev_annualised_usd": 270373275.5,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 121930
+          "tips_24h_usd": 122425
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Group breaks are live on Gacha Sports. Topps Chrome Update Basketball. The biggest product in the hobby. Inside it: the biggest chase card in NBA history. The $2,000,000 Cooper Flagg bounty card. Break #1 Wednesday 3PM PST. Slots are live \u2026",
+        "created_at": "Sun Aug 09 15:10:57 +0000 2026",
+        "url": "https://x.com/solana/status/2086470294085177659"
+      },
+      {
+        "handle": "solana",
+        "text": "Solana\u2019s stablecoin supply climbed from $1.5B to $16.7B in 3 years The overall stablecoin market grew 2.5x Solana grew 11x It\u2019s now among the top 3 networks by stablecoin supply, with over $500B in gross transfer volume in July. More capit\u2026",
+        "created_at": "Sun Aug 09 13:03:40 +0000 2026",
+        "url": "https://x.com/solana/status/2086438263183577596"
+      },
+      {
+        "handle": "solana",
+        "text": "A $15T asset manager. A 175-year-old payments giant. A billion transactions in seven days. Different sides of finance, all moving through one network. Solana. Here\u2019s everything that happened this week: \ud83d\udcf0 Headline News - @BlackRock filed wi\u2026",
+        "created_at": "Sun Aug 09 13:00:00 +0000 2026",
+        "url": "https://x.com/solana/status/2086437339769774452"
+      },
+      {
+        "handle": "solana",
         "text": "Vibhu reveals one of the craziest startups building on Solana: \"JurassicFi is literally tokenizing dinosaur fossils\" \"The dinosaur fossil market is on fire. A T-Rex sold for $50M at auction last week\" \"A couple of weeks ago these guys rais\u2026",
         "created_at": "Sun Aug 09 05:32:50 +0000 2026",
         "url": "https://x.com/solana/status/2086324807772348848"
-      },
-      {
-        "handle": "solana",
-        "text": "?",
-        "created_at": "Sat Aug 08 19:51:07 +0000 2026",
-        "url": "https://x.com/solana/status/2086178414319337783"
-      },
-      {
-        "handle": "solana",
-        "text": "Top 3 announcements from Solana Summit Nigeria 2026 \ud83c\uddf3\ud83c\uddec https://t.co/vi8p75IvxX",
-        "created_at": "Sat Aug 08 17:13:59 +0000 2026",
-        "url": "https://x.com/solana/status/2086138867178934570"
-      },
-      {
-        "handle": "solana",
-        "text": "Critters Quest mainnet is OPEN. Build. Gather. Craft. Hunt. Raid. Masters play first. Clones follow in 24h. https://t.co/53RarjLcji https://t.co/E7tVc2Qs4a",
-        "created_at": "Sat Aug 08 16:00:01 +0000 2026",
-        "url": "https://x.com/solana/status/2086120252300013881"
       },
       {
         "handle": "solanalabs",
@@ -2358,9 +2358,16 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.0 sigma above its 126-point mean",
-      "value": 76.86,
-      "expected": 74.6268
+      "message": "price_usd is 2.2 sigma above its 127-point mean",
+      "value": 77.08,
+      "expected": 74.6444
+    },
+    {
+      "metric": "unique_signers_sampled",
+      "severity": "warning",
+      "message": "unique_signers_sampled is 2.5 sigma above its 125-point mean",
+      "value": 2023,
+      "expected": 1566.776
     }
   ]
 }

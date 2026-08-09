@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-09 19:09:02 UTC by SolVitals.
+Generated 2026-08-09 19:45:51 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **price_usd** — price_usd is 2.0 sigma above its 132-point mean
+- [WARNING] **price_usd** — price_usd is 2.0 sigma above its 133-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,970.17 |
-| Total TPS (incl. votes) | 4,576.31 |
-| Vote share of transactions | 35.10% |
-| Average slot time | 0.4274 s |
-| Current slot | 438,254,022 |
-| Block height | 416,307,877 |
+| Non-vote TPS | 2,725.70 |
+| Total TPS (incl. votes) | 4,316.69 |
+| Vote share of transactions | 36.86% |
+| Average slot time | 0.4304 s |
+| Current slot | 438,259,237 |
+| Block height | 416,313,090 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1014** — 47.69% complete (`##########..........`), ~26.5 hours remaining.
+Epoch **1014** — 48.9% complete (`##########..........`), ~26.0 hours remaining.
 
-Slot 206,022 of 432,000. Lifetime transaction count: 536,606,185,066.
+Slot 211,238 of 432,000. Lifetime transaction count: 536,615,248,114.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 206,022 of 432,000. Lifetime transaction count: 536,606,185,066.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4222 s |
-| Deviation from 0.4s target | 5.55% |
+| Measured slot time (`getBlockTime`) | 0.424 s |
+| Deviation from 0.4s target | 6.0% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.16 (up 1.48%) |
-| Market cap | $44.92B |
+| SOL price | $77.22 (up 1.57%) |
+| Market cap | $44.95B |
 | DeFi TVL | $4.86B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.49B (up 9.69%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$744.65K** |
+| **REV (total)** | **$750.49K** |
 | Network fees | $598.67K |
-| MEV tips (out-of-protocol) | $145.98K (19.6% of REV) |
-| Annualised REV run-rate | $271.80M |
+| MEV tips (out-of-protocol) | $151.82K (20.23% of REV) |
+| Annualised REV run-rate | $273.93M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $126.33K |
+| Jito MEV Tips | $132.16K |
 | Harmonic | $13.21K |
 | bloXroute | $6.44K |
 | Pyth Express Relay | $1 |
@@ -153,11 +153,11 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,704 |
+| Unique fee payers (sampled) | 1,625 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,322 |
-| Non-vote share of sample | 61.37% |
-| Signers per block | 568.0 |
+| Transactions in sample | 4,491 |
+| Non-vote share of sample | 54.33% |
+| Signers per block | 541.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,165,783 SOL of 631,882,898 total (92.13%).
+Circulating 582,165,759 SOL of 631,882,874 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 

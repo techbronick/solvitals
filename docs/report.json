@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-09 11:18:57",
+  "captured_at": "2026-08-09 11:52:19",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4218,
+      "measured_slot_time_secs": 0.4234,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.45,
+      "deviation_from_target_pct": 5.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2698.35,
-      "tps_non_vote": 1080.17,
-      "vote_share_pct": 59.97,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 438187389,
+      "tps_total": 3120.77,
+      "tps_non_vote": 1486.84,
+      "vote_share_pct": 52.36,
+      "avg_slot_time_secs": 0.419,
+      "latest_sample_slot": 438192125,
       "samples_used": 5,
-      "block_height": 416241389,
-      "current_slot": 438187497
+      "block_height": 416246114,
+      "current_slot": 438192222
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 139499,
+      "slot_index": 144223,
       "slots_in_epoch": 432000,
-      "progress_pct": 32.29,
-      "eta_hours": 34.3,
-      "eta_basis_slot_secs": 0.4218,
-      "transaction_count": 536493865962
+      "progress_pct": 33.38,
+      "eta_hours": 33.8,
+      "eta_basis_slot_secs": 0.4234,
+      "transaction_count": 536499717162
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631883195.13,
-      "circulating_sol": 582166080.04,
+      "total_sol": 631883179.22,
+      "circulating_sol": 582166064.14,
       "non_circulating_sol": 49717115.08,
       "circulating_pct": 92.13
     },
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5rkM2Rr4urH96T57t36rkMJCeC12Gb7s75n8N6VqsVmouDPUzt4AbTfGES2UZp3xwBY8ufmdkKq56woPexrU4epi",
-      "latest_block_time": 1786274335,
-      "errors_in_recent": 3
+      "latest_signature": "2S5bW1iWRg86MNauCocHRALwBBnzBuvCwfbZwW3cYGdy1oADwryoXh5t9BAnzo4VdEZAzFbXPR7aXkCQ67oChAce",
+      "latest_block_time": 1786276336,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1303,
+      "unique_signers_sampled": 1376,
       "blocks_sampled": 3,
-      "transactions_sampled": 3326,
-      "non_vote_transactions_sampled": 1251,
-      "signers_per_block": 434.3,
-      "non_vote_share_pct": 37.61,
+      "transactions_sampled": 3551,
+      "non_vote_transactions_sampled": 1509,
+      "signers_per_block": 458.7,
+      "non_vote_share_pct": 42.5,
       "sampled_slots": [
-        438187320,
-        438185820,
-        438184320
+        438192044,
+        438190544,
+        438189044
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.38,
-      "change_24h_pct": 1.39,
-      "market_cap_usd": 44460946958.46688,
-      "volume_24h_usd": 1217894307.8231628,
+      "usd": 76.41,
+      "change_24h_pct": 1.31,
+      "market_cap_usd": 44487548957.82324,
+      "volume_24h_usd": 1202100049.2451975,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4822609718.6,
+      "tvl_usd": 4822658932.78,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.36,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1479321412.54,
-      "volume_7d_usd": 10533892668.42,
-      "change_24h_pct": 8.67,
+      "volume_24h_usd": 1493144029.54,
+      "volume_7d_usd": 10678381205.42,
+      "change_24h_pct": 9.69,
       "protocol_count": 114,
       "top_dexes": [
         {
@@ -182,24 +182,24 @@
           "volume_24h_usd": 64276309
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 63582748
+          "name": "Orca DEX",
+          "volume_24h_usd": 63143717
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15673411978.57,
+      "total_usd": 15673918586.51,
       "by_peg": {
-        "peggedUSD": 15610569342.8,
-        "peggedEUR": 58199205.47,
-        "peggedJPY": 48.96,
-        "peggedCHF": 1394343.05,
-        "peggedAUD": 2649.15,
-        "peggedVAR": 2465955.63,
-        "peggedGBP": 615400.98,
+        "peggedUSD": 15611080519.29,
+        "peggedEUR": 58193788.08,
+        "peggedJPY": 48.89,
+        "peggedCHF": 1397759.61,
+        "peggedAUD": 2643.26,
+        "peggedVAR": 2463545.9,
+        "peggedGBP": 615248.97,
         "peggedTRY": 163578.75,
-        "peggedCAD": 1453.11,
+        "peggedCAD": 1453.07,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -2302,6 +2302,24 @@
         "url": "https://x.com/solana/status/2086324807772348848"
       },
       {
+        "handle": "solana",
+        "text": "?",
+        "created_at": "Sat Aug 08 19:51:07 +0000 2026",
+        "url": "https://x.com/solana/status/2086178414319337783"
+      },
+      {
+        "handle": "solana",
+        "text": "Top 3 announcements from Solana Summit Nigeria 2026 \ud83c\uddf3\ud83c\uddec https://t.co/vi8p75IvxX",
+        "created_at": "Sat Aug 08 17:13:59 +0000 2026",
+        "url": "https://x.com/solana/status/2086138867178934570"
+      },
+      {
+        "handle": "solana",
+        "text": "Critters Quest mainnet is OPEN. Build. Gather. Craft. Hunt. Raid. Masters play first. Clones follow in 24h. https://t.co/53RarjLcji https://t.co/E7tVc2Qs4a",
+        "created_at": "Sat Aug 08 16:00:01 +0000 2026",
+        "url": "https://x.com/solana/status/2086120252300013881"
+      },
+      {
         "handle": "solanalabs",
         "text": "Crack open the map with @lootgo_official \ud83c\udff4\u200d\u2620\ufe0f Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: \u21b3 Loot Goblin: Open up 5 loot boxes \u21b3 Boost Seeker: Buy + deploy 1 SKR Booster on the ma\u2026",
         "created_at": "Tue Aug 04 17:03:38 +0000 2026",
@@ -2332,7 +2350,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 5,
+    "count": 8,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

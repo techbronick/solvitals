@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-09 18:21:58",
+  "captured_at": "2026-08-09 19:09:02",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4258,
+      "measured_slot_time_secs": 0.4222,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 6.45,
+      "deviation_from_target_pct": 5.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4243.63,
-      "tps_non_vote": 2649.6,
-      "vote_share_pct": 37.56,
-      "avg_slot_time_secs": 0.4304,
-      "latest_sample_slot": 438247327,
+      "tps_total": 4576.31,
+      "tps_non_vote": 2970.17,
+      "vote_share_pct": 35.1,
+      "avg_slot_time_secs": 0.4274,
+      "latest_sample_slot": 438253961,
       "samples_used": 5,
-      "block_height": 416301216,
-      "current_slot": 438247356
+      "block_height": 416307877,
+      "current_slot": 438254022
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 199356,
+      "slot_index": 206022,
       "slots_in_epoch": 432000,
-      "progress_pct": 46.15,
-      "eta_hours": 27.5,
-      "eta_basis_slot_secs": 0.4258,
-      "transaction_count": 536593594252
+      "progress_pct": 47.69,
+      "eta_hours": 26.5,
+      "eta_basis_slot_secs": 0.4222,
+      "transaction_count": 536606185066
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631882930.94,
-      "circulating_sol": 582165815.85,
+      "total_sol": 631882897.78,
+      "circulating_sol": 582165782.7,
       "non_circulating_sol": 49717115.08,
       "circulating_pct": 92.13
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5BUrQX6pUtUFDoHbE22dMeviKLMj9VUD1Y2eg5Cdy7nVAj4vsg4WCg6B9swqNMj7P86WL8y53RKrpWMDNa3RMqxp",
-      "latest_block_time": 1786299714,
-      "errors_in_recent": 6
+      "latest_signature": "5A29PwGSHet55VsnJVCdun4yEy46X81EtNZ7W1ZFJjVE1VAxKbjeESTiuU76ZNKwziVVEHPVVCh88ygCLjxPxSEz",
+      "latest_block_time": 1786302536,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1675,
+      "unique_signers_sampled": 1704,
       "blocks_sampled": 3,
-      "transactions_sampled": 5061,
-      "non_vote_transactions_sampled": 3038,
-      "signers_per_block": 558.3,
-      "non_vote_share_pct": 60.03,
+      "transactions_sampled": 5322,
+      "non_vote_transactions_sampled": 3266,
+      "signers_per_block": 568.0,
+      "non_vote_share_pct": 61.37,
       "sampled_slots": [
-        438247177,
-        438245677,
-        438244177
+        438253842,
+        438252342,
+        438250842
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.09,
-      "change_24h_pct": 1.18,
-      "market_cap_usd": 44880937883.039215,
-      "volume_24h_usd": 1065179921.0898886,
+      "usd": 77.16,
+      "change_24h_pct": 1.48,
+      "market_cap_usd": 44916098971.00993,
+      "volume_24h_usd": 1051018571.0775089,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4857325993.06,
-      "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.38,
+      "tvl_usd": 4863816264.97,
+      "rank_by_tvl": 3,
+      "share_of_all_chains_pct": 6.39,
       "source": "defillama"
     },
     "dex_volume": {
@@ -178,12 +178,12 @@
           "volume_24h_usd": 69502213
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 65784826
-        },
-        {
           "name": "HumidiFi",
           "volume_24h_usd": 64276309
+        },
+        {
+          "name": "Raydium AMM",
+          "volume_24h_usd": 62385188
         }
       ],
       "source": "defillama"
@@ -2347,5 +2347,13 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.0 sigma above its 132-point mean",
+      "value": 77.16,
+      "expected": 74.7405
+    }
+  ]
 }

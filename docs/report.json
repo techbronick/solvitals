@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-09 07:12:58",
+  "captured_at": "2026-08-09 08:00:09",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4232,
+      "measured_slot_time_secs": 0.4206,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.8,
+      "deviation_from_target_pct": 5.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2967.79,
-      "tps_non_vote": 1330.23,
-      "vote_share_pct": 55.18,
-      "avg_slot_time_secs": 0.4196,
-      "latest_sample_slot": 438152361,
+      "tps_total": 2778.56,
+      "tps_non_vote": 1169.11,
+      "vote_share_pct": 57.92,
+      "avg_slot_time_secs": 0.4274,
+      "latest_sample_slot": 438159082,
       "samples_used": 5,
-      "block_height": 416206302,
-      "current_slot": 438152402
+      "block_height": 416213041,
+      "current_slot": 438159142
     },
     "epoch": {
       "epoch": 1014,
-      "slot_index": 104402,
+      "slot_index": 111143,
       "slots_in_epoch": 432000,
-      "progress_pct": 24.17,
-      "eta_hours": 38.5,
-      "eta_basis_slot_secs": 0.4232,
-      "transaction_count": 536451530219
+      "progress_pct": 25.73,
+      "eta_hours": 37.5,
+      "eta_basis_slot_secs": 0.4206,
+      "transaction_count": 536459655953
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 631883308.14,
-      "circulating_sol": 582166193.05,
+      "total_sol": 631883286.73,
+      "circulating_sol": 582166171.65,
       "non_circulating_sol": 49717115.08,
       "circulating_pct": 92.13
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5h4q1AFwFjRJADE5V2bsXb2UAEXbW7JQFC9WupGjZqgNyd1vfn418LEG3zRcEDFn7x2SCH7GtHFQTPouTAhzmxW9",
-      "latest_block_time": 1786259574,
-      "errors_in_recent": 9
+      "latest_signature": "4d6GfJ54ozYf9ADfLUHLwBSM25ixREAgqMDrmbo3iNfvNTGSCCE9bCBjnGJc1gPx6SR5vb5Xntkse3LYiWjwVfq9",
+      "latest_block_time": 1786262411,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1386,
+      "unique_signers_sampled": 1327,
       "blocks_sampled": 3,
-      "transactions_sampled": 3467,
-      "non_vote_transactions_sampled": 1424,
-      "signers_per_block": 462.0,
-      "non_vote_share_pct": 41.07,
+      "transactions_sampled": 3481,
+      "non_vote_transactions_sampled": 1443,
+      "signers_per_block": 442.3,
+      "non_vote_share_pct": 41.45,
       "sampled_slots": [
-        438152223,
-        438150723,
-        438149223
+        438158971,
+        438157471,
+        438155971
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.32,
-      "change_24h_pct": 2.13,
-      "market_cap_usd": 44422453723.10356,
-      "volume_24h_usd": 1245845742.838706,
+      "usd": 76.28,
+      "change_24h_pct": 2.02,
+      "market_cap_usd": 44406671998.99877,
+      "volume_24h_usd": 1255203735.5480578,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4806916894.02,
+      "tvl_usd": 4807934049.41,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.34,
       "source": "defillama"
@@ -179,25 +179,25 @@
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 66831761
+          "volume_24h_usd": 66633054
         },
         {
-          "name": "HumidiFi",
-          "volume_24h_usd": 64276309
+          "name": "Raydium AMM",
+          "volume_24h_usd": 64513842
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15663994030.17,
+      "total_usd": 15647241414.73,
       "by_peg": {
-        "peggedUSD": 15601155641.3,
-        "peggedEUR": 58182354.09,
-        "peggedJPY": 49.03,
-        "peggedCHF": 1389517.14,
-        "peggedAUD": 2648.29,
-        "peggedVAR": 2483395.21,
-        "peggedGBP": 615392.64,
+        "peggedUSD": 15584425293.13,
+        "peggedEUR": 58178654.91,
+        "peggedJPY": 48.89,
+        "peggedCHF": 1386246.09,
+        "peggedAUD": 2647.4,
+        "peggedVAR": 2468100.61,
+        "peggedGBP": 615391.22,
         "peggedTRY": 163578.75,
         "peggedCAD": 1453.04,
         "peggedKRW": 0.68
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 734592.7,
+      "rev_24h_usd": 737130.7,
       "network_fees_24h_usd": 598670,
-      "mev_tips_24h_usd": 135922.7,
-      "mev_share_of_rev_pct": 18.5,
-      "rev_annualised_usd": 268126335.5,
+      "mev_tips_24h_usd": 138460.7,
+      "mev_share_of_rev_pct": 18.78,
+      "rev_annualised_usd": 269052705.5,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 116269
+          "tips_24h_usd": 118807
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,9 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "?",
-        "created_at": "Sat Aug 08 19:51:07 +0000 2026",
-        "url": "https://x.com/solana/status/2086178414319337783"
-      },
-      {
-        "handle": "solana",
-        "text": "Top 3 announcements from Solana Summit Nigeria 2026 \ud83c\uddf3\ud83c\uddec https://t.co/vi8p75IvxX",
-        "created_at": "Sat Aug 08 17:13:59 +0000 2026",
-        "url": "https://x.com/solana/status/2086138867178934570"
-      },
-      {
-        "handle": "solana",
-        "text": "Critters Quest mainnet is OPEN. Build. Gather. Craft. Hunt. Raid. Masters play first. Clones follow in 24h. https://t.co/53RarjLcji https://t.co/E7tVc2Qs4a",
-        "created_at": "Sat Aug 08 16:00:01 +0000 2026",
-        "url": "https://x.com/solana/status/2086120252300013881"
-      },
-      {
-        "handle": "solana",
-        "text": "https://t.co/oNE8Aba5eM",
-        "created_at": "Sat Aug 08 08:43:47 +0000 2026",
-        "url": "https://x.com/solana/status/2086010473602777096"
+        "text": "Vibhu reveals one of the craziest startups building on Solana: \"JurassicFi is literally tokenizing dinosaur fossils\" \"The dinosaur fossil market is on fire. A T-Rex sold for $50M at auction last week\" \"A couple of weeks ago these guys rais\u2026",
+        "created_at": "Sun Aug 09 05:32:50 +0000 2026",
+        "url": "https://x.com/solana/status/2086324807772348848"
       },
       {
         "handle": "solanalabs",
@@ -2350,7 +2332,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 8,
+    "count": 5,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

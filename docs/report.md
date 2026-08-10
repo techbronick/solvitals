@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-10 04:50:25 UTC by SolVitals.
+Generated 2026-08-10 06:05:04 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,968.16 |
-| Total TPS (incl. votes) | 3,602.48 |
-| Vote share of transactions | 45.37% |
-| Average slot time | 0.4196 s |
-| Current slot | 438,336,497 |
-| Block height | 416,390,329 |
+| Non-vote TPS | 1,442.11 |
+| Total TPS (incl. votes) | 3,044.04 |
+| Vote share of transactions | 52.63% |
+| Average slot time | 0.4274 s |
+| Current slot | 438,347,094 |
+| Block height | 416,400,926 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1014** — 66.78% complete (`#############.......`), ~16.9 hours remaining.
+Epoch **1014** — 69.23% complete (`##############......`), ~15.6 hours remaining.
 
-Slot 288,497 of 432,000. Lifetime transaction count: 536,735,820,229.
+Slot 299,095 of 432,000. Lifetime transaction count: 536,749,655,379.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 288,497 of 432,000. Lifetime transaction count: 536,735,820,229.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.423 s |
-| Deviation from 0.4s target | 5.75% |
+| Measured slot time (`getBlockTime`) | 0.4222 s |
+| Deviation from 0.4s target | 5.55% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.58 (up 0.80%) |
-| Market cap | $44.58B |
+| SOL price | $76.85 (up 1.22%) |
+| Market cap | $44.74B |
 | DeFi TVL | $4.85B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.37B (down 8.46%) |
-| Stablecoin supply | $15.68B |
+| Stablecoin supply | $15.63B |
 
 ### Real Economic Value (REV)
 
@@ -107,7 +107,7 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.76M (down 4.89%) |
+| 24 hours | $8.76M (down 4.88%) |
 | 7 days | $58.54M |
 | 30 days | $219.27M |
 
@@ -124,40 +124,40 @@ Fees earned by the 283 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.83B |
-| Tokenized equities | $397.52M (21.78% of RWA) |
+| Tokenized equities | $400.60M (21.91% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $370.08M | -1.54% |
-| Ondo Global Markets | $27.44M | -0.047% |
+| xStocks | $373.19M | 0.514% |
+| Ondo Global Markets | $27.41M | -0.113% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $712.22M | RWA |
-| xStocks | $370.08M | RWA |
-| OnRe | $252.04M | RWA |
-| Ondo Yield Assets | $178.58M | RWA |
-| Hastra | $173.20M | RWA |
-| Ondo Global Markets | $27.44M | RWA |
+| xStocks | $373.19M | RWA |
+| OnRe | $252.22M | RWA |
+| Ondo Yield Assets | $178.56M | RWA |
+| Hastra | $173.11M | RWA |
+| Ondo Global Markets | $27.41M | RWA |
 | Theo Network thBill | $26.34M | RWA |
-| Apollo Diversified Credit Securitize Fund | $24.87M | RWA |
-| Nest Credit | $22.35M | RWA |
+| Apollo Diversified Credit Securitize Fund | $24.85M | RWA |
+| Nest Credit | $22.36M | RWA |
 | VanEck Treasury Fund | $13.91M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,404 |
+| Unique fee payers (sampled) | 1,447 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,894 |
-| Non-vote share of sample | 58.54% |
-| Signers per block | 468.0 |
+| Transactions in sample | 3,795 |
+| Non-vote share of sample | 46.46% |
+| Signers per block | 482.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -167,27 +167,27 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $574.61M |
 | BisonFi | $100.85M |
+| Orca DEX | $89.42M |
 | pump.fun | $82.75M |
-| Raydium AMM | $80.89M |
-| Orca DEX | $72.02M |
+| Raydium AMM | $81.30M |
 
 ## Supply
 
-Circulating 582,165,443 SOL of 631,882,558 total (92.13%).
+Circulating 582,165,407 SOL of 631,882,522 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 
 | Metric | Value | As of | Provider |
 | --- | --- | --- | --- |
-| Active Addresses | 452,363 | 2026-08-08 | Dune |
+| Active Addresses | 556,110 | 2026-08-08 | Dune |
 | Fee Payers | 2,012,708 | 2026-08-08 | Dune |
 | Transaction Count (Total) | 297,183,558 | 2026-08-08 | Dune |
 | Non Vote Transaction Count (Success) | 83,206,739 | 2026-08-08 | Dune |
 | Non Vote Transaction Count (Failed) | 73,791,247 | 2026-08-08 | Dune |
-| DEX Volume | $569.31M | 2026-08-08 | Dune |
-| DEX Traders | 330,219 | 2026-08-08 | Dune |
-| Transfer Volume | $12.55B | 2026-08-07 | Dune |
-| Total Stake | 433,903,477 | 2026-08-09 | Stakewiz |
+| DEX Volume | $1.15B | 2026-08-08 | Dune |
+| DEX Traders | 489,543 | 2026-08-08 | Dune |
+| Transfer Volume | $6.06B | 2026-08-08 | Dune |
+| Total Stake | 433,892,369 | 2026-08-09 | Stakewiz |
 | Validator Count | 689 | 2026-08-09 | Stakewiz |
 | Top 3 ASN Share | 43.32 | 2026-08-09 | Stakewiz |
 
@@ -199,7 +199,7 @@ The same metric is published by multiple providers with different methodologies.
 
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
-| Active Addresses | 2026-08-08 | 24.1% | Allium: 561,283, Dune: 452,363 |
+| Fee Payers | 2026-08-08 | 73.0% | Allium: 2,012,752, Artemis: 3,480,130, Dune: 2,012,708, Token Terminal: 2,011,628 |
 
 ## Announcements from key accounts
 

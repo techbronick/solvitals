@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-10 22:25:01 UTC by SolVitals.
+Generated 2026-08-10 23:02:48 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,803.95 |
-| Total TPS (incl. votes) | 3,448.35 |
-| Vote share of transactions | 47.69% |
-| Average slot time | 0.4172 s |
-| Current slot | 438,486,265 |
-| Block height | 416,540,029 |
+| Non-vote TPS | 1,829.57 |
+| Total TPS (incl. votes) | 3,470.09 |
+| Vote share of transactions | 47.28% |
+| Average slot time | 0.4178 s |
+| Current slot | 438,491,671 |
+| Block height | 416,545,432 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1015** — 1.45% complete (`....................`), ~49.6 hours remaining.
+Epoch **1015** — 2.7% complete (`#...................`), ~49.0 hours remaining.
 
-Slot 6,265 of 432,000. Lifetime transaction count: 536,968,075,945.
+Slot 11,671 of 432,000. Lifetime transaction count: 536,975,870,703.
 
 ## Transaction costs and slot timing
 
@@ -34,23 +34,23 @@ Slot 6,265 of 432,000. Lifetime transaction count: 536,968,075,945.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4192 s |
-| Deviation from 0.4s target | 4.8% |
+| Measured slot time (`getBlockTime`) | 0.4198 s |
+| Deviation from 0.4s target | 4.95% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 691 |
-| Delinquent validators | 7 (1.00%) |
-| Stake held by delinquents | 29,882 SOL (0.007%) |
-| Total active stake | 434,901,138 SOL |
+| Active validators | 690 |
+| Delinquent validators | 8 (1.15%) |
+| Stake held by delinquents | 230,069 SOL (0.053%) |
+| Total active stake | 434,700,951 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 260 |
@@ -61,23 +61,23 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,988,468 | 3.906% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,978,711 | 3.674% | 0% |
-| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,007 | 2.873% | 5% |
-| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,334,140 | 2.836% | 0% |
-| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,151,705 | 2.104% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,964,622 | 2.061% | 10% |
-| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,172,871 | 1.879% | 0% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,954,158 | 1.829% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,367,684 | 1.694% | 5% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,988,468 | 3.908% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,978,711 | 3.676% | 0% |
+| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,007 | 2.874% | 5% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,334,140 | 2.837% | 0% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,151,705 | 2.105% | 7% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,964,622 | 2.062% | 10% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,172,871 | 1.88% | 0% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,954,158 | 1.83% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,367,684 | 1.695% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,577,941 | 1.513% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.23 (down 1.62%) |
-| Market cap | $44.41B |
+| SOL price | $76.15 (down 0.76%) |
+| Market cap | $44.34B |
 | DeFi TVL | $4.83B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.35B (down 9.76%) |
@@ -153,11 +153,11 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,560 |
+| Unique fee payers (sampled) | 1,502 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,398 |
-| Non-vote share of sample | 53.27% |
-| Signers per block | 520.0 |
+| Transactions in sample | 4,259 |
+| Non-vote share of sample | 50.95% |
+| Signers per block | 500.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,14 +166,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $574.61M |
-| Orca DEX | $140.06M |
+| Orca DEX | $139.36M |
 | BisonFi | $100.85M |
-| Raydium AMM | $98.53M |
-| Meteora DLMM | $96.66M |
+| Raydium AMM | $99.74M |
+| Meteora DLMM | $99.70M |
 
 ## Supply
 
-Circulating 582,280,540 SOL of 632,010,026 total (92.13%).
+Circulating 582,280,519 SOL of 632,010,006 total (92.13%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,12 +203,12 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — https://t.co/ZNrB0m7IeX [(link)](https://x.com/solana/status/2086811917625262182)
-- **@solana** — Nebius builds the data centers behind AI, the physical side of cloud computing. In June, it joined the Nasdaq-100. Tomorrow, $NBIS lists on @Solana, issued by @Backpack Securities. Earnings come out on Wednesday. https://t.co/zYZn9g5UgP [(link)](https://x.com/solana/status/2086810983255638423)
-- **@solana** — Watch the full episode with @Genfinity: https://t.co/n9YgRm83ep [(link)](https://x.com/solana/status/2086780527873593772)
-- **@solana** — Solana Exclusive ⚡️ Helius Is Building the Most Scalable Privacy Layer in Crypto "Everything you'd expect from a bank, you'll be able to do on Solana. Fully onchain. No compromises." - Mert, Founder & CEO of Helius Genfinity Founder @IOV_O… [(link)](https://x.com/solana/status/2085717543084327030)
+- **@solana** — Breakpoint is Solana’s flagship yearly event, gathering the leaders, builders and institutions shaping the future of global capital markets. This year, it comes to London, the birthplace of modern finance. https://t.co/HD0ZyUoglk [(link)](https://x.com/solana/status/2086936427363717509)
+- **@solana** — Consider this your invitation to Beansmaxx with us in London. And a reminder to pack accordingly. https://t.co/foOsmlOoNv [(link)](https://x.com/solana/status/2086936425325281374)
+- **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
+- **@solana** — Enter the arena https://t.co/b9fgI7jAaR [(link)](https://x.com/solana/status/2086884741769461850)
+- **@solana** — What’s Frontier Traders? An exclusive community and rewards program for onchain traders at the forefront of new assets, new markets, and new technology. Trade anywhere on Solana and get rewarded, earn rebates based on trading volume, and j… [(link)](https://x.com/solana/status/2086833252845879781)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
-- **@solanalabs** — It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found ☀️ Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek 🧵 https://t.co/U4TiVcEmkG [(link)](https://x.com/solanalabs/status/2082860788369477800)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)
 - **@solanalabs** — 1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open — join us in NYC for 3 months starting September 2026. 📅 Deadline: June 5. ✅ Rolling review — early applicants prioritized.… [(link)](https://x.com/solanalabs/status/2046973323620577341)
 

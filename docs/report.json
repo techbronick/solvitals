@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-10 22:25:01",
+  "captured_at": "2026-08-10 23:02:48",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4192,
+      "measured_slot_time_secs": 0.4198,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.8,
+      "deviation_from_target_pct": 4.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3448.35,
-      "tps_non_vote": 1803.95,
-      "vote_share_pct": 47.69,
-      "avg_slot_time_secs": 0.4172,
-      "latest_sample_slot": 438486260,
+      "tps_total": 3470.09,
+      "tps_non_vote": 1829.57,
+      "vote_share_pct": 47.28,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 438491694,
       "samples_used": 5,
-      "block_height": 416540029,
-      "current_slot": 438486265
+      "block_height": 416545432,
+      "current_slot": 438491671
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 6265,
+      "slot_index": 11671,
       "slots_in_epoch": 432000,
-      "progress_pct": 1.45,
-      "eta_hours": 49.6,
-      "eta_basis_slot_secs": 0.4192,
-      "transaction_count": 536968075945
+      "progress_pct": 2.7,
+      "eta_hours": 49.0,
+      "eta_basis_slot_secs": 0.4198,
+      "transaction_count": 536975870703
     },
     "validators": {
-      "active_count": 691,
-      "delinquent_count": 7,
-      "delinquent_pct": 1.0,
-      "delinquent_stake_sol": 29882.29,
-      "delinquent_stake_pct": 0.007,
-      "total_active_stake_sol": 434901138.23,
+      "active_count": 690,
+      "delinquent_count": 8,
+      "delinquent_pct": 1.15,
+      "delinquent_stake_sol": 230069.18,
+      "delinquent_stake_pct": 0.053,
+      "total_active_stake_sol": 434700951.34,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 260,
@@ -45,55 +45,55 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 16988467.78,
-          "stake_pct": 3.906,
+          "stake_pct": 3.908,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 15978711.02,
-          "stake_pct": 3.674,
+          "stake_pct": 3.676,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12495007.4,
-          "stake_pct": 2.873,
+          "stake_pct": 2.874,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12334140.28,
-          "stake_pct": 2.836,
+          "stake_pct": 2.837,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9151704.97,
-          "stake_pct": 2.104,
+          "stake_pct": 2.105,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8964622.24,
-          "stake_pct": 2.061,
+          "stake_pct": 2.062,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8172870.67,
-          "stake_pct": 1.879,
+          "stake_pct": 1.88,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7954158.02,
-          "stake_pct": 1.829,
+          "stake_pct": 1.83,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7367683.93,
-          "stake_pct": 1.694,
+          "stake_pct": 1.695,
           "commission": 5
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632010026.42,
-      "circulating_sol": 582280539.6,
+      "total_sol": 632010005.54,
+      "circulating_sol": 582280518.72,
       "non_circulating_sol": 49729486.82,
       "circulating_pct": 92.13
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "23VHywEAeiwJWFMdE1T2WuWpWXLaqjkg4agnmZBaRQFx8ZbL5s2XHAiCjbeb3ah6v17s3uc9LWivPNmZBJFyXvLL",
-      "latest_block_time": 1786400695,
-      "errors_in_recent": 3
+      "latest_signature": "5JQyC4AZccUCUaiErb4DQYGjytPNvymLWvhNiJxpmujoxHYvPEmaGidkNiMBTnxxcRrYmGPwidg2FarSqr6z7CGt",
+      "latest_block_time": 1786402965,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1560,
+      "unique_signers_sampled": 1502,
       "blocks_sampled": 3,
-      "transactions_sampled": 4398,
-      "non_vote_transactions_sampled": 2343,
-      "signers_per_block": 520.0,
-      "non_vote_share_pct": 53.27,
+      "transactions_sampled": 4259,
+      "non_vote_transactions_sampled": 2170,
+      "signers_per_block": 500.7,
+      "non_vote_share_pct": 50.95,
       "sampled_slots": [
-        438486083,
-        438484583,
-        438483083
+        438491492,
+        438489992,
+        438488492
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.23,
-      "change_24h_pct": -1.62,
-      "market_cap_usd": 44405938668.54642,
-      "volume_24h_usd": 1462341212.9864562,
+      "usd": 76.15,
+      "change_24h_pct": -0.76,
+      "market_cap_usd": 44339846436.38667,
+      "volume_24h_usd": 1443371958.312275,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4827987988.69,
+      "tvl_usd": 4828163136.69,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 140058843
+          "volume_24h_usd": 139357962
         },
         {
           "name": "BisonFi",
@@ -179,11 +179,11 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 98527806
+          "volume_24h_usd": 99740096
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 96662259
+          "volume_24h_usd": 99695515
         }
       ],
       "source": "defillama"
@@ -2290,39 +2290,39 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "https://t.co/ZNrB0m7IeX",
-        "created_at": "Mon Aug 10 13:48:26 +0000 2026",
-        "url": "https://x.com/solana/status/2086811917625262182"
+        "text": "Breakpoint is Solana\u2019s flagship yearly event, gathering the leaders, builders and institutions shaping the future of global capital markets. This year, it comes to London, the birthplace of modern finance. https://t.co/HD0ZyUoglk",
+        "created_at": "Mon Aug 10 22:03:12 +0000 2026",
+        "url": "https://x.com/solana/status/2086936427363717509"
       },
       {
         "handle": "solana",
-        "text": "Nebius builds the data centers behind AI, the physical side of cloud computing. In June, it joined the Nasdaq-100. Tomorrow, $NBIS lists on @Solana, issued by @Backpack Securities. Earnings come out on Wednesday. https://t.co/zYZn9g5UgP",
-        "created_at": "Mon Aug 10 13:44:44 +0000 2026",
-        "url": "https://x.com/solana/status/2086810983255638423"
+        "text": "Consider this your invitation to Beansmaxx with us in London. And a reminder to pack accordingly. https://t.co/foOsmlOoNv",
+        "created_at": "Mon Aug 10 22:03:11 +0000 2026",
+        "url": "https://x.com/solana/status/2086936425325281374"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Shipped Live episode 3 is coming \ud83d\udd1c Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now \ud83d\udc47 https://t.co/dVQgaOulNi",
+        "created_at": "Mon Aug 10 19:13:45 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2086893782742757446"
       },
       {
         "handle": "solana",
-        "text": "Watch the full episode with @Genfinity: https://t.co/n9YgRm83ep",
-        "created_at": "Mon Aug 10 11:43:43 +0000 2026",
-        "url": "https://x.com/solana/status/2086780527873593772"
+        "text": "Enter the arena https://t.co/b9fgI7jAaR",
+        "created_at": "Mon Aug 10 18:37:49 +0000 2026",
+        "url": "https://x.com/solana/status/2086884741769461850"
       },
       {
         "handle": "solana",
-        "text": "Solana Exclusive \u26a1\ufe0f Helius Is Building the Most Scalable Privacy Layer in Crypto \"Everything you'd expect from a bank, you'll be able to do on Solana. Fully onchain. No compromises.\" - Mert, Founder & CEO of Helius Genfinity Founder @IOV_O\u2026",
-        "created_at": "Fri Aug 07 13:19:47 +0000 2026",
-        "url": "https://x.com/solana/status/2085717543084327030"
+        "text": "What\u2019s Frontier Traders? An exclusive community and rewards program for onchain traders at the forefront of new assets, new markets, and new technology. Trade anywhere on Solana and get rewarded, earn rebates based on trading volume, and j\u2026",
+        "created_at": "Mon Aug 10 15:13:13 +0000 2026",
+        "url": "https://x.com/solana/status/2086833252845879781"
       },
       {
         "handle": "solanalabs",
         "text": "Crack open the map with @lootgo_official \ud83c\udff4\u200d\u2620\ufe0f Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: \u21b3 Loot Goblin: Open up 5 loot boxes \u21b3 Boost Seeker: Buy + deploy 1 SKR Booster on the ma\u2026",
         "created_at": "Tue Aug 04 17:03:38 +0000 2026",
         "url": "https://x.com/solanalabs/status/2084686710630400035"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "It's the long bright middle of the summer now, when the days stretch out and something is always waiting to be found \u2600\ufe0f Seeker Summer Round 2 SKR claims are now live in your Seed Vault Wallet. Find what you seek \ud83e\uddf5 https://t.co/U4TiVcEmkG",
-        "created_at": "Thu Jul 30 16:08:04 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2082860788369477800"
       },
       {
         "handle": "solanalabs",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-11 22:59:11",
+  "captured_at": "2026-08-11 23:38:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.418,
+      "measured_slot_time_secs": 0.4204,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.5,
+      "deviation_from_target_pct": 5.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3912.47,
-      "tps_non_vote": 2305.01,
-      "vote_share_pct": 41.09,
-      "avg_slot_time_secs": 0.4255,
-      "latest_sample_slot": 438696178,
+      "tps_total": 3721.7,
+      "tps_non_vote": 2124.83,
+      "vote_share_pct": 42.91,
+      "avg_slot_time_secs": 0.4292,
+      "latest_sample_slot": 438701777,
       "samples_used": 5,
-      "block_height": 416749826,
-      "current_slot": 438696212
+      "block_height": 416755450,
+      "current_slot": 438701836
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 216212,
+      "slot_index": 221837,
       "slots_in_epoch": 432000,
-      "progress_pct": 50.05,
-      "eta_hours": 25.1,
-      "eta_basis_slot_secs": 0.418,
-      "transaction_count": 537287526735
+      "progress_pct": 51.35,
+      "eta_hours": 24.5,
+      "eta_basis_slot_secs": 0.4204,
+      "transaction_count": 537296449959
     },
     "validators": {
       "active_count": 690,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 632009185.24,
-      "circulating_sol": 582481126.43,
-      "non_circulating_sol": 49528058.8,
+      "total_sol": 632009161.96,
+      "circulating_sol": 582481103.14,
+      "non_circulating_sol": 49528058.82,
       "circulating_pct": 92.16
     },
     "transaction_fees": {
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3ArWUy86J7q2SbmbMJfZWmBPpnfSCEQgcp1SEAKY5r3tWnaauBPFx21xkpNr383ZY3A6m6AE6MK2U79DnTf9j3yz",
-      "latest_block_time": 1786489146,
-      "errors_in_recent": 0
+      "latest_signature": "5xG1456eg2QdfEF8vDjDmF2KRx5S4GLBMTPqtXyhuJFGjcNJVTmD6rY9ug2PhYTcAm5JYztaUjH4dnwo48BTyo4A",
+      "latest_block_time": 1786491509,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1590,
+      "unique_signers_sampled": 1602,
       "blocks_sampled": 3,
-      "transactions_sampled": 4198,
-      "non_vote_transactions_sampled": 2072,
-      "signers_per_block": 530.0,
-      "non_vote_share_pct": 49.36,
+      "transactions_sampled": 4503,
+      "non_vote_transactions_sampled": 2464,
+      "signers_per_block": 534.0,
+      "non_vote_share_pct": 54.72,
       "sampled_slots": [
-        438696032,
-        438694532,
-        438693032
+        438701655,
+        438700155,
+        438698655
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.33,
-      "change_24h_pct": 0.23,
-      "market_cap_usd": 44460473306.819016,
-      "volume_24h_usd": 1371503373.508596,
+      "usd": 76.23,
+      "change_24h_pct": 0.29,
+      "market_cap_usd": 44403996587.64399,
+      "volume_24h_usd": 1367175544.4195583,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4821179134.05,
-      "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.41,
+      "tvl_usd": 4843252188.56,
+      "rank_by_tvl": 3,
+      "share_of_all_chains_pct": 6.43,
       "source": "defillama"
     },
     "dex_volume": {
@@ -179,27 +179,27 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 108732967
+          "volume_24h_usd": 109946160
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 108332617
+          "volume_24h_usd": 107979467
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15714609027.31,
+      "total_usd": 15722001512.32,
       "by_peg": {
-        "peggedUSD": 15652238395.22,
-        "peggedEUR": 57747613.52,
-        "peggedJPY": 48.11,
-        "peggedCHF": 1389117.89,
-        "peggedAUD": 2643.49,
-        "peggedVAR": 2449757.54,
-        "peggedGBP": 611076.54,
+        "peggedUSD": 15659638225.34,
+        "peggedEUR": 57746916.38,
+        "peggedJPY": 52.56,
+        "peggedCHF": 1385908.05,
+        "peggedAUD": 2643.72,
+        "peggedVAR": 2446158.16,
+        "peggedGBP": 611233.13,
         "peggedTRY": 168919.38,
-        "peggedCAD": 1454.95,
+        "peggedCAD": 1454.93,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -252,7 +252,7 @@
         },
         {
           "name": "Collector Crypt",
-          "fees_24h_usd": 593041
+          "fees_24h_usd": 563604
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",

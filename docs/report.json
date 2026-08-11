@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-11 19:42:54",
+  "captured_at": "2026-08-11 20:23:31",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4194,
+      "measured_slot_time_secs": 0.4236,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.85,
+      "deviation_from_target_pct": 5.9,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3981.99,
-      "tps_non_vote": 2348.49,
-      "vote_share_pct": 41.02,
-      "avg_slot_time_secs": 0.4202,
-      "latest_sample_slot": 438668078,
+      "tps_total": 5067.16,
+      "tps_non_vote": 3487.03,
+      "vote_share_pct": 31.18,
+      "avg_slot_time_secs": 0.4317,
+      "latest_sample_slot": 438673891,
       "samples_used": 5,
-      "block_height": 416721832,
-      "current_slot": 438668191
+      "block_height": 416727578,
+      "current_slot": 438673957
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 188191,
+      "slot_index": 193959,
       "slots_in_epoch": 432000,
-      "progress_pct": 43.56,
-      "eta_hours": 28.4,
-      "eta_basis_slot_secs": 0.4194,
-      "transaction_count": 537237946926
+      "progress_pct": 44.9,
+      "eta_hours": 28.0,
+      "eta_basis_slot_secs": 0.4236,
+      "transaction_count": 537248327236
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632009314.4,
-      "circulating_sol": 582481255.59,
+      "total_sol": 632009287.45,
+      "circulating_sol": 582481228.65,
       "non_circulating_sol": 49528058.8,
       "circulating_pct": 92.16
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2mSMvRszA2ZCGKFGo9G3Makb6JdHzJjVNeP1eWkF79h7exRAQzZSPuRCjFYs8z48JMC6kDWECSYNxrqrU8mPQ4NZ",
-      "latest_block_time": 1786477369,
-      "errors_in_recent": 1
+      "latest_signature": "FiBc9RRh57v28C2re4KD8m6QBpEFQx4ERtKBMEwVq2VjKfkoP9h1HgoyfyjFuySWHgf75cA7JHhN3HAy7GpL3EC",
+      "latest_block_time": 1786479811,
+      "errors_in_recent": 9
     },
     "activity": {
-      "unique_signers_sampled": 1644,
+      "unique_signers_sampled": 1553,
       "blocks_sampled": 3,
-      "transactions_sampled": 4794,
-      "non_vote_transactions_sampled": 2741,
-      "signers_per_block": 548.0,
-      "non_vote_share_pct": 57.18,
+      "transactions_sampled": 5417,
+      "non_vote_transactions_sampled": 3378,
+      "signers_per_block": 517.7,
+      "non_vote_share_pct": 62.36,
       "sampled_slots": [
-        438668011,
-        438666511,
-        438665011
+        438673787,
+        438672287,
+        438670787
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.39,
-      "change_24h_pct": -0.97,
-      "market_cap_usd": 43913314865.60675,
-      "volume_24h_usd": 1253781090.6429207,
+      "usd": 75.86,
+      "change_24h_pct": -0.44,
+      "market_cap_usd": 44189389649.134,
+      "volume_24h_usd": 1299322879.932908,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4799368044.74,
+      "tvl_usd": 4798221912.97,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -183,7 +183,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 105021012
+          "volume_24h_usd": 108751293
         }
       ],
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 843572.73,
+      "rev_24h_usd": 840898.73,
       "network_fees_24h_usd": 680549,
-      "mev_tips_24h_usd": 163023.73,
-      "mev_share_of_rev_pct": 19.33,
-      "rev_annualised_usd": 307904046.45,
+      "mev_tips_24h_usd": 160349.73,
+      "mev_share_of_rev_pct": 19.07,
+      "rev_annualised_usd": 306928036.45,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 139563
+          "tips_24h_usd": 136889
         },
         {
           "name": "Harmonic",
@@ -2362,5 +2362,13 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "tps_non_vote",
+      "severity": "warning",
+      "message": "tps_non_vote is 2.9 sigma above its 182-point mean",
+      "value": 3487.03,
+      "expected": 1992.212
+    }
+  ]
 }

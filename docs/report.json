@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-11 00:48:08",
+  "captured_at": "2026-08-11 02:57:46",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4192,
+      "measured_slot_time_secs": 0.4248,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.8,
+      "deviation_from_target_pct": 6.2,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3350.77,
-      "tps_non_vote": 1726.22,
-      "vote_share_pct": 48.48,
-      "avg_slot_time_secs": 0.4225,
-      "latest_sample_slot": 438506663,
+      "tps_total": 3271.0,
+      "tps_non_vote": 1654.9,
+      "vote_share_pct": 49.41,
+      "avg_slot_time_secs": 0.4231,
+      "latest_sample_slot": 438525051,
       "samples_used": 5,
-      "block_height": 416560439,
-      "current_slot": 438506683
+      "block_height": 416578845,
+      "current_slot": 438525097
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 26684,
+      "slot_index": 45099,
       "slots_in_epoch": 432000,
-      "progress_pct": 6.18,
-      "eta_hours": 47.2,
-      "eta_basis_slot_secs": 0.4192,
-      "transaction_count": 536997514241
+      "progress_pct": 10.44,
+      "eta_hours": 45.7,
+      "eta_basis_slot_secs": 0.4248,
+      "transaction_count": 537024128708
     },
     "validators": {
       "active_count": 691,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 632009948.4,
-      "circulating_sol": 582481929.38,
-      "non_circulating_sol": 49528019.02,
+      "total_sol": 632009877.48,
+      "circulating_sol": 582481818.67,
+      "non_circulating_sol": 49528058.8,
       "circulating_pct": 92.16
     },
     "transaction_fees": {
@@ -126,129 +126,129 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3GaWKT3nvpb986mcwZ2NXXZk82g51Hijp3pFV2LddWLe36L1qaPkBL4H6keproP25vWm4L3BN5XUzR1wzXE6t27b",
-      "latest_block_time": 1786409282,
+      "latest_signature": "5iMGWFVcJBfDpFmc1N5wToTT8yaKYLdJ5GAqcTBafyytJ93twknYjGq9YFnnRDpSVp67Tk55HB3wND6a5rUcRjcg",
+      "latest_block_time": 1786417066,
       "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1445,
+      "unique_signers_sampled": 1434,
       "blocks_sampled": 3,
-      "transactions_sampled": 4113,
-      "non_vote_transactions_sampled": 2075,
-      "signers_per_block": 481.7,
-      "non_vote_share_pct": 50.45,
+      "transactions_sampled": 3936,
+      "non_vote_transactions_sampled": 1943,
+      "signers_per_block": 478.0,
+      "non_vote_share_pct": 49.36,
       "sampled_slots": [
-        438506503,
-        438505003,
-        438503503
+        438524925,
+        438523425,
+        438521925
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.84,
-      "change_24h_pct": -0.65,
-      "market_cap_usd": 44168587445.70776,
-      "volume_24h_usd": 1382342382.8379645,
+      "usd": 76.0,
+      "change_24h_pct": -0.92,
+      "market_cap_usd": 44264569379.54331,
+      "volume_24h_usd": 1349587564.5011528,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4827587783.63,
+      "tvl_usd": 4821268662.42,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.42,
+      "share_of_all_chains_pct": 6.4,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1527198724.71,
-      "volume_7d_usd": 9425380860.1,
-      "change_24h_pct": 13.34,
+      "volume_24h_usd": 1546444167.56,
+      "volume_7d_usd": 10378380571.62,
+      "change_24h_pct": 14.77,
       "protocol_count": 114,
       "top_dexes": [
         {
           "name": "PumpSwap",
-          "volume_24h_usd": 574605172
-        },
-        {
-          "name": "Orca DEX",
-          "volume_24h_usd": 136964303
-        },
-        {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 101388137
-        },
-        {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 101257590
+          "volume_24h_usd": 335378251
         },
         {
           "name": "BisonFi",
-          "volume_24h_usd": 100851243
+          "volume_24h_usd": 216138786
+        },
+        {
+          "name": "HumidiFi",
+          "volume_24h_usd": 161207981
+        },
+        {
+          "name": "Orca DEX",
+          "volume_24h_usd": 132205549
+        },
+        {
+          "name": "Raydium AMM",
+          "volume_24h_usd": 100744676
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15544754577.3,
+      "total_usd": 15520710981.09,
       "by_peg": {
-        "peggedUSD": 15484150407.14,
-        "peggedEUR": 55988009.36,
-        "peggedJPY": 53.12,
-        "peggedCHF": 1391022.35,
-        "peggedAUD": 2651.26,
-        "peggedVAR": 2441084.9,
-        "peggedGBP": 610823.02,
-        "peggedTRY": 169070.58,
-        "peggedCAD": 1454.88,
+        "peggedUSD": 15460085912.94,
+        "peggedEUR": 55998358.03,
+        "peggedJPY": 53.2,
+        "peggedCHF": 1402002.52,
+        "peggedAUD": 2658.02,
+        "peggedVAR": 2440238.15,
+        "peggedGBP": 611383.19,
+        "peggedTRY": 168919.38,
+        "peggedCAD": 1454.99,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 813554.14,
-      "network_fees_24h_usd": 650664,
-      "mev_tips_24h_usd": 162890.14,
-      "mev_share_of_rev_pct": 20.02,
-      "rev_annualised_usd": 296947261.1,
+      "rev_24h_usd": 841968.73,
+      "network_fees_24h_usd": 680549,
+      "mev_tips_24h_usd": 161419.73,
+      "mev_share_of_rev_pct": 19.17,
+      "rev_annualised_usd": 307318586.45,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 140018
+          "tips_24h_usd": 137959
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 14559
+          "tips_24h_usd": 15971
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 8313
+          "tips_24h_usd": 7486
         },
         {
           "name": "Pyth Express Relay",
-          "tips_24h_usd": 0.14
+          "tips_24h_usd": 3.73
         }
       ],
-      "app_fees_24h_usd": 9367889.06,
-      "app_fees_7d_usd": 55604769.15,
-      "app_fees_30d_usd": 220325159.28999993,
-      "app_fees_change_24h_pct": 2.42,
+      "app_fees_24h_usd": 10453688.030000003,
+      "app_fees_7d_usd": 63299209.85999998,
+      "app_fees_30d_usd": 228019599.99999994,
+      "app_fees_change_24h_pct": 14.29,
       "protocol_count": 285,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
-          "fees_24h_usd": 2702911
+          "fees_24h_usd": 2492249
         },
         {
           "name": "pump.fun",
-          "fees_24h_usd": 1468007
+          "fees_24h_usd": 1433037
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 1349810
+          "fees_24h_usd": 1181648
         },
         {
           "name": "Solana",
-          "fees_24h_usd": 650664
+          "fees_24h_usd": 680549
         },
         {
           "name": "fomo Wallet",
@@ -2045,6 +2045,12 @@
         "summary": "The last cycle was built on software and cheap money. This one is built from steel, silicon, and energy; and the tokens moving the capital behind it. Speaker applications are now live for Breakpoint 2026:"
       },
       {
+        "title": "MoneyGram Ramps launches on Solana",
+        "link": "https://solana.com/news/moneygram-ramps",
+        "published": "Sat, 01 Aug 2026 12:50:00 GMT",
+        "summary": "MoneyGram Ramps gives Solana builders one API for cash deposits in 25+ countries and withdrawals in 170+ countries and territories."
+      },
+      {
         "title": "Inside Solana\u2019s Growing Market for Tokenized Cards and Physical Collectibles",
         "link": "https://solana.com/news/tokenized-cards-and-physical-collectibles",
         "published": "Fri, 31 Jul 2026 10:00:00 GMT",
@@ -2061,12 +2067,6 @@
         "link": "https://solana.com/news/solana-changelog-july-30-2026",
         "published": "Thu, 30 Jul 2026 12:50:00 GMT",
         "summary": "SIMD-0286 activated on mainnet to raise block limits to 100M CUs, alongside new Agave, Firedancer, SDK, and LiteSVM releases."
-      },
-      {
-        "title": "Solana Changelog: July 23, 2026",
-        "link": "https://solana.com/news/solana-changelog-july-23-2026",
-        "published": "Thu, 23 Jul 2026 13:04:00 GMT",
-        "summary": "The Resource and Inclusion Fees SIMD was accepted alongside new Agave, Firedancer, and program SDK releases."
       }
     ],
     "count": 8,

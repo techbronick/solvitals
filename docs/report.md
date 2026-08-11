@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-11 00:48:08 UTC by SolVitals.
+Generated 2026-08-11 02:57:46 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,726.22 |
-| Total TPS (incl. votes) | 3,350.77 |
-| Vote share of transactions | 48.48% |
-| Average slot time | 0.4225 s |
-| Current slot | 438,506,683 |
-| Block height | 416,560,439 |
+| Non-vote TPS | 1,654.90 |
+| Total TPS (incl. votes) | 3,271.00 |
+| Vote share of transactions | 49.41% |
+| Average slot time | 0.4231 s |
+| Current slot | 438,525,097 |
+| Block height | 416,578,845 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1015** — 6.18% complete (`#...................`), ~47.2 hours remaining.
+Epoch **1015** — 10.44% complete (`##..................`), ~45.7 hours remaining.
 
-Slot 26,684 of 432,000. Lifetime transaction count: 536,997,514,241.
+Slot 45,099 of 432,000. Lifetime transaction count: 537,024,128,708.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 26,684 of 432,000. Lifetime transaction count: 536,997,514,241.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4192 s |
-| Deviation from 0.4s target | 4.8% |
+| Measured slot time (`getBlockTime`) | 0.4248 s |
+| Deviation from 0.4s target | 6.2% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -76,30 +76,30 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.84 (down 0.65%) |
-| Market cap | $44.17B |
-| DeFi TVL | $4.83B |
+| SOL price | $76.00 (down 0.92%) |
+| Market cap | $44.26B |
+| DeFi TVL | $4.82B |
 | TVL rank across chains | 3 |
-| DEX volume (24h) | $1.53B (up 13.34%) |
-| Stablecoin supply | $15.54B |
+| DEX volume (24h) | $1.55B (up 14.77%) |
+| Stablecoin supply | $15.52B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$813.55K** |
-| Network fees | $650.66K |
-| MEV tips (out-of-protocol) | $162.89K (20.02% of REV) |
-| Annualised REV run-rate | $296.95M |
+| **REV (total)** | **$841.97K** |
+| Network fees | $680.55K |
+| MEV tips (out-of-protocol) | $161.42K (19.17% of REV) |
+| Annualised REV run-rate | $307.32M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $140.02K |
-| Harmonic | $14.56K |
-| bloXroute | $8.31K |
-| Pyth Express Relay | $0 |
+| Jito MEV Tips | $137.96K |
+| Harmonic | $15.97K |
+| bloXroute | $7.49K |
+| Pyth Express Relay | $4 |
 
 ### Application fees (distinct from REV)
 
@@ -107,16 +107,16 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $9.37M (up 2.42%) |
-| 7 days | $55.60M |
-| 30 days | $220.33M |
+| 24 hours | $10.45M (up 14.29%) |
+| 7 days | $63.30M |
+| 30 days | $228.02M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $2.70M |
-| pump.fun | $1.47M |
-| Axiom | $1.35M |
-| Solana | $650.66K |
+| PumpSwap | $2.49M |
+| pump.fun | $1.43M |
+| Axiom | $1.18M |
+| Solana | $680.55K |
 | fomo Wallet | $444.27K |
 
 ## Tokenized assets
@@ -153,11 +153,11 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,445 |
+| Unique fee payers (sampled) | 1,434 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,113 |
-| Non-vote share of sample | 50.45% |
-| Signers per block | 481.7 |
+| Transactions in sample | 3,936 |
+| Non-vote share of sample | 49.36% |
+| Signers per block | 478.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,15 +165,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| PumpSwap | $574.61M |
-| Orca DEX | $136.96M |
-| Raydium AMM | $101.39M |
-| Meteora DLMM | $101.26M |
-| BisonFi | $100.85M |
+| PumpSwap | $335.38M |
+| BisonFi | $216.14M |
+| HumidiFi | $161.21M |
+| Orca DEX | $132.21M |
+| Raydium AMM | $100.74M |
 
 ## Supply
 
-Circulating 582,481,929 SOL of 632,009,948 total (92.16%).
+Circulating 582,481,819 SOL of 632,009,877 total (92.16%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -279,14 +279,14 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Tokenized equities expanded, real-world assets hit $3.73B, payments reached 330,000+ merchants, and block capacity increased 66% in a milestone month.
 - **[Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)**
   The last cycle was built on software and cheap money. This one is built from steel, silicon, and energy; and the tokens moving the capital behind it. Speaker applications are now live for Breakpoint 2026:
+- **[MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps)**
+  MoneyGram Ramps gives Solana builders one API for cash deposits in 25+ countries and withdrawals in 170+ countries and territories.
 - **[Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)**
   Collector Crypt has crossed $1.6B in volume as Solana apps bring vaulted cards, packs, buybacks, and physical redemption onchain.
 - **[Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)**
   Learn how BlackRock, J.P. Morgan, Visa, Franklin Templeton, and other institutions are building the future of tokenized real-world assets on Solana.
 - **[Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)**
   SIMD-0286 activated on mainnet to raise block limits to 100M CUs, alongside new Agave, Firedancer, SDK, and LiteSVM releases.
-- **[Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)**
-  The Resource and Inclusion Fees SIMD was accepted alongside new Agave, Firedancer, and program SDK releases.
 
 _Source: official Solana news feed (solana.com/news)._
 

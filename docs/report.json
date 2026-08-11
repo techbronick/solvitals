@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-10 23:48:04",
+  "captured_at": "2026-08-11 00:48:08",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4206,
+      "measured_slot_time_secs": 0.4192,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.15,
+      "deviation_from_target_pct": 4.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3183.93,
-      "tps_non_vote": 1545.35,
-      "vote_share_pct": 51.46,
-      "avg_slot_time_secs": 0.419,
-      "latest_sample_slot": 438498144,
+      "tps_total": 3350.77,
+      "tps_non_vote": 1726.22,
+      "vote_share_pct": 48.48,
+      "avg_slot_time_secs": 0.4225,
+      "latest_sample_slot": 438506663,
       "samples_used": 5,
-      "block_height": 416551868,
-      "current_slot": 438498113
+      "block_height": 416560439,
+      "current_slot": 438506683
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 18113,
+      "slot_index": 26684,
       "slots_in_epoch": 432000,
-      "progress_pct": 4.19,
-      "eta_hours": 48.4,
-      "eta_basis_slot_secs": 0.4206,
-      "transaction_count": 536985072631
+      "progress_pct": 6.18,
+      "eta_hours": 47.2,
+      "eta_basis_slot_secs": 0.4192,
+      "transaction_count": 536997514241
     },
     "validators": {
       "active_count": 691,
@@ -105,10 +105,10 @@
       ]
     },
     "supply": {
-      "total_sol": 632009981.44,
-      "circulating_sol": 582280388.95,
-      "non_circulating_sol": 49729592.49,
-      "circulating_pct": 92.13
+      "total_sol": 632009948.4,
+      "circulating_sol": 582481929.38,
+      "non_circulating_sol": 49528019.02,
+      "circulating_pct": 92.16
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4ejcDVsDfhbB7dPAPr961ecCm5qMYpDS9qeVZiMeefAWHA8raD9Wv8tr8iXDVvVRseUP1XouaQ1bkPcdRV3LsphT",
-      "latest_block_time": 1786405681,
+      "latest_signature": "3GaWKT3nvpb986mcwZ2NXXZk82g51Hijp3pFV2LddWLe36L1qaPkBL4H6keproP25vWm4L3BN5XUzR1wzXE6t27b",
+      "latest_block_time": 1786409282,
       "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1524,
+      "unique_signers_sampled": 1445,
       "blocks_sampled": 3,
-      "transactions_sampled": 3943,
-      "non_vote_transactions_sampled": 1908,
-      "signers_per_block": 508.0,
-      "non_vote_share_pct": 48.39,
+      "transactions_sampled": 4113,
+      "non_vote_transactions_sampled": 2075,
+      "signers_per_block": 481.7,
+      "non_vote_share_pct": 50.45,
       "sampled_slots": [
-        438497934,
-        438496434,
-        438494934
+        438506503,
+        438505003,
+        438503503
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.05,
-      "change_24h_pct": -0.34,
-      "market_cap_usd": 44284692156.66435,
-      "volume_24h_usd": 1410082408.2908397,
+      "usd": 75.84,
+      "change_24h_pct": -0.65,
+      "market_cap_usd": 44168587445.70776,
+      "volume_24h_usd": 1382342382.8379645,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4828224235.55,
+      "tvl_usd": 4827587783.63,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.4,
+      "share_of_all_chains_pct": 6.42,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1347434364.98,
-      "volume_7d_usd": 10677484360.439999,
-      "change_24h_pct": -9.76,
+      "volume_24h_usd": 1527198724.71,
+      "volume_7d_usd": 9425380860.1,
+      "change_24h_pct": 13.34,
       "protocol_count": 114,
       "top_dexes": [
         {
@@ -171,35 +171,35 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 139357962
+          "volume_24h_usd": 136964303
+        },
+        {
+          "name": "Raydium AMM",
+          "volume_24h_usd": 101388137
+        },
+        {
+          "name": "Meteora DLMM",
+          "volume_24h_usd": 101257590
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 100851243
-        },
-        {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 99740096
-        },
-        {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 99695515
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15524905552.53,
+      "total_usd": 15544754577.3,
       "by_peg": {
-        "peggedUSD": 15464285639.65,
-        "peggedEUR": 55990839.64,
+        "peggedUSD": 15484150407.14,
+        "peggedEUR": 55988009.36,
         "peggedJPY": 53.12,
-        "peggedCHF": 1392380.85,
-        "peggedAUD": 2651.19,
-        "peggedVAR": 2450697.13,
-        "peggedGBP": 612766.45,
+        "peggedCHF": 1391022.35,
+        "peggedAUD": 2651.26,
+        "peggedVAR": 2441084.9,
+        "peggedGBP": 610823.02,
         "peggedTRY": 169070.58,
-        "peggedCAD": 1453.23,
+        "peggedCAD": 1454.88,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -228,10 +228,10 @@
           "tips_24h_usd": 0.14
         }
       ],
-      "app_fees_24h_usd": 9146598.089999998,
-      "app_fees_7d_usd": 62141757.809999995,
-      "app_fees_30d_usd": 222866594.21999994,
-      "app_fees_change_24h_pct": -0.98,
+      "app_fees_24h_usd": 9367889.06,
+      "app_fees_7d_usd": 55604769.15,
+      "app_fees_30d_usd": 220325159.28999993,
+      "app_fees_change_24h_pct": 2.42,
       "protocol_count": 285,
       "top_fee_earning_apps": [
         {
@@ -259,22 +259,22 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1831860552.16,
+      "total_rwa_usd": 1832988903.21,
       "protocol_count": 25,
-      "equities_usd": 397651471.85,
-      "equities_share_pct": 21.71,
+      "equities_usd": 398684886.48,
+      "equities_share_pct": 21.75,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 370291509.46,
-          "change_24h_pct": 0.137,
+          "tvl_usd": 371524908.73,
+          "change_24h_pct": 0.39,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 27359962.39,
-          "change_24h_pct": -0.818,
+          "tvl_usd": 27159977.75,
+          "change_24h_pct": -0.781,
           "category": "RWA",
           "is_equity": true
         }
@@ -282,43 +282,43 @@
       "top_protocols": [
         {
           "name": "BlackRock BUIDL",
-          "tvl_usd": 712418059.16,
-          "change_24h_pct": 0.022,
+          "tvl_usd": 712850078.16,
+          "change_24h_pct": 0.034,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "xStocks",
-          "tvl_usd": 370291509.46,
-          "change_24h_pct": 0.137,
+          "tvl_usd": 371524908.73,
+          "change_24h_pct": 0.39,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "OnRe",
-          "tvl_usd": 254895678.99,
-          "change_24h_pct": 1.152,
+          "tvl_usd": 254938420.2,
+          "change_24h_pct": 1.151,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 178830054.42,
-          "change_24h_pct": 0.002,
+          "tvl_usd": 178451455.62,
+          "change_24h_pct": -0.073,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 176251305.34,
-          "change_24h_pct": 1.933,
+          "tvl_usd": 176074730.63,
+          "change_24h_pct": 2.251,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 27359962.39,
-          "change_24h_pct": -0.818,
+          "tvl_usd": 27159977.75,
+          "change_24h_pct": -0.781,
           "category": "RWA",
           "is_equity": true
         },
@@ -331,15 +331,15 @@
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 24831937.91,
-          "change_24h_pct": -0.11,
+          "tvl_usd": 24855070.66,
+          "change_24h_pct": -0.024,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Nest Credit",
-          "tvl_usd": 22367055.82,
-          "change_24h_pct": 0.882,
+          "tvl_usd": 22376593.35,
+          "change_24h_pct": 0.888,
           "category": "RWA",
           "is_equity": false
         },

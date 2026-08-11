@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-11 04:15:30 UTC by SolVitals.
+Generated 2026-08-11 05:32:39 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,826.07 |
-| Total TPS (incl. votes) | 3,381.77 |
-| Vote share of transactions | 46.00% |
+| Non-vote TPS | 1,376.63 |
+| Total TPS (incl. votes) | 3,009.35 |
+| Vote share of transactions | 54.25% |
 | Average slot time | 0.4208 s |
-| Current slot | 438,536,176 |
-| Block height | 416,589,888 |
+| Current slot | 438,547,155 |
+| Block height | 416,600,867 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1015** — 13.0% complete (`###.................`), ~43.9 hours remaining.
+Epoch **1015** — 15.55% complete (`###.................`), ~42.7 hours remaining.
 
-Slot 56,177 of 432,000. Lifetime transaction count: 537,039,666,301.
+Slot 67,155 of 432,000. Lifetime transaction count: 537,054,389,356.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 56,177 of 432,000. Lifetime transaction count: 537,039,666,301.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4206 s |
-| Deviation from 0.4s target | 5.15% |
+| Measured slot time (`getBlockTime`) | 0.4212 s |
+| Deviation from 0.4s target | 5.3% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.12 (down 0.71%) |
-| Market cap | $44.34B |
-| DeFi TVL | $4.82B |
+| SOL price | $75.75 (down 1.23%) |
+| Market cap | $44.12B |
+| DeFi TVL | $4.83B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.55B (up 14.77%) |
-| Stablecoin supply | $15.50B |
+| Stablecoin supply | $15.74B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$841.97K** |
+| **REV (total)** | **$840.75K** |
 | Network fees | $680.55K |
-| MEV tips (out-of-protocol) | $161.42K (19.17% of REV) |
-| Annualised REV run-rate | $307.32M |
+| MEV tips (out-of-protocol) | $160.20K (19.05% of REV) |
+| Annualised REV run-rate | $306.87M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $137.96K |
+| Jito MEV Tips | $136.74K |
 | Harmonic | $15.97K |
 | bloXroute | $7.49K |
 | Pyth Express Relay | $4 |
@@ -117,7 +117,7 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.43M |
 | Axiom | $1.18M |
 | Solana | $680.55K |
-| Collector Crypt | $492.03K |
+| Collector Crypt | $506.16K |
 
 ## Tokenized assets
 
@@ -153,11 +153,11 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,455 |
+| Unique fee payers (sampled) | 1,468 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,122 |
-| Non-vote share of sample | 50.63% |
-| Signers per block | 485.0 |
+| Transactions in sample | 3,970 |
+| Non-vote share of sample | 48.66% |
+| Signers per block | 489.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,12 +168,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $335.38M |
 | BisonFi | $216.14M |
 | HumidiFi | $161.21M |
-| Orca DEX | $132.21M |
-| Raydium AMM | $99.40M |
+| Orca DEX | $117.26M |
+| Raydium AMM | $98.00M |
 
 ## Supply
 
-Circulating 582,481,778 SOL of 632,009,837 total (92.16%).
+Circulating 582,481,740 SOL of 632,009,799 total (92.16%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,6 +203,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — 3,000+ packs ripped. $150K + paid out to depositors. NFTs on Solana are moving again. 🥡 https://t.co/hz23KjI8Or [(link)](https://x.com/solana/status/2086992059064602863)
+- **@solana** — THE CHASE IS ON. Going live with @GlydeGG tomorrow at 10AM ET to discuss Chase Mode, grails, and (obviously) ripping some packs. Join the hunt 🏃 https://t.co/GKwnp3Aoch [(link)](https://x.com/solana/status/2086986327673737219)
+- **@solana** — Rip your packs live in the Artifacte Rip Room and receive your onchain mints directly in your wallet. The first to do it on @solana. 🎥📦 [(link)](https://x.com/solana/status/2086955508305371181)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solana** — What’s Frontier Traders? An exclusive community and rewards program for onchain traders at the forefront of new assets, new markets, and new technology. Trade anywhere on Solana and get rewarded, earn rebates based on trading volume, and j… [(link)](https://x.com/solana/status/2086833252845879781)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)

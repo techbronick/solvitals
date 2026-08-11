@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-11 02:57:46",
+  "captured_at": "2026-08-11 04:15:30",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4248,
+      "measured_slot_time_secs": 0.4206,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 6.2,
+      "deviation_from_target_pct": 5.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3271.0,
-      "tps_non_vote": 1654.9,
-      "vote_share_pct": 49.41,
-      "avg_slot_time_secs": 0.4231,
-      "latest_sample_slot": 438525051,
+      "tps_total": 3381.77,
+      "tps_non_vote": 1826.07,
+      "vote_share_pct": 46.0,
+      "avg_slot_time_secs": 0.4208,
+      "latest_sample_slot": 438536147,
       "samples_used": 5,
-      "block_height": 416578845,
-      "current_slot": 438525097
+      "block_height": 416589888,
+      "current_slot": 438536176
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 45099,
+      "slot_index": 56177,
       "slots_in_epoch": 432000,
-      "progress_pct": 10.44,
-      "eta_hours": 45.7,
-      "eta_basis_slot_secs": 0.4248,
-      "transaction_count": 537024128708
+      "progress_pct": 13.0,
+      "eta_hours": 43.9,
+      "eta_basis_slot_secs": 0.4206,
+      "transaction_count": 537039666301
     },
     "validators": {
       "active_count": 691,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632009877.48,
-      "circulating_sol": 582481818.67,
+      "total_sol": 632009836.97,
+      "circulating_sol": 582481778.16,
       "non_circulating_sol": 49528058.8,
       "circulating_pct": 92.16
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5iMGWFVcJBfDpFmc1N5wToTT8yaKYLdJ5GAqcTBafyytJ93twknYjGq9YFnnRDpSVp67Tk55HB3wND6a5rUcRjcg",
-      "latest_block_time": 1786417066,
-      "errors_in_recent": 5
+      "latest_signature": "5M1ZdUHPUxRvXzn85SKyYSSrDgJtWyh91LxqHXuaVhQkJk3R1Eeesnhs3Gaej25n4eP5NqEr54xD5xaB3Bhx9wFL",
+      "latest_block_time": 1786421729,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1434,
+      "unique_signers_sampled": 1455,
       "blocks_sampled": 3,
-      "transactions_sampled": 3936,
-      "non_vote_transactions_sampled": 1943,
-      "signers_per_block": 478.0,
-      "non_vote_share_pct": 49.36,
+      "transactions_sampled": 4122,
+      "non_vote_transactions_sampled": 2087,
+      "signers_per_block": 485.0,
+      "non_vote_share_pct": 50.63,
       "sampled_slots": [
-        438524925,
-        438523425,
-        438521925
+        438536001,
+        438534501,
+        438533001
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.0,
-      "change_24h_pct": -0.92,
-      "market_cap_usd": 44264569379.54331,
-      "volume_24h_usd": 1349587564.5011528,
+      "usd": 76.12,
+      "change_24h_pct": -0.71,
+      "market_cap_usd": 44337738522.79325,
+      "volume_24h_usd": 1325479834.0574396,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4821268662.42,
+      "tvl_usd": 4824300850.65,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -183,23 +183,23 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 100744676
+          "volume_24h_usd": 99400722
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15520710981.09,
+      "total_usd": 15496068558.4,
       "by_peg": {
-        "peggedUSD": 15460085912.94,
-        "peggedEUR": 55998358.03,
-        "peggedJPY": 53.2,
-        "peggedCHF": 1402002.52,
-        "peggedAUD": 2658.02,
-        "peggedVAR": 2440238.15,
-        "peggedGBP": 611383.19,
+        "peggedUSD": 15435437125.11,
+        "peggedEUR": 55990109.76,
+        "peggedJPY": 53.21,
+        "peggedCHF": 1399737.56,
+        "peggedAUD": 2651.52,
+        "peggedVAR": 2457126.51,
+        "peggedGBP": 611379.64,
         "peggedTRY": 168919.38,
-        "peggedCAD": 1454.99,
+        "peggedCAD": 1455.01,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -251,8 +251,8 @@
           "fees_24h_usd": 680549
         },
         {
-          "name": "fomo Wallet",
-          "fees_24h_usd": 444272
+          "name": "Collector Crypt",
+          "fees_24h_usd": 492028
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2289,28 +2289,10 @@
   "social": {
     "posts": [
       {
-        "handle": "solana",
-        "text": "Breakpoint is Solana\u2019s flagship yearly event, gathering the leaders, builders and institutions shaping the future of global capital markets. This year, it comes to London, the birthplace of modern finance. https://t.co/HD0ZyUoglk",
-        "created_at": "Mon Aug 10 22:03:12 +0000 2026",
-        "url": "https://x.com/solana/status/2086936427363717509"
-      },
-      {
-        "handle": "solana",
-        "text": "Consider this your invitation to Beansmaxx with us in London. And a reminder to pack accordingly. https://t.co/foOsmlOoNv",
-        "created_at": "Mon Aug 10 22:03:11 +0000 2026",
-        "url": "https://x.com/solana/status/2086936425325281374"
-      },
-      {
         "handle": "solanalabs",
         "text": "Shipped Live episode 3 is coming \ud83d\udd1c Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now \ud83d\udc47 https://t.co/dVQgaOulNi",
         "created_at": "Mon Aug 10 19:13:45 +0000 2026",
         "url": "https://x.com/solanalabs/status/2086893782742757446"
-      },
-      {
-        "handle": "solana",
-        "text": "Enter the arena https://t.co/b9fgI7jAaR",
-        "created_at": "Mon Aug 10 18:37:49 +0000 2026",
-        "url": "https://x.com/solana/status/2086884741769461850"
       },
       {
         "handle": "solana",
@@ -2343,7 +2325,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 8,
+    "count": 5,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

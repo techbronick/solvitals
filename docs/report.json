@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-12 22:24:30",
+  "captured_at": "2026-08-12 23:07:29",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4194,
+      "measured_slot_time_secs": 0.4174,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.85,
+      "deviation_from_target_pct": 4.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3699.49,
-      "tps_non_vote": 2064.31,
-      "vote_share_pct": 44.2,
-      "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 438896809,
+      "tps_total": 4027.14,
+      "tps_non_vote": 2391.64,
+      "vote_share_pct": 40.61,
+      "avg_slot_time_secs": 0.4184,
+      "latest_sample_slot": 438903051,
       "samples_used": 5,
-      "block_height": 416948854,
-      "current_slot": 438896899
+      "block_height": 416955035,
+      "current_slot": 438903086
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 416900,
+      "slot_index": 423087,
       "slots_in_epoch": 432000,
-      "progress_pct": 96.5,
-      "eta_hours": 1.8,
-      "eta_basis_slot_secs": 0.4194,
-      "transaction_count": 537599105915
+      "progress_pct": 97.94,
+      "eta_hours": 1.0,
+      "eta_basis_slot_secs": 0.4174,
+      "transaction_count": 537608575630
     },
     "validators": {
-      "active_count": 688,
-      "delinquent_count": 11,
-      "delinquent_pct": 1.57,
-      "delinquent_stake_sol": 108652.41,
-      "delinquent_stake_pct": 0.025,
-      "total_active_stake_sol": 434822368.11,
+      "active_count": 689,
+      "delinquent_count": 10,
+      "delinquent_pct": 1.43,
+      "delinquent_stake_sol": 85120.37,
+      "delinquent_stake_pct": 0.02,
+      "total_active_stake_sol": 434845900.15,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 257,
@@ -57,13 +57,13 @@
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12495007.4,
-          "stake_pct": 2.874,
+          "stake_pct": 2.873,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12334140.28,
-          "stake_pct": 2.837,
+          "stake_pct": 2.836,
           "commission": 0
         },
         {
@@ -81,7 +81,7 @@
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8172870.67,
-          "stake_pct": 1.88,
+          "stake_pct": 1.879,
           "commission": 0
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632008369.94,
-      "circulating_sol": 582499303.97,
+      "total_sol": 632008345.28,
+      "circulating_sol": 582499279.3,
       "non_circulating_sol": 49509065.98,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4tVNESP3ZDTYAxjbS1oohTvPqQrSWRdWq9Q7RWLk6oLShochxvWUDoU32bK9t1tcZPXbEZSnfNqo6Tt5xSLKBxqY",
-      "latest_block_time": 1786573471,
-      "errors_in_recent": 2
+      "latest_signature": "2jV8nF5575Q3jY79yRirbWZz1s1gEToHipceY3yNr8NcAzXy1RUE52LX7pZc6yVYJASJzzZ3bBkUWcBYuU5V8X44",
+      "latest_block_time": 1786576053,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1390,
+      "unique_signers_sampled": 1658,
       "blocks_sampled": 3,
-      "transactions_sampled": 4126,
-      "non_vote_transactions_sampled": 2100,
-      "signers_per_block": 463.3,
-      "non_vote_share_pct": 50.9,
+      "transactions_sampled": 5741,
+      "non_vote_transactions_sampled": 3705,
+      "signers_per_block": 552.7,
+      "non_vote_share_pct": 64.54,
       "sampled_slots": [
-        438896727,
-        438895227,
-        438893727
+        438902919,
+        438901419,
+        438899919
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.53,
-      "change_24h_pct": -1.06,
-      "market_cap_usd": 44005872980.39403,
-      "volume_24h_usd": 1236236083.983538,
+      "usd": 75.45,
+      "change_24h_pct": -0.98,
+      "market_cap_usd": 43948490969.081215,
+      "volume_24h_usd": 1221604511.9570518,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4819448252.56,
+      "tvl_usd": 4816172223.08,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"

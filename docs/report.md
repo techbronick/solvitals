@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-12 20:07:41 UTC by SolVitals.
+Generated 2026-08-12 20:59:42 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tps_non_vote** — tps_non_vote is 2.1 sigma above its 203-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 3,119.51 |
-| Total TPS (incl. votes) | 4,722.17 |
-| Vote share of transactions | 33.94% |
-| Average slot time | 0.4225 s |
-| Current slot | 438,877,320 |
-| Block height | 416,929,303 |
+| Non-vote TPS | 2,386.82 |
+| Total TPS (incl. votes) | 4,019.84 |
+| Vote share of transactions | 40.62% |
+| Average slot time | 0.4178 s |
+| Current slot | 438,884,780 |
+| Block height | 416,936,746 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1015** — 91.97% complete (`##################..`), ~4.0 hours remaining.
+Epoch **1015** — 93.7% complete (`###################.`), ~3.2 hours remaining.
 
-Slot 397,320 of 432,000. Lifetime transaction count: 537,565,311,061.
+Slot 404,781 of 432,000. Lifetime transaction count: 537,579,311,748.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 397,320 of 432,000. Lifetime transaction count: 537,565,311,061.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4192 s |
-| Deviation from 0.4s target | 4.8% |
+| Measured slot time (`getBlockTime`) | 0.4178 s |
+| Deviation from 0.4s target | 4.45% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 688 |
-| Delinquent validators | 11 (1.57%) |
-| Stake held by delinquents | 124,083 SOL (0.029%) |
-| Total active stake | 434,806,938 SOL |
+| Active validators | 689 |
+| Delinquent validators | 10 (1.43%) |
+| Stake held by delinquents | 85,120 SOL (0.020%) |
+| Total active stake | 434,845,900 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 256 |
+| Zero-commission validators | 257 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -63,11 +63,11 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- | --- | --- | --- |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,988,468 | 3.907% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,978,711 | 3.675% | 0% |
-| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,007 | 2.874% | 5% |
-| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,334,140 | 2.837% | 0% |
+| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,007 | 2.873% | 5% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,334,140 | 2.836% | 0% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,151,705 | 2.105% | 7% |
 | 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,964,622 | 2.062% | 10% |
-| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,172,871 | 1.88% | 0% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,172,871 | 1.879% | 0% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,954,158 | 1.829% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,367,684 | 1.694% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,577,941 | 1.513% | 0% |
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.79 (down 0.08%) |
-| Market cap | $44.15B |
+| SOL price | $75.84 (down 0.19%) |
+| Market cap | $44.18B |
 | DeFi TVL | $4.82B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.65B (up 4.35%) |
-| Stablecoin supply | $15.56B |
+| Stablecoin supply | $15.54B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$907.09K** |
+| **REV (total)** | **$902.19K** |
 | Network fees | $727.62K |
-| MEV tips (out-of-protocol) | $179.47K (19.78% of REV) |
-| Annualised REV run-rate | $331.09M |
+| MEV tips (out-of-protocol) | $174.57K (19.35% of REV) |
+| Annualised REV run-rate | $329.30M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $153.27K |
+| Jito MEV Tips | $148.38K |
 | Harmonic | $17.91K |
 | bloXroute | $8.28K |
 | Pyth Express Relay | $6 |
@@ -153,11 +153,11 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,609 |
+| Unique fee payers (sampled) | 1,635 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,619 |
-| Non-vote share of sample | 63.75% |
-| Signers per block | 536.3 |
+| Transactions in sample | 5,789 |
+| Non-vote share of sample | 64.24% |
+| Signers per block | 545.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,12 +168,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $585.32M |
 | BisonFi | $151.36M |
 | Orca DEX | $118.68M |
-| Raydium AMM | $91.31M |
+| Raydium AMM | $90.13M |
 | HumidiFi | $90.06M |
 
 ## Supply
 
-Circulating 582,499,392 SOL of 632,008,458 total (92.17%).
+Circulating 582,499,356 SOL of 632,008,422 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 

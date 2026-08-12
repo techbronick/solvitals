@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-12 11:09:08",
+  "captured_at": "2026-08-12 11:56:08",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4194,
+      "measured_slot_time_secs": 0.4212,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.85,
+      "deviation_from_target_pct": 5.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3295.73,
-      "tps_non_vote": 1666.47,
-      "vote_share_pct": 49.44,
-      "avg_slot_time_secs": 0.4202,
-      "latest_sample_slot": 438800371,
+      "tps_total": 3177.04,
+      "tps_non_vote": 1560.67,
+      "vote_share_pct": 50.88,
+      "avg_slot_time_secs": 0.4225,
+      "latest_sample_slot": 438807080,
       "samples_used": 5,
-      "block_height": 416852667,
-      "current_slot": 438800458
+      "block_height": 416859362,
+      "current_slot": 438807163
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 320458,
+      "slot_index": 327163,
       "slots_in_epoch": 432000,
-      "progress_pct": 74.18,
-      "eta_hours": 13.0,
-      "eta_basis_slot_secs": 0.4194,
-      "transaction_count": 537429329165
+      "progress_pct": 75.73,
+      "eta_hours": 12.3,
+      "eta_basis_slot_secs": 0.4212,
+      "transaction_count": 537438286665
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632008813.03,
-      "circulating_sol": 582499747.05,
+      "total_sol": 632008789.56,
+      "circulating_sol": 582499723.58,
       "non_circulating_sol": 49509065.98,
       "circulating_pct": 92.17
     },
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2Pj5qidn52HHGBrS78VAjBd9MTQkagoHnS4VFp9YgbquurA2teFK1N2R7wQe8ACS4r5prK5ikxza2gt8ZtX7hJLo",
-      "latest_block_time": 1786532945,
+      "latest_signature": "3vU3CR4HCUFXf75R5PasC3WZkErxsqgEcyvUFzU8ztFkgRVKPcebZfXz7bLUhvUKyyVdZhQXUKBcA1LwWmPjt1mz",
+      "latest_block_time": 1786535764,
       "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1334,
+      "unique_signers_sampled": 1555,
       "blocks_sampled": 3,
-      "transactions_sampled": 3588,
-      "non_vote_transactions_sampled": 1545,
-      "signers_per_block": 444.7,
-      "non_vote_share_pct": 43.06,
+      "transactions_sampled": 4311,
+      "non_vote_transactions_sampled": 2270,
+      "signers_per_block": 518.3,
+      "non_vote_share_pct": 52.66,
       "sampled_slots": [
-        438800282,
-        438798782,
-        438797282
+        438806983,
+        438805483,
+        438803983
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.66,
-      "change_24h_pct": 0.69,
-      "market_cap_usd": 44653948843.58295,
-      "volume_24h_usd": 1330326860.5627205,
+      "usd": 76.76,
+      "change_24h_pct": 0.79,
+      "market_cap_usd": 44715109420.28142,
+      "volume_24h_usd": 1318957187.7259457,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4845026178.13,
+      "tvl_usd": 4845244866.5,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1652160307.28,
-      "volume_7d_usd": 10292083624.97,
-      "change_24h_pct": 4.44,
+      "volume_24h_usd": 1650837789.28,
+      "volume_7d_usd": 10450401842.97,
+      "change_24h_pct": 4.35,
       "protocol_count": 114,
       "top_dexes": [
         {
@@ -182,38 +182,38 @@
           "volume_24h_usd": 90061531
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 89401221
+          "name": "Meteora DLMM",
+          "volume_24h_usd": 88936336
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15668340909.51,
+      "total_usd": 15663407946.91,
       "by_peg": {
-        "peggedUSD": 15607847468.72,
-        "peggedEUR": 55880599.65,
-        "peggedJPY": 46.05,
-        "peggedCHF": 1387418.6,
-        "peggedAUD": 2657.85,
-        "peggedVAR": 2440914.85,
-        "peggedGBP": 611480.96,
+        "peggedUSD": 15603090181.15,
+        "peggedEUR": 55690014.56,
+        "peggedJPY": 46.49,
+        "peggedCHF": 1386225.31,
+        "peggedAUD": 2645.39,
+        "peggedVAR": 2457151.73,
+        "peggedGBP": 611359.54,
         "peggedTRY": 168866.31,
-        "peggedCAD": 1455.84,
+        "peggedCAD": 1455.74,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 902363.15,
+      "rev_24h_usd": 902399.15,
       "network_fees_24h_usd": 727623,
-      "mev_tips_24h_usd": 174740.15,
-      "mev_share_of_rev_pct": 19.36,
-      "rev_annualised_usd": 329362549.75,
+      "mev_tips_24h_usd": 174776.15,
+      "mev_share_of_rev_pct": 19.37,
+      "rev_annualised_usd": 329375689.75,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 148546
+          "tips_24h_usd": 148582
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 6.15
         }
       ],
-      "app_fees_24h_usd": 9845770.23,
-      "app_fees_7d_usd": 63286111.55999998,
-      "app_fees_30d_usd": 232464333.86999997,
-      "app_fees_change_24h_pct": -6.17,
+      "app_fees_24h_usd": 9897773.23,
+      "app_fees_7d_usd": 63744911.55999998,
+      "app_fees_30d_usd": 232923133.86999997,
+      "app_fees_change_24h_pct": -5.67,
       "protocol_count": 285,
       "top_fee_earning_apps": [
         {
@@ -2351,9 +2351,9 @@
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
-      "message": "rev_24h_usd is 2.1 sigma above its 176-point mean",
-      "value": 902363.15,
-      "expected": 747359.1827
+      "message": "rev_24h_usd is 2.1 sigma above its 177-point mean",
+      "value": 902399.15,
+      "expected": 748234.9113
     }
   ]
 }

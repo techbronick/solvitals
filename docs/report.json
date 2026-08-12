@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-12 11:56:08",
+  "captured_at": "2026-08-12 12:45:53",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4212,
+      "measured_slot_time_secs": 0.4206,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.3,
+      "deviation_from_target_pct": 5.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3177.04,
-      "tps_non_vote": 1560.67,
-      "vote_share_pct": 50.88,
-      "avg_slot_time_secs": 0.4225,
-      "latest_sample_slot": 438807080,
+      "tps_total": 3695.78,
+      "tps_non_vote": 2090.06,
+      "vote_share_pct": 43.45,
+      "avg_slot_time_secs": 0.4249,
+      "latest_sample_slot": 438814284,
       "samples_used": 5,
-      "block_height": 416859362,
-      "current_slot": 438807163
+      "block_height": 416866459,
+      "current_slot": 438814259
     },
     "epoch": {
       "epoch": 1015,
-      "slot_index": 327163,
+      "slot_index": 334259,
       "slots_in_epoch": 432000,
-      "progress_pct": 75.73,
-      "eta_hours": 12.3,
-      "eta_basis_slot_secs": 0.4212,
-      "transaction_count": 537438286665
+      "progress_pct": 77.37,
+      "eta_hours": 11.4,
+      "eta_basis_slot_secs": 0.4206,
+      "transaction_count": 537449116147
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632008789.56,
-      "circulating_sol": 582499723.58,
+      "total_sol": 632008760.92,
+      "circulating_sol": 582499694.95,
       "non_circulating_sol": 49509065.98,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3vU3CR4HCUFXf75R5PasC3WZkErxsqgEcyvUFzU8ztFkgRVKPcebZfXz7bLUhvUKyyVdZhQXUKBcA1LwWmPjt1mz",
-      "latest_block_time": 1786535764,
-      "errors_in_recent": 5
+      "latest_signature": "3Zb6i6yUkefZBfqZerNFhJ5EKWX5Sn129U5ZNjeENLQQEXQPZGVNir8u8TGLco8qiTjtBF9QB38XdjE2gEcqpTny",
+      "latest_block_time": 1786538747,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1555,
+      "unique_signers_sampled": 1686,
       "blocks_sampled": 3,
-      "transactions_sampled": 4311,
-      "non_vote_transactions_sampled": 2270,
-      "signers_per_block": 518.3,
-      "non_vote_share_pct": 52.66,
+      "transactions_sampled": 5765,
+      "non_vote_transactions_sampled": 3745,
+      "signers_per_block": 562.0,
+      "non_vote_share_pct": 64.96,
       "sampled_slots": [
-        438806983,
-        438805483,
-        438803983
+        438814079,
+        438812579,
+        438811079
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.76,
-      "change_24h_pct": 0.79,
-      "market_cap_usd": 44715109420.28142,
-      "volume_24h_usd": 1318957187.7259457,
+      "usd": 76.52,
+      "change_24h_pct": 0.82,
+      "market_cap_usd": 44577474960.45688,
+      "volume_24h_usd": 1396126817.2520115,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4845244866.5,
+      "tvl_usd": 4855182857.2,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15663407946.91,
+      "total_usd": 15668178634.08,
       "by_peg": {
-        "peggedUSD": 15603090181.15,
-        "peggedEUR": 55690014.56,
-        "peggedJPY": 46.49,
-        "peggedCHF": 1386225.31,
-        "peggedAUD": 2645.39,
-        "peggedVAR": 2457151.73,
-        "peggedGBP": 611359.54,
+        "peggedUSD": 15607873055.92,
+        "peggedEUR": 55678639.6,
+        "peggedJPY": 46.4,
+        "peggedCHF": 1384983.17,
+        "peggedAUD": 2645.38,
+        "peggedVAR": 2457312.05,
+        "peggedGBP": 611628.72,
         "peggedTRY": 168866.31,
-        "peggedCAD": 1455.74,
+        "peggedCAD": 1455.83,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -2290,27 +2290,27 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "GM https://t.co/PZongPdyHe",
+        "created_at": "Wed Aug 12 11:33:01 +0000 2026",
+        "url": "https://x.com/solana/status/2087502612677709902"
+      },
+      {
+        "handle": "solana",
+        "text": "Everybody is moving to Solana \ud83d\udc9c After integrating @Solana for the first time just weeks ago, @RoqquPay announced live on the Solana Summit Nigeria 2026 stage that its new tokenized stocks product, powered by @Ondo, will use Solana as its u\u2026",
+        "created_at": "Wed Aug 12 10:40:35 +0000 2026",
+        "url": "https://x.com/solana/status/2087489418596597902"
+      },
+      {
+        "handle": "solana",
+        "text": ".@Solana leads year-to-date growth in tokenized credit funds. Tokenized credit fund market cap on Solana is up $476.3M this year. @Base (+$49.7M), @StellarOrg (+$34.4M) and @avax (+$6.2M) follow. Source: @tokenterminal https://t.co/pj4OggR\u2026",
+        "created_at": "Wed Aug 12 09:53:02 +0000 2026",
+        "url": "https://x.com/solana/status/2087477450192122342"
+      },
+      {
+        "handle": "solana",
         "text": "Never stop clicking",
         "created_at": "Wed Aug 12 00:06:07 +0000 2026",
         "url": "https://x.com/solana/status/2087329749144117476"
-      },
-      {
-        "handle": "solana",
-        "text": "Milestone: We have surpassed 500 yield strategies created over the past month, signaling early demand for portfolio diversification & efficient yield management in the current market. Is your @solana yield strategy effective enough? Build \u2026",
-        "created_at": "Tue Aug 11 17:47:50 +0000 2026",
-        "url": "https://x.com/solana/status/2087234552229965944"
-      },
-      {
-        "handle": "solana",
-        "text": "hi @PayBox let's plan our trip to @SolanaEvents Breakpoint... https://t.co/8QPHRDbcJ5",
-        "created_at": "Tue Aug 11 17:44:06 +0000 2026",
-        "url": "https://x.com/solana/status/2087233612533973354"
-      },
-      {
-        "handle": "solana",
-        "text": "BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world's largest payments networks is now a single API away for every builder on Solana. https://t.co/TSOhIpBjvz",
-        "created_at": "Tue Aug 11 13:04:25 +0000 2026",
-        "url": "https://x.com/solana/status/2087163225393750405"
       },
       {
         "handle": "solanalabs",
@@ -2351,9 +2351,9 @@
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
-      "message": "rev_24h_usd is 2.1 sigma above its 177-point mean",
+      "message": "rev_24h_usd is 2.1 sigma above its 178-point mean",
       "value": 902399.15,
-      "expected": 748234.9113
+      "expected": 749101.0025
     }
   ]
 }

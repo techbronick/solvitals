@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-12 03:09:04 UTC by SolVitals.
+Generated 2026-08-12 04:57:56 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.4 sigma above its 170-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.3 sigma above its 171-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,653.16 |
-| Total TPS (incl. votes) | 3,279.23 |
-| Vote share of transactions | 49.59% |
-| Average slot time | 0.4219 s |
-| Current slot | 438,731,846 |
-| Block height | 416,785,417 |
+| Non-vote TPS | 1,242.28 |
+| Total TPS (incl. votes) | 2,881.39 |
+| Vote share of transactions | 56.89% |
+| Average slot time | 0.4172 s |
+| Current slot | 438,747,415 |
+| Block height | 416,799,701 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1015** — 58.3% complete (`############........`), ~21.0 hours remaining.
+Epoch **1015** — 61.9% complete (`############........`), ~19.2 hours remaining.
 
-Slot 251,847 of 432,000. Lifetime transaction count: 537,344,720,144.
+Slot 267,415 of 432,000. Lifetime transaction count: 537,361,377,856.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 251,847 of 432,000. Lifetime transaction count: 537,344,720,144.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4202 s |
-| Deviation from 0.4s target | 5.05% |
+| Measured slot time (`getBlockTime`) | 0.4192 s |
+| Deviation from 0.4s target | 4.8% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.41 (up 0.39%) |
-| Market cap | $44.51B |
+| SOL price | $76.28 (up 0.31%) |
+| Market cap | $44.44B |
 | DeFi TVL | $4.85B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.65B (up 4.36%) |
-| Stablecoin supply | $15.71B |
+| Stablecoin supply | $15.74B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$901.78K** |
+| **REV (total)** | **$904.09K** |
 | Network fees | $727.62K |
-| MEV tips (out-of-protocol) | $174.15K (19.31% of REV) |
-| Annualised REV run-rate | $329.15M |
+| MEV tips (out-of-protocol) | $176.47K (19.52% of REV) |
+| Annualised REV run-rate | $329.99M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $147.96K |
+| Jito MEV Tips | $150.27K |
 | Harmonic | $17.91K |
 | bloXroute | $8.28K |
 | Pyth Express Relay | $6 |
@@ -107,8 +107,8 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $9.85M (down 6.16%) |
-| 7 days | $63.15M |
+| 24 hours | $9.85M (down 6.15%) |
+| 7 days | $63.16M |
 | 30 days | $232.33M |
 
 | Top fee-earning app | Fees (24h) |
@@ -117,33 +117,33 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.43M |
 | Axiom | $1.36M |
 | Solana | $727.62K |
-| Collector Crypt | $621.73K |
+| Collector Crypt | $667.34K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $1.84B |
-| Tokenized equities | $400.76M (21.74% of RWA) |
+| Total tokenized RWA | $1.85B |
+| Tokenized equities | $404.34M (21.89% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $373.48M | 0.828% |
-| Ondo Global Markets | $27.28M | -1.24% |
+| xStocks | $376.79M | 1.577% |
+| Ondo Global Markets | $27.55M | -0.913% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $728.16M | RWA |
-| xStocks | $373.48M | RWA |
-| OnRe | $255.49M | RWA |
-| Ondo Yield Assets | $178.63M | RWA |
+| xStocks | $376.79M | RWA |
+| OnRe | $255.99M | RWA |
+| Ondo Yield Assets | $178.45M | RWA |
 | Hastra | $174.78M | RWA |
-| Ondo Global Markets | $27.28M | RWA |
+| Ondo Global Markets | $27.55M | RWA |
 | Theo Network thBill | $26.35M | RWA |
 | Nest Credit | $22.39M | RWA |
 | Apollo Diversified Credit Securitize Fund | $18.27M | RWA |
@@ -153,11 +153,11 @@ Fees earned by the 285 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,478 |
+| Unique fee payers (sampled) | 1,325 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,395 |
-| Non-vote share of sample | 53.52% |
-| Signers per block | 492.7 |
+| Transactions in sample | 3,590 |
+| Non-vote share of sample | 43.37% |
+| Signers per block | 441.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,28 +168,28 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $585.32M |
 | BisonFi | $151.36M |
 | Orca DEX | $108.25M |
-| Raydium AMM | $106.22M |
-| HumidiFi | $90.06M |
+| Raydium AMM | $101.10M |
+| Meteora DLMM | $92.64M |
 
 ## Supply
 
-Circulating 582,499,971 SOL of 632,009,036 total (92.17%).
+Circulating 582,499,926 SOL of 632,008,992 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
 | Metric | Value | As of | Provider |
 | --- | --- | --- | --- |
-| Active Addresses | 620,174 | 2026-08-10 | Dune |
-| Fee Payers | 2,038,434 | 2026-08-10 | Dune |
-| Transaction Count (Total) | 312,022,574 | 2026-08-10 | Dune |
-| Non Vote Transaction Count (Success) | 88,738,264 | 2026-08-10 | Dune |
-| Non Vote Transaction Count (Failed) | 83,174,391 | 2026-08-10 | Dune |
-| DEX Volume | $1.61B | 2026-08-10 | Dune |
-| DEX Traders | 541,034 | 2026-08-10 | Dune |
+| Active Addresses | 526,647 | 2026-08-11 | Dune |
+| Fee Payers | 2,020,885 | 2026-08-11 | Dune |
+| Transaction Count (Total) | 313,787,304 | 2026-08-11 | Dune |
+| Non Vote Transaction Count (Success) | 93,434,324 | 2026-08-11 | Dune |
+| Non Vote Transaction Count (Failed) | 79,802,501 | 2026-08-11 | Dune |
+| DEX Volume | $684.88M | 2026-08-11 | Dune |
+| DEX Traders | 372,767 | 2026-08-11 | Dune |
 | Transfer Volume | $11.84B | 2026-08-10 | Dune |
-| Total Stake | 434,786,513 | 2026-08-11 | Stakewiz |
-| Validator Count | 690 | 2026-08-11 | Stakewiz |
-| Top 3 ASN Share | 46.61 | 2026-08-11 | Stakewiz |
+| Total Stake | 434,403,178 | 2026-08-12 | Stakewiz |
+| Validator Count | 687 | 2026-08-12 | Stakewiz |
+| Top 3 ASN Share | 50.61 | 2026-08-12 | Stakewiz |
 
 _Daily active addresses are deduplicated across the full day by the provider — distinct from the live block sample below, which measures current activity._
 
@@ -199,8 +199,7 @@ The same metric is published by multiple providers with different methodologies.
 
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
-| Active Addresses | 2026-08-10 | 100.1% | Allium: 628,173, Artemis: 544,998, Blockworks: 313,881, Dune: 620,174, RWA: 618,114 |
-| Fee Payers | 2026-08-10 | 82.1% | Allium: 2,038,476, Artemis: 3,705,241, Blockworks: 2,041,383, Dune: 2,038,434, Token Terminal: 2,034,770 |
+| Active Addresses | 2026-08-11 | 26.7% | Allium: 667,152, Dune: 526,647 |
 
 ## Announcements from key accounts
 
@@ -238,7 +237,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.0-rc.1` · testnet `4.2.0` · devnet `4.2.0-rc.0`
+**Cluster versions:** mainnet `4.2.0-rc.1` · testnet `4.2.0` · devnet `4.2.0`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-12 23:54:56",
+  "captured_at": "2026-08-13 00:56:44",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3485.42,
-      "tps_non_vote": 1907.89,
-      "vote_share_pct": 45.26,
-      "avg_slot_time_secs": 0.4184,
-      "latest_sample_slot": 438909811,
+      "tps_total": 3833.21,
+      "tps_non_vote": 2207.92,
+      "vote_share_pct": 42.4,
+      "avg_slot_time_secs": 0.4219,
+      "latest_sample_slot": 438918727,
       "samples_used": 5,
-      "block_height": 416961784,
-      "current_slot": 438909897
+      "block_height": 416970646,
+      "current_slot": 438918787
     },
     "epoch": {
-      "epoch": 1015,
-      "slot_index": 429898,
+      "epoch": 1016,
+      "slot_index": 6787,
       "slots_in_epoch": 432000,
-      "progress_pct": 99.51,
-      "eta_hours": 0.2,
+      "progress_pct": 1.57,
+      "eta_hours": 49.3,
       "eta_basis_slot_secs": 0.4176,
-      "transaction_count": 537618718561
+      "transaction_count": 537632601663
     },
     "validators": {
-      "active_count": 687,
-      "delinquent_count": 12,
-      "delinquent_pct": 1.72,
-      "delinquent_stake_sol": 4906346.06,
-      "delinquent_stake_pct": 1.128,
-      "total_active_stake_sol": 430024674.47,
+      "active_count": 688,
+      "delinquent_count": 9,
+      "delinquent_pct": 1.29,
+      "delinquent_stake_sol": 60088.64,
+      "delinquent_stake_pct": 0.014,
+      "total_active_stake_sol": 434609826.97,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 257,
+      "zero_commission_count": 258,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 16988467.78,
-          "stake_pct": 3.951,
+          "stake_sol": 17055966.79,
+          "stake_pct": 3.924,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 15978711.02,
-          "stake_pct": 3.716,
+          "stake_sol": 15972698.76,
+          "stake_pct": 3.675,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 12495007.4,
-          "stake_pct": 2.906,
+          "stake_sol": 12477807.81,
+          "stake_pct": 2.871,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12334140.28,
-          "stake_pct": 2.868,
+          "stake_sol": 12363210.43,
+          "stake_pct": 2.845,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9151704.97,
-          "stake_pct": 2.128,
+          "stake_sol": 9161872.42,
+          "stake_pct": 2.108,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 8964622.24,
-          "stake_pct": 2.085,
+          "stake_sol": 8981436.52,
+          "stake_pct": 2.067,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 8172870.67,
-          "stake_pct": 1.901,
+          "stake_sol": 8300271.06,
+          "stake_pct": 1.91,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7954158.02,
-          "stake_pct": 1.85,
+          "stake_sol": 7966398.32,
+          "stake_pct": 1.833,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 7367683.93,
-          "stake_pct": 1.713,
+          "stake_sol": 7372731.34,
+          "stake_pct": 1.696,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-          "stake_sol": 6577941.01,
-          "stake_pct": 1.53,
+          "stake_sol": 6581887.05,
+          "stake_pct": 1.514,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 632008318.91,
-      "circulating_sol": 582499252.94,
-      "non_circulating_sol": 49509065.98,
+      "total_sol": 632136272.66,
+      "circulating_sol": 582615002.78,
+      "non_circulating_sol": 49521269.88,
       "circulating_pct": 92.17
     },
     "transaction_fees": {
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "39qCmxd4EVQ4sjVNLFAhTeexfvztEmhbE5KoDFwAyp2ssBEbi4AUQa5nKq5jPKrLmDjwcfFowbJmKwrc8HyUetq5",
-      "latest_block_time": 1786578891,
-      "errors_in_recent": 3
+      "latest_signature": "4KKcpbywdVAS7aU64NfZ6XHZR8vbyP2eCGQ7PoN9wBdH7xoyouAhnA4AEf1KnHQ6VjNZEPNyojMMLhtncvBnJbWt",
+      "latest_block_time": 1786582599,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1464,
+      "unique_signers_sampled": 1460,
       "blocks_sampled": 3,
-      "transactions_sampled": 3662,
-      "non_vote_transactions_sampled": 1611,
-      "signers_per_block": 488.0,
-      "non_vote_share_pct": 43.99,
+      "transactions_sampled": 4333,
+      "non_vote_transactions_sampled": 2293,
+      "signers_per_block": 486.7,
+      "non_vote_share_pct": 52.92,
       "sampled_slots": [
-        438909717,
-        438908217,
-        438906717
+        438918606,
+        438917106,
+        438915606
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.51,
-      "change_24h_pct": -0.88,
-      "market_cap_usd": 43988035834.90728,
-      "volume_24h_usd": 1222464174.4475305,
+      "usd": 75.62,
+      "change_24h_pct": -0.86,
+      "market_cap_usd": 44060506203.00333,
+      "volume_24h_usd": 1229248218.6905177,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4808817476.9,
+      "tvl_usd": 4752747008.22,
       "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.4,
+      "share_of_all_chains_pct": 6.35,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1650837789.28,
-      "volume_7d_usd": 10450401842.97,
-      "change_24h_pct": 4.35,
+      "volume_24h_usd": 1622424301.51,
+      "volume_7d_usd": 9217108272.060001,
+      "change_24h_pct": -1.72,
       "protocol_count": 115,
       "top_dexes": [
         {
@@ -175,7 +175,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 115897885
+          "volume_24h_usd": 116517604
         },
         {
           "name": "HumidiFi",
@@ -189,27 +189,27 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15482978628.47,
+      "total_usd": 15487689108.66,
       "by_peg": {
-        "peggedUSD": 15422459788.16,
-        "peggedEUR": 55902184.89,
-        "peggedJPY": 52.72,
-        "peggedCHF": 1380039.56,
-        "peggedAUD": 2660.94,
-        "peggedVAR": 2455175.41,
-        "peggedGBP": 608405.58,
+        "peggedUSD": 15422910138.55,
+        "peggedEUR": 60197774.2,
+        "peggedJPY": 52.71,
+        "peggedCHF": 1379954.07,
+        "peggedAUD": 2660.39,
+        "peggedVAR": 2419664.87,
+        "peggedGBP": 608542.64,
         "peggedTRY": 168866.31,
-        "peggedCAD": 1454.22,
+        "peggedCAD": 1454.24,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 902050.15,
+      "rev_24h_usd": 901429.15,
       "network_fees_24h_usd": 727623,
-      "mev_tips_24h_usd": 174427.15,
-      "mev_share_of_rev_pct": 19.34,
-      "rev_annualised_usd": 329248304.75,
+      "mev_tips_24h_usd": 173806.15,
+      "mev_share_of_rev_pct": 19.28,
+      "rev_annualised_usd": 329021639.75,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
@@ -217,21 +217,21 @@
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 17906
+          "tips_24h_usd": 16796
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 8282
+          "tips_24h_usd": 8771
         },
         {
           "name": "Pyth Express Relay",
           "tips_24h_usd": 6.15
         }
       ],
-      "app_fees_24h_usd": 9976052.23,
-      "app_fees_7d_usd": 63823196.55999998,
-      "app_fees_30d_usd": 233001418.86999997,
-      "app_fees_change_24h_pct": -4.93,
+      "app_fees_24h_usd": 9848639.11,
+      "app_fees_7d_usd": 60529726.26999999,
+      "app_fees_30d_usd": 231694431.05999997,
+      "app_fees_change_24h_pct": -1.28,
       "protocol_count": 286,
       "top_fee_earning_apps": [
         {
@@ -244,7 +244,7 @@
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 1356164
+          "fees_24h_usd": 1315128
         },
         {
           "name": "Solana",
@@ -2018,6 +2018,12 @@
   "news": {
     "items": [
       {
+        "title": "Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo",
+        "link": "https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap",
+        "published": "Wed, 12 Aug 2026 12:57:00 GMT",
+        "summary": "Reap moves roughly $6B a year in stablecoin card volume after building cross-border payments infrastructure from Asia."
+      },
+      {
         "title": "MoneyGram Ramps launches on Solana",
         "link": "https://solana.com/news/moneygram-ramps",
         "published": "Tue, 11 Aug 2026 10:00:00 GMT",
@@ -2058,12 +2064,6 @@
         "link": "https://solana.com/news/overview-of-institutional-real-world-assets-on-solana",
         "published": "Thu, 30 Jul 2026 15:25:00 GMT",
         "summary": "Learn how BlackRock, J.P. Morgan, Visa, Franklin Templeton, and other institutions are building the future of tokenized real-world assets on Solana."
-      },
-      {
-        "title": "Solana Changelog: Mainnet raises block limits to 100M CUs",
-        "link": "https://solana.com/news/solana-changelog-july-30-2026",
-        "published": "Thu, 30 Jul 2026 12:50:00 GMT",
-        "summary": "SIMD-0286 activated on mainnet to raise block limits to 100M CUs, alongside new Agave, Firedancer, SDK, and LiteSVM releases."
       }
     ],
     "count": 8,
@@ -2348,9 +2348,9 @@
     {
       "metric": "rwa_total_usd",
       "severity": "warning",
-      "message": "rwa_total_usd is 2.1 sigma above its 206-point mean",
+      "message": "rwa_total_usd is 2.1 sigma above its 207-point mean",
       "value": 1861155166.26,
-      "expected": 1819470708.8933
+      "expected": 1819672083.0835
     }
   ]
 }

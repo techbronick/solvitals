@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-13 12:05:43 UTC by SolVitals.
+Generated 2026-08-13 13:41:56 UTC by SolVitals.
 
 ## Alerts
 
-No anomalies detected against configured thresholds and recent history.
+- [WARNING] **tps_non_vote** — tps_non_vote is 2.3 sigma above its 218-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,077.08 |
-| Total TPS (incl. votes) | 3,750.75 |
-| Vote share of transactions | 44.62% |
-| Average slot time | 0.4087 s |
-| Current slot | 439,014,943 |
-| Block height | 417,066,617 |
+| Non-vote TPS | 3,230.97 |
+| Total TPS (incl. votes) | 4,880.54 |
+| Vote share of transactions | 33.80% |
+| Average slot time | 0.4144 s |
+| Current slot | 439,028,774 |
+| Block height | 417,080,430 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1016** — 23.83% complete (`#####...............`), ~38.0 hours remaining.
+Epoch **1016** — 27.03% complete (`#####...............`), ~36.6 hours remaining.
 
-Slot 102,943 of 432,000. Lifetime transaction count: 537,767,337,398.
+Slot 116,774 of 432,000. Lifetime transaction count: 537,790,564,666.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 102,943 of 432,000. Lifetime transaction count: 537,767,337,398.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4152 s |
-| Deviation from 0.4s target | 3.8% |
+| Measured slot time (`getBlockTime`) | 0.4184 s |
+| Deviation from 0.4s target | 4.6% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 6 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.60 (down 1.76%) |
-| Market cap | $44.05B |
-| DeFi TVL | $4.82B |
+| SOL price | $76.17 (up 0.11%) |
+| Market cap | $44.38B |
+| DeFi TVL | $4.81B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.73B (up 4.53%) |
-| Stablecoin supply | $15.52B |
+| Stablecoin supply | $15.50B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$873.22K** |
+| **REV (total)** | **$872.21K** |
 | Network fees | $708.47K |
-| MEV tips (out-of-protocol) | $164.75K (18.87% of REV) |
-| Annualised REV run-rate | $318.73M |
+| MEV tips (out-of-protocol) | $163.75K (18.77% of REV) |
+| Annualised REV run-rate | $318.36M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $139.19K |
+| Jito MEV Tips | $138.18K |
 | Harmonic | $16.80K |
 | bloXroute | $8.77K |
 | Pyth Express Relay | $0 |
@@ -117,22 +117,22 @@ Fees earned by the 286 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.53M |
 | Axiom | $1.32M |
 | Solana | $708.47K |
-| Collector Crypt | $407.88K |
+| Meteora DLMM | $417.56K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.86B |
-| Tokenized equities | $406.06M (21.8% of RWA) |
+| Tokenized equities | $403.48M (21.69% of RWA) |
 | RWA protocols on Solana | 26 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $376.77M | 0.005% |
-| Ondo Global Markets | $29.07M | 0.503% |
+| xStocks | $374.25M | -0.775% |
+| Ondo Global Markets | $29.01M | -0.169% |
 | Remora Markets | $217.42K | None% |
 
 ### Largest tokenized-asset protocols
@@ -140,25 +140,25 @@ Fees earned by the 286 applications built on Solana -- DEXes, launchpads, wallet
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $740.62M | RWA |
-| xStocks | $376.77M | RWA |
-| OnRe | $257.28M | RWA |
-| Ondo Yield Assets | $178.81M | RWA |
+| xStocks | $374.25M | RWA |
+| OnRe | $258.12M | RWA |
+| Ondo Yield Assets | $178.62M | RWA |
 | Hastra | $174.12M | RWA |
-| Ondo Global Markets | $29.07M | RWA |
+| Ondo Global Markets | $29.01M | RWA |
 | Theo Network thBill | $26.36M | RWA |
 | Nest Credit | $22.41M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.26M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.28M | RWA |
 | VanEck Treasury Fund | $13.92M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,395 |
+| Unique fee payers (sampled) | 1,559 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,029 |
-| Non-vote share of sample | 49.57% |
-| Signers per block | 465.0 |
+| Transactions in sample | 6,093 |
+| Non-vote share of sample | 66.37% |
+| Signers per block | 519.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -169,12 +169,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $556.46M |
 | BisonFi | $189.81M |
 | HumidiFi | $141.95M |
-| Orca DEX | $121.63M |
+| Orca DEX | $123.08M |
 | Aquifer | $98.35M |
 
 ## Supply
 
-Circulating 582,614,298 SOL of 632,135,919 total (92.17%).
+Circulating 582,614,238 SOL of 632,135,859 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -238,9 +238,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.0-rc.1` · testnet `4.2.0` · devnet `4.2.0`
-
-_Clusters are running different versions, which is itself a rollout-in-progress signal._
+**Cluster versions:** mainnet `4.2.0` · testnet `4.2.0` · devnet `4.2.0`
 
 ### Named proposals
 

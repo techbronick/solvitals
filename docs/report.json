@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-13 18:33:48",
+  "captured_at": "2026-08-13 19:41:32",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4154,
+      "measured_slot_time_secs": 0.4186,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.85,
+      "deviation_from_target_pct": 4.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3948.86,
-      "tps_non_vote": 2304.73,
-      "vote_share_pct": 41.64,
-      "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 439070718,
+      "tps_total": 4452.87,
+      "tps_non_vote": 2805.53,
+      "vote_share_pct": 37.0,
+      "avg_slot_time_secs": 0.4149,
+      "latest_sample_slot": 439080392,
       "samples_used": 5,
-      "block_height": 417122300,
-      "current_slot": 439070760
+      "block_height": 417132009,
+      "current_slot": 439080485
     },
     "epoch": {
       "epoch": 1016,
-      "slot_index": 158761,
+      "slot_index": 168485,
       "slots_in_epoch": 432000,
-      "progress_pct": 36.75,
-      "eta_hours": 31.5,
-      "eta_basis_slot_secs": 0.4154,
-      "transaction_count": 537869069321
+      "progress_pct": 39.0,
+      "eta_hours": 30.6,
+      "eta_basis_slot_secs": 0.4186,
+      "transaction_count": 537886248525
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632135653.28,
-      "circulating_sol": 582614032.4,
+      "total_sol": 632135608.67,
+      "circulating_sol": 582613987.78,
       "non_circulating_sol": 49521620.88,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "39SPLdmUen7US8i9iL2Weru719hijA9bEAdoeowob9RUaJNxVnNjkWKKK7Xk8zXocWyy2FA59JLrJVhpeBRCD8R7",
-      "latest_block_time": 1786646027,
-      "errors_in_recent": 3
+      "latest_signature": "5xAp89VC9J3zsZPg5fNHKxWJxLcXw6WxQnBMgLAhBDEmHJ9CUTz4ft224hVdiKpYaWi8d3S3kHeMjDv9kn3a5dQM",
+      "latest_block_time": 1786650091,
+      "errors_in_recent": 6
     },
     "activity": {
-      "unique_signers_sampled": 1451,
+      "unique_signers_sampled": 1595,
       "blocks_sampled": 3,
-      "transactions_sampled": 4767,
-      "non_vote_transactions_sampled": 2720,
-      "signers_per_block": 483.7,
-      "non_vote_share_pct": 57.06,
+      "transactions_sampled": 5628,
+      "non_vote_transactions_sampled": 3593,
+      "signers_per_block": 531.7,
+      "non_vote_share_pct": 63.84,
       "sampled_slots": [
-        439070587,
-        439069087,
-        439067587
+        439080312,
+        439078812,
+        439077312
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.66,
-      "change_24h_pct": -0.43,
-      "market_cap_usd": 44074827131.56128,
-      "volume_24h_usd": 1126116018.361272,
+      "usd": 76.04,
+      "change_24h_pct": 0.45,
+      "market_cap_usd": 44301705915.71854,
+      "volume_24h_usd": 1143993973.653469,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4832030853.58,
+      "tvl_usd": 4831791376.94,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.44,
       "source": "defillama"
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15486585579.06,
+      "total_usd": 15482715699.44,
       "by_peg": {
-        "peggedUSD": 15424016582.75,
-        "peggedEUR": 57925728.9,
+        "peggedUSD": 15417365436.21,
+        "peggedEUR": 60702491.37,
         "peggedJPY": 52.7,
-        "peggedCHF": 1382638.42,
-        "peggedAUD": 2640.82,
-        "peggedVAR": 2484860.62,
-        "peggedGBP": 608190.95,
+        "peggedCHF": 1387617.3,
+        "peggedAUD": 2640.46,
+        "peggedVAR": 2484417.3,
+        "peggedGBP": 608160.11,
         "peggedTRY": 163430.05,
-        "peggedCAD": 1453.16,
+        "peggedCAD": 1453.25,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 868228.02,
+      "rev_24h_usd": 868358.02,
       "network_fees_24h_usd": 708468,
-      "mev_tips_24h_usd": 159760.02,
-      "mev_share_of_rev_pct": 18.4,
-      "rev_annualised_usd": 316903227.3,
+      "mev_tips_24h_usd": 159890.02,
+      "mev_share_of_rev_pct": 18.41,
+      "rev_annualised_usd": 316950677.3,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 134193
+          "tips_24h_usd": 134323
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Agave 4.3 Alpenglow",
-        "created_at": "Wed Aug 12 23:12:05 +0000 2026",
-        "url": "https://x.com/solana/status/2087678539348754584"
+        "text": "Full episode on @DecryptMedia: https://t.co/Ha2UVRyP9q",
+        "created_at": "Thu Aug 13 17:34:18 +0000 2026",
+        "url": "https://x.com/solana/status/2087955919057437042"
       },
       {
         "handle": "solana",
-        "text": "Nic Cabana compares Solana to a digital Silicon Valley \"There's a beautiful composability of projects and startups on Solana\" \"There's a huge community, essentially a digital Silicon Valley. Startups get built, everyone gets to know everyo\u2026",
-        "created_at": "Wed Aug 12 13:44:05 +0000 2026",
-        "url": "https://x.com/solana/status/2087535596499767563"
+        "text": "\"Solana is well-positioned as the everything chain\" \u2013 @mdudas https://t.co/1kRhJyZWkZ",
+        "created_at": "Thu Aug 13 17:34:17 +0000 2026",
+        "url": "https://x.com/solana/status/2087955917291577831"
       },
       {
         "handle": "solana",
-        "text": "TCG platforms already reached a new all-time high in packs opened just two days into the new month. More than 537,000 packs have already been opened, with a large part of that activity coming from Solana projects like Collector Crypt. http\u2026",
-        "created_at": "Wed Aug 12 12:30:06 +0000 2026",
-        "url": "https://x.com/solana/status/2087516977808228792"
+        "text": "BREAKING: $SILV from @Dominion_Market is live on Solana via @sunrise https://t.co/9hFJCB9ghA",
+        "created_at": "Thu Aug 13 14:05:31 +0000 2026",
+        "url": "https://x.com/solana/status/2087903379955888427"
       },
       {
         "handle": "solana",
-        "text": "MoneyGram Ramps is now live on @Solana. Tap into MoneyGram\u2019s on/off-ramp infrastructure to help your users cash in across 25+ countries and cash out across 170+ countries and territories. @riftapp is the first to integrate MoneyGram Ramps.\u2026",
-        "created_at": "Tue Aug 11 13:05:19 +0000 2026",
-        "url": "https://x.com/solana/status/2087163451172892909"
+        "text": "Today we sat down with @mdudas to chat about @solana and its ecosystem! 3:30 - Solana's place this cycle 7:10 - Thoughts on the latest Solana Governance vote 8:40 - Are Memecoins back? 14:40 - El Toad Pepe backstory 18:07 - How to make a m\u2026",
+        "created_at": "Wed Aug 12 16:21:22 +0000 2026",
+        "url": "https://x.com/solana/status/2087575179752776015"
       },
       {
         "handle": "solanalabs",

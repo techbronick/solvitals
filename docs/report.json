@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-14 19:53:42",
+  "captured_at": "2026-08-14 20:19:41",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.415,
+      "measured_slot_time_secs": 0.4186,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.75,
+      "deviation_from_target_pct": 4.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4198.14,
-      "tps_non_vote": 2597.29,
-      "vote_share_pct": 38.13,
-      "avg_slot_time_secs": 0.4267,
-      "latest_sample_slot": 439290042,
+      "tps_total": 3721.32,
+      "tps_non_vote": 2080.65,
+      "vote_share_pct": 44.09,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 439293883,
       "samples_used": 5,
-      "block_height": 417341454,
-      "current_slot": 439290138
+      "block_height": 417345198,
+      "current_slot": 439293883
     },
     "epoch": {
       "epoch": 1016,
-      "slot_index": 378139,
+      "slot_index": 381883,
       "slots_in_epoch": 432000,
-      "progress_pct": 87.53,
-      "eta_hours": 6.2,
-      "eta_basis_slot_secs": 0.415,
-      "transaction_count": 538201458836
+      "progress_pct": 88.4,
+      "eta_hours": 5.8,
+      "eta_basis_slot_secs": 0.4186,
+      "transaction_count": 538207339933
     },
     "validators": {
       "active_count": 689,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632134782.83,
-      "circulating_sol": 582613161.91,
+      "total_sol": 632134767.08,
+      "circulating_sol": 582613146.16,
       "non_circulating_sol": 49521620.92,
       "circulating_pct": 92.17
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2jsa5cbQTjarDGPExgR3jgmr6kJSTmzBXS3vnjMyxKxnXrZ767z35RW1UkS5cY6wAznBsdyEiVGwnxQGRCdAndKF",
-      "latest_block_time": 1786737216,
-      "errors_in_recent": 1
+      "latest_signature": "EVNyVmDu4KfEgAhLsP1gk8Hp22HJRoyznRhwQgnXNVfPi51J2G89ScTumgESkGr7SZYFcRQEZHMAY57ycxwtTgK",
+      "latest_block_time": 1786738778,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1526,
+      "unique_signers_sampled": 1513,
       "blocks_sampled": 3,
-      "transactions_sampled": 4470,
-      "non_vote_transactions_sampled": 2425,
-      "signers_per_block": 508.7,
-      "non_vote_share_pct": 54.25,
+      "transactions_sampled": 4989,
+      "non_vote_transactions_sampled": 2952,
+      "signers_per_block": 504.3,
+      "non_vote_share_pct": 59.17,
       "sampled_slots": [
-        439289957,
-        439288457,
-        439286957
+        439293706,
+        439292206,
+        439290706
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.01,
-      "change_24h_pct": -1.4,
-      "market_cap_usd": 43706031322.52041,
-      "volume_24h_usd": 1080291430.8875847,
+      "usd": 75.06,
+      "change_24h_pct": -1.42,
+      "market_cap_usd": 43732998323.92019,
+      "volume_24h_usd": 1076947646.6230314,
       "source": "coingecko"
     },
     "tvl": {
@@ -182,24 +182,24 @@
           "volume_24h_usd": 101496962
         },
         {
-          "name": "Manifest Trade",
-          "volume_24h_usd": 88321646
+          "name": "Raydium AMM",
+          "volume_24h_usd": 87694781
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15415272909.23,
+      "total_usd": 15419843289.78,
       "by_peg": {
-        "peggedUSD": 15346866783.2,
-        "peggedEUR": 63524779.35,
-        "peggedJPY": 52.54,
-        "peggedCHF": 1381300.2,
-        "peggedAUD": 2627.15,
-        "peggedVAR": 2470619.82,
-        "peggedGBP": 856886.17,
+        "peggedUSD": 15351433994.96,
+        "peggedEUR": 63533515.18,
+        "peggedJPY": 52.53,
+        "peggedCHF": 1380547.96,
+        "peggedAUD": 2664.09,
+        "peggedVAR": 2465848.05,
+        "peggedGBP": 856806.22,
         "peggedTRY": 168398.22,
-        "peggedCAD": 1461.9,
+        "peggedCAD": 1461.89,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -2312,27 +2312,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Full episode on @DecryptMedia: https://t.co/Ha2UVRyP9q",
-        "created_at": "Thu Aug 13 17:34:18 +0000 2026",
-        "url": "https://x.com/solana/status/2087955919057437042"
+        "text": "fomo is for builders \ud83d\udc40",
+        "created_at": "Fri Aug 14 20:10:33 +0000 2026",
+        "url": "https://x.com/solana/status/2088357628497785339"
       },
       {
         "handle": "solana",
-        "text": "\"Solana is well-positioned as the everything chain\" \u2013 @mdudas https://t.co/1kRhJyZWkZ",
-        "created_at": "Thu Aug 13 17:34:17 +0000 2026",
-        "url": "https://x.com/solana/status/2087955917291577831"
+        "text": "StonkFun has contributed over $86,000,000 of volume to RWA's on @solana over the last 10 days! Over 19,000 unique holders received a RWA for the first time via Memecoins! https://t.co/hAERjxOJWr",
+        "created_at": "Fri Aug 14 17:14:59 +0000 2026",
+        "url": "https://x.com/solana/status/2088313446341189900"
       },
       {
         "handle": "solana",
-        "text": "BREAKING: $SILV from @Dominion_Market is live on Solana via @sunrise https://t.co/9hFJCB9ghA",
-        "created_at": "Thu Aug 13 14:05:31 +0000 2026",
-        "url": "https://x.com/solana/status/2087903379955888427"
+        "text": "Introducing dev tags. Teams recieve a tag, update holders, and build their community all within fomo. fomo is for builders too. https://t.co/kFVzkk03qP",
+        "created_at": "Fri Aug 14 16:24:23 +0000 2026",
+        "url": "https://x.com/solana/status/2088300712794980622"
       },
       {
         "handle": "solana",
-        "text": "Today we sat down with @mdudas to chat about @solana and its ecosystem! 3:30 - Solana's place this cycle 7:10 - Thoughts on the latest Solana Governance vote 8:40 - Are Memecoins back? 14:40 - El Toad Pepe backstory 18:07 - How to make a m\u2026",
-        "created_at": "Wed Aug 12 16:21:22 +0000 2026",
-        "url": "https://x.com/solana/status/2087575179752776015"
+        "text": "Everything you want to build. Everything you want to learn. Everyone you want to meet. Secure your subsidized student and dev Breakpoint tickets today and bring your big ideas to London. We'll bring everything else. https://t.co/RYv5GMLT5Y",
+        "created_at": "Fri Aug 14 16:01:35 +0000 2026",
+        "url": "https://x.com/solana/status/2088294977248104525"
       },
       {
         "handle": "solanalabs",

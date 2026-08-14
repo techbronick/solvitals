@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-14 17:10:41",
+  "captured_at": "2026-08-14 18:03:50",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4186,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.65,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,26 +13,26 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4333.11,
-      "tps_non_vote": 2701.16,
-      "vote_share_pct": 37.66,
-      "avg_slot_time_secs": 0.4184,
-      "latest_sample_slot": 439266516,
+      "tps_total": 4185.93,
+      "tps_non_vote": 2522.37,
+      "vote_share_pct": 39.74,
+      "avg_slot_time_secs": 0.4115,
+      "latest_sample_slot": 439274167,
       "samples_used": 5,
-      "block_height": 417317897,
-      "current_slot": 439266578
+      "block_height": 417325571,
+      "current_slot": 439274251
     },
     "epoch": {
       "epoch": 1016,
-      "slot_index": 354578,
+      "slot_index": 362252,
       "slots_in_epoch": 432000,
-      "progress_pct": 82.08,
-      "eta_hours": 9.0,
-      "eta_basis_slot_secs": 0.4186,
-      "transaction_count": 538161569501
+      "progress_pct": 83.85,
+      "eta_hours": 8.0,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 538175723473
     },
     "validators": {
-      "active_count": 688,
+      "active_count": 689,
       "delinquent_count": 9,
       "delinquent_pct": 1.29,
       "delinquent_stake_sol": 60088.64,
@@ -40,7 +40,7 @@
       "total_active_stake_sol": 434609826.97,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 256,
+      "zero_commission_count": 255,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632134886.25,
-      "circulating_sol": 582613265.33,
+      "total_sol": 632134849.7,
+      "circulating_sol": 582613228.78,
       "non_circulating_sol": 49521620.92,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5LGUiHYQ53tZCHFcDei6ezPR315kQAUcY8ZoA8ABpvwC7ZtNUXbpPJnLRcB1cQ9qfixJPFbo19SzaTgGKoyZSw5Z",
-      "latest_block_time": 1786727438,
-      "errors_in_recent": 3
+      "latest_signature": "2noBYVD8eLEfHaTbrPUcskqM61w9h1K7icKD5Tg7LpzQxFAzPZNveXNu2GhGcdgh8ynkGiAQ9K4H4R4HYb6wdiKA",
+      "latest_block_time": 1786730626,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1511,
+      "unique_signers_sampled": 1623,
       "blocks_sampled": 3,
-      "transactions_sampled": 4703,
-      "non_vote_transactions_sampled": 2699,
-      "signers_per_block": 503.7,
-      "non_vote_share_pct": 57.39,
+      "transactions_sampled": 6295,
+      "non_vote_transactions_sampled": 4276,
+      "signers_per_block": 541.0,
+      "non_vote_share_pct": 67.93,
       "sampled_slots": [
-        439266401,
-        439264901,
-        439263401
+        439274073,
+        439272573,
+        439271073
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.42,
-      "change_24h_pct": -0.27,
-      "market_cap_usd": 43939839458.28059,
-      "volume_24h_usd": 1003319022.579856,
+      "usd": 75.16,
+      "change_24h_pct": -0.79,
+      "market_cap_usd": 43805190315.92731,
+      "volume_24h_usd": 1013935967.9213277,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4801935237.13,
+      "tvl_usd": 4805910839.16,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.42,
       "source": "defillama"
@@ -179,7 +179,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 105828719
+          "volume_24h_usd": 101496962
         },
         {
           "name": "Manifest Trade",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15441551576.37,
+      "total_usd": 15441793153.5,
       "by_peg": {
-        "peggedUSD": 15373127425.95,
-        "peggedEUR": 63530573.16,
-        "peggedJPY": 52.56,
-        "peggedCHF": 1382497.41,
-        "peggedAUD": 2621.04,
-        "peggedVAR": 2478774.29,
-        "peggedGBP": 859772.15,
+        "peggedUSD": 15373388440.24,
+        "peggedEUR": 63510160.15,
+        "peggedJPY": 52.53,
+        "peggedCHF": 1381198.34,
+        "peggedAUD": 2618.18,
+        "peggedVAR": 2483849.22,
+        "peggedGBP": 856973.99,
         "peggedTRY": 168398.22,
-        "peggedCAD": 1460.91,
+        "peggedCAD": 1461.95,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 843594,
+      "rev_24h_usd": 840311,
       "network_fees_24h_usd": 709826,
-      "mev_tips_24h_usd": 133768,
-      "mev_share_of_rev_pct": 15.86,
-      "rev_annualised_usd": 307911810,
+      "mev_tips_24h_usd": 130485,
+      "mev_share_of_rev_pct": 15.53,
+      "rev_annualised_usd": 306713515,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 110768
+          "tips_24h_usd": 107485
         },
         {
           "name": "Harmonic",
@@ -232,7 +232,7 @@
       "app_fees_7d_usd": 66979103.34999998,
       "app_fees_30d_usd": 239020915.42999998,
       "app_fees_change_24h_pct": 4.91,
-      "protocol_count": 287,
+      "protocol_count": 288,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Collector Crypt",
-          "fees_24h_usd": 477312
+          "fees_24h_usd": 482304
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",

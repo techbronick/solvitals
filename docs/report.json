@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-14 16:13:39",
+  "captured_at": "2026-08-14 17:10:41",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4158,
+      "measured_slot_time_secs": 0.4186,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.95,
+      "deviation_from_target_pct": 4.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4345.22,
-      "tps_non_vote": 2709.27,
-      "vote_share_pct": 37.65,
-      "avg_slot_time_secs": 0.4178,
-      "latest_sample_slot": 439258312,
+      "tps_total": 4333.11,
+      "tps_non_vote": 2701.16,
+      "vote_share_pct": 37.66,
+      "avg_slot_time_secs": 0.4184,
+      "latest_sample_slot": 439266516,
       "samples_used": 5,
-      "block_height": 417309689,
-      "current_slot": 439258369
+      "block_height": 417317897,
+      "current_slot": 439266578
     },
     "epoch": {
       "epoch": 1016,
-      "slot_index": 346369,
+      "slot_index": 354578,
       "slots_in_epoch": 432000,
-      "progress_pct": 80.18,
-      "eta_hours": 9.9,
-      "eta_basis_slot_secs": 0.4158,
-      "transaction_count": 538147177386
+      "progress_pct": 82.08,
+      "eta_hours": 9.0,
+      "eta_basis_slot_secs": 0.4186,
+      "transaction_count": 538161569501
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632134924.52,
-      "circulating_sol": 582613303.6,
+      "total_sol": 632134886.25,
+      "circulating_sol": 582613265.33,
       "non_circulating_sol": 49521620.92,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "49KxTL59Yye8EnrTqykVj16Akz5EjG4HcHQjpdt2wN8rVuPcnUxNECX8eXZDezcQ8dPdZgACf3jiCRrdyNwUCkW1",
-      "latest_block_time": 1786724015,
-      "errors_in_recent": 2
+      "latest_signature": "5LGUiHYQ53tZCHFcDei6ezPR315kQAUcY8ZoA8ABpvwC7ZtNUXbpPJnLRcB1cQ9qfixJPFbo19SzaTgGKoyZSw5Z",
+      "latest_block_time": 1786727438,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1739,
+      "unique_signers_sampled": 1511,
       "blocks_sampled": 3,
-      "transactions_sampled": 6302,
-      "non_vote_transactions_sampled": 4252,
-      "signers_per_block": 579.7,
-      "non_vote_share_pct": 67.47,
+      "transactions_sampled": 4703,
+      "non_vote_transactions_sampled": 2699,
+      "signers_per_block": 503.7,
+      "non_vote_share_pct": 57.39,
       "sampled_slots": [
-        439258191,
-        439256691,
-        439255191
+        439266401,
+        439264901,
+        439263401
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.6,
-      "change_24h_pct": -0.02,
-      "market_cap_usd": 44041647757.46458,
-      "volume_24h_usd": 1085606896.3858016,
+      "usd": 75.42,
+      "change_24h_pct": -0.27,
+      "market_cap_usd": 43939839458.28059,
+      "volume_24h_usd": 1003319022.579856,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4800212604.13,
+      "tvl_usd": 4801935237.13,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.42,
       "source": "defillama"
@@ -182,8 +182,8 @@
           "volume_24h_usd": 105828719
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 84606755
+          "name": "Manifest Trade",
+          "volume_24h_usd": 89223262
         }
       ],
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 847018,
+      "rev_24h_usd": 843594,
       "network_fees_24h_usd": 709826,
-      "mev_tips_24h_usd": 137192,
-      "mev_share_of_rev_pct": 16.2,
-      "rev_annualised_usd": 309161570,
+      "mev_tips_24h_usd": 133768,
+      "mev_share_of_rev_pct": 15.86,
+      "rev_annualised_usd": 307911810,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 114192
+          "tips_24h_usd": 110768
         },
         {
           "name": "Harmonic",
@@ -2043,6 +2043,12 @@
   "news": {
     "items": [
       {
+        "title": "Solana Changelog: August 13, 2026",
+        "link": "https://solana.com/news/solana-changelog-august-13-2026",
+        "published": "Thu, 13 Aug 2026 15:03:00 GMT",
+        "summary": "Slot times to 250ms on testnet and releases from Agave and Firedancer."
+      },
+      {
         "title": "Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo",
         "link": "https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap",
         "published": "Wed, 12 Aug 2026 12:57:00 GMT",
@@ -2083,12 +2089,6 @@
         "link": "https://solana.com/news/tokenized-cards-and-physical-collectibles",
         "published": "Fri, 31 Jul 2026 10:00:00 GMT",
         "summary": "Collector Crypt has crossed $1.6B in volume as Solana apps bring vaulted cards, packs, buybacks, and physical redemption onchain."
-      },
-      {
-        "title": "Overview of Institutional Real World Assets on Solana",
-        "link": "https://solana.com/news/overview-of-institutional-real-world-assets-on-solana",
-        "published": "Thu, 30 Jul 2026 15:25:00 GMT",
-        "summary": "Learn how BlackRock, J.P. Morgan, Visa, Franklin Templeton, and other institutions are building the future of tokenized real-world assets on Solana."
       }
     ],
     "count": 8,

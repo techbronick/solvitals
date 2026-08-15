@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-15 19:52:45",
+  "captured_at": "2026-08-15 20:08:55",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4174,
+      "measured_slot_time_secs": 0.4192,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.35,
+      "deviation_from_target_pct": 4.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4045.89,
-      "tps_non_vote": 2438.31,
-      "vote_share_pct": 39.73,
-      "avg_slot_time_secs": 0.4243,
-      "latest_sample_slot": 439497743,
+      "tps_total": 3930.12,
+      "tps_non_vote": 2317.17,
+      "vote_share_pct": 41.04,
+      "avg_slot_time_secs": 0.4184,
+      "latest_sample_slot": 439500044,
       "samples_used": 5,
-      "block_height": 417548481,
-      "current_slot": 439497821
+      "block_height": 417550781,
+      "current_slot": 439500138
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 153822,
+      "slot_index": 156138,
       "slots_in_epoch": 432000,
-      "progress_pct": 35.61,
-      "eta_hours": 32.3,
-      "eta_basis_slot_secs": 0.4174,
-      "transaction_count": 538487136347
+      "progress_pct": 36.14,
+      "eta_hours": 32.1,
+      "eta_basis_slot_secs": 0.4192,
+      "transaction_count": 538491027099
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261933.51,
-      "circulating_sol": 582727948.76,
+      "total_sol": 632261923.37,
+      "circulating_sol": 582727938.61,
       "non_circulating_sol": 49533984.76,
       "circulating_pct": 92.17
     },
@@ -114,8 +114,8 @@
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 0,
-      "zero_fee_slot_share_pct": 100.0,
+      "max_priority_fee_microlamports": 112484788,
+      "zero_fee_slot_share_pct": 99.3,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "65HRZjqJby7gDXiLckerx3PregjhfABTffFtVU2RLqbqfyUD11vgbbQjmcQxC8qBTChMkuqCzkto9gsgozLwq9T9",
-      "latest_block_time": 1786823560,
-      "errors_in_recent": 1
+      "latest_signature": "4kKXWYMeasJUHC34FeEABbiJmVxvCU3EjNeBzLoemKtwudQmActhvGeeHZcmP4pfaGY397XY7yBeKR69J9gCCZAo",
+      "latest_block_time": 1786824533,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1433,
+      "unique_signers_sampled": 1354,
       "blocks_sampled": 3,
-      "transactions_sampled": 3766,
-      "non_vote_transactions_sampled": 1716,
-      "signers_per_block": 477.7,
-      "non_vote_share_pct": 45.57,
+      "transactions_sampled": 4728,
+      "non_vote_transactions_sampled": 2713,
+      "signers_per_block": 451.3,
+      "non_vote_share_pct": 57.38,
       "sampled_slots": [
-        439497640,
-        439496140,
-        439494640
+        439499962,
+        439498462,
+        439496962
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.48,
-      "change_24h_pct": 0.66,
-      "market_cap_usd": 43985618596.232834,
-      "volume_24h_usd": 697913470.7468647,
+      "usd": 75.49,
+      "change_24h_pct": 0.56,
+      "market_cap_usd": 43990846727.1639,
+      "volume_24h_usd": 683744079.8127161,
       "source": "coingecko"
     },
     "tvl": {
@@ -160,9 +160,9 @@
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1612403611.56,
-      "volume_7d_usd": 11354193742.669998,
-      "change_24h_pct": -17,
+      "volume_24h_usd": 1605343342.56,
+      "volume_7d_usd": 11291963211.669998,
+      "change_24h_pct": -16.98,
       "protocol_count": 117,
       "top_dexes": [
         {

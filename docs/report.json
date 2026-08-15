@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-15 13:51:03",
+  "captured_at": "2026-08-15 14:10:56",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.416,
+      "measured_slot_time_secs": 0.4148,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.0,
+      "deviation_from_target_pct": 3.7,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3617.54,
-      "tps_non_vote": 1969.24,
-      "vote_share_pct": 45.56,
-      "avg_slot_time_secs": 0.4138,
-      "latest_sample_slot": 439445672,
+      "tps_total": 3752.92,
+      "tps_non_vote": 2105.47,
+      "vote_share_pct": 43.9,
+      "avg_slot_time_secs": 0.4132,
+      "latest_sample_slot": 439448417,
       "samples_used": 5,
-      "block_height": 417496328,
-      "current_slot": 439445655
+      "block_height": 417499194,
+      "current_slot": 439448523
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 101655,
+      "slot_index": 104524,
       "slots_in_epoch": 432000,
-      "progress_pct": 23.53,
-      "eta_hours": 38.2,
-      "eta_basis_slot_secs": 0.416,
-      "transaction_count": 538407578833
+      "progress_pct": 24.2,
+      "eta_hours": 37.7,
+      "eta_basis_slot_secs": 0.4148,
+      "transaction_count": 538412216806
     },
     "validators": {
       "active_count": 687,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632262142.9,
-      "circulating_sol": 582728158.14,
+      "total_sol": 632262130.72,
+      "circulating_sol": 582728145.97,
       "non_circulating_sol": 49533984.76,
       "circulating_pct": 92.17
     },
@@ -126,21 +126,21 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "6FHLSgMJ7B7Pe6Ly56rWxPQxSzeVoZWGcj9bxotL7m6TeT8s23wDMjZB4i9XYzT811gHixc7Vgy8u7nd8fgsZyV",
-      "latest_block_time": 1786801859,
-      "errors_in_recent": 4
+      "latest_signature": "RMyH2NXMRDj7Zo9aMjdoKhU5g2hVBdWt1SoJTjme2chy4mgYQH9RFtfZ2bjhm7X3zoAzhygbZ3B1Ln5TSWgsqtL",
+      "latest_block_time": 1786803056,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1333,
+      "unique_signers_sampled": 1362,
       "blocks_sampled": 3,
-      "transactions_sampled": 3795,
-      "non_vote_transactions_sampled": 1772,
-      "signers_per_block": 444.3,
-      "non_vote_share_pct": 46.69,
+      "transactions_sampled": 4049,
+      "non_vote_transactions_sampled": 2003,
+      "signers_per_block": 454.0,
+      "non_vote_share_pct": 49.47,
       "sampled_slots": [
-        439445477,
-        439443977,
-        439442477
+        439448348,
+        439446848,
+        439445348
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -148,9 +148,9 @@
   "market": {
     "price": {
       "usd": 75.49,
-      "change_24h_pct": 0.26,
-      "market_cap_usd": 43989196309.564575,
-      "volume_24h_usd": 899653063.7579155,
+      "change_24h_pct": 0.32,
+      "market_cap_usd": 43992414754.46801,
+      "volume_24h_usd": 886026237.0504549,
       "source": "coingecko"
     },
     "tvl": {
@@ -228,10 +228,10 @@
           "tips_24h_usd": 0.77
         }
       ],
-      "app_fees_24h_usd": 7971680.789999999,
-      "app_fees_7d_usd": 66777965.33999999,
-      "app_fees_30d_usd": 240662148.45,
-      "app_fees_change_24h_pct": -21.45,
+      "app_fees_24h_usd": 8047086.789999999,
+      "app_fees_7d_usd": 66853365.33999999,
+      "app_fees_30d_usd": 240737548.45,
+      "app_fees_change_24h_pct": -20.71,
       "protocol_count": 288,
       "top_fee_earning_apps": [
         {
@@ -251,8 +251,8 @@
           "fees_24h_usd": 602879
         },
         {
-          "name": "Collector Crypt",
-          "fees_24h_usd": 487553
+          "name": "fomo Wallet",
+          "fees_24h_usd": 350492
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",

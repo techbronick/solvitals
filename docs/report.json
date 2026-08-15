@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-15 10:39:37",
+  "captured_at": "2026-08-15 10:55:54",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.415,
+      "measured_slot_time_secs": 0.416,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.75,
+      "deviation_from_target_pct": 4.0,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3072.26,
-      "tps_non_vote": 1424.63,
-      "vote_share_pct": 53.63,
-      "avg_slot_time_secs": 0.4144,
-      "latest_sample_slot": 439417970,
+      "tps_total": 2906.15,
+      "tps_non_vote": 1253.08,
+      "vote_share_pct": 56.88,
+      "avg_slot_time_secs": 0.4127,
+      "latest_sample_slot": 439420233,
       "samples_used": 5,
-      "block_height": 417468685,
-      "current_slot": 439418003
+      "block_height": 417471025,
+      "current_slot": 439420343
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 74003,
+      "slot_index": 76343,
       "slots_in_epoch": 432000,
-      "progress_pct": 17.13,
-      "eta_hours": 41.3,
-      "eta_basis_slot_secs": 0.415,
-      "transaction_count": 538370676580
+      "progress_pct": 17.67,
+      "eta_hours": 41.1,
+      "eta_basis_slot_secs": 0.416,
+      "transaction_count": 538373544734
     },
     "validators": {
       "active_count": 687,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632262239.31,
-      "circulating_sol": 582728254.6,
+      "total_sol": 632262231.85,
+      "circulating_sol": 582728247.13,
       "non_circulating_sol": 49533984.71,
       "circulating_pct": 92.17
     },
@@ -126,21 +126,21 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4PbJQWfV9Kgu9nFhghBdfsgjApTm5Xrp6bCBbJgnaiThZbYwrsAGR17EkpKPKZHhxBFUwM3PSBjtQg2oBZUZDmt",
-      "latest_block_time": 1786790374,
-      "errors_in_recent": 1
+      "latest_signature": "3p5ojrBJg4pcKdybN4nbkuNWUKfunG5pAEsUEnMS4KZeKJV1rT6DahpdmT3hXqu9ev66JFdbGP4bLnwjZ8jEUgLw",
+      "latest_block_time": 1786791350,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1247,
+      "unique_signers_sampled": 1329,
       "blocks_sampled": 3,
-      "transactions_sampled": 3262,
-      "non_vote_transactions_sampled": 1229,
-      "signers_per_block": 415.7,
-      "non_vote_share_pct": 37.68,
+      "transactions_sampled": 3379,
+      "non_vote_transactions_sampled": 1345,
+      "signers_per_block": 443.0,
+      "non_vote_share_pct": 39.8,
       "sampled_slots": [
-        439417825,
-        439416325,
-        439414825
+        439420163,
+        439418663,
+        439417163
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
@@ -148,21 +148,21 @@
   "market": {
     "price": {
       "usd": 75.23,
-      "change_24h_pct": -0.29,
-      "market_cap_usd": 43828815499.69574,
-      "volume_24h_usd": 976587488.7565789,
+      "change_24h_pct": -0.22,
+      "market_cap_usd": 43838077227.98216,
+      "volume_24h_usd": 971439400.3051735,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4808931149.14,
+      "tvl_usd": 4808565625.25,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.42,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1640281987.56,
-      "volume_7d_usd": 11216819003.669998,
-      "change_24h_pct": -15.57,
+      "volume_24h_usd": 1612403611.56,
+      "volume_7d_usd": 11354193742.669998,
+      "change_24h_pct": -17,
       "protocol_count": 117,
       "top_dexes": [
         {
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 717396.77,
+      "rev_24h_usd": 716154.77,
       "network_fees_24h_usd": 602879,
-      "mev_tips_24h_usd": 114517.77,
-      "mev_share_of_rev_pct": 15.96,
-      "rev_annualised_usd": 261849821.05,
+      "mev_tips_24h_usd": 113275.77,
+      "mev_share_of_rev_pct": 15.82,
+      "rev_annualised_usd": 261396491.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 93939
+          "tips_24h_usd": 92697
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 0.77
         }
       ],
-      "app_fees_24h_usd": 8003860.789999999,
-      "app_fees_7d_usd": 66427463.33999999,
-      "app_fees_30d_usd": 240311646.45,
-      "app_fees_change_24h_pct": -21.13,
+      "app_fees_24h_usd": 7971680.789999999,
+      "app_fees_7d_usd": 66777965.33999999,
+      "app_fees_30d_usd": 240662148.45,
+      "app_fees_change_24h_pct": -21.45,
       "protocol_count": 288,
       "top_fee_earning_apps": [
         {
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "fomo is for builders \ud83d\udc40",
-        "created_at": "Fri Aug 14 20:10:33 +0000 2026",
-        "url": "https://x.com/solana/status/2088357628497785339"
+        "text": "https://t.co/qjbKGOlYe6",
+        "created_at": "Sat Aug 15 09:56:30 +0000 2026",
+        "url": "https://x.com/solana/status/2088565487794032975"
       },
       {
         "handle": "solana",
-        "text": "StonkFun has contributed over $86,000,000 of volume to RWA's on @solana over the last 10 days! Over 19,000 unique holders received a RWA for the first time via Memecoins! https://t.co/hAERjxOJWr",
-        "created_at": "Fri Aug 14 17:14:59 +0000 2026",
-        "url": "https://x.com/solana/status/2088313446341189900"
+        "text": "USD* lands in the Jupiverse. Loop USD* directly on @jupiter_earn Up to 28% APY now \ud83d\udc40",
+        "created_at": "Sat Aug 15 08:02:02 +0000 2026",
+        "url": "https://x.com/solana/status/2088536680386986263"
       },
       {
         "handle": "solana",
-        "text": "Introducing dev tags. Teams recieve a tag, update holders, and build their community all within fomo. fomo is for builders too. https://t.co/kFVzkk03qP",
-        "created_at": "Fri Aug 14 16:24:23 +0000 2026",
-        "url": "https://x.com/solana/status/2088300712794980622"
+        "text": "internet capital markets \u4e92\u8054\u7f51\u8d44\u672c\u5e02\u573a",
+        "created_at": "Sat Aug 15 07:49:10 +0000 2026",
+        "url": "https://x.com/solana/status/2088533443068235872"
       },
       {
         "handle": "solana",
-        "text": "Everything you want to build. Everything you want to learn. Everyone you want to meet. Secure your subsidized student and dev Breakpoint tickets today and bring your big ideas to London. We'll bring everything else. https://t.co/RYv5GMLT5Y",
-        "created_at": "Fri Aug 14 16:01:35 +0000 2026",
-        "url": "https://x.com/solana/status/2088294977248104525"
+        "text": "\u672c\u5468 Solana \u6d77\u5916\u751f\u6001\u660e\u661f\u9879\u76ee\uff1a@rarible @AllUnityStable @Alchemy\uff0c\u5206\u522b\u805a\u7126\u6570\u5b57\u6536\u85cf\u3001\u6570\u5b57\u8d44\u4ea7\u5e94\u7528\u548c\u533a\u5757\u94fe\u5f00\u53d1\u5de5\u5177\ud83d\udc47 https://t.co/BXH8BxS3sN",
+        "created_at": "Sat Aug 15 02:00:01 +0000 2026",
+        "url": "https://x.com/solana/status/2088445575390011491"
       },
       {
         "handle": "solanalabs",

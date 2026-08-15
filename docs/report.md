@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-15 10:39:37 UTC by SolVitals.
+Generated 2026-08-15 10:55:54 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,424.63 |
-| Total TPS (incl. votes) | 3,072.26 |
-| Vote share of transactions | 53.63% |
-| Average slot time | 0.4144 s |
-| Current slot | 439,418,003 |
-| Block height | 417,468,685 |
+| Non-vote TPS | 1,253.08 |
+| Total TPS (incl. votes) | 2,906.15 |
+| Vote share of transactions | 56.88% |
+| Average slot time | 0.4127 s |
+| Current slot | 439,420,343 |
+| Block height | 417,471,025 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1017** — 17.13% complete (`###.................`), ~41.3 hours remaining.
+Epoch **1017** — 17.67% complete (`####................`), ~41.1 hours remaining.
 
-Slot 74,003 of 432,000. Lifetime transaction count: 538,370,676,580.
+Slot 76,343 of 432,000. Lifetime transaction count: 538,373,544,734.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 74,003 of 432,000. Lifetime transaction count: 538,370,676,580.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.415 s |
-| Deviation from 0.4s target | 3.75% |
+| Measured slot time (`getBlockTime`) | 0.416 s |
+| Deviation from 0.4s target | 4.0% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.23 (down 0.29%) |
-| Market cap | $43.83B |
+| SOL price | $75.23 (down 0.22%) |
+| Market cap | $43.84B |
 | DeFi TVL | $4.81B |
 | TVL rank across chains | 3 |
-| DEX volume (24h) | $1.64B (down 15.57%) |
+| DEX volume (24h) | $1.61B (down 17.00%) |
 | Stablecoin supply | $15.42B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$717.40K** |
+| **REV (total)** | **$716.15K** |
 | Network fees | $602.88K |
-| MEV tips (out-of-protocol) | $114.52K (15.96% of REV) |
-| Annualised REV run-rate | $261.85M |
+| MEV tips (out-of-protocol) | $113.28K (15.82% of REV) |
+| Annualised REV run-rate | $261.40M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $93.94K |
+| Jito MEV Tips | $92.70K |
 | Harmonic | $12.63K |
 | bloXroute | $7.95K |
 | Pyth Express Relay | $1 |
@@ -107,9 +107,9 @@ Fees earned by the 288 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.00M (down 21.13%) |
-| 7 days | $66.43M |
-| 30 days | $240.31M |
+| 24 hours | $7.97M (down 21.45%) |
+| 7 days | $66.78M |
+| 30 days | $240.66M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -154,11 +154,11 @@ Fees earned by the 288 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,247 |
+| Unique fee payers (sampled) | 1,329 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,262 |
-| Non-vote share of sample | 37.68% |
-| Signers per block | 415.7 |
+| Transactions in sample | 3,379 |
+| Non-vote share of sample | 39.8% |
+| Signers per block | 443.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,728,255 SOL of 632,262,239 total (92.17%).
+Circulating 582,728,247 SOL of 632,262,232 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -204,10 +204,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — fomo is for builders 👀 [(link)](https://x.com/solana/status/2088357628497785339)
-- **@solana** — StonkFun has contributed over $86,000,000 of volume to RWA's on @solana over the last 10 days! Over 19,000 unique holders received a RWA for the first time via Memecoins! https://t.co/hAERjxOJWr [(link)](https://x.com/solana/status/2088313446341189900)
-- **@solana** — Introducing dev tags. Teams recieve a tag, update holders, and build their community all within fomo. fomo is for builders too. https://t.co/kFVzkk03qP [(link)](https://x.com/solana/status/2088300712794980622)
-- **@solana** — Everything you want to build. Everything you want to learn. Everyone you want to meet. Secure your subsidized student and dev Breakpoint tickets today and bring your big ideas to London. We'll bring everything else. https://t.co/RYv5GMLT5Y [(link)](https://x.com/solana/status/2088294977248104525)
+- **@solana** — https://t.co/qjbKGOlYe6 [(link)](https://x.com/solana/status/2088565487794032975)
+- **@solana** — USD* lands in the Jupiverse. Loop USD* directly on @jupiter_earn Up to 28% APY now 👀 [(link)](https://x.com/solana/status/2088536680386986263)
+- **@solana** — internet capital markets 互联网资本市场 [(link)](https://x.com/solana/status/2088533443068235872)
+- **@solana** — 本周 Solana 海外生态明星项目：@rarible @AllUnityStable @Alchemy，分别聚焦数字收藏、数字资产应用和区块链开发工具👇 https://t.co/BXH8BxS3sN [(link)](https://x.com/solana/status/2088445575390011491)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-15 12:58:42",
+  "captured_at": "2026-08-15 13:28:16",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4154,
+      "measured_slot_time_secs": 0.4152,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.85,
+      "deviation_from_target_pct": 3.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3564.88,
-      "tps_non_vote": 1907.97,
-      "vote_share_pct": 46.48,
-      "avg_slot_time_secs": 0.4115,
-      "latest_sample_slot": 439438052,
+      "tps_total": 3492.43,
+      "tps_non_vote": 1866.33,
+      "vote_share_pct": 46.56,
+      "avg_slot_time_secs": 0.4202,
+      "latest_sample_slot": 439442341,
       "samples_used": 5,
-      "block_height": 417488767,
-      "current_slot": 439438095
+      "block_height": 417493028,
+      "current_slot": 439442355
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 94095,
+      "slot_index": 98355,
       "slots_in_epoch": 432000,
-      "progress_pct": 21.78,
-      "eta_hours": 39.0,
-      "eta_basis_slot_secs": 0.4154,
-      "transaction_count": 538396751197
+      "progress_pct": 22.77,
+      "eta_hours": 38.5,
+      "eta_basis_slot_secs": 0.4152,
+      "transaction_count": 538402847474
     },
     "validators": {
       "active_count": 687,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632262171.32,
-      "circulating_sol": 582728186.57,
+      "total_sol": 632262155.32,
+      "circulating_sol": 582728170.56,
       "non_circulating_sol": 49533984.76,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "GDguf347WWDHavnAfiJm63frjRXJSzJvWuoRPW71dzyG2UhXAx5VBbJhvqYaG5yJDfgM6o4AjND1ddKTbaxn3YY",
-      "latest_block_time": 1786798718,
-      "errors_in_recent": 0
+      "latest_signature": "3xRWysg29KRBMzu4fhfLqcAwsV1ud44EdReUW69dFuyaiqFnLWLM9uYZj9AsNKw5Reb8TJA1jfy7z4LEUjmsyvYv",
+      "latest_block_time": 1786800490,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1505,
+      "unique_signers_sampled": 1485,
       "blocks_sampled": 3,
-      "transactions_sampled": 4078,
-      "non_vote_transactions_sampled": 2032,
-      "signers_per_block": 501.7,
-      "non_vote_share_pct": 49.83,
+      "transactions_sampled": 3826,
+      "non_vote_transactions_sampled": 1825,
+      "signers_per_block": 495.0,
+      "non_vote_share_pct": 47.7,
       "sampled_slots": [
-        439437919,
-        439436419,
-        439434919
+        439442174,
+        439440674,
+        439439174
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.22,
-      "change_24h_pct": -0.22,
-      "market_cap_usd": 43833141114.22418,
-      "volume_24h_usd": 922464360.0759982,
+      "usd": 75.4,
+      "change_24h_pct": 0.06,
+      "market_cap_usd": 43937745008.69892,
+      "volume_24h_usd": 903683466.2312955,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4810690400.85,
+      "tvl_usd": 4809898865.87,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -183,37 +183,37 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 79018595
+          "volume_24h_usd": 80704965
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15420099031.39,
+      "total_usd": 15418476909.93,
       "by_peg": {
-        "peggedUSD": 15353731984.16,
-        "peggedEUR": 61495630.3,
-        "peggedJPY": 46.39,
-        "peggedCHF": 1382895.96,
-        "peggedAUD": 2650.08,
-        "peggedVAR": 2457614.94,
-        "peggedGBP": 858314.03,
+        "peggedUSD": 15352123448.63,
+        "peggedEUR": 61486717.51,
+        "peggedJPY": 48.12,
+        "peggedCHF": 1382166.15,
+        "peggedAUD": 2663.5,
+        "peggedVAR": 2453603.24,
+        "peggedGBP": 858367.28,
         "peggedTRY": 168434.24,
-        "peggedCAD": 1460.61,
+        "peggedCAD": 1460.59,
         "peggedKRW": 0.68
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 714940.77,
+      "rev_24h_usd": 714662.77,
       "network_fees_24h_usd": 602879,
-      "mev_tips_24h_usd": 112061.77,
-      "mev_share_of_rev_pct": 15.67,
-      "rev_annualised_usd": 260953381.05,
+      "mev_tips_24h_usd": 111783.77,
+      "mev_share_of_rev_pct": 15.64,
+      "rev_annualised_usd": 260851911.05,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 91483
+          "tips_24h_usd": 91205
         },
         {
           "name": "Harmonic",
@@ -2297,6 +2297,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Bring collectibles from Solana gachas like @Collector_Crypt and @Slabzapp into @Rosentica to battle in the Arena Only possible on Solana https://t.co/pemde75bld",
+        "created_at": "Sat Aug 15 12:30:47 +0000 2026",
+        "url": "https://x.com/solana/status/2088604313824231610"
+      },
+      {
+        "handle": "solana",
         "text": "https://t.co/qjbKGOlYe6",
         "created_at": "Sat Aug 15 09:56:30 +0000 2026",
         "url": "https://x.com/solana/status/2088565487794032975"
@@ -2309,15 +2315,9 @@
       },
       {
         "handle": "solana",
-        "text": "internet capital markets \u4e92\u8054\u7f51\u8d44\u672c\u5e02\u573a",
-        "created_at": "Sat Aug 15 07:49:10 +0000 2026",
-        "url": "https://x.com/solana/status/2088533443068235872"
-      },
-      {
-        "handle": "solana",
-        "text": "\u672c\u5468 Solana \u6d77\u5916\u751f\u6001\u660e\u661f\u9879\u76ee\uff1a@rarible @AllUnityStable @Alchemy\uff0c\u5206\u522b\u805a\u7126\u6570\u5b57\u6536\u85cf\u3001\u6570\u5b57\u8d44\u4ea7\u5e94\u7528\u548c\u533a\u5757\u94fe\u5f00\u53d1\u5de5\u5177\ud83d\udc47 https://t.co/BXH8BxS3sN",
-        "created_at": "Sat Aug 15 02:00:01 +0000 2026",
-        "url": "https://x.com/solana/status/2088445575390011491"
+        "text": "i just off-ramped USDC on @solana to local cash using @MoneyGram via @riftapp it's that simple \ud83d\udc47 https://t.co/xN2PtGtaDa",
+        "created_at": "Fri Aug 14 13:30:01 +0000 2026",
+        "url": "https://x.com/solana/status/2088256833022751176"
       },
       {
         "handle": "solanalabs",

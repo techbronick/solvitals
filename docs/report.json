@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-15 23:54:11",
+  "captured_at": "2026-08-16 00:33:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4164,
+      "measured_slot_time_secs": 0.4142,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.1,
+      "deviation_from_target_pct": 3.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3045.78,
-      "tps_non_vote": 1394.99,
-      "vote_share_pct": 54.2,
+      "tps_total": 3222.67,
+      "tps_non_vote": 1569.93,
+      "vote_share_pct": 51.28,
       "avg_slot_time_secs": 0.4138,
-      "latest_sample_slot": 439532491,
+      "latest_sample_slot": 439538272,
       "samples_used": 5,
-      "block_height": 417583207,
-      "current_slot": 439532587
+      "block_height": 417588941,
+      "current_slot": 439538324
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 188587,
+      "slot_index": 194324,
       "slots_in_epoch": 432000,
-      "progress_pct": 43.65,
-      "eta_hours": 28.2,
-      "eta_basis_slot_secs": 0.4164,
-      "transaction_count": 538538837453
+      "progress_pct": 44.98,
+      "eta_hours": 27.3,
+      "eta_basis_slot_secs": 0.4142,
+      "transaction_count": 538546162516
     },
     "validators": {
       "active_count": 688,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 632261798.23,
-      "circulating_sol": 582727813.47,
-      "non_circulating_sol": 49533984.76,
+      "total_sol": 632261779.02,
+      "circulating_sol": 582784868.78,
+      "non_circulating_sol": 49476910.24,
       "circulating_pct": 92.17
     },
     "transaction_fees": {
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "25GA4YTjjrZGmRqtbsfUDuUudqxT6n8bdevhXj1ECe1ztoVFQTzuMLgahmRe2rwbBrrB8thNZ3wZ77K3fukV91KT",
-      "latest_block_time": 1786838044,
-      "errors_in_recent": 1
+      "latest_signature": "3o2qyikJLwQBTFn3psGfnkd856Y9u4GNvcWqibGnHv7cjHBCQ8pwdqEVkFv73SPz81rQ5qwwJyezwd6sbfnNU4ik",
+      "latest_block_time": 1786840425,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1406,
+      "unique_signers_sampled": 1407,
       "blocks_sampled": 3,
-      "transactions_sampled": 3765,
-      "non_vote_transactions_sampled": 1743,
-      "signers_per_block": 468.7,
-      "non_vote_share_pct": 46.29,
+      "transactions_sampled": 3506,
+      "non_vote_transactions_sampled": 1471,
+      "signers_per_block": 469.0,
+      "non_vote_share_pct": 41.96,
       "sampled_slots": [
-        439532405,
-        439530905,
-        439529405
+        439538142,
+        439536642,
+        439535142
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.27,
-      "change_24h_pct": -0.08,
-      "market_cap_usd": 43865425008.27505,
-      "volume_24h_usd": 648691361.5242018,
+      "usd": 75.39,
+      "change_24h_pct": 0.07,
+      "market_cap_usd": 43920854131.52449,
+      "volume_24h_usd": 644112087.8598638,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4822437495.92,
+      "tvl_usd": 4821339538.81,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.42,
       "source": "defillama"
@@ -189,15 +189,15 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15411793850.76,
+      "total_usd": 15411887059.91,
       "by_peg": {
-        "peggedUSD": 15345421687.65,
-        "peggedEUR": 61491531.02,
-        "peggedJPY": 49.92,
-        "peggedCHF": 1385255.15,
-        "peggedAUD": 2648.2,
-        "peggedVAR": 2464489.38,
-        "peggedGBP": 858294.06,
+        "peggedUSD": 15345520607.32,
+        "peggedEUR": 61485494.36,
+        "peggedJPY": 50.18,
+        "peggedCHF": 1383997.45,
+        "peggedAUD": 2652.74,
+        "peggedVAR": 2466102.64,
+        "peggedGBP": 858259.83,
         "peggedTRY": 168434.24,
         "peggedCAD": 1460.47,
         "peggedKRW": 0.68

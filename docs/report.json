@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 16:14:56",
+  "captured_at": "2026-08-16 16:42:38",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4172,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.3,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3813.15,
-      "tps_non_vote": 2151.35,
-      "vote_share_pct": 43.58,
-      "avg_slot_time_secs": 0.411,
-      "latest_sample_slot": 439674054,
+      "tps_total": 3945.52,
+      "tps_non_vote": 2314.46,
+      "vote_share_pct": 41.34,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 439678061,
       "samples_used": 5,
-      "block_height": 417724695,
-      "current_slot": 439674103
+      "block_height": 417728690,
+      "current_slot": 439678097
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 330103,
+      "slot_index": 334098,
       "slots_in_epoch": 432000,
-      "progress_pct": 76.41,
-      "eta_hours": 11.8,
-      "eta_basis_slot_secs": 0.4172,
-      "transaction_count": 538714708859
+      "progress_pct": 77.34,
+      "eta_hours": 11.3,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 538721493920
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261336.23,
-      "circulating_sol": 582784425.97,
+      "total_sol": 632261318.66,
+      "circulating_sol": 582784408.4,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -114,8 +114,8 @@
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 21600397,
-      "zero_fee_slot_share_pct": 99.3,
+      "max_priority_fee_microlamports": 0,
+      "zero_fee_slot_share_pct": 100.0,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4qmw9MGySp4oKcmuUTeCphXagNQhCi47DXPuxehNh9p7qWr6ZFC4eVWrMKpGWak5XoJWgHF3BUYgLSV2YJJfMDR7",
-      "latest_block_time": 1786896892,
-      "errors_in_recent": 0
+      "latest_signature": "3vPzqgdeGYA4EiUsuE1FPUxNpDXZrHywT2TwjU1Phwwnzz2kRA1j8W4XQx1wYhfCMdFNfxEfrx9VsVAexaZRJ3XG",
+      "latest_block_time": 1786898554,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1539,
+      "unique_signers_sampled": 1648,
       "blocks_sampled": 3,
-      "transactions_sampled": 4583,
-      "non_vote_transactions_sampled": 2539,
-      "signers_per_block": 513.0,
-      "non_vote_share_pct": 55.4,
+      "transactions_sampled": 5356,
+      "non_vote_transactions_sampled": 3266,
+      "signers_per_block": 549.3,
+      "non_vote_share_pct": 60.98,
       "sampled_slots": [
-        439673923,
-        439672423,
-        439670923
+        439677920,
+        439676420,
+        439674920
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.48,
-      "change_24h_pct": 0.12,
-      "market_cap_usd": 43986526059.85528,
-      "volume_24h_usd": 539590060.9332745,
+      "usd": 75.51,
+      "change_24h_pct": 0.15,
+      "market_cap_usd": 44004991682.02509,
+      "volume_24h_usd": 573034489.413636,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4802353561.76,
+      "tvl_usd": 4803834776.0,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.39,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 689583,
+      "rev_24h_usd": 690645,
       "network_fees_24h_usd": 593836,
-      "mev_tips_24h_usd": 95747,
-      "mev_share_of_rev_pct": 13.88,
-      "rev_annualised_usd": 251697795,
+      "mev_tips_24h_usd": 96809,
+      "mev_share_of_rev_pct": 14.02,
+      "rev_annualised_usd": 252085425,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 79621
+          "tips_24h_usd": 80683
         },
         {
           "name": "Harmonic",

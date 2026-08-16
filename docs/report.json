@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 08:54:54",
+  "captured_at": "2026-08-16 09:15:32",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4164,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.1,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2699.83,
-      "tps_non_vote": 1057.27,
-      "vote_share_pct": 60.84,
-      "avg_slot_time_secs": 0.4155,
-      "latest_sample_slot": 439610574,
+      "tps_total": 2637.64,
+      "tps_non_vote": 964.67,
+      "vote_share_pct": 63.43,
+      "avg_slot_time_secs": 0.4093,
+      "latest_sample_slot": 439613571,
       "samples_used": 5,
-      "block_height": 417661213,
-      "current_slot": 439610620
+      "block_height": 417664197,
+      "current_slot": 439613605
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 266621,
+      "slot_index": 269605,
       "slots_in_epoch": 432000,
-      "progress_pct": 61.72,
-      "eta_hours": 19.1,
-      "eta_basis_slot_secs": 0.4164,
-      "transaction_count": 538633801617
+      "progress_pct": 62.41,
+      "eta_hours": 18.7,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 538637082839
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261549.39,
-      "circulating_sol": 582784639.13,
+      "total_sol": 632261540.78,
+      "circulating_sol": 582784630.53,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2vArctt4fypnP3rBHakN9SPz5ik6w3gV4A3peEcrqCg3CviYK8rDghg4yGgSpGc9Kq4Rvtmxz4NtGV9hzfAYK3Zd",
-      "latest_block_time": 1786870488,
-      "errors_in_recent": 5
+      "latest_signature": "2SuFZz6fYPbmhoK7ZePrgAaRYiAFLEd1hiJK5mraZ2CifAAPSdMfG8F5Dgd8v9b6oxyaSLS6V82qcsFJCiyap8yp",
+      "latest_block_time": 1786871726,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1295,
+      "unique_signers_sampled": 1323,
       "blocks_sampled": 3,
-      "transactions_sampled": 3245,
-      "non_vote_transactions_sampled": 1151,
-      "signers_per_block": 431.7,
-      "non_vote_share_pct": 35.47,
+      "transactions_sampled": 3478,
+      "non_vote_transactions_sampled": 1445,
+      "signers_per_block": 441.0,
+      "non_vote_share_pct": 41.55,
       "sampled_slots": [
-        439610439,
-        439608939,
-        439607439
+        439613423,
+        439611923,
+        439610423
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.37,
+      "usd": 75.38,
       "change_24h_pct": 0.43,
-      "market_cap_usd": 43927989610.733406,
-      "volume_24h_usd": 568123755.3881563,
+      "market_cap_usd": 43926452261.767235,
+      "volume_24h_usd": 559312571.049046,
       "source": "coingecko"
     },
     "tvl": {
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15401397919.7,
+      "total_usd": 15402322116.23,
       "by_peg": {
-        "peggedUSD": 15335067743.88,
-        "peggedEUR": 61482603.33,
-        "peggedJPY": 45.98,
-        "peggedCHF": 1391889.23,
-        "peggedAUD": 2653.06,
-        "peggedVAR": 2424862.73,
-        "peggedGBP": 858190.35,
+        "peggedUSD": 15335995145.55,
+        "peggedEUR": 61485158.63,
+        "peggedJPY": 45.95,
+        "peggedCHF": 1387100.53,
+        "peggedAUD": 2632.52,
+        "peggedVAR": 2423521.2,
+        "peggedGBP": 858580.67,
         "peggedTRY": 168470.13,
-        "peggedCAD": 1460.35,
+        "peggedCAD": 1460.37,
         "peggedKRW": 0.68
       },
       "source": "defillama"

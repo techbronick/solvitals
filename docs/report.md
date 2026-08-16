@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-16 07:06:18 UTC by SolVitals.
+Generated 2026-08-16 07:42:28 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.3 sigma below its 288-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,152.58 |
-| Total TPS (incl. votes) | 2,781.84 |
-| Vote share of transactions | 58.57% |
-| Average slot time | 0.4202 s |
-| Current slot | 439,594,946 |
-| Block height | 417,645,550 |
+| Non-vote TPS | 1,111.83 |
+| Total TPS (incl. votes) | 2,770.62 |
+| Vote share of transactions | 59.87% |
+| Average slot time | 0.4110 s |
+| Current slot | 439,600,185 |
+| Block height | 417,650,782 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1017** — 58.09% complete (`############........`), ~20.9 hours remaining.
+Epoch **1017** — 59.3% complete (`############........`), ~20.2 hours remaining.
 
-Slot 250,946 of 432,000. Lifetime transaction count: 538,615,998,706.
+Slot 256,186 of 432,000. Lifetime transaction count: 538,621,901,682.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 250,946 of 432,000. Lifetime transaction count: 538,615,998,706.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4152 s |
-| Deviation from 0.4s target | 3.8% |
+| Measured slot time (`getBlockTime`) | 0.414 s |
+| Deviation from 0.4s target | 3.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.31 (down 0.03%) |
-| Market cap | $43.88B |
+| SOL price | $75.38 (up 0.18%) |
+| Market cap | $43.93B |
 | DeFi TVL | $4.81B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.23B (down 23.08%) |
@@ -152,11 +152,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,143 |
+| Unique fee payers (sampled) | 1,538 |
 | Blocks sampled | 3 |
-| Transactions in sample | 2,909 |
-| Non-vote share of sample | 28.33% |
-| Signers per block | 381.0 |
+| Transactions in sample | 3,733 |
+| Non-vote share of sample | 44.09% |
+| Signers per block | 512.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -172,7 +172,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,784,686 SOL of 632,261,596 total (92.17%).
+Circulating 582,784,670 SOL of 632,261,581 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -202,9 +202,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — Solana artists are different. https://t.co/ZlEzpi3b49 [(link)](https://x.com/solana/status/2088873570965623227)
 - **@solana** — 24/7/365 [(link)](https://x.com/solana/status/2088807456587514141)
 - **@solana** — Engagement low? Try this: SOLANA [(link)](https://x.com/solana/status/2088641867999330462)
-- **@solana** — https://t.co/qjbKGOlYe6 [(link)](https://x.com/solana/status/2088565487794032975)
 - **@solana** — Tokenized stock trading on @Solana set a quarterly record in Q2, with billions in volume and equities now the fastest growing tokenized asset class on the network. I keep coming back to the obvious question. Why should markets close? The c… [(link)](https://x.com/solana/status/2088280740333002951)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)

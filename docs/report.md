@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-16 13:57:44 UTC by SolVitals.
+Generated 2026-08-16 14:17:34 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,511.18 |
-| Total TPS (incl. votes) | 3,150.41 |
-| Vote share of transactions | 52.03% |
-| Average slot time | 0.4161 s |
-| Current slot | 439,654,304 |
-| Block height | 417,704,897 |
+| Non-vote TPS | 1,539.27 |
+| Total TPS (incl. votes) | 3,189.19 |
+| Vote share of transactions | 51.73% |
+| Average slot time | 0.4144 s |
+| Current slot | 439,657,154 |
+| Block height | 417,707,746 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1017** — 71.83% complete (`##############......`), ~14.1 hours remaining.
+Epoch **1017** — 72.49% complete (`##############......`), ~13.8 hours remaining.
 
-Slot 310,305 of 432,000. Lifetime transaction count: 538,684,907,398.
+Slot 313,155 of 432,000. Lifetime transaction count: 538,688,860,539.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 310,305 of 432,000. Lifetime transaction count: 538,684,907,398.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4166 s |
-| Deviation from 0.4s target | 4.15% |
+| Measured slot time (`getBlockTime`) | 0.4172 s |
+| Deviation from 0.4s target | 4.3% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.28 (down 0.28%) |
-| Market cap | $43.87B |
+| SOL price | $75.21 (down 0.39%) |
+| Market cap | $43.83B |
 | DeFi TVL | $4.80B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.17B (down 27.18%) |
@@ -106,9 +106,9 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.05M (up 0.02%) |
-| 7 days | $65.57M |
-| 30 days | $241.65M |
+| 24 hours | $8.15M (up 1.16%) |
+| 7 days | $65.66M |
+| 30 days | $241.74M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -152,11 +152,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,501 |
+| Unique fee payers (sampled) | 1,523 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,914 |
-| Non-vote share of sample | 47.93% |
-| Signers per block | 500.3 |
+| Transactions in sample | 4,180 |
+| Non-vote share of sample | 51.56% |
+| Signers per block | 507.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -172,7 +172,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,784,504 SOL of 632,261,414 total (92.17%).
+Circulating 582,784,493 SOL of 632,261,404 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,9 +203,6 @@ The same metric is published by multiple providers with different methodologies.
 ## Announcements from key accounts
 
 - **@solana** — Solana artists are different. https://t.co/ZlEzpi3b49 [(link)](https://x.com/solana/status/2088873570965623227)
-- **@solana** — 24/7/365 [(link)](https://x.com/solana/status/2088807456587514141)
-- **@solana** — Engagement low? Try this: SOLANA [(link)](https://x.com/solana/status/2088641867999330462)
-- **@solana** — Tokenized stock trading on @Solana set a quarterly record in Q2, with billions in volume and equities now the fastest growing tokenized asset class on the network. I keep coming back to the obvious question. Why should markets close? The c… [(link)](https://x.com/solana/status/2088280740333002951)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

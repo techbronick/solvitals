@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 13:57:44",
+  "captured_at": "2026-08-16 14:17:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4166,
+      "measured_slot_time_secs": 0.4172,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.15,
+      "deviation_from_target_pct": 4.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3150.41,
-      "tps_non_vote": 1511.18,
-      "vote_share_pct": 52.03,
-      "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 439654249,
+      "tps_total": 3189.19,
+      "tps_non_vote": 1539.27,
+      "vote_share_pct": 51.73,
+      "avg_slot_time_secs": 0.4144,
+      "latest_sample_slot": 439657077,
       "samples_used": 5,
-      "block_height": 417704897,
-      "current_slot": 439654304
+      "block_height": 417707746,
+      "current_slot": 439657154
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 310305,
+      "slot_index": 313155,
       "slots_in_epoch": 432000,
-      "progress_pct": 71.83,
-      "eta_hours": 14.1,
-      "eta_basis_slot_secs": 0.4166,
-      "transaction_count": 538684907398
+      "progress_pct": 72.49,
+      "eta_hours": 13.8,
+      "eta_basis_slot_secs": 0.4172,
+      "transaction_count": 538688860539
     },
     "validators": {
       "active_count": 687,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261413.86,
-      "circulating_sol": 582784503.6,
+      "total_sol": 632261403.51,
+      "circulating_sol": 582784493.26,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3mcVJZeDrV5D8WUCdTetEXewoDvim4u7ihyrkUhFYQjZFodZJGgqRkzRf8khZjUTMjU79fe5xdhnFbLv4d4kS4ou",
-      "latest_block_time": 1786888658,
-      "errors_in_recent": 2
+      "latest_signature": "3vE8pkb4Nz6Xcgx6itDHumrZsersH2gSjxisL9xAzNo4kWQCpeCWEvRDXovXvuYXS6LFt6FeRAcEiKRQJjen22ya",
+      "latest_block_time": 1786889852,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1501,
+      "unique_signers_sampled": 1523,
       "blocks_sampled": 3,
-      "transactions_sampled": 3914,
-      "non_vote_transactions_sampled": 1876,
-      "signers_per_block": 500.3,
-      "non_vote_share_pct": 47.93,
+      "transactions_sampled": 4180,
+      "non_vote_transactions_sampled": 2155,
+      "signers_per_block": 507.7,
+      "non_vote_share_pct": 51.56,
       "sampled_slots": [
-        439654123,
-        439652623,
-        439651123
+        439656978,
+        439655478,
+        439653978
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.28,
-      "change_24h_pct": -0.28,
-      "market_cap_usd": 43873383053.19959,
-      "volume_24h_usd": 563683612.6546854,
+      "usd": 75.21,
+      "change_24h_pct": -0.39,
+      "market_cap_usd": 43830492655.727776,
+      "volume_24h_usd": 555929153.1952236,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4803975343.29,
+      "tvl_usd": 4803879068.93,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -189,15 +189,15 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15401870110.9,
+      "total_usd": 15402547272.7,
       "by_peg": {
-        "peggedUSD": 15335503536.64,
-        "peggedEUR": 61520899.54,
+        "peggedUSD": 15336236524.85,
+        "peggedEUR": 61474137.87,
         "peggedJPY": 51.57,
-        "peggedCHF": 1381405.11,
-        "peggedAUD": 2667.1,
-        "peggedVAR": 2433100.54,
-        "peggedGBP": 858519.23,
+        "peggedCHF": 1379434.03,
+        "peggedAUD": 2665.93,
+        "peggedVAR": 2425948.2,
+        "peggedGBP": 858579.07,
         "peggedTRY": 168470.13,
         "peggedCAD": 1460.37,
         "peggedKRW": 0.68
@@ -224,10 +224,10 @@
           "tips_24h_usd": 5564
         }
       ],
-      "app_fees_24h_usd": 8054343.859999999,
-      "app_fees_7d_usd": 65572168.53999998,
-      "app_fees_30d_usd": 241646509.74,
-      "app_fees_change_24h_pct": 0.02,
+      "app_fees_24h_usd": 8145711.859999999,
+      "app_fees_7d_usd": 65663552.53999998,
+      "app_fees_30d_usd": 241737893.74,
+      "app_fees_change_24h_pct": 1.16,
       "protocol_count": 289,
       "top_fee_earning_apps": [
         {
@@ -2291,24 +2291,6 @@
         "url": "https://x.com/solana/status/2088873570965623227"
       },
       {
-        "handle": "solana",
-        "text": "24/7/365",
-        "created_at": "Sun Aug 16 01:58:00 +0000 2026",
-        "url": "https://x.com/solana/status/2088807456587514141"
-      },
-      {
-        "handle": "solana",
-        "text": "Engagement low? Try this: SOLANA",
-        "created_at": "Sat Aug 15 15:00:01 +0000 2026",
-        "url": "https://x.com/solana/status/2088641867999330462"
-      },
-      {
-        "handle": "solana",
-        "text": "Tokenized stock trading on @Solana set a quarterly record in Q2, with billions in volume and equities now the fastest growing tokenized asset class on the network. I keep coming back to the obvious question. Why should markets close? The c\u2026",
-        "created_at": "Fri Aug 14 15:05:01 +0000 2026",
-        "url": "https://x.com/solana/status/2088280740333002951"
-      },
-      {
         "handle": "solanalabs",
         "text": "Shipped Live episode 3 is coming \ud83d\udd1c Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now \ud83d\udc47 https://t.co/dVQgaOulNi",
         "created_at": "Mon Aug 10 19:13:45 +0000 2026",
@@ -2339,7 +2321,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 8,
+    "count": 5,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

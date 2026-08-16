@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 12:14:34",
+  "captured_at": "2026-08-16 13:00:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4154,
+      "measured_slot_time_secs": 0.4158,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.85,
+      "deviation_from_target_pct": 3.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2927.33,
-      "tps_non_vote": 1294.51,
-      "vote_share_pct": 55.78,
-      "avg_slot_time_secs": 0.419,
-      "latest_sample_slot": 439639406,
+      "tps_total": 2641.2,
+      "tps_non_vote": 998.29,
+      "vote_share_pct": 62.2,
+      "avg_slot_time_secs": 0.4155,
+      "latest_sample_slot": 439646041,
       "samples_used": 5,
-      "block_height": 417690034,
-      "current_slot": 439639441
+      "block_height": 417696713,
+      "current_slot": 439646121
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 295442,
+      "slot_index": 302121,
       "slots_in_epoch": 432000,
-      "progress_pct": 68.39,
-      "eta_hours": 15.8,
-      "eta_basis_slot_secs": 0.4154,
-      "transaction_count": 538666411106
+      "progress_pct": 69.94,
+      "eta_hours": 15.0,
+      "eta_basis_slot_secs": 0.4158,
+      "transaction_count": 538674118240
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261463.42,
-      "circulating_sol": 582784553.17,
+      "total_sol": 632261443.19,
+      "circulating_sol": 582784532.93,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4PMdG4mYvRnM9Lkc4RSVy9bTYEwSzGcXHu6fuiTAEd5nYBp4g2T681iEEcXcPgapnvcDj9qKgt3fqXgGGcrMhiXT",
-      "latest_block_time": 1786882469,
-      "errors_in_recent": 2
+      "latest_signature": "2qTUhNZcmjAQJJW7tPc5bbBxTghpeREw16TfHDzuznPhiA6BzLS3zaXvYMTyxD4xHGDprQdeEXis3Pn2NcPdjVUg",
+      "latest_block_time": 1786885248,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1452,
+      "unique_signers_sampled": 1489,
       "blocks_sampled": 3,
-      "transactions_sampled": 3876,
-      "non_vote_transactions_sampled": 1857,
-      "signers_per_block": 484.0,
-      "non_vote_share_pct": 47.91,
+      "transactions_sampled": 3360,
+      "non_vote_transactions_sampled": 1322,
+      "signers_per_block": 496.3,
+      "non_vote_share_pct": 39.35,
       "sampled_slots": [
-        439639262,
-        439637762,
-        439636262
+        439645942,
+        439644442,
+        439642942
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.2,
-      "change_24h_pct": 0.04,
-      "market_cap_usd": 43824250263.42507,
-      "volume_24h_usd": 576883455.7870963,
+      "usd": 75.16,
+      "change_24h_pct": -0.23,
+      "market_cap_usd": 43802001835.07527,
+      "volume_24h_usd": 575835747.1131021,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4803738157.51,
+      "tvl_usd": 4805226314.67,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 692427,
+      "rev_24h_usd": 691772,
       "network_fees_24h_usd": 593836,
-      "mev_tips_24h_usd": 98591,
-      "mev_share_of_rev_pct": 14.24,
-      "rev_annualised_usd": 252735855,
+      "mev_tips_24h_usd": 97936,
+      "mev_share_of_rev_pct": 14.16,
+      "rev_annualised_usd": 252496780,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 82465
+          "tips_24h_usd": 81810
         },
         {
           "name": "Harmonic",

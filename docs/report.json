@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 18:45:04",
+  "captured_at": "2026-08-16 19:02:54",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.414,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.5,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3541.17,
-      "tps_non_vote": 1874.27,
-      "vote_share_pct": 47.07,
-      "avg_slot_time_secs": 0.4104,
-      "latest_sample_slot": 439695714,
+      "tps_total": 3637.39,
+      "tps_non_vote": 2002.46,
+      "vote_share_pct": 44.95,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 439698369,
       "samples_used": 5,
-      "block_height": 417746356,
-      "current_slot": 439695775
+      "block_height": 417748933,
+      "current_slot": 439698352
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 351775,
+      "slot_index": 354353,
       "slots_in_epoch": 432000,
-      "progress_pct": 81.43,
-      "eta_hours": 9.2,
-      "eta_basis_slot_secs": 0.414,
-      "transaction_count": 538749121025
+      "progress_pct": 82.03,
+      "eta_hours": 9.0,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 538753025472
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261247.03,
-      "circulating_sol": 582784336.77,
+      "total_sol": 632261236.9,
+      "circulating_sol": 582784326.65,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "Hgf2EDJH7HmHD55Bn8XnyfRBjNQx5EFJcMnWqPJVFFqtUqbzTkP8dTe5qbF4ge4xk3LW8NiUrioYowtdoebnMZq",
-      "latest_block_time": 1786905898,
-      "errors_in_recent": 9
+      "latest_signature": "4tpVf9Sj8ZJpPrSnRcQxFweGqTHqsDSEL1WfQaz8ZasY6wR1RNvcHP1xHUvUfPFWssVRsy9B2uYHkjFcm3KXANv5",
+      "latest_block_time": 1786906973,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1348,
+      "unique_signers_sampled": 1445,
       "blocks_sampled": 3,
-      "transactions_sampled": 3857,
-      "non_vote_transactions_sampled": 1825,
-      "signers_per_block": 449.3,
-      "non_vote_share_pct": 47.32,
+      "transactions_sampled": 4199,
+      "non_vote_transactions_sampled": 2169,
+      "signers_per_block": 481.7,
+      "non_vote_share_pct": 51.66,
       "sampled_slots": [
-        439695597,
-        439694097,
-        439692597
+        439698178,
+        439696678,
+        439695178
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.12,
-      "change_24h_pct": -0.51,
-      "market_cap_usd": 43777718964.13019,
-      "volume_24h_usd": 596340667.3687378,
+      "usd": 75.13,
+      "change_24h_pct": -0.46,
+      "market_cap_usd": 43781889562.86038,
+      "volume_24h_usd": 597107239.2810184,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4804122507.65,
+      "tvl_usd": 4800732296.88,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.38,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 690959,
+      "rev_24h_usd": 693275,
       "network_fees_24h_usd": 593836,
-      "mev_tips_24h_usd": 97123,
-      "mev_share_of_rev_pct": 14.06,
-      "rev_annualised_usd": 252200035,
+      "mev_tips_24h_usd": 99439,
+      "mev_share_of_rev_pct": 14.34,
+      "rev_annualised_usd": 253045375,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 80997
+          "tips_24h_usd": 83313
         },
         {
           "name": "Harmonic",
@@ -224,9 +224,9 @@
           "tips_24h_usd": 5564
         }
       ],
-      "app_fees_24h_usd": 8145711.859999999,
-      "app_fees_7d_usd": 65663552.53999998,
-      "app_fees_30d_usd": 241737893.74,
+      "app_fees_24h_usd": 8145711.09,
+      "app_fees_7d_usd": 65663550.28999998,
+      "app_fees_30d_usd": 241737841.39000005,
       "app_fees_change_24h_pct": 1.16,
       "protocol_count": 289,
       "top_fee_earning_apps": [

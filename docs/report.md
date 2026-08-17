@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-17 11:40:53 UTC by SolVitals.
+Generated 2026-08-17 11:57:16 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-17 11:40:53 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,436.95 |
-| Total TPS (incl. votes) | 3,105.00 |
-| Vote share of transactions | 53.72% |
-| Average slot time | 0.4104 s |
-| Current slot | 439,842,696 |
-| Block height | 417,893,216 |
+| Non-vote TPS | 1,696.00 |
+| Total TPS (incl. votes) | 3,352.88 |
+| Vote share of transactions | 49.42% |
+| Average slot time | 0.4127 s |
+| Current slot | 439,845,066 |
+| Block height | 417,895,587 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 15.44% complete (`###.................`), ~41.8 hours remaining.
+Epoch **1018** — 15.99% complete (`###.................`), ~41.7 hours remaining.
 
-Slot 66,696 of 432,000. Lifetime transaction count: 538,946,762,339.
+Slot 69,067 of 432,000. Lifetime transaction count: 538,949,999,207.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 66,696 of 432,000. Lifetime transaction count: 538,946,762,339.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4122 s |
-| Deviation from 0.4s target | 3.05% |
+| Measured slot time (`getBlockTime`) | 0.4132 s |
+| Deviation from 0.4s target | 3.3% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,9 +76,9 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.77 (up 0.73%) |
-| Market cap | $44.16B |
-| DeFi TVL | $4.81B |
+| SOL price | $75.68 (up 0.66%) |
+| Market cap | $44.11B |
+| DeFi TVL | $4.82B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.06B (down 9.71%) |
 | Stablecoin supply | $15.40B |
@@ -124,27 +124,27 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.87B |
-| Tokenized equities | $410.88M (21.96% of RWA) |
+| Tokenized equities | $411.08M (21.97% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $381.02M | -0.584% |
-| Ondo Global Markets | $29.86M | 0.182% |
+| xStocks | $381.01M | -0.895% |
+| Ondo Global Markets | $30.06M | 0.348% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $740.96M | RWA |
-| xStocks | $381.02M | RWA |
-| OnRe | $262.35M | RWA |
+| xStocks | $381.01M | RWA |
+| OnRe | $262.33M | RWA |
 | Ondo Yield Assets | $178.96M | RWA |
-| Hastra | $171.53M | RWA |
-| Ondo Global Markets | $29.86M | RWA |
-| Theo Network thBill | $26.36M | RWA |
+| Hastra | $171.52M | RWA |
+| Ondo Global Markets | $30.06M | RWA |
+| Theo Network thBill | $26.37M | RWA |
 | Nest Credit | $22.46M | RWA |
 | Apollo Diversified Credit Securitize Fund | $18.33M | RWA |
 | VanEck Treasury Fund | $13.92M | RWA |
@@ -153,11 +153,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,298 |
+| Unique fee payers (sampled) | 1,506 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,450 |
-| Non-vote share of sample | 40.96% |
-| Signers per block | 432.7 |
+| Transactions in sample | 4,118 |
+| Non-vote share of sample | 50.44% |
+| Signers per block | 502.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,899,309 SOL of 632,388,542 total (92.17%).
+Circulating 582,899,301 SOL of 632,388,534 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-17 14:50:24",
+  "captured_at": "2026-08-17 15:14:16",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4148,
+      "measured_slot_time_secs": 0.4132,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.7,
+      "deviation_from_target_pct": 3.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3927.25,
-      "tps_non_vote": 2273.28,
-      "vote_share_pct": 42.12,
-      "avg_slot_time_secs": 0.4138,
-      "latest_sample_slot": 439870079,
+      "tps_total": 3981.06,
+      "tps_non_vote": 2334.11,
+      "vote_share_pct": 41.37,
+      "avg_slot_time_secs": 0.4167,
+      "latest_sample_slot": 439873568,
       "samples_used": 5,
-      "block_height": 417920687,
-      "current_slot": 439870170
+      "block_height": 417924160,
+      "current_slot": 439873644
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 94170,
+      "slot_index": 97646,
       "slots_in_epoch": 432000,
-      "progress_pct": 21.8,
-      "eta_hours": 38.9,
-      "eta_basis_slot_secs": 0.4148,
-      "transaction_count": 538988457449
+      "progress_pct": 22.6,
+      "eta_hours": 38.4,
+      "eta_basis_slot_secs": 0.4132,
+      "transaction_count": 538994160455
     },
     "validators": {
       "active_count": 689,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632388433.24,
-      "circulating_sol": 582899199.91,
+      "total_sol": 632388418.28,
+      "circulating_sol": 582899184.96,
       "non_circulating_sol": 49489233.32,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "59d3XzPedjKPBaFwaDLsoyCchSjRjfQh9KNz7gaPsbZ7bc3RnfZmM8kU2fg2FVuWjwa57F9mdhWXsEGCAUNzkvT5",
-      "latest_block_time": 1786978220,
-      "errors_in_recent": 0
+      "latest_signature": "5PgzsGEgpoxCwhKe2KHKNRXX4nefuM3JeeZoCk99TyXNZ2ob8sac9Yr1kGWF2RFr5fDVKCh5iykvk9G6pHHXm1pc",
+      "latest_block_time": 1786979659,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1694,
+      "unique_signers_sampled": 1703,
       "blocks_sampled": 3,
-      "transactions_sampled": 4901,
-      "non_vote_transactions_sampled": 2868,
-      "signers_per_block": 564.7,
-      "non_vote_share_pct": 58.52,
+      "transactions_sampled": 5529,
+      "non_vote_transactions_sampled": 3486,
+      "signers_per_block": 567.7,
+      "non_vote_share_pct": 63.05,
       "sampled_slots": [
-        439869993,
-        439868493,
-        439866993
+        439873476,
+        439871976,
+        439870476
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.67,
-      "change_24h_pct": 0.49,
-      "market_cap_usd": 44110841735.163124,
-      "volume_24h_usd": 1231296823.1024523,
+      "usd": 75.91,
+      "change_24h_pct": 0.7,
+      "market_cap_usd": 44240760666.022545,
+      "volume_24h_usd": 1264720322.9941037,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4825597050.07,
+      "tvl_usd": 4827852427.42,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.39,
       "source": "defillama"
@@ -178,12 +178,12 @@
           "volume_24h_usd": 78496252
         },
         {
-          "name": "pump.fun",
-          "volume_24h_usd": 65310815
+          "name": "Raydium AMM",
+          "volume_24h_usd": 65853266
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 59159070
+          "name": "pump.fun",
+          "volume_24h_usd": 65310815
         }
       ],
       "source": "defillama"
@@ -2353,7 +2353,7 @@
       "severity": "warning",
       "message": "rev_24h_usd is 2.1 sigma below its 288-point mean",
       "value": 564944.03,
-      "expected": 758313.7558
+      "expected": 757931.8567
     }
   ]
 }

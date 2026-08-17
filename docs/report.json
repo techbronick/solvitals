@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-17 16:18:30",
+  "captured_at": "2026-08-17 16:51:20",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4216,
+      "measured_slot_time_secs": 0.4264,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 5.4,
+      "deviation_from_target_pct": 6.6,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4299.56,
-      "tps_non_vote": 2708.76,
-      "vote_share_pct": 37.0,
-      "avg_slot_time_secs": 0.4249,
-      "latest_sample_slot": 439882712,
+      "tps_total": 4680.81,
+      "tps_non_vote": 3085.55,
+      "vote_share_pct": 34.08,
+      "avg_slot_time_secs": 0.428,
+      "latest_sample_slot": 439887358,
       "samples_used": 5,
-      "block_height": 417933320,
-      "current_slot": 439882815
+      "block_height": 417937934,
+      "current_slot": 439887434
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 106816,
+      "slot_index": 111436,
       "slots_in_epoch": 432000,
-      "progress_pct": 24.73,
-      "eta_hours": 38.1,
-      "eta_basis_slot_secs": 0.4216,
-      "transaction_count": 539009843053
+      "progress_pct": 25.8,
+      "eta_hours": 38.0,
+      "eta_basis_slot_secs": 0.4264,
+      "transaction_count": 539018862213
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632388377.38,
-      "circulating_sol": 582896118.06,
+      "total_sol": 632388353.57,
+      "circulating_sol": 582896094.25,
       "non_circulating_sol": 49492259.32,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3YU5jTApcZtokJh2sgUxRWGSeD5pwBXwo7QMaYHu2iBGKD8hvsdNnBJe4ucPxcTcuTWSYawJFTtGNGUj6cxC8B6G",
-      "latest_block_time": 1786983502,
-      "errors_in_recent": 1
+      "latest_signature": "uJmNaRYxJPdNC6SnK7su1Wi3JxQ2JSHqthijSrWuq8pPJ3m3pZ1BBWAWCu81i8vLtDeJUKRyiqGb7rNvAdgP9kB",
+      "latest_block_time": 1786985482,
+      "errors_in_recent": 7
     },
     "activity": {
-      "unique_signers_sampled": 1995,
+      "unique_signers_sampled": 1610,
       "blocks_sampled": 3,
-      "transactions_sampled": 4951,
-      "non_vote_transactions_sampled": 2900,
-      "signers_per_block": 665.0,
-      "non_vote_share_pct": 58.57,
+      "transactions_sampled": 6586,
+      "non_vote_transactions_sampled": 4578,
+      "signers_per_block": 536.7,
+      "non_vote_share_pct": 69.51,
       "sampled_slots": [
-        439882630,
-        439881130,
-        439879630
+        439887265,
+        439885765,
+        439884265
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.95,
-      "change_24h_pct": 0.56,
-      "market_cap_usd": 44266379268.6822,
-      "volume_24h_usd": 1310897371.1032574,
+      "usd": 76.04,
+      "change_24h_pct": 0.73,
+      "market_cap_usd": 44324885107.75104,
+      "volume_24h_usd": 1302834715.2411246,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4840425189.93,
+      "tvl_usd": 4844138899.15,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -179,7 +179,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 65853266
+          "volume_24h_usd": 68251844
         },
         {
           "name": "pump.fun",
@@ -2349,18 +2349,18 @@
   },
   "anomalies": [
     {
-      "metric": "unique_signers_sampled",
-      "severity": "critical",
-      "message": "unique_signers_sampled is 3.1 sigma above its 288-point mean",
-      "value": 1995,
-      "expected": 1508.5556
+      "metric": "tps_non_vote",
+      "severity": "warning",
+      "message": "tps_non_vote is 2.2 sigma above its 288-point mean",
+      "value": 3085.55,
+      "expected": 1875.9398
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
       "message": "rev_24h_usd is 2.0 sigma below its 288-point mean",
       "value": 566276.03,
-      "expected": 756781.465
+      "expected": 756382.3159
     }
   ]
 }

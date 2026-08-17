@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-17 07:37:29 UTC by SolVitals.
+Generated 2026-08-17 08:22:20 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.5 sigma below its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.4 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,377.95 |
-| Total TPS (incl. votes) | 3,036.58 |
-| Vote share of transactions | 54.62% |
-| Average slot time | 0.4132 s |
-| Current slot | 439,807,533 |
-| Block height | 417,858,067 |
+| Non-vote TPS | 1,494.15 |
+| Total TPS (incl. votes) | 3,149.25 |
+| Vote share of transactions | 52.56% |
+| Average slot time | 0.4138 s |
+| Current slot | 439,814,009 |
+| Block height | 417,864,544 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 7.3% complete (`#...................`), ~45.9 hours remaining.
+Epoch **1018** — 8.8% complete (`##..................`), ~45.5 hours remaining.
 
-Slot 31,534 of 432,000. Lifetime transaction count: 538,903,549,798.
+Slot 38,009 of 432,000. Lifetime transaction count: 538,911,633,848.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 31,534 of 432,000. Lifetime transaction count: 538,903,549,798.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4128 s |
-| Deviation from 0.4s target | 3.2% |
+| Measured slot time (`getBlockTime`) | 0.4156 s |
+| Deviation from 0.4s target | 3.9% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.82 (up 0.59%) |
-| Market cap | $44.19B |
+| SOL price | $75.38 (down 0.02%) |
+| Market cap | $43.94B |
 | DeFi TVL | $4.82B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.05B (down 9.86%) |
-| Stablecoin supply | $15.42B |
+| Stablecoin supply | $15.43B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$560.42K** |
+| **REV (total)** | **$560.74K** |
 | Network fees | $468.52K |
-| MEV tips (out-of-protocol) | $91.90K (16.4% of REV) |
-| Annualised REV run-rate | $204.55M |
+| MEV tips (out-of-protocol) | $92.22K (16.45% of REV) |
+| Annualised REV run-rate | $204.67M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $79.16K |
+| Jito MEV Tips | $79.48K |
 | Harmonic | $7.91K |
 | bloXroute | $4.83K |
 | Pyth Express Relay | $0 |
@@ -153,11 +153,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,494 |
+| Unique fee payers (sampled) | 1,527 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,804 |
-| Non-vote share of sample | 46.19% |
-| Signers per block | 498.0 |
+| Transactions in sample | 4,124 |
+| Non-vote share of sample | 50.73% |
+| Signers per block | 509.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -169,11 +169,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | BisonFi | $78.50M |
 | Orca DEX | $67.43M |
 | pump.fun | $65.31M |
-| Raydium AMM | $57.77M |
-
-## Supply
-
-Circulating 582,899,437 SOL of 632,388,656 total (92.17%).
+| Raydium AMM | $58.43M |
 
 ## Ecosystem growth (solana.com/data)
 

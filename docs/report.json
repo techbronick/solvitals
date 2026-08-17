@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-17 13:57:53",
+  "captured_at": "2026-08-17 14:22:15",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4146,
+      "measured_slot_time_secs": 0.4152,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.65,
+      "deviation_from_target_pct": 3.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3618.14,
-      "tps_non_vote": 2067.09,
-      "vote_share_pct": 42.87,
-      "avg_slot_time_secs": 0.4412,
-      "latest_sample_slot": 439862519,
+      "tps_total": 4211.47,
+      "tps_non_vote": 2571.9,
+      "vote_share_pct": 38.93,
+      "avg_slot_time_secs": 0.4172,
+      "latest_sample_slot": 439866023,
       "samples_used": 5,
-      "block_height": 417913056,
-      "current_slot": 439862537
+      "block_height": 417916615,
+      "current_slot": 439866095
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 86538,
+      "slot_index": 90095,
       "slots_in_epoch": 432000,
-      "progress_pct": 20.03,
-      "eta_hours": 39.8,
-      "eta_basis_slot_secs": 0.4146,
-      "transaction_count": 538975951960
+      "progress_pct": 20.86,
+      "eta_hours": 39.4,
+      "eta_basis_slot_secs": 0.4152,
+      "transaction_count": 538981801560
     },
     "validators": {
       "active_count": 689,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632388465.1,
-      "circulating_sol": 582899231.77,
+      "total_sol": 632388450.51,
+      "circulating_sol": 582899217.18,
       "non_circulating_sol": 49489233.32,
       "circulating_pct": 92.17
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "38dGBdCbsQkFLsutHXvad96TPeDrpaAvu67Z3KVvgCkxCgNoQKUB2w59c46fhqL6W3V3pz4HVeb7XiZrGRTjrWub",
-      "latest_block_time": 1786975116,
-      "errors_in_recent": 0
+      "latest_signature": "8ofeCF9TCbZt3RmFGoCgkDtM6XauD2Yy11DPEdFjAvRtCT6QJfBg4tVmwBw5JZCj1sXHwiDBWmqGXrFeSPpFkQc",
+      "latest_block_time": 1786976531,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1600,
+      "unique_signers_sampled": 1693,
       "blocks_sampled": 3,
-      "transactions_sampled": 5001,
-      "non_vote_transactions_sampled": 2962,
-      "signers_per_block": 533.3,
-      "non_vote_share_pct": 59.23,
+      "transactions_sampled": 5183,
+      "non_vote_transactions_sampled": 3124,
+      "signers_per_block": 564.3,
+      "non_vote_share_pct": 60.27,
       "sampled_slots": [
-        439862506,
-        439861006,
-        439859506
+        439865916,
+        439864416,
+        439862916
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.51,
-      "change_24h_pct": 0.33,
-      "market_cap_usd": 44022196593.30675,
-      "volume_24h_usd": 1200012631.4281526,
+      "usd": 75.58,
+      "change_24h_pct": 0.36,
+      "market_cap_usd": 44053523021.7739,
+      "volume_24h_usd": 1214321358.4575357,
       "source": "coingecko"
     },
     "tvl": {
@@ -183,23 +183,23 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 59159070
+          "volume_24h_usd": 60870168
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15365732031.04,
+      "total_usd": 15357677697.23,
       "by_peg": {
-        "peggedUSD": 15303982636.59,
-        "peggedEUR": 56881079.58,
-        "peggedJPY": 52.66,
-        "peggedCHF": 1382140.53,
-        "peggedAUD": 2675.16,
-        "peggedVAR": 2454048.81,
-        "peggedGBP": 859461.24,
+        "peggedUSD": 15295902418.45,
+        "peggedEUR": 56903592.79,
+        "peggedJPY": 52.67,
+        "peggedCHF": 1388593.35,
+        "peggedAUD": 2674.3,
+        "peggedVAR": 2454098.32,
+        "peggedGBP": 856330.81,
         "peggedTRY": 168472.42,
-        "peggedCAD": 1463.37,
+        "peggedCAD": 1463.43,
         "peggedKRW": 0.68
       },
       "source": "defillama"
@@ -2290,27 +2290,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "\ud83d\udccaREPORT: @Solana continues to surpass all L1 and L2 chains in weekly DEX volume for the 16th consecutive week. https://t.co/D2yj2vKqF9",
-        "created_at": "Mon Aug 17 11:15:00 +0000 2026",
-        "url": "https://x.com/solana/status/2089310017161949541"
+        "text": "Onchain coverage lands on Solana. @NexusMutual opened protocol cover for @kamino, @JupiterExchange, @Raydium and @orca_so as their first listings outside EVM.",
+        "created_at": "Mon Aug 17 13:37:40 +0000 2026",
+        "url": "https://x.com/solana/status/2089345920538124339"
       },
       {
         "handle": "solana",
-        "text": "https://t.co/wSa3KD0ino",
-        "created_at": "Mon Aug 17 10:30:00 +0000 2026",
-        "url": "https://x.com/solana/status/2089298695393296819"
+        "text": "AgentRes by @blauyourmind is now live on https://t.co/wObxm2bzf3 You can now book restaurants on demand, no accounts required. Search live availability, snipe hard-to-get Resy tables the moment booking windows open, and check real-time wal\u2026",
+        "created_at": "Mon Aug 17 13:27:45 +0000 2026",
+        "url": "https://x.com/solana/status/2089343425007239259"
       },
       {
         "handle": "solana",
-        "text": "Meet @crowdbrainai, the human infrastructure layer for physical AI and @colosseum's grand champion https://t.co/4A1khO30xC",
-        "created_at": "Mon Aug 17 08:58:33 +0000 2026",
-        "url": "https://x.com/solana/status/2089275679929958578"
+        "text": "The infrastructure of @solana allows it to handle more spot volume than CEXs like Coinbase, for 2 months running:",
+        "created_at": "Mon Aug 17 13:12:36 +0000 2026",
+        "url": "https://x.com/solana/status/2089339612179132452"
       },
       {
         "handle": "solana",
-        "text": "heating up https://t.co/eSR7071DHV",
-        "created_at": "Sun Aug 16 20:57:10 +0000 2026",
-        "url": "https://x.com/solana/status/2089094138209968575"
+        "text": "Solana, You're Covered Nexus Mutual's first non-EVM listings are live: \u2022 @kamino \u2022 @Raydium \u2022 @orca_so \u2022 @JupiterExchange We've been privately underwriting @solana risk for institutional funds. Today that protection goes public, and it rea\u2026",
+        "created_at": "Thu Aug 13 14:00:00 +0000 2026",
+        "url": "https://x.com/solana/status/2087901992417186303"
       },
       {
         "handle": "solanalabs",
@@ -2353,7 +2353,7 @@
       "severity": "warning",
       "message": "rev_24h_usd is 2.2 sigma below its 288-point mean",
       "value": 563660.03,
-      "expected": 759067.8318
+      "expected": 758690.7938
     }
   ]
 }

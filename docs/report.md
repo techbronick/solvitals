@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-17 11:14:35 UTC by SolVitals.
+Generated 2026-08-17 11:40:53 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-17 11:14:35 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,528.94 |
-| Total TPS (incl. votes) | 3,189.28 |
-| Vote share of transactions | 52.06% |
-| Average slot time | 0.4132 s |
-| Current slot | 439,838,867 |
-| Block height | 417,889,387 |
+| Non-vote TPS | 1,436.95 |
+| Total TPS (incl. votes) | 3,105.00 |
+| Vote share of transactions | 53.72% |
+| Average slot time | 0.4104 s |
+| Current slot | 439,842,696 |
+| Block height | 417,893,216 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 14.55% complete (`###.................`), ~42.4 hours remaining.
+Epoch **1018** — 15.44% complete (`###.................`), ~41.8 hours remaining.
 
-Slot 62,867 of 432,000. Lifetime transaction count: 538,941,790,281.
+Slot 66,696 of 432,000. Lifetime transaction count: 538,946,762,339.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 62,867 of 432,000. Lifetime transaction count: 538,941,790,281.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4136 s |
-| Deviation from 0.4s target | 3.4% |
+| Measured slot time (`getBlockTime`) | 0.4122 s |
+| Deviation from 0.4s target | 3.05% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.67 (up 0.62%) |
-| Market cap | $44.10B |
+| SOL price | $75.77 (up 0.73%) |
+| Market cap | $44.16B |
 | DeFi TVL | $4.81B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.06B (down 9.71%) |
@@ -153,11 +153,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,422 |
+| Unique fee payers (sampled) | 1,298 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,783 |
-| Non-vote share of sample | 46.1% |
-| Signers per block | 474.0 |
+| Transactions in sample | 3,450 |
+| Non-vote share of sample | 40.96% |
+| Signers per block | 432.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -170,6 +170,10 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | Orca DEX | $77.10M |
 | pump.fun | $65.31M |
 | Raydium AMM | $58.85M |
+
+## Supply
+
+Circulating 582,899,309 SOL of 632,388,542 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -199,10 +203,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — A quick look at where Solana stands right now 👇 • 1B+ weekly non-vote transactions • 92.5% of cumulative tokenized equities spot volume • #1 chain by DEX volume • #1 chain by app revenue Not a bad place to build. Sources: @Blockworks, @Def… [(link)](https://x.com/solana/status/2088998350351671789)
-- **@solana** — Somewhere between a corner store, a silver vault, and a gacha machine, Solana had a week. Cash access hit nearly 500K retail locations, silver came onchain fully audited, and a luxury watch is waiting to be pulled. Here’s everything that s… [(link)](https://x.com/solana/status/2088992929020862907)
-- **@solana** — INSIGHT: @Solana set a new record of 170M+ daily non-vote transactions, more than 10x the next closest blockchain. https://t.co/9Bmbdd11MA [(link)](https://x.com/solana/status/2088978264249577961)
-- **@solana** — Solana artists are different. https://t.co/ZlEzpi3b49 [(link)](https://x.com/solana/status/2088873570965623227)
+- **@solana** — 📊REPORT: @Solana continues to surpass all L1 and L2 chains in weekly DEX volume for the 16th consecutive week. https://t.co/D2yj2vKqF9 [(link)](https://x.com/solana/status/2089310017161949541)
+- **@solana** — https://t.co/wSa3KD0ino [(link)](https://x.com/solana/status/2089298695393296819)
+- **@solana** — Meet @crowdbrainai, the human infrastructure layer for physical AI and @colosseum's grand champion https://t.co/4A1khO30xC [(link)](https://x.com/solana/status/2089275679929958578)
+- **@solana** — heating up https://t.co/eSR7071DHV [(link)](https://x.com/solana/status/2089094138209968575)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)
@@ -216,8 +220,8 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | --- | --- |
 | Improvement proposals tracked | 123 |
 | With an assigned feature gate | 33 |
-| Gates live on mainnet | 0 |
-| Gates awaiting mainnet | 33 |
+| Gates live on mainnet | 22 |
+| Gates awaiting mainnet | 11 |
 
 ### Proposals by status
 
@@ -242,7 +246,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | SIMD-0326 | Alpenglow | Review | no gate assigned yet |
 | SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
 | SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
-| SIMD-0384 | Alpenglow migration | Review | mainnet: unknown (RPC unreachable), testnet: not created, devnet: not created |
+| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: not created, devnet: not created |
 | SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
 
 _A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
@@ -251,18 +255,17 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 | SIMD | Feature | Mainnet | Testnet | Devnet |
 | --- | --- | --- | --- | --- |
-| SIMD-0089 | `migrate_feature_gate_program_to_core_bpf` | unknown (RPC unreachable) | active (slot 316,748,256) | active (slot 352,512,000) |
-| SIMD-0127 | `get_sysvar_syscall_enabled` | unknown (RPC unreachable) | active (slot 316,748,256) | active (slot 348,192,000) |
-| SIMD-0128 | `migrate_address_lookup_table_program_to_core_bpf` | unknown (RPC unreachable) | active (slot 321,068,256) | active (slot 366,768,000) |
-| SIMD-0138 | `deprecate_unused_legacy_vote_plumbing` | unknown (RPC unreachable) | active (slot 284,348,256) | active (slot 315,360,000) |
-| SIMD-0152 | `ed25519_precompile_verify_strict` | unknown (RPC unreachable) | active (slot 299,900,256) | active (slot 341,712,000) |
-| SIMD-0153 | `zk_elgamal_proof_program_enabled` | unknown (RPC unreachable) | active (slot 302,924,256) | active (slot 346,032,000) |
-| SIMD-0162 | `remove_accounts_executable_flag_checks` | unknown (RPC unreachable) | active (slot 339,212,256) | active (slot 390,096,000) |
-| SIMD-0163 | `None` | unknown (RPC unreachable) | not created | not created |
-| SIMD-0166 | `enable_sbpf_v1_deployment_and_execution` | unknown (RPC unreachable) | active (slot 338,780,256) | active (slot 389,664,000) |
-| SIMD-0173 | `enable_sbpf_v2_deployment_and_execution` | unknown (RPC unreachable) | active (slot 346,124,256) | active (slot 396,576,000) |
-| SIMD-0174 | `enable_sbpf_v2_deployment_and_execution` | unknown (RPC unreachable) | active (slot 346,124,256) | active (slot 396,576,000) |
-| SIMD-0175 | `disable_partitioned_rent_collection` | unknown (RPC unreachable) | active (slot 337,916,256) | active (slot 387,072,000) |
+| SIMD-0163 | `None` | not created | not created | not created |
+| SIMD-0178 | `None` | not created | not created | not created |
+| SIMD-0189 | `None` | not created | not created | not created |
+| SIMD-0219 | `None` | not created | not created | not created |
+| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
+| SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
+| SIMD-0384 | `None` | not created | not created | not created |
+| SIMD-0387 | `None` | not created | not created | not created |
+| SIMD-0406 | `None` | not created | not created | not created |
+| SIMD-0430 | `None` | not created | not created | not created |
+| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
 
 ## Ecosystem and community news
 

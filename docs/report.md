@@ -1,30 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-17 15:56:43 UTC by SolVitals.
+Generated 2026-08-17 16:18:30 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.1 sigma below its 288-point mean
-- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.0 sigma above its 288-point mean
+- [CRITICAL] **unique_signers_sampled** — unique_signers_sampled is 3.1 sigma above its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.0 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,859.94 |
-| Total TPS (incl. votes) | 4,476.82 |
-| Vote share of transactions | 36.12% |
-| Average slot time | 0.4213 s |
-| Current slot | 439,879,711 |
-| Block height | 417,930,223 |
+| Non-vote TPS | 2,708.76 |
+| Total TPS (incl. votes) | 4,299.56 |
+| Vote share of transactions | 37.00% |
+| Average slot time | 0.4249 s |
+| Current slot | 439,882,815 |
+| Block height | 417,933,320 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 24.01% complete (`#####...............`), ~38.1 hours remaining.
+Epoch **1018** — 24.73% complete (`#####...............`), ~38.1 hours remaining.
 
-Slot 103,711 of 432,000. Lifetime transaction count: 539,004,393,142.
+Slot 106,816 of 432,000. Lifetime transaction count: 539,009,843,053.
 
 ## Transaction costs and slot timing
 
@@ -35,14 +35,14 @@ Slot 103,711 of 432,000. Lifetime transaction count: 539,004,393,142.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4178 s |
-| Deviation from 0.4s target | 4.45% |
+| Measured slot time (`getBlockTime`) | 0.4216 s |
+| Deviation from 0.4s target | 5.4% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -77,27 +77,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.13 (up 0.84%) |
-| Market cap | $44.38B |
-| DeFi TVL | $4.83B |
+| SOL price | $75.95 (up 0.56%) |
+| Market cap | $44.27B |
+| DeFi TVL | $4.84B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.06B (down 9.71%) |
-| Stablecoin supply | $15.37B |
+| Stablecoin supply | $15.42B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$566.29K** |
+| **REV (total)** | **$566.28K** |
 | Network fees | $468.52K |
-| MEV tips (out-of-protocol) | $97.77K (17.26% of REV) |
+| MEV tips (out-of-protocol) | $97.76K (17.26% of REV) |
 | Annualised REV run-rate | $206.69M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $85.03K |
+| Jito MEV Tips | $85.02K |
 | Harmonic | $7.91K |
 | bloXroute | $4.83K |
 | Pyth Express Relay | $0 |
@@ -154,11 +154,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,823 |
+| Unique fee payers (sampled) | 1,995 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,569 |
-| Non-vote share of sample | 63.33% |
-| Signers per block | 607.7 |
+| Transactions in sample | 4,951 |
+| Non-vote share of sample | 58.57% |
+| Signers per block | 665.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,899,158 SOL of 632,388,392 total (92.17%).
+Circulating 582,896,118 SOL of 632,388,377 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 

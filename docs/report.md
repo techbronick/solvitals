@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-17 20:49:33 UTC by SolVitals.
+Generated 2026-08-17 21:14:43 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,833.62 |
-| Total TPS (incl. votes) | 4,476.13 |
-| Vote share of transactions | 36.69% |
-| Average slot time | 0.4138 s |
-| Current slot | 439,921,774 |
-| Block height | 417,972,199 |
+| Non-vote TPS | 2,400.16 |
+| Total TPS (incl. votes) | 4,039.19 |
+| Vote share of transactions | 40.58% |
+| Average slot time | 0.4155 s |
+| Current slot | 439,925,415 |
+| Block height | 417,975,832 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 33.74% complete (`#######.............`), ~33.0 hours remaining.
+Epoch **1018** — 34.59% complete (`#######.............`), ~32.6 hours remaining.
 
-Slot 145,774 of 432,000. Lifetime transaction count: 539,082,071,693.
+Slot 149,415 of 432,000. Lifetime transaction count: 539,088,378,824.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 145,774 of 432,000. Lifetime transaction count: 539,082,071,693.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4146 s |
-| Deviation from 0.4s target | 3.65% |
+| Measured slot time (`getBlockTime`) | 0.4148 s |
+| Deviation from 0.4s target | 3.7% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -47,10 +47,10 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 689 |
-| Delinquent validators | 6 (0.86%) |
-| Stake held by delinquents | 360,985 SOL (0.083%) |
-| Total active stake | 435,315,811 SOL |
+| Active validators | 688 |
+| Delinquent validators | 7 (1.01%) |
+| Stake held by delinquents | 362,381 SOL (0.083%) |
+| Total active stake | 435,314,415 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 256 |
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.93 (up 1.13%) |
-| Market cap | $44.26B |
+| SOL price | $75.89 (up 1.17%) |
+| Market cap | $44.24B |
 | DeFi TVL | $4.85B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.06B (down 9.71%) |
@@ -87,23 +87,23 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$587.77K** |
+| **REV (total)** | **$591.85K** |
 | Network fees | $468.52K |
-| MEV tips (out-of-protocol) | $119.25K (20.29% of REV) |
-| Annualised REV run-rate | $214.54M |
+| MEV tips (out-of-protocol) | $123.33K (20.84% of REV) |
+| Annualised REV run-rate | $216.02M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $106.51K |
+| Jito MEV Tips | $110.59K |
 | Harmonic | $7.91K |
 | bloXroute | $4.83K |
 | Pyth Express Relay | $0 |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 290 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
@@ -153,11 +153,11 @@ Fees earned by the 289 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,436 |
+| Unique fee payers (sampled) | 1,573 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,985 |
-| Non-vote share of sample | 59.14% |
-| Signers per block | 478.7 |
+| Transactions in sample | 4,808 |
+| Non-vote share of sample | 57.59% |
+| Signers per block | 524.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -167,13 +167,9 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $502.56M |
 | Orca DEX | $97.21M |
-| Raydium AMM | $80.34M |
-| Manifest Trade | $78.91M |
+| Manifest Trade | $83.77M |
+| Raydium AMM | $80.93M |
 | BisonFi | $78.50M |
-
-## Supply
-
-Circulating 582,895,931 SOL of 632,388,190 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -212,8 +208,8 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | --- | --- |
 | Improvement proposals tracked | 123 |
 | With an assigned feature gate | 33 |
-| Gates live on mainnet | 22 |
-| Gates awaiting mainnet | 11 |
+| Gates live on mainnet | 0 |
+| Gates awaiting mainnet | 33 |
 
 ### Proposals by status
 
@@ -238,7 +234,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | SIMD-0326 | Alpenglow | Review | no gate assigned yet |
 | SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
 | SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
-| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: not created, devnet: not created |
+| SIMD-0384 | Alpenglow migration | Review | mainnet: unknown (RPC unreachable), testnet: not created, devnet: not created |
 | SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
 
 _A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
@@ -247,17 +243,18 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 | SIMD | Feature | Mainnet | Testnet | Devnet |
 | --- | --- | --- | --- | --- |
-| SIMD-0163 | `None` | not created | not created | not created |
-| SIMD-0178 | `None` | not created | not created | not created |
-| SIMD-0189 | `None` | not created | not created | not created |
-| SIMD-0219 | `None` | not created | not created | not created |
-| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
-| SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
-| SIMD-0384 | `None` | not created | not created | not created |
-| SIMD-0387 | `None` | not created | not created | not created |
-| SIMD-0406 | `None` | not created | not created | not created |
-| SIMD-0430 | `None` | not created | not created | not created |
-| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
+| SIMD-0089 | `migrate_feature_gate_program_to_core_bpf` | unknown (RPC unreachable) | active (slot 316,748,256) | active (slot 352,512,000) |
+| SIMD-0127 | `get_sysvar_syscall_enabled` | unknown (RPC unreachable) | active (slot 316,748,256) | active (slot 348,192,000) |
+| SIMD-0128 | `migrate_address_lookup_table_program_to_core_bpf` | unknown (RPC unreachable) | active (slot 321,068,256) | active (slot 366,768,000) |
+| SIMD-0138 | `deprecate_unused_legacy_vote_plumbing` | unknown (RPC unreachable) | active (slot 284,348,256) | active (slot 315,360,000) |
+| SIMD-0152 | `ed25519_precompile_verify_strict` | unknown (RPC unreachable) | active (slot 299,900,256) | active (slot 341,712,000) |
+| SIMD-0153 | `zk_elgamal_proof_program_enabled` | unknown (RPC unreachable) | active (slot 302,924,256) | active (slot 346,032,000) |
+| SIMD-0162 | `remove_accounts_executable_flag_checks` | unknown (RPC unreachable) | active (slot 339,212,256) | active (slot 390,096,000) |
+| SIMD-0163 | `None` | unknown (RPC unreachable) | not created | not created |
+| SIMD-0166 | `enable_sbpf_v1_deployment_and_execution` | unknown (RPC unreachable) | active (slot 338,780,256) | active (slot 389,664,000) |
+| SIMD-0173 | `enable_sbpf_v2_deployment_and_execution` | unknown (RPC unreachable) | active (slot 346,124,256) | active (slot 396,576,000) |
+| SIMD-0174 | `enable_sbpf_v2_deployment_and_execution` | unknown (RPC unreachable) | active (slot 346,124,256) | active (slot 396,576,000) |
+| SIMD-0175 | `disable_partitioned_rent_collection` | unknown (RPC unreachable) | active (slot 337,916,256) | active (slot 387,072,000) |
 
 ## Ecosystem and community news
 

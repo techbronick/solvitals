@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-16 23:53:21",
+  "captured_at": "2026-08-17 00:31:56",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.413,
+      "measured_slot_time_secs": 0.4152,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.25,
+      "deviation_from_target_pct": 3.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3403.36,
-      "tps_non_vote": 1727.88,
-      "vote_share_pct": 49.23,
-      "avg_slot_time_secs": 0.4076,
-      "latest_sample_slot": 439740227,
+      "tps_total": 3558.5,
+      "tps_non_vote": 1938.86,
+      "vote_share_pct": 45.51,
+      "avg_slot_time_secs": 0.4225,
+      "latest_sample_slot": 439745867,
       "samples_used": 5,
-      "block_height": 417790892,
-      "current_slot": 439740327
+      "block_height": 417796471,
+      "current_slot": 439745912
     },
     "epoch": {
       "epoch": 1017,
-      "slot_index": 396327,
+      "slot_index": 401914,
       "slots_in_epoch": 432000,
-      "progress_pct": 91.74,
-      "eta_hours": 4.1,
-      "eta_basis_slot_secs": 0.413,
-      "transaction_count": 538814282230
+      "progress_pct": 93.04,
+      "eta_hours": 3.5,
+      "eta_basis_slot_secs": 0.4152,
+      "transaction_count": 538822407128
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632261077.11,
-      "circulating_sol": 582784166.85,
+      "total_sol": 632261055.95,
+      "circulating_sol": 582784145.69,
       "non_circulating_sol": 49476910.26,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5LP8AW7EUgF9pF4CayWyoB5zyduHo1q48rHXdnwJkMC4tjW4Vjx4ywhg6X3iXzQs72taaW8b711AvZxhpoSfgH3x",
-      "latest_block_time": 1786924395,
+      "latest_signature": "5TBEaqC5jusQEjysSJN47Mn164AM4jRRa5RisbLVdbGkEm5iNcQrx1fzWHGBra6gwuhDUH4w2KYLXotMzMELrQBG",
+      "latest_block_time": 1786926719,
       "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1339,
+      "unique_signers_sampled": 1479,
       "blocks_sampled": 3,
-      "transactions_sampled": 3470,
-      "non_vote_transactions_sampled": 1442,
-      "signers_per_block": 446.3,
-      "non_vote_share_pct": 41.56,
+      "transactions_sampled": 4912,
+      "non_vote_transactions_sampled": 2867,
+      "signers_per_block": 493.0,
+      "non_vote_share_pct": 58.37,
       "sampled_slots": [
-        439740145,
-        439738645,
-        439737145
+        439745743,
+        439744243,
+        439742743
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 74.57,
-      "change_24h_pct": -0.96,
-      "market_cap_usd": 43460829136.94079,
-      "volume_24h_usd": 715408351.7150266,
+      "usd": 74.56,
+      "change_24h_pct": -1.06,
+      "market_cap_usd": 43453061739.73493,
+      "volume_24h_usd": 720976987.2300879,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4781363807.19,
+      "tvl_usd": 4778503032.84,
       "rank_by_tvl": 4,
       "share_of_all_chains_pct": 6.38,
       "source": "defillama"
@@ -189,15 +189,15 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15393827164.39,
+      "total_usd": 15415590366.71,
       "by_peg": {
-        "peggedUSD": 15327497379.05,
-        "peggedEUR": 61486180.23,
-        "peggedJPY": 52.6,
-        "peggedCHF": 1379826.12,
-        "peggedAUD": 2665.38,
-        "peggedVAR": 2432565.53,
-        "peggedGBP": 858564.76,
+        "peggedUSD": 15349218653.99,
+        "peggedEUR": 61507449.48,
+        "peggedJPY": 52.56,
+        "peggedCHF": 1382159.91,
+        "peggedAUD": 2665.27,
+        "peggedVAR": 2450823.59,
+        "peggedGBP": 858631.2,
         "peggedTRY": 168470.13,
         "peggedCAD": 1459.9,
         "peggedKRW": 0.68
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 688259,
+      "rev_24h_usd": 688525,
       "network_fees_24h_usd": 593836,
-      "mev_tips_24h_usd": 94423,
-      "mev_share_of_rev_pct": 13.72,
-      "rev_annualised_usd": 251214535,
+      "mev_tips_24h_usd": 94689,
+      "mev_share_of_rev_pct": 13.75,
+      "rev_annualised_usd": 251311625,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 78297
+          "tips_24h_usd": 78563
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 5564
         }
       ],
-      "app_fees_24h_usd": 8145711.09,
-      "app_fees_7d_usd": 65663550.28999998,
-      "app_fees_30d_usd": 241737841.39000005,
-      "app_fees_change_24h_pct": 1.16,
+      "app_fees_24h_usd": 8251907.010000001,
+      "app_fees_7d_usd": 57706214.38999997,
+      "app_fees_30d_usd": 236794074.62000003,
+      "app_fees_change_24h_pct": 1.3,
       "protocol_count": 289,
       "top_fee_earning_apps": [
         {
@@ -248,7 +248,7 @@
         },
         {
           "name": "Collector Crypt",
-          "fees_24h_usd": 365212
+          "fees_24h_usd": 433265
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2031,6 +2031,12 @@
   "news": {
     "items": [
       {
+        "title": "Transaction v1 and the ALT Trade-off",
+        "link": "https://solana.com/news/transaction-v1-and-the-alt-trade-off",
+        "published": "Mon, 17 Aug 2026 00:00:00 GMT",
+        "summary": ""
+      },
+      {
         "title": "Solana Changelog: August 13, 2026",
         "link": "https://solana.com/news/solana-changelog-august-13-2026",
         "published": "Thu, 13 Aug 2026 15:03:00 GMT",
@@ -2071,12 +2077,6 @@
         "link": "https://solana.com/news/the-token-supercycle",
         "published": "Tue, 04 Aug 2026 13:05:00 GMT",
         "summary": "The last cycle was built on software and cheap money. This one is built from steel, silicon, and energy; and the tokens moving the capital behind it. Speaker applications are now live for Breakpoint 2026:"
-      },
-      {
-        "title": "Inside Solana\u2019s Growing Market for Tokenized Cards and Physical Collectibles",
-        "link": "https://solana.com/news/tokenized-cards-and-physical-collectibles",
-        "published": "Fri, 31 Jul 2026 10:00:00 GMT",
-        "summary": "Collector Crypt has crossed $1.6B in volume as Solana apps bring vaulted cards, packs, buybacks, and physical redemption onchain."
       }
     ],
     "count": 8,

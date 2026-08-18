@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 19:36:56",
+  "captured_at": "2026-08-18 19:54:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4178,
+      "measured_slot_time_secs": 0.4166,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.45,
+      "deviation_from_target_pct": 4.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4042.04,
-      "tps_non_vote": 2386.39,
-      "vote_share_pct": 40.96,
-      "avg_slot_time_secs": 0.4127,
-      "latest_sample_slot": 440119313,
+      "tps_total": 4007.06,
+      "tps_non_vote": 2345.18,
+      "vote_share_pct": 41.47,
+      "avg_slot_time_secs": 0.4115,
+      "latest_sample_slot": 440121909,
       "samples_used": 5,
-      "block_height": 418169647,
-      "current_slot": 440119370
+      "block_height": 418172199,
+      "current_slot": 440121922
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 343371,
+      "slot_index": 345923,
       "slots_in_epoch": 432000,
-      "progress_pct": 79.48,
-      "eta_hours": 10.3,
-      "eta_basis_slot_secs": 0.4178,
-      "transaction_count": 539381043869
+      "progress_pct": 80.07,
+      "eta_hours": 10.0,
+      "eta_basis_slot_secs": 0.4166,
+      "transaction_count": 539385391039
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632387409.49,
-      "circulating_sol": 582892224.76,
+      "total_sol": 632387398.18,
+      "circulating_sol": 582892213.45,
       "non_circulating_sol": 49495184.73,
       "circulating_pct": 92.17
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5Qjhiq5JA2V7kage9A4GHYzXQtGQDtrGc4ALJRTrBu2XWesXYwxrDBGejESmRboE9vQDLPumRZJbcdsHtXvAheXR",
-      "latest_block_time": 1787081809,
-      "errors_in_recent": 4
+      "latest_signature": "3k3CvLzmV3arwNmJ2Rcot6gG5gJLXEM3VPaTzyEBnaNxW5Byf8MjDf2HeUhAXBocmgetSFjCcCJSLVikLBY7Ruhh",
+      "latest_block_time": 1787082871,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1610,
+      "unique_signers_sampled": 1630,
       "blocks_sampled": 3,
-      "transactions_sampled": 6207,
-      "non_vote_transactions_sampled": 4158,
-      "signers_per_block": 536.7,
-      "non_vote_share_pct": 66.99,
+      "transactions_sampled": 5119,
+      "non_vote_transactions_sampled": 3093,
+      "signers_per_block": 543.3,
+      "non_vote_share_pct": 60.42,
       "sampled_slots": [
-        440119187,
-        440117687,
-        440116187
+        440121744,
+        440120244,
+        440118744
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.24,
-      "change_24h_pct": 1.99,
-      "market_cap_usd": 45022536153.94497,
-      "volume_24h_usd": 1385453894.3215976,
+      "usd": 77.09,
+      "change_24h_pct": 1.82,
+      "market_cap_usd": 44937012095.51213,
+      "volume_24h_usd": 1385800654.2911057,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4895913563.93,
-      "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.42,
+      "tvl_usd": 4901670558.76,
+      "rank_by_tvl": 2,
+      "share_of_all_chains_pct": 6.43,
       "source": "defillama"
     },
     "dex_volume": {
@@ -2330,13 +2330,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "price_usd",
-      "severity": "critical",
-      "message": "price_usd is 3.4 sigma above its 287-point mean",
-      "value": 77.24,
-      "expected": 75.6107
-    }
-  ]
+  "anomalies": []
 }

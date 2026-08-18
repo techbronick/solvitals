@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 07:51:32",
+  "captured_at": "2026-08-18 08:21:08",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4154,
+      "measured_slot_time_secs": 0.4122,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.85,
+      "deviation_from_target_pct": 3.05,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 9266.12,
-      "tps_non_vote": 3958.64,
-      "vote_share_pct": 57.28,
-      "avg_slot_time_secs": 0.1271,
-      "latest_sample_slot": 440017473,
+      "tps_total": 2989.17,
+      "tps_non_vote": 1321.73,
+      "vote_share_pct": 55.78,
+      "avg_slot_time_secs": 0.4104,
+      "latest_sample_slot": 440021893,
       "samples_used": 5,
-      "block_height": 418067936,
-      "current_slot": 440017554
+      "block_height": 418072252,
+      "current_slot": 440021870
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 241554,
+      "slot_index": 245871,
       "slots_in_epoch": 432000,
-      "progress_pct": 55.92,
-      "eta_hours": 22.0,
-      "eta_basis_slot_secs": 0.4154,
-      "transaction_count": 539213897168
+      "progress_pct": 56.91,
+      "eta_hours": 21.3,
+      "eta_basis_slot_secs": 0.4122,
+      "transaction_count": 539218962220
     },
     "validators": {
       "active_count": 689,
@@ -105,7 +105,10 @@
       ]
     },
     "supply": {
-      "error": "all RPC endpoints failed for getSupply: https://api.mainnet-beta.solana.com: The read operation timed out; https://solana-rpc.publicnode.com: The read operation timed out"
+      "total_sol": 632387831.95,
+      "circulating_sol": 582895572.63,
+      "non_circulating_sol": 49492259.32,
+      "circulating_pct": 92.17
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
@@ -123,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3dd1tMeZP6L9aBDDpvk3iPjfgKNCE1wjdmArVSy3fh4bBRpcGP1sB2ZYF3k45h1e2xiDFHrt6yLox3Zs7ee6QQGQ",
-      "latest_block_time": 1787039607,
-      "errors_in_recent": 2
+      "latest_signature": "5jgSQVCSh5qiEddbP3KR1HkPvPZnG1JRT42sw2qwcNfs6Cj2z8CSrA6TjDdV7WQH8EZBo5icn9Ez4mBLFe8Ge8xy",
+      "latest_block_time": 1787041267,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1560,
+      "unique_signers_sampled": 1176,
       "blocks_sampled": 3,
-      "transactions_sampled": 3480,
-      "non_vote_transactions_sampled": 1433,
-      "signers_per_block": 520.0,
-      "non_vote_share_pct": 41.18,
+      "transactions_sampled": 3150,
+      "non_vote_transactions_sampled": 1115,
+      "signers_per_block": 392.0,
+      "non_vote_share_pct": 35.4,
       "sampled_slots": [
-        440017659,
-        440016159,
-        440014659
+        440021696,
+        440020196,
+        440018696
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.94,
-      "change_24h_pct": 0.33,
-      "market_cap_usd": 44266297265.73619,
-      "volume_24h_usd": 1327027561.8430977,
+      "usd": 75.85,
+      "change_24h_pct": 0.56,
+      "market_cap_usd": 44214114475.86996,
+      "volume_24h_usd": 1323923629.069763,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4849791340.45,
+      "tvl_usd": 4849646883.91,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -2346,11 +2349,11 @@
   },
   "anomalies": [
     {
-      "metric": "tps_non_vote",
-      "severity": "critical",
-      "message": "tps_non_vote is 3.8 sigma above its 288-point mean",
-      "value": 3958.64,
-      "expected": 1890.9487
+      "metric": "unique_signers_sampled",
+      "severity": "warning",
+      "message": "unique_signers_sampled is 2.1 sigma below its 288-point mean",
+      "value": 1176,
+      "expected": 1510.4167
     }
   ]
 }

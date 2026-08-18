@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-18 11:58:46 UTC by SolVitals.
+Generated 2026-08-18 12:40:23 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,093.55 |
-| Total TPS (incl. votes) | 3,743.31 |
-| Vote share of transactions | 44.07% |
-| Average slot time | 0.4149 s |
-| Current slot | 440,053,333 |
-| Block height | 418,103,677 |
+| Non-vote TPS | 2,273.73 |
+| Total TPS (incl. votes) | 3,909.56 |
+| Vote share of transactions | 41.84% |
+| Average slot time | 0.4144 s |
+| Current slot | 440,059,346 |
+| Block height | 418,109,674 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 64.2% complete (`#############.......`), ~17.8 hours remaining.
+Epoch **1018** — 65.59% complete (`#############.......`), ~17.2 hours remaining.
 
-Slot 277,334 of 432,000. Lifetime transaction count: 539,259,404,917.
+Slot 283,348 of 432,000. Lifetime transaction count: 539,268,969,960.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 277,334 of 432,000. Lifetime transaction count: 539,259,404,917.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4148 s |
-| Deviation from 0.4s target | 3.7% |
+| Measured slot time (`getBlockTime`) | 0.4158 s |
+| Deviation from 0.4s target | 3.95% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 687 |
-| Delinquent validators | 8 (1.15%) |
-| Stake held by delinquents | 594,408 SOL (0.136%) |
-| Total active stake | 435,082,388 SOL |
+| Active validators | 688 |
+| Delinquent validators | 7 (1.01%) |
+| Stake held by delinquents | 362,381 SOL (0.083%) |
+| Total active stake | 435,314,415 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 253 |
+| Zero-commission validators | 254 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,27 +61,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,091,057 | 3.928% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,003,006 | 3.678% | 0% |
-| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,360 | 2.872% | 5% |
-| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,259,520 | 2.818% | 0% |
-| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,203,436 | 2.115% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,992,381 | 2.067% | 10% |
-| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,305,834 | 1.909% | 0% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,983,993 | 1.835% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,342,590 | 1.688% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,588,037 | 1.514% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,091,057 | 3.926% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,003,006 | 3.676% | 0% |
+| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,495,360 | 2.87% | 5% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,259,520 | 2.816% | 0% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,203,436 | 2.114% | 7% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,992,381 | 2.066% | 10% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,305,834 | 1.908% | 0% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,983,993 | 1.834% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,342,590 | 1.687% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,588,037 | 1.513% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.25 (up 0.82%) |
-| Market cap | $44.45B |
+| SOL price | $76.22 (up 1.19%) |
+| Market cap | $44.43B |
 | DeFi TVL | $4.86B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.47B (up 39.75%) |
-| Stablecoin supply | $15.40B |
+| Stablecoin supply | $15.38B |
 
 ### Real Economic Value (REV)
 
@@ -153,11 +153,11 @@ Fees earned by the 291 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,518 |
+| Unique fee payers (sampled) | 1,560 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,623 |
-| Non-vote share of sample | 53.8% |
-| Signers per block | 506.0 |
+| Transactions in sample | 4,807 |
+| Non-vote share of sample | 57.29% |
+| Signers per block | 520.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 582,895,466 SOL of 632,387,726 total (92.17%).
+Circulating 582,895,442 SOL of 632,387,701 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,8 +203,8 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — .@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us… [(link)](https://x.com/solana/status/2089691280041230767)
 - **@solana** — Is @MetaDAOProject the best way to currently raise capital for your @solana startup? They align the team & token holder with real ownership plus any company decisions must be a proposal that is approved through voting. Some notable mention… [(link)](https://x.com/solana/status/2089495368904138829)
-- **@solana** — Sunrise listings have surpassed $7B in trading volume on @Solana. The sun is rising. 🌅 https://t.co/NWwTlK20o9 [(link)](https://x.com/solana/status/2089451104161484842)
 - **@solana** — Deaton is the first ever tokenized dinosaur fossil, launching on @Solana The raise is live. Own a piece of history: https://t.co/j89xsZUZUz https://t.co/aHeBqab8pa [(link)](https://x.com/solana/status/2089442247750107305)
 - **@solana** — The best onchain portfolio tool just got even more powerful. Introducing Portfolio v2. 10x faster. 10x sleeker. 10x more useful. For the first time ever, you can now actively manage your DeFi positions directly from within Portfolio. Borro… [(link)](https://x.com/solana/status/2089399210781159777)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)

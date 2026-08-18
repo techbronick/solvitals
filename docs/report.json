@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 05:26:52",
+  "captured_at": "2026-08-18 05:52:39",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4144,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.6,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2823.43,
-      "tps_non_vote": 1164.96,
-      "vote_share_pct": 58.74,
-      "avg_slot_time_secs": 0.4132,
-      "latest_sample_slot": 439996624,
+      "tps_total": 3048.72,
+      "tps_non_vote": 1387.14,
+      "vote_share_pct": 54.5,
+      "avg_slot_time_secs": 0.4127,
+      "latest_sample_slot": 440000239,
       "samples_used": 5,
-      "block_height": 418047010,
-      "current_slot": 439996623
+      "block_height": 418050737,
+      "current_slot": 440000350
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 220623,
+      "slot_index": 224350,
       "slots_in_epoch": 432000,
-      "progress_pct": 51.07,
-      "eta_hours": 24.3,
-      "eta_basis_slot_secs": 0.4144,
-      "transaction_count": 539188680520
+      "progress_pct": 51.93,
+      "eta_hours": 24.0,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 539193232646
     },
     "validators": {
       "active_count": 689,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632387911.11,
-      "circulating_sol": 582895651.79,
+      "total_sol": 632387899.14,
+      "circulating_sol": 582895639.82,
       "non_circulating_sol": 49492259.32,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5u38UktjTABHzx6kmm2nKJisiTc41XRrhWSZSzXWgVEAnRFQac5fbf3tr1VSyF8QH3rUE4fmqSYsYT1HhXjsFBxS",
-      "latest_block_time": 1787030805,
-      "errors_in_recent": 4
+      "latest_signature": "2QyZ7yHW2Wmdn2w6CnV42S3arY1CYoLwq8yPsLhRTp5n11NHsj2tXK2iaim8iAz8DpAL7iSLTxC5myTZBWbnqBX5",
+      "latest_block_time": 1787032350,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1340,
+      "unique_signers_sampled": 1390,
       "blocks_sampled": 3,
-      "transactions_sampled": 3607,
-      "non_vote_transactions_sampled": 1561,
-      "signers_per_block": 446.7,
-      "non_vote_share_pct": 43.28,
+      "transactions_sampled": 3367,
+      "non_vote_transactions_sampled": 1327,
+      "signers_per_block": 463.3,
+      "non_vote_share_pct": 39.41,
       "sampled_slots": [
-        439996440,
-        439994940,
-        439993440
+        440000162,
+        439998662,
+        439997162
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 75.79,
-      "change_24h_pct": 0.4,
-      "market_cap_usd": 44194134087.60299,
-      "volume_24h_usd": 1308320796.4745967,
+      "usd": 75.7,
+      "change_24h_pct": 0.36,
+      "market_cap_usd": 44124161768.197784,
+      "volume_24h_usd": 1318519592.247363,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4839839952.08,
+      "tvl_usd": 4839908995.98,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.41,
       "source": "defillama"
@@ -178,12 +178,12 @@
           "volume_24h_usd": 137878314
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 98093181
-        },
-        {
           "name": "Meteora DLMM",
           "volume_24h_usd": 93854404
+        },
+        {
+          "name": "Orca DEX",
+          "volume_24h_usd": 92556540
         }
       ],
       "source": "defillama"
@@ -2280,27 +2280,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "3x Leveraged HYPE is now live on Hylo! $xHYPE amplifies HYPE with 3x liquidation-resistant leverage. Trade xHYPE on @solana with 0% minting fees this week: https://t.co/UWlyaxdUOh https://t.co/gRGd67au4Y",
-        "created_at": "Mon Aug 17 20:30:19 +0000 2026",
-        "url": "https://x.com/solana/status/2089449767239585984"
+        "text": "Is @MetaDAOProject the best way to currently raise capital for your @solana startup? They align the team & token holder with real ownership plus any company decisions must be a proposal that is approved through voting. Some notable mention\u2026",
+        "created_at": "Mon Aug 17 23:31:31 +0000 2026",
+        "url": "https://x.com/solana/status/2089495368904138829"
       },
       {
         "handle": "solana",
-        "text": "Join us Wednesday for a Solana DeFi special, celebrating @onrefinance's year of growth. Hear from @kamino, @exponent, @FWDind, @onrefinance, and @RockawayX on how they add liquidity, utility, products, and ways to access ONyc. Live on Sola\u2026",
-        "created_at": "Mon Aug 17 20:07:43 +0000 2026",
-        "url": "https://x.com/solana/status/2089444081168703951"
+        "text": "Sunrise listings have surpassed $7B in trading volume on @Solana. The sun is rising. \ud83c\udf05 https://t.co/NWwTlK20o9",
+        "created_at": "Mon Aug 17 20:35:38 +0000 2026",
+        "url": "https://x.com/solana/status/2089451104161484842"
       },
       {
         "handle": "solana",
-        "text": "Silver is starting to find real flow on @solana We have now tracked $8.2M of solana:SiLVFMgD3eD2rgK628NbTBq9MnuJF5FW2CRaVyTB35L spot volume through Aug. 16. Yesterday, silver accounted for 30% of all @sunrise listed asset volume... https:/\u2026",
-        "created_at": "Mon Aug 17 13:17:26 +0000 2026",
-        "url": "https://x.com/solana/status/2089340828829261856"
+        "text": "Deaton is the first ever tokenized dinosaur fossil, launching on @Solana The raise is live. Own a piece of history: https://t.co/j89xsZUZUz https://t.co/aHeBqab8pa",
+        "created_at": "Mon Aug 17 20:00:26 +0000 2026",
+        "url": "https://x.com/solana/status/2089442247750107305"
       },
       {
         "handle": "solana",
-        "text": "solana is built different https://t.co/vIDuTkj0V8",
-        "created_at": "Sun Aug 16 19:53:49 +0000 2026",
-        "url": "https://x.com/solana/status/2089078194473210050"
+        "text": "The best onchain portfolio tool just got even more powerful. Introducing Portfolio v2. 10x faster. 10x sleeker. 10x more useful. For the first time ever, you can now actively manage your DeFi positions directly from within Portfolio. Borro\u2026",
+        "created_at": "Mon Aug 17 17:09:25 +0000 2026",
+        "url": "https://x.com/solana/status/2089399210781159777"
       },
       {
         "handle": "solanalabs",

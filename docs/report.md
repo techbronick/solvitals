@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-18 05:26:52 UTC by SolVitals.
+Generated 2026-08-18 05:52:39 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,164.96 |
-| Total TPS (incl. votes) | 2,823.43 |
-| Vote share of transactions | 58.74% |
-| Average slot time | 0.4132 s |
-| Current slot | 439,996,623 |
-| Block height | 418,047,010 |
+| Non-vote TPS | 1,387.14 |
+| Total TPS (incl. votes) | 3,048.72 |
+| Vote share of transactions | 54.50% |
+| Average slot time | 0.4127 s |
+| Current slot | 440,000,350 |
+| Block height | 418,050,737 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 51.07% complete (`##########..........`), ~24.3 hours remaining.
+Epoch **1018** — 51.93% complete (`##########..........`), ~24.0 hours remaining.
 
-Slot 220,623 of 432,000. Lifetime transaction count: 539,188,680,520.
+Slot 224,350 of 432,000. Lifetime transaction count: 539,193,232,646.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 220,623 of 432,000. Lifetime transaction count: 539,188,680,520.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4144 s |
-| Deviation from 0.4s target | 3.6% |
+| Measured slot time (`getBlockTime`) | 0.4154 s |
+| Deviation from 0.4s target | 3.85% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.79 (up 0.40%) |
-| Market cap | $44.19B |
+| SOL price | $75.70 (up 0.36%) |
+| Market cap | $44.12B |
 | DeFi TVL | $4.84B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.43B (up 35.03%) |
@@ -153,11 +153,11 @@ Fees earned by the 290 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,340 |
+| Unique fee payers (sampled) | 1,390 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,607 |
-| Non-vote share of sample | 43.28% |
-| Signers per block | 446.7 |
+| Transactions in sample | 3,367 |
+| Non-vote share of sample | 39.41% |
+| Signers per block | 463.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,12 +168,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $372.89M |
 | BisonFi | $208.44M |
 | HumidiFi | $137.88M |
-| Orca DEX | $98.09M |
 | Meteora DLMM | $93.85M |
+| Orca DEX | $92.56M |
 
 ## Supply
 
-Circulating 582,895,652 SOL of 632,387,911 total (92.17%).
+Circulating 582,895,640 SOL of 632,387,899 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -195,10 +195,10 @@ _Daily active addresses are deduplicated across the full day by the provider —
 
 ## Announcements from key accounts
 
-- **@solana** — 3x Leveraged HYPE is now live on Hylo! $xHYPE amplifies HYPE with 3x liquidation-resistant leverage. Trade xHYPE on @solana with 0% minting fees this week: https://t.co/UWlyaxdUOh https://t.co/gRGd67au4Y [(link)](https://x.com/solana/status/2089449767239585984)
-- **@solana** — Join us Wednesday for a Solana DeFi special, celebrating @onrefinance's year of growth. Hear from @kamino, @exponent, @FWDind, @onrefinance, and @RockawayX on how they add liquidity, utility, products, and ways to access ONyc. Live on Sola… [(link)](https://x.com/solana/status/2089444081168703951)
-- **@solana** — Silver is starting to find real flow on @solana We have now tracked $8.2M of solana:SiLVFMgD3eD2rgK628NbTBq9MnuJF5FW2CRaVyTB35L spot volume through Aug. 16. Yesterday, silver accounted for 30% of all @sunrise listed asset volume... https:/… [(link)](https://x.com/solana/status/2089340828829261856)
-- **@solana** — solana is built different https://t.co/vIDuTkj0V8 [(link)](https://x.com/solana/status/2089078194473210050)
+- **@solana** — Is @MetaDAOProject the best way to currently raise capital for your @solana startup? They align the team & token holder with real ownership plus any company decisions must be a proposal that is approved through voting. Some notable mention… [(link)](https://x.com/solana/status/2089495368904138829)
+- **@solana** — Sunrise listings have surpassed $7B in trading volume on @Solana. The sun is rising. 🌅 https://t.co/NWwTlK20o9 [(link)](https://x.com/solana/status/2089451104161484842)
+- **@solana** — Deaton is the first ever tokenized dinosaur fossil, launching on @Solana The raise is live. Own a piece of history: https://t.co/j89xsZUZUz https://t.co/aHeBqab8pa [(link)](https://x.com/solana/status/2089442247750107305)
+- **@solana** — The best onchain portfolio tool just got even more powerful. Introducing Portfolio v2. 10x faster. 10x sleeker. 10x more useful. For the first time ever, you can now actively manage your DeFi positions directly from within Portfolio. Borro… [(link)](https://x.com/solana/status/2089399210781159777)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

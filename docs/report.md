@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-18 22:46:12 UTC by SolVitals.
+Generated 2026-08-18 23:11:04 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,053.93 |
-| Total TPS (incl. votes) | 3,688.19 |
-| Vote share of transactions | 44.31% |
-| Average slot time | 0.4190 s |
-| Current slot | 440,146,737 |
-| Block height | 418,197,002 |
+| Non-vote TPS | 1,950.27 |
+| Total TPS (incl. votes) | 3,589.52 |
+| Vote share of transactions | 45.67% |
+| Average slot time | 0.4178 s |
+| Current slot | 440,150,322 |
+| Block height | 418,200,587 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1018** — 85.82% complete (`#################...`), ~7.1 hours remaining.
+Epoch **1018** — 86.65% complete (`#################...`), ~6.7 hours remaining.
 
-Slot 370,738 of 432,000. Lifetime transaction count: 539,426,621,086.
+Slot 374,323 of 432,000. Lifetime transaction count: 539,432,276,428.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 370,738 of 432,000. Lifetime transaction count: 539,426,621,086.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4152 s |
-| Deviation from 0.4s target | 3.8% |
+| Measured slot time (`getBlockTime`) | 0.4164 s |
+| Deviation from 0.4s target | 4.1% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.00 (up 1.72%) |
-| Market cap | $44.89B |
+| SOL price | $76.99 (up 1.64%) |
+| Market cap | $44.88B |
 | DeFi TVL | $4.90B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.47B (up 39.74%) |
@@ -103,7 +103,7 @@ _REV is what the **network** captures. It is a different and much smaller figure
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 294 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
@@ -153,11 +153,11 @@ Fees earned by the 294 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,561 |
+| Unique fee payers (sampled) | 1,701 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,059 |
-| Non-vote share of sample | 59.7% |
-| Signers per block | 520.3 |
+| Transactions in sample | 5,577 |
+| Non-vote share of sample | 63.06% |
+| Signers per block | 567.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,12 +168,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $372.89M |
 | BisonFi | $208.44M |
 | HumidiFi | $137.88M |
-| Orca DEX | $98.46M |
+| Orca DEX | $98.36M |
 | Meteora DLMM | $93.85M |
 
 ## Supply
 
-Circulating 582,892,105 SOL of 632,387,290 total (92.17%).
+Circulating 582,892,091 SOL of 632,387,275 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,6 +203,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — Ever wondered what $1.2B in volume looks like onchain? From SPCX's test mint to 30,429 wallets trading it in under 3 months. This is the flow of @Backpack's issued SPCX visualized over the last 83 days 👇 https://t.co/SkoEQ4tdZA [(link)](https://x.com/solana/status/2089808207250153765)
+- **@solana** — Capital flows to where the infrastructure works, and right now real-world assets are flowing to @solana faster than anywhere else. #1 in RWA net inflows over the past 30 days. The future of finance runs on Solana. [(link)](https://x.com/solana/status/2089740102419562855)
+- **@solana** — Introducing the Crafts Anchor Board. Review curated startups before the round opens: • Meet founders • Lead diligence • Soft-commit to selected rounds • Get early access to curated offerings Apply as investor → https://t.co/8o5XOyESel http… [(link)](https://x.com/solana/status/2089737306345181316)
 - **@solana** — .@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us… [(link)](https://x.com/solana/status/2089691280041230767)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)

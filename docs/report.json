@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 22:46:12",
+  "captured_at": "2026-08-18 23:11:04",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4152,
+      "measured_slot_time_secs": 0.4164,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.8,
+      "deviation_from_target_pct": 4.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3688.19,
-      "tps_non_vote": 2053.93,
-      "vote_share_pct": 44.31,
-      "avg_slot_time_secs": 0.419,
-      "latest_sample_slot": 440146648,
+      "tps_total": 3589.52,
+      "tps_non_vote": 1950.27,
+      "vote_share_pct": 45.67,
+      "avg_slot_time_secs": 0.4178,
+      "latest_sample_slot": 440150326,
       "samples_used": 5,
-      "block_height": 418197002,
-      "current_slot": 440146737
+      "block_height": 418200587,
+      "current_slot": 440150322
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 370738,
+      "slot_index": 374323,
       "slots_in_epoch": 432000,
-      "progress_pct": 85.82,
-      "eta_hours": 7.1,
-      "eta_basis_slot_secs": 0.4152,
-      "transaction_count": 539426621086
+      "progress_pct": 86.65,
+      "eta_hours": 6.7,
+      "eta_basis_slot_secs": 0.4164,
+      "transaction_count": 539432276428
     },
     "validators": {
       "active_count": 689,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632387290.13,
-      "circulating_sol": 582892105.4,
+      "total_sol": 632387275.41,
+      "circulating_sol": 582892090.68,
       "non_circulating_sol": 49495184.73,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "491AmXR765pqtjZKwnD1wNh4YYcAj9X4xxKfyrVBSBbygkoyTyd2h8P4sWM8ZPGt1nm3HGXgoPQ3XkyLKDsK3UGm",
-      "latest_block_time": 1787093166,
-      "errors_in_recent": 0
+      "latest_signature": "47frsxrEvtNW61RGGyYD43E5eYvo4QaxietP5eQeNWrhpnNDhsCe1YTC7QMxmCjAJV9GeKK6k9mWnTjDD77dbNi2",
+      "latest_block_time": 1787094658,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1561,
+      "unique_signers_sampled": 1701,
       "blocks_sampled": 3,
-      "transactions_sampled": 5059,
-      "non_vote_transactions_sampled": 3020,
-      "signers_per_block": 520.3,
-      "non_vote_share_pct": 59.7,
+      "transactions_sampled": 5577,
+      "non_vote_transactions_sampled": 3517,
+      "signers_per_block": 567.0,
+      "non_vote_share_pct": 63.06,
       "sampled_slots": [
-        440146555,
-        440145055,
-        440143555
+        440150140,
+        440148640,
+        440147140
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.0,
-      "change_24h_pct": 1.72,
-      "market_cap_usd": 44885002155.581635,
-      "volume_24h_usd": 1415594956.0728114,
+      "usd": 76.99,
+      "change_24h_pct": 1.64,
+      "market_cap_usd": 44875428656.91877,
+      "volume_24h_usd": 1409225505.2497253,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4896398887.78,
+      "tvl_usd": 4897514316.85,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.42,
       "source": "defillama"
@@ -179,7 +179,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 98457351
+          "volume_24h_usd": 98362837
         },
         {
           "name": "Meteora DLMM",
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15418071602.93,
+      "total_usd": 15422124135.79,
       "by_peg": {
-        "peggedUSD": 15357095596.83,
-        "peggedEUR": 56132234.68,
-        "peggedJPY": 50.15,
-        "peggedCHF": 1377165.54,
-        "peggedAUD": 2676.67,
-        "peggedVAR": 2437580.91,
-        "peggedGBP": 856506.65,
+        "peggedUSD": 15361147225.08,
+        "peggedEUR": 56128727.2,
+        "peggedJPY": 50.38,
+        "peggedCHF": 1382455.62,
+        "peggedAUD": 2676.7,
+        "peggedVAR": 2436699.52,
+        "peggedGBP": 856509.78,
         "peggedTRY": 168329.12,
-        "peggedCAD": 1461.67,
+        "peggedCAD": 1461.69,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -229,10 +229,10 @@
         }
       ],
       "app_fees_24h_usd": 11283565.299999999,
-      "app_fees_7d_usd": 64099151.77999999,
-      "app_fees_30d_usd": 246894222.48999998,
+      "app_fees_7d_usd": 64099151.94999999,
+      "app_fees_30d_usd": 246894222.65999997,
       "app_fees_change_24h_pct": 65.87,
-      "protocol_count": 294,
+      "protocol_count": 295,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
@@ -2291,6 +2291,24 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Ever wondered what $1.2B in volume looks like onchain? From SPCX's test mint to 30,429 wallets trading it in under 3 months. This is the flow of @Backpack's issued SPCX visualized over the last 83 days \ud83d\udc47 https://t.co/SkoEQ4tdZA",
+        "created_at": "Tue Aug 18 20:14:38 +0000 2026",
+        "url": "https://x.com/solana/status/2089808207250153765"
+      },
+      {
+        "handle": "solana",
+        "text": "Capital flows to where the infrastructure works, and right now real-world assets are flowing to @solana faster than anywhere else. #1 in RWA net inflows over the past 30 days. The future of finance runs on Solana.",
+        "created_at": "Tue Aug 18 15:44:00 +0000 2026",
+        "url": "https://x.com/solana/status/2089740102419562855"
+      },
+      {
+        "handle": "solana",
+        "text": "Introducing the Crafts Anchor Board. Review curated startups before the round opens: \u2022 Meet founders \u2022 Lead diligence \u2022 Soft-commit to selected rounds \u2022 Get early access to curated offerings Apply as investor \u2192 https://t.co/8o5XOyESel http\u2026",
+        "created_at": "Tue Aug 18 15:32:53 +0000 2026",
+        "url": "https://x.com/solana/status/2089737306345181316"
+      },
+      {
+        "handle": "solana",
         "text": ".@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us\u2026",
         "created_at": "Tue Aug 18 12:30:00 +0000 2026",
         "url": "https://x.com/solana/status/2089691280041230767"
@@ -2326,7 +2344,7 @@
       "SuperteamDAO"
     ],
     "accounts_failed": [],
-    "count": 5,
+    "count": 8,
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 20:10:05",
+  "captured_at": "2026-08-18 20:37:16",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.415,
+      "measured_slot_time_secs": 0.4168,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.75,
+      "deviation_from_target_pct": 4.2,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4666.09,
-      "tps_non_vote": 3033.04,
-      "vote_share_pct": 35.0,
-      "avg_slot_time_secs": 0.4184,
-      "latest_sample_slot": 440124116,
+      "tps_total": 4036.68,
+      "tps_non_vote": 2411.87,
+      "vote_share_pct": 40.25,
+      "avg_slot_time_secs": 0.4208,
+      "latest_sample_slot": 440128053,
       "samples_used": 5,
-      "block_height": 418174438,
-      "current_slot": 440124161
+      "block_height": 418178358,
+      "current_slot": 440128081
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 348161,
+      "slot_index": 352081,
       "slots_in_epoch": 432000,
-      "progress_pct": 80.59,
-      "eta_hours": 9.7,
-      "eta_basis_slot_secs": 0.415,
-      "transaction_count": 539389450694
+      "progress_pct": 81.5,
+      "eta_hours": 9.3,
+      "eta_basis_slot_secs": 0.4168,
+      "transaction_count": 539396056499
     },
     "validators": {
-      "active_count": 688,
-      "delinquent_count": 7,
-      "delinquent_pct": 1.01,
-      "delinquent_stake_sol": 50106.54,
-      "delinquent_stake_pct": 0.012,
-      "total_active_stake_sol": 435626689.26,
+      "active_count": 687,
+      "delinquent_count": 8,
+      "delinquent_pct": 1.15,
+      "delinquent_stake_sol": 279621.77,
+      "delinquent_stake_pct": 0.064,
+      "total_active_stake_sol": 435397174.04,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 255,
@@ -45,49 +45,49 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17091057.03,
-          "stake_pct": 3.923,
+          "stake_pct": 3.925,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16003006.03,
-          "stake_pct": 3.674,
+          "stake_pct": 3.675,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12495360.32,
-          "stake_pct": 2.868,
+          "stake_pct": 2.87,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12259520.21,
-          "stake_pct": 2.814,
+          "stake_pct": 2.816,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9203435.63,
-          "stake_pct": 2.113,
+          "stake_pct": 2.114,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8992380.56,
-          "stake_pct": 2.064,
+          "stake_pct": 2.065,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8305833.8,
-          "stake_pct": 1.907,
+          "stake_pct": 1.908,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7983993.32,
-          "stake_pct": 1.833,
+          "stake_pct": 1.834,
           "commission": 7
         },
         {
@@ -99,13 +99,16 @@
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6588036.72,
-          "stake_pct": 1.512,
+          "stake_pct": 1.513,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "error": "all RPC endpoints failed for getSupply: https://api.mainnet-beta.solana.com: The read operation timed out; https://solana-rpc.publicnode.com: The read operation timed out"
+      "total_sol": 632387370.01,
+      "circulating_sol": 582892185.28,
+      "non_circulating_sol": 49495184.73,
+      "circulating_pct": 92.17
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
@@ -123,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3zK5Txqa8zyqbGNhSs4iavDQHwVKzCtZFN9U6rKRT4ypcKAvpE7yDkri9CQdhNbGkTTbipeaXsBJvDgrrge3HzzW",
-      "latest_block_time": 1787083897,
-      "errors_in_recent": 0
+      "latest_signature": "5taDD9cimHfapLtHtFBRizwtizSePUyE1c23Em4Tdv8ECizECvkXx7Mg57P1yQoKAoywM4pUgswb7Z8xF4cTejTu",
+      "latest_block_time": 1787085430,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1483,
+      "unique_signers_sampled": 1622,
       "blocks_sampled": 3,
-      "transactions_sampled": 5151,
-      "non_vote_transactions_sampled": 3106,
-      "signers_per_block": 494.3,
-      "non_vote_share_pct": 60.3,
+      "transactions_sampled": 5042,
+      "non_vote_transactions_sampled": 2991,
+      "signers_per_block": 540.7,
+      "non_vote_share_pct": 59.32,
       "sampled_slots": [
-        440124219,
-        440122719,
-        440121219
+        440127899,
+        440126399,
+        440124899
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.12,
-      "change_24h_pct": 1.94,
-      "market_cap_usd": 44950223197.16683,
-      "volume_24h_usd": 1384992723.2943428,
+      "usd": 76.98,
+      "change_24h_pct": 1.58,
+      "market_cap_usd": 44870563880.70727,
+      "volume_24h_usd": 1386394361.411458,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4902077500.76,
+      "tvl_usd": 4902061493.69,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.43,
       "source": "defillama"
@@ -186,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15418453554.45,
+      "total_usd": 15421654371.24,
       "by_peg": {
-        "peggedUSD": 15357617713.37,
-        "peggedEUR": 55978674.28,
-        "peggedJPY": 50.43,
-        "peggedCHF": 1383197.68,
-        "peggedAUD": 2676.57,
-        "peggedVAR": 2444914.54,
-        "peggedGBP": 856536.02,
+        "peggedUSD": 15360816790.97,
+        "peggedEUR": 55973722.58,
+        "peggedJPY": 50.44,
+        "peggedCHF": 1384915.32,
+        "peggedAUD": 2677.44,
+        "peggedVAR": 2449909.37,
+        "peggedGBP": 856513.58,
         "peggedTRY": 168329.12,
-        "peggedCAD": 1461.74,
+        "peggedCAD": 1461.73,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 888276.82,
+      "rev_24h_usd": 871766.82,
       "network_fees_24h_usd": 732758,
-      "mev_tips_24h_usd": 155518.82,
-      "mev_share_of_rev_pct": 17.51,
-      "rev_annualised_usd": 324221039.3,
+      "mev_tips_24h_usd": 139008.82,
+      "mev_share_of_rev_pct": 15.95,
+      "rev_annualised_usd": 318194889.3,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 134433
+          "tips_24h_usd": 117923
         },
         {
           "name": "Harmonic",
@@ -2084,16 +2087,14 @@
       "Stagnant": 1
     },
     "gated_count": 33,
-    "active_on_mainnet": 0,
-    "pending_on_mainnet": 33,
+    "active_on_mainnet": 22,
+    "pending_on_mainnet": 11,
     "cluster_versions": {
       "mainnet": "4.2.0",
       "testnet": "4.2.0",
       "devnet": "4.2.0"
     },
-    "clusters_unreachable": [
-      "mainnet"
-    ],
+    "clusters_unreachable": [],
     "highlights": [
       {
         "simd": "0326",
@@ -2133,7 +2134,7 @@
         "created": "2025-10-21",
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
+          "mainnet": "not created",
           "testnet": "not created",
           "devnet": "not created"
         },
@@ -2152,147 +2153,135 @@
     ],
     "recently_pending": [
       {
-        "simd": "0089",
-        "title": "Programify Feature Gate Program",
-        "status": "Activated",
-        "feature_name": "migrate_feature_gate_program_to_core_bpf",
-        "feature_gate": "4eohviozzEeivk1y9UbrnekbAFMDQyJz5JjA9Y6gyvky",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 316,748,256)",
-          "devnet": "active (slot 352,512,000)"
-        }
-      },
-      {
-        "simd": "0127",
-        "title": "Get-Sysvar Syscall",
-        "status": "Activated",
-        "feature_name": "get_sysvar_syscall_enabled",
-        "feature_gate": "CLCoTADvV64PSrnR6QXty6Fwrt9Xc6EdxSJE4wLRePjq",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 316,748,256)",
-          "devnet": "active (slot 348,192,000)"
-        }
-      },
-      {
-        "simd": "0128",
-        "title": "Migrate Address Lookup Table to Core BPF",
-        "status": "Activated",
-        "feature_name": "migrate_address_lookup_table_program_to_core_bpf",
-        "feature_gate": "C97eKZygrkU4JxJsZdjgbUY7iQR7rKTr4NyDWo2E5pRm",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 321,068,256)",
-          "devnet": "active (slot 366,768,000)"
-        }
-      },
-      {
-        "simd": "0138",
-        "title": "Deprecate legacy vote instructions",
-        "status": "Activated",
-        "feature_name": "deprecate_unused_legacy_vote_plumbing",
-        "feature_gate": "6Uf8S75PVh91MYgPQSHnjRAPQq6an5BDv9vomrCwDqLe",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 284,348,256)",
-          "devnet": "active (slot 315,360,000)"
-        }
-      },
-      {
-        "simd": "0152",
-        "title": "Precompiles",
-        "status": "Activated",
-        "feature_name": "ed25519_precompile_verify_strict",
-        "feature_gate": "ed9tNscbWLYBooxWA7FE2B5KHWs8A6sxfY8EzezEcoo",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 299,900,256)",
-          "devnet": "active (slot 341,712,000)"
-        }
-      },
-      {
-        "simd": "0153",
-        "title": "ZK ElGamal Proof Program",
-        "status": "Activated",
-        "feature_name": "zk_elgamal_proof_program_enabled",
-        "feature_gate": "zkhiy5oLowR7HY4zogXjCjeMXyruLqBwSWH21qcFtnv",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 302,924,256)",
-          "devnet": "active (slot 346,032,000)"
-        }
-      },
-      {
-        "simd": "0162",
-        "title": "Remove Accounts `is_executable` Flag Checks",
-        "status": "Implemented",
-        "feature_name": "remove_accounts_executable_flag_checks",
-        "feature_gate": "FXs1zh47QbNnhXcnB6YiAQoJ4sGB91tKF3UFHLcKT7PM",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 339,212,256)",
-          "devnet": "active (slot 390,096,000)"
-        }
-      },
-      {
         "simd": "0163",
         "title": "Lift the CPI caller restriction",
         "status": "Withdrawn",
         "feature_name": null,
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
+          "mainnet": "not created",
           "testnet": "not created",
           "devnet": "not created"
         }
       },
       {
-        "simd": "0166",
-        "title": "SBPF Dynamic stack frames",
-        "status": "Implemented",
-        "feature_name": "enable_sbpf_v1_deployment_and_execution",
-        "feature_gate": "JE86WkYvTrzW8HgNmrHY7dFYpCmSptUpKupbo2AdQ9cG",
-        "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 338,780,256)",
-          "devnet": "active (slot 389,664,000)"
-        }
-      },
-      {
-        "simd": "0173",
-        "title": "SBPF instruction encoding improvements",
+        "simd": "0178",
+        "title": "SBPF Static Syscalls",
         "status": "Review",
-        "feature_name": "enable_sbpf_v2_deployment_and_execution",
-        "feature_gate": "F6UVKh1ujTEFK3en2SyAL3cdVnqko1FVEXWhmdLRu6WP",
+        "feature_name": null,
+        "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 346,124,256)",
-          "devnet": "active (slot 396,576,000)"
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
         }
       },
       {
-        "simd": "0174",
-        "title": "SBPF arithmetics improvements",
+        "simd": "0189",
+        "title": "SBPF stricter ELF headers",
+        "status": "Idea",
+        "feature_name": null,
+        "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0219",
+        "title": "Stricter ABI and Runtime Constraints",
         "status": "Review",
-        "feature_name": "enable_sbpf_v2_deployment_and_execution",
-        "feature_gate": "F6UVKh1ujTEFK3en2SyAL3cdVnqko1FVEXWhmdLRu6WP",
+        "feature_name": null,
+        "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 346,124,256)",
-          "devnet": "active (slot 396,576,000)"
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
         }
       },
       {
-        "simd": "0175",
-        "title": "Disable Partitioned Rent Updates",
+        "simd": "0268",
+        "title": "Raise CPI Nesting Limit",
         "status": "Accepted",
-        "feature_name": "disable_partitioned_rent_collection",
-        "feature_gate": "2B2SBNbUcr438LtGXNcJNBP2GBSxjx81F945SdSkUSfC",
+        "feature_name": "raise_cpi_nesting_limit_to_8",
+        "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
-          "mainnet": "unknown (RPC unreachable)",
-          "testnet": "active (slot 337,916,256)",
-          "devnet": "active (slot 387,072,000)"
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0290",
+        "title": "Relax Fee-Payer Constraint",
+        "status": "Accepted",
+        "feature_name": "relax_fee_payer_constraint",
+        "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0384",
+        "title": "Alpenglow migration",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0387",
+        "title": "BLS Pubkey management in vote account",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0406",
+        "title": "Maximum instruction accounts",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0430",
+        "title": "Relax Program Buffer Constraints",
+        "status": "Review",
+        "feature_name": null,
+        "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
+        }
+      },
+      {
+        "simd": "0529",
+        "title": "Big Integer ModExp Syscall",
+        "status": "Idea",
+        "feature_name": "enable_big_mod_exp_syscall",
+        "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
+        "clusters": {
+          "mainnet": "not created",
+          "testnet": "not created",
+          "devnet": "not created"
         }
       }
     ],

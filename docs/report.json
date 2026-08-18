@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 20:37:16",
+  "captured_at": "2026-08-18 20:57:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4168,
+      "measured_slot_time_secs": 0.4154,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.2,
+      "deviation_from_target_pct": 3.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4036.68,
-      "tps_non_vote": 2411.87,
-      "vote_share_pct": 40.25,
-      "avg_slot_time_secs": 0.4208,
-      "latest_sample_slot": 440128053,
+      "tps_total": 3975.38,
+      "tps_non_vote": 2309.91,
+      "vote_share_pct": 41.89,
+      "avg_slot_time_secs": 0.411,
+      "latest_sample_slot": 440131029,
       "samples_used": 5,
-      "block_height": 418178358,
-      "current_slot": 440128081
+      "block_height": 418181308,
+      "current_slot": 440131031
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 352081,
+      "slot_index": 355032,
       "slots_in_epoch": 432000,
-      "progress_pct": 81.5,
-      "eta_hours": 9.3,
-      "eta_basis_slot_secs": 0.4168,
-      "transaction_count": 539396056499
+      "progress_pct": 82.18,
+      "eta_hours": 8.9,
+      "eta_basis_slot_secs": 0.4154,
+      "transaction_count": 539400970410
     },
     "validators": {
-      "active_count": 687,
-      "delinquent_count": 8,
-      "delinquent_pct": 1.15,
-      "delinquent_stake_sol": 279621.77,
-      "delinquent_stake_pct": 0.064,
-      "total_active_stake_sol": 435397174.04,
+      "active_count": 688,
+      "delinquent_count": 7,
+      "delinquent_pct": 1.01,
+      "delinquent_stake_sol": 50106.54,
+      "delinquent_stake_pct": 0.012,
+      "total_active_stake_sol": 435626689.26,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 255,
@@ -45,49 +45,49 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17091057.03,
-          "stake_pct": 3.925,
+          "stake_pct": 3.923,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16003006.03,
-          "stake_pct": 3.675,
+          "stake_pct": 3.674,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12495360.32,
-          "stake_pct": 2.87,
+          "stake_pct": 2.868,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12259520.21,
-          "stake_pct": 2.816,
+          "stake_pct": 2.814,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9203435.63,
-          "stake_pct": 2.114,
+          "stake_pct": 2.113,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8992380.56,
-          "stake_pct": 2.065,
+          "stake_pct": 2.064,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8305833.8,
-          "stake_pct": 1.908,
+          "stake_pct": 1.907,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7983993.32,
-          "stake_pct": 1.834,
+          "stake_pct": 1.833,
           "commission": 7
         },
         {
@@ -99,14 +99,14 @@
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6588036.72,
-          "stake_pct": 1.513,
+          "stake_pct": 1.512,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 632387370.01,
-      "circulating_sol": 582892185.28,
+      "total_sol": 632387357.21,
+      "circulating_sol": 582892172.48,
       "non_circulating_sol": 49495184.73,
       "circulating_pct": 92.17
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5taDD9cimHfapLtHtFBRizwtizSePUyE1c23Em4Tdv8ECizECvkXx7Mg57P1yQoKAoywM4pUgswb7Z8xF4cTejTu",
-      "latest_block_time": 1787085430,
-      "errors_in_recent": 2
+      "latest_signature": "2x2KJxaEYmhRYP6a3M9eCTE7U4e79Fzsd9nffbVQ3bwpD7C7XgHig3mJmNSLc7YD2moX7TorDMuawbqj851p15gz",
+      "latest_block_time": 1787086647,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1622,
+      "unique_signers_sampled": 1784,
       "blocks_sampled": 3,
-      "transactions_sampled": 5042,
-      "non_vote_transactions_sampled": 2991,
-      "signers_per_block": 540.7,
-      "non_vote_share_pct": 59.32,
+      "transactions_sampled": 5220,
+      "non_vote_transactions_sampled": 3050,
+      "signers_per_block": 594.7,
+      "non_vote_share_pct": 58.43,
       "sampled_slots": [
-        440127899,
-        440126399,
-        440124899
+        440130848,
+        440129348,
+        440127848
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.98,
-      "change_24h_pct": 1.58,
-      "market_cap_usd": 44870563880.70727,
-      "volume_24h_usd": 1386394361.411458,
+      "usd": 76.84,
+      "change_24h_pct": 1.21,
+      "market_cap_usd": 44783722074.15411,
+      "volume_24h_usd": 1388835073.5299618,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4902061493.69,
-      "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.43,
+      "tvl_usd": 4897105827.63,
+      "rank_by_tvl": 3,
+      "share_of_all_chains_pct": 6.42,
       "source": "defillama"
     },
     "dex_volume": {

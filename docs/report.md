@@ -1,30 +1,32 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-19 19:46:21 UTC by SolVitals.
+Generated 2026-08-19 20:13:18 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **price_usd** — price_usd is 5.0 sigma above its 287-point mean
-- [CRITICAL] **tvl_usd** — tvl_usd is 5.2 sigma above its 288-point mean
+- [CRITICAL] **price_usd** — price_usd is 4.9 sigma above its 287-point mean
+- [CRITICAL] **tvl_usd** — tvl_usd is 5.0 sigma above its 288-point mean
+- [WARNING] **tps_non_vote** — tps_non_vote is 2.3 sigma above its 288-point mean
+- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.6 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,738.08 |
-| Total TPS (incl. votes) | 4,377.46 |
-| Vote share of transactions | 37.45% |
-| Average slot time | 0.4138 s |
-| Current slot | 440,328,408 |
-| Block height | 418,378,403 |
+| Non-vote TPS | 3,448.31 |
+| Total TPS (incl. votes) | 5,074.59 |
+| Vote share of transactions | 32.05% |
+| Average slot time | 0.4196 s |
+| Current slot | 440,332,262 |
+| Block height | 418,382,217 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 27.87% complete (`######..............`), ~36.0 hours remaining.
+Epoch **1019** — 28.76% complete (`######..............`), ~35.7 hours remaining.
 
-Slot 120,408 of 432,000. Lifetime transaction count: 539,727,394,605.
+Slot 124,263 of 432,000. Lifetime transaction count: 539,735,295,659.
 
 ## Transaction costs and slot timing
 
@@ -35,14 +37,14 @@ Slot 120,408 of 432,000. Lifetime transaction count: 539,727,394,605.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4154 s |
-| Deviation from 0.4s target | 3.85% |
+| Measured slot time (`getBlockTime`) | 0.418 s |
+| Deviation from 0.4s target | 4.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -50,11 +52,11 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | --- | --- |
 | Active validators | 686 |
 | Delinquent validators | 9 (1.29%) |
-| Stake held by delinquents | 213,119 SOL (0.049%) |
-| Total active stake | 435,028,149 SOL |
+| Stake held by delinquents | 209,234 SOL (0.048%) |
+| Total active stake | 435,032,034 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 256 |
+| Zero-commission validators | 255 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -77,12 +79,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $82.24 (up 6.61%) |
-| Market cap | $47.95B |
-| DeFi TVL | $5.08B |
+| SOL price | $82.38 (up 6.83%) |
+| Market cap | $48.02B |
+| DeFi TVL | $5.09B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.84B (up 24.62%) |
-| Stablecoin supply | $15.69B |
+| Stablecoin supply | $15.66B |
 
 ### Real Economic Value (REV)
 
@@ -154,11 +156,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,815 |
+| Unique fee payers (sampled) | 1,987 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,898 |
-| Non-vote share of sample | 65.56% |
-| Signers per block | 605.0 |
+| Transactions in sample | 5,792 |
+| Non-vote share of sample | 64.93% |
+| Signers per block | 662.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -170,11 +172,11 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | BisonFi | $241.78M |
 | Orca DEX | $176.61M |
 | HumidiFi | $160.54M |
-| Raydium AMM | $104.90M |
+| Raydium AMM | $108.35M |
 
 ## Supply
 
-Circulating 583,006,816 SOL of 632,514,231 total (92.17%).
+Circulating 583,006,752 SOL of 632,514,210 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -196,8 +198,8 @@ _Daily active addresses are deduplicated across the full day by the provider —
 
 ## Announcements from key accounts
 
-- **@solana** — Our time is now [(link)](https://x.com/solana/status/2090122731559829862)
-- **@solana** — Solana [(link)](https://x.com/solana/status/2090104679288156286)
+- **@solana** — Don't wait for the bull, build it [(link)](https://x.com/solana/status/2090163306136785236)
+- **@solana** — The AnsemHack Clawrena is officially open. Enter with an agent, leave with an agentic company, on @solana. $320K in Tokens, Cash, and Compute awards to 4 winners. https://t.co/MOpWxuZSYZ [(link)](https://x.com/solana/status/2090141776535310837)
 - **@solana** — MoneyGram CEO Anthony Soohoo on connecting cash to Solana: "The biggest announcement we've made with Solana is about access, providing all their developers the ability to build on our MoneyGram network." "Anyone building on Solana can use … [(link)](https://x.com/solana/status/2090033619792523378)
 - **@solana** — BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world's largest payments networks is now a single API away for every builder on Solana. https://t.co/TSOhIpBjvz [(link)](https://x.com/solana/status/2087163225393750405)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)

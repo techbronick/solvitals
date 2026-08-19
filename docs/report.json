@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-19 21:37:05",
+  "captured_at": "2026-08-19 21:58:00",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.416,
+      "measured_slot_time_secs": 0.4176,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.0,
+      "deviation_from_target_pct": 4.4,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5333.5,
-      "tps_non_vote": 3705.85,
-      "vote_share_pct": 30.52,
-      "avg_slot_time_secs": 0.4202,
-      "latest_sample_slot": 440344235,
+      "tps_total": 4545.74,
+      "tps_non_vote": 2923.25,
+      "vote_share_pct": 35.69,
+      "avg_slot_time_secs": 0.4208,
+      "latest_sample_slot": 440347289,
       "samples_used": 5,
-      "block_height": 418394258,
-      "current_slot": 440344320
+      "block_height": 418397257,
+      "current_slot": 440347319
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 136321,
+      "slot_index": 139319,
       "slots_in_epoch": 432000,
-      "progress_pct": 31.56,
-      "eta_hours": 34.2,
-      "eta_basis_slot_secs": 0.416,
-      "transaction_count": 539761762726
+      "progress_pct": 32.25,
+      "eta_hours": 34.0,
+      "eta_basis_slot_secs": 0.4176,
+      "transaction_count": 539767725941
     },
     "validators": {
       "active_count": 688,
@@ -105,17 +105,17 @@
       ]
     },
     "supply": {
-      "total_sol": 632514141.99,
-      "circulating_sol": 583006601.92,
-      "non_circulating_sol": 49507540.07,
+      "total_sol": 632514126.53,
+      "circulating_sol": 583006583.49,
+      "non_circulating_sol": 49507543.04,
       "circulating_pct": 92.17
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 200000,
-      "zero_fee_slot_share_pct": 99.3,
+      "max_priority_fee_microlamports": 0,
+      "zero_fee_slot_share_pct": 100.0,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3GoTPu7x4eZskLfxLnr8TXLsbwshB8XW6AmY6hraPScp5p6g5ENRD4s5eBJGBK4xvKknENoMmGSn1DmAUKc8Wxwu",
-      "latest_block_time": 1787175425,
-      "errors_in_recent": 8
+      "latest_signature": "WLtMThRE8JUatHL3kchwm1wxFXM5SqFYMaeZyGEyrVo5HmWf2VKvQGQyMbdVjMt7DCab52K11k9ZwhXERy1QYCP",
+      "latest_block_time": 1787176676,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1744,
+      "unique_signers_sampled": 1751,
       "blocks_sampled": 3,
-      "transactions_sampled": 7250,
-      "non_vote_transactions_sampled": 5203,
-      "signers_per_block": 581.3,
-      "non_vote_share_pct": 71.77,
+      "transactions_sampled": 6369,
+      "non_vote_transactions_sampled": 4339,
+      "signers_per_block": 583.7,
+      "non_vote_share_pct": 68.13,
       "sampled_slots": [
-        440344150,
-        440342650,
-        440341150
+        440347141,
+        440345641,
+        440344141
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 86.78,
-      "change_24h_pct": 12.78,
-      "market_cap_usd": 50580735055.50318,
-      "volume_24h_usd": 3989945523.9173985,
+      "usd": 86.74,
+      "change_24h_pct": 12.75,
+      "market_cap_usd": 50571796472.845726,
+      "volume_24h_usd": 4065491017.710865,
       "source": "coingecko"
     },
     "tvl": {
@@ -183,23 +183,23 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 108351461
+          "volume_24h_usd": 111063589
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15657661109.77,
+      "total_usd": 15679617487.53,
       "by_peg": {
-        "peggedUSD": 15596384798.74,
-        "peggedEUR": 56428231.19,
-        "peggedJPY": 54.47,
-        "peggedCHF": 1364310.64,
-        "peggedAUD": 2679.59,
-        "peggedVAR": 2466916.23,
-        "peggedGBP": 844397.37,
+        "peggedUSD": 15618296227.45,
+        "peggedEUR": 56443552.02,
+        "peggedJPY": 55.11,
+        "peggedCHF": 1370060.86,
+        "peggedAUD": 2681.13,
+        "peggedVAR": 2490775.33,
+        "peggedGBP": 844414.23,
         "peggedTRY": 168254.68,
-        "peggedCAD": 1466.17,
+        "peggedCAD": 1466.03,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -2341,30 +2341,23 @@
     {
       "metric": "price_usd",
       "severity": "critical",
-      "message": "price_usd is 7.2 sigma above its 287-point mean",
-      "value": 86.78,
-      "expected": 76.0381
+      "message": "price_usd is 6.6 sigma above its 287-point mean",
+      "value": 86.74,
+      "expected": 76.0764
     },
     {
       "metric": "tvl_usd",
       "severity": "critical",
-      "message": "tvl_usd is 4.7 sigma above its 288-point mean",
+      "message": "tvl_usd is 4.5 sigma above its 288-point mean",
       "value": 5102458819.83,
-      "expected": 4840785469.2182
+      "expected": 4841780014.2314
     },
     {
       "metric": "equities_usd",
       "severity": "critical",
       "message": "equities_usd is 3.5 sigma above its 288-point mean",
       "value": 424590020.0,
-      "expected": 411859817.8498
-    },
-    {
-      "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.6 sigma above its 288-point mean",
-      "value": 3705.85,
-      "expected": 1964.1258
+      "expected": 411938915.726
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-19 07:02:03",
+  "captured_at": "2026-08-19 07:51:02",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4152,
+      "measured_slot_time_secs": 0.4148,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.8,
+      "deviation_from_target_pct": 3.7,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3132.25,
-      "tps_non_vote": 1497.06,
-      "vote_share_pct": 52.2,
-      "avg_slot_time_secs": 0.4149,
-      "latest_sample_slot": 440218204,
+      "tps_total": 3000.63,
+      "tps_non_vote": 1344.74,
+      "vote_share_pct": 55.18,
+      "avg_slot_time_secs": 0.4104,
+      "latest_sample_slot": 440225364,
       "samples_used": 5,
-      "block_height": 418268454,
-      "current_slot": 440218266
+      "block_height": 418275524,
+      "current_slot": 440225347
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 10266,
+      "slot_index": 17347,
       "slots_in_epoch": 432000,
-      "progress_pct": 2.38,
-      "eta_hours": 48.6,
-      "eta_basis_slot_secs": 0.4152,
-      "transaction_count": 539530873492
+      "progress_pct": 4.02,
+      "eta_hours": 47.8,
+      "eta_basis_slot_secs": 0.4148,
+      "transaction_count": 539539142178
     },
     "validators": {
-      "active_count": 682,
-      "delinquent_count": 13,
-      "delinquent_pct": 1.87,
-      "delinquent_stake_sol": 170975.35,
-      "delinquent_stake_pct": 0.039,
-      "total_active_stake_sol": 435070292.49,
+      "active_count": 685,
+      "delinquent_count": 10,
+      "delinquent_pct": 1.44,
+      "delinquent_stake_sol": 127104.75,
+      "delinquent_stake_pct": 0.029,
+      "total_active_stake_sol": 435114163.09,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 255,
@@ -45,7 +45,7 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17101526.86,
-          "stake_pct": 3.931,
+          "stake_pct": 3.93,
           "commission": 7
         },
         {
@@ -75,13 +75,13 @@
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8991289.76,
-          "stake_pct": 2.067,
+          "stake_pct": 2.066,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8308413.01,
-          "stake_pct": 1.91,
+          "stake_pct": 1.909,
           "commission": 0
         },
         {
@@ -99,14 +99,14 @@
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6546145.69,
-          "stake_pct": 1.505,
+          "stake_pct": 1.504,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 632514743.38,
-      "circulating_sol": 583007490.81,
+      "total_sol": 632514721.57,
+      "circulating_sol": 583007469.01,
       "non_circulating_sol": 49507252.56,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5rgZWc6jbY1pZRixKdHLLS9SeLjKSK4XHSeGffZzRjRrvp3aaZvU9dRDXvLDdo4BCms1B4NnG63gq6LVtVyfTcAW",
-      "latest_block_time": 1787122917,
-      "errors_in_recent": 4
+      "latest_signature": "2WzcMgcvdjnRwwVGacm4r1xupxM5bVq2mD42bxBanCkuHaVyVxiW6UnBdFNymbG1SuDAK4TuekEwAainarKyK6Tc",
+      "latest_block_time": 1787125856,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1266,
+      "unique_signers_sampled": 1550,
       "blocks_sampled": 3,
-      "transactions_sampled": 3476,
-      "non_vote_transactions_sampled": 1416,
-      "signers_per_block": 422.0,
-      "non_vote_share_pct": 40.74,
+      "transactions_sampled": 3561,
+      "non_vote_transactions_sampled": 1529,
+      "signers_per_block": 516.7,
+      "non_vote_share_pct": 42.94,
       "sampled_slots": [
-        440218084,
-        440216584,
-        440215084
+        440225164,
+        440223664,
+        440222164
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.01,
-      "change_24h_pct": 1.37,
-      "market_cap_usd": 44891252586.99472,
-      "volume_24h_usd": 1354598828.2999897,
+      "usd": 76.93,
+      "change_24h_pct": 1.3,
+      "market_cap_usd": 44850641837.62144,
+      "volume_24h_usd": 1326559179.5674458,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4892422777.24,
+      "tvl_usd": 4892675695.16,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.43,
       "source": "defillama"
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15475761578.39,
+      "total_usd": 15436986421.08,
       "by_peg": {
-        "peggedUSD": 15414696574.84,
-        "peggedEUR": 56217228.88,
-        "peggedJPY": 51.41,
-        "peggedCHF": 1382980.64,
-        "peggedAUD": 2669.25,
-        "peggedVAR": 2436447.34,
-        "peggedGBP": 855914.07,
+        "peggedUSD": 15375882280.17,
+        "peggedEUR": 56241859.61,
+        "peggedJPY": 51.39,
+        "peggedCHF": 1383792.89,
+        "peggedAUD": 2667.49,
+        "peggedVAR": 2450108.94,
+        "peggedGBP": 855948.67,
         "peggedTRY": 168254.68,
-        "peggedCAD": 1456.61,
+        "peggedCAD": 1456.54,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 788450.07,
+      "rev_24h_usd": 789007.07,
       "network_fees_24h_usd": 649172,
-      "mev_tips_24h_usd": 139278.07,
-      "mev_share_of_rev_pct": 17.66,
-      "rev_annualised_usd": 287784275.55,
+      "mev_tips_24h_usd": 139835.07,
+      "mev_share_of_rev_pct": 17.72,
+      "rev_annualised_usd": 287987580.55,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 119140
+          "tips_24h_usd": 119697
         },
         {
           "name": "Harmonic",
@@ -2291,21 +2291,21 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Ever wondered what $1.2B in volume looks like onchain? From SPCX's test mint to 30,429 wallets trading it in under 3 months. This is the flow of @Backpack's issued SPCX visualized over the last 83 days \ud83d\udc47 https://t.co/SkoEQ4tdZA",
-        "created_at": "Tue Aug 18 20:14:38 +0000 2026",
-        "url": "https://x.com/solana/status/2089808207250153765"
+        "text": "We\u2019ve crossed 30% of @Solana\u2019s daily DEX aggregator volume for the first time, reflecting growing demand for competitive routing, reliable execution, and broader market access onchain.",
+        "created_at": "Wed Aug 19 05:05:25 +0000 2026",
+        "url": "https://x.com/solana/status/2089941783874773230"
       },
       {
         "handle": "solana",
-        "text": "Capital flows to where the infrastructure works, and right now real-world assets are flowing to @solana faster than anywhere else. #1 in RWA net inflows over the past 30 days. The future of finance runs on Solana.",
-        "created_at": "Tue Aug 18 15:44:00 +0000 2026",
-        "url": "https://x.com/solana/status/2089740102419562855"
+        "text": "\ud83d\udca5\ud83d\udca5\ud83d\udca5This is the @solana thesis \ud83d\udca5\ud83d\udca5\ud83d\udca5 Give builders a neutral, high performance chain where they can plug into shared liquidity and assets, then compete on product and distribution. @fomo reaching #5 in Finance is one example. Imagine 100 apps\u2026",
+        "created_at": "Tue Aug 18 22:57:00 +0000 2026",
+        "url": "https://x.com/solana/status/2089849069006950816"
       },
       {
         "handle": "solana",
-        "text": "Introducing the Crafts Anchor Board. Review curated startups before the round opens: \u2022 Meet founders \u2022 Lead diligence \u2022 Soft-commit to selected rounds \u2022 Get early access to curated offerings Apply as investor \u2192 https://t.co/8o5XOyESel http\u2026",
-        "created_at": "Tue Aug 18 15:32:53 +0000 2026",
-        "url": "https://x.com/solana/status/2089737306345181316"
+        "text": "AnsemHack Clawrena. 1pm EST. 08/19. Get ready for the largest developer & trader onboarding event of the year. We're bringing the best agentic projects to @solana with Clawpump x @blknoiz06 x @Pumpfun registration opens tomorrow: https://t\u2026",
+        "created_at": "Tue Aug 18 21:47:23 +0000 2026",
+        "url": "https://x.com/solana/status/2089831550829338866"
       },
       {
         "handle": "solana",

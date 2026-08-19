@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-19 07:02:03 UTC by SolVitals.
+Generated 2026-08-19 07:51:02 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,497.06 |
-| Total TPS (incl. votes) | 3,132.25 |
-| Vote share of transactions | 52.20% |
-| Average slot time | 0.4149 s |
-| Current slot | 440,218,266 |
-| Block height | 418,268,454 |
+| Non-vote TPS | 1,344.74 |
+| Total TPS (incl. votes) | 3,000.63 |
+| Vote share of transactions | 55.18% |
+| Average slot time | 0.4104 s |
+| Current slot | 440,225,347 |
+| Block height | 418,275,524 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 2.38% complete (`....................`), ~48.6 hours remaining.
+Epoch **1019** — 4.02% complete (`#...................`), ~47.8 hours remaining.
 
-Slot 10,266 of 432,000. Lifetime transaction count: 539,530,873,492.
+Slot 17,347 of 432,000. Lifetime transaction count: 539,539,142,178.
 
 ## Transaction costs and slot timing
 
@@ -34,23 +34,23 @@ Slot 10,266 of 432,000. Lifetime transaction count: 539,530,873,492.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4152 s |
-| Deviation from 0.4s target | 3.8% |
+| Measured slot time (`getBlockTime`) | 0.4148 s |
+| Deviation from 0.4s target | 3.7% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 682 |
-| Delinquent validators | 13 (1.87%) |
-| Stake held by delinquents | 170,975 SOL (0.039%) |
-| Total active stake | 435,070,292 SOL |
+| Active validators | 685 |
+| Delinquent validators | 10 (1.44%) |
+| Stake held by delinquents | 127,105 SOL (0.029%) |
+| Total active stake | 435,114,163 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 255 |
@@ -61,42 +61,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,101,527 | 3.931% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,101,527 | 3.93% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,011,570 | 3.68% | 0% |
 | 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 12,410,378 | 2.852% | 5% |
 | 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,198,972 | 2.804% | 0% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,188,631 | 2.112% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,991,290 | 2.067% | 10% |
-| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,308,413 | 1.91% | 0% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,991,290 | 2.066% | 10% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,308,413 | 1.909% | 0% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,991,430 | 1.837% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,344,654 | 1.688% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,546,146 | 1.505% | 0% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,546,146 | 1.504% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.01 (up 1.37%) |
-| Market cap | $44.89B |
+| SOL price | $76.93 (up 1.30%) |
+| Market cap | $44.85B |
 | DeFi TVL | $4.89B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.82B (up 23.44%) |
-| Stablecoin supply | $15.48B |
+| Stablecoin supply | $15.44B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$788.45K** |
+| **REV (total)** | **$789.01K** |
 | Network fees | $649.17K |
-| MEV tips (out-of-protocol) | $139.28K (17.66% of REV) |
-| Annualised REV run-rate | $287.78M |
+| MEV tips (out-of-protocol) | $139.84K (17.72% of REV) |
+| Annualised REV run-rate | $287.99M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $119.14K |
+| Jito MEV Tips | $119.70K |
 | Harmonic | $12.81K |
 | bloXroute | $7.32K |
 | Pyth Express Relay | $0 |
@@ -153,11 +153,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,266 |
+| Unique fee payers (sampled) | 1,550 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,476 |
-| Non-vote share of sample | 40.74% |
-| Signers per block | 422.0 |
+| Transactions in sample | 3,561 |
+| Non-vote share of sample | 42.94% |
+| Signers per block | 516.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,007,491 SOL of 632,514,743 total (92.17%).
+Circulating 583,007,469 SOL of 632,514,722 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,9 +203,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Ever wondered what $1.2B in volume looks like onchain? From SPCX's test mint to 30,429 wallets trading it in under 3 months. This is the flow of @Backpack's issued SPCX visualized over the last 83 days 👇 https://t.co/SkoEQ4tdZA [(link)](https://x.com/solana/status/2089808207250153765)
-- **@solana** — Capital flows to where the infrastructure works, and right now real-world assets are flowing to @solana faster than anywhere else. #1 in RWA net inflows over the past 30 days. The future of finance runs on Solana. [(link)](https://x.com/solana/status/2089740102419562855)
-- **@solana** — Introducing the Crafts Anchor Board. Review curated startups before the round opens: • Meet founders • Lead diligence • Soft-commit to selected rounds • Get early access to curated offerings Apply as investor → https://t.co/8o5XOyESel http… [(link)](https://x.com/solana/status/2089737306345181316)
+- **@solana** — We’ve crossed 30% of @Solana’s daily DEX aggregator volume for the first time, reflecting growing demand for competitive routing, reliable execution, and broader market access onchain. [(link)](https://x.com/solana/status/2089941783874773230)
+- **@solana** — 💥💥💥This is the @solana thesis 💥💥💥 Give builders a neutral, high performance chain where they can plug into shared liquidity and assets, then compete on product and distribution. @fomo reaching #5 in Finance is one example. Imagine 100 apps… [(link)](https://x.com/solana/status/2089849069006950816)
+- **@solana** — AnsemHack Clawrena. 1pm EST. 08/19. Get ready for the largest developer & trader onboarding event of the year. We're bringing the best agentic projects to @solana with Clawpump x @blknoiz06 x @Pumpfun registration opens tomorrow: https://t… [(link)](https://x.com/solana/status/2089831550829338866)
 - **@solana** — .@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us… [(link)](https://x.com/solana/status/2089691280041230767)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)

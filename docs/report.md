@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-19 10:16:27 UTC by SolVitals.
+Generated 2026-08-19 10:51:31 UTC by SolVitals.
 
 ## Alerts
 
-No anomalies detected against configured thresholds and recent history.
+- [WARNING] **price_usd** — price_usd is 2.5 sigma above its 287-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,463.29 |
-| Total TPS (incl. votes) | 3,075.79 |
-| Vote share of transactions | 52.43% |
-| Average slot time | 0.4184 s |
-| Current slot | 440,246,315 |
-| Block height | 418,296,484 |
+| Non-vote TPS | 1,637.71 |
+| Total TPS (incl. votes) | 3,272.65 |
+| Vote share of transactions | 49.96% |
+| Average slot time | 0.4161 s |
+| Current slot | 440,251,384 |
+| Block height | 418,301,541 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 8.87% complete (`##..................`), ~45.5 hours remaining.
+Epoch **1019** — 10.04% complete (`##..................`), ~44.8 hours remaining.
 
-Slot 38,316 of 432,000. Lifetime transaction count: 539,565,900,462.
+Slot 43,384 of 432,000. Lifetime transaction count: 539,572,408,307.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 38,316 of 432,000. Lifetime transaction count: 539,565,900,462.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.416 s |
-| Deviation from 0.4s target | 4.0% |
+| Measured slot time (`getBlockTime`) | 0.4152 s |
+| Deviation from 0.4s target | 3.8% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.22 (up 1.81%) |
-| Market cap | $45.01B |
+| SOL price | $77.29 (up 1.96%) |
+| Market cap | $45.07B |
 | DeFi TVL | $4.90B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.82B (up 23.44%) |
-| Stablecoin supply | $15.43B |
+| Stablecoin supply | $15.42B |
 
 ### Real Economic Value (REV)
 
@@ -153,11 +153,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,489 |
+| Unique fee payers (sampled) | 1,660 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,894 |
-| Non-vote share of sample | 48.0% |
-| Signers per block | 496.3 |
+| Transactions in sample | 4,048 |
+| Non-vote share of sample | 50.1% |
+| Signers per block | 553.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,007,399 SOL of 632,514,651 total (92.17%).
+Circulating 583,007,381 SOL of 632,514,634 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -269,6 +269,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Lowering Slot Time and Validators Economic](https://solana.com/news/lowering-slot-time-and-validators-economic)**
+  Solana will reduce its slot times from 400ms to 200ms. This change will make the protocol more competitive in terms of latency. Here we explore some possible implication on validators economic.
 - **[Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)**
 - **[Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)**
   Slot times to 250ms on testnet and releases from Agave and Firedancer.
@@ -282,8 +284,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Agave, Firedancer, Frankendancer, SDK, and testing-tool releases shipped as 350ms slot-time gates reached Devnet and Testnet.
 - **[Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments)**
   X402 has processed roughly 200M transactions and $50B in volume, giving AI agents a stablecoin-native way to pay for web resources.
-- **[Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026)**
-  Tokenized equities expanded, real-world assets hit $3.73B, payments reached 330,000+ merchants, and block capacity increased 66% in a milestone month.
 
 _Source: official Solana news feed (solana.com/news)._
 

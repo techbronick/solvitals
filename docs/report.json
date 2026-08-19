@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-19 11:40:02",
+  "captured_at": "2026-08-19 11:58:25",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4122,
+      "measured_slot_time_secs": 0.4134,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.05,
+      "deviation_from_target_pct": 3.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3292.38,
-      "tps_non_vote": 1632.16,
-      "vote_share_pct": 50.43,
-      "avg_slot_time_secs": 0.411,
-      "latest_sample_slot": 440258451,
+      "tps_total": 3498.51,
+      "tps_non_vote": 1869.05,
+      "vote_share_pct": 46.58,
+      "avg_slot_time_secs": 0.4172,
+      "latest_sample_slot": 440260982,
       "samples_used": 5,
-      "block_height": 418308580,
-      "current_slot": 440258431
+      "block_height": 418311231,
+      "current_slot": 440261087
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 50432,
+      "slot_index": 53088,
       "slots_in_epoch": 432000,
-      "progress_pct": 11.67,
-      "eta_hours": 43.7,
-      "eta_basis_slot_secs": 0.4122,
-      "transaction_count": 539582043008
+      "progress_pct": 12.29,
+      "eta_hours": 43.5,
+      "eta_basis_slot_secs": 0.4134,
+      "transaction_count": 539585603053
     },
     "validators": {
-      "active_count": 685,
-      "delinquent_count": 10,
-      "delinquent_pct": 1.44,
-      "delinquent_stake_sol": 127104.75,
-      "delinquent_stake_pct": 0.029,
-      "total_active_stake_sol": 435114163.09,
+      "active_count": 686,
+      "delinquent_count": 9,
+      "delinquent_pct": 1.29,
+      "delinquent_stake_sol": 116053.86,
+      "delinquent_stake_pct": 0.027,
+      "total_active_stake_sol": 435125213.98,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 255,
+      "zero_commission_count": 256,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632514608.61,
-      "circulating_sol": 583007356.05,
+      "total_sol": 632514599.23,
+      "circulating_sol": 583007346.67,
       "non_circulating_sol": 49507252.56,
       "circulating_pct": 92.17
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "hSASvvDeBT6YLn2YB9CXftNRTbMoR6pkXuYakjxcoHdFfEGF6KFKwVgzgEq6tG5Y3RbhxXoX2diRHkKmhGUwc84",
-      "latest_block_time": 1787139598,
+      "latest_signature": "5xWBoaCUeNkdGLaevAWPFSxeEXcuAYPpGpLbZjfBbfyQvvbqhSHP1gUVZiTs72MBzCn4MQKM38FFDBKXuKiTkiN5",
+      "latest_block_time": 1787140705,
       "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1636,
+      "unique_signers_sampled": 1566,
       "blocks_sampled": 3,
-      "transactions_sampled": 4610,
-      "non_vote_transactions_sampled": 2188,
-      "signers_per_block": 545.3,
-      "non_vote_share_pct": 47.46,
+      "transactions_sampled": 4303,
+      "non_vote_transactions_sampled": 2288,
+      "signers_per_block": 522.0,
+      "non_vote_share_pct": 53.17,
       "sampled_slots": [
-        440258252,
-        440256752,
-        440255252
+        440260916,
+        440259416,
+        440257916
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.48,
-      "change_24h_pct": 1.52,
-      "market_cap_usd": 45168793171.07431,
-      "volume_24h_usd": 1395550658.8514345,
+      "usd": 77.49,
+      "change_24h_pct": 1.61,
+      "market_cap_usd": 45165975941.20105,
+      "volume_24h_usd": 1386576314.718935,
       "source": "coingecko"
     },
     "tvl": {
@@ -2291,27 +2291,27 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "MoneyGram CEO Anthony Soohoo on connecting cash to Solana: \"The biggest announcement we've made with Solana is about access, providing all their developers the ability to build on our MoneyGram network.\" \"Anyone building on Solana can use \u2026",
+        "created_at": "Wed Aug 19 11:10:20 +0000 2026",
+        "url": "https://x.com/solana/status/2090033619792523378"
+      },
+      {
+        "handle": "solana",
         "text": "We\u2019ve crossed 30% of @Solana\u2019s daily DEX aggregator volume for the first time, reflecting growing demand for competitive routing, reliable execution, and broader market access onchain.",
         "created_at": "Wed Aug 19 05:05:25 +0000 2026",
         "url": "https://x.com/solana/status/2089941783874773230"
       },
       {
         "handle": "solana",
-        "text": "\ud83d\udca5\ud83d\udca5\ud83d\udca5This is the @solana thesis \ud83d\udca5\ud83d\udca5\ud83d\udca5 Give builders a neutral, high performance chain where they can plug into shared liquidity and assets, then compete on product and distribution. @fomo reaching #5 in Finance is one example. Imagine 100 apps\u2026",
-        "created_at": "Tue Aug 18 22:57:00 +0000 2026",
-        "url": "https://x.com/solana/status/2089849069006950816"
+        "text": "Looking for companies doing the following + building on @solana: - Using AI to underwrite lower-cost personal + small business loans - Securitizing compute - KYA (KYC for agents) - Markets for GPU inference - Data center tokenization or fi\u2026",
+        "created_at": "Wed Aug 19 04:51:31 +0000 2026",
+        "url": "https://x.com/solana/status/2089938286282526971"
       },
       {
         "handle": "solana",
-        "text": "AnsemHack Clawrena. 1pm EST. 08/19. Get ready for the largest developer & trader onboarding event of the year. We're bringing the best agentic projects to @solana with Clawpump x @blknoiz06 x @Pumpfun registration opens tomorrow: https://t\u2026",
-        "created_at": "Tue Aug 18 21:47:23 +0000 2026",
-        "url": "https://x.com/solana/status/2089831550829338866"
-      },
-      {
-        "handle": "solana",
-        "text": ".@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us\u2026",
-        "created_at": "Tue Aug 18 12:30:00 +0000 2026",
-        "url": "https://x.com/solana/status/2089691280041230767"
+        "text": "BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world's largest payments networks is now a single API away for every builder on Solana. https://t.co/TSOhIpBjvz",
+        "created_at": "Tue Aug 11 13:04:25 +0000 2026",
+        "url": "https://x.com/solana/status/2087163225393750405"
       },
       {
         "handle": "solanalabs",
@@ -2352,9 +2352,9 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.8 sigma above its 287-point mean",
-      "value": 77.48,
-      "expected": 75.7321
+      "message": "price_usd is 2.7 sigma above its 287-point mean",
+      "value": 77.49,
+      "expected": 75.736
     }
   ]
 }

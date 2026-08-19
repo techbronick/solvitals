@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-19 11:40:02 UTC by SolVitals.
+Generated 2026-08-19 11:58:25 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **price_usd** — price_usd is 2.8 sigma above its 287-point mean
+- [WARNING] **price_usd** — price_usd is 2.7 sigma above its 287-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,632.16 |
-| Total TPS (incl. votes) | 3,292.38 |
-| Vote share of transactions | 50.43% |
-| Average slot time | 0.4110 s |
-| Current slot | 440,258,431 |
-| Block height | 418,308,580 |
+| Non-vote TPS | 1,869.05 |
+| Total TPS (incl. votes) | 3,498.51 |
+| Vote share of transactions | 46.58% |
+| Average slot time | 0.4172 s |
+| Current slot | 440,261,087 |
+| Block height | 418,311,231 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 11.67% complete (`##..................`), ~43.7 hours remaining.
+Epoch **1019** — 12.29% complete (`##..................`), ~43.5 hours remaining.
 
-Slot 50,432 of 432,000. Lifetime transaction count: 539,582,043,008.
+Slot 53,088 of 432,000. Lifetime transaction count: 539,585,603,053.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 50,432 of 432,000. Lifetime transaction count: 539,582,043,008.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4122 s |
-| Deviation from 0.4s target | 3.05% |
+| Measured slot time (`getBlockTime`) | 0.4134 s |
+| Deviation from 0.4s target | 3.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -47,13 +47,13 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 685 |
-| Delinquent validators | 10 (1.44%) |
-| Stake held by delinquents | 127,105 SOL (0.029%) |
-| Total active stake | 435,114,163 SOL |
+| Active validators | 686 |
+| Delinquent validators | 9 (1.29%) |
+| Stake held by delinquents | 116,054 SOL (0.027%) |
+| Total active stake | 435,125,214 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 255 |
+| Zero-commission validators | 256 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,7 +76,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.48 (up 1.52%) |
+| SOL price | $77.49 (up 1.61%) |
 | Market cap | $45.17B |
 | DeFi TVL | $4.91B |
 | TVL rank across chains | 2 |
@@ -153,11 +153,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,636 |
+| Unique fee payers (sampled) | 1,566 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,610 |
-| Non-vote share of sample | 47.46% |
-| Signers per block | 545.3 |
+| Transactions in sample | 4,303 |
+| Non-vote share of sample | 53.17% |
+| Signers per block | 522.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,7 +173,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,007,356 SOL of 632,514,609 total (92.17%).
+Circulating 583,007,347 SOL of 632,514,599 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,10 +203,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — MoneyGram CEO Anthony Soohoo on connecting cash to Solana: "The biggest announcement we've made with Solana is about access, providing all their developers the ability to build on our MoneyGram network." "Anyone building on Solana can use … [(link)](https://x.com/solana/status/2090033619792523378)
 - **@solana** — We’ve crossed 30% of @Solana’s daily DEX aggregator volume for the first time, reflecting growing demand for competitive routing, reliable execution, and broader market access onchain. [(link)](https://x.com/solana/status/2089941783874773230)
-- **@solana** — 💥💥💥This is the @solana thesis 💥💥💥 Give builders a neutral, high performance chain where they can plug into shared liquidity and assets, then compete on product and distribution. @fomo reaching #5 in Finance is one example. Imagine 100 apps… [(link)](https://x.com/solana/status/2089849069006950816)
-- **@solana** — AnsemHack Clawrena. 1pm EST. 08/19. Get ready for the largest developer & trader onboarding event of the year. We're bringing the best agentic projects to @solana with Clawpump x @blknoiz06 x @Pumpfun registration opens tomorrow: https://t… [(link)](https://x.com/solana/status/2089831550829338866)
-- **@solana** — .@MeteoraAG is the liquidity infrastructure behind Solana DeFi. Every swap runs through a liquidity pool, and Meteora has quietly become one of the largest pieces of it. More than $300B in volume. Over $1.6B in fees paid to the everyday us… [(link)](https://x.com/solana/status/2089691280041230767)
+- **@solana** — Looking for companies doing the following + building on @solana: - Using AI to underwrite lower-cost personal + small business loans - Securitizing compute - KYA (KYC for agents) - Markets for GPU inference - Data center tokenization or fi… [(link)](https://x.com/solana/status/2089938286282526971)
+- **@solana** — BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world's largest payments networks is now a single API away for every builder on Solana. https://t.co/TSOhIpBjvz [(link)](https://x.com/solana/status/2087163225393750405)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

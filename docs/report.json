@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-18 23:55:24",
+  "captured_at": "2026-08-19 00:34:15",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4176,
+      "measured_slot_time_secs": 0.4164,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.4,
+      "deviation_from_target_pct": 4.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3543.32,
-      "tps_non_vote": 1917.09,
-      "vote_share_pct": 45.9,
-      "avg_slot_time_secs": 0.4208,
-      "latest_sample_slot": 440156724,
+      "tps_total": 3822.85,
+      "tps_non_vote": 2156.87,
+      "vote_share_pct": 43.58,
+      "avg_slot_time_secs": 0.4115,
+      "latest_sample_slot": 440162246,
       "samples_used": 5,
-      "block_height": 418206964,
-      "current_slot": 440156700
+      "block_height": 418212563,
+      "current_slot": 440162299
     },
     "epoch": {
       "epoch": 1018,
-      "slot_index": 380700,
+      "slot_index": 386299,
       "slots_in_epoch": 432000,
-      "progress_pct": 88.12,
-      "eta_hours": 6.0,
-      "eta_basis_slot_secs": 0.4176,
-      "transaction_count": 539441891298
+      "progress_pct": 89.42,
+      "eta_hours": 5.3,
+      "eta_basis_slot_secs": 0.4164,
+      "transaction_count": 539450854162
     },
     "validators": {
       "active_count": 689,
@@ -105,17 +105,14 @@
       ]
     },
     "supply": {
-      "total_sol": 632387250.24,
-      "circulating_sol": 582892065.51,
-      "non_circulating_sol": 49495184.73,
-      "circulating_pct": 92.17
+      "error": "all RPC endpoints failed for getSupply: https://api.mainnet-beta.solana.com: The read operation timed out; https://solana-rpc.publicnode.com: The read operation timed out"
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 5068,
-      "zero_fee_slot_share_pct": 99.3,
+      "max_priority_fee_microlamports": 0,
+      "zero_fee_slot_share_pct": 100.0,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,43 +123,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5c8zzsBa8VpXyyx7SdaXwpRdRns2cQEWMKrqeMuaizDxbST1ZsQe2AMPcdj1mgnMQycnnKqbSA7W2XrZpKbgqvLM",
-      "latest_block_time": 1787097318,
-      "errors_in_recent": 4
+      "latest_signature": "3htd4kGAENpXMASePXozacckMua88HY6FWNJhYcJuXH1f8vNqb7eEFkGhicLJUHnDNCSJPMzUNZPQmFPmQpoCR9Y",
+      "latest_block_time": 1787099769,
+      "errors_in_recent": 7
     },
     "activity": {
-      "unique_signers_sampled": 1912,
+      "unique_signers_sampled": 1517,
       "blocks_sampled": 3,
-      "transactions_sampled": 4872,
-      "non_vote_transactions_sampled": 2818,
-      "signers_per_block": 637.3,
-      "non_vote_share_pct": 57.84,
+      "transactions_sampled": 4704,
+      "non_vote_transactions_sampled": 2664,
+      "signers_per_block": 505.7,
+      "non_vote_share_pct": 56.63,
       "sampled_slots": [
-        440156517,
-        440155017,
-        440153517
+        440162404,
+        440160904,
+        440159404
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 77.07,
-      "change_24h_pct": 1.44,
-      "market_cap_usd": 44921222394.062164,
-      "volume_24h_usd": 1414126626.9749756,
+      "usd": 76.94,
+      "change_24h_pct": 1.4,
+      "market_cap_usd": 44848334772.00697,
+      "volume_24h_usd": 1416535981.550255,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4897514329.02,
-      "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.42,
+      "tvl_usd": 4899420258.19,
+      "rank_by_tvl": 2,
+      "share_of_all_chains_pct": 6.43,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1474994437.3600001,
-      "volume_7d_usd": 10595325597.239998,
-      "change_24h_pct": 39.74,
+      "volume_24h_usd": 1456594741.93,
+      "volume_7d_usd": 9253969883.999998,
+      "change_24h_pct": -1.25,
       "protocol_count": 119,
       "top_dexes": [
         {
@@ -179,7 +176,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 98191098
+          "volume_24h_usd": 98397708
         },
         {
           "name": "Meteora DLMM",
@@ -189,17 +186,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15422124135.79,
+      "total_usd": 15427219376.77,
       "by_peg": {
-        "peggedUSD": 15361147225.08,
-        "peggedEUR": 56128727.2,
-        "peggedJPY": 50.38,
-        "peggedCHF": 1382455.62,
-        "peggedAUD": 2676.7,
-        "peggedVAR": 2436699.52,
-        "peggedGBP": 856509.78,
+        "peggedUSD": 15366225714.54,
+        "peggedEUR": 56137537.98,
+        "peggedJPY": 50.48,
+        "peggedCHF": 1382394.3,
+        "peggedAUD": 2677.24,
+        "peggedVAR": 2444718.71,
+        "peggedGBP": 856492.07,
         "peggedTRY": 168329.12,
-        "peggedCAD": 1461.69,
+        "peggedCAD": 1461.63,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -228,10 +225,10 @@
           "tips_24h_usd": 3.82
         }
       ],
-      "app_fees_24h_usd": 11283565.299999999,
-      "app_fees_7d_usd": 64099151.94999999,
-      "app_fees_30d_usd": 246894477.65999997,
-      "app_fees_change_24h_pct": 65.87,
+      "app_fees_24h_usd": 10986421.950000001,
+      "app_fees_7d_usd": 55242568.02999999,
+      "app_fees_30d_usd": 243003666.35999998,
+      "app_fees_change_24h_pct": -2.63,
       "protocol_count": 295,
       "top_fee_earning_apps": [
         {
@@ -2348,13 +2345,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "unique_signers_sampled",
-      "severity": "warning",
-      "message": "unique_signers_sampled is 2.3 sigma above its 288-point mean",
-      "value": 1912,
-      "expected": 1520.1979
-    }
-  ]
+  "anomalies": []
 }

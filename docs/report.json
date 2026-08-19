@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-19 05:43:48",
+  "captured_at": "2026-08-19 06:01:56",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4158,
+      "measured_slot_time_secs": 0.4146,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.95,
+      "deviation_from_target_pct": 3.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2934.44,
-      "tps_non_vote": 1325.54,
-      "vote_share_pct": 54.83,
-      "avg_slot_time_secs": 0.4237,
-      "latest_sample_slot": 440206915,
+      "tps_total": 2752.76,
+      "tps_non_vote": 1126.98,
+      "vote_share_pct": 59.06,
+      "avg_slot_time_secs": 0.4115,
+      "latest_sample_slot": 440209539,
       "samples_used": 5,
-      "block_height": 418257141,
-      "current_slot": 440206941
+      "block_height": 418259787,
+      "current_slot": 440209587
     },
     "epoch": {
-      "epoch": 1018,
-      "slot_index": 430941,
+      "epoch": 1019,
+      "slot_index": 1587,
       "slots_in_epoch": 432000,
-      "progress_pct": 99.75,
-      "eta_hours": 0.1,
-      "eta_basis_slot_secs": 0.4158,
-      "transaction_count": 539517471464
+      "progress_pct": 0.37,
+      "eta_hours": 49.6,
+      "eta_basis_slot_secs": 0.4146,
+      "transaction_count": 539520569555
     },
     "validators": {
-      "active_count": 688,
-      "delinquent_count": 7,
-      "delinquent_pct": 1.01,
-      "delinquent_stake_sol": 50106.54,
-      "delinquent_stake_pct": 0.012,
-      "total_active_stake_sol": 435626689.26,
+      "active_count": 673,
+      "delinquent_count": 22,
+      "delinquent_pct": 3.17,
+      "delinquent_stake_sol": 1051598.23,
+      "delinquent_stake_pct": 0.242,
+      "total_active_stake_sol": 434189669.61,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 255,
+      "zero_commission_count": 252,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 17091057.03,
-          "stake_pct": 3.923,
+          "stake_sol": 17101526.86,
+          "stake_pct": 3.939,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 16003006.03,
-          "stake_pct": 3.674,
+          "stake_sol": 16011570.34,
+          "stake_pct": 3.688,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 12495360.32,
-          "stake_pct": 2.868,
+          "stake_sol": 12410377.83,
+          "stake_pct": 2.858,
           "commission": 5
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12259520.21,
-          "stake_pct": 2.814,
+          "stake_sol": 12198972.14,
+          "stake_pct": 2.81,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9203435.63,
-          "stake_pct": 2.113,
+          "stake_sol": 9188631.12,
+          "stake_pct": 2.116,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 8992380.56,
-          "stake_pct": 2.064,
+          "stake_sol": 8991289.76,
+          "stake_pct": 2.071,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 8305833.8,
-          "stake_pct": 1.907,
+          "stake_sol": 8308413.01,
+          "stake_pct": 1.914,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7983993.32,
-          "stake_pct": 1.833,
+          "stake_sol": 7991430.5,
+          "stake_pct": 1.841,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 7342590.46,
-          "stake_pct": 1.686,
+          "stake_sol": 7344654.5,
+          "stake_pct": 1.692,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-          "stake_sol": 6588036.72,
-          "stake_pct": 1.512,
+          "stake_sol": 6546145.69,
+          "stake_pct": 1.508,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 632387053.0,
-      "circulating_sol": 582891867.58,
-      "non_circulating_sol": 49495185.42,
+      "total_sol": 632514770.07,
+      "circulating_sol": 583007517.51,
+      "non_circulating_sol": 49507252.56,
       "circulating_pct": 92.17
     },
     "transaction_fees": {
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3EvbbVdRm5AGmafLyZmfyXtzTeZYwjNaYQ7adGVK4htavRaEBeJugN8JWZ6cwoDJuG9pcPZhvSrfvH9cuzKX7Dv6",
-      "latest_block_time": 1787118221,
-      "errors_in_recent": 1
+      "latest_signature": "2TvQ3GBFEMZtpnd44UYYsq5uywuVYmAxS1wpPXQZkotZrNcQTA6sD1cY8bKvKT2ftoUUnBCXSzaQ8DGiTBZzsotf",
+      "latest_block_time": 1787119310,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1366,
+      "unique_signers_sampled": 1480,
       "blocks_sampled": 3,
-      "transactions_sampled": 3931,
-      "non_vote_transactions_sampled": 1892,
-      "signers_per_block": 455.3,
-      "non_vote_share_pct": 48.13,
+      "transactions_sampled": 3893,
+      "non_vote_transactions_sampled": 1859,
+      "signers_per_block": 493.3,
+      "non_vote_share_pct": 47.75,
       "sampled_slots": [
-        440206757,
-        440205257,
-        440203757
+        440209404,
+        440207904,
+        440206404
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 76.86,
-      "change_24h_pct": 1.56,
-      "market_cap_usd": 44794364084.20898,
-      "volume_24h_usd": 1341276701.6197755,
+      "usd": 76.75,
+      "change_24h_pct": 1.46,
+      "market_cap_usd": 44737099729.59578,
+      "volume_24h_usd": 1339044164.811041,
       "source": "coingecko"
     },
     "tvl": {
@@ -179,7 +179,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 96883852
+          "volume_24h_usd": 98250233
         },
         {
           "name": "pump.fun",
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 785975.07,
+      "rev_24h_usd": 788450.07,
       "network_fees_24h_usd": 649172,
-      "mev_tips_24h_usd": 136803.07,
-      "mev_share_of_rev_pct": 17.41,
-      "rev_annualised_usd": 286880900.55,
+      "mev_tips_24h_usd": 139278.07,
+      "mev_share_of_rev_pct": 17.66,
+      "rev_annualised_usd": 287784275.55,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 116665
+          "tips_24h_usd": 119140
         },
         {
           "name": "Harmonic",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 15:54:37",
+  "captured_at": "2026-08-20 16:20:19",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4168,
+      "measured_slot_time_secs": 0.4174,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 4.2,
+      "deviation_from_target_pct": 4.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5264.3,
-      "tps_non_vote": 3629.96,
-      "vote_share_pct": 31.05,
-      "avg_slot_time_secs": 0.4178,
-      "latest_sample_slot": 440502675,
+      "tps_total": 4252.07,
+      "tps_non_vote": 2609.7,
+      "vote_share_pct": 38.63,
+      "avg_slot_time_secs": 0.4155,
+      "latest_sample_slot": 440506279,
       "samples_used": 5,
-      "block_height": 418552489,
-      "current_slot": 440502674
+      "block_height": 418556185,
+      "current_slot": 440506378
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 294675,
+      "slot_index": 298379,
       "slots_in_epoch": 432000,
-      "progress_pct": 68.21,
-      "eta_hours": 15.9,
-      "eta_basis_slot_secs": 0.4168,
-      "transaction_count": 540014643069
+      "progress_pct": 69.07,
+      "eta_hours": 15.5,
+      "eta_basis_slot_secs": 0.4174,
+      "transaction_count": 540021869869
     },
     "validators": {
-      "active_count": 688,
-      "delinquent_count": 8,
-      "delinquent_pct": 1.15,
-      "delinquent_stake_sol": 59332.85,
+      "active_count": 689,
+      "delinquent_count": 7,
+      "delinquent_pct": 1.01,
+      "delinquent_stake_sol": 59332.35,
       "delinquent_stake_pct": 0.014,
-      "total_active_stake_sol": 435181934.99,
+      "total_active_stake_sol": 435181935.49,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 255,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513481.32,
-      "circulating_sol": 583005937.36,
+      "total_sol": 632513462.56,
+      "circulating_sol": 583005918.6,
       "non_circulating_sol": 49507543.96,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2HE7ykTxtmbcV4SzRwp6acJeoP8P8GpCHNe8Mbf2RiXeW7QnMCjGeMHYChrg1LJHVR8UA6dpQMXaZL75dcADrzw8",
-      "latest_block_time": 1787241277,
-      "errors_in_recent": 4
+      "latest_signature": "39YRH5pfnDdKHMe4wjwEGHDSmMgYHCegFKDLwY9qL2TPBeu79CJQmdcbsAK17TubY5pPRjS7qYjQijVpzc6NZvg7",
+      "latest_block_time": 1787242819,
+      "errors_in_recent": 7
     },
     "activity": {
-      "unique_signers_sampled": 1480,
+      "unique_signers_sampled": 1647,
       "blocks_sampled": 3,
-      "transactions_sampled": 5524,
-      "non_vote_transactions_sampled": 3496,
-      "signers_per_block": 493.3,
-      "non_vote_share_pct": 63.29,
+      "transactions_sampled": 5156,
+      "non_vote_transactions_sampled": 3111,
+      "signers_per_block": 549.0,
+      "non_vote_share_pct": 60.34,
       "sampled_slots": [
-        440502501,
-        440501001,
-        440499501
+        440506206,
+        440504706,
+        440503206
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 87.25,
-      "change_24h_pct": 6.77,
-      "market_cap_usd": 50836916644.29713,
-      "volume_24h_usd": 4911589885.65605,
+      "usd": 87.01,
+      "change_24h_pct": 6.17,
+      "market_cap_usd": 50728466441.30741,
+      "volume_24h_usd": 4852437543.869793,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5288679464.89,
+      "tvl_usd": 5285896680.24,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.35,
       "source": "defillama"
@@ -183,37 +183,37 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 200016809
+          "volume_24h_usd": 201164957
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15641676403.86,
+      "total_usd": 15678533144.87,
       "by_peg": {
-        "peggedUSD": 15580013134.46,
-        "peggedEUR": 56756598.84,
-        "peggedJPY": 55.3,
-        "peggedCHF": 1371084.68,
-        "peggedAUD": 73869.04,
-        "peggedVAR": 2458024.5,
-        "peggedGBP": 836439.1,
+        "peggedUSD": 15615456706.99,
+        "peggedEUR": 58166035.38,
+        "peggedJPY": 55.72,
+        "peggedCHF": 1377508.89,
+        "peggedAUD": 73988.92,
+        "peggedVAR": 2455225.45,
+        "peggedGBP": 836425.71,
         "peggedTRY": 165727.98,
-        "peggedCAD": 1469.26,
+        "peggedCAD": 1469.13,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1154526,
+      "rev_24h_usd": 1156896,
       "network_fees_24h_usd": 925809,
-      "mev_tips_24h_usd": 228717,
-      "mev_share_of_rev_pct": 19.81,
-      "rev_annualised_usd": 421401990,
+      "mev_tips_24h_usd": 231087,
+      "mev_share_of_rev_pct": 19.97,
+      "rev_annualised_usd": 422267040,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 193999
+          "tips_24h_usd": 196369
         },
         {
           "name": "Harmonic",
@@ -2093,14 +2093,16 @@
       "Stagnant": 1
     },
     "gated_count": 33,
-    "active_on_mainnet": 22,
-    "pending_on_mainnet": 11,
+    "active_on_mainnet": 0,
+    "pending_on_mainnet": 33,
     "cluster_versions": {
-      "mainnet": "4.2.0",
+      "mainnet": null,
       "testnet": "4.2.0",
       "devnet": "4.2.0"
     },
-    "clusters_unreachable": [],
+    "clusters_unreachable": [
+      "mainnet"
+    ],
     "highlights": [
       {
         "simd": "0326",
@@ -2140,7 +2142,7 @@
         "created": "2025-10-21",
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
-          "mainnet": "not created",
+          "mainnet": "unknown (RPC unreachable)",
           "testnet": "not created",
           "devnet": "not created"
         },
@@ -2159,135 +2161,147 @@
     ],
     "recently_pending": [
       {
+        "simd": "0089",
+        "title": "Programify Feature Gate Program",
+        "status": "Activated",
+        "feature_name": "migrate_feature_gate_program_to_core_bpf",
+        "feature_gate": "4eohviozzEeivk1y9UbrnekbAFMDQyJz5JjA9Y6gyvky",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 316,748,256)",
+          "devnet": "active (slot 352,512,000)"
+        }
+      },
+      {
+        "simd": "0127",
+        "title": "Get-Sysvar Syscall",
+        "status": "Activated",
+        "feature_name": "get_sysvar_syscall_enabled",
+        "feature_gate": "CLCoTADvV64PSrnR6QXty6Fwrt9Xc6EdxSJE4wLRePjq",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 316,748,256)",
+          "devnet": "active (slot 348,192,000)"
+        }
+      },
+      {
+        "simd": "0128",
+        "title": "Migrate Address Lookup Table to Core BPF",
+        "status": "Activated",
+        "feature_name": "migrate_address_lookup_table_program_to_core_bpf",
+        "feature_gate": "C97eKZygrkU4JxJsZdjgbUY7iQR7rKTr4NyDWo2E5pRm",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 321,068,256)",
+          "devnet": "active (slot 366,768,000)"
+        }
+      },
+      {
+        "simd": "0138",
+        "title": "Deprecate legacy vote instructions",
+        "status": "Activated",
+        "feature_name": "deprecate_unused_legacy_vote_plumbing",
+        "feature_gate": "6Uf8S75PVh91MYgPQSHnjRAPQq6an5BDv9vomrCwDqLe",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 284,348,256)",
+          "devnet": "active (slot 315,360,000)"
+        }
+      },
+      {
+        "simd": "0152",
+        "title": "Precompiles",
+        "status": "Activated",
+        "feature_name": "ed25519_precompile_verify_strict",
+        "feature_gate": "ed9tNscbWLYBooxWA7FE2B5KHWs8A6sxfY8EzezEcoo",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 299,900,256)",
+          "devnet": "active (slot 341,712,000)"
+        }
+      },
+      {
+        "simd": "0153",
+        "title": "ZK ElGamal Proof Program",
+        "status": "Activated",
+        "feature_name": "zk_elgamal_proof_program_enabled",
+        "feature_gate": "zkhiy5oLowR7HY4zogXjCjeMXyruLqBwSWH21qcFtnv",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 302,924,256)",
+          "devnet": "active (slot 346,032,000)"
+        }
+      },
+      {
+        "simd": "0162",
+        "title": "Remove Accounts `is_executable` Flag Checks",
+        "status": "Implemented",
+        "feature_name": "remove_accounts_executable_flag_checks",
+        "feature_gate": "FXs1zh47QbNnhXcnB6YiAQoJ4sGB91tKF3UFHLcKT7PM",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 339,212,256)",
+          "devnet": "active (slot 390,096,000)"
+        }
+      },
+      {
         "simd": "0163",
         "title": "Lift the CPI caller restriction",
         "status": "Withdrawn",
         "feature_name": null,
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
-          "mainnet": "not created",
+          "mainnet": "unknown (RPC unreachable)",
           "testnet": "not created",
           "devnet": "not created"
         }
       },
       {
-        "simd": "0178",
-        "title": "SBPF Static Syscalls",
+        "simd": "0166",
+        "title": "SBPF Dynamic stack frames",
+        "status": "Implemented",
+        "feature_name": "enable_sbpf_v1_deployment_and_execution",
+        "feature_gate": "JE86WkYvTrzW8HgNmrHY7dFYpCmSptUpKupbo2AdQ9cG",
+        "clusters": {
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 338,780,256)",
+          "devnet": "active (slot 389,664,000)"
+        }
+      },
+      {
+        "simd": "0173",
+        "title": "SBPF instruction encoding improvements",
         "status": "Review",
-        "feature_name": null,
-        "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
+        "feature_name": "enable_sbpf_v2_deployment_and_execution",
+        "feature_gate": "F6UVKh1ujTEFK3en2SyAL3cdVnqko1FVEXWhmdLRu6WP",
         "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 346,124,256)",
+          "devnet": "active (slot 396,576,000)"
         }
       },
       {
-        "simd": "0189",
-        "title": "SBPF stricter ELF headers",
-        "status": "Idea",
-        "feature_name": null,
-        "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0219",
-        "title": "Stricter ABI and Runtime Constraints",
+        "simd": "0174",
+        "title": "SBPF arithmetics improvements",
         "status": "Review",
-        "feature_name": null,
-        "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
+        "feature_name": "enable_sbpf_v2_deployment_and_execution",
+        "feature_gate": "F6UVKh1ujTEFK3en2SyAL3cdVnqko1FVEXWhmdLRu6WP",
         "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 346,124,256)",
+          "devnet": "active (slot 396,576,000)"
         }
       },
       {
-        "simd": "0268",
-        "title": "Raise CPI Nesting Limit",
+        "simd": "0175",
+        "title": "Disable Partitioned Rent Updates",
         "status": "Accepted",
-        "feature_name": "raise_cpi_nesting_limit_to_8",
-        "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
+        "feature_name": "disable_partitioned_rent_collection",
+        "feature_gate": "2B2SBNbUcr438LtGXNcJNBP2GBSxjx81F945SdSkUSfC",
         "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0290",
-        "title": "Relax Fee-Payer Constraint",
-        "status": "Accepted",
-        "feature_name": "relax_fee_payer_constraint",
-        "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0384",
-        "title": "Alpenglow migration",
-        "status": "Review",
-        "feature_name": null,
-        "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0387",
-        "title": "BLS Pubkey management in vote account",
-        "status": "Review",
-        "feature_name": null,
-        "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0406",
-        "title": "Maximum instruction accounts",
-        "status": "Review",
-        "feature_name": null,
-        "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0430",
-        "title": "Relax Program Buffer Constraints",
-        "status": "Review",
-        "feature_name": null,
-        "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
-        }
-      },
-      {
-        "simd": "0529",
-        "title": "Big Integer ModExp Syscall",
-        "status": "Idea",
-        "feature_name": "enable_big_mod_exp_syscall",
-        "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
-        "clusters": {
-          "mainnet": "not created",
-          "testnet": "not created",
-          "devnet": "not created"
+          "mainnet": "unknown (RPC unreachable)",
+          "testnet": "active (slot 337,916,256)",
+          "devnet": "active (slot 387,072,000)"
         }
       }
     ],
@@ -2358,37 +2372,30 @@
     {
       "metric": "tvl_usd",
       "severity": "critical",
-      "message": "tvl_usd is 3.2 sigma above its 288-point mean",
-      "value": 5288679464.89,
-      "expected": 4880335294.6588
-    },
-    {
-      "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.4 sigma above its 288-point mean",
-      "value": 3629.96,
-      "expected": 1973.7892
+      "message": "tvl_usd is 3.1 sigma above its 288-point mean",
+      "value": 5285896680.24,
+      "expected": 4881898867.6706
     },
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 3.0 sigma above its 287-point mean",
-      "value": 87.25,
-      "expected": 77.0678
+      "message": "price_usd is 2.9 sigma above its 287-point mean",
+      "value": 87.01,
+      "expected": 77.1076
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
       "message": "rev_24h_usd is 3.0 sigma above its 288-point mean",
-      "value": 1154526,
-      "expected": 760036.4323
+      "value": 1156896,
+      "expected": 761072.342
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.5 sigma above its 288-point mean",
+      "message": "equities_usd is 2.4 sigma above its 288-point mean",
       "value": 428459060.41,
-      "expected": 414199734.1033
+      "expected": 414253129.2125
     }
   ]
 }

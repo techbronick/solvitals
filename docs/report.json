@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 19:42:13",
+  "captured_at": "2026-08-20 20:01:17",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4154,
+      "measured_slot_time_secs": 0.4152,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.85,
+      "deviation_from_target_pct": 3.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4180.67,
-      "tps_non_vote": 2537.21,
-      "vote_share_pct": 39.31,
-      "avg_slot_time_secs": 0.4149,
-      "latest_sample_slot": 440535495,
+      "tps_total": 4084.89,
+      "tps_non_vote": 2420.4,
+      "vote_share_pct": 40.75,
+      "avg_slot_time_secs": 0.411,
+      "latest_sample_slot": 440538214,
       "samples_used": 5,
-      "block_height": 418585214,
-      "current_slot": 440535465
+      "block_height": 418587975,
+      "current_slot": 440538226
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 327465,
+      "slot_index": 330226,
       "slots_in_epoch": 432000,
-      "progress_pct": 75.8,
-      "eta_hours": 12.1,
-      "eta_basis_slot_secs": 0.4154,
-      "transaction_count": 540077793001
+      "progress_pct": 76.44,
+      "eta_hours": 11.7,
+      "eta_basis_slot_secs": 0.4152,
+      "transaction_count": 540082722689
     },
     "validators": {
-      "active_count": 690,
-      "delinquent_count": 6,
-      "delinquent_pct": 0.86,
-      "delinquent_stake_sol": 5554.55,
-      "delinquent_stake_pct": 0.001,
-      "total_active_stake_sol": 435235713.28,
+      "active_count": 689,
+      "delinquent_count": 7,
+      "delinquent_pct": 1.01,
+      "delinquent_stake_sol": 63876.8,
+      "delinquent_stake_pct": 0.015,
+      "total_active_stake_sol": 435177391.04,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 256,
@@ -45,7 +45,7 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17101526.86,
-          "stake_pct": 3.929,
+          "stake_pct": 3.93,
           "commission": 7
         },
         {
@@ -57,7 +57,7 @@
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 12410377.83,
-          "stake_pct": 2.851,
+          "stake_pct": 2.852,
           "commission": 5
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513316.91,
-      "circulating_sol": 583005772.2,
+      "total_sol": 632513304.1,
+      "circulating_sol": 583005759.38,
       "non_circulating_sol": 49507544.72,
       "circulating_pct": 92.17
     },
@@ -114,8 +114,8 @@
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 0,
-      "zero_fee_slot_share_pct": 100.0,
+      "max_priority_fee_microlamports": 36,
+      "zero_fee_slot_share_pct": 99.3,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5VPsyJjKR488dwwzGtZ9Q3kUBdwZE31PNmRJPAreS6AaYthDEX7aQsEGmFiXw9mDF1cvR3M66tPPKJvMiF99qwwm",
-      "latest_block_time": 1787254927,
-      "errors_in_recent": 1
+      "latest_signature": "37p1iGi2iNs6JbebTJumg3q45J9YDg6ncBgzp2A1kyAPNnfSbQM9BDoxe2ubhHmyQXEEWtZYyQJdEo1XJWGSCPVm",
+      "latest_block_time": 1787256071,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1577,
+      "unique_signers_sampled": 1593,
       "blocks_sampled": 3,
-      "transactions_sampled": 4549,
-      "non_vote_transactions_sampled": 2504,
-      "signers_per_block": 525.7,
-      "non_vote_share_pct": 55.05,
+      "transactions_sampled": 5281,
+      "non_vote_transactions_sampled": 3242,
+      "signers_per_block": 531.0,
+      "non_vote_share_pct": 61.39,
       "sampled_slots": [
-        440535283,
-        440533783,
-        440532283
+        440538045,
+        440536545,
+        440535045
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 87.38,
-      "change_24h_pct": 6.28,
-      "market_cap_usd": 50948291991.78691,
-      "volume_24h_usd": 4891780397.970167,
+      "usd": 87.23,
+      "change_24h_pct": 5.92,
+      "market_cap_usd": 50827373995.90188,
+      "volume_24h_usd": 4894078649.640061,
       "source": "coingecko"
     },
     "tvl": {
@@ -2297,33 +2297,33 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "https://t.co/GS74mG15b1",
-        "created_at": "Thu Aug 20 03:45:12 +0000 2026",
-        "url": "https://x.com/solana/status/2090283987017269679"
+        "text": "Exclusive Breakpoint edition. Next week. Sign up on Luma below\ud83d\udc47 https://t.co/iNwhrYuEZk",
+        "created_at": "Thu Aug 20 17:13:05 +0000 2026",
+        "url": "https://x.com/solana/status/2090487297275740174"
       },
       {
         "handle": "solana",
-        "text": "Solana sustained 5-6k real transactions per second today and is still processing about 4k This is 3x more than NASDAQ on an average day The future is now",
-        "created_at": "Thu Aug 20 00:02:38 +0000 2026",
-        "url": "https://x.com/solana/status/2090227975576756285"
+        "text": "New day, new largest trade on JTX. A JTX user executed a $10M USDC \u2192 SOL TWAP, with 241/241 orders filled onchain over 4 hours with zero reverts and retries. \u2023 0.35 bps avg fill vs quoted price \u2023 1.05 bps avg market impact \u2023 JTX beat CEXs \u2026",
+        "created_at": "Thu Aug 20 17:03:11 +0000 2026",
+        "url": "https://x.com/solana/status/2090484805993652266"
+      },
+      {
+        "handle": "solana",
+        "text": "Inference is the first killer application for agentic payments. Token factories are the fastest growing apps in the world - claude code / codex, Hermes, openrouter We've been working closely with @BlockRunAI to scale up performance of pay-\u2026",
+        "created_at": "Thu Aug 20 16:32:24 +0000 2026",
+        "url": "https://x.com/solana/status/2090477059432910876"
+      },
+      {
+        "handle": "solana",
+        "text": "BREAKING: $LLY is live on Solana via @sunrise, issued by @Backpack Securities Eli Lilly, most valuable pharmaceutical company in the world, now tradeable onchain. https://t.co/TL4JjfcjNS",
+        "created_at": "Thu Aug 20 13:44:30 +0000 2026",
+        "url": "https://x.com/solana/status/2090434806643581204"
       },
       {
         "handle": "solanalabs",
         "text": "Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet \ud83e\uddf5 https://t.co/HpF12YO1ak",
         "created_at": "Wed Aug 19 21:13:09 +0000 2026",
         "url": "https://x.com/solanalabs/status/2090185322986668285"
-      },
-      {
-        "handle": "solana",
-        "text": "BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vaccine https://t.co/vkyVEQeuYp",
-        "created_at": "Wed Aug 19 20:41:44 +0000 2026",
-        "url": "https://x.com/solana/status/2090177416375259541"
-      },
-      {
-        "handle": "solana",
-        "text": "Sunrise has listed $MRNA on @Solana. Today, Moderna and Merck reported the first positive Phase 3 results for an mRNA cancer therapy. Issued by @Backpack Securities, a tokenized Moderna share now trades on Solana, 24/7. https://t.co/uqGE6y\u2026",
-        "created_at": "Wed Aug 19 20:37:11 +0000 2026",
-        "url": "https://x.com/solana/status/2090176270885925087"
       },
       {
         "handle": "solanalabs",
@@ -2356,39 +2356,39 @@
   },
   "anomalies": [
     {
-      "metric": "stablecoins_usd",
-      "severity": "critical",
-      "message": "stablecoins_usd is 3.0 sigma above its 288-point mean",
-      "value": 15807905426.49,
-      "expected": 15458691806.8203
-    },
-    {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.7 sigma above its 287-point mean",
-      "value": 87.38,
-      "expected": 77.3544
+      "message": "price_usd is 2.6 sigma above its 287-point mean",
+      "value": 87.23,
+      "expected": 77.3967
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.9 sigma above its 288-point mean",
+      "message": "tvl_usd is 2.8 sigma above its 288-point mean",
       "value": 5300297102.72,
-      "expected": 4891598688.8997
+      "expected": 4893253478.4836
+    },
+    {
+      "metric": "stablecoins_usd",
+      "severity": "warning",
+      "message": "stablecoins_usd is 3.0 sigma above its 288-point mean",
+      "value": 15807905426.49,
+      "expected": 15459841947.8149
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
       "message": "rev_24h_usd is 2.5 sigma above its 288-point mean",
       "value": 1128282,
-      "expected": 767238.3143
+      "expected": 768201.9705
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.2 sigma above its 288-point mean",
       "value": 428459060.41,
-      "expected": 414564941.5974
+      "expected": 414616197.139
     }
   ]
 }

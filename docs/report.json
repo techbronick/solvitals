@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 13:24:10",
+  "captured_at": "2026-08-20 14:05:42",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4158,
+      "measured_slot_time_secs": 0.4206,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.95,
+      "deviation_from_target_pct": 5.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3705.37,
-      "tps_non_vote": 2053.65,
-      "vote_share_pct": 44.58,
-      "avg_slot_time_secs": 0.4138,
-      "latest_sample_slot": 440480992,
+      "tps_total": 4824.86,
+      "tps_non_vote": 3185.69,
+      "vote_share_pct": 33.97,
+      "avg_slot_time_secs": 0.419,
+      "latest_sample_slot": 440486898,
       "samples_used": 5,
-      "block_height": 418530876,
-      "current_slot": 440481052
+      "block_height": 418536809,
+      "current_slot": 440486985
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 273053,
+      "slot_index": 278986,
       "slots_in_epoch": 432000,
-      "progress_pct": 63.21,
-      "eta_hours": 18.4,
-      "eta_basis_slot_secs": 0.4158,
-      "transaction_count": 539971902230
+      "progress_pct": 64.58,
+      "eta_hours": 17.9,
+      "eta_basis_slot_secs": 0.4206,
+      "transaction_count": 539984026616
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513592.57,
-      "circulating_sol": 583006048.61,
+      "total_sol": 632513561.08,
+      "circulating_sol": 583006017.12,
       "non_circulating_sol": 49507543.96,
       "circulating_pct": 92.17
     },
@@ -126,36 +126,36 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5iSfedJHKyWZ7zQL1sD8ewFBQCDrXSzsVZpntxFRBGQzod4Qh2tgZj9tWSHpMWi97kubkWboJz359oGe97pAWebk",
-      "latest_block_time": 1787232253,
+      "latest_signature": "BvQrHjuBq4C223NAHXM2MjDgRtwAr3vw2Tae6HPRhsk2yjyrWYs36SPxMPRBS1zsMx4urTcaXL1z7PHWtwjyZ6A",
+      "latest_block_time": 1787234744,
       "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1603,
+      "unique_signers_sampled": 1600,
       "blocks_sampled": 3,
-      "transactions_sampled": 4394,
-      "non_vote_transactions_sampled": 2344,
-      "signers_per_block": 534.3,
-      "non_vote_share_pct": 53.35,
+      "transactions_sampled": 6085,
+      "non_vote_transactions_sampled": 4040,
+      "signers_per_block": 533.3,
+      "non_vote_share_pct": 66.39,
       "sampled_slots": [
-        440480882,
-        440479382,
-        440477882
+        440486814,
+        440485314,
+        440483814
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 87.23,
-      "change_24h_pct": 11.29,
-      "market_cap_usd": 50865771471.53794,
-      "volume_24h_usd": 5673423631.066508,
+      "usd": 86.47,
+      "change_24h_pct": 10.09,
+      "market_cap_usd": 50414083551.461334,
+      "volume_24h_usd": 5675464267.300301,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5301623833.44,
-      "rank_by_tvl": 2,
+      "tvl_usd": 5290562622.33,
+      "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.36,
       "source": "defillama"
     },
@@ -174,46 +174,46 @@
           "volume_24h_usd": 440279251
         },
         {
+          "name": "Orca DEX",
+          "volume_24h_usd": 335415283
+        },
+        {
           "name": "HumidiFi",
           "volume_24h_usd": 331843728
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 309411108
-        },
-        {
           "name": "Manifest Trade",
-          "volume_24h_usd": 194455411
+          "volume_24h_usd": 196635219
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15740449179.54,
+      "total_usd": 15654443566.3,
       "by_peg": {
-        "peggedUSD": 15680789614.97,
-        "peggedEUR": 54835641.28,
-        "peggedJPY": 55.75,
-        "peggedCHF": 1374354.48,
-        "peggedAUD": 2672.35,
-        "peggedVAR": 2443273.01,
-        "peggedGBP": 836372.27,
+        "peggedUSD": 15593448781.93,
+        "peggedEUR": 56172774.99,
+        "peggedJPY": 56.05,
+        "peggedCHF": 1371624.63,
+        "peggedAUD": 2666.46,
+        "peggedVAR": 2444061.32,
+        "peggedGBP": 836400.81,
         "peggedTRY": 165727.98,
-        "peggedCAD": 1466.73,
+        "peggedCAD": 1471.43,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1153153,
+      "rev_24h_usd": 1153108,
       "network_fees_24h_usd": 925809,
-      "mev_tips_24h_usd": 227344,
+      "mev_tips_24h_usd": 227299,
       "mev_share_of_rev_pct": 19.71,
-      "rev_annualised_usd": 420900845,
+      "rev_annualised_usd": 420884420,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 192626
+          "tips_24h_usd": 192581
         },
         {
           "name": "Harmonic",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 25
         }
       ],
-      "app_fees_24h_usd": 13588582.379999997,
-      "app_fees_7d_usd": 66801406.63999999,
-      "app_fees_30d_usd": 256865829.85999995,
-      "app_fees_change_24h_pct": 54.89,
+      "app_fees_24h_usd": 13676729.379999997,
+      "app_fees_7d_usd": 66890620.63999999,
+      "app_fees_30d_usd": 256955043.85999995,
+      "app_fees_change_24h_pct": 55.88,
       "protocol_count": 295,
       "top_fee_earning_apps": [
         {
@@ -2349,32 +2349,32 @@
   },
   "anomalies": [
     {
-      "metric": "price_usd",
-      "severity": "critical",
-      "message": "price_usd is 3.2 sigma above its 287-point mean",
-      "value": 87.23,
-      "expected": 76.9189
-    },
-    {
       "metric": "tvl_usd",
       "severity": "critical",
-      "message": "tvl_usd is 3.6 sigma above its 288-point mean",
-      "value": 5301623833.44,
-      "expected": 4874072291.3049
+      "message": "tvl_usd is 3.5 sigma above its 288-point mean",
+      "value": 5290562622.33,
+      "expected": 4875664497.0524
     },
     {
       "metric": "rev_24h_usd",
       "severity": "critical",
       "message": "rev_24h_usd is 3.2 sigma above its 288-point mean",
-      "value": 1153153,
-      "expected": 755999.5957
+      "value": 1153108,
+      "expected": 757004.1165
+    },
+    {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.9 sigma above its 287-point mean",
+      "value": 86.47,
+      "expected": 76.9575
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.9 sigma above its 288-point mean",
       "value": 430146915.14,
-      "expected": 413933441.999
+      "expected": 414007332.3352
     }
   ]
 }

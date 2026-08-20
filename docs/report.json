@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 05:43:32",
+  "captured_at": "2026-08-20 06:02:17",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4158,
+      "measured_slot_time_secs": 0.4144,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.95,
+      "deviation_from_target_pct": 3.6,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2854.63,
-      "tps_non_vote": 1212.13,
-      "vote_share_pct": 57.54,
-      "avg_slot_time_secs": 0.4167,
-      "latest_sample_slot": 440414431,
+      "tps_total": 3163.05,
+      "tps_non_vote": 1514.3,
+      "vote_share_pct": 52.13,
+      "avg_slot_time_secs": 0.4144,
+      "latest_sample_slot": 440417114,
       "samples_used": 5,
-      "block_height": 418464365,
-      "current_slot": 440414460
+      "block_height": 418467086,
+      "current_slot": 440417184
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 206461,
+      "slot_index": 209185,
       "slots_in_epoch": 432000,
-      "progress_pct": 47.79,
-      "eta_hours": 26.0,
-      "eta_basis_slot_secs": 0.4158,
-      "transaction_count": 539874734214
+      "progress_pct": 48.42,
+      "eta_hours": 25.6,
+      "eta_basis_slot_secs": 0.4144,
+      "transaction_count": 539878171864
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513847.0,
-      "circulating_sol": 583006302.58,
+      "total_sol": 632513837.97,
+      "circulating_sol": 583006293.55,
       "non_circulating_sol": 49507544.42,
       "circulating_pct": 92.17
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4TM1rH4BeJU1eyPtHUM9BaMEnoHuQa4VAeXY9oFiQdR1VoPsM4z7prwi4WvWLhytWXdyh19ojNeywoxH8yLK2Q1e",
-      "latest_block_time": 1787204608,
+      "latest_signature": "3xAvjEMe8gkxGLTZYeLzckN9LAkzbf8CF52NeU3id2ZZYfcvpRTjFjVTYQMqBLXpcjCHrz3vP9nhXHtw9jX8tcLb",
+      "latest_block_time": 1787205731,
       "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1304,
+      "unique_signers_sampled": 1391,
       "blocks_sampled": 3,
-      "transactions_sampled": 3560,
-      "non_vote_transactions_sampled": 1511,
-      "signers_per_block": 434.7,
-      "non_vote_share_pct": 42.44,
+      "transactions_sampled": 3241,
+      "non_vote_transactions_sampled": 1205,
+      "signers_per_block": 463.7,
+      "non_vote_share_pct": 37.18,
       "sampled_slots": [
-        440414282,
-        440412782,
-        440411282
+        440417003,
+        440415503,
+        440414003
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 84.9,
-      "change_24h_pct": 10.51,
-      "market_cap_usd": 49498985231.77964,
-      "volume_24h_usd": 4769024018.338468,
+      "usd": 84.89,
+      "change_24h_pct": 10.58,
+      "market_cap_usd": 49479017786.11183,
+      "volume_24h_usd": 4780026509.1473,
       "source": "coingecko"
     },
     "tvl": {
@@ -2304,15 +2304,15 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Solana sustained 5-6k real transactions per second today and is still processing about 4k This is 3x more than NASDAQ on an average day The future is now",
-        "created_at": "Thu Aug 20 00:02:38 +0000 2026",
-        "url": "https://x.com/solana/status/2090227975576756285"
+        "text": "https://t.co/GS74mG15b1",
+        "created_at": "Thu Aug 20 03:45:12 +0000 2026",
+        "url": "https://x.com/solana/status/2090283987017269679"
       },
       {
         "handle": "solana",
-        "text": "easily the most important category on Solana right now and it\u2019s not even close https://t.co/z6fxejudOk",
-        "created_at": "Wed Aug 19 21:23:13 +0000 2026",
-        "url": "https://x.com/solana/status/2090187856086192343"
+        "text": "Solana sustained 5-6k real transactions per second today and is still processing about 4k This is 3x more than NASDAQ on an average day The future is now",
+        "created_at": "Thu Aug 20 00:02:38 +0000 2026",
+        "url": "https://x.com/solana/status/2090227975576756285"
       },
       {
         "handle": "solanalabs",
@@ -2365,37 +2365,37 @@
     {
       "metric": "price_usd",
       "severity": "critical",
-      "message": "price_usd is 3.4 sigma above its 287-point mean",
-      "value": 84.9,
-      "expected": 76.4699
+      "message": "price_usd is 3.3 sigma above its 287-point mean",
+      "value": 84.89,
+      "expected": 76.5025
     },
     {
       "metric": "tvl_usd",
       "severity": "critical",
-      "message": "tvl_usd is 3.8 sigma above its 288-point mean",
+      "message": "tvl_usd is 3.7 sigma above its 288-point mean",
       "value": 5196485566.61,
-      "expected": 4856920572.1061
+      "expected": 4858202303.7498
     },
     {
       "metric": "stablecoins_usd",
       "severity": "critical",
-      "message": "stablecoins_usd is 4.8 sigma above its 288-point mean",
+      "message": "stablecoins_usd is 4.6 sigma above its 288-point mean",
       "value": 15818580490.17,
-      "expected": 15439513818.4041
+      "expected": 15440549292.2568
     },
     {
       "metric": "rev_24h_usd",
       "severity": "critical",
-      "message": "rev_24h_usd is 3.3 sigma above its 288-point mean",
+      "message": "rev_24h_usd is 3.2 sigma above its 288-point mean",
       "value": 1080364.07,
-      "expected": 745945.36
+      "expected": 746664.6067
     },
     {
       "metric": "equities_usd",
       "severity": "critical",
-      "message": "equities_usd is 4.3 sigma above its 288-point mean",
+      "message": "equities_usd is 4.2 sigma above its 288-point mean",
       "value": 432029292.66,
-      "expected": 412875749.4625
+      "expected": 412965925.7514
     }
   ]
 }

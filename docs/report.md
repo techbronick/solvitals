@@ -1,33 +1,33 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-20 05:43:32 UTC by SolVitals.
+Generated 2026-08-20 06:02:17 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **price_usd** — price_usd is 3.4 sigma above its 287-point mean
-- [CRITICAL] **tvl_usd** — tvl_usd is 3.8 sigma above its 288-point mean
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.8 sigma above its 288-point mean
-- [CRITICAL] **rev_24h_usd** — rev_24h_usd is 3.3 sigma above its 288-point mean
-- [CRITICAL] **equities_usd** — equities_usd is 4.3 sigma above its 288-point mean
+- [CRITICAL] **price_usd** — price_usd is 3.3 sigma above its 287-point mean
+- [CRITICAL] **tvl_usd** — tvl_usd is 3.7 sigma above its 288-point mean
+- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.6 sigma above its 288-point mean
+- [CRITICAL] **rev_24h_usd** — rev_24h_usd is 3.2 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 4.2 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,212.13 |
-| Total TPS (incl. votes) | 2,854.63 |
-| Vote share of transactions | 57.54% |
-| Average slot time | 0.4167 s |
-| Current slot | 440,414,460 |
-| Block height | 418,464,365 |
+| Non-vote TPS | 1,514.30 |
+| Total TPS (incl. votes) | 3,163.05 |
+| Vote share of transactions | 52.13% |
+| Average slot time | 0.4144 s |
+| Current slot | 440,417,184 |
+| Block height | 418,467,086 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 47.79% complete (`##########..........`), ~26.0 hours remaining.
+Epoch **1019** — 48.42% complete (`##########..........`), ~25.6 hours remaining.
 
-Slot 206,461 of 432,000. Lifetime transaction count: 539,874,734,214.
+Slot 209,185 of 432,000. Lifetime transaction count: 539,878,171,864.
 
 ## Transaction costs and slot timing
 
@@ -38,8 +38,8 @@ Slot 206,461 of 432,000. Lifetime transaction count: 539,874,734,214.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4158 s |
-| Deviation from 0.4s target | 3.95% |
+| Measured slot time (`getBlockTime`) | 0.4144 s |
+| Deviation from 0.4s target | 3.6% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -80,8 +80,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $84.90 (up 10.51%) |
-| Market cap | $49.50B |
+| SOL price | $84.89 (up 10.58%) |
+| Market cap | $49.48B |
 | DeFi TVL | $5.20B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.79B (up 51.75%) |
@@ -157,11 +157,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,304 |
+| Unique fee payers (sampled) | 1,391 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,560 |
-| Non-vote share of sample | 42.44% |
-| Signers per block | 434.7 |
+| Transactions in sample | 3,241 |
+| Non-vote share of sample | 37.18% |
+| Signers per block | 463.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -177,7 +177,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,006,303 SOL of 632,513,847 total (92.17%).
+Circulating 583,006,294 SOL of 632,513,838 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -208,8 +208,8 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — https://t.co/GS74mG15b1 [(link)](https://x.com/solana/status/2090283987017269679)
 - **@solana** — Solana sustained 5-6k real transactions per second today and is still processing about 4k This is 3x more than NASDAQ on an average day The future is now [(link)](https://x.com/solana/status/2090227975576756285)
-- **@solana** — easily the most important category on Solana right now and it’s not even close https://t.co/z6fxejudOk [(link)](https://x.com/solana/status/2090187856086192343)
 - **@solanalabs** — Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵 https://t.co/HpF12YO1ak [(link)](https://x.com/solanalabs/status/2090185322986668285)
 - **@solana** — BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vaccine https://t.co/vkyVEQeuYp [(link)](https://x.com/solana/status/2090177416375259541)
 - **@solana** — Sunrise has listed $MRNA on @Solana. Today, Moderna and Merck reported the first positive Phase 3 results for an mRNA cancer therapy. Issued by @Backpack Securities, a tokenized Moderna share now trades on Solana, 24/7. https://t.co/uqGE6y… [(link)](https://x.com/solana/status/2090176270885925087)

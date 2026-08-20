@@ -1,33 +1,33 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-20 06:02:17 UTC by SolVitals.
+Generated 2026-08-20 07:03:20 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **price_usd** — price_usd is 3.3 sigma above its 287-point mean
+- [CRITICAL] **price_usd** — price_usd is 3.6 sigma above its 287-point mean
 - [CRITICAL] **tvl_usd** — tvl_usd is 3.7 sigma above its 288-point mean
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.6 sigma above its 288-point mean
+- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.4 sigma above its 288-point mean
 - [CRITICAL] **rev_24h_usd** — rev_24h_usd is 3.2 sigma above its 288-point mean
-- [CRITICAL] **equities_usd** — equities_usd is 4.2 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 4.0 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,514.30 |
-| Total TPS (incl. votes) | 3,163.05 |
-| Vote share of transactions | 52.13% |
-| Average slot time | 0.4144 s |
-| Current slot | 440,417,184 |
-| Block height | 418,467,086 |
+| Non-vote TPS | 1,268.90 |
+| Total TPS (incl. votes) | 2,892.00 |
+| Vote share of transactions | 56.12% |
+| Average slot time | 0.4202 s |
+| Current slot | 440,425,979 |
+| Block height | 418,475,881 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 48.42% complete (`##########..........`), ~25.6 hours remaining.
+Epoch **1019** — 50.46% complete (`##########..........`), ~24.7 hours remaining.
 
-Slot 209,185 of 432,000. Lifetime transaction count: 539,878,171,864.
+Slot 217,979 of 432,000. Lifetime transaction count: 539,889,633,039.
 
 ## Transaction costs and slot timing
 
@@ -38,14 +38,14 @@ Slot 209,185 of 432,000. Lifetime transaction count: 539,878,171,864.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4144 s |
-| Deviation from 0.4s target | 3.6% |
+| Measured slot time (`getBlockTime`) | 0.4154 s |
+| Deviation from 0.4s target | 3.85% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -57,7 +57,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 435,141,193 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 257 |
+| Zero-commission validators | 255 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -80,8 +80,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $84.89 (up 10.58%) |
-| Market cap | $49.48B |
+| SOL price | $85.77 (up 11.43%) |
+| Market cap | $50.01B |
 | DeFi TVL | $5.20B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.79B (up 51.75%) |
@@ -93,8 +93,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.08M** |
 | Network fees | $925.81K |
-| MEV tips (out-of-protocol) | $154.56K (14.31% of REV) |
-| Annualised REV run-rate | $394.33M |
+| MEV tips (out-of-protocol) | $154.58K (14.31% of REV) |
+| Annualised REV run-rate | $394.34M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
@@ -103,7 +103,7 @@ _REV is what the **network** captures. It is a different and much smaller figure
 | Jito MEV Tips | $119.86K |
 | Harmonic | $21.77K |
 | bloXroute | $12.92K |
-| Pyth Express Relay | $0 |
+| Pyth Express Relay | $25 |
 
 ### Application fees (distinct from REV)
 
@@ -111,9 +111,9 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $13.15M (up 49.89%) |
-| 7 days | $65.72M |
-| 30 days | $255.78M |
+| 24 hours | $13.24M (up 50.97%) |
+| 7 days | $65.85M |
+| 30 days | $255.92M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -157,11 +157,11 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,391 |
+| Unique fee payers (sampled) | 1,409 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,241 |
-| Non-vote share of sample | 37.18% |
-| Signers per block | 463.7 |
+| Transactions in sample | 3,457 |
+| Non-vote share of sample | 40.99% |
+| Signers per block | 469.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -173,11 +173,11 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | BisonFi | $440.28M |
 | HumidiFi | $331.84M |
 | Orca DEX | $298.62M |
-| Manifest Trade | $160.56M |
+| Manifest Trade | $164.24M |
 
 ## Supply
 
-Circulating 583,006,294 SOL of 632,513,838 total (92.17%).
+Circulating 583,006,263 SOL of 632,513,808 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 

@@ -1,31 +1,31 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-20 02:05:30 UTC by SolVitals.
+Generated 2026-08-20 03:08:21 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **price_usd** — price_usd is 4.1 sigma above its 287-point mean
+- [CRITICAL] **price_usd** — price_usd is 3.5 sigma above its 287-point mean
 - [CRITICAL] **tvl_usd** — tvl_usd is 4.6 sigma above its 288-point mean
-- [CRITICAL] **equities_usd** — equities_usd is 3.1 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 5.0 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,938.38 |
-| Total TPS (incl. votes) | 3,581.88 |
-| Vote share of transactions | 45.88% |
-| Average slot time | 0.4161 s |
-| Current slot | 440,382,968 |
-| Block height | 418,432,897 |
+| Non-vote TPS | 1,693.58 |
+| Total TPS (incl. votes) | 3,347.49 |
+| Vote share of transactions | 49.41% |
+| Average slot time | 0.4127 s |
+| Current slot | 440,392,057 |
+| Block height | 418,441,975 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 40.5% complete (`########............`), ~29.7 hours remaining.
+Epoch **1019** — 42.61% complete (`#########...........`), ~28.5 hours remaining.
 
-Slot 174,969 of 432,000. Lifetime transaction count: 539,831,207,246.
+Slot 184,059 of 432,000. Lifetime transaction count: 539,844,484,067.
 
 ## Transaction costs and slot timing
 
@@ -36,14 +36,14 @@ Slot 174,969 of 432,000. Lifetime transaction count: 539,831,207,246.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.4166 s |
-| Deviation from 0.4s target | 4.15% |
+| Measured slot time (`getBlockTime`) | 0.414 s |
+| Deviation from 0.4s target | 3.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -78,10 +78,10 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $85.37 (up 11.28%) |
-| Market cap | $49.76B |
-| DeFi TVL | $5.20B |
-| TVL rank across chains | 3 |
+| SOL price | $84.31 (up 9.92%) |
+| Market cap | $49.15B |
+| DeFi TVL | $5.21B |
+| TVL rank across chains | 2 |
 | DEX volume (24h) | $2.76B (up 49.92%) |
 | Stablecoin supply | $15.74B |
 
@@ -126,40 +126,40 @@ Fees earned by the 295 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.90B |
-| Tokenized equities | $424.59M (22.4% of RWA) |
+| Tokenized equities | $432.03M (22.72% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $399.01M | 4.144% |
-| Ondo Global Markets | $25.58M | 1.689% |
+| xStocks | $406.25M | 6.506% |
+| Ondo Global Markets | $25.78M | 2.982% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| BlackRock BUIDL | $741.49M | RWA |
-| xStocks | $399.01M | RWA |
-| OnRe | $272.04M | RWA |
-| Ondo Yield Assets | $179.16M | RWA |
-| Hastra | $171.49M | RWA |
+| BlackRock BUIDL | $740.49M | RWA |
+| xStocks | $406.25M | RWA |
+| OnRe | $272.16M | RWA |
+| Ondo Yield Assets | $178.51M | RWA |
+| Hastra | $171.46M | RWA |
 | Theo Network thBill | $26.37M | RWA |
-| Ondo Global Markets | $25.58M | RWA |
-| Nest Credit | $22.47M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.32M | RWA |
+| Ondo Global Markets | $25.78M | RWA |
+| Nest Credit | $22.46M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.36M | RWA |
 | VanEck Treasury Fund | $13.93M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,711 |
+| Unique fee payers (sampled) | 1,549 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,239 |
-| Non-vote share of sample | 51.92% |
-| Signers per block | 570.3 |
+| Transactions in sample | 4,701 |
+| Non-vote share of sample | 56.65% |
+| Signers per block | 516.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -175,7 +175,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,006,417 SOL of 632,513,961 total (92.17%).
+Circulating 583,006,382 SOL of 632,513,926 total (92.17%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -186,23 +186,32 @@ Circulating 583,006,417 SOL of 632,513,961 total (92.17%).
 | Transaction Count (Total) | 317,794,113 | 2026-08-18 | Dune |
 | Non Vote Transaction Count (Success) | 100,016,033 | 2026-08-18 | Dune |
 | Non Vote Transaction Count (Failed) | 75,593,485 | 2026-08-18 | Dune |
-| DEX Volume | $1.25B | 2026-08-18 | Dune |
-| DEX Traders | 623,352 | 2026-08-18 | Dune |
+| DEX Volume | $1.54B | 2026-08-18 | Dune |
+| DEX Traders | 694,743 | 2026-08-18 | Dune |
 | Transfer Volume | $12.02B | 2026-08-18 | Dune |
-| Total Stake | 434,953,370 | 2026-08-19 | Stakewiz |
-| Validator Count | 680 | 2026-08-19 | Stakewiz |
-| Top 3 ASN Share | 35.79 | 2026-08-19 | Stakewiz |
+| Total Stake | 434,379,905 | 2026-08-19 | Stakewiz |
+| Validator Count | 683 | 2026-08-19 | Stakewiz |
+| Top 3 ASN Share | 42.23 | 2026-08-19 | Stakewiz |
 
 _Daily active addresses are deduplicated across the full day by the provider — distinct from the live block sample below, which measures current activity._
 
+### Where providers disagree
+
+The same metric is published by multiple providers with different methodologies. Divergences above threshold on the same day:
+
+| Metric | Date | Spread | Provider readings |
+| --- | --- | --- | --- |
+| Active Addresses | 2026-08-18 | 104.2% | Allium: 659,607, Artemis: 578,004, Blockworks: 323,042, Dune: 651,869 |
+| Fee Payers | 2026-08-18 | 74.7% | Allium: 2,508,219, Artemis: 4,352,638, Blockworks: 2,491,813, Dune: 2,508,175, Token Terminal: 2,498,373 |
+
 ## Announcements from key accounts
 
-- **@solana** — Don't wait for the bull, build it [(link)](https://x.com/solana/status/2090163306136785236)
-- **@solana** — The AnsemHack Clawrena is officially open. Enter with an agent, leave with an agentic company, on @solana. $320K in Tokens, Cash, and Compute awards to 4 winners. https://t.co/MOpWxuZSYZ [(link)](https://x.com/solana/status/2090141776535310837)
-- **@solana** — MoneyGram CEO Anthony Soohoo on connecting cash to Solana: "The biggest announcement we've made with Solana is about access, providing all their developers the ability to build on our MoneyGram network." "Anyone building on Solana can use … [(link)](https://x.com/solana/status/2090033619792523378)
-- **@solana** — BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world's largest payments networks is now a single API away for every builder on Solana. https://t.co/TSOhIpBjvz [(link)](https://x.com/solana/status/2087163225393750405)
+- **@solana** — Solana sustained 5-6k real transactions per second today and is still processing about 4k This is 3x more than NASDAQ on an average day The future is now [(link)](https://x.com/solana/status/2090227975576756285)
+- **@solana** — easily the most important category on Solana right now and it’s not even close https://t.co/z6fxejudOk [(link)](https://x.com/solana/status/2090187856086192343)
+- **@solanalabs** — Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵 https://t.co/HpF12YO1ak [(link)](https://x.com/solanalabs/status/2090185322986668285)
+- **@solana** — BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vaccine https://t.co/vkyVEQeuYp [(link)](https://x.com/solana/status/2090177416375259541)
+- **@solana** — Sunrise has listed $MRNA on @Solana. Today, Moderna and Merck reported the first positive Phase 3 results for an mRNA cancer therapy. Issued by @Backpack Securities, a tokenized Moderna share now trades on Solana, 24/7. https://t.co/uqGE6y… [(link)](https://x.com/solana/status/2090176270885925087)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
-- **@solanalabs** — Crack open the map with @lootgo_official 🏴‍☠️ Hunt down loot boxes, drop SKR Boosters, and stack rewards while you do it. New Seeker Summer R3 Quests: ↳ Loot Goblin: Open up 5 loot boxes ↳ Boost Seeker: Buy + deploy 1 SKR Booster on the ma… [(link)](https://x.com/solanalabs/status/2084686710630400035)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)
 - **@solanalabs** — 1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open — join us in NYC for 3 months starting September 2026. 📅 Deadline: June 5. ✅ Rolling review — early applicants prioritized.… [(link)](https://x.com/solanalabs/status/2046973323620577341)
 

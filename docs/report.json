@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 22:24:54",
+  "captured_at": "2026-08-20 22:50:30",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4152,
+      "measured_slot_time_secs": 0.4172,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.8,
+      "deviation_from_target_pct": 4.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4414.15,
-      "tps_non_vote": 2758.41,
-      "vote_share_pct": 37.51,
-      "avg_slot_time_secs": 0.4144,
-      "latest_sample_slot": 440558981,
+      "tps_total": 4070.28,
+      "tps_non_vote": 2421.98,
+      "vote_share_pct": 40.5,
+      "avg_slot_time_secs": 0.4155,
+      "latest_sample_slot": 440562653,
       "samples_used": 5,
-      "block_height": 418608716,
-      "current_slot": 440558976
+      "block_height": 418612396,
+      "current_slot": 440562659
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 350976,
+      "slot_index": 354659,
       "slots_in_epoch": 432000,
-      "progress_pct": 81.24,
-      "eta_hours": 9.3,
-      "eta_basis_slot_secs": 0.4152,
-      "transaction_count": 540118033485
+      "progress_pct": 82.1,
+      "eta_hours": 9.0,
+      "eta_basis_slot_secs": 0.4172,
+      "transaction_count": 540124601308
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513212.12,
-      "circulating_sol": 583005667.4,
+      "total_sol": 632513195.02,
+      "circulating_sol": 583005650.3,
       "non_circulating_sol": 49507544.72,
       "circulating_pct": 92.17
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "ArWJqeFLfqNykzm3Rk3Rc4edhfWsYrBUaKHoCqvGFPmQa2EkgsKKvSJfRsXoPPFCCToomMNHJkeo5H8v5tjR1rs",
-      "latest_block_time": 1787264688,
-      "errors_in_recent": 7
+      "latest_signature": "3TvRaEEEm32YBpSXVSxe6ukcvM9vaXFJE2VEEhqG8jEy6CTAQDu9EYEqowrXh13psBGvhd3SXTs8fRDkwqRqjWwf",
+      "latest_block_time": 1787266223,
+      "errors_in_recent": 6
     },
     "activity": {
-      "unique_signers_sampled": 1790,
+      "unique_signers_sampled": 1548,
       "blocks_sampled": 3,
-      "transactions_sampled": 5270,
-      "non_vote_transactions_sampled": 3218,
-      "signers_per_block": 596.7,
-      "non_vote_share_pct": 61.06,
+      "transactions_sampled": 6273,
+      "non_vote_transactions_sampled": 4211,
+      "signers_per_block": 516.0,
+      "non_vote_share_pct": 67.13,
       "sampled_slots": [
-        440558795,
-        440557295,
-        440555795
+        440562476,
+        440560976,
+        440559476
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 87.42,
-      "change_24h_pct": 2.02,
-      "market_cap_usd": 50961963257.773544,
-      "volume_24h_usd": 4182170786.14471,
+      "usd": 87.28,
+      "change_24h_pct": 2.27,
+      "market_cap_usd": 50885974942.41354,
+      "volume_24h_usd": 4107658102.0252285,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5282092981.45,
+      "tvl_usd": 5280250653.2,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.28,
       "source": "defillama"
@@ -179,7 +179,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 293322767
+          "volume_24h_usd": 262853166
         },
         {
           "name": "Manifest Trade",
@@ -2312,21 +2312,21 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Exclusive Breakpoint edition. Next week. Sign up on Luma below\ud83d\udc47 https://t.co/iNwhrYuEZk",
-        "created_at": "Thu Aug 20 17:13:05 +0000 2026",
-        "url": "https://x.com/solana/status/2090487297275740174"
+        "text": "400ms \u2192 350ms \u2192 300ms \u2192 250ms \u2192 200ms Monitor the speed up live: https://t.co/tS8xMp5yW9",
+        "created_at": "Thu Aug 20 22:40:34 +0000 2026",
+        "url": "https://x.com/solana/status/2090569709636690152"
       },
       {
         "handle": "solana",
-        "text": "New day, new largest trade on JTX. A JTX user executed a $10M USDC \u2192 SOL TWAP, with 241/241 orders filled onchain over 4 hours with zero reverts and retries. \u2023 0.35 bps avg fill vs quoted price \u2023 1.05 bps avg market impact \u2023 JTX beat CEXs \u2026",
-        "created_at": "Thu Aug 20 17:03:11 +0000 2026",
-        "url": "https://x.com/solana/status/2090484805993652266"
+        "text": "Custom pairs are now live on Zora \ud83d\udc47 Create and trade new tokens paired with anything from memes, majors, and tokenized stocks. Multichain issuance and crosschain trading available across Solana, Robinhood, and Base. Create your custom pair\u2026",
+        "created_at": "Thu Aug 20 22:14:51 +0000 2026",
+        "url": "https://x.com/solana/status/2090563237758521387"
       },
       {
         "handle": "solana",
-        "text": "Inference is the first killer application for agentic payments. Token factories are the fastest growing apps in the world - claude code / codex, Hermes, openrouter We've been working closely with @BlockRunAI to scale up performance of pay-\u2026",
-        "created_at": "Thu Aug 20 16:32:24 +0000 2026",
-        "url": "https://x.com/solana/status/2090477059432910876"
+        "text": "Introducing Hiring Markets For recruiters, finding the right candidates is harder than ever before. At the same time, it has never been more difficult for applicants to stand out. Bench uses social proof and capital to fight AI slop and fu\u2026",
+        "created_at": "Thu Aug 20 14:04:05 +0000 2026",
+        "url": "https://x.com/solana/status/2090439731847008456"
       },
       {
         "handle": "solana",
@@ -2373,37 +2373,37 @@
     {
       "metric": "stablecoins_usd",
       "severity": "critical",
-      "message": "stablecoins_usd is 3.2 sigma above its 288-point mean",
+      "message": "stablecoins_usd is 3.1 sigma above its 288-point mean",
       "value": 15872490930.35,
-      "expected": 15466900520.3146
+      "expected": 15468448956.6115
     },
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.5 sigma above its 287-point mean",
-      "value": 87.42,
-      "expected": 77.6086
+      "message": "price_usd is 2.4 sigma above its 287-point mean",
+      "value": 87.28,
+      "expected": 77.6529
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.5 sigma above its 288-point mean",
-      "value": 5282092981.45,
-      "expected": 4901681848.2743
+      "message": "tvl_usd is 2.4 sigma above its 288-point mean",
+      "value": 5280250653.2,
+      "expected": 4903337572.2825
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
       "message": "rev_24h_usd is 2.3 sigma above its 288-point mean",
       "value": 1127274,
-      "expected": 773090.165
+      "expected": 774086.5643
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.9 sigma above its 288-point mean",
       "value": 434141040.35,
-      "expected": 414937182.285
+      "expected": 415023159.704
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-20 07:53:37",
+  "captured_at": "2026-08-20 08:23:04",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4152,
+      "measured_slot_time_secs": 0.419,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.8,
+      "deviation_from_target_pct": 4.75,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3154.71,
-      "tps_non_vote": 1511.96,
-      "vote_share_pct": 52.07,
+      "tps_total": 4185.45,
+      "tps_non_vote": 2540.54,
+      "vote_share_pct": 39.3,
       "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 440433287,
+      "latest_sample_slot": 440437369,
       "samples_used": 5,
-      "block_height": 418483170,
-      "current_slot": 440433274
+      "block_height": 418487357,
+      "current_slot": 440437475
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 225276,
+      "slot_index": 229476,
       "slots_in_epoch": 432000,
-      "progress_pct": 52.15,
-      "eta_hours": 23.8,
-      "eta_basis_slot_secs": 0.4152,
-      "transaction_count": 539899095716
+      "progress_pct": 53.12,
+      "eta_hours": 23.6,
+      "eta_basis_slot_secs": 0.419,
+      "transaction_count": 539905624433
     },
     "validators": {
       "active_count": 688,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632513783.07,
-      "circulating_sol": 583006238.65,
+      "total_sol": 632513766.09,
+      "circulating_sol": 583006221.67,
       "non_circulating_sol": 49507544.42,
       "circulating_pct": 92.17
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4ecC9pk7J6Lqv92kkDmq9x8UsyPAPTRig1xsw98mBDDSDLC7X76b2PkQZsnAV1q6fbmveeVTWbgNCNMVFSDbDMR3",
-      "latest_block_time": 1787212420,
-      "errors_in_recent": 3
+      "latest_signature": "5pEtXaq4NRZxhCVYbB8RENotukHAeqhUjegEGyorMCcc1mmvjevAtU9vcC7zn6shWKns5Jbor38qR1HXTnVLi6qX",
+      "latest_block_time": 1787214182,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1429,
+      "unique_signers_sampled": 1704,
       "blocks_sampled": 3,
-      "transactions_sampled": 3603,
-      "non_vote_transactions_sampled": 1533,
-      "signers_per_block": 476.3,
-      "non_vote_share_pct": 42.55,
+      "transactions_sampled": 5470,
+      "non_vote_transactions_sampled": 3411,
+      "signers_per_block": 568.0,
+      "non_vote_share_pct": 62.36,
       "sampled_slots": [
-        440433104,
-        440431604,
-        440430104
+        440437300,
+        440435800,
+        440434300
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 85.96,
-      "change_24h_pct": 11.67,
-      "market_cap_usd": 50123411168.5761,
-      "volume_24h_usd": 5017426020.311108,
+      "usd": 87.36,
+      "change_24h_pct": 13.42,
+      "market_cap_usd": 50933205996.173035,
+      "volume_24h_usd": 5215259243.867433,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5210114521.68,
+      "tvl_usd": 5219207373.7,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.35,
+      "share_of_all_chains_pct": 6.34,
       "source": "defillama"
     },
     "dex_volume": {
@@ -183,7 +183,7 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 164677075
+          "volume_24h_usd": 168838145
         }
       ],
       "source": "defillama"
@@ -228,9 +228,9 @@
           "tips_24h_usd": 25
         }
       ],
-      "app_fees_24h_usd": 13246005.009999996,
-      "app_fees_7d_usd": 65856202.339999996,
-      "app_fees_30d_usd": 255920625.55999994,
+      "app_fees_24h_usd": 13246612.999999996,
+      "app_fees_7d_usd": 65856810.339999996,
+      "app_fees_30d_usd": 255921233.55999994,
       "app_fees_change_24h_pct": 50.99,
       "protocol_count": 295,
       "top_fee_earning_apps": [
@@ -2044,7 +2044,7 @@
         "title": "Transaction v1 and the ALT Trade-off",
         "link": "https://solana.com/news/transaction-v1-and-the-alt-trade-off",
         "published": "Mon, 17 Aug 2026 00:00:00 GMT",
-        "summary": ""
+        "summary": "Solana is introducing a new transaction format (v1) alongside an increase of the maximum transaction size from 1232 bytes to 4096 bytes. The v1 format aims to unlock new possibilities on-chain. This is done trading-off \u2026"
       },
       {
         "title": "Solana Changelog: August 13, 2026",
@@ -2365,37 +2365,37 @@
     {
       "metric": "price_usd",
       "severity": "critical",
-      "message": "price_usd is 3.6 sigma above its 287-point mean",
-      "value": 85.96,
-      "expected": 76.5683
+      "message": "price_usd is 4.0 sigma above its 287-point mean",
+      "value": 87.36,
+      "expected": 76.6028
     },
     {
       "metric": "tvl_usd",
       "severity": "critical",
       "message": "tvl_usd is 3.7 sigma above its 288-point mean",
-      "value": 5210114521.68,
-      "expected": 4860834611.7369
+      "value": 5219207373.7,
+      "expected": 4862186763.0502
     },
     {
       "metric": "stablecoins_usd",
       "severity": "critical",
-      "message": "stablecoins_usd is 4.0 sigma above its 288-point mean",
+      "message": "stablecoins_usd is 3.9 sigma above its 288-point mean",
       "value": 15794095982.76,
-      "expected": 15442680562.6706
+      "expected": 15443832119.607
     },
     {
       "metric": "rev_24h_usd",
       "severity": "critical",
       "message": "rev_24h_usd is 3.1 sigma above its 288-point mean",
       "value": 1080389,
-      "expected": 748106.6832
+      "expected": 748847.2664
     },
     {
       "metric": "equities_usd",
       "severity": "critical",
-      "message": "equities_usd is 3.9 sigma above its 288-point mean",
+      "message": "equities_usd is 3.8 sigma above its 288-point mean",
       "value": 432029292.66,
-      "expected": 413155243.8203
+      "expected": 413254385.6003
     }
   ]
 }

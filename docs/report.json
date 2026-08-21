@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-21 22:25:31",
+  "captured_at": "2026-08-21 22:46:54",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3658,
+      "measured_slot_time_secs": 0.366,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.55,
+      "deviation_from_target_pct": -8.5,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4320.25,
-      "tps_non_vote": 2490.18,
-      "vote_share_pct": 42.36,
-      "avg_slot_time_secs": 0.365,
-      "latest_sample_slot": 440783961,
+      "tps_total": 4441.22,
+      "tps_non_vote": 2603.12,
+      "vote_share_pct": 41.39,
+      "avg_slot_time_secs": 0.3654,
+      "latest_sample_slot": 440787471,
       "samples_used": 5,
-      "block_height": 418833570,
-      "current_slot": 440784013
+      "block_height": 418837068,
+      "current_slot": 440787522
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 144013,
+      "slot_index": 147522,
       "slots_in_epoch": 432000,
-      "progress_pct": 33.34,
-      "eta_hours": 29.3,
-      "eta_basis_slot_secs": 0.3658,
-      "transaction_count": 540490230392
+      "progress_pct": 34.15,
+      "eta_hours": 28.9,
+      "eta_basis_slot_secs": 0.366,
+      "transaction_count": 540496043963
     },
     "validators": {
-      "active_count": 676,
-      "delinquent_count": 18,
-      "delinquent_pct": 2.59,
-      "delinquent_stake_sol": 2040518.81,
-      "delinquent_stake_pct": 0.471,
-      "total_active_stake_sol": 431444815.23,
+      "active_count": 678,
+      "delinquent_count": 16,
+      "delinquent_pct": 2.31,
+      "delinquent_stake_sol": 1771194.1,
+      "delinquent_stake_pct": 0.409,
+      "total_active_stake_sol": 431714139.94,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 251,
+      "zero_commission_count": 252,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17066371.97,
-          "stake_pct": 3.956,
+          "stake_pct": 3.953,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16054077.97,
-          "stake_pct": 3.721,
+          "stake_pct": 3.719,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12175412.97,
-          "stake_pct": 2.822,
+          "stake_pct": 2.82,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 11782031.72,
-          "stake_pct": 2.731,
+          "stake_pct": 2.729,
           "commission": 5
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9178661.12,
-          "stake_pct": 2.127,
+          "stake_pct": 2.126,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8917576.63,
-          "stake_pct": 2.067,
+          "stake_pct": 2.066,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8402660.19,
-          "stake_pct": 1.948,
+          "stake_pct": 1.946,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7964352.04,
-          "stake_pct": 1.846,
+          "stake_pct": 1.845,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7357820.58,
-          "stake_pct": 1.705,
+          "stake_pct": 1.704,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6547242.76,
-          "stake_pct": 1.518,
+          "stake_pct": 1.517,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 632639879.8,
-      "circulating_sol": 583177549.94,
-      "non_circulating_sol": 49462329.85,
+      "total_sol": 632639864.65,
+      "circulating_sol": 583177533.0,
+      "non_circulating_sol": 49462331.65,
       "circulating_pct": 92.18
     },
     "transaction_fees": {
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5mdjFXndBJK8h2k3H1csFS5Sv27kxniF8atZspqKJH9rrLg9YKQsmDaVBE8pSpKSpsauGSGQCLNNZNWEitmL522X",
-      "latest_block_time": 1787351129,
-      "errors_in_recent": 4
+      "latest_signature": "4LxkZNMxfpWVBpLerUV3VX71fXqY5wssEYaondU47iT8EV8yyWD2A54AphwFkz1QbEEYiP7N3hcvg7HgmibY5ebN",
+      "latest_block_time": 1787352409,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1530,
+      "unique_signers_sampled": 1586,
       "blocks_sampled": 3,
-      "transactions_sampled": 4220,
-      "non_vote_transactions_sampled": 2298,
-      "signers_per_block": 510.0,
-      "non_vote_share_pct": 54.45,
+      "transactions_sampled": 4868,
+      "non_vote_transactions_sampled": 2857,
+      "signers_per_block": 528.7,
+      "non_vote_share_pct": 58.69,
       "sampled_slots": [
-        440783839,
-        440782339,
-        440780839
+        440787343,
+        440785843,
+        440784343
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 93.84,
-      "change_24h_pct": 7.26,
-      "market_cap_usd": 54725441411.11574,
-      "volume_24h_usd": 6454696212.673945,
+      "usd": 94.34,
+      "change_24h_pct": 8.16,
+      "market_cap_usd": 54998079417.2979,
+      "volume_24h_usd": 6548041448.203333,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5449177799.48,
+      "tvl_usd": 5459995769.16,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.27,
+      "share_of_all_chains_pct": 6.28,
       "source": "defillama"
     },
     "dex_volume": {
@@ -175,7 +175,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 390709219
+          "volume_24h_usd": 393140962
         },
         {
           "name": "Manifest Trade",
@@ -2297,6 +2297,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "We're excited to formally announce ComicBook HQ, @ComicBook's collecting & fan economy platform. CBHQ is the home of unique fan experiences, IP-driven vending machines, creator programming, and live events! We're rolling out a DC Comics ma\u2026",
+        "created_at": "Fri Aug 21 19:40:43 +0000 2026",
+        "url": "https://x.com/solana/status/2090886838562992378"
+      },
+      {
+        "handle": "solana",
         "text": "BREAKING: your favorite wallets now work with Avici Card. top up directly from @phantom , @MetaMask , @TrustWallet , @zerion , and hundreds more. thousands of assets, all in one simple flow from the app try it today\u2193 https://t.co/UEl5CX9RSn",
         "created_at": "Fri Aug 21 18:36:12 +0000 2026",
         "url": "https://x.com/solana/status/2090870603293331921"
@@ -2306,12 +2312,6 @@
         "text": "vibefi",
         "created_at": "Fri Aug 21 15:03:27 +0000 2026",
         "url": "https://x.com/solana/status/2090817063048589567"
-      },
-      {
-        "handle": "solana",
-        "text": "Virtuals x Solana. VibeFi. 1HR https://t.co/1i3GTbz3m6",
-        "created_at": "Fri Aug 21 15:00:12 +0000 2026",
-        "url": "https://x.com/solana/status/2090816243528077702"
       },
       {
         "handle": "solana",
@@ -2359,22 +2359,22 @@
       "metric": "price_usd",
       "severity": "warning",
       "message": "price_usd is 2.4 sigma above its 287-point mean",
-      "value": 93.84,
-      "expected": 79.8526
+      "value": 94.34,
+      "expected": 79.9167
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.0 sigma above its 288-point mean",
-      "value": 5449177799.48,
-      "expected": 4987538176.0427
+      "message": "tvl_usd is 2.1 sigma above its 288-point mean",
+      "value": 5459995769.16,
+      "expected": 4989743273.5622
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.4 sigma above its 288-point mean",
       "value": 446559683.7,
-      "expected": 419558835.3463
+      "expected": 419686900.0917
     }
   ]
 }

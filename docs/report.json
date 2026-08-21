@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-21 09:57:06",
+  "captured_at": "2026-08-21 10:22:18",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3658,
+      "measured_slot_time_secs": 0.3662,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.55,
+      "deviation_from_target_pct": -8.45,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4139.66,
-      "tps_non_vote": 2269.01,
-      "vote_share_pct": 45.19,
-      "avg_slot_time_secs": 0.3623,
-      "latest_sample_slot": 440661471,
+      "tps_total": 3977.23,
+      "tps_non_vote": 2123.69,
+      "vote_share_pct": 46.6,
+      "avg_slot_time_secs": 0.3659,
+      "latest_sample_slot": 440665543,
       "samples_used": 5,
-      "block_height": 418711141,
-      "current_slot": 440661471
+      "block_height": 418715265,
+      "current_slot": 440665595
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 21471,
+      "slot_index": 25596,
       "slots_in_epoch": 432000,
-      "progress_pct": 4.97,
-      "eta_hours": 41.7,
-      "eta_basis_slot_secs": 0.3658,
-      "transaction_count": 540283802346
+      "progress_pct": 5.92,
+      "eta_hours": 41.3,
+      "eta_basis_slot_secs": 0.3662,
+      "transaction_count": 540290136256
     },
     "validators": {
-      "active_count": 681,
-      "delinquent_count": 13,
-      "delinquent_pct": 1.87,
-      "delinquent_stake_sol": 507417.87,
-      "delinquent_stake_pct": 0.117,
-      "total_active_stake_sol": 432977916.17,
+      "active_count": 682,
+      "delinquent_count": 12,
+      "delinquent_pct": 1.73,
+      "delinquent_stake_sol": 442602.74,
+      "delinquent_stake_pct": 0.102,
+      "total_active_stake_sol": 433042731.3,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 258,
@@ -45,13 +45,13 @@
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17066371.97,
-          "stake_pct": 3.942,
+          "stake_pct": 3.941,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16054077.97,
-          "stake_pct": 3.708,
+          "stake_pct": 3.707,
           "commission": 0
         },
         {
@@ -75,13 +75,13 @@
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8917576.63,
-          "stake_pct": 2.06,
+          "stake_pct": 2.059,
           "commission": 10
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8402660.19,
-          "stake_pct": 1.941,
+          "stake_pct": 1.94,
           "commission": 0
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632640416.82,
-      "circulating_sol": 583178443.62,
+      "total_sol": 632640400.4,
+      "circulating_sol": 583178427.2,
       "non_circulating_sol": 49461973.2,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3o4sGFYpzDhaM56WBz9gruchRk18mT9NuqPpPKmRnmmbeLSUnc4hj9TCbCkoUXsPmyZHmQuiUNa6hHt1Xf4LUNBD",
-      "latest_block_time": 1787306224,
-      "errors_in_recent": 4
+      "latest_signature": "HqT6LK9jEvL7qYANKb4ycraKkdgxfFKkSXAHJ1syMu8qXjJeHZyC18RY44HCVH2BLXfefaZ6PFmL8MVnuCp18Wm",
+      "latest_block_time": 1787307735,
+      "errors_in_recent": 9
     },
     "activity": {
-      "unique_signers_sampled": 1563,
+      "unique_signers_sampled": 1551,
       "blocks_sampled": 3,
-      "transactions_sampled": 4275,
-      "non_vote_transactions_sampled": 2261,
-      "signers_per_block": 521.0,
-      "non_vote_share_pct": 52.89,
+      "transactions_sampled": 4034,
+      "non_vote_transactions_sampled": 2021,
+      "signers_per_block": 517.0,
+      "non_vote_share_pct": 50.1,
       "sampled_slots": [
-        440661298,
-        440659798,
-        440658298
+        440665418,
+        440663918,
+        440662418
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 91.9,
-      "change_24h_pct": 5.53,
-      "market_cap_usd": 53595097004.8152,
-      "volume_24h_usd": 5734117233.143998,
+      "usd": 91.6,
+      "change_24h_pct": 4.59,
+      "market_cap_usd": 53416798510.11169,
+      "volume_24h_usd": 5870623391.162307,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5445065419.08,
-      "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.33,
+      "tvl_usd": 5445066546.41,
+      "rank_by_tvl": 3,
+      "share_of_all_chains_pct": 6.32,
       "source": "defillama"
     },
     "dex_volume": {
@@ -179,25 +179,25 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 252666215
+          "volume_24h_usd": 259914765
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 210132330
+          "volume_24h_usd": 218193233
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15755030914.6,
+      "total_usd": 15888730993.57,
       "by_peg": {
-        "peggedUSD": 15692045027.69,
-        "peggedEUR": 58050286.77,
-        "peggedJPY": 51.49,
-        "peggedCHF": 1378367.13,
-        "peggedAUD": 73946.9,
-        "peggedVAR": 2475644.81,
-        "peggedGBP": 838280.51,
+        "peggedUSD": 15825677860.37,
+        "peggedEUR": 58116772.69,
+        "peggedJPY": 57.61,
+        "peggedCHF": 1383911.74,
+        "peggedAUD": 74169.34,
+        "peggedVAR": 2470437.14,
+        "peggedGBP": 838475.38,
         "peggedTRY": 167838.65,
         "peggedCAD": 1469.96,
         "peggedKRW": 0.7
@@ -259,22 +259,22 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1907408440.75,
+      "total_rwa_usd": 1914405758.57,
       "protocol_count": 26,
-      "equities_usd": 437218140.87,
-      "equities_share_pct": 22.92,
+      "equities_usd": 444274635.81,
+      "equities_share_pct": 23.21,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 410673291.84,
-          "change_24h_pct": 1.089,
+          "tvl_usd": 417725428.67,
+          "change_24h_pct": 3.273,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 26063956.34,
-          "change_24h_pct": 0.268,
+          "tvl_usd": 26068314.45,
+          "change_24h_pct": 0.728,
           "category": "RWA",
           "is_equity": true
         },
@@ -296,57 +296,57 @@
         },
         {
           "name": "xStocks",
-          "tvl_usd": 410673291.84,
-          "change_24h_pct": 1.089,
+          "tvl_usd": 417725428.67,
+          "change_24h_pct": 3.273,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "OnRe",
-          "tvl_usd": 272747658.43,
-          "change_24h_pct": 0.213,
+          "tvl_usd": 272763579.79,
+          "change_24h_pct": 0.19,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 179155424.02,
-          "change_24h_pct": 0.283,
+          "tvl_usd": 179169321.84,
+          "change_24h_pct": 0.115,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 170738671.51,
-          "change_24h_pct": 0.118,
+          "tvl_usd": 170559389.37,
+          "change_24h_pct": 0.175,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Theo Network thBill",
-          "tvl_usd": 26377650.0,
-          "change_24h_pct": -58.473,
+          "tvl_usd": 26380075.0,
+          "change_24h_pct": -58.474,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 26063956.34,
-          "change_24h_pct": 0.268,
+          "tvl_usd": 26068314.45,
+          "change_24h_pct": 0.728,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Nest Credit",
-          "tvl_usd": 22474372.22,
-          "change_24h_pct": -0.481,
+          "tvl_usd": 22474748.53,
+          "change_24h_pct": -0.607,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 18345827.23,
-          "change_24h_pct": -0.062,
+          "tvl_usd": 18434710.85,
+          "change_24h_pct": 0.438,
           "category": "RWA",
           "is_equity": false
         },
@@ -2371,25 +2371,32 @@
   },
   "anomalies": [
     {
+      "metric": "equities_usd",
+      "severity": "critical",
+      "message": "equities_usd is 3.4 sigma above its 288-point mean",
+      "value": 444274635.81,
+      "expected": 416577648.3495
+    },
+    {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.8 sigma above its 287-point mean",
-      "value": 91.9,
-      "expected": 78.4394
+      "message": "price_usd is 2.7 sigma above its 287-point mean",
+      "value": 91.6,
+      "expected": 78.4965
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
       "message": "tvl_usd is 2.8 sigma above its 288-point mean",
-      "value": 5445065419.08,
-      "expected": 4932762736.8672
+      "value": 5445066546.41,
+      "expected": 4934927740.7799
     },
     {
-      "metric": "equities_usd",
+      "metric": "stablecoins_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.6 sigma above its 288-point mean",
-      "value": 437218140.87,
-      "expected": 416482411.1135
+      "message": "stablecoins_usd is 2.4 sigma above its 288-point mean",
+      "value": 15888730993.57,
+      "expected": 15495688730.0143
     }
   ]
 }

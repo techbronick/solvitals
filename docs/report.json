@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-21 05:22:02",
+  "captured_at": "2026-08-21 05:54:10",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.4142,
+      "measured_slot_time_secs": 0.4172,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": 3.55,
+      "deviation_from_target_pct": 4.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3358.42,
-      "tps_non_vote": 1712.41,
-      "vote_share_pct": 49.01,
-      "avg_slot_time_secs": 0.4161,
-      "latest_sample_slot": 440619172,
+      "tps_total": 3341.27,
+      "tps_non_vote": 1724.68,
+      "vote_share_pct": 48.38,
+      "avg_slot_time_secs": 0.4249,
+      "latest_sample_slot": 440623823,
       "samples_used": 5,
-      "block_height": 418668901,
-      "current_slot": 440619190
+      "block_height": 418673518,
+      "current_slot": 440623810
     },
     "epoch": {
       "epoch": 1019,
-      "slot_index": 411192,
+      "slot_index": 415810,
       "slots_in_epoch": 432000,
-      "progress_pct": 95.18,
-      "eta_hours": 2.4,
-      "eta_basis_slot_secs": 0.4142,
-      "transaction_count": 540219134208
+      "progress_pct": 96.25,
+      "eta_hours": 1.9,
+      "eta_basis_slot_secs": 0.4172,
+      "transaction_count": 540225395702
     },
     "validators": {
       "active_count": 690,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632512948.22,
-      "circulating_sol": 583063139.94,
+      "total_sol": 632512931.78,
+      "circulating_sol": 583063123.5,
       "non_circulating_sol": 49449808.28,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2SfnUhMexqy8nubpvJcDKKkGE3iGXgT8imB399Gth7Qn6JDa8gF35B33anu4ysyRENGqjbZ6UpEeXY4MLUghBuP5",
-      "latest_block_time": 1787289721,
+      "latest_signature": "55Xyqn6ZtHkFr22cTCTECR3YEQVggrBke7rQUofPTMpCHEN4aojsX97Pj8YiFYWCWZDRjKrrdpuEKmGhj8DMRHj9",
+      "latest_block_time": 1787291645,
       "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1733,
+      "unique_signers_sampled": 1481,
       "blocks_sampled": 3,
-      "transactions_sampled": 4278,
-      "non_vote_transactions_sampled": 2180,
-      "signers_per_block": 577.7,
-      "non_vote_share_pct": 50.96,
+      "transactions_sampled": 4423,
+      "non_vote_transactions_sampled": 2381,
+      "signers_per_block": 493.7,
+      "non_vote_share_pct": 53.83,
       "sampled_slots": [
-        440619016,
-        440617516,
-        440616016
+        440623629,
+        440622129,
+        440620629
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 89.79,
-      "change_24h_pct": 5.76,
-      "market_cap_usd": 52369437495.96011,
-      "volume_24h_usd": 4869872120.979148,
+      "usd": 90.42,
+      "change_24h_pct": 6.56,
+      "market_cap_usd": 52770462172.56728,
+      "volume_24h_usd": 4900721809.392613,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5342124981.63,
+      "tvl_usd": 5361079931.72,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.29,
+      "share_of_all_chains_pct": 6.31,
       "source": "defillama"
     },
     "dex_volume": {
@@ -174,12 +174,12 @@
           "volume_24h_usd": 465635126
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 268744314
+          "name": "Orca DEX",
+          "volume_24h_usd": 277613483
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 235456226
+          "name": "Raydium AMM",
+          "volume_24h_usd": 268744314
         },
         {
           "name": "Manifest Trade",
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 950182,
+      "rev_24h_usd": 951008,
       "network_fees_24h_usd": 776698,
-      "mev_tips_24h_usd": 173484,
-      "mev_share_of_rev_pct": 18.26,
-      "rev_annualised_usd": 346816430,
+      "mev_tips_24h_usd": 174310,
+      "mev_share_of_rev_pct": 18.33,
+      "rev_annualised_usd": 347117920,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 147574
+          "tips_24h_usd": 148400
         },
         {
           "name": "Harmonic",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 563010
+          "fees_24h_usd": 531773
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2312,6 +2312,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "It took 2 days to go from 800ms to 400ms",
+        "created_at": "Fri Aug 21 04:22:33 +0000 2026",
+        "url": "https://x.com/solana/status/2090655773470904342"
+      },
+      {
+        "handle": "solana",
         "text": "Today, we\u2019re launching Arbital. Trade memes. Trade stocks. Trade perps. Market make. All in one place. A memecoin today. An AI stock tomorrow. A Korean or Chinese stock the day after. The next big trade can come from anywhere. But finding \u2026",
         "created_at": "Fri Aug 21 02:19:27 +0000 2026",
         "url": "https://x.com/solana/status/2090624792605130987"
@@ -2321,12 +2327,6 @@
         "text": "Just a few days left to apply for the Solana School Fall Class. Applications are open to anyone, anywhere. Spend this fall learning, building, and shipping. - Seven weeks of hands-on learning and building - Guest lectures from top Solana d\u2026",
         "created_at": "Fri Aug 21 02:04:44 +0000 2026",
         "url": "https://x.com/solana/status/2090621091135815696"
-      },
-      {
-        "handle": "solana",
-        "text": "The PoC covers the full issuance and distribution process, from KYC and AML to onchain liquidity design, ready to deploy when Korea's STO framework takes effect. Read more: https://t.co/tjXTS9BvMF",
-        "created_at": "Fri Aug 21 01:17:57 +0000 2026",
-        "url": "https://x.com/solana/status/2090609318022226311"
       },
       {
         "handle": "solana",
@@ -2373,30 +2373,30 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.7 sigma above its 287-point mean",
-      "value": 89.79,
-      "expected": 78.0688
+      "message": "price_usd is 2.8 sigma above its 287-point mean",
+      "value": 90.42,
+      "expected": 78.1194
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.5 sigma above its 288-point mean",
-      "value": 5342124981.63,
-      "expected": 4919001023.1887
+      "message": "tvl_usd is 2.6 sigma above its 288-point mean",
+      "value": 5361079931.72,
+      "expected": 4920885260.981
     },
     {
       "metric": "stablecoins_usd",
       "severity": "warning",
       "message": "stablecoins_usd is 2.5 sigma above its 288-point mean",
       "value": 15870198701.57,
-      "expected": 15484170640.1312
+      "expected": 15485717315.2159
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.9 sigma above its 288-point mean",
+      "message": "equities_usd is 2.8 sigma above its 288-point mean",
       "value": 437218140.87,
-      "expected": 415814617.853
+      "expected": 415910043.8571
     }
   ]
 }

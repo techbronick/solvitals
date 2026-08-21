@@ -1,32 +1,32 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-21 03:26:54 UTC by SolVitals.
+Generated 2026-08-21 04:07:40 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 3.1 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 3.0 sigma above its 288-point mean
 - [WARNING] **price_usd** — price_usd is 2.6 sigma above its 287-point mean
 - [WARNING] **tvl_usd** — tvl_usd is 2.6 sigma above its 288-point mean
-- [WARNING] **equities_usd** — equities_usd is 2.6 sigma above its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.9 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,201.81 |
-| Total TPS (incl. votes) | 3,850.94 |
-| Vote share of transactions | 42.82% |
-| Average slot time | 0.4155 s |
-| Current slot | 440,602,566 |
-| Block height | 418,652,284 |
+| Non-vote TPS | 2,061.63 |
+| Total TPS (incl. votes) | 3,714.76 |
+| Vote share of transactions | 44.50% |
+| Average slot time | 0.4149 s |
+| Current slot | 440,608,439 |
+| Block height | 418,658,158 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1019** — 91.33% complete (`##################..`), ~4.3 hours remaining.
+Epoch **1019** — 92.69% complete (`###################.`), ~3.7 hours remaining.
 
-Slot 394,567 of 432,000. Lifetime transaction count: 540,194,969,323.
+Slot 400,440 of 432,000. Lifetime transaction count: 540,204,044,863.
 
 ## Transaction costs and slot timing
 
@@ -44,7 +44,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -79,27 +79,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $89.24 (up 5.84%) |
-| Market cap | $52.04B |
-| DeFi TVL | $5.33B |
+| SOL price | $89.26 (up 5.59%) |
+| Market cap | $52.05B |
+| DeFi TVL | $5.34B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $2.78B (down 7.60%) |
-| Stablecoin supply | $15.93B |
+| Stablecoin supply | $15.91B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$946.76K** |
+| **REV (total)** | **$950.18K** |
 | Network fees | $776.70K |
-| MEV tips (out-of-protocol) | $170.06K (17.96% of REV) |
-| Annualised REV run-rate | $345.57M |
+| MEV tips (out-of-protocol) | $173.48K (18.26% of REV) |
+| Annualised REV run-rate | $346.82M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $144.15K |
+| Jito MEV Tips | $147.57K |
 | Harmonic | $16.33K |
 | bloXroute | $9.57K |
 | Pyth Express Relay | $14 |
@@ -120,22 +120,22 @@ Fees earned by the 296 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.76M |
 | Axiom | $1.40M |
 | Solana | $776.70K |
-| Raydium AMM | $575.93K |
+| Raydium AMM | $563.01K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $1.90B |
-| Tokenized equities | $434.14M (22.8% of RWA) |
+| Total tokenized RWA | $1.91B |
+| Tokenized equities | $437.22M (22.92% of RWA) |
 | RWA protocols on Solana | 26 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $407.70M | 2.014% |
-| Ondo Global Markets | $25.96M | 0.601% |
+| xStocks | $410.67M | 1.089% |
+| Ondo Global Markets | $26.06M | 0.268% |
 | Remora Markets | $480.89K | None% |
 
 ### Largest tokenized-asset protocols
@@ -143,25 +143,25 @@ Fees earned by the 296 applications built on Solana -- DEXes, launchpads, wallet
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $740.67M | RWA |
-| xStocks | $407.70M | RWA |
-| OnRe | $272.63M | RWA |
-| Ondo Yield Assets | $179.12M | RWA |
-| Hastra | $170.94M | RWA |
+| xStocks | $410.67M | RWA |
+| OnRe | $272.75M | RWA |
+| Ondo Yield Assets | $179.16M | RWA |
+| Hastra | $170.74M | RWA |
 | Theo Network thBill | $26.38M | RWA |
-| Ondo Global Markets | $25.96M | RWA |
+| Ondo Global Markets | $26.06M | RWA |
 | Nest Credit | $22.47M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.36M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.35M | RWA |
 | VanEck Treasury Fund | $13.93M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,496 |
+| Unique fee payers (sampled) | 1,683 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,533 |
-| Non-vote share of sample | 54.78% |
-| Signers per block | 498.7 |
+| Transactions in sample | 4,358 |
+| Non-vote share of sample | 53.21% |
+| Signers per block | 561.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -171,13 +171,13 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $485.33M |
 | BisonFi | $465.64M |
-| Raydium AMM | $279.53M |
+| Raydium AMM | $276.61M |
 | Orca DEX | $235.46M |
-| Manifest Trade | $185.40M |
+| Manifest Trade | $190.94M |
 
 ## Supply
 
-Circulating 583,063,202 SOL of 632,513,011 total (92.18%).
+Circulating 583,063,178 SOL of 632,512,988 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -208,10 +208,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — Today, we’re launching Arbital. Trade memes. Trade stocks. Trade perps. Market make. All in one place. A memecoin today. An AI stock tomorrow. A Korean or Chinese stock the day after. The next big trade can come from anywhere. But finding … [(link)](https://x.com/solana/status/2090624792605130987)
 - **@solana** — Just a few days left to apply for the Solana School Fall Class. Applications are open to anyone, anywhere. Spend this fall learning, building, and shipping. - Seven weeks of hands-on learning and building - Guest lectures from top Solana d… [(link)](https://x.com/solana/status/2090621091135815696)
 - **@solana** — The PoC covers the full issuance and distribution process, from KYC and AML to onchain liquidity design, ready to deploy when Korea's STO framework takes effect. Read more: https://t.co/tjXTS9BvMF [(link)](https://x.com/solana/status/2090609318022226311)
 - **@solana** — BREAKING: Korea's Shinhan Asset Management is building a KRW tokenized fund on Solana, modeled on BlackRock's BUIDL The four-party MOU with Solana Foundation, @etherfuse and @orca_so targets a tokenized RWA market at $36B today, projected … [(link)](https://x.com/solana/status/2090609313869906111)
-- **@solana** — 400ms → 350ms → 300ms → 250ms → 200ms Monitor the speed up live: https://t.co/tS8xMp5yW9 [(link)](https://x.com/solana/status/2090569709636690152)
 - **@solanalabs** — Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵 https://t.co/HpF12YO1ak [(link)](https://x.com/solanalabs/status/2090185322986668285)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

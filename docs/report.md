@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-22 14:38:52 UTC by SolVitals.
+Generated 2026-08-22 14:55:50 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.3 sigma above its 288-point mean
+- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.2 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,662.90 |
-| Total TPS (incl. votes) | 3,536.76 |
-| Vote share of transactions | 52.98% |
-| Average slot time | 0.3641 s |
-| Current slot | 440,943,289 |
-| Block height | 418,992,650 |
+| Non-vote TPS | 2,441.93 |
+| Total TPS (incl. votes) | 4,292.70 |
+| Vote share of transactions | 43.11% |
+| Average slot time | 0.3686 s |
+| Current slot | 440,946,072 |
+| Block height | 418,995,428 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1020** — 70.21% complete (`##############......`), ~13.1 hours remaining.
+Epoch **1020** — 70.85% complete (`##############......`), ~12.8 hours remaining.
 
-Slot 303,290 of 432,000. Lifetime transaction count: 540,714,082,590.
+Slot 306,074 of 432,000. Lifetime transaction count: 540,718,239,391.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.90 (up 2.70%) |
-| Market cap | $54.75B |
+| SOL price | $93.05 (up 1.53%) |
+| Market cap | $54.28B |
 | DeFi TVL | $5.53B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.60B (up 30.15%) |
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.12M** |
 | Network fees | $898.90K |
-| MEV tips (out-of-protocol) | $223.05K (19.88% of REV) |
-| Annualised REV run-rate | $409.51M |
+| MEV tips (out-of-protocol) | $220.35K (19.69% of REV) |
+| Annualised REV run-rate | $408.53M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $194.20K |
+| Jito MEV Tips | $191.50K |
 | Harmonic | $17.68K |
 | bloXroute | $11.11K |
 | Pyth Express Relay | $55 |
@@ -154,11 +154,11 @@ Fees earned by the 297 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,398 |
+| Unique fee payers (sampled) | 1,662 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,621 |
-| Non-vote share of sample | 44.19% |
-| Signers per block | 466.0 |
+| Transactions in sample | 3,850 |
+| Non-vote share of sample | 47.51% |
+| Signers per block | 554.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,176,966 SOL of 632,639,295 total (92.18%).
+Circulating 583,176,955 SOL of 632,639,284 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

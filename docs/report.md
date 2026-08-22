@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-22 14:14:59 UTC by SolVitals.
+Generated 2026-08-22 14:38:52 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-22 14:14:59 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,664.82 |
-| Total TPS (incl. votes) | 3,545.12 |
-| Vote share of transactions | 53.04% |
-| Average slot time | 0.3628 s |
-| Current slot | 440,939,391 |
-| Block height | 418,988,751 |
+| Non-vote TPS | 1,662.90 |
+| Total TPS (incl. votes) | 3,536.76 |
+| Vote share of transactions | 52.98% |
+| Average slot time | 0.3641 s |
+| Current slot | 440,943,289 |
+| Block height | 418,992,650 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1020** — 69.3% complete (`##############......`), ~13.5 hours remaining.
+Epoch **1020** — 70.21% complete (`##############......`), ~13.1 hours remaining.
 
-Slot 299,391 of 432,000. Lifetime transaction count: 540,709,006,072.
+Slot 303,290 of 432,000. Lifetime transaction count: 540,714,082,590.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 299,391 of 432,000. Lifetime transaction count: 540,709,006,072.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3664 s |
-| Deviation from 0.4s target | -8.4% |
+| Measured slot time (`getBlockTime`) | 0.3672 s |
+| Deviation from 0.4s target | -8.2% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
 
 ## Validators
 
@@ -76,9 +76,9 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.89 (up 3.32%) |
-| Market cap | $54.73B |
-| DeFi TVL | $5.51B |
+| SOL price | $93.90 (up 2.70%) |
+| Market cap | $54.75B |
+| DeFi TVL | $5.53B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.60B (up 30.15%) |
 | Stablecoin supply | $15.87B |
@@ -154,11 +154,11 @@ Fees earned by the 297 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,460 |
+| Unique fee payers (sampled) | 1,398 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,586 |
-| Non-vote share of sample | 43.06% |
-| Signers per block | 486.7 |
+| Transactions in sample | 3,621 |
+| Non-vote share of sample | 44.19% |
+| Signers per block | 466.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,176,979 SOL of 632,639,308 total (92.18%).
+Circulating 583,176,966 SOL of 632,639,295 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

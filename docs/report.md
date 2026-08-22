@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-22 23:10:53 UTC by SolVitals.
+Generated 2026-08-22 23:33:17 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,971.85 |
-| Total TPS (incl. votes) | 3,835.81 |
-| Vote share of transactions | 48.59% |
-| Average slot time | 0.3672 s |
-| Current slot | 441,026,868 |
-| Block height | 419,076,184 |
+| Non-vote TPS | 1,655.05 |
+| Total TPS (incl. votes) | 3,508.04 |
+| Vote share of transactions | 52.82% |
+| Average slot time | 0.3690 s |
+| Current slot | 441,030,522 |
+| Block height | 419,079,840 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1020** — 89.55% complete (`##################..`), ~4.6 hours remaining.
+Epoch **1020** — 90.4% complete (`##################..`), ~4.2 hours remaining.
 
-Slot 386,870 of 432,000. Lifetime transaction count: 540,836,683,905.
+Slot 390,523 of 432,000. Lifetime transaction count: 540,841,607,406.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 386,870 of 432,000. Lifetime transaction count: 540,836,683,905.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.367 s |
-| Deviation from 0.4s target | -8.25% |
+| Measured slot time (`getBlockTime`) | 0.3674 s |
+| Deviation from 0.4s target | -8.15% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.74 (down 0.42%) |
-| Market cap | $54.66B |
+| SOL price | $93.63 (down 0.72%) |
+| Market cap | $54.60B |
 | DeFi TVL | $5.52B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.60B (up 30.15%) |
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.10M** |
 | Network fees | $898.90K |
-| MEV tips (out-of-protocol) | $205.57K (18.61% of REV) |
-| Annualised REV run-rate | $403.13M |
+| MEV tips (out-of-protocol) | $201.07K (18.28% of REV) |
+| Annualised REV run-rate | $401.49M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $176.72K |
+| Jito MEV Tips | $172.22K |
 | Harmonic | $17.68K |
 | bloXroute | $11.11K |
 | Pyth Express Relay | $55 |
@@ -154,11 +154,11 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,667 |
+| Unique fee payers (sampled) | 1,463 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,607 |
-| Non-vote share of sample | 55.78% |
-| Signers per block | 555.7 |
+| Transactions in sample | 4,842 |
+| Non-vote share of sample | 58.12% |
+| Signers per block | 487.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,7 +166,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $621.77M |
+| Orca DEX | $614.93M |
 | PumpSwap | $600.74M |
 | BisonFi | $562.98M |
 | Raydium AMM | $275.65M |
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,176,644 SOL of 632,638,973 total (92.18%).
+Circulating 583,176,631 SOL of 632,638,960 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

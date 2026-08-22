@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-22 22:35:37",
+  "captured_at": "2026-08-22 22:55:46",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4015.56,
-      "tps_non_vote": 2149.28,
-      "vote_share_pct": 46.48,
-      "avg_slot_time_secs": 0.3654,
-      "latest_sample_slot": 441021048,
+      "tps_total": 3871.55,
+      "tps_non_vote": 2021.95,
+      "vote_share_pct": 47.77,
+      "avg_slot_time_secs": 0.369,
+      "latest_sample_slot": 441024297,
       "samples_used": 5,
-      "block_height": 419070421,
-      "current_slot": 441021103
+      "block_height": 419073711,
+      "current_slot": 441024394
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 381104,
+      "slot_index": 384394,
       "slots_in_epoch": 432000,
-      "progress_pct": 88.22,
-      "eta_hours": 5.2,
+      "progress_pct": 88.98,
+      "eta_hours": 4.9,
       "eta_basis_slot_secs": 0.3672,
-      "transaction_count": 540828402945
+      "transaction_count": 540833038462
     },
     "validators": {
       "active_count": 687,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632638994.86,
-      "circulating_sol": 583176665.48,
+      "total_sol": 632638982.64,
+      "circulating_sol": 583176653.26,
       "non_circulating_sol": 49462329.38,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4ixdbeCXBDuknb6VT1ezShvkzjYgfpm2jXuW6bCVbP9Yuygvk4aCTjuLhqVZywFLS6bYKaePeKsXfziNXEXvUSXk",
-      "latest_block_time": 1787438134,
+      "latest_signature": "3cUEo1SfFsvvW1iqrPuHS2jagowC2f9h9kCmr5PKBuM4r3tNL2xz4iFCERS5EoNH38L5SKyKCTu1KUnhSVmg7zai",
+      "latest_block_time": 1787439346,
       "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1593,
+      "unique_signers_sampled": 1544,
       "blocks_sampled": 3,
-      "transactions_sampled": 4989,
-      "non_vote_transactions_sampled": 2960,
-      "signers_per_block": 531.0,
-      "non_vote_share_pct": 59.33,
+      "transactions_sampled": 3848,
+      "non_vote_transactions_sampled": 1801,
+      "signers_per_block": 514.7,
+      "non_vote_share_pct": 46.8,
       "sampled_slots": [
-        441020927,
-        441019427,
-        441017927
+        441024221,
+        441022721,
+        441021221
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 93.68,
-      "change_24h_pct": -0.11,
-      "market_cap_usd": 54662488922.91918,
-      "volume_24h_usd": 7750965438.512829,
+      "usd": 93.85,
+      "change_24h_pct": -0.36,
+      "market_cap_usd": 54728888691.028,
+      "volume_24h_usd": 7719669198.474351,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5549631467.79,
+      "tvl_usd": 5549485594.07,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.21,
       "source": "defillama"
@@ -167,7 +167,7 @@
       "top_dexes": [
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 625155104
+          "volume_24h_usd": 621768444
         },
         {
           "name": "PumpSwap",

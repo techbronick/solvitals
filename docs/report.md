@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-22 22:35:37 UTC by SolVitals.
+Generated 2026-08-22 22:55:46 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,149.28 |
-| Total TPS (incl. votes) | 4,015.56 |
-| Vote share of transactions | 46.48% |
-| Average slot time | 0.3654 s |
-| Current slot | 441,021,103 |
-| Block height | 419,070,421 |
+| Non-vote TPS | 2,021.95 |
+| Total TPS (incl. votes) | 3,871.55 |
+| Vote share of transactions | 47.77% |
+| Average slot time | 0.3690 s |
+| Current slot | 441,024,394 |
+| Block height | 419,073,711 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1020** — 88.22% complete (`##################..`), ~5.2 hours remaining.
+Epoch **1020** — 88.98% complete (`##################..`), ~4.9 hours remaining.
 
-Slot 381,104 of 432,000. Lifetime transaction count: 540,828,402,945.
+Slot 384,394 of 432,000. Lifetime transaction count: 540,833,038,462.
 
 ## Transaction costs and slot timing
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.68 (down 0.11%) |
-| Market cap | $54.66B |
+| SOL price | $93.85 (down 0.36%) |
+| Market cap | $54.73B |
 | DeFi TVL | $5.55B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.60B (up 30.15%) |
@@ -154,11 +154,11 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,593 |
+| Unique fee payers (sampled) | 1,544 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,989 |
-| Non-vote share of sample | 59.33% |
-| Signers per block | 531.0 |
+| Transactions in sample | 3,848 |
+| Non-vote share of sample | 46.8% |
+| Signers per block | 514.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,7 +166,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $625.16M |
+| Orca DEX | $621.77M |
 | PumpSwap | $600.74M |
 | BisonFi | $562.98M |
 | Raydium AMM | $275.49M |
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,176,665 SOL of 632,638,995 total (92.18%).
+Circulating 583,176,653 SOL of 632,638,983 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

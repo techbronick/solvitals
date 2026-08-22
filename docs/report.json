@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-22 21:14:26",
+  "captured_at": "2026-08-22 21:35:07",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.37,
+      "measured_slot_time_secs": 0.3678,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -7.5,
+      "deviation_from_target_pct": -8.05,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4089.59,
-      "tps_non_vote": 2242.57,
-      "vote_share_pct": 45.16,
-      "avg_slot_time_secs": 0.3695,
-      "latest_sample_slot": 441007796,
+      "tps_total": 3701.05,
+      "tps_non_vote": 1874.74,
+      "vote_share_pct": 49.35,
+      "avg_slot_time_secs": 0.3731,
+      "latest_sample_slot": 441011241,
       "samples_used": 5,
-      "block_height": 419057159,
-      "current_slot": 441007843
+      "block_height": 419060532,
+      "current_slot": 441011215
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 367844,
+      "slot_index": 371217,
       "slots_in_epoch": 432000,
-      "progress_pct": 85.15,
-      "eta_hours": 6.6,
-      "eta_basis_slot_secs": 0.37,
-      "transaction_count": 540809409118
+      "progress_pct": 85.93,
+      "eta_hours": 6.2,
+      "eta_basis_slot_secs": 0.3678,
+      "transaction_count": 540814153904
     },
     "validators": {
-      "active_count": 686,
-      "delinquent_count": 9,
-      "delinquent_pct": 1.29,
-      "delinquent_stake_sol": 87632.72,
-      "delinquent_stake_pct": 0.02,
-      "total_active_stake_sol": 433397701.32,
+      "active_count": 687,
+      "delinquent_count": 8,
+      "delinquent_pct": 1.15,
+      "delinquent_stake_sol": 60835.26,
+      "delinquent_stake_pct": 0.014,
+      "total_active_stake_sol": 433424498.78,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 255,
+      "zero_commission_count": 256,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -63,7 +63,7 @@
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 11782031.72,
-          "stake_pct": 2.719,
+          "stake_pct": 2.718,
           "commission": 5
         },
         {
@@ -75,7 +75,7 @@
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 8917576.63,
-          "stake_pct": 2.058,
+          "stake_pct": 2.057,
           "commission": 10
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632639044.66,
-      "circulating_sol": 583176715.28,
+      "total_sol": 632639032.15,
+      "circulating_sol": 583176702.77,
       "non_circulating_sol": 49462329.38,
       "circulating_pct": 92.18
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5JUzMgXUpVg8AMqa5wPTzgP6B62kipWtjVpnJRyQcKwG4qCBYVH3jSssDAxZT7xrE4sWA11hyUyLh5UJyKE4Ggwg",
-      "latest_block_time": 1787433268,
-      "errors_in_recent": 2
+      "latest_signature": "SMBwuYY87L8hGaUDaBDjmBrAHNonwPkUsnEbNNgJB1kUNxbzw69VWRJAkpe74LcoQ5S5c18cD97f1yTT4PdCABF",
+      "latest_block_time": 1787434509,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 2032,
+      "unique_signers_sampled": 1432,
       "blocks_sampled": 3,
-      "transactions_sampled": 5731,
-      "non_vote_transactions_sampled": 3630,
-      "signers_per_block": 677.3,
-      "non_vote_share_pct": 63.34,
+      "transactions_sampled": 4050,
+      "non_vote_transactions_sampled": 1993,
+      "signers_per_block": 477.3,
+      "non_vote_share_pct": 49.21,
       "sampled_slots": [
-        441007672,
-        441006172,
-        441004672
+        441011047,
+        441009547,
+        441008047
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 93.63,
-      "change_24h_pct": 1.65,
-      "market_cap_usd": 54598594422.75218,
-      "volume_24h_usd": 7993596133.862668,
+      "usd": 93.48,
+      "change_24h_pct": 0.54,
+      "market_cap_usd": 54538556679.95497,
+      "volume_24h_usd": 7899682744.426606,
       "source": "coingecko"
     },
     "tvl": {
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15855042888.38,
+      "total_usd": 15888312669.3,
       "by_peg": {
-        "peggedUSD": 15792369950.13,
-        "peggedEUR": 57793729.89,
-        "peggedJPY": 51.73,
-        "peggedCHF": 1326788.8,
-        "peggedAUD": 73901.03,
-        "peggedVAR": 2470869.2,
-        "peggedGBP": 838259.81,
+        "peggedUSD": 15825631229.03,
+        "peggedEUR": 57781728.15,
+        "peggedJPY": 51.86,
+        "peggedCHF": 1332765.83,
+        "peggedAUD": 74284.66,
+        "peggedVAR": 2484879.31,
+        "peggedGBP": 838392.65,
         "peggedTRY": 167865.19,
-        "peggedCAD": 1471.9,
+        "peggedCAD": 1471.91,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -2309,9 +2309,9 @@
       },
       {
         "handle": "solana",
-        "text": "$LLY on @Solana has surpassed $2.8M in total volume since listing yesterday. Healthcare onchain. \ud83c\udf05 https://t.co/8APINWh2wQ",
-        "created_at": "Fri Aug 21 21:12:34 +0000 2026",
-        "url": "https://x.com/solana/status/2090909951883465063"
+        "text": "Getting into more article writing around what we are working on at Flux. fluxrpc/solana-go the fastest Solana SDK on the block! https://t.co/cZbvi45NRA",
+        "created_at": "Fri Aug 21 16:43:38 +0000 2026",
+        "url": "https://x.com/solana/status/2090842272703422975"
       },
       {
         "handle": "solana",
@@ -2354,13 +2354,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "unique_signers_sampled",
-      "severity": "warning",
-      "message": "unique_signers_sampled is 2.6 sigma above its 288-point mean",
-      "value": 2032,
-      "expected": 1566.2118
-    }
-  ]
+  "anomalies": []
 }

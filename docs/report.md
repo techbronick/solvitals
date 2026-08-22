@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-22 21:14:26 UTC by SolVitals.
+Generated 2026-08-22 21:35:07 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.6 sigma above its 288-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,242.57 |
-| Total TPS (incl. votes) | 4,089.59 |
-| Vote share of transactions | 45.16% |
-| Average slot time | 0.3695 s |
-| Current slot | 441,007,843 |
-| Block height | 419,057,159 |
+| Non-vote TPS | 1,874.74 |
+| Total TPS (incl. votes) | 3,701.05 |
+| Vote share of transactions | 49.35% |
+| Average slot time | 0.3731 s |
+| Current slot | 441,011,215 |
+| Block height | 419,060,532 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1020** — 85.15% complete (`#################...`), ~6.6 hours remaining.
+Epoch **1020** — 85.93% complete (`#################...`), ~6.2 hours remaining.
 
-Slot 367,844 of 432,000. Lifetime transaction count: 540,809,409,118.
+Slot 371,217 of 432,000. Lifetime transaction count: 540,814,153,904.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 367,844 of 432,000. Lifetime transaction count: 540,809,409,118.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.37 s |
-| Deviation from 0.4s target | -7.5% |
+| Measured slot time (`getBlockTime`) | 0.3678 s |
+| Deviation from 0.4s target | -8.05% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 686 |
-| Delinquent validators | 9 (1.29%) |
-| Stake held by delinquents | 87,633 SOL (0.020%) |
-| Total active stake | 433,397,701 SOL |
+| Active validators | 687 |
+| Delinquent validators | 8 (1.15%) |
+| Stake held by delinquents | 60,835 SOL (0.014%) |
+| Total active stake | 433,424,499 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 255 |
+| Zero-commission validators | 256 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -64,9 +64,9 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,066,372 | 3.938% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,054,078 | 3.704% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,175,413 | 2.809% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,782,032 | 2.719% | 5% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,782,032 | 2.718% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,178,661 | 2.118% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,917,577 | 2.058% | 10% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,917,577 | 2.057% | 10% |
 | 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,402,660 | 1.939% | 0% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,964,352 | 1.838% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,357,821 | 1.698% | 5% |
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.63 (up 1.65%) |
-| Market cap | $54.60B |
+| SOL price | $93.48 (up 0.54%) |
+| Market cap | $54.54B |
 | DeFi TVL | $5.54B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.60B (up 30.15%) |
-| Stablecoin supply | $15.86B |
+| Stablecoin supply | $15.89B |
 
 ### Real Economic Value (REV)
 
@@ -154,11 +154,11 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 2,032 |
+| Unique fee payers (sampled) | 1,432 |
 | Blocks sampled | 3 |
-| Transactions in sample | 5,731 |
-| Non-vote share of sample | 63.34% |
-| Signers per block | 677.3 |
+| Transactions in sample | 4,050 |
+| Non-vote share of sample | 49.21% |
+| Signers per block | 477.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,176,715 SOL of 632,639,045 total (92.18%).
+Circulating 583,176,703 SOL of 632,639,032 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -206,7 +206,7 @@ The same metric is published by multiple providers with different methodologies.
 
 - **@solana** — https://t.co/v4KGgeNbrs [(link)](https://x.com/solana/status/2091138248181510587)
 - **@solana** — When you tell investors you're upgrading a 167-year-old betting system into a permissionless market, they look at you sideways. But @meleemarkets saw what others missed. Crowds beat any single expert, and prediction markets are the fastest… [(link)](https://x.com/solana/status/2091052400115437810)
-- **@solana** — $LLY on @Solana has surpassed $2.8M in total volume since listing yesterday. Healthcare onchain. 🌅 https://t.co/8APINWh2wQ [(link)](https://x.com/solana/status/2090909951883465063)
+- **@solana** — Getting into more article writing around what we are working on at Flux. fluxrpc/solana-go the fastest Solana SDK on the block! https://t.co/cZbvi45NRA [(link)](https://x.com/solana/status/2090842272703422975)
 - **@solana** — I would like to announce that Shinhan Asset Management, with over $100B in AUM, has signed an MOU with the @SolanaFndn, @orca_so and @etherfuse. We will test the issuance and distribution of a tokenized $KRW-denominated fund on @Solana, us… [(link)](https://x.com/solana/status/2090744083174334830)
 - **@solanalabs** — Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵 https://t.co/HpF12YO1ak [(link)](https://x.com/solanalabs/status/2090185322986668285)
 - **@solanalabs** — Shipped Live episode 3 is coming 🔜 Tomorrow August 11 at 11am EST The latest on the Solana Mobile ecosystem, featuring: - @beeman_nl - @web4O - @inno_sol Sign up now 👇 https://t.co/dVQgaOulNi [(link)](https://x.com/solanalabs/status/2086893782742757446)

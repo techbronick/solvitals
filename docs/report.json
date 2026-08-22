@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-22 20:57:00",
+  "captured_at": "2026-08-22 21:14:26",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.369,
+      "measured_slot_time_secs": 0.37,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -7.75,
+      "deviation_from_target_pct": -7.5,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4161.92,
-      "tps_non_vote": 2311.53,
-      "vote_share_pct": 44.46,
+      "tps_total": 4089.59,
+      "tps_non_vote": 2242.57,
+      "vote_share_pct": 45.16,
       "avg_slot_time_secs": 0.3695,
-      "latest_sample_slot": 441004903,
+      "latest_sample_slot": 441007796,
       "samples_used": 5,
-      "block_height": 419054318,
-      "current_slot": 441005000
+      "block_height": 419057159,
+      "current_slot": 441007843
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 365001,
+      "slot_index": 367844,
       "slots_in_epoch": 432000,
-      "progress_pct": 84.49,
-      "eta_hours": 6.9,
-      "eta_basis_slot_secs": 0.369,
-      "transaction_count": 540804898456
+      "progress_pct": 85.15,
+      "eta_hours": 6.6,
+      "eta_basis_slot_secs": 0.37,
+      "transaction_count": 540809409118
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632639056.51,
-      "circulating_sol": 583176727.13,
+      "total_sol": 632639044.66,
+      "circulating_sol": 583176715.28,
       "non_circulating_sol": 49462329.38,
       "circulating_pct": 92.18
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4za5iGNu7wKayxyJ7WQxwrnm77h4j3542P6QCa7NVnidoHgBaUGeezibujys4qwu5Kd2GtA9ZBqfbP15Jw3WB3KH",
-      "latest_block_time": 1787432217,
-      "errors_in_recent": 4
+      "latest_signature": "5JUzMgXUpVg8AMqa5wPTzgP6B62kipWtjVpnJRyQcKwG4qCBYVH3jSssDAxZT7xrE4sWA11hyUyLh5UJyKE4Ggwg",
+      "latest_block_time": 1787433268,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1551,
+      "unique_signers_sampled": 2032,
       "blocks_sampled": 3,
-      "transactions_sampled": 4725,
-      "non_vote_transactions_sampled": 2797,
-      "signers_per_block": 517.0,
-      "non_vote_share_pct": 59.2,
+      "transactions_sampled": 5731,
+      "non_vote_transactions_sampled": 3630,
+      "signers_per_block": 677.3,
+      "non_vote_share_pct": 63.34,
       "sampled_slots": [
-        441004825,
-        441003325,
-        441001825
+        441007672,
+        441006172,
+        441004672
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 94.46,
-      "change_24h_pct": 2.89,
-      "market_cap_usd": 55089700788.19699,
-      "volume_24h_usd": 8070471184.716094,
+      "usd": 93.63,
+      "change_24h_pct": 1.65,
+      "market_cap_usd": 54598594422.75218,
+      "volume_24h_usd": 7993596133.862668,
       "source": "coingecko"
     },
     "tvl": {
@@ -179,7 +179,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 279284716
+          "volume_24h_usd": 277405750
         },
         {
           "name": "Scorch",
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1105243,
+      "rev_24h_usd": 1104498,
       "network_fees_24h_usd": 898899,
-      "mev_tips_24h_usd": 206344,
-      "mev_share_of_rev_pct": 18.67,
-      "rev_annualised_usd": 403413695,
+      "mev_tips_24h_usd": 205599,
+      "mev_share_of_rev_pct": 18.61,
+      "rev_annualised_usd": 403141770,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 177493
+          "tips_24h_usd": 176748
         },
         {
           "name": "Harmonic",
@@ -229,9 +229,9 @@
         }
       ],
       "app_fees_24h_usd": 13335003.879999997,
-      "app_fees_7d_usd": 73109039.95,
-      "app_fees_30d_usd": 266657671.99,
-      "app_fees_change_24h_pct": 20.35,
+      "app_fees_7d_usd": 73109765.95,
+      "app_fees_30d_usd": 266665046.99,
+      "app_fees_change_24h_pct": 20.34,
       "protocol_count": 299,
       "top_fee_earning_apps": [
         {
@@ -2354,5 +2354,13 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "unique_signers_sampled",
+      "severity": "warning",
+      "message": "unique_signers_sampled is 2.6 sigma above its 288-point mean",
+      "value": 2032,
+      "expected": 1566.2118
+    }
+  ]
 }

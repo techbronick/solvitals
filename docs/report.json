@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-22 03:52:56",
+  "captured_at": "2026-08-22 04:20:35",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3656,
+      "measured_slot_time_secs": 0.3668,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.6,
+      "deviation_from_target_pct": -8.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4016.19,
-      "tps_non_vote": 2199.03,
-      "vote_share_pct": 45.25,
-      "avg_slot_time_secs": 0.369,
-      "latest_sample_slot": 440837634,
+      "tps_total": 4073.99,
+      "tps_non_vote": 2221.6,
+      "vote_share_pct": 45.47,
+      "avg_slot_time_secs": 0.3659,
+      "latest_sample_slot": 440842078,
       "samples_used": 5,
-      "block_height": 418887099,
-      "current_slot": 440837640
+      "block_height": 418891624,
+      "current_slot": 440842165
     },
     "epoch": {
       "epoch": 1020,
-      "slot_index": 197642,
+      "slot_index": 202166,
       "slots_in_epoch": 432000,
-      "progress_pct": 45.75,
-      "eta_hours": 23.8,
-      "eta_basis_slot_secs": 0.3656,
-      "transaction_count": 540568547181
+      "progress_pct": 46.8,
+      "eta_hours": 23.4,
+      "eta_basis_slot_secs": 0.3668,
+      "transaction_count": 540575093834
     },
     "validators": {
       "active_count": 682,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632639674.82,
-      "circulating_sol": 583177345.52,
+      "total_sol": 632639657.74,
+      "circulating_sol": 583177328.44,
       "non_circulating_sol": 49462329.3,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "24ALXthQPv9fVKv49FLPGF6zK87NU6xAHFNBn3iX8DW2f14kpbBXkqtHfjS8V21tzJ9BCGZyJaAdaWnvjTPg1C4Q",
-      "latest_block_time": 1787370779,
-      "errors_in_recent": 2
+      "latest_signature": "4gwpEHi6emXyqHhSZjtJVfp1ZEGn9sSpJdRD9GJcUcMYqdNTNUh9hiWQEzxnp1uLCnHvT1offkZE5HcfLffC4JfU",
+      "latest_block_time": 1787372435,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1529,
+      "unique_signers_sampled": 1541,
       "blocks_sampled": 3,
-      "transactions_sampled": 4868,
-      "non_vote_transactions_sampled": 2784,
-      "signers_per_block": 509.7,
-      "non_vote_share_pct": 57.19,
+      "transactions_sampled": 4262,
+      "non_vote_transactions_sampled": 2207,
+      "signers_per_block": 513.7,
+      "non_vote_share_pct": 51.78,
       "sampled_slots": [
-        440837472,
-        440835972,
-        440834472
+        440841994,
+        440840494,
+        440838994
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 97.07,
-      "change_24h_pct": 8.66,
-      "market_cap_usd": 56643642153.654755,
-      "volume_24h_usd": 7019900550.992897,
+      "usd": 96.83,
+      "change_24h_pct": 8.52,
+      "market_cap_usd": 56496216117.97051,
+      "volume_24h_usd": 7030434233.039683,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5576210252.79,
+      "tvl_usd": 5576305260.26,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.3,
       "source": "defillama"
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15871028962.85,
+      "total_usd": 15860425277.78,
       "by_peg": {
-        "peggedUSD": 15809107286.75,
-        "peggedEUR": 57002420.05,
-        "peggedJPY": 53.31,
-        "peggedCHF": 1360661.46,
-        "peggedAUD": 74288.99,
-        "peggedVAR": 2476442.52,
-        "peggedGBP": 838473.12,
+        "peggedUSD": 15798512624.51,
+        "peggedEUR": 56992152.25,
+        "peggedJPY": 53.41,
+        "peggedCHF": 1365660.22,
+        "peggedAUD": 74295.67,
+        "peggedVAR": 2472682.91,
+        "peggedGBP": 838470.87,
         "peggedTRY": 167865.19,
-        "peggedCAD": 1470.76,
+        "peggedCAD": 1472.06,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1076226,
+      "rev_24h_usd": 1072013,
       "network_fees_24h_usd": 898899,
-      "mev_tips_24h_usd": 177327,
-      "mev_share_of_rev_pct": 16.48,
-      "rev_annualised_usd": 392822490,
+      "mev_tips_24h_usd": 173114,
+      "mev_share_of_rev_pct": 16.15,
+      "rev_annualised_usd": 391284745,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 148476
+          "tips_24h_usd": 144263
         },
         {
           "name": "Harmonic",
@@ -2297,6 +2297,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Here\u2019s to the crazy ones. The traders. The creators. The builders. The ones that bought when everyone said crypto was dead. The ones that posted when the algo was cooked. The founders that shipped when there were no users. The ones who see\u2026",
+        "created_at": "Sat Aug 22 03:26:08 +0000 2026",
+        "url": "https://x.com/solana/status/2091003962774188526"
+      },
+      {
+        "handle": "solana",
         "text": "We're excited to formally announce ComicBook HQ, @ComicBook's collecting & fan economy platform. CBHQ is the home of unique fan experiences, IP-driven vending machines, creator programming, and live events! We're rolling out a DC Comics ma\u2026",
         "created_at": "Fri Aug 21 19:40:43 +0000 2026",
         "url": "https://x.com/solana/status/2090886838562992378"
@@ -2306,12 +2312,6 @@
         "text": "BREAKING: your favorite wallets now work with Avici Card. top up directly from @phantom , @MetaMask , @TrustWallet , @zerion , and hundreds more. thousands of assets, all in one simple flow from the app try it today\u2193 https://t.co/UEl5CX9RSn",
         "created_at": "Fri Aug 21 18:36:12 +0000 2026",
         "url": "https://x.com/solana/status/2090870603293331921"
-      },
-      {
-        "handle": "solana",
-        "text": "vibefi",
-        "created_at": "Fri Aug 21 15:03:27 +0000 2026",
-        "url": "https://x.com/solana/status/2090817063048589567"
       },
       {
         "handle": "solana",
@@ -2358,30 +2358,30 @@
     {
       "metric": "rwa_total_usd",
       "severity": "critical",
-      "message": "rwa_total_usd is 3.9 sigma above its 288-point mean",
+      "message": "rwa_total_usd is 3.7 sigma above its 288-point mean",
       "value": 1954818522.97,
-      "expected": 1885965375.6439
+      "expected": 1886263948.4133
     },
     {
       "metric": "price_usd",
       "severity": "warning",
       "message": "price_usd is 2.6 sigma above its 287-point mean",
-      "value": 97.07,
-      "expected": 80.3745
+      "value": 96.83,
+      "expected": 80.4494
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.4 sigma above its 288-point mean",
-      "value": 5576210252.79,
-      "expected": 5006492951.9235
+      "message": "tvl_usd is 2.3 sigma above its 288-point mean",
+      "value": 5576305260.26,
+      "expected": 5009128515.9792
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.4 sigma above its 288-point mean",
+      "message": "equities_usd is 2.3 sigma above its 288-point mean",
       "value": 448909107.15,
-      "expected": 420633474.6409
+      "expected": 420770284.6113
     }
   ]
 }

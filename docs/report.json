@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 21:13:07",
+  "captured_at": "2026-08-23 21:35:06",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3654,
+      "measured_slot_time_secs": 0.3662,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.65,
+      "deviation_from_target_pct": -8.45,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4094.5,
-      "tps_non_vote": 2213.05,
-      "vote_share_pct": 45.95,
-      "avg_slot_time_secs": 0.3619,
-      "latest_sample_slot": 441243787,
+      "tps_total": 4005.6,
+      "tps_non_vote": 2154.39,
+      "vote_share_pct": 46.22,
+      "avg_slot_time_secs": 0.3676,
+      "latest_sample_slot": 441247232,
       "samples_used": 5,
-      "block_height": 419292830,
-      "current_slot": 441243771
+      "block_height": 419296422,
+      "current_slot": 441247364
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 171773,
+      "slot_index": 175366,
       "slots_in_epoch": 432000,
-      "progress_pct": 39.76,
-      "eta_hours": 26.4,
-      "eta_basis_slot_secs": 0.3654,
-      "transaction_count": 541137059320
+      "progress_pct": 40.59,
+      "eta_hours": 26.1,
+      "eta_basis_slot_secs": 0.3662,
+      "transaction_count": 541142566710
     },
     "validators": {
       "active_count": 685,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632749802.04,
-      "circulating_sol": 583276692.6,
+      "total_sol": 632749787.63,
+      "circulating_sol": 583276678.19,
       "non_circulating_sol": 49473109.44,
       "circulating_pct": 92.18
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "4p8DwjvczK32iq9CeoLGBBBCV4eica7AttHsCh7PRrfs93V2xHNFU3yuYV5tSrhravYFA86DESeTnNaWJgMwKNAR",
-      "latest_block_time": 1787519591,
-      "errors_in_recent": 1
+      "latest_signature": "5HoHzfDpuTTWMYCEE5BSk9RF2qgDKuDEoryUAh1SXLq9Wqzk7fyhnymxU7hwRzFqiJmaTZMcNmK1fKGjqhdGAmcM",
+      "latest_block_time": 1787520911,
+      "errors_in_recent": 9
     },
     "activity": {
-      "unique_signers_sampled": 1435,
+      "unique_signers_sampled": 1442,
       "blocks_sampled": 3,
-      "transactions_sampled": 4251,
-      "non_vote_transactions_sampled": 2205,
-      "signers_per_block": 478.3,
-      "non_vote_share_pct": 51.87,
+      "transactions_sampled": 4666,
+      "non_vote_transactions_sampled": 2583,
+      "signers_per_block": 480.7,
+      "non_vote_share_pct": 55.36,
       "sampled_slots": [
-        441243606,
-        441242106,
-        441240606
+        441247200,
+        441245700,
+        441244200
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 95.63,
-      "change_24h_pct": 2.11,
-      "market_cap_usd": 55767822793.91268,
-      "volume_24h_usd": 4341166249.9176,
+      "usd": 96.2,
+      "change_24h_pct": 2.84,
+      "market_cap_usd": 56047999692.537796,
+      "volume_24h_usd": 4401973913.028566,
       "source": "coingecko"
     },
     "tvl": {
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15920004972.26,
+      "total_usd": 15916612681.72,
       "by_peg": {
-        "peggedUSD": 15856809004.99,
-        "peggedEUR": 58304302.66,
-        "peggedJPY": 51.1,
-        "peggedCHF": 1333410.79,
-        "peggedAUD": 74176.68,
-        "peggedVAR": 2479189.07,
-        "peggedGBP": 835516.48,
+        "peggedUSD": 15853439027.8,
+        "peggedEUR": 58275280.05,
+        "peggedJPY": 50.1,
+        "peggedCHF": 1333803.71,
+        "peggedAUD": 74108.71,
+        "peggedVAR": 2485583.37,
+        "peggedGBP": 835501.17,
         "peggedTRY": 167856.47,
-        "peggedCAD": 1463.32,
+        "peggedCAD": 1469.65,
         "peggedKRW": 0.7
       },
       "source": "defillama"

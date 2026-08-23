@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 10:56:55",
+  "captured_at": "2026-08-23 11:14:41",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.367,
+      "measured_slot_time_secs": 0.3662,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.25,
+      "deviation_from_target_pct": -8.45,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3184.51,
-      "tps_non_vote": 1331.52,
-      "vote_share_pct": 58.19,
-      "avg_slot_time_secs": 0.3667,
-      "latest_sample_slot": 441142597,
+      "tps_total": 3141.8,
+      "tps_non_vote": 1273.3,
+      "vote_share_pct": 59.47,
+      "avg_slot_time_secs": 0.3614,
+      "latest_sample_slot": 441145513,
       "samples_used": 5,
-      "block_height": 419191767,
-      "current_slot": 441142603
+      "block_height": 419194680,
+      "current_slot": 441145521
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 70603,
+      "slot_index": 73521,
       "slots_in_epoch": 432000,
-      "progress_pct": 16.34,
-      "eta_hours": 36.8,
-      "eta_basis_slot_secs": 0.367,
-      "transaction_count": 540993041575
+      "progress_pct": 17.02,
+      "eta_hours": 36.5,
+      "eta_basis_slot_secs": 0.3662,
+      "transaction_count": 540996397749
     },
     "validators": {
       "active_count": 683,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632750180.36,
-      "circulating_sol": 583277070.98,
+      "total_sol": 632750171.52,
+      "circulating_sol": 583277062.14,
       "non_circulating_sol": 49473109.38,
       "circulating_pct": 92.18
     },
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5PvP12W9WKX3KUPMf5sr9BTSaU2qxhQ925TADvpUva2rPUYgdRDG9EwYXL4GAZWvCnhcmrShP3Sd9g16S3B7BpYy",
-      "latest_block_time": 1787482611,
-      "errors_in_recent": 0
+      "latest_signature": "26Z1xD9vvMTwDyPxA13FJwG3CxefJaAiSXdAErpA8vFome4GAiSe1vLPrQA33ybGD1oPgtffUkxxhtvktt4EG9MH",
+      "latest_block_time": 1787483677,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1358,
+      "unique_signers_sampled": 1526,
       "blocks_sampled": 3,
-      "transactions_sampled": 3704,
-      "non_vote_transactions_sampled": 1602,
-      "signers_per_block": 452.7,
-      "non_vote_share_pct": 43.25,
+      "transactions_sampled": 4060,
+      "non_vote_transactions_sampled": 2091,
+      "signers_per_block": 508.7,
+      "non_vote_share_pct": 51.5,
       "sampled_slots": [
-        441142428,
-        441140928,
-        441139428
+        441145343,
+        441143843,
+        441142343
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 93.68,
-      "change_24h_pct": 0.94,
-      "market_cap_usd": 54632209693.89564,
-      "volume_24h_usd": 4434344790.857504,
+      "usd": 93.76,
+      "change_24h_pct": 1.0,
+      "market_cap_usd": 54689100120.40179,
+      "volume_24h_usd": 4385953688.0618105,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5492455307.76,
+      "tvl_usd": 5505527785.41,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.03,
+      "share_of_all_chains_pct": 6.04,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 3648052188.89,
-      "volume_7d_usd": 16912687925.85,
-      "change_24h_pct": 1.31,
+      "volume_24h_usd": 3732294477.7,
+      "volume_7d_usd": 17478586110.550003,
+      "change_24h_pct": 3.65,
       "protocol_count": 119,
       "top_dexes": [
         {
@@ -182,8 +182,8 @@
           "volume_24h_usd": 377266449
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 256893287
+          "name": "Scorch",
+          "volume_24h_usd": 363425032
         }
       ],
       "source": "defillama"

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 19:34:12",
+  "captured_at": "2026-08-23 19:53:12",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3662,
+      "measured_slot_time_secs": 0.367,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.45,
+      "deviation_from_target_pct": -8.25,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3945.78,
-      "tps_non_vote": 2094.14,
-      "vote_share_pct": 46.93,
-      "avg_slot_time_secs": 0.3676,
-      "latest_sample_slot": 441227426,
+      "tps_total": 4235.28,
+      "tps_non_vote": 2367.74,
+      "vote_share_pct": 44.09,
+      "avg_slot_time_secs": 0.3654,
+      "latest_sample_slot": 441230543,
       "samples_used": 5,
-      "block_height": 419276617,
-      "current_slot": 441227545
+      "block_height": 419279729,
+      "current_slot": 441230661
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 155545,
+      "slot_index": 158661,
       "slots_in_epoch": 432000,
-      "progress_pct": 36.01,
-      "eta_hours": 28.1,
-      "eta_basis_slot_secs": 0.3662,
-      "transaction_count": 541112549191
+      "progress_pct": 36.73,
+      "eta_hours": 27.9,
+      "eta_basis_slot_secs": 0.367,
+      "transaction_count": 541117142232
     },
     "validators": {
       "active_count": 685,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632749866.38,
-      "circulating_sol": 583276756.94,
+      "total_sol": 632749854.28,
+      "circulating_sol": 583276744.84,
       "non_circulating_sol": 49473109.44,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "52GcFCgkQBYrxQeGjSqteLwLfjcJxJgJ92ZHYqUFE3xnqe5WhGnwdLY3dc7Fe2PFGjrcYPPmN7242qkENPmx2UhF",
-      "latest_block_time": 1787513647,
-      "errors_in_recent": 0
+      "latest_signature": "4Jnd5ezx8vVU6APqL5meiunrzDbMepJ2x3cwNRRMWsbrJjH2SADyahwx8ePYvGL1jgmwhsUxdLB84SYYa97g8xa7",
+      "latest_block_time": 1787514790,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1917,
+      "unique_signers_sampled": 1530,
       "blocks_sampled": 3,
-      "transactions_sampled": 5037,
-      "non_vote_transactions_sampled": 2990,
-      "signers_per_block": 639.0,
-      "non_vote_share_pct": 59.36,
+      "transactions_sampled": 4551,
+      "non_vote_transactions_sampled": 2513,
+      "signers_per_block": 510.0,
+      "non_vote_share_pct": 55.22,
       "sampled_slots": [
-        441227364,
-        441225864,
-        441224364
+        441230485,
+        441228985,
+        441227485
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 94.99,
-      "change_24h_pct": 0.47,
-      "market_cap_usd": 55409803550.116486,
-      "volume_24h_usd": 4407265033.516286,
+      "usd": 95.24,
+      "change_24h_pct": 0.63,
+      "market_cap_usd": 55543632431.31913,
+      "volume_24h_usd": 4415193731.875691,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5582717138.47,
+      "tvl_usd": 5582601945.73,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.06,
+      "share_of_all_chains_pct": 6.08,
       "source": "defillama"
     },
     "dex_volume": {
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 972348,
+      "rev_24h_usd": 972409,
       "network_fees_24h_usd": 785842,
-      "mev_tips_24h_usd": 186506,
-      "mev_share_of_rev_pct": 19.18,
-      "rev_annualised_usd": 354907020,
+      "mev_tips_24h_usd": 186567,
+      "mev_share_of_rev_pct": 19.19,
+      "rev_annualised_usd": 354929285,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 157356
+          "tips_24h_usd": 157417
         },
         {
           "name": "Harmonic",
@@ -2297,15 +2297,15 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "08.24.2026",
-        "created_at": "Sun Aug 23 15:01:53 +0000 2026",
-        "url": "https://x.com/solana/status/2091541440853598648"
+        "text": "Your product doesn't need more attention. It needs more people actually using it. That's the gap @CyreneAI Campaigns is built to solve. Launch growth campaigns, put your product in front of new users, and let the ecosystem reward participa\u2026",
+        "created_at": "Sun Aug 23 17:14:00 +0000 2026",
+        "url": "https://x.com/solana/status/2091574691924414950"
       },
       {
         "handle": "solana",
-        "text": "Validators, time to vote.",
-        "created_at": "Sun Aug 23 14:12:31 +0000 2026",
-        "url": "https://x.com/solana/status/2091529018218562014"
+        "text": "08.24.2026",
+        "created_at": "Sun Aug 23 15:01:53 +0000 2026",
+        "url": "https://x.com/solana/status/2091541440853598648"
       },
       {
         "handle": "solana",

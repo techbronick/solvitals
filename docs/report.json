@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 23:33:11",
+  "captured_at": "2026-08-23 23:54:50",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.365,
+      "measured_slot_time_secs": 0.3666,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.75,
+      "deviation_from_target_pct": -8.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4210.35,
-      "tps_non_vote": 2356.44,
-      "vote_share_pct": 44.03,
-      "avg_slot_time_secs": 0.3672,
-      "latest_sample_slot": 441266767,
+      "tps_total": 4046.25,
+      "tps_non_vote": 2189.79,
+      "vote_share_pct": 45.88,
+      "avg_slot_time_secs": 0.3659,
+      "latest_sample_slot": 441270281,
       "samples_used": 5,
-      "block_height": 419315804,
-      "current_slot": 441266762
+      "block_height": 419319340,
+      "current_slot": 441270301
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 194764,
+      "slot_index": 198301,
       "slots_in_epoch": 432000,
-      "progress_pct": 45.08,
-      "eta_hours": 24.1,
-      "eta_basis_slot_secs": 0.365,
-      "transaction_count": 541170258742
+      "progress_pct": 45.9,
+      "eta_hours": 23.8,
+      "eta_basis_slot_secs": 0.3666,
+      "transaction_count": 541175425192
     },
     "validators": {
       "active_count": 684,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632749715.02,
-      "circulating_sol": 583276605.58,
+      "total_sol": 632749701.49,
+      "circulating_sol": 583276592.05,
       "non_circulating_sol": 49473109.44,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "3g6Lr1mBa6AWYQ8nuFWATxJiRzRntbgyqvD6yFURRekpZNmDJpeLZY6sUNfKu1MKyvkJTjmg6RZv1WStezaAwghV",
-      "latest_block_time": 1787527997,
-      "errors_in_recent": 4
+      "latest_signature": "4kgpDmmS7BSsocTrN9PPB8gWkHLUox7oRhWxhrXZhwdaxm4kNxN5Uggiw6mRECkRvvLC6cYHLpQ7JfiZpHPQB8fk",
+      "latest_block_time": 1787529287,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 2515,
+      "unique_signers_sampled": 1697,
       "blocks_sampled": 3,
-      "transactions_sampled": 5416,
-      "non_vote_transactions_sampled": 3387,
-      "signers_per_block": 838.3,
-      "non_vote_share_pct": 62.54,
+      "transactions_sampled": 5819,
+      "non_vote_transactions_sampled": 3218,
+      "signers_per_block": 565.7,
+      "non_vote_share_pct": 55.3,
       "sampled_slots": [
-        441266600,
-        441265100,
-        441263600
+        441270124,
+        441268624,
+        441267124
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 95.7,
-      "change_24h_pct": 2.23,
-      "market_cap_usd": 55820390876.92602,
-      "volume_24h_usd": 4443765522.344439,
+      "usd": 95.4,
+      "change_24h_pct": 1.58,
+      "market_cap_usd": 55646845478.22817,
+      "volume_24h_usd": 4295986247.90351,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5586000495.02,
+      "tvl_usd": 5590651719.61,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.06,
       "source": "defillama"
@@ -175,7 +175,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 395754099
+          "volume_24h_usd": 399873770
         },
         {
           "name": "Meteora DLMM",
@@ -2354,13 +2354,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "unique_signers_sampled",
-      "severity": "critical",
-      "message": "unique_signers_sampled is 5.1 sigma above its 288-point mean",
-      "value": 2515,
-      "expected": 1564.1458
-    }
-  ]
+  "anomalies": []
 }

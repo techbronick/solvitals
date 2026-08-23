@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 08:01:18",
+  "captured_at": "2026-08-23 08:45:08",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3654,
+      "measured_slot_time_secs": 0.3644,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.65,
+      "deviation_from_target_pct": -8.9,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3415.72,
-      "tps_non_vote": 1545.08,
-      "vote_share_pct": 54.77,
-      "avg_slot_time_secs": 0.3632,
-      "latest_sample_slot": 441113720,
+      "tps_total": 3693.92,
+      "tps_non_vote": 1814.47,
+      "vote_share_pct": 50.88,
+      "avg_slot_time_secs": 0.3623,
+      "latest_sample_slot": 441120985,
       "samples_used": 5,
-      "block_height": 419162922,
-      "current_slot": 441113755
+      "block_height": 419170134,
+      "current_slot": 441120972
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 41757,
+      "slot_index": 48974,
       "slots_in_epoch": 432000,
-      "progress_pct": 9.67,
-      "eta_hours": 39.6,
-      "eta_basis_slot_secs": 0.3654,
-      "transaction_count": 540957833325
+      "progress_pct": 11.34,
+      "eta_hours": 38.8,
+      "eta_basis_slot_secs": 0.3644,
+      "transaction_count": 540967168806
     },
     "validators": {
       "active_count": 685,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 632750272.59,
-      "circulating_sol": 583277196.19,
-      "non_circulating_sol": 49473076.4,
+      "total_sol": 632750248.18,
+      "circulating_sol": 583277145.88,
+      "non_circulating_sol": 49473102.3,
       "circulating_pct": 92.18
     },
     "transaction_fees": {
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "KU1nzVx4A4kZJEt9iN3fnhGNJ2YLWcEtqdxF8y1PRr3FuTvWVBCN3f3f7wMo6Zfu6VfYHufn45dUXyMwN6nsRxm",
-      "latest_block_time": 1787472083,
-      "errors_in_recent": 1
+      "latest_signature": "37rYAcYdVKjLTG1d16ZxbshN5vsKrHwFsEHRwbdSup2qkVTfJKkcRXLtFy1SEbyauodou1UwZhsYkBD9NWpAnJq5",
+      "latest_block_time": 1787474710,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1383,
+      "unique_signers_sampled": 1487,
       "blocks_sampled": 3,
-      "transactions_sampled": 3855,
-      "non_vote_transactions_sampled": 1817,
-      "signers_per_block": 461.0,
-      "non_vote_share_pct": 47.13,
+      "transactions_sampled": 4078,
+      "non_vote_transactions_sampled": 2115,
+      "signers_per_block": 495.7,
+      "non_vote_share_pct": 51.86,
       "sampled_slots": [
-        441113591,
-        441112091,
-        441110591
+        441120801,
+        441119301,
+        441117801
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 92.42,
-      "change_24h_pct": -2.14,
-      "market_cap_usd": 53890734704.38342,
-      "volume_24h_usd": 5019350884.375244,
+      "usd": 93.31,
+      "change_24h_pct": -0.32,
+      "market_cap_usd": 54413298122.805855,
+      "volume_24h_usd": 4926158364.943355,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5478156356.12,
+      "tvl_usd": 5469987118.67,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.04,
+      "share_of_all_chains_pct": 6.03,
       "source": "defillama"
     },
     "dex_volume": {
@@ -183,23 +183,23 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 270763741
+          "volume_24h_usd": 266722828
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15860239737.37,
+      "total_usd": 15868162224.31,
       "by_peg": {
-        "peggedUSD": 15797314881.12,
-        "peggedEUR": 58037402.94,
-        "peggedJPY": 50.19,
-        "peggedCHF": 1325516.81,
-        "peggedAUD": 74318.88,
-        "peggedVAR": 2479866.4,
-        "peggedGBP": 838371.92,
+        "peggedUSD": 15805239768.26,
+        "peggedEUR": 58041568.73,
+        "peggedJPY": 50.27,
+        "peggedCHF": 1330597.71,
+        "peggedAUD": 74314.47,
+        "peggedVAR": 2468202.56,
+        "peggedGBP": 838393.23,
         "peggedTRY": 167856.47,
-        "peggedCAD": 1471.93,
+        "peggedCAD": 1471.91,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -2310,6 +2310,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Clean UI for everything on @Solana \ud83c\udf92",
+        "created_at": "Sun Aug 23 07:37:30 +0000 2026",
+        "url": "https://x.com/solana/status/2091429608080253243"
+      },
+      {
+        "handle": "solana",
         "text": "Solana's RWA ecosystem hit a new ATH: $4B+ in total value https://t.co/mfH1wbCoBS",
         "created_at": "Sun Aug 23 07:36:12 +0000 2026",
         "url": "https://x.com/solana/status/2091429281251348524"
@@ -2319,12 +2325,6 @@
         "text": "https://t.co/v4KGgeNbrs",
         "created_at": "Sat Aug 22 12:19:44 +0000 2026",
         "url": "https://x.com/solana/status/2091138248181510587"
-      },
-      {
-        "handle": "solana",
-        "text": "When you tell investors you're upgrading a 167-year-old betting system into a permissionless market, they look at you sideways. But @meleemarkets saw what others missed. Crowds beat any single expert, and prediction markets are the fastest\u2026",
-        "created_at": "Sat Aug 22 06:38:36 +0000 2026",
-        "url": "https://x.com/solana/status/2091052400115437810"
       },
       {
         "handle": "solana",

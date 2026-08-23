@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 17:54:25",
+  "captured_at": "2026-08-23 18:12:24",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.365,
+      "measured_slot_time_secs": 0.3642,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.75,
+      "deviation_from_target_pct": -8.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4450.05,
-      "tps_non_vote": 2591.89,
-      "vote_share_pct": 41.76,
-      "avg_slot_time_secs": 0.3645,
-      "latest_sample_slot": 441211061,
+      "tps_total": 4254.84,
+      "tps_non_vote": 2402.39,
+      "vote_share_pct": 43.54,
+      "avg_slot_time_secs": 0.3654,
+      "latest_sample_slot": 441214116,
       "samples_used": 5,
-      "block_height": 419260223,
-      "current_slot": 441211142
+      "block_height": 419263180,
+      "current_slot": 441214104
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 139143,
+      "slot_index": 142104,
       "slots_in_epoch": 432000,
-      "progress_pct": 32.21,
-      "eta_hours": 29.7,
-      "eta_basis_slot_secs": 0.365,
-      "transaction_count": 541088832116
+      "progress_pct": 32.89,
+      "eta_hours": 29.3,
+      "eta_basis_slot_secs": 0.3642,
+      "transaction_count": 541093194368
     },
     "validators": {
       "active_count": 681,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632749928.41,
-      "circulating_sol": 583276818.97,
+      "total_sol": 632749917.02,
+      "circulating_sol": 583276807.58,
       "non_circulating_sol": 49473109.44,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5LSwR7XPGWadHtbkWrL4WHYwkiFrhD8oQZ741Hs7e8QuaDqs1K1yKNqG3SonzpazU7jUdUn1KkurGVr2C4VRzHMJ",
-      "latest_block_time": 1787507662,
-      "errors_in_recent": 4
+      "latest_signature": "43tLJQPLAYjgW1isUKZ4GUWwiycEcyadw6vXGjMkjqYeUtzuGmURG3yMh9gtx9WpBw155NbnPse4dnu5rfaJ6U8p",
+      "latest_block_time": 1787508740,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1694,
+      "unique_signers_sampled": 1841,
       "blocks_sampled": 3,
-      "transactions_sampled": 5054,
-      "non_vote_transactions_sampled": 3046,
-      "signers_per_block": 564.7,
-      "non_vote_share_pct": 60.27,
+      "transactions_sampled": 5534,
+      "non_vote_transactions_sampled": 3507,
+      "signers_per_block": 613.7,
+      "non_vote_share_pct": 63.37,
       "sampled_slots": [
-        441210964,
-        441209464,
-        441207964
+        441213925,
+        441212425,
+        441210925
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 95.16,
-      "change_24h_pct": 0.85,
-      "market_cap_usd": 55490357937.93715,
-      "volume_24h_usd": 4463101241.730102,
+      "usd": 95.12,
+      "change_24h_pct": 1.11,
+      "market_cap_usd": 55467655921.34272,
+      "volume_24h_usd": 4459410040.015783,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5592696787.29,
+      "tvl_usd": 5593098038.4,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.07,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 969628,
+      "rev_24h_usd": 972955,
       "network_fees_24h_usd": 785842,
-      "mev_tips_24h_usd": 183786,
-      "mev_share_of_rev_pct": 18.95,
-      "rev_annualised_usd": 353914220,
+      "mev_tips_24h_usd": 187113,
+      "mev_share_of_rev_pct": 19.23,
+      "rev_annualised_usd": 355128575,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 154636
+          "tips_24h_usd": 157963
         },
         {
           "name": "Harmonic",

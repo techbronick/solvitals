@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-23 11:54:55",
+  "captured_at": "2026-08-23 12:15:39",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3662,
+      "measured_slot_time_secs": 0.3642,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.45,
+      "deviation_from_target_pct": -8.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3481.75,
-      "tps_non_vote": 1620.08,
-      "vote_share_pct": 53.47,
-      "avg_slot_time_secs": 0.3636,
-      "latest_sample_slot": 441152078,
+      "tps_total": 3314.52,
+      "tps_non_vote": 1439.8,
+      "vote_share_pct": 56.56,
+      "avg_slot_time_secs": 0.3614,
+      "latest_sample_slot": 441155484,
       "samples_used": 5,
-      "block_height": 419201283,
-      "current_slot": 441152128
+      "block_height": 419204705,
+      "current_slot": 441155551
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 80128,
+      "slot_index": 83552,
       "slots_in_epoch": 432000,
-      "progress_pct": 18.55,
-      "eta_hours": 35.8,
-      "eta_basis_slot_secs": 0.3662,
-      "transaction_count": 541004524324
+      "progress_pct": 19.34,
+      "eta_hours": 35.3,
+      "eta_basis_slot_secs": 0.3642,
+      "transaction_count": 541008744131
     },
     "validators": {
       "active_count": 683,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632750150.17,
-      "circulating_sol": 583277040.79,
+      "total_sol": 632750139.06,
+      "circulating_sol": 583277029.69,
       "non_circulating_sol": 49473109.38,
       "circulating_pct": 92.18
     },
@@ -126,31 +126,31 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "Le1fS5Y8nZ93qse3251GoEpGKoq13Uqs2y67tky2ubEs5fhBXqVQKSqKiaHFjUqkvXYqs4YLx2qHrAQj73cATTW",
-      "latest_block_time": 1787486091,
-      "errors_in_recent": 5
+      "latest_signature": "5gADG9Zncsja2uRaTxJqVF1Z1nuMGECRNRuecPgaK3do1vNqfu9xPgt7b6XpKw68faNZnbCuFHphskMbDoBve5tF",
+      "latest_block_time": 1787487342,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1460,
+      "unique_signers_sampled": 1645,
       "blocks_sampled": 3,
-      "transactions_sampled": 3757,
-      "non_vote_transactions_sampled": 1706,
-      "signers_per_block": 486.7,
-      "non_vote_share_pct": 45.41,
+      "transactions_sampled": 3803,
+      "non_vote_transactions_sampled": 1769,
+      "signers_per_block": 548.3,
+      "non_vote_share_pct": 46.52,
       "sampled_slots": [
-        441151948,
-        441150448,
-        441148948
+        441155384,
+        441153884,
+        441152384
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 94.59,
-      "change_24h_pct": 1.48,
-      "market_cap_usd": 55174780439.06154,
-      "volume_24h_usd": 4427410399.74164,
+      "usd": 94.25,
+      "change_24h_pct": 0.44,
+      "market_cap_usd": 54982635578.98205,
+      "volume_24h_usd": 4432358315.511141,
       "source": "coingecko"
     },
     "tvl": {
@@ -2310,6 +2310,12 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Solana is monetizing at both layers. On Aug. 21, @solana generated $1.02M in network revenue, while its apps generated another $4.01M. The thesis is not picking one winner. It is making Solana the place successive winners build, monetize a\u2026",
+        "created_at": "Sun Aug 23 10:56:59 +0000 2026",
+        "url": "https://x.com/solana/status/2091479810971201651"
+      },
+      {
+        "handle": "solana",
         "text": "Clean UI for everything on @Solana \ud83c\udf92",
         "created_at": "Sun Aug 23 07:37:30 +0000 2026",
         "url": "https://x.com/solana/status/2091429608080253243"
@@ -2325,12 +2331,6 @@
         "text": "https://t.co/v4KGgeNbrs",
         "created_at": "Sat Aug 22 12:19:44 +0000 2026",
         "url": "https://x.com/solana/status/2091138248181510587"
-      },
-      {
-        "handle": "solana",
-        "text": "Getting into more article writing around what we are working on at Flux. fluxrpc/solana-go the fastest Solana SDK on the block! https://t.co/cZbvi45NRA",
-        "created_at": "Fri Aug 21 16:43:38 +0000 2026",
-        "url": "https://x.com/solana/status/2090842272703422975"
       },
       {
         "handle": "solanalabs",

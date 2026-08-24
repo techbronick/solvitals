@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-24 19:07:39",
+  "captured_at": "2026-08-24 19:40:37",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3674,
+      "measured_slot_time_secs": 0.3668,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.15,
+      "deviation_from_target_pct": -8.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,51 +13,51 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4435.76,
-      "tps_non_vote": 2573.18,
-      "vote_share_pct": 41.99,
-      "avg_slot_time_secs": 0.3654,
-      "latest_sample_slot": 441459669,
+      "tps_total": 4457.69,
+      "tps_non_vote": 2608.57,
+      "vote_share_pct": 41.48,
+      "avg_slot_time_secs": 0.3681,
+      "latest_sample_slot": 441464977,
       "samples_used": 5,
-      "block_height": 419508596,
-      "current_slot": 441459666
+      "block_height": 419513992,
+      "current_slot": 441465061
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 387666,
+      "slot_index": 393061,
       "slots_in_epoch": 432000,
-      "progress_pct": 89.74,
-      "eta_hours": 4.5,
-      "eta_basis_slot_secs": 0.3674,
-      "transaction_count": 541443817167
+      "progress_pct": 90.99,
+      "eta_hours": 4.0,
+      "eta_basis_slot_secs": 0.3668,
+      "transaction_count": 541452576633
     },
     "validators": {
       "active_count": 685,
       "delinquent_count": 10,
       "delinquent_pct": 1.44,
-      "delinquent_stake_sol": 714681.44,
-      "delinquent_stake_pct": 0.165,
-      "total_active_stake_sol": 432721631.29,
+      "delinquent_stake_sol": 591409.71,
+      "delinquent_stake_pct": 0.136,
+      "total_active_stake_sol": 432844903.02,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 254,
+      "zero_commission_count": 255,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 16984006.16,
-          "stake_pct": 3.925,
+          "stake_pct": 3.924,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16032940.56,
-          "stake_pct": 3.705,
+          "stake_pct": 3.704,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12211670.54,
-          "stake_pct": 2.822,
+          "stake_pct": 2.821,
           "commission": 0
         },
         {
@@ -69,7 +69,7 @@
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9165201.62,
-          "stake_pct": 2.118,
+          "stake_pct": 2.117,
           "commission": 7
         },
         {
@@ -81,19 +81,19 @@
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 8480577.88,
-          "stake_pct": 1.96,
+          "stake_pct": 1.959,
           "commission": 0
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7930730.6,
-          "stake_pct": 1.833,
+          "stake_pct": 1.832,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7359445.5,
-          "stake_pct": 1.701,
+          "stake_pct": 1.7,
           "commission": 5
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632748989.6,
-      "circulating_sol": 583275880.42,
+      "total_sol": 632748966.51,
+      "circulating_sol": 583275857.33,
       "non_circulating_sol": 49473109.18,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "5Tb14LYX4Sbma7vUWp5wRmTruHoCw3JBiyD4d7BnyVw2NxFSqiZPz2ye1AcvpiT1Xaxveax1kepje72VaRZ1MMxW",
-      "latest_block_time": 1787598456,
-      "errors_in_recent": 0
+      "latest_signature": "5fuAupDccbxDheGwaZNDR43SiRZGzeDBueUvRmkMR88VsDBSEB8zLgE3uvXk1THebQUdnM3DxVCdBQtUuD691fET",
+      "latest_block_time": 1787600433,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1887,
+      "unique_signers_sampled": 1671,
       "blocks_sampled": 3,
-      "transactions_sampled": 4911,
-      "non_vote_transactions_sampled": 2881,
-      "signers_per_block": 629.0,
-      "non_vote_share_pct": 58.66,
+      "transactions_sampled": 5172,
+      "non_vote_transactions_sampled": 3142,
+      "signers_per_block": 557.0,
+      "non_vote_share_pct": 60.75,
       "sampled_slots": [
-        441459489,
-        441457989,
-        441456489
+        441464883,
+        441463383,
+        441461883
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 95.66,
-      "change_24h_pct": 0.51,
-      "market_cap_usd": 55908271483.90415,
-      "volume_24h_usd": 5149281916.928774,
+      "usd": 96.17,
+      "change_24h_pct": 1.1,
+      "market_cap_usd": 56127900022.40226,
+      "volume_24h_usd": 5269551960.36919,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5607824782.07,
+      "tvl_usd": 5582075870.52,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.36,
+      "share_of_all_chains_pct": 6.37,
       "source": "defillama"
     },
     "dex_volume": {
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15779853709.57,
+      "total_usd": 15817466354.06,
       "by_peg": {
-        "peggedUSD": 15716232360.42,
-        "peggedEUR": 58727307.49,
-        "peggedJPY": 52.57,
-        "peggedCHF": 1327542.92,
-        "peggedAUD": 74008.94,
-        "peggedVAR": 2487623.47,
-        "peggedGBP": 835593.66,
+        "peggedUSD": 15751481293.3,
+        "peggedEUR": 61097491.3,
+        "peggedJPY": 52.53,
+        "peggedCHF": 1331197.72,
+        "peggedAUD": 74099.27,
+        "peggedVAR": 2477573.47,
+        "peggedGBP": 835426.48,
         "peggedTRY": 167755.89,
-        "peggedCAD": 1463.52,
+        "peggedCAD": 1463.4,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -2299,21 +2299,21 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent on Solana https://\u2026",
-        "created_at": "Mon Aug 24 16:00:30 +0000 2026",
-        "url": "https://x.com/solana/status/2091918581755793520"
+        "text": "It's Solana IRL season \ud83d\udc47",
+        "created_at": "Mon Aug 24 18:11:19 +0000 2026",
+        "url": "https://x.com/solana/status/2091951504412565924"
       },
       {
         "handle": "solana",
-        "text": "https://t.co/RNJvofvcAt",
-        "created_at": "Mon Aug 24 15:30:00 +0000 2026",
-        "url": "https://x.com/solana/status/2091910906494033930"
+        "text": "ICYMI: @mtndao is cooking in Utah \ud83d\uddfb @castledao is cooking in Ireland \ud83c\udff0 @colosseum is cooking in SF \ud83c\udf09 @superteam is cooking worldwide \ud83c\udf0e @LaFamilia_so is cooking in Spain \ud83c\uddea\ud83c\uddf8 @islanddao is cooking in LATAM \ud83c\udfdd\ufe0f And we're cooking up a little thi\u2026",
+        "created_at": "Mon Aug 24 15:09:03 +0000 2026",
+        "url": "https://x.com/solana/status/2091905631816921587"
       },
       {
         "handle": "solana",
-        "text": "Today, millions more people can own a working agent on Solana. It raises its own capital, sets its own tax, funds its own intelligence, and trades with its own wallet. What it earns, its owners share. Start owning now: https://t.co/KEfBy3M\u2026",
-        "created_at": "Mon Aug 24 14:30:25 +0000 2026",
-        "url": "https://x.com/solana/status/2091895910905299009"
+        "text": "V1 Transactions are coming to @solana and they are really cool! They will go live in a couple of weeks. Max transaction size goes from 1,232 \u2192 4,096 bytes. Compute budgeting moves out of instructions and into the transaction itself. There \u2026",
+        "created_at": "Mon Aug 24 14:59:40 +0000 2026",
+        "url": "https://x.com/solana/status/2091903273632731271"
       },
       {
         "handle": "solana",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-24 06:07:30",
+  "captured_at": "2026-08-24 07:17:31",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3642,
+      "measured_slot_time_secs": 0.3656,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.95,
+      "deviation_from_target_pct": -8.6,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3489.54,
-      "tps_non_vote": 1624.26,
-      "vote_share_pct": 53.45,
-      "avg_slot_time_secs": 0.3659,
-      "latest_sample_slot": 441331498,
+      "tps_total": 3484.29,
+      "tps_non_vote": 1625.23,
+      "vote_share_pct": 53.36,
+      "avg_slot_time_secs": 0.3663,
+      "latest_sample_slot": 441343058,
       "samples_used": 5,
-      "block_height": 419380566,
-      "current_slot": 441331567
+      "block_height": 419392072,
+      "current_slot": 441343073
     },
     "epoch": {
       "epoch": 1021,
-      "slot_index": 259568,
+      "slot_index": 271074,
       "slots_in_epoch": 432000,
-      "progress_pct": 60.09,
-      "eta_hours": 17.4,
-      "eta_basis_slot_secs": 0.3642,
-      "transaction_count": 541258198861
+      "progress_pct": 62.75,
+      "eta_hours": 16.3,
+      "eta_basis_slot_secs": 0.3656,
+      "transaction_count": 541272506420
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632749483.2,
-      "circulating_sol": 583276373.73,
+      "total_sol": 632749445.26,
+      "circulating_sol": 583276335.79,
       "non_circulating_sol": 49473109.47,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1928,
       "recent_signature_count": 10,
-      "latest_signature": "2hKbtEEU63bbgrV6PGTuoGsHkV8nmvn727bYZieP6yX7QxHD62ApjFczdmJ992oEMcXLWxCNVqp4JaMh4BuhnWyz",
-      "latest_block_time": 1787551651,
-      "errors_in_recent": 7
+      "latest_signature": "4Hc1b8SZLDjeHfuybJaKWYaS6e1ipodBJwkxP5ZyT24RknmwGQ5DRVFvvgkD6qYkgVfm5UTu6cWJtTN1xZKucdaE",
+      "latest_block_time": 1787555850,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1307,
+      "unique_signers_sampled": 1457,
       "blocks_sampled": 3,
-      "transactions_sampled": 3341,
-      "non_vote_transactions_sampled": 1298,
-      "signers_per_block": 435.7,
-      "non_vote_share_pct": 38.85,
+      "transactions_sampled": 3617,
+      "non_vote_transactions_sampled": 1499,
+      "signers_per_block": 485.7,
+      "non_vote_share_pct": 41.44,
       "sampled_slots": [
-        441331396,
-        441329896,
-        441328396
+        441342900,
+        441341400,
+        441339900
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 93.97,
-      "change_24h_pct": 1.93,
-      "market_cap_usd": 54807915654.45558,
-      "volume_24h_usd": 3582864667.149856,
+      "usd": 95.27,
+      "change_24h_pct": 2.74,
+      "market_cap_usd": 55598707576.67085,
+      "volume_24h_usd": 3661487538.979245,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5534492880.31,
+      "tvl_usd": 5534560474.57,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 5.96,
       "source": "defillama"
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15900837725.1,
+      "total_usd": 15963078401.16,
       "by_peg": {
-        "peggedUSD": 15839119785.6,
-        "peggedEUR": 56830876.51,
-        "peggedJPY": 52.67,
-        "peggedCHF": 1334840.6,
-        "peggedAUD": 74460.61,
-        "peggedVAR": 2472737.67,
-        "peggedGBP": 835746.06,
+        "peggedUSD": 15901374454.38,
+        "peggedEUR": 56813401.8,
+        "peggedJPY": 52.69,
+        "peggedCHF": 1335172.36,
+        "peggedAUD": 74196.21,
+        "peggedVAR": 2476153.26,
+        "peggedGBP": 835745.05,
         "peggedTRY": 167755.89,
-        "peggedCAD": 1468.8,
+        "peggedCAD": 1468.82,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 865695.92,
+      "rev_24h_usd": 844385.92,
       "network_fees_24h_usd": 696891,
-      "mev_tips_24h_usd": 168804.92,
-      "mev_share_of_rev_pct": 19.5,
-      "rev_annualised_usd": 315979010.8,
+      "mev_tips_24h_usd": 147494.92,
+      "mev_share_of_rev_pct": 17.47,
+      "rev_annualised_usd": 308200860.8,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 147606
+          "tips_24h_usd": 126296
         },
         {
           "name": "Harmonic",
@@ -2312,21 +2312,21 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "BREAKING: @Solana continues to surpass all L1 and L2 chains in weekly DEX volume for the 17th consecutive week. https://t.co/EiYRboKjj3",
+        "created_at": "Mon Aug 24 06:35:58 +0000 2026",
+        "url": "https://x.com/solana/status/2091776511095300285"
+      },
+      {
+        "handle": "solana",
+        "text": "This is fine. Everything is fine \ud83e\udd8d Startup Village Borneo is coming. If you're building something cool, we want you here \ud83e\udee1 https://t.co/n90kPShsfl",
+        "created_at": "Mon Aug 24 01:49:26 +0000 2026",
+        "url": "https://x.com/solana/status/2091704403573313540"
+      },
+      {
+        "handle": "solana",
         "text": "Your product doesn't need more attention. It needs more people actually using it. That's the gap @CyreneAI Campaigns is built to solve. Launch growth campaigns, put your product in front of new users, and let the ecosystem reward participa\u2026",
         "created_at": "Sun Aug 23 17:14:00 +0000 2026",
         "url": "https://x.com/solana/status/2091574691924414950"
-      },
-      {
-        "handle": "solana",
-        "text": "08.24.2026",
-        "created_at": "Sun Aug 23 15:01:53 +0000 2026",
-        "url": "https://x.com/solana/status/2091541440853598648"
-      },
-      {
-        "handle": "solana",
-        "text": "Tomorrow, millions more people can own a working agent, and put it to work where the internet trades. https://t.co/ZghJToMGtF",
-        "created_at": "Sun Aug 23 14:00:53 +0000 2026",
-        "url": "https://x.com/solana/status/2091526091160862870"
       },
       {
         "handle": "solana",

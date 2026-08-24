@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-24 05:34:56 UTC by SolVitals.
+Generated 2026-08-24 06:07:30 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,561.19 |
-| Total TPS (incl. votes) | 3,418.61 |
-| Vote share of transactions | 54.33% |
-| Average slot time | 0.3667 s |
-| Current slot | 441,326,201 |
-| Block height | 419,375,201 |
+| Non-vote TPS | 1,624.26 |
+| Total TPS (incl. votes) | 3,489.54 |
+| Vote share of transactions | 53.45% |
+| Average slot time | 0.3659 s |
+| Current slot | 441,331,567 |
+| Block height | 419,380,566 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1021** — 58.84% complete (`############........`), ~18.0 hours remaining.
+Epoch **1021** — 60.09% complete (`############........`), ~17.4 hours remaining.
 
-Slot 254,202 of 432,000. Lifetime transaction count: 541,251,610,967.
+Slot 259,568 of 432,000. Lifetime transaction count: 541,258,198,861.
 
 ## Transaction costs and slot timing
 
@@ -34,23 +34,23 @@ Slot 254,202 of 432,000. Lifetime transaction count: 541,251,610,967.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.365 s |
-| Deviation from 0.4s target | -8.75% |
+| Measured slot time (`getBlockTime`) | 0.3642 s |
+| Deviation from 0.4s target | -8.95% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 7 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 685 |
-| Delinquent validators | 10 (1.44%) |
-| Stake held by delinquents | 155,697 SOL (0.036%) |
-| Total active stake | 433,280,616 SOL |
+| Active validators | 686 |
+| Delinquent validators | 9 (1.29%) |
+| Stake held by delinquents | 73,942 SOL (0.017%) |
+| Total active stake | 433,362,371 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 255 |
@@ -61,23 +61,23 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,984,006 | 3.92% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,984,006 | 3.919% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,032,941 | 3.7% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,211,671 | 2.818% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,728,738 | 2.707% | 5% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,728,738 | 2.706% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,165,202 | 2.115% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,876,408 | 2.049% | 10% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,876,408 | 2.048% | 10% |
 | 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,480,578 | 1.957% | 0% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,930,731 | 1.83% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,359,446 | 1.699% | 5% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,359,446 | 1.698% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,568,551 | 1.516% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $93.75 (up 0.91%) |
-| Market cap | $54.69B |
+| SOL price | $93.97 (up 1.93%) |
+| Market cap | $54.81B |
 | DeFi TVL | $5.53B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.12B (down 16.41%) |
@@ -87,18 +87,18 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$876.97K** |
+| **REV (total)** | **$865.70K** |
 | Network fees | $696.89K |
-| MEV tips (out-of-protocol) | $180.08K (20.53% of REV) |
-| Annualised REV run-rate | $320.10M |
+| MEV tips (out-of-protocol) | $168.80K (19.5% of REV) |
+| Annualised REV run-rate | $315.98M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $157.23K |
+| Jito MEV Tips | $147.61K |
 | Harmonic | $13.38K |
-| bloXroute | $9.47K |
+| bloXroute | $7.82K |
 | Pyth Express Relay | $2 |
 
 ### Application fees (distinct from REV)
@@ -108,8 +108,8 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 | Window | Application fees |
 | --- | --- |
 | 24 hours | $12.45M (up 3.57%) |
-| 7 days | $81.99M |
-| 30 days | $276.22M |
+| 7 days | $82.00M |
+| 30 days | $276.23M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -154,11 +154,11 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,362 |
+| Unique fee payers (sampled) | 1,307 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,629 |
-| Non-vote share of sample | 41.47% |
-| Signers per block | 454.0 |
+| Transactions in sample | 3,341 |
+| Non-vote share of sample | 38.85% |
+| Signers per block | 435.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,276,391 SOL of 632,749,501 total (92.18%).
+Circulating 583,276,374 SOL of 632,749,483 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

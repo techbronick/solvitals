@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-24 08:09:16 UTC by SolVitals.
+Generated 2026-08-24 09:01:20 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,547.93 |
-| Total TPS (incl. votes) | 3,415.88 |
-| Vote share of transactions | 54.68% |
-| Average slot time | 0.3645 s |
-| Current slot | 441,351,564 |
-| Block height | 419,400,559 |
+| Non-vote TPS | 1,242.54 |
+| Total TPS (incl. votes) | 3,111.55 |
+| Vote share of transactions | 60.07% |
+| Average slot time | 0.3650 s |
+| Current slot | 441,360,141 |
+| Block height | 419,409,131 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1021** — 64.71% complete (`#############.......`), ~15.5 hours remaining.
+Epoch **1021** — 66.7% complete (`#############.......`), ~14.6 hours remaining.
 
-Slot 279,565 of 432,000. Lifetime transaction count: 541,283,110,126.
+Slot 288,143 of 432,000. Lifetime transaction count: 541,293,446,878.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 279,565 of 432,000. Lifetime transaction count: 541,283,110,126.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.367 s |
-| Deviation from 0.4s target | -8.25% |
+| Measured slot time (`getBlockTime`) | 0.365 s |
+| Deviation from 0.4s target | -8.75% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 1 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1928 SOL, 10 recent signatures, 0 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 685 |
-| Delinquent validators | 10 (1.44%) |
-| Stake held by delinquents | 445,172 SOL (0.103%) |
-| Total active stake | 432,991,141 SOL |
+| Active validators | 686 |
+| Delinquent validators | 9 (1.29%) |
+| Stake held by delinquents | 73,942 SOL (0.017%) |
+| Total active stake | 433,362,371 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 254 |
+| Zero-commission validators | 255 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,27 +61,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,984,006 | 3.922% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,032,941 | 3.703% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,211,671 | 2.82% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,728,738 | 2.709% | 5% |
-| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,165,202 | 2.117% | 7% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,876,408 | 2.05% | 10% |
-| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,480,578 | 1.959% | 0% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,930,731 | 1.832% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,359,446 | 1.7% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,568,551 | 1.517% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,984,006 | 3.919% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,032,941 | 3.7% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,211,671 | 2.818% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,728,738 | 2.706% | 5% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,165,202 | 2.115% | 7% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 8,876,408 | 2.048% | 10% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 8,480,578 | 1.957% | 0% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,930,731 | 1.83% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,359,446 | 1.698% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,568,551 | 1.516% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $94.24 (up 1.77%) |
-| Market cap | $54.96B |
-| DeFi TVL | $5.54B |
+| SOL price | $93.92 (up 0.84%) |
+| Market cap | $54.77B |
+| DeFi TVL | $5.55B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $3.12B (down 16.41%) |
-| Stablecoin supply | $15.96B |
+| Stablecoin supply | $15.94B |
 
 ### Real Economic Value (REV)
 
@@ -124,41 +124,41 @@ Fees earned by the 299 applications built on Solana -- DEXes, launchpads, wallet
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $1.95B |
-| Tokenized equities | $445.67M (22.83% of RWA) |
+| Tokenized equities | $442.66M (22.72% of RWA) |
 | RWA protocols on Solana | 26 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $420.81M | 0.696% |
-| Ondo Global Markets | $24.64M | 0.176% |
-| Remora Markets | $217.60K | 0.003% |
+| xStocks | $418.10M | 0.26% |
+| Ondo Global Markets | $24.34M | -0.273% |
+| Remora Markets | $217.64K | 0.01% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $777.14M | RWA |
-| xStocks | $420.81M | RWA |
-| OnRe | $275.06M | RWA |
-| Ondo Yield Assets | $179.08M | RWA |
-| Hastra | $168.54M | RWA |
-| Theo Network thBill | $26.38M | RWA |
-| Ondo Global Markets | $24.64M | RWA |
+| xStocks | $418.10M | RWA |
+| OnRe | $275.37M | RWA |
+| Ondo Yield Assets | $178.26M | RWA |
+| Hastra | $168.07M | RWA |
+| Theo Network thBill | $26.39M | RWA |
+| Ondo Global Markets | $24.34M | RWA |
 | Nest Credit | $22.50M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.32M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.35M | RWA |
 | VanEck Treasury Fund | $13.93M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,700 |
+| Unique fee payers (sampled) | 1,261 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,849 |
-| Non-vote share of sample | 47.21% |
-| Signers per block | 566.7 |
+| Transactions in sample | 3,290 |
+| Non-vote share of sample | 39.36% |
+| Signers per block | 420.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,276,308 SOL of 632,749,417 total (92.18%).
+Circulating 583,276,280 SOL of 632,749,390 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

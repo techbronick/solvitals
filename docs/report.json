@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-25 17:43:02",
+  "captured_at": "2026-08-25 18:03:04",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4560.12,
-      "tps_non_vote": 2698.73,
-      "vote_share_pct": 40.82,
+      "tps_total": 4516.62,
+      "tps_non_vote": 2657.56,
+      "vote_share_pct": 41.16,
       "avg_slot_time_secs": 0.3663,
-      "latest_sample_slot": 441681792,
+      "latest_sample_slot": 441685234,
       "samples_used": 5,
-      "block_height": 419730611,
-      "current_slot": 441681917
+      "block_height": 419733880,
+      "current_slot": 441685203
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 177917,
+      "slot_index": 181203,
       "slots_in_epoch": 432000,
-      "progress_pct": 41.18,
-      "eta_hours": 25.8,
+      "progress_pct": 41.95,
+      "eta_hours": 25.5,
       "eta_basis_slot_secs": 0.366,
-      "transaction_count": 541765581844
+      "transaction_count": 541771026182
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632859691.58,
-      "circulating_sol": 583375830.56,
+      "total_sol": 632859677.25,
+      "circulating_sol": 583375816.23,
       "non_circulating_sol": 49483861.02,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "5qGhZHY7GYHwwEK5PhD3ka4J7yeyQayxpDiP8WfLBhqKkLYuxxfVPpQcJiZq3yL86kRuh8jprasP6UDmSKBKpiVz",
-      "latest_block_time": 1787679778,
-      "errors_in_recent": 2
+      "latest_signature": "4vRBQTKDYQTRHwKDg7KXYquH5MAw3e4dLWpcBVJHB3kPKGnUSP75q8p41YabtfSJRcM6oKYLGGpBFYNs9sHJ8HmZ",
+      "latest_block_time": 1787680981,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1725,
+      "unique_signers_sampled": 1454,
       "blocks_sampled": 3,
-      "transactions_sampled": 4564,
-      "non_vote_transactions_sampled": 2531,
-      "signers_per_block": 575.0,
-      "non_vote_share_pct": 55.46,
+      "transactions_sampled": 4334,
+      "non_vote_transactions_sampled": 2311,
+      "signers_per_block": 484.7,
+      "non_vote_share_pct": 53.32,
       "sampled_slots": [
-        441681739,
-        441680239,
-        441678739
+        441685026,
+        441683526,
+        441682026
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 97.91,
-      "change_24h_pct": 2.81,
-      "market_cap_usd": 57118245050.961494,
-      "volume_24h_usd": 6570849920.174489,
+      "usd": 98.18,
+      "change_24h_pct": 2.79,
+      "market_cap_usd": 57273206512.77748,
+      "volume_24h_usd": 6453127121.429076,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5648938557.51,
+      "tvl_usd": 5634312505.74,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.4,
+      "share_of_all_chains_pct": 6.38,
       "source": "defillama"
     },
     "dex_volume": {
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1162911,
+      "rev_24h_usd": 1162740,
       "network_fees_24h_usd": 928726,
-      "mev_tips_24h_usd": 234185,
-      "mev_share_of_rev_pct": 20.14,
-      "rev_annualised_usd": 424462515,
+      "mev_tips_24h_usd": 234014,
+      "mev_share_of_rev_pct": 20.13,
+      "rev_annualised_usd": 424400100,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 204294
+          "tips_24h_usd": 204123
         },
         {
           "name": "Harmonic",
@@ -2369,13 +2369,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "rwa_total_usd",
-      "severity": "warning",
-      "message": "rwa_total_usd is 2.0 sigma above its 288-point mean",
-      "value": 2008033757.38,
-      "expected": 1934619692.6503
-    }
-  ]
+  "anomalies": []
 }

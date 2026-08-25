@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-25 18:54:46",
+  "captured_at": "2026-08-25 19:21:32",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3652,
+      "measured_slot_time_secs": 0.3648,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.7,
+      "deviation_from_target_pct": -8.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4554.07,
-      "tps_non_vote": 2685.67,
-      "vote_share_pct": 41.03,
-      "avg_slot_time_secs": 0.3645,
-      "latest_sample_slot": 441693604,
+      "tps_total": 3935.27,
+      "tps_non_vote": 2065.26,
+      "vote_share_pct": 47.52,
+      "avg_slot_time_secs": 0.365,
+      "latest_sample_slot": 441698065,
       "samples_used": 5,
-      "block_height": 419742353,
-      "current_slot": 441693683
+      "block_height": 419746765,
+      "current_slot": 441698095
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 189683,
+      "slot_index": 194096,
       "slots_in_epoch": 432000,
-      "progress_pct": 43.91,
-      "eta_hours": 24.6,
-      "eta_basis_slot_secs": 0.3652,
-      "transaction_count": 541784666213
+      "progress_pct": 44.93,
+      "eta_hours": 24.1,
+      "eta_basis_slot_secs": 0.3648,
+      "transaction_count": 541791192717
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632859641.18,
-      "circulating_sol": 583375780.16,
+      "total_sol": 632859623.77,
+      "circulating_sol": 583375762.75,
       "non_circulating_sol": 49483861.02,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "4iZKN3D3HmRpSZYk2wrG2QApnstMhKooPrFQr69CTYML8QRkwtKvZED7CjMRaiLL7xExQSq8SFuPrHrXtyivbEGJ",
-      "latest_block_time": 1787684083,
-      "errors_in_recent": 1
+      "latest_signature": "4CmKyw3h8QNMwSo8FZt6saENo6qDr6HJSonTcwVPhnV4rK5uQ8nZEPGu6vzUBspNbTDXS688ZN4tZP5VM5yvgnZJ",
+      "latest_block_time": 1787685692,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1488,
+      "unique_signers_sampled": 1786,
       "blocks_sampled": 3,
-      "transactions_sampled": 5526,
-      "non_vote_transactions_sampled": 3501,
-      "signers_per_block": 496.0,
-      "non_vote_share_pct": 63.36,
+      "transactions_sampled": 4554,
+      "non_vote_transactions_sampled": 2402,
+      "signers_per_block": 595.3,
+      "non_vote_share_pct": 52.74,
       "sampled_slots": [
-        441693508,
-        441692008,
-        441690508
+        441697924,
+        441696424,
+        441694924
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 98.58,
-      "change_24h_pct": 2.89,
-      "market_cap_usd": 57511327458.809456,
-      "volume_24h_usd": 6428273344.021723,
+      "usd": 98.5,
+      "change_24h_pct": 3.07,
+      "market_cap_usd": 57462768495.096016,
+      "volume_24h_usd": 6245274251.276268,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5634312450.77,
+      "tvl_usd": 5636168475.13,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.38,
       "source": "defillama"
@@ -189,17 +189,17 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15854510148.97,
+      "total_usd": 15890820025.79,
       "by_peg": {
-        "peggedUSD": 15787853264.82,
-        "peggedEUR": 61776482.01,
-        "peggedJPY": 52.71,
-        "peggedCHF": 1337270.44,
-        "peggedAUD": 74295.87,
-        "peggedVAR": 2467654.25,
-        "peggedGBP": 831940.28,
+        "peggedUSD": 15821546021.03,
+        "peggedEUR": 64402880.78,
+        "peggedJPY": 52.72,
+        "peggedCHF": 1337221.38,
+        "peggedAUD": 74406.62,
+        "peggedVAR": 2458296.16,
+        "peggedGBP": 831958.41,
         "peggedTRY": 167724.15,
-        "peggedCAD": 1463.73,
+        "peggedCAD": 1463.84,
         "peggedKRW": 0.7
       },
       "source": "defillama"
@@ -2312,27 +2312,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "fixed-term, fixed-rate credit on Solana",
-        "created_at": "Tue Aug 25 16:49:01 +0000 2026",
-        "url": "https://x.com/solana/status/2092293180712526214"
+        "text": "See you tomorrow @SuperteamBLKN Solana Summit Serbia \ud83c\uddf7\ud83c\uddf8",
+        "created_at": "Tue Aug 25 18:33:08 +0000 2026",
+        "url": "https://x.com/solana/status/2092319381540000207"
       },
       {
         "handle": "solana",
-        "text": "The next generation of finance runs on @solana.",
-        "created_at": "Tue Aug 25 16:41:20 +0000 2026",
-        "url": "https://x.com/solana/status/2092291244302991595"
+        "text": "The king is in town. Earn 3.5-5% on top of your BTC holdings. Introducing BTC*, a token giving you market exposure while compounding. Powered by Kestrel, managed by Perena. https://t.co/PO7gMxmqq3",
+        "created_at": "Tue Aug 25 18:16:53 +0000 2026",
+        "url": "https://x.com/solana/status/2092315290323333197"
       },
       {
         "handle": "solana",
-        "text": "Solana is becoming a global venue for new markets Building durable liquidity for those markets requires professional market makers and the infrastructure to bring their strategies onchain Polaris provides that path",
-        "created_at": "Tue Aug 25 15:53:57 +0000 2026",
-        "url": "https://x.com/solana/status/2092279320840728861"
+        "text": "Belgrade, are you ready? \ud83c\uddf7\ud83c\uddf8 24hrs. https://t.co/HWWm3z4vf2",
+        "created_at": "Tue Aug 25 18:00:31 +0000 2026",
+        "url": "https://x.com/solana/status/2092311172670484830"
       },
       {
         "handle": "solana",
-        "text": "Introducing Kamino Fixed Rates The definitive architecture for fixed-term, fixed-rate credit on-chain. Now live in private beta. Public launch in Q3 2026 Read the light paper: https://t.co/PqbShuLGS5 https://t.co/C7xQ6b2zkP",
-        "created_at": "Tue Aug 25 13:51:55 +0000 2026",
-        "url": "https://x.com/solana/status/2092248611111227745"
+        "text": "Solana has flipped Base in daily x402 transactions This is what AI on Solana looks like and we're just getting started https://t.co/UZSaBJ2eux",
+        "created_at": "Tue Aug 25 17:07:54 +0000 2026",
+        "url": "https://x.com/solana/status/2092297930321301772"
       },
       {
         "handle": "solanalabs",

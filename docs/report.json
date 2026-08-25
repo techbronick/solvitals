@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-25 03:56:26",
+  "captured_at": "2026-08-25 04:30:43",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3666,
+      "measured_slot_time_secs": 0.3648,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.35,
+      "deviation_from_target_pct": -8.8,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3953.98,
-      "tps_non_vote": 2097.53,
-      "vote_share_pct": 46.95,
-      "avg_slot_time_secs": 0.3676,
-      "latest_sample_slot": 441546250,
+      "tps_total": 3409.36,
+      "tps_non_vote": 1556.27,
+      "vote_share_pct": 54.35,
+      "avg_slot_time_secs": 0.3663,
+      "latest_sample_slot": 441551919,
       "samples_used": 5,
-      "block_height": 419595094,
-      "current_slot": 441546284
+      "block_height": 419600719,
+      "current_slot": 441551913
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 42285,
+      "slot_index": 47913,
       "slots_in_epoch": 432000,
-      "progress_pct": 9.79,
-      "eta_hours": 39.7,
-      "eta_basis_slot_secs": 0.3666,
-      "transaction_count": 541576246644
+      "progress_pct": 11.09,
+      "eta_hours": 38.9,
+      "eta_basis_slot_secs": 0.3648,
+      "transaction_count": 541583965027
     },
     "validators": {
       "active_count": 686,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 632860191.33,
-      "circulating_sol": 583376331.05,
-      "non_circulating_sol": 49483860.28,
+      "total_sol": 632860171.01,
+      "circulating_sol": 583376310.7,
+      "non_circulating_sol": 49483860.31,
       "circulating_pct": 92.18
     },
     "transaction_fees": {
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "GQfK2BTkAXx7i21GmFWE2rdwbjRgw584Wq5izxL8mms1owYU35BLY59oiD8PsJnEjcWcvhm99wPrgePzBjy3qYo",
-      "latest_block_time": 1787630187,
-      "errors_in_recent": 1
+      "latest_signature": "4GiT9XcSMCjTxxBNbGXDcza7sSfoWVQ63J5uDZAyQCsuPnKc1unSLFL8vWvwr1tFTpQciqqtR3qaooQisTjT8EHS",
+      "latest_block_time": 1787632239,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1533,
+      "unique_signers_sampled": 1614,
       "blocks_sampled": 3,
-      "transactions_sampled": 4478,
-      "non_vote_transactions_sampled": 2375,
-      "signers_per_block": 511.0,
-      "non_vote_share_pct": 53.04,
+      "transactions_sampled": 4141,
+      "non_vote_transactions_sampled": 2100,
+      "signers_per_block": 538.0,
+      "non_vote_share_pct": 50.71,
       "sampled_slots": [
-        441546114,
-        441544614,
-        441543114
+        441551734,
+        441550234,
+        441548734
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 101.58,
-      "change_24h_pct": 8.22,
-      "market_cap_usd": 59261638809.826225,
-      "volume_24h_usd": 7170952593.253433,
+      "usd": 101.48,
+      "change_24h_pct": 7.63,
+      "market_cap_usd": 59198130677.99681,
+      "volume_24h_usd": 7100515703.400859,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5772193989.05,
+      "tvl_usd": 5786596646.98,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.51,
+      "share_of_all_chains_pct": 6.49,
       "source": "defillama"
     },
     "dex_volume": {
@@ -189,27 +189,27 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15919543189.58,
+      "total_usd": 15932653683.49,
       "by_peg": {
-        "peggedUSD": 15852923561.78,
-        "peggedEUR": 61745686.2,
-        "peggedJPY": 52.01,
-        "peggedCHF": 1335850.7,
-        "peggedAUD": 74192.4,
-        "peggedVAR": 2459792.5,
-        "peggedGBP": 834867.14,
+        "peggedUSD": 15867624771.91,
+        "peggedEUR": 60158124.12,
+        "peggedJPY": 52.09,
+        "peggedCHF": 1333540.88,
+        "peggedAUD": 74025.66,
+        "peggedVAR": 2459068.16,
+        "peggedGBP": 834913.94,
         "peggedTRY": 167724.15,
-        "peggedCAD": 1462.0,
+        "peggedCAD": 1461.89,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 889139,
+      "rev_24h_usd": 894536,
       "network_fees_24h_usd": 696891,
-      "mev_tips_24h_usd": 192248,
-      "mev_share_of_rev_pct": 21.62,
-      "rev_annualised_usd": 324535735,
+      "mev_tips_24h_usd": 197645,
+      "mev_share_of_rev_pct": 22.09,
+      "rev_annualised_usd": 326505640,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
@@ -217,7 +217,7 @@
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 13379
+          "tips_24h_usd": 18776
         },
         {
           "name": "bloXroute",
@@ -228,10 +228,10 @@
           "tips_24h_usd": 13
         }
       ],
-      "app_fees_24h_usd": 13110041.86,
-      "app_fees_7d_usd": 76415455.26,
-      "app_fees_30d_usd": 274591655.1599997,
-      "app_fees_change_24h_pct": 3.6,
+      "app_fees_24h_usd": 12796846.12,
+      "app_fees_7d_usd": 77809674.52,
+      "app_fees_30d_usd": 275985874.4199997,
+      "app_fees_change_24h_pct": 1.13,
       "protocol_count": 301,
       "top_fee_earning_apps": [
         {
@@ -251,8 +251,8 @@
           "fees_24h_usd": 696891
         },
         {
-          "name": "Jupiter Perpetual Exchange",
-          "fees_24h_usd": 651761
+          "name": "fomo Wallet",
+          "fees_24h_usd": 605368
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2298,28 +2298,28 @@
   "social": {
     "posts": [
       {
+        "handle": "solana",
+        "text": "believe in something \ud83d\udc27 https://t.co/gO3WZZTgr1",
+        "created_at": "Tue Aug 25 02:41:44 +0000 2026",
+        "url": "https://x.com/solana/status/2092079954003656751"
+      },
+      {
+        "handle": "solana",
+        "text": "solana looks good.",
+        "created_at": "Tue Aug 25 00:59:47 +0000 2026",
+        "url": "https://x.com/solana/status/2092054295642357789"
+      },
+      {
+        "handle": "solana",
+        "text": "solana looks good.",
+        "created_at": "Tue Aug 25 00:43:29 +0000 2026",
+        "url": "https://x.com/solana/status/2092050192879018468"
+      },
+      {
         "handle": "solanalabs",
         "text": "Distribution is the hard part. Seeker helps founders find their first users, putting Solana apps in front of a crypto-native audience ready to battle-test them. Here's what shipping to the @Solana dApp Store looks like \ud83e\uddf5 https://t.co/6iiIn\u2026",
         "created_at": "Mon Aug 24 20:42:39 +0000 2026",
         "url": "https://x.com/solanalabs/status/2091989588487332262"
-      },
-      {
-        "handle": "solana",
-        "text": "all in",
-        "created_at": "Mon Aug 24 19:44:37 +0000 2026",
-        "url": "https://x.com/solana/status/2091974980473074133"
-      },
-      {
-        "handle": "solana",
-        "text": "all in https://t.co/i7m5tqjedL",
-        "created_at": "Mon Aug 24 19:44:13 +0000 2026",
-        "url": "https://x.com/solana/status/2091974882552881347"
-      },
-      {
-        "handle": "solana",
-        "text": "V1 Transactions are coming to @solana and they are really cool! They will go live in a couple of weeks. Max transaction size goes from 1,232 \u2192 4,096 bytes. Compute budgeting moves out of instructions and into the transaction itself. There \u2026",
-        "created_at": "Mon Aug 24 14:59:40 +0000 2026",
-        "url": "https://x.com/solana/status/2091903273632731271"
       },
       {
         "handle": "solana",
@@ -2362,7 +2362,7 @@
       "severity": "warning",
       "message": "rwa_total_usd is 2.4 sigma above its 288-point mean",
       "value": 2006125671.47,
-      "expected": 1925126187.9815
+      "expected": 1925571193.7831
     }
   ]
 }

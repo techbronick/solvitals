@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-25 14:11:06",
+  "captured_at": "2026-08-25 15:01:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3682,
+      "measured_slot_time_secs": 0.3654,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -7.95,
+      "deviation_from_target_pct": -8.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4442.78,
-      "tps_non_vote": 2589.97,
-      "vote_share_pct": 41.7,
-      "avg_slot_time_secs": 0.3667,
-      "latest_sample_slot": 441647173,
+      "tps_total": 4626.03,
+      "tps_non_vote": 2755.98,
+      "vote_share_pct": 40.42,
+      "avg_slot_time_secs": 0.365,
+      "latest_sample_slot": 441655462,
       "samples_used": 5,
-      "block_height": 419695961,
-      "current_slot": 441647221
+      "block_height": 419704278,
+      "current_slot": 441655546
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 143221,
+      "slot_index": 151547,
       "slots_in_epoch": 432000,
-      "progress_pct": 33.15,
-      "eta_hours": 29.5,
-      "eta_basis_slot_secs": 0.3682,
-      "transaction_count": 541708123007
+      "progress_pct": 35.08,
+      "eta_hours": 28.5,
+      "eta_basis_slot_secs": 0.3654,
+      "transaction_count": 541721781418
     },
     "validators": {
       "active_count": 686,
       "delinquent_count": 9,
       "delinquent_pct": 1.29,
-      "delinquent_stake_sol": 166366.39,
-      "delinquent_stake_pct": 0.038,
-      "total_active_stake_sol": 434951737.39,
+      "delinquent_stake_sol": 191162.91,
+      "delinquent_stake_pct": 0.044,
+      "total_active_stake_sol": 434926940.87,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 257,
+      "zero_commission_count": 256,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632859842.78,
-      "circulating_sol": 583375982.47,
+      "total_sol": 632859806.84,
+      "circulating_sol": 583375946.53,
       "non_circulating_sol": 49483860.31,
       "circulating_pct": 92.18
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "52riHvro6wUwBrA3969B6Ju4MbZ2bWeepR7qPnmExquqva4QKvHLUSeetPEyCiDPJAKhAT9kZGp7Tm867Dad9WbY",
-      "latest_block_time": 1787667061,
-      "errors_in_recent": 10
+      "latest_signature": "26b4PwKacteYZGo9XaLgs8KK5bBsGnCRMUjvrTKpEq1fJZTuSbuYV6ypVYvfUM9MbiU1SgFviUty4MC7bPWgsHyv",
+      "latest_block_time": 1787670111,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1518,
+      "unique_signers_sampled": 1549,
       "blocks_sampled": 3,
-      "transactions_sampled": 5189,
-      "non_vote_transactions_sampled": 3148,
-      "signers_per_block": 506.0,
-      "non_vote_share_pct": 60.67,
+      "transactions_sampled": 4260,
+      "non_vote_transactions_sampled": 2213,
+      "signers_per_block": 516.3,
+      "non_vote_share_pct": 51.95,
       "sampled_slots": [
-        441647041,
-        441645541,
-        441644041
+        441655373,
+        441653873,
+        441652373
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 97.64,
-      "change_24h_pct": 2.48,
-      "market_cap_usd": 56918988365.28117,
-      "volume_24h_usd": 7123013419.077742,
+      "usd": 98.14,
+      "change_24h_pct": 2.19,
+      "market_cap_usd": 57242192453.64856,
+      "volume_24h_usd": 7099772040.267513,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5693418983.33,
+      "tvl_usd": 5665573546.07,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.42,
+      "share_of_all_chains_pct": 6.44,
       "source": "defillama"
     },
     "dex_volume": {
@@ -182,22 +182,22 @@
           "volume_24h_usd": 278047091
         },
         {
-          "name": "Manifest Trade",
-          "volume_24h_usd": 219659005
+          "name": "Scorch",
+          "volume_24h_usd": 218917685
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15970010031.28,
+      "total_usd": 15979328904.71,
       "by_peg": {
-        "peggedUSD": 15905578533.51,
-        "peggedEUR": 59555040.29,
+        "peggedUSD": 15914848069.43,
+        "peggedEUR": 59589912.12,
         "peggedJPY": 52.66,
-        "peggedCHF": 1328923.93,
-        "peggedAUD": 74206.93,
-        "peggedVAR": 2469285.99,
-        "peggedGBP": 834801.17,
+        "peggedCHF": 1333892.75,
+        "peggedAUD": 74345.55,
+        "peggedVAR": 2478571.84,
+        "peggedGBP": 834873.56,
         "peggedTRY": 167724.15,
         "peggedCAD": 1461.96,
         "peggedKRW": 0.7
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1162366,
+      "rev_24h_usd": 1161644,
       "network_fees_24h_usd": 928726,
-      "mev_tips_24h_usd": 233640,
-      "mev_share_of_rev_pct": 20.1,
-      "rev_annualised_usd": 424263590,
+      "mev_tips_24h_usd": 232918,
+      "mev_share_of_rev_pct": 20.05,
+      "rev_annualised_usd": 424000060,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 203749
+          "tips_24h_usd": 203027
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Shipping code takes a day. Shipping a physical product hasn't changed since the 90s. @NomuStores is fixing that. https://t.co/jDHvnW7ggR",
-        "created_at": "Tue Aug 25 07:04:18 +0000 2026",
-        "url": "https://x.com/solana/status/2092146031677132939"
+        "text": "\ud83d\udfe2\ud83d\udd6f\ufe0f\ud83c\udfc6",
+        "created_at": "Tue Aug 25 14:08:30 +0000 2026",
+        "url": "https://x.com/solana/status/2092252783605117085"
       },
       {
         "handle": "solana",
-        "text": "https://t.co/cQLfzsqRww",
-        "created_at": "Tue Aug 25 06:20:16 +0000 2026",
-        "url": "https://x.com/solana/status/2092134947805163900"
+        "text": "\ud83d\udfe2 \ud83d\udd6f\ufe0f \ud83c\udfc6 https://t.co/ptFriqVcTe",
+        "created_at": "Tue Aug 25 14:00:02 +0000 2026",
+        "url": "https://x.com/solana/status/2092250654471299458"
       },
       {
         "handle": "solana",
-        "text": "ORE tokens only come into existence through mining.",
-        "created_at": "Tue Aug 25 05:20:00 +0000 2026",
-        "url": "https://x.com/solana/status/2092119781340332215"
+        "text": "hitting a 100x is the new no scope 360 headshot",
+        "created_at": "Tue Aug 25 13:53:19 +0000 2026",
+        "url": "https://x.com/solana/status/2092248961243627779"
       },
       {
         "handle": "solana",
-        "text": "believe in something \ud83d\udc27 https://t.co/gO3WZZTgr1",
-        "created_at": "Tue Aug 25 02:41:44 +0000 2026",
-        "url": "https://x.com/solana/status/2092079954003656751"
+        "text": "I would have never expected this to blow up. Trickshot was simply made to showcase trades in an engaging way for clips. But ultimately, it conveys the journey of a trade. It captures emotions, strategies, wins before losses, and roundtrips\u2026",
+        "created_at": "Tue Aug 25 13:35:27 +0000 2026",
+        "url": "https://x.com/solana/status/2092244467625374074"
       },
       {
         "handle": "solanalabs",
@@ -2360,7 +2360,7 @@
       "severity": "warning",
       "message": "rwa_total_usd is 2.1 sigma above its 288-point mean",
       "value": 2009048871.38,
-      "expected": 1932338951.5319
+      "expected": 1932796509.6361
     }
   ]
 }

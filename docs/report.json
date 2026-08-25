@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-25 16:26:52",
+  "captured_at": "2026-08-25 17:04:16",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3676,
+      "measured_slot_time_secs": 0.3656,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.1,
+      "deviation_from_target_pct": -8.6,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4656.97,
-      "tps_non_vote": 2793.26,
-      "vote_share_pct": 40.02,
-      "avg_slot_time_secs": 0.3659,
-      "latest_sample_slot": 441669433,
+      "tps_total": 4791.37,
+      "tps_non_vote": 2947.98,
+      "vote_share_pct": 38.47,
+      "avg_slot_time_secs": 0.3686,
+      "latest_sample_slot": 441675537,
       "samples_used": 5,
-      "block_height": 419718178,
-      "current_slot": 441669453
+      "block_height": 419724281,
+      "current_slot": 441675576
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 165455,
+      "slot_index": 171576,
       "slots_in_epoch": 432000,
-      "progress_pct": 38.3,
-      "eta_hours": 27.2,
-      "eta_basis_slot_secs": 0.3676,
-      "transaction_count": 541744967434
+      "progress_pct": 39.72,
+      "eta_hours": 26.4,
+      "eta_basis_slot_secs": 0.3656,
+      "transaction_count": 541754875137
     },
     "validators": {
       "active_count": 686,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632859745.85,
-      "circulating_sol": 583375884.85,
+      "total_sol": 632859719.79,
+      "circulating_sol": 583375858.79,
       "non_circulating_sol": 49483861.0,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "WDqkf8oGvzPcMYNaa4pNLpL4U4rW7j5uETCJ7SJYssfzojd48NiGv89hbDAUWukT7SjJCsfN9CbJUvGXgDYpE8T",
-      "latest_block_time": 1787675217,
-      "errors_in_recent": 7
+      "latest_signature": "5SVtHx4PNZtyju22vsf6Pej8hNgJ8kxR8EDCxv4t6hxBw1QAPgpKH7gkAcdUTFJB9f3F5v7wKooC6qcbt8qsJQHj",
+      "latest_block_time": 1787677452,
+      "errors_in_recent": 3
     },
     "activity": {
-      "unique_signers_sampled": 1525,
+      "unique_signers_sampled": 1722,
       "blocks_sampled": 3,
-      "transactions_sampled": 4654,
-      "non_vote_transactions_sampled": 2624,
-      "signers_per_block": 508.3,
-      "non_vote_share_pct": 56.38,
+      "transactions_sampled": 4833,
+      "non_vote_transactions_sampled": 2862,
+      "signers_per_block": 574.0,
+      "non_vote_share_pct": 59.22,
       "sampled_slots": [
-        441669290,
-        441667790,
-        441666290
+        441675397,
+        441673897,
+        441672397
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 97.94,
-      "change_24h_pct": 0.86,
-      "market_cap_usd": 57153769127.829575,
-      "volume_24h_usd": 6799499371.146231,
+      "usd": 98.14,
+      "change_24h_pct": 2.8,
+      "market_cap_usd": 57252132431.372406,
+      "volume_24h_usd": 6690685366.493929,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5648013804.18,
+      "tvl_usd": 5648921910.93,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.4,
       "source": "defillama"
@@ -205,15 +205,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1160837,
+      "rev_24h_usd": 1162911,
       "network_fees_24h_usd": 928726,
-      "mev_tips_24h_usd": 232111,
-      "mev_share_of_rev_pct": 20.0,
-      "rev_annualised_usd": 423705505,
+      "mev_tips_24h_usd": 234185,
+      "mev_share_of_rev_pct": 20.14,
+      "rev_annualised_usd": 424462515,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 202220
+          "tips_24h_usd": 204294
         },
         {
           "name": "Harmonic",
@@ -2312,27 +2312,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "\ud83d\udfe2\ud83d\udd6f\ufe0f\ud83c\udfc6",
-        "created_at": "Tue Aug 25 14:08:30 +0000 2026",
-        "url": "https://x.com/solana/status/2092252783605117085"
+        "text": "fixed-term, fixed-rate credit on Solana",
+        "created_at": "Tue Aug 25 16:49:01 +0000 2026",
+        "url": "https://x.com/solana/status/2092293180712526214"
       },
       {
         "handle": "solana",
-        "text": "\ud83d\udfe2 \ud83d\udd6f\ufe0f \ud83c\udfc6 https://t.co/ptFriqVcTe",
-        "created_at": "Tue Aug 25 14:00:02 +0000 2026",
-        "url": "https://x.com/solana/status/2092250654471299458"
+        "text": "The next generation of finance runs on @solana.",
+        "created_at": "Tue Aug 25 16:41:20 +0000 2026",
+        "url": "https://x.com/solana/status/2092291244302991595"
       },
       {
         "handle": "solana",
-        "text": "hitting a 100x is the new no scope 360 headshot",
-        "created_at": "Tue Aug 25 13:53:19 +0000 2026",
-        "url": "https://x.com/solana/status/2092248961243627779"
+        "text": "Solana is becoming a global venue for new markets Building durable liquidity for those markets requires professional market makers and the infrastructure to bring their strategies onchain Polaris provides that path",
+        "created_at": "Tue Aug 25 15:53:57 +0000 2026",
+        "url": "https://x.com/solana/status/2092279320840728861"
       },
       {
         "handle": "solana",
-        "text": "I would have never expected this to blow up. Trickshot was simply made to showcase trades in an engaging way for clips. But ultimately, it conveys the journey of a trade. It captures emotions, strategies, wins before losses, and roundtrips\u2026",
-        "created_at": "Tue Aug 25 13:35:27 +0000 2026",
-        "url": "https://x.com/solana/status/2092244467625374074"
+        "text": "Introducing Kamino Fixed Rates The definitive architecture for fixed-term, fixed-rate credit on-chain. Now live in private beta. Public launch in Q3 2026 Read the light paper: https://t.co/PqbShuLGS5 https://t.co/C7xQ6b2zkP",
+        "created_at": "Tue Aug 25 13:51:55 +0000 2026",
+        "url": "https://x.com/solana/status/2092248611111227745"
       },
       {
         "handle": "solanalabs",
@@ -2375,7 +2375,7 @@
       "severity": "warning",
       "message": "rwa_total_usd is 2.0 sigma above its 288-point mean",
       "value": 2008033757.38,
-      "expected": 1933711625.8446
+      "expected": 1934165659.2474
     }
   ]
 }

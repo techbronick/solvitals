@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-26 08:08:05 UTC by SolVitals.
+Generated 2026-08-26 08:59:12 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-26 08:08:05 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,602.48 |
-| Total TPS (incl. votes) | 3,463.74 |
-| Vote share of transactions | 53.74% |
-| Average slot time | 0.3659 s |
-| Current slot | 441,824,106 |
-| Block height | 419,872,629 |
+| Non-vote TPS | 1,378.79 |
+| Total TPS (incl. votes) | 3,244.95 |
+| Vote share of transactions | 57.51% |
+| Average slot time | 0.3641 s |
+| Current slot | 441,832,507 |
+| Block height | 419,881,027 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1022** — 74.1% complete (`###############.....`), ~11.3 hours remaining.
+Epoch **1022** — 76.04% complete (`###############.....`), ~10.5 hours remaining.
 
-Slot 320,107 of 432,000. Lifetime transaction count: 541,968,276,259.
+Slot 328,507 of 432,000. Lifetime transaction count: 541,978,153,222.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 320,107 of 432,000. Lifetime transaction count: 541,968,276,259.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3644 s |
-| Deviation from 0.4s target | -8.9% |
+| Measured slot time (`getBlockTime`) | 0.3646 s |
+| Deviation from 0.4s target | -8.85% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1938 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1938 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $96.95 (down 3.05%) |
-| Market cap | $56.59B |
+| SOL price | $96.78 (down 3.58%) |
+| Market cap | $56.46B |
 | DeFi TVL | $5.60B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.95B (down 1.58%) |
-| Stablecoin supply | $15.98B |
+| Stablecoin supply | $15.95B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.13M** |
 | Network fees | $889.16K |
-| MEV tips (out-of-protocol) | $243.27K (21.48% of REV) |
-| Annualised REV run-rate | $413.34M |
+| MEV tips (out-of-protocol) | $242.71K (21.44% of REV) |
+| Annualised REV run-rate | $413.13M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $207.93K |
+| Jito MEV Tips | $207.37K |
 | Harmonic | $23.56K |
 | bloXroute | $11.77K |
 | Pyth Express Relay | $10 |
@@ -154,11 +154,11 @@ Fees earned by the 302 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,477 |
+| Unique fee payers (sampled) | 1,602 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,636 |
-| Non-vote share of sample | 44.17% |
-| Signers per block | 492.3 |
+| Transactions in sample | 3,528 |
+| Non-vote share of sample | 42.4% |
+| Signers per block | 534.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -174,7 +174,7 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 ## Supply
 
-Circulating 583,375,294 SOL of 632,859,155 total (92.18%).
+Circulating 583,375,268 SOL of 632,859,128 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -204,10 +204,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — Demos, talks, and special appearances 👀 Watch Solana Summit Serbia @SuperteamBLKN from home https://t.co/slQS2s3suq [(link)](https://x.com/solana/status/2092533152275202224)
+- **@solana** — gm https://t.co/KAkHSAPmRo [(link)](https://x.com/solana/status/2092529144378917213)
+- **@solana** — Janamat has now crossed 10,000 users🇳🇵 We're building Nepal's governance infrastructure on @Solana. If you're a Nepali, your voice deserves to be heard. Still day 1. https://t.co/OPvF6BG9fh [(link)](https://x.com/solana/status/2092525575999303959)
 - **@solana** — Memecoins paired with anything. Memes have traditionally been paired with $SOL, meaning you would trade coins directly against Solana. Now, there’s a new way to launch & trade anything. You can launch coins paired with a broad list of cust… [(link)](https://x.com/solana/status/2092432236389806146)
-- **@solana** — chat, are we back [(link)](https://x.com/solana/status/2092414366180151641)
-- **@solana** — INSIGHT: Solana memecoins surpassed $5.2B in weekly spot trading volume, reaching a new 2026 high. https://t.co/35Nn6lRDkf [(link)](https://x.com/solana/status/2092402260726919555)
-- **@solana** — Home of the only interesting interviews happening on Solana. @blknoiz06 and @Banks, fully unboxed. Thursday 2pm UTC 👇 https://t.co/hUZpIEa7KJ [(link)](https://x.com/solana/status/2092366326329168044)
 - **@solanalabs** — Distribution is the hard part. Seeker helps founders find their first users, putting Solana apps in front of a crypto-native audience ready to battle-test them. Here's what shipping to the @Solana dApp Store looks like 🧵 https://t.co/6iiIn… [(link)](https://x.com/solanalabs/status/2091989588487332262)
 - **@solanalabs** — Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵 https://t.co/HpF12YO1ak [(link)](https://x.com/solanalabs/status/2090185322986668285)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)

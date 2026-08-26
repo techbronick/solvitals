@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-26 08:08:05",
+  "captured_at": "2026-08-26 08:59:12",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3644,
+      "measured_slot_time_secs": 0.3646,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -8.9,
+      "deviation_from_target_pct": -8.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3463.74,
-      "tps_non_vote": 1602.48,
-      "vote_share_pct": 53.74,
-      "avg_slot_time_secs": 0.3659,
-      "latest_sample_slot": 441824105,
+      "tps_total": 3244.95,
+      "tps_non_vote": 1378.79,
+      "vote_share_pct": 57.51,
+      "avg_slot_time_secs": 0.3641,
+      "latest_sample_slot": 441832496,
       "samples_used": 5,
-      "block_height": 419872629,
-      "current_slot": 441824106
+      "block_height": 419881027,
+      "current_slot": 441832507
     },
     "epoch": {
       "epoch": 1022,
-      "slot_index": 320107,
+      "slot_index": 328507,
       "slots_in_epoch": 432000,
-      "progress_pct": 74.1,
-      "eta_hours": 11.3,
-      "eta_basis_slot_secs": 0.3644,
-      "transaction_count": 541968276259
+      "progress_pct": 76.04,
+      "eta_hours": 10.5,
+      "eta_basis_slot_secs": 0.3646,
+      "transaction_count": 541978153222
     },
     "validators": {
       "active_count": 685,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 632859154.77,
-      "circulating_sol": 583375294.25,
+      "total_sol": 632859128.47,
+      "circulating_sol": 583375267.95,
       "non_circulating_sol": 49483860.52,
       "circulating_pct": 92.18
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1938,
       "recent_signature_count": 10,
-      "latest_signature": "4tcnfXms4rAvitJsFQ1zVmVXhn77kx7gjXgJ6wQC6G3QAL3FFPTAJ7mbcHy6V4zqwGT8yzsYG67Psesimjb3TgxZ",
-      "latest_block_time": 1787731686,
-      "errors_in_recent": 4
+      "latest_signature": "3wAwLxM6rcpApo4kJM6CwFsGEVsnwdG59mbXLRG24mgdpHVWFbrh9uRu9QcAKjcDLuPEAidtK3CGKeRs3dmRsaRh",
+      "latest_block_time": 1787734748,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1477,
+      "unique_signers_sampled": 1602,
       "blocks_sampled": 3,
-      "transactions_sampled": 3636,
-      "non_vote_transactions_sampled": 1606,
-      "signers_per_block": 492.3,
-      "non_vote_share_pct": 44.17,
+      "transactions_sampled": 3528,
+      "non_vote_transactions_sampled": 1496,
+      "signers_per_block": 534.0,
+      "non_vote_share_pct": 42.4,
       "sampled_slots": [
-        441823934,
-        441822434,
-        441820934
+        441832327,
+        441830827,
+        441829327
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 96.95,
-      "change_24h_pct": -3.05,
-      "market_cap_usd": 56591382993.68316,
-      "volume_24h_usd": 3571833579.991404,
+      "usd": 96.78,
+      "change_24h_pct": -3.58,
+      "market_cap_usd": 56460543452.66425,
+      "volume_24h_usd": 3593029605.769541,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5600124342.52,
+      "tvl_usd": 5599348224.98,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.36,
       "source": "defillama"
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15983298917.76,
+      "total_usd": 15948506097.07,
       "by_peg": {
-        "peggedUSD": 15914601616.38,
-        "peggedEUR": 63786509.63,
-        "peggedJPY": 52.66,
-        "peggedCHF": 1349333.32,
-        "peggedAUD": 74397.96,
-        "peggedVAR": 2487050.79,
-        "peggedGBP": 832199.76,
-        "peggedTRY": 166292.25,
-        "peggedCAD": 1464.31,
+        "peggedUSD": 15879735801.31,
+        "peggedEUR": 63853959.29,
+        "peggedJPY": 52.67,
+        "peggedCHF": 1345753.75,
+        "peggedAUD": 74473.31,
+        "peggedVAR": 2496605.04,
+        "peggedGBP": 832200.51,
+        "peggedTRY": 165786.24,
+        "peggedCAD": 1464.26,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1132427.53,
+      "rev_24h_usd": 1131866.53,
       "network_fees_24h_usd": 889159,
-      "mev_tips_24h_usd": 243268.53,
-      "mev_share_of_rev_pct": 21.48,
-      "rev_annualised_usd": 413336048.45,
+      "mev_tips_24h_usd": 242707.53,
+      "mev_share_of_rev_pct": 21.44,
+      "rev_annualised_usd": 413131283.45,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 207933
+          "tips_24h_usd": 207372
         },
         {
           "name": "Harmonic",
@@ -2297,27 +2297,27 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Demos, talks, and special appearances \ud83d\udc40 Watch Solana Summit Serbia @SuperteamBLKN from home https://t.co/slQS2s3suq",
+        "created_at": "Wed Aug 26 08:42:35 +0000 2026",
+        "url": "https://x.com/solana/status/2092533152275202224"
+      },
+      {
+        "handle": "solana",
+        "text": "gm https://t.co/KAkHSAPmRo",
+        "created_at": "Wed Aug 26 08:26:39 +0000 2026",
+        "url": "https://x.com/solana/status/2092529144378917213"
+      },
+      {
+        "handle": "solana",
+        "text": "Janamat has now crossed 10,000 users\ud83c\uddf3\ud83c\uddf5 We're building Nepal's governance infrastructure on @Solana. If you're a Nepali, your voice deserves to be heard. Still day 1. https://t.co/OPvF6BG9fh",
+        "created_at": "Wed Aug 26 08:12:29 +0000 2026",
+        "url": "https://x.com/solana/status/2092525575999303959"
+      },
+      {
+        "handle": "solana",
         "text": "Memecoins paired with anything. Memes have traditionally been paired with $SOL, meaning you would trade coins directly against Solana. Now, there\u2019s a new way to launch & trade anything. You can launch coins paired with a broad list of cust\u2026",
         "created_at": "Wed Aug 26 02:01:35 +0000 2026",
         "url": "https://x.com/solana/status/2092432236389806146"
-      },
-      {
-        "handle": "solana",
-        "text": "chat, are we back",
-        "created_at": "Wed Aug 26 00:50:34 +0000 2026",
-        "url": "https://x.com/solana/status/2092414366180151641"
-      },
-      {
-        "handle": "solana",
-        "text": "INSIGHT: Solana memecoins surpassed $5.2B in weekly spot trading volume, reaching a new 2026 high. https://t.co/35Nn6lRDkf",
-        "created_at": "Wed Aug 26 00:02:28 +0000 2026",
-        "url": "https://x.com/solana/status/2092402260726919555"
-      },
-      {
-        "handle": "solana",
-        "text": "Home of the only interesting interviews happening on Solana. @blknoiz06 and @Banks, fully unboxed. Thursday 2pm UTC \ud83d\udc47 https://t.co/hUZpIEa7KJ",
-        "created_at": "Tue Aug 25 21:39:41 +0000 2026",
-        "url": "https://x.com/solana/status/2092366326329168044"
       },
       {
         "handle": "solanalabs",
@@ -2360,7 +2360,7 @@
       "severity": "warning",
       "message": "rwa_total_usd is 2.6 sigma above its 288-point mean",
       "value": 2057825561.3,
-      "expected": 1947428391.0297
+      "expected": 1948040410.6227
     }
   ]
 }

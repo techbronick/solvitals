@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-26 12:25:04 UTC by SolVitals.
+Generated 2026-08-26 13:31:10 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-08-26 12:25:04 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,634.89 |
-| Total TPS (incl. votes) | 3,505.64 |
-| Vote share of transactions | 53.36% |
+| Non-vote TPS | 2,415.03 |
+| Total TPS (incl. votes) | 4,285.73 |
+| Vote share of transactions | 43.65% |
 | Average slot time | 0.3641 s |
-| Current slot | 441,866,338 |
-| Block height | 419,914,846 |
+| Current slot | 441,877,175 |
+| Block height | 419,925,683 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1022** — 83.87% complete (`#################...`), ~7.0 hours remaining.
+Epoch **1022** — 86.38% complete (`#################...`), ~6.0 hours remaining.
 
-Slot 362,339 of 432,000. Lifetime transaction count: 542,022,041,132.
+Slot 373,175 of 432,000. Lifetime transaction count: 542,037,969,723.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 362,339 of 432,000. Lifetime transaction count: 542,022,041,132.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3638 s |
-| Deviation from 0.4s target | -9.05% |
+| Measured slot time (`getBlockTime`) | 0.3656 s |
+| Deviation from 0.4s target | -8.6% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1938 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1938 SOL, 10 recent signatures, 8 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 684 |
-| Delinquent validators | 11 (1.58%) |
-| Stake held by delinquents | 289,962 SOL (0.067%) |
-| Total active stake | 434,828,142 SOL |
+| Active validators | 685 |
+| Delinquent validators | 10 (1.44%) |
+| Stake held by delinquents | 257,476 SOL (0.059%) |
+| Total active stake | 434,860,628 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 255 |
+| Zero-commission validators | 254 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $97.13 (down 0.83%) |
-| Market cap | $56.66B |
-| DeFi TVL | $5.60B |
+| SOL price | $95.99 (down 1.23%) |
+| Market cap | $56.00B |
+| DeFi TVL | $5.59B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.93B (down 2.04%) |
-| Stablecoin supply | $15.91B |
+| Stablecoin supply | $15.87B |
 
 ### Real Economic Value (REV)
 
@@ -154,11 +154,11 @@ Fees earned by the 302 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,591 |
+| Unique fee payers (sampled) | 1,717 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,195 |
-| Non-vote share of sample | 35.21% |
-| Signers per block | 530.3 |
+| Transactions in sample | 5,016 |
+| Non-vote share of sample | 59.35% |
+| Signers per block | 572.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -168,13 +168,13 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $567.89M |
 | BisonFi | $411.40M |
-| Orca DEX | $307.24M |
+| Orca DEX | $285.77M |
 | Meteora DLMM | $246.36M |
 | Scorch | $173.07M |
 
 ## Supply
 
-Circulating 583,375,151 SOL of 632,859,012 total (92.18%).
+Circulating 583,375,109 SOL of 632,858,970 total (92.18%).
 
 ## Ecosystem growth (solana.com/data)
 

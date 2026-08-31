@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-08-31 13:38:54",
+  "captured_at": "2026-08-31 19:38:39",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3184,
+      "measured_slot_time_secs": 0.3176,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.4,
+      "deviation_from_target_pct": -20.6,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4339.26,
-      "tps_non_vote": 2229.25,
-      "vote_share_pct": 48.63,
-      "avg_slot_time_secs": 0.3212,
-      "latest_sample_slot": 443164767,
+      "tps_total": 4297.61,
+      "tps_non_vote": 2171.86,
+      "vote_share_pct": 49.46,
+      "avg_slot_time_secs": 0.3191,
+      "latest_sample_slot": 443232580,
       "samples_used": 5,
-      "block_height": 421212405,
-      "current_slot": 443164736
+      "block_height": 421280336,
+      "current_slot": 443232696
     },
     "epoch": {
-      "epoch": 1025,
-      "slot_index": 364736,
+      "epoch": 1026,
+      "slot_index": 698,
       "slots_in_epoch": 432000,
-      "progress_pct": 84.43,
-      "eta_hours": 5.9,
-      "eta_basis_slot_secs": 0.3184,
-      "transaction_count": 543773106496
+      "progress_pct": 0.16,
+      "eta_hours": 38.1,
+      "eta_basis_slot_secs": 0.3176,
+      "transaction_count": 543870429722
     },
     "validators": {
-      "active_count": 679,
-      "delinquent_count": 18,
-      "delinquent_pct": 2.58,
-      "delinquent_stake_sol": 45385.49,
+      "active_count": 680,
+      "delinquent_count": 14,
+      "delinquent_pct": 2.02,
+      "delinquent_stake_sol": 43820.7,
       "delinquent_stake_pct": 0.01,
-      "total_active_stake_sol": 437082504.17,
+      "total_active_stake_sol": 438157998.67,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 246,
+      "zero_commission_count": 248,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 17203740.86,
-          "stake_pct": 3.936,
+          "stake_sol": 17174436.21,
+          "stake_pct": 3.92,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 16085806.76,
-          "stake_pct": 3.68,
+          "stake_sol": 16281426.3,
+          "stake_pct": 3.716,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12389823.57,
-          "stake_pct": 2.835,
+          "stake_sol": 12434729.82,
+          "stake_pct": 2.838,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 11479512.08,
-          "stake_pct": 2.626,
+          "stake_sol": 11480709.32,
+          "stake_pct": 2.62,
           "commission": 5
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 9452658.3,
-          "stake_pct": 2.163,
+          "stake_sol": 9455250.4,
+          "stake_pct": 2.158,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9293056.33,
-          "stake_pct": 2.126,
+          "stake_sol": 9285505.6,
+          "stake_pct": 2.119,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 9023631.15,
-          "stake_pct": 2.065,
+          "stake_sol": 9044015.82,
+          "stake_pct": 2.064,
           "commission": 10
         },
         {
-          "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 7295972.23,
-          "stake_pct": 1.669,
-          "commission": 5
-        },
-        {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7201761.97,
-          "stake_pct": 1.648,
+          "stake_sol": 7216300.21,
+          "stake_pct": 1.647,
           "commission": 7
         },
         {
+          "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+          "stake_sol": 6930213.34,
+          "stake_pct": 1.582,
+          "commission": 5
+        },
+        {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-          "stake_sol": 6589844.83,
-          "stake_pct": 1.508,
+          "stake_sol": 6591885.37,
+          "stake_pct": 1.504,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 633172757.07,
-      "circulating_sol": 585121073.68,
-      "non_circulating_sol": 48051683.39,
+      "total_sol": 633267901.21,
+      "circulating_sol": 585207331.45,
+      "non_circulating_sol": 48060569.76,
       "circulating_pct": 92.41
     },
     "transaction_fees": {
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "sSfj8fSnpFJUNNFbtkZK4DGcds3r6ZUPbwAuCZK3qcgpz1PEn9awgJKtfoptEA89Y6rhoWnbxHnwD2d8bPjfE9N",
-      "latest_block_time": 1788183529,
-      "errors_in_recent": 6
+      "latest_signature": "3xV4EgRZC5imH15McsmLfNhUowVHsFpjYQn9VHpP7AMNoP8s6XwfgV8RMjUNPwGg6VpJjHwerXJBFNpdE6A4ytGj",
+      "latest_block_time": 1788205124,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1577,
+      "unique_signers_sampled": 1365,
       "blocks_sampled": 3,
-      "transactions_sampled": 4701,
-      "non_vote_transactions_sampled": 2406,
-      "signers_per_block": 525.7,
-      "non_vote_share_pct": 51.18,
+      "transactions_sampled": 3722,
+      "non_vote_transactions_sampled": 1698,
+      "signers_per_block": 455.0,
+      "non_vote_share_pct": 45.62,
       "sampled_slots": [
-        443164556,
-        443163056,
-        443161556
+        443232534,
+        443231034,
+        443229534
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 102.54,
-      "change_24h_pct": -3.89,
-      "market_cap_usd": 59988863191.05461,
-      "volume_24h_usd": 3752038140.3666353,
+      "usd": 104.0,
+      "change_24h_pct": -2.0,
+      "market_cap_usd": 60850890930.21811,
+      "volume_24h_usd": 3820206865.8533654,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5823526359.8,
+      "tvl_usd": 5800089993.51,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.64,
+      "share_of_all_chains_pct": 6.59,
       "source": "defillama"
     },
     "dex_volume": {
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 258151734
+          "volume_24h_usd": 274296370
         },
         {
           "name": "BisonFi",
@@ -182,38 +182,38 @@
           "volume_24h_usd": 142668519
         },
         {
-          "name": "Manifest Trade",
-          "volume_24h_usd": 130718821
+          "name": "Raydium AMM",
+          "volume_24h_usd": 133122704
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15759182365.99,
+      "total_usd": 15729804015.98,
       "by_peg": {
-        "peggedUSD": 15696889264.92,
-        "peggedEUR": 57432661.8,
-        "peggedJPY": 49.45,
-        "peggedCHF": 1337676.28,
-        "peggedAUD": 75615.13,
-        "peggedVAR": 2473852.32,
-        "peggedGBP": 803588.99,
-        "peggedTRY": 168198.52,
-        "peggedCAD": 1457.87,
+        "peggedUSD": 15665580966.17,
+        "peggedEUR": 59335033.49,
+        "peggedJPY": 50.19,
+        "peggedCHF": 1345264.39,
+        "peggedAUD": 75312.99,
+        "peggedVAR": 2490183.07,
+        "peggedGBP": 807571.62,
+        "peggedTRY": 168172.64,
+        "peggedCAD": 1460.72,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 859513,
+      "rev_24h_usd": 865896,
       "network_fees_24h_usd": 677062,
-      "mev_tips_24h_usd": 182451,
-      "mev_share_of_rev_pct": 21.23,
-      "rev_annualised_usd": 313722245,
+      "mev_tips_24h_usd": 188834,
+      "mev_share_of_rev_pct": 21.81,
+      "rev_annualised_usd": 316052040,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 158536
+          "tips_24h_usd": 164919
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 8365
         }
       ],
-      "app_fees_24h_usd": 12193230.440000001,
-      "app_fees_7d_usd": 98405859.65000008,
-      "app_fees_30d_usd": 320346825.25999916,
-      "app_fees_change_24h_pct": 8.73,
+      "app_fees_24h_usd": 12307328.440000001,
+      "app_fees_7d_usd": 98519976.65000008,
+      "app_fees_30d_usd": 320460942.25999916,
+      "app_fees_change_24h_pct": 9.75,
       "protocol_count": 305,
       "top_fee_earning_apps": [
         {
@@ -244,7 +244,7 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 973160
+          "fees_24h_usd": 973165
         },
         {
           "name": "Jupiter Aggregator",
@@ -255,22 +255,22 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 2071030420.34,
+      "total_rwa_usd": 2081493787.04,
       "protocol_count": 26,
-      "equities_usd": 457997134.73,
-      "equities_share_pct": 22.11,
+      "equities_usd": 465349281.54,
+      "equities_share_pct": 22.36,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 433079522.31,
-          "change_24h_pct": 2.485,
+          "tvl_usd": 440260718.31,
+          "change_24h_pct": 0.501,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 24700715.89,
-          "change_24h_pct": -0.164,
+          "tvl_usd": 24871666.7,
+          "change_24h_pct": 0.144,
           "category": "RWA",
           "is_equity": true
         },
@@ -285,36 +285,36 @@
       "top_protocols": [
         {
           "name": "BlackRock BUIDL",
-          "tvl_usd": 886536739.88,
-          "change_24h_pct": 0,
+          "tvl_usd": 886791456.04,
+          "change_24h_pct": 0.022,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "xStocks",
-          "tvl_usd": 433079522.31,
-          "change_24h_pct": 2.485,
+          "tvl_usd": 440260718.31,
+          "change_24h_pct": 0.501,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "OnRe",
-          "tvl_usd": 284881610.14,
-          "change_24h_pct": 0.057,
+          "tvl_usd": 285015247.2,
+          "change_24h_pct": 0.112,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 179962629.27,
-          "change_24h_pct": 0.016,
+          "tvl_usd": 179387797.15,
+          "change_24h_pct": -0.486,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 154860617.2,
-          "change_24h_pct": -0.504,
+          "tvl_usd": 158164917.09,
+          "change_24h_pct": 0.237,
           "category": "RWA",
           "is_equity": false
         },
@@ -327,29 +327,29 @@
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 24700715.89,
-          "change_24h_pct": -0.164,
+          "tvl_usd": 24871666.7,
+          "change_24h_pct": 0.144,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 22857815.38,
-          "change_24h_pct": 0.071,
+          "tvl_usd": 22865401.97,
+          "change_24h_pct": 0.853,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 18368674.42,
-          "change_24h_pct": -0.028,
+          "tvl_usd": 18371865.23,
+          "change_24h_pct": 0.232,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "VanEck Treasury Fund",
-          "tvl_usd": 13939464.02,
-          "change_24h_pct": 0,
+          "tvl_usd": 13943450.7,
+          "change_24h_pct": 0.029,
           "category": "RWA",
           "is_equity": false
         }
@@ -361,7 +361,7 @@
     "metrics": {
       "active_addresses": {
         "label": "Active Addresses",
-        "value": 569326,
+        "value": 725277,
         "unit": "Count",
         "date": "2026-08-30",
         "provider": "Dune",
@@ -493,7 +493,7 @@
           },
           {
             "date": "2026-08-30",
-            "value": 569326
+            "value": 725277
           }
         ]
       },
@@ -636,7 +636,7 @@
       },
       "fees": {
         "label": "Fees",
-        "value": 6614.984404561088,
+        "value": 6614.984404558824,
         "unit": "SOL",
         "date": "2026-08-30",
         "provider": "Dune",
@@ -742,37 +742,37 @@
           },
           {
             "date": "2026-08-24",
-            "value": 9164.295062018604
+            "value": 9164.295062018602
           },
           {
             "date": "2026-08-25",
-            "value": 9176.471638589013
+            "value": 9176.471638588991
           },
           {
             "date": "2026-08-26",
-            "value": 9614.280537291195
+            "value": 9614.28053729119
           },
           {
             "date": "2026-08-27",
-            "value": 10861.789541237336
+            "value": 10861.789541237355
           },
           {
             "date": "2026-08-28",
-            "value": 9082.74465356708
+            "value": 9082.744653567079
           },
           {
             "date": "2026-08-29",
-            "value": 7856.956848073616
+            "value": 7856.956848073619
           },
           {
             "date": "2026-08-30",
-            "value": 6614.984404561088
+            "value": 6614.984404558824
           }
         ]
       },
       "dex_volume": {
         "label": "DEX Volume",
-        "value": 768362123.3102885,
+        "value": 1726582387.4073515,
         "unit": "USD",
         "date": "2026-08-30",
         "provider": "Dune",
@@ -883,19 +883,19 @@
           },
           {
             "date": "2026-08-24",
-            "value": 2969360897.301123
+            "value": 2969360897.30112
           },
           {
             "date": "2026-08-25",
-            "value": 3018092473.8583384
+            "value": 3018092473.858347
           },
           {
             "date": "2026-08-26",
-            "value": 2332078207.414233
+            "value": 2332078207.414231
           },
           {
             "date": "2026-08-27",
-            "value": 2978020247.9331546
+            "value": 2978020247.9331555
           },
           {
             "date": "2026-08-28",
@@ -903,17 +903,17 @@
           },
           {
             "date": "2026-08-29",
-            "value": 1630882820.2641568
+            "value": 1630882820.264156
           },
           {
             "date": "2026-08-30",
-            "value": 768362123.3102885
+            "value": 1726582387.4073515
           }
         ]
       },
       "dex_traders": {
         "label": "DEX Traders",
-        "value": 565850,
+        "value": 767018,
         "unit": "Count",
         "date": "2026-08-30",
         "provider": "Dune",
@@ -1043,7 +1043,7 @@
           },
           {
             "date": "2026-08-30",
-            "value": 565850
+            "value": 767018
           }
         ]
       },
@@ -1593,7 +1593,7 @@
       },
       "validator_count": {
         "label": "Validator Count",
-        "value": 676,
+        "value": 677,
         "unit": "Count",
         "date": "2026-08-31",
         "provider": "Stakewiz",
@@ -1722,15 +1722,15 @@
           },
           {
             "date": "2026-08-31",
-            "value": 676
+            "value": 677
           }
         ]
       },
       "transfer_volume": {
         "label": "Transfer Volume",
-        "value": 9218003223.399845,
+        "value": 8380249658.202751,
         "unit": "USD",
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "provider": "Dune",
         "providers_reporting": [
           "Allium",
@@ -1743,10 +1743,6 @@
           "Top Ledger"
         ],
         "history": [
-          {
-            "date": "2026-07-31",
-            "value": 18036218453.82755
-          },
           {
             "date": "2026-08-01",
             "value": 5739306384.153272
@@ -1837,7 +1833,7 @@
           },
           {
             "date": "2026-08-23",
-            "value": 10629539453.24234
+            "value": 10629539453.242342
           },
           {
             "date": "2026-08-24",
@@ -1845,29 +1841,33 @@
           },
           {
             "date": "2026-08-25",
-            "value": 20506346323.815376
+            "value": 20506346323.81538
           },
           {
             "date": "2026-08-26",
-            "value": 15934788656.982786
+            "value": 15934788656.982784
           },
           {
             "date": "2026-08-27",
-            "value": 16816547284.26707
+            "value": 16816547284.267073
           },
           {
             "date": "2026-08-28",
-            "value": 20961912352.648228
+            "value": 20961912352.64702
           },
           {
             "date": "2026-08-29",
-            "value": 9218003223.399845
+            "value": 9218003223.399378
+          },
+          {
+            "date": "2026-08-30",
+            "value": 8380249658.202751
           }
         ]
       },
       "top3_asn_share": {
         "label": "Top 3 ASN Share",
-        "value": 45.74506627115991,
+        "value": 45.83644109586801,
         "unit": "Percent",
         "date": "2026-08-31",
         "provider": "Stakewiz",
@@ -1994,7 +1994,7 @@
           },
           {
             "date": "2026-08-31",
-            "value": 45.74506627115991
+            "value": 45.83644109586801
           }
         ]
       }
@@ -2003,11 +2003,26 @@
       {
         "metric": "Active Addresses",
         "date": "2026-08-30",
-        "spread_pct": 28.3,
+        "spread_pct": 94.9,
         "by_provider": {
           "Allium": 730181,
-          "Dune": 569326,
-          "Goldsky": 725801
+          "Artemis": 643096,
+          "Blockworks": 397651,
+          "Dune": 725277,
+          "Goldsky": 725801,
+          "RWA": 774939
+        }
+      },
+      {
+        "metric": "Fee Payers",
+        "date": "2026-08-30",
+        "spread_pct": 97.1,
+        "by_provider": {
+          "Allium": 2056731,
+          "Artemis": 4053955,
+          "Blockworks": 2089572,
+          "Dune": 2056698,
+          "Token Terminal": 2078143
         }
       }
     ],
@@ -2029,7 +2044,7 @@
       "Validators App"
     ],
     "metric_count": 12,
-    "generated_at": "2026-08-31T07:50:18.113Z",
+    "generated_at": "2026-08-31T19:04:56.274Z",
     "range_days": 90,
     "source": "solana.com/data",
     "note": "Official solana.com metric feed. Keyless and unauthenticated; republishes provider-computed analytics including Dune."
@@ -2105,7 +2120,7 @@
     "active_on_mainnet": 22,
     "pending_on_mainnet": 12,
     "cluster_versions": {
-      "mainnet": "4.3.0-beta.2",
+      "mainnet": "4.2.1",
       "testnet": "4.3.0-beta.2",
       "devnet": "4.3.0-beta.2"
     },
@@ -2318,39 +2333,39 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Solana development will never be the same",
-        "created_at": "Sat Aug 29 22:34:34 +0000 2026",
-        "url": "https://x.com/solana/status/2093829689857220905"
+        "text": "$100M TVL in four months. Hylo built leverage that survives corrections. No margin call, no traditional liquidation, no overhead. When markets drop, the system rebalances. Leverage adjusts, positions survive. Leverage belonged to professio\u2026",
+        "created_at": "Mon Aug 31 18:00:00 +0000 2026",
+        "url": "https://x.com/solana/status/2094485371816157426"
       },
       {
         "handle": "solana",
-        "text": "GM https://t.co/eAshCUeiWk",
-        "created_at": "Sat Aug 29 20:07:59 +0000 2026",
-        "url": "https://x.com/solana/status/2093792801767240094"
+        "text": "ethereum:0x07f5b6823751c2e2cd4560f28af75ff887102241 is available in your favorite Solana apps @Raydium, @dflow, @Titan_Exchange, @phantom, @JupiterExchange, @fomo, @ArcherExchange_, @kamino_swap, @mayan and more Verify the token address: h\u2026",
+        "created_at": "Mon Aug 31 16:22:46 +0000 2026",
+        "url": "https://x.com/solana/status/2094460900266934681"
+      },
+      {
+        "handle": "solana",
+        "text": "BREAKING: ethereum:0x07f5b6823751c2e2cd4560f28af75ff887102241 is live on Solana via @sunrise https://t.co/JwWWJ2jGet",
+        "created_at": "Mon Aug 31 16:22:45 +0000 2026",
+        "url": "https://x.com/solana/status/2094460897603588396"
+      },
+      {
+        "handle": "solana",
+        "text": "You can buy anything on Solana through Grok with @PayBox and @moonpay",
+        "created_at": "Mon Aug 31 16:08:15 +0000 2026",
+        "url": "https://x.com/solana/status/2094457248873681133"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "thinking about getting a Seeker? today\u2019s the last day to get 20% off, plus a free $50 pack rip from @Collector_Crypt for the first 5k purchases. use code CARDS20 and pay with Solana Pay. ends tonight. https://t.co/UNjxVcSV2j https://t.co/v\u2026",
+        "created_at": "Mon Aug 31 14:09:43 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2094427416202526970"
       },
       {
         "handle": "solanalabs",
         "text": "Time is running out on the @Collector_Crypt deal \u2600\ufe0f The first 5,000 buyers get 20% off Seeker plus a free $50 pack rip Use code CARDS20 and pay with USDC, USDT, PYUSD, or SKR using Solana Pay Two days left \ud83d\udc49 https://t.co/UNjxVcSV2j https:/\u2026",
         "created_at": "Sat Aug 29 16:28:28 +0000 2026",
         "url": "https://x.com/solanalabs/status/2093737560392527884"
-      },
-      {
-        "handle": "solana",
-        "text": "There are a lot of major changes happening soon - Next week: First step down in rent reduction - Sept 9: Transaction V1 goes live - Dropping slot time even further - October: Alpenglow Then we all meetup at Scale or Die in November Solana \u2026",
-        "created_at": "Sat Aug 29 13:31:53 +0000 2026",
-        "url": "https://x.com/solana/status/2093693122161082658"
-      },
-      {
-        "handle": "solana",
-        "text": "https://t.co/m1HvEUxckR",
-        "created_at": "Sat Aug 29 12:13:42 +0000 2026",
-        "url": "https://x.com/solana/status/2093673446677135865"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Distribution is the hard part. Seeker helps founders find their first users, putting Solana apps in front of a crypto-native audience ready to battle-test them. Here's what shipping to the @Solana dApp Store looks like \ud83e\uddf5 https://t.co/6iiIn\u2026",
-        "created_at": "Mon Aug 24 20:42:39 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2091989588487332262"
       },
       {
         "handle": "solanalabs",
@@ -2375,5 +2390,27 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.1 sigma above its 288-point mean",
+      "value": 104.0,
+      "expected": 95.037
+    },
+    {
+      "metric": "rwa_total_usd",
+      "severity": "warning",
+      "message": "rwa_total_usd is 2.2 sigma above its 288-point mean",
+      "value": 2081493787.04,
+      "expected": 1968347431.5145
+    },
+    {
+      "metric": "equities_usd",
+      "severity": "warning",
+      "message": "equities_usd is 2.8 sigma above its 288-point mean",
+      "value": 465349281.54,
+      "expected": 446176133.661
+    }
+  ]
 }

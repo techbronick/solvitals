@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-01 19:34:05",
+  "captured_at": "2026-09-01 21:59:56",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3176,
+      "measured_slot_time_secs": 0.3162,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.6,
+      "deviation_from_target_pct": -20.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4450.95,
-      "tps_non_vote": 2316.84,
-      "vote_share_pct": 47.95,
-      "avg_slot_time_secs": 0.3165,
-      "latest_sample_slot": 443503651,
+      "tps_total": 4410.21,
+      "tps_non_vote": 2267.91,
+      "vote_share_pct": 48.58,
+      "avg_slot_time_secs": 0.3145,
+      "latest_sample_slot": 443531372,
       "samples_used": 5,
-      "block_height": 421551298,
-      "current_slot": 443503751
+      "block_height": 421578873,
+      "current_slot": 443531368
     },
     "epoch": {
       "epoch": 1026,
-      "slot_index": 271752,
+      "slot_index": 299370,
       "slots_in_epoch": 432000,
-      "progress_pct": 62.91,
-      "eta_hours": 14.1,
-      "eta_basis_slot_secs": 0.3176,
-      "transaction_count": 544212806263
+      "progress_pct": 69.3,
+      "eta_hours": 11.6,
+      "eta_basis_slot_secs": 0.3162,
+      "transaction_count": 544251508544
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 16,
-      "delinquent_pct": 2.31,
-      "delinquent_stake_sol": 169518.06,
-      "delinquent_stake_pct": 0.039,
-      "total_active_stake_sol": 438032301.3,
+      "active_count": 679,
+      "delinquent_count": 15,
+      "delinquent_pct": 2.16,
+      "delinquent_stake_sol": 149182.77,
+      "delinquent_stake_pct": 0.034,
+      "total_active_stake_sol": 438052636.59,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 244,
+      "zero_commission_count": 245,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -69,7 +69,7 @@
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 9455250.4,
-          "stake_pct": 2.159,
+          "stake_pct": 2.158,
           "commission": 0
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 633266998.25,
-      "circulating_sol": 585206567.92,
+      "total_sol": 633266894.46,
+      "circulating_sol": 585206464.13,
       "non_circulating_sol": 48060430.33,
       "circulating_pct": 92.41
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "42wCbthBXCCuytCsp9xbE5uNTLQLtvBoSrsRJK7aTkJ1fR2QQHGQqyRRbbfygLh2h3Bf2irTyEJp9gymPfLzwrbF",
-      "latest_block_time": 1788291247,
-      "errors_in_recent": 4
+      "latest_signature": "xBtYTePaKrYaj88sNpvHc2DeY4d4V3EPgQbvpXt6CDwRWKLJBJAHLBeuEASdpXHByFHW4NgeSGBtg126i9znUkh",
+      "latest_block_time": 1788300001,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1455,
+      "unique_signers_sampled": 1473,
       "blocks_sampled": 3,
-      "transactions_sampled": 4096,
-      "non_vote_transactions_sampled": 2079,
-      "signers_per_block": 485.0,
-      "non_vote_share_pct": 50.76,
+      "transactions_sampled": 4017,
+      "non_vote_transactions_sampled": 2008,
+      "signers_per_block": 491.0,
+      "non_vote_share_pct": 49.99,
       "sampled_slots": [
-        443503585,
-        443502085,
-        443500585
+        443531206,
+        443529706,
+        443528206
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 100.03,
-      "change_24h_pct": -3.77,
-      "market_cap_usd": 58528859561.86376,
-      "volume_24h_usd": 3280217068.5199876,
+      "usd": 99.6,
+      "change_24h_pct": -3.89,
+      "market_cap_usd": 58284606740.96053,
+      "volume_24h_usd": 3332840525.016786,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5737476214.25,
+      "tvl_usd": 5731899881.99,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.71,
+      "share_of_all_chains_pct": 6.7,
       "source": "defillama"
     },
     "dex_volume": {
@@ -175,11 +175,11 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 213880630
+          "volume_24h_usd": 220713319
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 152189551
+          "volume_24h_usd": 156376615
         },
         {
           "name": "Meteora DLMM",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15658312350.13,
+      "total_usd": 15632535555.16,
       "by_peg": {
-        "peggedUSD": 15593608164.07,
-        "peggedEUR": 59900225.77,
-        "peggedJPY": 49.56,
-        "peggedCHF": 1335821.46,
-        "peggedAUD": 75440.4,
-        "peggedVAR": 2416598.23,
-        "peggedGBP": 807582.36,
+        "peggedUSD": 15567655353.44,
+        "peggedEUR": 60065969.87,
+        "peggedJPY": 50.54,
+        "peggedCHF": 1338959.39,
+        "peggedAUD": 75254.62,
+        "peggedVAR": 2423959.86,
+        "peggedGBP": 807539.0,
         "peggedTRY": 167007.18,
-        "peggedCAD": 1460.39,
+        "peggedCAD": 1460.56,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1062030,
+      "rev_24h_usd": 1057876,
       "network_fees_24h_usd": 836261,
-      "mev_tips_24h_usd": 225769,
-      "mev_share_of_rev_pct": 21.26,
-      "rev_annualised_usd": 387640950,
+      "mev_tips_24h_usd": 221615,
+      "mev_share_of_rev_pct": 20.95,
+      "rev_annualised_usd": 386124740,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 199566
+          "tips_24h_usd": 195412
         },
         {
           "name": "Harmonic",
@@ -248,7 +248,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 854469
+          "fees_24h_usd": 858075
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2311,51 +2311,51 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "JUST IN: Solana NFTs are now live on @Opensea Explore collections like @Claynosaurz, @DegenApeAcademy, @SolanaMBS, @FamousFoxFed, @bodoggos, and more \u26f5\ufe0f",
-        "created_at": "Mon Aug 31 22:51:04 +0000 2026",
-        "url": "https://x.com/solana/status/2094558621082280091"
+        "text": "Green Candle Cup https://t.co/O729O0IlUx",
+        "created_at": "Tue Sep 01 20:00:17 +0000 2026",
+        "url": "https://x.com/solana/status/2094878026781905186"
       },
       {
         "handle": "solana",
-        "text": "Solana NFTs are now live on OpenSea. Buy, sell, trade, and bid on the top @solana collections. One place for the NFTs you love \ud83c\udf0a https://t.co/ZoJb03FrQM",
-        "created_at": "Mon Aug 31 22:07:29 +0000 2026",
-        "url": "https://x.com/solana/status/2094547650502631836"
+        "text": "The Green Candle Cup is here, and we\u2019re putting @Solana\u2019s best traders head to head on a live leaderboard. @solana_sailor just took the 1st place at the @PhoenixTrade competition, but @aut3z wants a rematch. We\u2019ve given them their very own\u2026",
+        "created_at": "Tue Sep 01 19:33:30 +0000 2026",
+        "url": "https://x.com/solana/status/2094871289525649888"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Welcome and a big congrats to the incredible teams in Cohort 5 \ud83e\udd73 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator.",
+        "created_at": "Tue Sep 01 18:34:47 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2094856511587860600"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet \u2014 founders building across AI, robotics, and trading on @solana. Day one of working with these teams: \ud83d\udfe3@clawpumptech \ud83d\udfe3@crowdbrainai \ud83d\udfe3@Lavaragexyz \ud83d\udfe3@morfimarkets \ud83d\udfe3@\u2026",
+        "created_at": "Tue Sep 01 17:39:07 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2094842504025694668"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet \u2014 founders building across AI, robotics, and trading on @solana. Day one of working with these teams: \ud83d\udfe3@clawpumptech \ud83d\udfe3@crowdbrainai \ud83d\udfe3@Lavaragexyz \ud83d\udfe3@morfimarkets \ud83d\udfe3@\u2026",
+        "created_at": "Tue Sep 01 17:39:07 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2094842504025694668"
       },
       {
         "handle": "solana",
-        "text": "Kamino Earn is now accessible to every @grok user through PayBox. Access Solana-native yield directly through AI. https://t.co/0qoWDvHaZ8",
-        "created_at": "Mon Aug 31 18:46:40 +0000 2026",
-        "url": "https://x.com/solana/status/2094497112478363825"
+        "text": "Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by Midas. Kamino is th\u2026",
+        "created_at": "Tue Sep 01 17:19:48 +0000 2026",
+        "url": "https://x.com/solana/status/2094837639346352498"
       },
       {
         "handle": "solana",
-        "text": "$100M TVL in four months. Hylo built leverage that survives corrections. No margin call, no traditional liquidation, no overhead. When markets drop, the system rebalances. Leverage adjusts, positions survive. Leverage belonged to professio\u2026",
-        "created_at": "Mon Aug 31 18:00:00 +0000 2026",
-        "url": "https://x.com/solana/status/2094485371816157426"
+        "text": "We're selling ad space on the Solana logo. 9 spots, with 100% of proceeds donated to Nepal flood relief. Win and your logo or artwork sits on our PFP and pinned post for a week. 24 hours to bid and donate: https://t.co/Y76WemJtVX Powered b\u2026",
+        "created_at": "Tue Sep 01 13:13:18 +0000 2026",
+        "url": "https://x.com/solana/status/2094775606475124877"
       },
       {
         "handle": "solanalabs",
         "text": "thinking about getting a Seeker? today\u2019s the last day to get 20% off, plus a free $50 pack rip from @Collector_Crypt for the first 5k purchases. use code CARDS20 and pay with Solana Pay. ends tonight. https://t.co/UNjxVcSV2j https://t.co/v\u2026",
         "created_at": "Mon Aug 31 14:09:43 +0000 2026",
         "url": "https://x.com/solanalabs/status/2094427416202526970"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Time is running out on the @Collector_Crypt deal \u2600\ufe0f The first 5,000 buyers get 20% off Seeker plus a free $50 pack rip Use code CARDS20 and pay with USDC, USDT, PYUSD, or SKR using Solana Pay Two days left \ud83d\udc49 https://t.co/UNjxVcSV2j https:/\u2026",
-        "created_at": "Sat Aug 29 16:28:28 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2093737560392527884"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Three months in the Incubator > three years figuring it out alone \u2013 3 months of hands-on mentorship from Solana OGs IRL in NYC \u2013 Weekly workshops, office hours, and 1:1s \u2013 Demo day in front of the ecosystem's top VCs and builders Apply now\u2026",
-        "created_at": "Wed Apr 22 16:11:02 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2046985139029479873"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open \u2014 join us in NYC for 3 months starting September 2026. \ud83d\udcc5 Deadline: June 5. \u2705 Rolling review \u2014 early applicants prioritized.\u2026",
-        "created_at": "Wed Apr 22 15:24:05 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2046973323620577341"
       }
     ],
     "accounts_reached": [

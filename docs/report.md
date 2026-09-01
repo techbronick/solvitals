@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-01 19:34:05 UTC by SolVitals.
+Generated 2026-09-01 21:59:56 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,316.84 |
-| Total TPS (incl. votes) | 4,450.95 |
-| Vote share of transactions | 47.95% |
-| Average slot time | 0.3165 s |
-| Current slot | 443,503,751 |
-| Block height | 421,551,298 |
+| Non-vote TPS | 2,267.91 |
+| Total TPS (incl. votes) | 4,410.21 |
+| Vote share of transactions | 48.58% |
+| Average slot time | 0.3145 s |
+| Current slot | 443,531,368 |
+| Block height | 421,578,873 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1026** — 62.91% complete (`#############.......`), ~14.1 hours remaining.
+Epoch **1026** — 69.3% complete (`##############......`), ~11.6 hours remaining.
 
-Slot 271,752 of 432,000. Lifetime transaction count: 544,212,806,263.
+Slot 299,370 of 432,000. Lifetime transaction count: 544,251,508,544.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 271,752 of 432,000. Lifetime transaction count: 544,212,806,263.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3176 s |
-| Deviation from 0.4s target | -20.6% |
+| Measured slot time (`getBlockTime`) | 0.3162 s |
+| Deviation from 0.4s target | -20.95% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 678 |
-| Delinquent validators | 16 (2.31%) |
-| Stake held by delinquents | 169,518 SOL (0.039%) |
-| Total active stake | 438,032,301 SOL |
+| Active validators | 679 |
+| Delinquent validators | 15 (2.16%) |
+| Stake held by delinquents | 149,183 SOL (0.034%) |
+| Total active stake | 438,052,637 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 244 |
+| Zero-commission validators | 245 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -65,7 +65,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,281,426 | 3.717% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,434,730 | 2.839% | 0% |
 | 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,480,709 | 2.621% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,455,250 | 2.159% | 0% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,455,250 | 2.158% | 0% |
 | 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,506 | 2.12% | 7% |
 | 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,044,016 | 2.065% | 10% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,216,300 | 1.647% | 7% |
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $100.03 (down 3.77%) |
-| Market cap | $58.53B |
-| DeFi TVL | $5.74B |
+| SOL price | $99.60 (down 3.89%) |
+| Market cap | $58.28B |
+| DeFi TVL | $5.73B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.50B (up 29.63%) |
-| Stablecoin supply | $15.66B |
+| Stablecoin supply | $15.63B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.06M** |
 | Network fees | $836.26K |
-| MEV tips (out-of-protocol) | $225.77K (21.26% of REV) |
-| Annualised REV run-rate | $387.64M |
+| MEV tips (out-of-protocol) | $221.62K (20.95% of REV) |
+| Annualised REV run-rate | $386.12M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $199.57K |
+| Jito MEV Tips | $195.41K |
 | Harmonic | $16.69K |
 | bloXroute | $9.51K |
 
@@ -116,7 +116,7 @@ Fees earned by the 307 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.72M |
 | Axiom | $1.65M |
 | fomo Wallet | $1.08M |
-| Raydium AMM | $854.47K |
+| Raydium AMM | $858.08K |
 
 ## Tokenized assets
 
@@ -152,11 +152,11 @@ Fees earned by the 307 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,455 |
+| Unique fee payers (sampled) | 1,473 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,096 |
-| Non-vote share of sample | 50.76% |
-| Signers per block | 485.0 |
+| Transactions in sample | 4,017 |
+| Non-vote share of sample | 49.99% |
+| Signers per block | 491.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,13 +166,13 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $939.21M |
 | BisonFi | $232.85M |
-| Orca DEX | $213.88M |
-| Raydium AMM | $152.19M |
+| Orca DEX | $220.71M |
+| Raydium AMM | $156.38M |
 | Meteora DLMM | $149.33M |
 
 ## Supply
 
-Circulating 585,206,568 SOL of 633,266,998 total (92.41%).
+Circulating 585,206,464 SOL of 633,266,894 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -202,14 +202,14 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — JUST IN: Solana NFTs are now live on @Opensea Explore collections like @Claynosaurz, @DegenApeAcademy, @SolanaMBS, @FamousFoxFed, @bodoggos, and more ⛵️ [(link)](https://x.com/solana/status/2094558621082280091)
-- **@solana** — Solana NFTs are now live on OpenSea. Buy, sell, trade, and bid on the top @solana collections. One place for the NFTs you love 🌊 https://t.co/ZoJb03FrQM [(link)](https://x.com/solana/status/2094547650502631836)
-- **@solana** — Kamino Earn is now accessible to every @grok user through PayBox. Access Solana-native yield directly through AI. https://t.co/0qoWDvHaZ8 [(link)](https://x.com/solana/status/2094497112478363825)
-- **@solana** — $100M TVL in four months. Hylo built leverage that survives corrections. No margin call, no traditional liquidation, no overhead. When markets drop, the system rebalances. Leverage adjusts, positions survive. Leverage belonged to professio… [(link)](https://x.com/solana/status/2094485371816157426)
+- **@solana** — Green Candle Cup https://t.co/O729O0IlUx [(link)](https://x.com/solana/status/2094878026781905186)
+- **@solana** — The Green Candle Cup is here, and we’re putting @Solana’s best traders head to head on a live leaderboard. @solana_sailor just took the 1st place at the @PhoenixTrade competition, but @aut3z wants a rematch. We’ve given them their very own… [(link)](https://x.com/solana/status/2094871289525649888)
+- **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
+- **@solanalabs** — Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet — founders building across AI, robotics, and trading on @solana. Day one of working with these teams: 🟣@clawpumptech 🟣@crowdbrainai 🟣@Lavaragexyz 🟣@morfimarkets 🟣@… [(link)](https://x.com/solanalabs/status/2094842504025694668)
+- **@solanalabs** — Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet — founders building across AI, robotics, and trading on @solana. Day one of working with these teams: 🟣@clawpumptech 🟣@crowdbrainai 🟣@Lavaragexyz 🟣@morfimarkets 🟣@… [(link)](https://x.com/solanalabs/status/2094842504025694668)
+- **@solana** — Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by Midas. Kamino is th… [(link)](https://x.com/solana/status/2094837639346352498)
+- **@solana** — We're selling ad space on the Solana logo. 9 spots, with 100% of proceeds donated to Nepal flood relief. Win and your logo or artwork sits on our PFP and pinned post for a week. 24 hours to bid and donate: https://t.co/Y76WemJtVX Powered b… [(link)](https://x.com/solana/status/2094775606475124877)
 - **@solanalabs** — thinking about getting a Seeker? today’s the last day to get 20% off, plus a free $50 pack rip from @Collector_Crypt for the first 5k purchases. use code CARDS20 and pay with Solana Pay. ends tonight. https://t.co/UNjxVcSV2j https://t.co/v… [(link)](https://x.com/solanalabs/status/2094427416202526970)
-- **@solanalabs** — Time is running out on the @Collector_Crypt deal ☀️ The first 5,000 buyers get 20% off Seeker plus a free $50 pack rip Use code CARDS20 and pay with USDC, USDT, PYUSD, or SKR using Solana Pay Two days left 👉 https://t.co/UNjxVcSV2j https:/… [(link)](https://x.com/solanalabs/status/2093737560392527884)
-- **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)
-- **@solanalabs** — 1/ Grow your company alongside the Solana Labs team! Applications for Cohort 5 of the Solana Incubator are now open — join us in NYC for 3 months starting September 2026. 📅 Deadline: June 5. ✅ Rolling review — early applicants prioritized.… [(link)](https://x.com/solanalabs/status/2046973323620577341)
 
 _Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused._
 

@@ -1,30 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-01 12:11:15 UTC by SolVitals.
+Generated 2026-09-01 16:36:03 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.0 sigma above its 288-point mean
 - [WARNING] **equities_usd** — equities_usd is 2.2 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,559.21 |
-| Total TPS (incl. votes) | 3,671.38 |
-| Vote share of transactions | 57.53% |
-| Average slot time | 0.3195 s |
-| Current slot | 443,420,236 |
-| Block height | 421,467,822 |
+| Non-vote TPS | 2,279.22 |
+| Total TPS (incl. votes) | 4,399.35 |
+| Vote share of transactions | 48.19% |
+| Average slot time | 0.3191 s |
+| Current slot | 443,470,050 |
+| Block height | 421,517,618 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1026** — 43.57% complete (`#########...........`), ~21.5 hours remaining.
+Epoch **1026** — 55.1% complete (`###########.........`), ~17.2 hours remaining.
 
-Slot 188,236 of 432,000. Lifetime transaction count: 544,095,343,616.
+Slot 238,051 of 432,000. Lifetime transaction count: 544,164,812,187.
 
 ## Transaction costs and slot timing
 
@@ -33,28 +32,28 @@ Slot 188,236 of 432,000. Lifetime transaction count: 544,095,343,616.
 | Median priority fee | 0 micro-lamports/CU |
 | 75th percentile | 0 |
 | 95th percentile | 0 |
-| Slots needing no priority fee | 99.3% |
+| Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3176 s |
-| Deviation from 0.4s target | -20.6% |
+| Measured slot time (`getBlockTime`) | 0.3184 s |
+| Deviation from 0.4s target | -20.4% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 0 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 678 |
-| Delinquent validators | 16 (2.31%) |
-| Stake held by delinquents | 64,473 SOL (0.015%) |
-| Total active stake | 438,137,346 SOL |
+| Active validators | 679 |
+| Delinquent validators | 15 (2.16%) |
+| Stake held by delinquents | 54,271 SOL (0.012%) |
+| Total active stake | 438,147,548 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 245 |
+| Zero-commission validators | 244 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -71,33 +70,33 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,044,016 | 2.064% | 10% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,216,300 | 1.647% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,930,213 | 1.582% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,591,885 | 1.505% | 0% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,591,885 | 1.504% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $102.39 (down 1.07%) |
-| Market cap | $59.92B |
-| DeFi TVL | $5.80B |
+| SOL price | $101.21 (down 1.31%) |
+| Market cap | $59.23B |
+| DeFi TVL | $5.79B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.50B (up 29.63%) |
-| Stablecoin supply | $15.89B |
+| Stablecoin supply | $15.75B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.03M** |
+| **REV (total)** | **$1.04M** |
 | Network fees | $836.26K |
-| MEV tips (out-of-protocol) | $192.16K (18.68% of REV) |
-| Annualised REV run-rate | $375.37M |
+| MEV tips (out-of-protocol) | $199.36K (19.25% of REV) |
+| Annualised REV run-rate | $378.00M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $165.96K |
+| Jito MEV Tips | $173.15K |
 | Harmonic | $16.69K |
 | bloXroute | $9.51K |
 
@@ -107,9 +106,9 @@ Fees earned by the 306 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $13.39M (up 8.83%) |
-| 7 days | $97.40M |
-| 30 days | $328.08M |
+| 24 hours | $13.50M (up 9.70%) |
+| 7 days | $97.51M |
+| 30 days | $328.18M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -153,11 +152,11 @@ Fees earned by the 306 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,242 |
+| Unique fee payers (sampled) | 1,370 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,441 |
-| Non-vote share of sample | 37.66% |
-| Signers per block | 414.0 |
+| Transactions in sample | 4,053 |
+| Non-vote share of sample | 52.13% |
+| Signers per block | 456.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -167,13 +166,13 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | --- | --- |
 | PumpSwap | $939.21M |
 | BisonFi | $232.85M |
-| Orca DEX | $220.45M |
+| Orca DEX | $220.52M |
 | Meteora DLMM | $149.33M |
-| Manifest Trade | $149.23M |
+| Manifest Trade | $146.12M |
 
 ## Supply
 
-Circulating 585,206,879 SOL of 633,267,308 total (92.41%).
+Circulating 585,206,695 SOL of 633,267,125 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -238,7 +237,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.1` · testnet `4.3.0-beta.3` · devnet `4.3.0-beta.2`
+**Cluster versions:** mainnet `4.3.0-beta.2` · testnet `4.3.0-beta.3` · devnet `4.3.0-beta.3`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 

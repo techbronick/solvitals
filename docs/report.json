@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-01 12:11:15",
+  "captured_at": "2026-09-01 16:36:03",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3176,
+      "measured_slot_time_secs": 0.3184,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.6,
+      "deviation_from_target_pct": -20.4,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3671.38,
-      "tps_non_vote": 1559.21,
-      "vote_share_pct": 57.53,
-      "avg_slot_time_secs": 0.3195,
-      "latest_sample_slot": 443420102,
+      "tps_total": 4399.35,
+      "tps_non_vote": 2279.22,
+      "vote_share_pct": 48.19,
+      "avg_slot_time_secs": 0.3191,
+      "latest_sample_slot": 443469897,
       "samples_used": 5,
-      "block_height": 421467822,
-      "current_slot": 443420236
+      "block_height": 421517618,
+      "current_slot": 443470050
     },
     "epoch": {
       "epoch": 1026,
-      "slot_index": 188236,
+      "slot_index": 238051,
       "slots_in_epoch": 432000,
-      "progress_pct": 43.57,
-      "eta_hours": 21.5,
-      "eta_basis_slot_secs": 0.3176,
-      "transaction_count": 544095343616
+      "progress_pct": 55.1,
+      "eta_hours": 17.2,
+      "eta_basis_slot_secs": 0.3184,
+      "transaction_count": 544164812187
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 16,
-      "delinquent_pct": 2.31,
-      "delinquent_stake_sol": 64473.37,
-      "delinquent_stake_pct": 0.015,
-      "total_active_stake_sol": 438137345.99,
+      "active_count": 679,
+      "delinquent_count": 15,
+      "delinquent_pct": 2.16,
+      "delinquent_stake_sol": 54271.06,
+      "delinquent_stake_pct": 0.012,
+      "total_active_stake_sol": 438147548.3,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 245,
+      "zero_commission_count": 244,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -99,23 +99,23 @@
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6591885.37,
-          "stake_pct": 1.505,
+          "stake_pct": 1.504,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 633267308.4,
-      "circulating_sol": 585206878.8,
-      "non_circulating_sol": 48060429.6,
+      "total_sol": 633267125.49,
+      "circulating_sol": 585206695.16,
+      "non_circulating_sol": 48060430.33,
       "circulating_pct": 92.41
     },
     "transaction_fees": {
       "median_priority_fee_microlamports": 0,
       "p75_priority_fee_microlamports": 0,
       "p95_priority_fee_microlamports": 0,
-      "max_priority_fee_microlamports": 439107,
-      "zero_fee_slot_share_pct": 99.3,
+      "max_priority_fee_microlamports": 0,
+      "zero_fee_slot_share_pct": 100.0,
       "slots_sampled": 150,
       "base_fee_lamports_per_signature": 5000,
       "median_total_fee_sol": 5e-06,
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "5LfNVY8MpLMKWqEGPFPPd7kgPZRJhSBxfT3wx2htXforzGFE8mAtPtjsc8sZKbCNp6eTZgCnJdtg8MNHPthNYTGB",
-      "latest_block_time": 1788264672,
-      "errors_in_recent": 3
+      "latest_signature": "5NLc6FW5bVpRNJmG7i5v5A7C3w2JuCXVjHPcts8G5dr7h3gDB4w4Y1aXvdDWbe8hFXnRdLGT57o5w87jcAkzZwQ8",
+      "latest_block_time": 1788280559,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1242,
+      "unique_signers_sampled": 1370,
       "blocks_sampled": 3,
-      "transactions_sampled": 3441,
-      "non_vote_transactions_sampled": 1296,
-      "signers_per_block": 414.0,
-      "non_vote_share_pct": 37.66,
+      "transactions_sampled": 4053,
+      "non_vote_transactions_sampled": 2113,
+      "signers_per_block": 456.7,
+      "non_vote_share_pct": 52.13,
       "sampled_slots": [
-        443420060,
-        443418560,
-        443417060
+        443469870,
+        443468370,
+        443466870
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 102.39,
-      "change_24h_pct": -1.07,
-      "market_cap_usd": 59921839430.33439,
-      "volume_24h_usd": 3009584161.4689274,
+      "usd": 101.21,
+      "change_24h_pct": -1.31,
+      "market_cap_usd": 59226672365.221344,
+      "volume_24h_usd": 2995439589.437416,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5798412929.59,
+      "tvl_usd": 5789900474.12,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.62,
+      "share_of_all_chains_pct": 6.6,
       "source": "defillama"
     },
     "dex_volume": {
@@ -175,7 +175,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 220447374
+          "volume_24h_usd": 220518494
         },
         {
           "name": "Meteora DLMM",
@@ -183,37 +183,37 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 149232160
+          "volume_24h_usd": 146121837
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15892441880.49,
+      "total_usd": 15750710666.39,
       "by_peg": {
-        "peggedUSD": 15830222916.04,
-        "peggedEUR": 57373677.45,
-        "peggedJPY": 52.19,
-        "peggedCHF": 1335705.63,
-        "peggedAUD": 75516.06,
-        "peggedVAR": 2457779.9,
-        "peggedGBP": 807764.89,
+        "peggedUSD": 15688236242.73,
+        "peggedEUR": 57633315.12,
+        "peggedJPY": 52.05,
+        "peggedCHF": 1339503.15,
+        "peggedAUD": 75419.43,
+        "peggedVAR": 2449592.0,
+        "peggedGBP": 808073.55,
         "peggedTRY": 167007.18,
-        "peggedCAD": 1460.43,
+        "peggedCAD": 1460.48,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1028421,
+      "rev_24h_usd": 1035617,
       "network_fees_24h_usd": 836261,
-      "mev_tips_24h_usd": 192160,
-      "mev_share_of_rev_pct": 18.68,
-      "rev_annualised_usd": 375373665,
+      "mev_tips_24h_usd": 199356,
+      "mev_share_of_rev_pct": 19.25,
+      "rev_annualised_usd": 378000205,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 165957
+          "tips_24h_usd": 173153
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 9512
         }
       ],
-      "app_fees_24h_usd": 13393826.080000004,
-      "app_fees_7d_usd": 97404767.37000005,
-      "app_fees_30d_usd": 328075232.1599994,
-      "app_fees_change_24h_pct": 8.83,
+      "app_fees_24h_usd": 13501483.080000004,
+      "app_fees_7d_usd": 97514296.37000005,
+      "app_fees_30d_usd": 328184761.1599994,
+      "app_fees_change_24h_pct": 9.7,
       "protocol_count": 306,
       "top_fee_earning_apps": [
         {
@@ -244,7 +244,7 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 1078270
+          "fees_24h_usd": 1078260
         },
         {
           "name": "Solana",
@@ -2113,9 +2113,9 @@
     "active_on_mainnet": 22,
     "pending_on_mainnet": 12,
     "cluster_versions": {
-      "mainnet": "4.2.1",
+      "mainnet": "4.3.0-beta.2",
       "testnet": "4.3.0-beta.3",
-      "devnet": "4.3.0-beta.2"
+      "devnet": "4.3.0-beta.3"
     },
     "clusters_unreachable": [],
     "highlights": [
@@ -2385,18 +2385,11 @@
   },
   "anomalies": [
     {
-      "metric": "rwa_total_usd",
-      "severity": "warning",
-      "message": "rwa_total_usd is 2.0 sigma above its 288-point mean",
-      "value": 2077512001.37,
-      "expected": 1970880392.4911
-    },
-    {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.2 sigma above its 288-point mean",
       "value": 462458467.01,
-      "expected": 446675420.1661
+      "expected": 446787613.0545
     }
   ]
 }

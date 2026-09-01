@@ -1,31 +1,31 @@
 # Solana Ecosystem Report
 
-Generated 2026-08-31 23:21:33 UTC by SolVitals.
+Generated 2026-09-01 01:53:26 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 3.0 sigma above its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.7 sigma above its 288-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.2 sigma above its 288-point mean
-- [WARNING] **equities_usd** — equities_usd is 2.7 sigma above its 288-point mean
+- [WARNING] **equities_usd** — equities_usd is 2.9 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,854.69 |
-| Total TPS (incl. votes) | 3,997.51 |
-| Vote share of transactions | 53.60% |
-| Average slot time | 0.3161 s |
-| Current slot | 443,274,798 |
-| Block height | 421,322,412 |
+| Non-vote TPS | 1,822.91 |
+| Total TPS (incl. votes) | 3,937.06 |
+| Vote share of transactions | 53.70% |
+| Average slot time | 0.3209 s |
+| Current slot | 443,303,500 |
+| Block height | 421,351,107 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1026** — 9.91% complete (`##..................`), ~34.3 hours remaining.
+Epoch **1026** — 16.55% complete (`###.................`), ~31.9 hours remaining.
 
-Slot 42,798 of 432,000. Lifetime transaction count: 543,924,926,536.
+Slot 71,501 of 432,000. Lifetime transaction count: 543,961,148,393.
 
 ## Transaction costs and slot timing
 
@@ -36,8 +36,8 @@ Slot 42,798 of 432,000. Lifetime transaction count: 543,924,926,536.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3176 s |
-| Deviation from 0.4s target | -20.6% |
+| Measured slot time (`getBlockTime`) | 0.319 s |
+| Deviation from 0.4s target | -20.25% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -49,13 +49,13 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 680 |
-| Delinquent validators | 14 (2.02%) |
-| Stake held by delinquents | 1,024,211 SOL (0.234%) |
-| Total active stake | 437,177,609 SOL |
+| Active validators | 681 |
+| Delinquent validators | 13 (1.87%) |
+| Stake held by delinquents | 23,485 SOL (0.005%) |
+| Total active stake | 438,178,334 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 248 |
+| Zero-commission validators | 249 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -63,43 +63,43 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,174,436 | 3.928% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,281,426 | 3.724% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,434,730 | 2.844% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,480,709 | 2.626% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,455,250 | 2.163% | 0% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,506 | 2.124% | 7% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,044,016 | 2.069% | 10% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,216,300 | 1.651% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,930,213 | 1.585% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,591,885 | 1.508% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,174,436 | 3.92% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,281,426 | 3.716% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,434,730 | 2.838% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,480,709 | 2.62% | 5% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,455,250 | 2.158% | 0% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,506 | 2.119% | 7% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,044,016 | 2.064% | 10% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,216,300 | 1.647% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,930,213 | 1.582% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,591,885 | 1.504% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $103.10 (down 0.26%) |
-| Market cap | $60.33B |
-| DeFi TVL | $5.99B |
+| SOL price | $103.33 (up 1.64%) |
+| Market cap | $60.48B |
+| DeFi TVL | $5.96B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $1.93B (up 15.50%) |
-| Stablecoin supply | $15.75B |
+| DEX volume (24h) | $2.46B (up 27.51%) |
+| Stablecoin supply | $15.81B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$873.57K** |
-| Network fees | $677.06K |
-| MEV tips (out-of-protocol) | $196.50K (22.49% of REV) |
-| Annualised REV run-rate | $318.85M |
+| **REV (total)** | **$1.03M** |
+| Network fees | $836.26K |
+| MEV tips (out-of-protocol) | $197.85K (19.13% of REV) |
+| Annualised REV run-rate | $377.45M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $172.59K |
-| Harmonic | $15.55K |
+| Jito MEV Tips | $172.80K |
+| Harmonic | $16.69K |
 | bloXroute | $8.37K |
 
 ### Application fees (distinct from REV)
@@ -108,58 +108,57 @@ Fees earned by the 306 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $12.31M (up 9.75%) |
-| 7 days | $98.52M |
-| 30 days | $320.46M |
+| 24 hours | $13.21M (up 7.35%) |
+| 7 days | $95.39M |
+| 30 days | $326.06M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $2.97M |
-| pump.fun | $1.61M |
-| Axiom | $1.20M |
+| PumpSwap | $3.73M |
+| pump.fun | $1.72M |
+| Axiom | $1.65M |
 | fomo Wallet | $973.16K |
-| Jupiter Aggregator | $721.02K |
+| Solana | $836.26K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $2.08B |
-| Tokenized equities | $465.35M (22.36% of RWA) |
-| RWA protocols on Solana | 26 |
+| Tokenized equities | $466.84M (22.41% of RWA) |
+| RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $440.26M | 0.501% |
-| Ondo Global Markets | $24.87M | 0.144% |
-| Remora Markets | $216.90K | -0.003% |
+| xStocks | $441.82M | 2.719% |
+| Ondo Global Markets | $25.03M | 1.538% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| BlackRock BUIDL | $886.79M | RWA |
-| xStocks | $440.26M | RWA |
-| OnRe | $285.02M | RWA |
-| Ondo Yield Assets | $179.39M | RWA |
-| Hastra | $158.16M | RWA |
+| BlackRock BUIDL | $886.92M | RWA |
+| xStocks | $441.82M | RWA |
+| OnRe | $287.63M | RWA |
+| Ondo Yield Assets | $180.03M | RWA |
+| Hastra | $154.58M | RWA |
 | Theo Network thBill | $26.40M | RWA |
-| Ondo Global Markets | $24.87M | RWA |
-| Plume Vaults | $22.87M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.37M | RWA |
+| Ondo Global Markets | $25.03M | RWA |
+| Plume Vaults | $22.86M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.39M | RWA |
 | VanEck Treasury Fund | $13.94M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,505 |
+| Unique fee payers (sampled) | 1,462 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,073 |
-| Non-vote share of sample | 49.99% |
-| Signers per block | 501.7 |
+| Transactions in sample | 4,049 |
+| Non-vote share of sample | 49.27% |
+| Signers per block | 487.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -167,15 +166,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| PumpSwap | $732.11M |
-| Orca DEX | $264.69M |
-| BisonFi | $184.51M |
-| Meteora DLMM | $142.67M |
-| Raydium AMM | $140.46M |
+| PumpSwap | $939.21M |
+| BisonFi | $232.85M |
+| Orca DEX | $220.81M |
+| Meteora DLMM | $149.33M |
+| Raydium AMM | $138.51M |
 
 ## Supply
 
-Circulating 585,207,004 SOL of 633,267,758 total (92.41%).
+Circulating 585,207,233 SOL of 633,267,662 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -206,10 +205,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — JUST IN: Solana NFTs are now live on @Opensea Explore collections like @Claynosaurz, @DegenApeAcademy, @SolanaMBS, @FamousFoxFed, @bodoggos, and more ⛵️ [(link)](https://x.com/solana/status/2094558621082280091)
+- **@solana** — Solana NFTs are now live on OpenSea. Buy, sell, trade, and bid on the top @solana collections. One place for the NFTs you love 🌊 https://t.co/ZoJb03FrQM [(link)](https://x.com/solana/status/2094547650502631836)
+- **@solana** — Kamino Earn is now accessible to every @grok user through PayBox. Access Solana-native yield directly through AI. https://t.co/0qoWDvHaZ8 [(link)](https://x.com/solana/status/2094497112478363825)
 - **@solana** — $100M TVL in four months. Hylo built leverage that survives corrections. No margin call, no traditional liquidation, no overhead. When markets drop, the system rebalances. Leverage adjusts, positions survive. Leverage belonged to professio… [(link)](https://x.com/solana/status/2094485371816157426)
-- **@solana** — ethereum:0x07f5b6823751c2e2cd4560f28af75ff887102241 is available in your favorite Solana apps @Raydium, @dflow, @Titan_Exchange, @phantom, @JupiterExchange, @fomo, @ArcherExchange_, @kamino_swap, @mayan and more Verify the token address: h… [(link)](https://x.com/solana/status/2094460900266934681)
-- **@solana** — BREAKING: ethereum:0x07f5b6823751c2e2cd4560f28af75ff887102241 is live on Solana via @sunrise https://t.co/JwWWJ2jGet [(link)](https://x.com/solana/status/2094460897603588396)
-- **@solana** — You can buy anything on Solana through Grok with @PayBox and @moonpay [(link)](https://x.com/solana/status/2094457248873681133)
 - **@solanalabs** — thinking about getting a Seeker? today’s the last day to get 20% off, plus a free $50 pack rip from @Collector_Crypt for the first 5k purchases. use code CARDS20 and pay with Solana Pay. ends tonight. https://t.co/UNjxVcSV2j https://t.co/v… [(link)](https://x.com/solanalabs/status/2094427416202526970)
 - **@solanalabs** — Time is running out on the @Collector_Crypt deal ☀️ The first 5,000 buyers get 20% off Seeker plus a free $50 pack rip Use code CARDS20 and pay with USDC, USDT, PYUSD, or SKR using Solana Pay Two days left 👉 https://t.co/UNjxVcSV2j https:/… [(link)](https://x.com/solanalabs/status/2093737560392527884)
 - **@solanalabs** — Three months in the Incubator > three years figuring it out alone – 3 months of hands-on mentorship from Solana OGs IRL in NYC – Weekly workshops, office hours, and 1:1s – Demo day in front of the ecosystem's top VCs and builders Apply now… [(link)](https://x.com/solanalabs/status/2046985139029479873)
@@ -221,7 +220,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 
 | Metric | Value |
 | --- | --- |
-| Improvement proposals tracked | 124 |
+| Improvement proposals tracked | 125 |
 | With an assigned feature gate | 34 |
 | Gates live on mainnet | 22 |
 | Gates awaiting mainnet | 12 |
@@ -236,13 +235,11 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Idea | 14 |
 | Accepted | 9 |
 | Withdrawn | 5 |
-| Draft | 3 |
+| Draft | 4 |
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.1` · testnet `4.3.0-beta.2` · devnet `4.3.0-beta.2`
-
-_Clusters are running different versions, which is itself a rollout-in-progress signal._
+**Cluster versions:** mainnet `4.3.0-beta.2` · testnet `4.3.0-beta.2` · devnet `4.3.0-beta.2`
 
 ### Named proposals
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-01 01:53:26",
+  "captured_at": "2026-09-01 06:54:24",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.319,
+      "measured_slot_time_secs": 0.3174,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.25,
+      "deviation_from_target_pct": -20.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3937.06,
-      "tps_non_vote": 1822.91,
-      "vote_share_pct": 53.7,
-      "avg_slot_time_secs": 0.3209,
-      "latest_sample_slot": 443303443,
+      "tps_total": 3343.58,
+      "tps_non_vote": 1205.06,
+      "vote_share_pct": 63.96,
+      "avg_slot_time_secs": 0.3158,
+      "latest_sample_slot": 443360319,
       "samples_used": 5,
-      "block_height": 421351107,
-      "current_slot": 443303500
+      "block_height": 421407952,
+      "current_slot": 443360363
     },
     "epoch": {
       "epoch": 1026,
-      "slot_index": 71501,
+      "slot_index": 128363,
       "slots_in_epoch": 432000,
-      "progress_pct": 16.55,
-      "eta_hours": 31.9,
-      "eta_basis_slot_secs": 0.319,
-      "transaction_count": 543961148393
+      "progress_pct": 29.71,
+      "eta_hours": 26.8,
+      "eta_basis_slot_secs": 0.3174,
+      "transaction_count": 544028212219
     },
     "validators": {
-      "active_count": 681,
-      "delinquent_count": 13,
-      "delinquent_pct": 1.87,
-      "delinquent_stake_sol": 23485.41,
-      "delinquent_stake_pct": 0.005,
-      "total_active_stake_sol": 438178333.96,
+      "active_count": 679,
+      "delinquent_count": 15,
+      "delinquent_pct": 2.16,
+      "delinquent_stake_sol": 54271.06,
+      "delinquent_stake_pct": 0.012,
+      "total_active_stake_sol": 438147548.3,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 249,
+      "zero_commission_count": 247,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 633267662.12,
-      "circulating_sol": 585207232.54,
-      "non_circulating_sol": 48060429.58,
+      "total_sol": 633267485.71,
+      "circulating_sol": 585207056.11,
+      "non_circulating_sol": 48060429.6,
       "circulating_pct": 92.41
     },
     "transaction_fees": {
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "MZo45onmJ3gS7TUVhy6pppKHmS1wLKiGctZGf6dbuquvcwACf8Jjs24D5fFA8Hk2E87xV8KPsMMcL48pJYPTuEy",
-      "latest_block_time": 1788227603,
-      "errors_in_recent": 1
+      "latest_signature": "4tYyYWmFzQSzwATJB7KrXt3oUoXEtUNjw2ALg1y1p6N73QYn6Dk5bQ4E2UvpDo4V1fEFNdw6VMaAHpqBZ8LuJW79",
+      "latest_block_time": 1788245661,
+      "errors_in_recent": 2
     },
     "activity": {
-      "unique_signers_sampled": 1462,
+      "unique_signers_sampled": 1189,
       "blocks_sampled": 3,
-      "transactions_sampled": 4049,
-      "non_vote_transactions_sampled": 1995,
-      "signers_per_block": 487.3,
-      "non_vote_share_pct": 49.27,
+      "transactions_sampled": 3066,
+      "non_vote_transactions_sampled": 1048,
+      "signers_per_block": 396.3,
+      "non_vote_share_pct": 34.18,
       "sampled_slots": [
-        443303323,
-        443301823,
-        443300323
+        443360186,
+        443358686,
+        443357186
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 103.33,
-      "change_24h_pct": 1.64,
-      "market_cap_usd": 60475088829.9616,
-      "volume_24h_usd": 3149790753.295872,
+      "usd": 103.64,
+      "change_24h_pct": 0.86,
+      "market_cap_usd": 60648670462.49388,
+      "volume_24h_usd": 2933065809.1649246,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5962784320.24,
+      "tvl_usd": 5842833166.78,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.77,
+      "share_of_all_chains_pct": 6.63,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2460443647.05,
-      "volume_7d_usd": 17427453713.05,
-      "change_24h_pct": 27.51,
+      "volume_24h_usd": 2457757824.05,
+      "volume_7d_usd": 17424767890.05,
+      "change_24h_pct": 27.37,
       "protocol_count": 120,
       "top_dexes": [
         {
@@ -175,45 +175,45 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 220805899
+          "volume_24h_usd": 224449596
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 149325505
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 138512406
+          "name": "Manifest Trade",
+          "volume_24h_usd": 145236167
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15812397343.38,
+      "total_usd": 15874872002.13,
       "by_peg": {
-        "peggedUSD": 15750826464.26,
-        "peggedEUR": 56734471.6,
-        "peggedJPY": 51.81,
-        "peggedCHF": 1340190.84,
-        "peggedAUD": 75303.38,
-        "peggedVAR": 2443598.21,
-        "peggedGBP": 807629.13,
-        "peggedTRY": 168172.64,
-        "peggedCAD": 1460.81,
+        "peggedUSD": 15813040142.36,
+        "peggedEUR": 56980916.59,
+        "peggedJPY": 51.47,
+        "peggedCHF": 1337690.22,
+        "peggedAUD": 75271.89,
+        "peggedVAR": 2461510.26,
+        "peggedGBP": 807951.04,
+        "peggedTRY": 167007.18,
+        "peggedCAD": 1460.43,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1034116,
+      "rev_24h_usd": 1032740,
       "network_fees_24h_usd": 836261,
-      "mev_tips_24h_usd": 197855,
-      "mev_share_of_rev_pct": 19.13,
-      "rev_annualised_usd": 377452340,
+      "mev_tips_24h_usd": 196479,
+      "mev_share_of_rev_pct": 19.03,
+      "rev_annualised_usd": 376950100,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 172799
+          "tips_24h_usd": 170276
         },
         {
           "name": "Harmonic",
@@ -221,13 +221,13 @@
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 8365
+          "tips_24h_usd": 9512
         }
       ],
-      "app_fees_24h_usd": 13212202.82,
-      "app_fees_7d_usd": 95393348.62000005,
-      "app_fees_30d_usd": 326063813.4099993,
-      "app_fees_change_24h_pct": 7.35,
+      "app_fees_24h_usd": 13286682.080000004,
+      "app_fees_7d_usd": 96172867.37000006,
+      "app_fees_30d_usd": 326843332.1599994,
+      "app_fees_change_24h_pct": 7.96,
       "protocol_count": 306,
       "top_fee_earning_apps": [
         {
@@ -2385,25 +2385,18 @@
   },
   "anomalies": [
     {
-      "metric": "tvl_usd",
-      "severity": "warning",
-      "message": "tvl_usd is 2.7 sigma above its 288-point mean",
-      "value": 5962784320.24,
-      "expected": 5564348899.8752
-    },
-    {
       "metric": "rwa_total_usd",
       "severity": "warning",
-      "message": "rwa_total_usd is 2.2 sigma above its 288-point mean",
+      "message": "rwa_total_usd is 2.1 sigma above its 288-point mean",
       "value": 2082804815.92,
-      "expected": 1969609359.8192
+      "expected": 1970244876.1552
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.9 sigma above its 288-point mean",
       "value": 466841805.48,
-      "expected": 446420594.5387
+      "expected": 446548007.3524
     }
   ]
 }

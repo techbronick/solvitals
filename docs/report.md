@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-01 23:50:31 UTC by SolVitals.
+Generated 2026-09-02 01:43:16 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 5.4 sigma below its 288-point mean
+- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 5.3 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,879.50 |
-| Total TPS (incl. votes) | 4,006.87 |
-| Vote share of transactions | 53.09% |
-| Average slot time | 0.3161 s |
-| Current slot | 443,552,323 |
-| Block height | 421,599,821 |
+| Non-vote TPS | 2,459.89 |
+| Total TPS (incl. votes) | 4,622.24 |
+| Vote share of transactions | 46.78% |
+| Average slot time | 0.3122 s |
+| Current slot | 443,573,769 |
+| Block height | 421,621,259 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1026** — 74.15% complete (`###############.....`), ~9.8 hours remaining.
+Epoch **1026** — 79.11% complete (`################....`), ~8.0 hours remaining.
 
-Slot 320,323 of 432,000. Lifetime transaction count: 544,278,931,747.
+Slot 341,771 of 432,000. Lifetime transaction count: 544,306,067,002.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 320,323 of 432,000. Lifetime transaction count: 544,278,931,747.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3158 s |
-| Deviation from 0.4s target | -21.05% |
+| Measured slot time (`getBlockTime`) | 0.3176 s |
+| Deviation from 0.4s target | -20.6% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $100.05 (down 2.84%) |
-| Market cap | $58.55B |
-| DeFi TVL | $5.70B |
+| SOL price | $99.18 (down 4.02%) |
+| Market cap | $58.04B |
+| DeFi TVL | $5.66B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.50B (up 29.63%) |
-| Stablecoin supply | $15.54B |
+| DEX volume (24h) | $2.36B (down 5.72%) |
+| Stablecoin supply | $15.53B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.05M** |
 | Network fees | $836.26K |
-| MEV tips (out-of-protocol) | $218.62K (20.72% of REV) |
-| Annualised REV run-rate | $385.03M |
+| MEV tips (out-of-protocol) | $216.37K (20.56% of REV) |
+| Annualised REV run-rate | $384.21M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $192.41K |
+| Jito MEV Tips | $190.16K |
 | Harmonic | $16.69K |
 | bloXroute | $9.51K |
 
@@ -106,9 +106,9 @@ Fees earned by the 307 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $13.50M (up 9.70%) |
-| 7 days | $97.51M |
-| 30 days | $328.19M |
+| 24 hours | $14.36M (up 6.33%) |
+| 7 days | $86.96M |
+| 30 days | $323.23M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -116,47 +116,48 @@ Fees earned by the 307 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.72M |
 | Axiom | $1.65M |
 | fomo Wallet | $1.08M |
-| Raydium AMM | $855.65K |
+| Raydium AMM | $851.21K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
 | Total tokenized RWA | $2.07B |
-| Tokenized equities | $458.18M (22.1% of RWA) |
-| RWA protocols on Solana | 25 |
+| Tokenized equities | $456.96M (22.06% of RWA) |
+| RWA protocols on Solana | 26 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $433.51M | -1.533% |
-| Ondo Global Markets | $24.67M | -0.83% |
+| xStocks | $431.96M | -2.011% |
+| Ondo Global Markets | $24.53M | -2.206% |
+| Remora Markets | $479.95K | None% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $887.01M | RWA |
-| xStocks | $433.51M | RWA |
-| OnRe | $287.71M | RWA |
-| Ondo Yield Assets | $179.86M | RWA |
-| Hastra | $153.98M | RWA |
+| xStocks | $431.96M | RWA |
+| OnRe | $287.93M | RWA |
+| Ondo Yield Assets | $179.34M | RWA |
+| Hastra | $153.94M | RWA |
 | Theo Network thBill | $26.41M | RWA |
-| Ondo Global Markets | $24.67M | RWA |
-| Plume Vaults | $22.87M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.37M | RWA |
+| Ondo Global Markets | $24.53M | RWA |
+| Plume Vaults | $22.88M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.38M | RWA |
 | VanEck Treasury Fund | $13.94M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,324 |
+| Unique fee payers (sampled) | 1,362 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,533 |
-| Non-vote share of sample | 40.31% |
-| Signers per block | 441.3 |
+| Transactions in sample | 3,929 |
+| Non-vote share of sample | 52.33% |
+| Signers per block | 454.0 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,14 +166,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $939.21M |
-| BisonFi | $232.85M |
-| Orca DEX | $218.49M |
-| Raydium AMM | $155.53M |
-| Meteora DLMM | $149.33M |
+| Orca DEX | $218.97M |
+| BisonFi | $204.83M |
+| Raydium AMM | $152.16M |
+| Manifest Trade | $147.23M |
 
 ## Supply
 
-Circulating 585,206,392 SOL of 633,266,822 total (92.41%).
+Circulating 585,206,320 SOL of 633,266,750 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -236,7 +237,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.3.0-beta.2` · testnet `4.3.0-beta.3` · devnet `4.3.0-beta.3`
+**Cluster versions:** mainnet `4.2.1` · testnet `4.3.0-beta.3` · devnet `4.3.0-beta.3`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 

@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-02 11:31:58 UTC by SolVitals.
+Generated 2026-09-02 15:16:55 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,150.20 |
-| Total TPS (incl. votes) | 3,304.37 |
-| Vote share of transactions | 65.19% |
-| Average slot time | 0.3128 s |
-| Current slot | 443,686,021 |
-| Block height | 421,733,460 |
+| Non-vote TPS | 1,971.93 |
+| Total TPS (incl. votes) | 4,111.77 |
+| Vote share of transactions | 52.04% |
+| Average slot time | 0.3148 s |
+| Current slot | 443,728,894 |
+| Block height | 421,776,296 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1027** — 5.1% complete (`#...................`), ~35.8 hours remaining.
+Epoch **1027** — 15.02% complete (`###.................`), ~32.1 hours remaining.
 
-Slot 22,023 of 432,000. Lifetime transaction count: 544,428,500,048.
+Slot 64,894 of 432,000. Lifetime transaction count: 544,477,501,518.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 22,023 of 432,000. Lifetime transaction count: 544,428,500,048.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3144 s |
-| Deviation from 0.4s target | -21.4% |
+| Measured slot time (`getBlockTime`) | 0.315 s |
+| Deviation from 0.4s target | -21.25% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -49,8 +49,8 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | --- | --- |
 | Active validators | 676 |
 | Delinquent validators | 19 (2.73%) |
-| Stake held by delinquents | 392,483 SOL (0.090%) |
-| Total active stake | 438,029,873 SOL |
+| Stake held by delinquents | 837,500 SOL (0.191%) |
+| Total active stake | 437,584,857 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 244 |
@@ -61,42 +61,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,348,904 | 3.961% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,325,737 | 3.727% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,462,274 | 2.845% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,304,498 | 2.581% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,565,273 | 2.184% | 0% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,486 | 2.12% | 7% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,040,435 | 2.064% | 10% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,220,140 | 1.648% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,125,475 | 1.627% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,590,653 | 1.505% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,348,904 | 3.965% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,325,737 | 3.731% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,462,274 | 2.848% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,304,498 | 2.583% | 5% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,565,273 | 2.186% | 0% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,486 | 2.122% | 7% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,040,435 | 2.066% | 10% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,220,140 | 1.65% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,125,475 | 1.628% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,590,653 | 1.506% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $97.66 (down 4.42%) |
-| Market cap | $57.17B |
-| DeFi TVL | $5.70B |
+| SOL price | $98.51 (down 2.88%) |
+| Market cap | $57.67B |
+| DeFi TVL | $5.62B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.17B (down 13.19%) |
-| Stablecoin supply | $15.61B |
+| Stablecoin supply | $15.66B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.11M** |
+| **REV (total)** | **$1.10M** |
 | Network fees | $899.77K |
-| MEV tips (out-of-protocol) | $206.40K (18.66% of REV) |
-| Annualised REV run-rate | $403.75M |
+| MEV tips (out-of-protocol) | $197.68K (18.01% of REV) |
+| Annualised REV run-rate | $400.57M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $178.53K |
+| Jito MEV Tips | $169.81K |
 | Harmonic | $17.49K |
 | bloXroute | $10.38K |
 
@@ -106,16 +106,16 @@ Fees earned by the 308 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $12.26M (down 9.19%) |
-| 7 days | $95.45M |
-| 30 days | $331.72M |
+| 24 hours | $12.64M (down 5.97%) |
+| 7 days | $96.49M |
+| 30 days | $332.77M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $3.44M |
 | pump.fun | $1.74M |
 | Axiom | $1.37M |
-| fomo Wallet | $1.08M |
+| fomo Wallet | $1.35M |
 | Solana | $899.77K |
 
 ## Tokenized assets
@@ -153,11 +153,11 @@ Fees earned by the 308 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,199 |
+| Unique fee payers (sampled) | 1,615 |
 | Blocks sampled | 3 |
-| Transactions in sample | 2,825 |
-| Non-vote share of sample | 27.61% |
-| Signers per block | 399.7 |
+| Transactions in sample | 4,575 |
+| Non-vote share of sample | 46.93% |
+| Signers per block | 538.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -166,14 +166,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $827.37M |
-| Orca DEX | $211.42M |
+| Orca DEX | $217.89M |
 | BisonFi | $204.83M |
 | Meteora DLMM | $139.98M |
-| Manifest Trade | $135.76M |
+| Manifest Trade | $135.40M |
 
 ## Supply
 
-Circulating 585,292,415 SOL of 633,361,781 total (92.41%).
+Circulating 585,292,286 SOL of 633,361,652 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -272,6 +272,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped)**
+  More than $4.7 trillion in stablecoins moved across Solana in the past year as tokenized markets expand access to ownership and finance.
 - **[Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)**
   V1 Transactions are approaching, while a 300ms slot-time feature gate reached Mainnet and new releases shipped across Solana tooling.
 - **[The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers)**
@@ -286,8 +288,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Slot times to 250ms on testnet and releases from Agave and Firedancer.
 - **[How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi)**
   Meow lets AI agents form a company and apply for a business bank account in one prompt, with payment rails spanning ACH, USDC, SOL, and more.
-- **[Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap)**
-  Reap moves roughly $6B a year in stablecoin card volume after building cross-border payments infrastructure from Asia.
 
 _Source: official Solana news feed (solana.com/news)._
 

@@ -1,33 +1,33 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-03 18:02:20 UTC by SolVitals.
+Generated 2026-09-03 20:58:11 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **equities_usd** — equities_usd is 6.1 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 5.7 sigma above its 288-point mean
 - [WARNING] **price_usd** — price_usd is 2.3 sigma above its 288-point mean
-- [WARNING] **tvl_usd** — tvl_usd is 2.2 sigma above its 288-point mean
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.6 sigma below its 287-point mean
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.4 sigma above its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.8 sigma above its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.5 sigma below its 287-point mean
+- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.3 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,450.81 |
-| Total TPS (incl. votes) | 4,569.97 |
-| Vote share of transactions | 46.37% |
-| Average slot time | 0.3158 s |
-| Current slot | 444,034,696 |
-| Block height | 422,081,524 |
+| Non-vote TPS | 1,597.33 |
+| Total TPS (incl. votes) | 3,704.76 |
+| Vote share of transactions | 56.88% |
+| Average slot time | 0.3168 s |
+| Current slot | 444,068,097 |
+| Block height | 422,114,768 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1027** — 85.81% complete (`#################...`), ~5.4 hours remaining.
+Epoch **1027** — 93.54% complete (`###################.`), ~2.5 hours remaining.
 
-Slot 370,696 of 432,000. Lifetime transaction count: 544,844,532,886.
+Slot 404,097 of 432,000. Lifetime transaction count: 544,888,177,763.
 
 ## Transaction costs and slot timing
 
@@ -45,7 +45,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -80,27 +80,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.95 (up 5.82%) |
-| Market cap | $61.49B |
-| DeFi TVL | $5.89B |
+| SOL price | $105.01 (up 5.28%) |
+| Market cap | $61.46B |
+| DeFi TVL | $5.97B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.29B (up 5.42%) |
-| Stablecoin supply | $16.02B |
+| Stablecoin supply | $16.00B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$731.34K** |
+| **REV (total)** | **$736.14K** |
 | Network fees | $612.58K |
-| MEV tips (out-of-protocol) | $118.76K (16.24% of REV) |
-| Annualised REV run-rate | $266.94M |
+| MEV tips (out-of-protocol) | $123.57K (16.79% of REV) |
+| Annualised REV run-rate | $268.69M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $101.16K |
+| Jito MEV Tips | $105.96K |
 | Harmonic | $11.79K |
 | bloXroute | $5.81K |
 
@@ -157,11 +157,11 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,606 |
+| Unique fee payers (sampled) | 1,322 |
 | Blocks sampled | 3 |
-| Transactions in sample | 6,238 |
-| Non-vote share of sample | 68.1% |
-| Signers per block | 535.3 |
+| Transactions in sample | 3,475 |
+| Non-vote share of sample | 41.76% |
+| Signers per block | 440.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -172,12 +172,12 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | PumpSwap | $1.02B |
 | Orca DEX | $267.01M |
 | BisonFi | $194.35M |
-| Manifest Trade | $190.56M |
-| Raydium AMM | $140.97M |
+| Manifest Trade | $182.56M |
+| Raydium AMM | $147.33M |
 
 ## Supply
 
-Circulating 585,274,646 SOL of 633,360,682 total (92.41%).
+Circulating 585,274,531 SOL of 633,360,567 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -276,6 +276,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)**
+  Payment channels support 1 million payments per second by authorizing agent spending once, metering off-chain, and settling once on Solana.
 - **[The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped)**
   More than $4.7 trillion in stablecoins moved across Solana in the past year as tokenized markets expand access to ownership and finance.
 - **[Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america)**
@@ -290,8 +292,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Solana will reduce its slot times from 400ms to 200ms. This change will make the protocol more competitive in terms of latency. Here we explore some possible implication on validators economic.
 - **[v1 Transactions and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)**
   Solana is introducing a new transaction format (v1) alongside an increase of the maximum transaction size from 1232 bytes to 4096 bytes. The v1 format aims to unlock new possibilities on-chain. This is done trading-off …
-- **[Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)**
-  Slot times to 250ms on testnet and releases from Agave and Firedancer.
 
 _Source: official Solana news feed (solana.com/news)._
 

@@ -1,33 +1,33 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-03 20:58:11 UTC by SolVitals.
+Generated 2026-09-03 22:57:05 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **equities_usd** — equities_usd is 5.7 sigma above its 288-point mean
-- [WARNING] **price_usd** — price_usd is 2.3 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 5.4 sigma above its 288-point mean
+- [WARNING] **price_usd** — price_usd is 2.1 sigma above its 288-point mean
 - [WARNING] **tvl_usd** — tvl_usd is 2.8 sigma above its 288-point mean
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.5 sigma below its 287-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.4 sigma below its 287-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.3 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,597.33 |
-| Total TPS (incl. votes) | 3,704.76 |
-| Vote share of transactions | 56.88% |
+| Non-vote TPS | 1,437.31 |
+| Total TPS (incl. votes) | 3,559.19 |
+| Vote share of transactions | 59.62% |
 | Average slot time | 0.3168 s |
-| Current slot | 444,068,097 |
-| Block height | 422,114,768 |
+| Current slot | 444,090,699 |
+| Block height | 422,137,260 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1027** — 93.54% complete (`###################.`), ~2.5 hours remaining.
+Epoch **1027** — 98.77% complete (`####################`), ~0.5 hours remaining.
 
-Slot 404,097 of 432,000. Lifetime transaction count: 544,888,177,763.
+Slot 426,700 of 432,000. Lifetime transaction count: 544,914,451,136.
 
 ## Transaction costs and slot timing
 
@@ -38,26 +38,26 @@ Slot 404,097 of 432,000. Lifetime transaction count: 544,888,177,763.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3168 s |
-| Deviation from 0.4s target | -20.8% |
+| Measured slot time (`getBlockTime`) | 0.3156 s |
+| Deviation from 0.4s target | -21.1% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 0 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 676 |
-| Delinquent validators | 19 (2.73%) |
-| Stake held by delinquents | 220,163 SOL (0.050%) |
-| Total active stake | 438,202,194 SOL |
+| Active validators | 675 |
+| Delinquent validators | 20 (2.88%) |
+| Stake held by delinquents | 384,060 SOL (0.088%) |
+| Total active stake | 438,038,297 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 243 |
+| Zero-commission validators | 242 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -65,42 +65,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,348,904 | 3.959% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,325,737 | 3.726% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,462,274 | 2.844% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,304,498 | 2.58% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,565,273 | 2.183% | 0% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,486 | 2.119% | 7% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,040,435 | 2.063% | 10% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,348,904 | 3.961% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,325,737 | 3.727% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,462,274 | 2.845% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,304,498 | 2.581% | 5% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,565,273 | 2.184% | 0% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,285,486 | 2.12% | 7% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,040,435 | 2.064% | 10% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,220,140 | 1.648% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,125,475 | 1.626% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,590,653 | 1.504% | 0% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,125,475 | 1.627% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,590,653 | 1.505% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $105.01 (up 5.28%) |
-| Market cap | $61.46B |
+| SOL price | $104.09 (up 4.54%) |
+| Market cap | $60.93B |
 | DeFi TVL | $5.97B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.29B (up 5.42%) |
-| Stablecoin supply | $16.00B |
+| Stablecoin supply | $16.17B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$736.14K** |
+| **REV (total)** | **$736.20K** |
 | Network fees | $612.58K |
-| MEV tips (out-of-protocol) | $123.57K (16.79% of REV) |
-| Annualised REV run-rate | $268.69M |
+| MEV tips (out-of-protocol) | $123.62K (16.79% of REV) |
+| Annualised REV run-rate | $268.71M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $105.96K |
+| Jito MEV Tips | $106.02K |
 | Harmonic | $11.79K |
 | bloXroute | $5.81K |
 
@@ -157,11 +157,11 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,322 |
+| Unique fee payers (sampled) | 1,538 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,475 |
-| Non-vote share of sample | 41.76% |
-| Signers per block | 440.7 |
+| Transactions in sample | 3,413 |
+| Non-vote share of sample | 40.52% |
+| Signers per block | 512.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -170,14 +170,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $1.02B |
-| Orca DEX | $267.01M |
+| Orca DEX | $272.99M |
 | BisonFi | $194.35M |
-| Manifest Trade | $182.56M |
-| Raydium AMM | $147.33M |
+| Manifest Trade | $177.76M |
+| Raydium AMM | $150.47M |
 
 ## Supply
 
-Circulating 585,274,531 SOL of 633,360,567 total (92.41%).
+Circulating 585,274,462 SOL of 633,360,498 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -278,6 +278,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 - **[Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)**
   Payment channels support 1 million payments per second by authorizing agent spending once, metering off-chain, and settling once on Solana.
+- **[How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction)**
+  Rent on Solana has been Reduced. Every Account Is Now Over-Funded. Here's How to Reclaim Excess SOL.
 - **[The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped)**
   More than $4.7 trillion in stablecoins moved across Solana in the past year as tokenized markets expand access to ownership and finance.
 - **[Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america)**
@@ -290,8 +292,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Feature gates reduced mainnet slot times from 400ms to 350ms, while Agave, Firedancer, and Solana Kit shipped updates.
 - **[Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic)**
   Solana will reduce its slot times from 400ms to 200ms. This change will make the protocol more competitive in terms of latency. Here we explore some possible implication on validators economic.
-- **[v1 Transactions and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)**
-  Solana is introducing a new transaction format (v1) alongside an increase of the maximum transaction size from 1232 bytes to 4096 bytes. The v1 format aims to unlock new possibilities on-chain. This is done trading-off …
 
 _Source: official Solana news feed (solana.com/news)._
 

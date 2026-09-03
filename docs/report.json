@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-03 20:58:11",
+  "captured_at": "2026-09-03 22:57:05",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3168,
+      "measured_slot_time_secs": 0.3156,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.8,
+      "deviation_from_target_pct": -21.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,75 +13,75 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3704.76,
-      "tps_non_vote": 1597.33,
-      "vote_share_pct": 56.88,
+      "tps_total": 3559.19,
+      "tps_non_vote": 1437.31,
+      "vote_share_pct": 59.62,
       "avg_slot_time_secs": 0.3168,
-      "latest_sample_slot": 444068056,
+      "latest_sample_slot": 444090680,
       "samples_used": 5,
-      "block_height": 422114768,
-      "current_slot": 444068097
+      "block_height": 422137260,
+      "current_slot": 444090699
     },
     "epoch": {
       "epoch": 1027,
-      "slot_index": 404097,
+      "slot_index": 426700,
       "slots_in_epoch": 432000,
-      "progress_pct": 93.54,
-      "eta_hours": 2.5,
-      "eta_basis_slot_secs": 0.3168,
-      "transaction_count": 544888177763
+      "progress_pct": 98.77,
+      "eta_hours": 0.5,
+      "eta_basis_slot_secs": 0.3156,
+      "transaction_count": 544914451136
     },
     "validators": {
-      "active_count": 676,
-      "delinquent_count": 19,
-      "delinquent_pct": 2.73,
-      "delinquent_stake_sol": 220162.83,
-      "delinquent_stake_pct": 0.05,
-      "total_active_stake_sol": 438202193.82,
+      "active_count": 675,
+      "delinquent_count": 20,
+      "delinquent_pct": 2.88,
+      "delinquent_stake_sol": 384060.13,
+      "delinquent_stake_pct": 0.088,
+      "total_active_stake_sol": 438038296.51,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 243,
+      "zero_commission_count": 242,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17348904.21,
-          "stake_pct": 3.959,
+          "stake_pct": 3.961,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16325736.95,
-          "stake_pct": 3.726,
+          "stake_pct": 3.727,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12462274.18,
-          "stake_pct": 2.844,
+          "stake_pct": 2.845,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 11304498.28,
-          "stake_pct": 2.58,
+          "stake_pct": 2.581,
           "commission": 5
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 9565272.65,
-          "stake_pct": 2.183,
+          "stake_pct": 2.184,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9285486.48,
-          "stake_pct": 2.119,
+          "stake_pct": 2.12,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 9040434.63,
-          "stake_pct": 2.063,
+          "stake_pct": 2.064,
           "commission": 10
         },
         {
@@ -93,20 +93,20 @@
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7125474.95,
-          "stake_pct": 1.626,
+          "stake_pct": 1.627,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 6590652.71,
-          "stake_pct": 1.504,
+          "stake_pct": 1.505,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 633360567.38,
-      "circulating_sol": 585274531.02,
+      "total_sol": 633360498.0,
+      "circulating_sol": 585274461.64,
       "non_circulating_sol": 48086036.36,
       "circulating_pct": 92.41
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "3jmRHofT2Ak3NtnJ9KybDUgqXPU41bu9QdhworisDuirXhr2jr2tvRwF1B5b37RrskJEWEsQiNjUWM48J1goZgN6",
-      "latest_block_time": 1788469088,
-      "errors_in_recent": 3
+      "latest_signature": "D8zapSVWDTyi4b2mraPQ3PLPL4VrYb24oVek6EuxB1bJwMSUyTZsSQUMnmHWaxj4YFE1UPTbkDtTYgBJ1JXjNa3",
+      "latest_block_time": 1788476225,
+      "errors_in_recent": 0
     },
     "activity": {
-      "unique_signers_sampled": 1322,
+      "unique_signers_sampled": 1538,
       "blocks_sampled": 3,
-      "transactions_sampled": 3475,
-      "non_vote_transactions_sampled": 1451,
-      "signers_per_block": 440.7,
-      "non_vote_share_pct": 41.76,
+      "transactions_sampled": 3413,
+      "non_vote_transactions_sampled": 1383,
+      "signers_per_block": 512.7,
+      "non_vote_share_pct": 40.52,
       "sampled_slots": [
-        444067919,
-        444066419,
-        444064919
+        444090528,
+        444089028,
+        444087528
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 105.01,
-      "change_24h_pct": 5.28,
-      "market_cap_usd": 61461017772.46974,
-      "volume_24h_usd": 4037052022.684535,
+      "usd": 104.09,
+      "change_24h_pct": 4.54,
+      "market_cap_usd": 60934892600.62478,
+      "volume_24h_usd": 4185210408.9233503,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5973010937.95,
+      "tvl_usd": 5974438932.01,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.76,
       "source": "defillama"
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 267008690
+          "volume_24h_usd": 272991998
         },
         {
           "name": "BisonFi",
@@ -179,41 +179,41 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 182558487
+          "volume_24h_usd": 177755695
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 147332320
+          "volume_24h_usd": 150470058
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15997777104.38,
+      "total_usd": 16170105999.87,
       "by_peg": {
-        "peggedUSD": 15932099392.55,
-        "peggedEUR": 60813717.33,
+        "peggedUSD": 16104424191.96,
+        "peggedEUR": 60850798.36,
         "peggedJPY": 52.79,
-        "peggedCHF": 1329207.88,
-        "peggedAUD": 75837.97,
-        "peggedVAR": 2479358.4,
-        "peggedGBP": 812941.66,
+        "peggedCHF": 1329547.52,
+        "peggedAUD": 75554.79,
+        "peggedVAR": 2446482.58,
+        "peggedGBP": 812777.1,
         "peggedTRY": 165124.86,
-        "peggedCAD": 1470.22,
+        "peggedCAD": 1469.2,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 736145,
+      "rev_24h_usd": 736198,
       "network_fees_24h_usd": 612579,
-      "mev_tips_24h_usd": 123566,
+      "mev_tips_24h_usd": 123619,
       "mev_share_of_rev_pct": 16.79,
-      "rev_annualised_usd": 268692925,
+      "rev_annualised_usd": 268712270,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 105962
+          "tips_24h_usd": 106015
         },
         {
           "name": "Harmonic",
@@ -2045,6 +2045,12 @@
         "summary": "Payment channels support 1 million payments per second by authorizing agent spending once, metering off-chain, and settling once on Solana."
       },
       {
+        "title": "How to Reclaim Excess SOL After Rent Reduction",
+        "link": "https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction",
+        "published": "Thu, 03 Sep 2026 15:15:00 GMT",
+        "summary": "Rent on Solana has been Reduced. Every Account Is Now Over-Funded. Here's How to Reclaim Excess SOL."
+      },
+      {
         "title": "The Token Supercycle: Everything of Value is Becoming Programmable",
         "link": "https://solana.com/news/the-token-supercycle-oped",
         "published": "Wed, 02 Sep 2026 09:00:00 GMT",
@@ -2079,12 +2085,6 @@
         "link": "https://solana.com/news/lowering-slot-time-and-validators-economic",
         "published": "Wed, 19 Aug 2026 10:00:00 GMT",
         "summary": "Solana will reduce its slot times from 400ms to 200ms. This change will make the protocol more competitive in terms of latency. Here we explore some possible implication on validators economic."
-      },
-      {
-        "title": "v1 Transactions and the ALT Trade-off",
-        "link": "https://solana.com/news/transaction-v1-and-the-alt-trade-off",
-        "published": "Mon, 17 Aug 2026 00:00:00 GMT",
-        "summary": "Solana is introducing a new transaction format (v1) alongside an increase of the maximum transaction size from 1232 bytes to 4096 bytes. The v1 format aims to unlock new possibilities on-chain. This is done trading-off \u2026"
       }
     ],
     "count": 8,
@@ -2381,37 +2381,37 @@
     {
       "metric": "equities_usd",
       "severity": "critical",
-      "message": "equities_usd is 5.7 sigma above its 288-point mean",
+      "message": "equities_usd is 5.4 sigma above its 288-point mean",
       "value": 486203910.79,
-      "expected": 448449399.5247
+      "expected": 448630173.3804
     },
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.3 sigma above its 288-point mean",
-      "value": 105.01,
-      "expected": 96.0366
+      "message": "price_usd is 2.1 sigma above its 288-point mean",
+      "value": 104.09,
+      "expected": 96.0968
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
       "message": "tvl_usd is 2.8 sigma above its 288-point mean",
-      "value": 5973010937.95,
-      "expected": 5594115133.7636
+      "value": 5974438932.01,
+      "expected": 5596508219.2063
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
-      "message": "rev_24h_usd is 2.5 sigma below its 287-point mean",
-      "value": 736145,
-      "expected": 1028868.2185
+      "message": "rev_24h_usd is 2.4 sigma below its 287-point mean",
+      "value": 736198,
+      "expected": 1027502.9014
     },
     {
       "metric": "rwa_total_usd",
       "severity": "warning",
       "message": "rwa_total_usd is 2.3 sigma above its 288-point mean",
       "value": 2109911380.8,
-      "expected": 1981371188.276
+      "expected": 1982084746.8595
     }
   ]
 }

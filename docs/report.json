@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-03 10:15:16",
+  "captured_at": "2026-09-03 14:35:09",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.315,
+      "measured_slot_time_secs": 0.3158,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -21.25,
+      "deviation_from_target_pct": -21.05,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3461.03,
-      "tps_non_vote": 1320.13,
-      "vote_share_pct": 61.86,
-      "avg_slot_time_secs": 0.3155,
-      "latest_sample_slot": 443945803,
+      "tps_total": 4096.43,
+      "tps_non_vote": 1995.03,
+      "vote_share_pct": 51.3,
+      "avg_slot_time_secs": 0.3178,
+      "latest_sample_slot": 443995299,
       "samples_used": 5,
-      "block_height": 421993018,
-      "current_slot": 443945805
+      "block_height": 422042376,
+      "current_slot": 443995364
     },
     "epoch": {
       "epoch": 1027,
-      "slot_index": 281805,
+      "slot_index": 331365,
       "slots_in_epoch": 432000,
-      "progress_pct": 65.23,
-      "eta_hours": 13.1,
-      "eta_basis_slot_secs": 0.315,
-      "transaction_count": 544734092725
+      "progress_pct": 76.7,
+      "eta_hours": 8.8,
+      "eta_basis_slot_secs": 0.3158,
+      "transaction_count": 544790445779
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 18,
-      "delinquent_pct": 2.59,
-      "delinquent_stake_sol": 201987.05,
-      "delinquent_stake_pct": 0.046,
-      "total_active_stake_sol": 438220369.6,
+      "active_count": 676,
+      "delinquent_count": 19,
+      "delinquent_pct": 2.73,
+      "delinquent_stake_sol": 220162.83,
+      "delinquent_stake_pct": 0.05,
+      "total_active_stake_sol": 438202193.82,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 244,
+      "zero_commission_count": 243,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -51,7 +51,7 @@
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16325736.95,
-          "stake_pct": 3.725,
+          "stake_pct": 3.726,
           "commission": 0
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 633360973.31,
-      "circulating_sol": 585274936.97,
-      "non_circulating_sol": 48086036.34,
+      "total_sol": 633360824.26,
+      "circulating_sol": 585274787.9,
+      "non_circulating_sol": 48086036.36,
       "circulating_pct": 92.41
     },
     "transaction_fees": {
@@ -126,43 +126,43 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "5SrXhMCsk4LXzeWUvhiYoLuqWiR9oX6HFVXFdaB4LZnBwzN1sGXxVNRnYBPCdH4psXMojf2FWwu3SAN9csEso6XT",
-      "latest_block_time": 1788430514,
-      "errors_in_recent": 5
+      "latest_signature": "42ZySR86Lruws5mWbZ4xxjDP4zXKuE52mTqXyXs69dUWjFVq2F4Wk2xP35g3fDfyeZKomWTUf73PhCYfcMbvzLwc",
+      "latest_block_time": 1788446109,
+      "errors_in_recent": 4
     },
     "activity": {
-      "unique_signers_sampled": 1497,
+      "unique_signers_sampled": 2073,
       "blocks_sampled": 3,
-      "transactions_sampled": 3540,
-      "non_vote_transactions_sampled": 1475,
-      "signers_per_block": 499.0,
-      "non_vote_share_pct": 41.67,
+      "transactions_sampled": 4121,
+      "non_vote_transactions_sampled": 2113,
+      "signers_per_block": 691.0,
+      "non_vote_share_pct": 51.27,
       "sampled_slots": [
-        443945631,
-        443944131,
-        443942631
+        443995194,
+        443993694,
+        443992194
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 100.02,
-      "change_24h_pct": 1.55,
-      "market_cap_usd": 58545923992.95149,
-      "volume_24h_usd": 3118195262.2818975,
+      "usd": 103.04,
+      "change_24h_pct": 4.03,
+      "market_cap_usd": 60306521238.10322,
+      "volume_24h_usd": 3278853023.413366,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5764489031.26,
+      "tvl_usd": 5778278666.76,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.73,
+      "share_of_all_chains_pct": 6.75,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2327024999.32,
-      "volume_7d_usd": 16711816286.669998,
-      "change_24h_pct": 7.16,
+      "volume_24h_usd": 2289285889.32,
+      "volume_7d_usd": 16853370672.669998,
+      "change_24h_pct": 5.42,
       "protocol_count": 121,
       "top_dexes": [
         {
@@ -171,7 +171,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 218272629
+          "volume_24h_usd": 223805356
         },
         {
           "name": "BisonFi",
@@ -179,7 +179,7 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 164285156
+          "volume_24h_usd": 194253523
         },
         {
           "name": "Meteora DLMM",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15756585084.28,
+      "total_usd": 15950842044.16,
       "by_peg": {
-        "peggedUSD": 15690357230.88,
-        "peggedEUR": 61377889.27,
-        "peggedJPY": 49.5,
-        "peggedCHF": 1318253.97,
-        "peggedAUD": 75738.99,
-        "peggedVAR": 2476839.47,
-        "peggedGBP": 812518.65,
-        "peggedTRY": 165099.16,
-        "peggedCAD": 1463.7,
+        "peggedUSD": 15885247033.09,
+        "peggedEUR": 60747264.78,
+        "peggedJPY": 52.76,
+        "peggedCHF": 1328076.53,
+        "peggedAUD": 75607.89,
+        "peggedVAR": 2464890.25,
+        "peggedGBP": 812481.79,
+        "peggedTRY": 165172.7,
+        "peggedCAD": 1463.69,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 727550,
+      "rev_24h_usd": 727270,
       "network_fees_24h_usd": 612579,
-      "mev_tips_24h_usd": 114971,
-      "mev_share_of_rev_pct": 15.8,
-      "rev_annualised_usd": 265555750,
+      "mev_tips_24h_usd": 114691,
+      "mev_share_of_rev_pct": 15.77,
+      "rev_annualised_usd": 265453550,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 97367
+          "tips_24h_usd": 97087
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 5810
         }
       ],
-      "app_fees_24h_usd": 11210281.149999999,
-      "app_fees_7d_usd": 91110940.36999999,
-      "app_fees_30d_usd": 334457558.61999905,
-      "app_fees_change_24h_pct": -11.36,
+      "app_fees_24h_usd": 10438849.149999999,
+      "app_fees_7d_usd": 91837783.36999999,
+      "app_fees_30d_usd": 335184401.61999905,
+      "app_fees_change_24h_pct": -17.46,
       "protocol_count": 310,
       "top_fee_earning_apps": [
         {
@@ -239,16 +239,16 @@
           "fees_24h_usd": 1463779
         },
         {
-          "name": "fomo Wallet",
-          "fees_24h_usd": 1351360
-        },
-        {
           "name": "Axiom",
           "fees_24h_usd": 893142
         },
         {
           "name": "Solana",
           "fees_24h_usd": 612579
+        },
+        {
+          "name": "fomo Wallet",
+          "fees_24h_usd": 582936
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2043,6 +2043,12 @@
         "summary": "More than $4.7 trillion in stablecoins moved across Solana in the past year as tokenized markets expand access to ownership and finance."
       },
       {
+        "title": "Webinar Recap: Cross-Border Payments in Latin America",
+        "link": "https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america",
+        "published": "Tue, 01 Sep 2026 09:00:00 GMT",
+        "summary": "Jorge Borges, Head of Latin America at Fireblocks, and Antonio Neto of the Solana Foundation discussed how firms across LATAM are putting stablecoin payments into production."
+      },
+      {
         "title": "Solana Changelog: August 27, 2026",
         "link": "https://solana.com/news/solana-changelog-august-27-2026",
         "published": "Fri, 28 Aug 2026 16:00:00 GMT",
@@ -2077,12 +2083,6 @@
         "link": "https://solana.com/news/solana-changelog-august-13-2026",
         "published": "Thu, 13 Aug 2026 15:03:00 GMT",
         "summary": "Slot times to 250ms on testnet and releases from Agave and Firedancer."
-      },
-      {
-        "title": "How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi",
-        "link": "https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi",
-        "published": "Thu, 13 Aug 2026 02:06:00 GMT",
-        "summary": "Meow lets AI agents form a company and apply for a business bank account in one prompt, with payment rails spanning ACH, USDC, SOL, and more."
       }
     ],
     "count": 8,
@@ -2379,16 +2379,23 @@
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
-      "message": "rev_24h_usd is 2.7 sigma below its 287-point mean",
-      "value": 727550,
-      "expected": 1033036.7864
+      "message": "rev_24h_usd is 2.6 sigma below its 287-point mean",
+      "value": 727270,
+      "expected": 1031644.0199
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.3 sigma above its 288-point mean",
+      "message": "equities_usd is 2.2 sigma above its 288-point mean",
       "value": 462182541.25,
-      "expected": 448073893.0239
+      "expected": 448171259.3465
+    },
+    {
+      "metric": "unique_signers_sampled",
+      "severity": "warning",
+      "message": "unique_signers_sampled is 2.9 sigma above its 288-point mean",
+      "value": 2073,
+      "expected": 1525.0312
     }
   ]
 }

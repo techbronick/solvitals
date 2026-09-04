@@ -1,13 +1,12 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-04 09:34:40 UTC by SolVitals.
+Generated 2026-09-04 13:45:26 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 5.0 sigma above its 288-point mean
-- [CRITICAL] **rwa_total_usd** — rwa_total_usd is 3.1 sigma above its 288-point mean
-- [CRITICAL] **equities_usd** — equities_usd is 4.7 sigma above its 288-point mean
-- [WARNING] **price_usd** — price_usd is 2.1 sigma above its 288-point mean
+- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.9 sigma above its 288-point mean
+- [CRITICAL] **rwa_total_usd** — rwa_total_usd is 3.0 sigma above its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 4.5 sigma above its 288-point mean
 - [WARNING] **tvl_usd** — tvl_usd is 2.3 sigma above its 288-point mean
 - [WARNING] **rev_24h_usd** — rev_24h_usd is 2.5 sigma below its 287-point mean
 
@@ -15,20 +14,20 @@ Generated 2026-09-04 09:34:40 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,232.93 |
-| Total TPS (incl. votes) | 3,352.01 |
-| Vote share of transactions | 63.22% |
-| Average slot time | 0.3168 s |
-| Current slot | 444,212,089 |
-| Block height | 422,258,124 |
+| Non-vote TPS | 1,947.44 |
+| Total TPS (incl. votes) | 4,067.34 |
+| Vote share of transactions | 52.12% |
+| Average slot time | 0.3141 s |
+| Current slot | 444,259,792 |
+| Block height | 422,305,658 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1028** — 26.87% complete (`#####...............`), ~27.7 hours remaining.
+Epoch **1028** — 37.92% complete (`########............`), ~23.7 hours remaining.
 
-Slot 116,089 of 432,000. Lifetime transaction count: 545,043,983,153.
+Slot 163,793 of 432,000. Lifetime transaction count: 545,099,944,153.
 
 ## Transaction costs and slot timing
 
@@ -39,14 +38,14 @@ Slot 116,089 of 432,000. Lifetime transaction count: 545,043,983,153.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3158 s |
-| Deviation from 0.4s target | -21.05% |
+| Measured slot time (`getBlockTime`) | 0.318 s |
+| Deviation from 0.4s target | -20.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -81,27 +80,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.32 (up 3.98%) |
-| Market cap | $61.06B |
-| DeFi TVL | $5.91B |
+| SOL price | $101.66 (down 0.27%) |
+| Market cap | $59.50B |
+| DeFi TVL | $5.92B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.37B (up 3.68%) |
-| Stablecoin supply | $16.30B |
+| DEX volume (24h) | $2.46B (up 7.44%) |
+| Stablecoin supply | $16.31B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$716.15K** |
+| **REV (total)** | **$716.07K** |
 | Network fees | $594.53K |
-| MEV tips (out-of-protocol) | $121.63K (16.98% of REV) |
-| Annualised REV run-rate | $261.40M |
+| MEV tips (out-of-protocol) | $121.54K (16.97% of REV) |
+| Annualised REV run-rate | $261.37M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $105.05K |
+| Jito MEV Tips | $104.96K |
 | Harmonic | $11.52K |
 | bloXroute | $5.06K |
 
@@ -111,17 +110,17 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $10.96M (up 4.01%) |
-| 7 days | $86.22M |
-| 30 days | $335.61M |
+| 24 hours | $11.71M (up 11.14%) |
+| 7 days | $87.70M |
+| 30 days | $337.09M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $3.09M |
+| fomo Wallet | $1.33M |
 | pump.fun | $1.31M |
 | Axiom | $781.93K |
 | Solana | $594.53K |
-| fomo Wallet | $582.97K |
 
 ## Tokenized assets
 
@@ -158,11 +157,11 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,225 |
+| Unique fee payers (sampled) | 1,700 |
 | Blocks sampled | 3 |
-| Transactions in sample | 2,911 |
-| Non-vote share of sample | 30.64% |
-| Signers per block | 408.3 |
+| Transactions in sample | 3,783 |
+| Non-vote share of sample | 46.23% |
+| Signers per block | 566.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -171,14 +170,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $838.66M |
-| Orca DEX | $282.43M |
+| Orca DEX | $274.00M |
 | BisonFi | $232.51M |
 | Meteora DLMM | $186.49M |
-| Manifest Trade | $177.59M |
+| Manifest Trade | $164.40M |
 
 ## Supply
 
-Circulating 585,360,434 SOL of 633,455,459 total (92.41%).
+Circulating 585,360,287 SOL of 633,455,312 total (92.41%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -291,8 +290,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Breakpoint comes to London November 15–17, bringing 8,000+ attendees and leaders from capital markets, payments, technology and policy.
 - **[Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026)**
   Feature gates reduced mainnet slot times from 400ms to 350ms, while Agave, Firedancer, and Solana Kit shipped updates.
-- **[Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic)**
-  Solana will reduce its slot times from 400ms to 200ms. This change will make the protocol more competitive in terms of latency. Here we explore some possible implication on validators economic.
+- **[Resource and Inclusion Fee: Digging into Data](https://solana.com/news/resource-and-inclusion-fee-digging-into-data)**
+  Here we dive into implications related to the SGP-0003 (namely resource and inclusion fee).
 
 _Source: official Solana news feed (solana.com/news)._
 

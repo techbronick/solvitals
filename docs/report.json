@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-05 05:54:58",
+  "captured_at": "2026-09-05 09:34:11",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3146,
+      "measured_slot_time_secs": 0.3142,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -21.35,
+      "deviation_from_target_pct": -21.45,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3089.33,
-      "tps_non_vote": 936.62,
-      "vote_share_pct": 69.68,
-      "avg_slot_time_secs": 0.3132,
-      "latest_sample_slot": 444444189,
+      "tps_total": 3113.05,
+      "tps_non_vote": 977.24,
+      "vote_share_pct": 68.61,
+      "avg_slot_time_secs": 0.3141,
+      "latest_sample_slot": 444486114,
       "samples_used": 5,
-      "block_height": 422489171,
-      "current_slot": 444444318
+      "block_height": 422530766,
+      "current_slot": 444486085
     },
     "epoch": {
       "epoch": 1028,
-      "slot_index": 348318,
+      "slot_index": 390085,
       "slots_in_epoch": 432000,
-      "progress_pct": 80.63,
-      "eta_hours": 7.3,
-      "eta_basis_slot_secs": 0.3146,
-      "transaction_count": 545305791846
+      "progress_pct": 90.3,
+      "eta_hours": 3.7,
+      "eta_basis_slot_secs": 0.3142,
+      "transaction_count": 545347748570
     },
     "validators": {
       "active_count": 677,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 633454768.42,
-      "circulating_sol": 585359743.07,
+      "total_sol": 633454657.37,
+      "circulating_sol": 585359632.02,
       "non_circulating_sol": 48095025.35,
       "circulating_pct": 92.41
     },
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "Ta64XZYDHcmMGsKBmPst6KTaUn5uKg6vZQJoFjpm51fmP37GFvaA4VdqAutjvv2Xfm1jgySBcCAedno31hnJ3Up",
-      "latest_block_time": 1788587695,
-      "errors_in_recent": 2
+      "latest_signature": "BtRzyJTdRUK6ASdrciJcK6MgESSBgu3Hpbno9W6R9e9kRTNCRzrLE96jmAu5hD1HCrQkzSDYQoRo61cnbHV9mDe",
+      "latest_block_time": 1788600848,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1439,
+      "unique_signers_sampled": 1490,
       "blocks_sampled": 3,
-      "transactions_sampled": 3613,
-      "non_vote_transactions_sampled": 1482,
-      "signers_per_block": 479.7,
-      "non_vote_share_pct": 41.02,
+      "transactions_sampled": 2978,
+      "non_vote_transactions_sampled": 992,
+      "signers_per_block": 496.7,
+      "non_vote_share_pct": 33.31,
       "sampled_slots": [
-        444444140,
-        444442640,
-        444441140
+        444485909,
+        444484409,
+        444482909
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 101.82,
-      "change_24h_pct": -1.59,
-      "market_cap_usd": 59613916944.11597,
-      "volume_24h_usd": 3154534083.770178,
+      "usd": 102.56,
+      "change_24h_pct": -1.69,
+      "market_cap_usd": 60034773751.88548,
+      "volume_24h_usd": 2865054134.7948785,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5857790263.29,
+      "tvl_usd": 5862625040.38,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.7,
       "source": "defillama"
@@ -183,37 +183,37 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 156925806
+          "volume_24h_usd": 145243729
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16321183317.23,
+      "total_usd": 16315766298.3,
       "by_peg": {
-        "peggedUSD": 16252718933.72,
-        "peggedEUR": 63619696.12,
+        "peggedUSD": 16247353949.09,
+        "peggedEUR": 63603563.72,
         "peggedJPY": 53.84,
-        "peggedCHF": 1332054.03,
-        "peggedAUD": 75437.31,
-        "peggedVAR": 2453923.35,
-        "peggedGBP": 815271.57,
+        "peggedCHF": 1282763.87,
+        "peggedAUD": 75477.1,
+        "peggedVAR": 2467283.17,
+        "peggedGBP": 815260.2,
         "peggedTRY": 166479.02,
-        "peggedCAD": 1467.56,
+        "peggedCAD": 1467.59,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 651593,
+      "rev_24h_usd": 646513,
       "network_fees_24h_usd": 531246,
-      "mev_tips_24h_usd": 120347,
-      "mev_share_of_rev_pct": 18.47,
-      "rev_annualised_usd": 237831445,
+      "mev_tips_24h_usd": 115267,
+      "mev_share_of_rev_pct": 17.83,
+      "rev_annualised_usd": 235977245,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 105884
+          "tips_24h_usd": 100804
         },
         {
           "name": "Harmonic",
@@ -2381,37 +2381,30 @@
     {
       "metric": "stablecoins_usd",
       "severity": "critical",
-      "message": "stablecoins_usd is 3.7 sigma above its 288-point mean",
-      "value": 16321183317.23,
-      "expected": 15888507046.0159
+      "message": "stablecoins_usd is 3.5 sigma above its 288-point mean",
+      "value": 16315766298.3,
+      "expected": 15890130242.0622
     },
     {
       "metric": "rwa_total_usd",
       "severity": "critical",
-      "message": "rwa_total_usd is 5.5 sigma above its 288-point mean",
+      "message": "rwa_total_usd is 5.2 sigma above its 288-point mean",
       "value": 2358927682.8,
-      "expected": 1991887230.5585
-    },
-    {
-      "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.1 sigma below its 288-point mean",
-      "value": 936.62,
-      "expected": 2040.6885
+      "expected": 1993455005.7045
     },
     {
       "metric": "rev_24h_usd",
       "severity": "warning",
       "message": "rev_24h_usd is 2.8 sigma below its 287-point mean",
-      "value": 651593,
-      "expected": 1018517.7864
+      "value": 646513,
+      "expected": 1017467.8561
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.7 sigma above its 288-point mean",
       "value": 473398660.8,
-      "expected": 450081016.9002
+      "expected": 450206643.7055
     }
   ]
 }

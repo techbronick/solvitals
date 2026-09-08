@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-08 13:35:55",
+  "captured_at": "2026-09-08 17:28:43",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3166,
+      "measured_slot_time_secs": 0.3172,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.85,
+      "deviation_from_target_pct": -20.7,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4773.45,
-      "tps_non_vote": 2651.19,
-      "vote_share_pct": 44.46,
-      "avg_slot_time_secs": 0.3175,
-      "latest_sample_slot": 445351060,
+      "tps_total": 5099.43,
+      "tps_non_vote": 2998.78,
+      "vote_share_pct": 41.19,
+      "avg_slot_time_secs": 0.3202,
+      "latest_sample_slot": 445395119,
       "samples_used": 5,
-      "block_height": 423395188,
-      "current_slot": 445351204
+      "block_height": 423439186,
+      "current_slot": 445395230
     },
     "epoch": {
-      "epoch": 1030,
-      "slot_index": 391205,
+      "epoch": 1031,
+      "slot_index": 3232,
       "slots_in_epoch": 432000,
-      "progress_pct": 90.56,
-      "eta_hours": 3.6,
-      "eta_basis_slot_secs": 0.3166,
-      "transaction_count": 546343095403
+      "progress_pct": 0.75,
+      "eta_hours": 37.8,
+      "eta_basis_slot_secs": 0.3172,
+      "transaction_count": 546405762604
     },
     "validators": {
       "active_count": 676,
-      "delinquent_count": 12,
-      "delinquent_pct": 1.74,
-      "delinquent_stake_sol": 45505.51,
-      "delinquent_stake_pct": 0.01,
-      "total_active_stake_sol": 439432482.67,
+      "delinquent_count": 11,
+      "delinquent_pct": 1.6,
+      "delinquent_stake_sol": 52551.0,
+      "delinquent_stake_pct": 0.012,
+      "total_active_stake_sol": 438600953.75,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 242,
+      "zero_commission_count": 244,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 17438540.52,
-          "stake_pct": 3.968,
+          "stake_sol": 17436766.29,
+          "stake_pct": 3.976,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 16336963.68,
-          "stake_pct": 3.718,
+          "stake_sol": 16345792.11,
+          "stake_pct": 3.727,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12517399.06,
-          "stake_pct": 2.849,
+          "stake_sol": 12527540.03,
+          "stake_pct": 2.856,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 11397824.23,
-          "stake_pct": 2.594,
+          "stake_sol": 11388333.25,
+          "stake_pct": 2.597,
           "commission": 5
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 9564411.53,
-          "stake_pct": 2.177,
+          "stake_sol": 9566720.67,
+          "stake_pct": 2.181,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9181909.19,
-          "stake_pct": 2.089,
+          "stake_sol": 9286723.46,
+          "stake_pct": 2.117,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 9038443.43,
-          "stake_pct": 2.057,
+          "stake_sol": 9027480.9,
+          "stake_pct": 2.058,
           "commission": 10
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7384460.72,
-          "stake_pct": 1.68,
+          "stake_sol": 7322727.53,
+          "stake_pct": 1.67,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 6858928.88,
-          "stake_pct": 1.561,
+          "stake_sol": 6860585.29,
+          "stake_pct": 1.564,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-          "stake_sol": 6595420.72,
-          "stake_pct": 1.501,
+          "stake_sol": 6604065.81,
+          "stake_pct": 1.506,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 633642483.57,
-      "circulating_sol": 586165204.22,
-      "non_circulating_sol": 47477279.35,
+      "total_sol": 633737473.92,
+      "circulating_sol": 586251411.8,
+      "non_circulating_sol": 47486062.11,
       "circulating_pct": 92.51
     },
     "transaction_fees": {
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "3fdjprrBuxFW4jXTQzwzmmE89oGFsZuvEoQUtXzWVu8R7mVr9Fmxz16ZqjbEBf1gPtCpLWZ1PLekvEaBra5NdRip",
-      "latest_block_time": 1788874552,
-      "errors_in_recent": 2
+      "latest_signature": "3oKDbq3raJzqM8YHRcbHyMPptWui1ZyQon5hqDQ1z8ThrkK2oamMj3fc5XctbJpPixNAQpyU4ySc4Z2jUyA7LeBJ",
+      "latest_block_time": 1788888529,
+      "errors_in_recent": 1
     },
     "activity": {
-      "unique_signers_sampled": 1698,
+      "unique_signers_sampled": 1391,
       "blocks_sampled": 3,
-      "transactions_sampled": 3694,
-      "non_vote_transactions_sampled": 1685,
-      "signers_per_block": 566.0,
-      "non_vote_share_pct": 45.61,
+      "transactions_sampled": 4332,
+      "non_vote_transactions_sampled": 2266,
+      "signers_per_block": 463.7,
+      "non_vote_share_pct": 52.31,
       "sampled_slots": [
-        445351027,
-        445349527,
-        445348027
+        445395070,
+        445393570,
+        445392070
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 102.49,
-      "change_24h_pct": -2.56,
-      "market_cap_usd": 60077566135.13337,
-      "volume_24h_usd": 2919870559.5136995,
+      "usd": 103.71,
+      "change_24h_pct": -0.33,
+      "market_cap_usd": 60807919626.373024,
+      "volume_24h_usd": 2937084031.4433804,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5892500167.55,
+      "tvl_usd": 5913201681.37,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.73,
       "source": "defillama"
@@ -171,7 +171,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 278886358
+          "volume_24h_usd": 294880007
         },
         {
           "name": "Orca DEX",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16271433085.01,
+      "total_usd": 16184278315.89,
       "by_peg": {
-        "peggedUSD": 16206674071.66,
-        "peggedEUR": 59973412.72,
-        "peggedJPY": 53.58,
-        "peggedCHF": 1252148.01,
-        "peggedAUD": 75449.71,
-        "peggedVAR": 2473592.5,
-        "peggedGBP": 816479.78,
+        "peggedUSD": 16119483279.85,
+        "peggedEUR": 60012426.0,
+        "peggedJPY": 53.52,
+        "peggedCHF": 1257187.36,
+        "peggedAUD": 75031.44,
+        "peggedVAR": 2465509.95,
+        "peggedGBP": 816950.95,
         "peggedTRY": 166408.59,
-        "peggedCAD": 1467.76,
+        "peggedCAD": 1467.54,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 886646,
+      "rev_24h_usd": 891123,
       "network_fees_24h_usd": 750652,
-      "mev_tips_24h_usd": 135994,
-      "mev_share_of_rev_pct": 15.34,
-      "rev_annualised_usd": 323625790,
+      "mev_tips_24h_usd": 140471,
+      "mev_share_of_rev_pct": 15.76,
+      "rev_annualised_usd": 325259895,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 119576
+          "tips_24h_usd": 124053
         },
         {
           "name": "Harmonic",
@@ -224,9 +224,9 @@
           "tips_24h_usd": 6192
         }
       ],
-      "app_fees_24h_usd": 15653198.209999995,
-      "app_fees_7d_usd": 86562826.98000006,
-      "app_fees_30d_usd": 354239026.6099995,
+      "app_fees_24h_usd": 15653179.209999995,
+      "app_fees_7d_usd": 86562821.98000006,
+      "app_fees_30d_usd": 354239021.6099995,
       "app_fees_change_24h_pct": 6.81,
       "protocol_count": 310,
       "top_fee_earning_apps": [
@@ -236,11 +236,11 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 1660627
+          "fees_24h_usd": 1660608
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 1329370
+          "fees_24h_usd": 1464923
         },
         {
           "name": "Axiom",
@@ -2033,7 +2033,13 @@
   "news": {
     "items": [
       {
-        "title": "# How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor",
+        "title": "Report: Stablecoins Are Reshaping Remittances",
+        "link": "https://solana.com/news/report-stablecoins-are-reshaping-remittances",
+        "published": "Tue, 08 Sep 2026 13:14:00 GMT",
+        "summary": "New report on stablecoin remittances covering four implementation paths for money transfer operators, corridor overviews, and case studies."
+      },
+      {
+        "title": "How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor",
         "link": "https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor",
         "published": "Mon, 07 Sep 2026 07:00:00 GMT",
         "summary": "BitRobot open-sourced 2,000 hours of robot navigation data and uses Solana to track and reward embodied AI data contributors."
@@ -2073,12 +2079,6 @@
         "link": "https://solana.com/news/solana-changelog-august-27-2026",
         "published": "Fri, 28 Aug 2026 16:00:00 GMT",
         "summary": "V1 Transactions are approaching, while a 300ms slot-time feature gate reached Mainnet and new releases shipped across Solana tooling."
-      },
-      {
-        "title": "The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London",
-        "link": "https://solana.com/news/breakpoint-2026-london-speakers",
-        "published": "Thu, 27 Aug 2026 04:15:00 GMT",
-        "summary": "Breakpoint comes to London November 15\u201317, bringing 8,000+ attendees and leaders from capital markets, payments, technology and policy."
       }
     ],
     "count": 8,
@@ -2102,10 +2102,12 @@
     "pending_on_mainnet": 12,
     "cluster_versions": {
       "mainnet": "4.2.2",
-      "testnet": "4.3.0-beta.3",
+      "testnet": null,
       "devnet": "4.3.0-beta.3"
     },
-    "clusters_unreachable": [],
+    "clusters_unreachable": [
+      "testnet"
+    ],
     "highlights": [
       {
         "simd": "0326",
@@ -2146,7 +2148,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         },
         "gate_assigned": true
@@ -2171,7 +2173,7 @@
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2183,7 +2185,7 @@
         "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2195,7 +2197,7 @@
         "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2207,7 +2209,7 @@
         "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2219,7 +2221,7 @@
         "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2231,7 +2233,7 @@
         "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2243,7 +2245,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2255,7 +2257,7 @@
         "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2267,7 +2269,7 @@
         "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2279,7 +2281,7 @@
         "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2291,7 +2293,7 @@
         "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2303,7 +2305,7 @@
         "feature_gate": "RMsTKfD6hZnBhhNvgGBeKNrqCNkeoP3DYYxNtcuWtRg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       }
@@ -2314,21 +2316,21 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Start the week with @WSOP poker https://t.co/sAXVEGov7T",
-        "created_at": "Mon Sep 07 20:46:10 +0000 2026",
-        "url": "https://x.com/solana/status/2097063901279997970"
+        "text": "> tokenize equities > make them composable > pair them with anything on @launchonsf > trade & route them through @raydium on solana https://t.co/QH8BrdnpCf",
+        "created_at": "Tue Sep 08 17:01:59 +0000 2026",
+        "url": "https://x.com/solana/status/2097369871814107194"
       },
       {
         "handle": "solana",
-        "text": "https://t.co/5oeNnYguvf",
-        "created_at": "Mon Sep 07 19:00:27 +0000 2026",
-        "url": "https://x.com/solana/status/2097037299435585682"
+        "text": "In the 1970s, the same stock traded in a dozen places at once with no shared feed showing all the prices. Brokers had to call around and hope they got a good one. It took an act of Congress to build one tape everyone could read. On-chain, \u2026",
+        "created_at": "Tue Sep 08 16:59:35 +0000 2026",
+        "url": "https://x.com/solana/status/2097369267414909372"
       },
       {
         "handle": "solana",
-        "text": "make a confidential transfer. on Solana. Right now. live on https://t.co/vhoQ701uCC https://t.co/G8ULcG7kEc",
-        "created_at": "Mon Sep 07 17:33:24 +0000 2026",
-        "url": "https://x.com/solana/status/2097015389448183872"
+        "text": "Solana accounts for 12% of onchain RWA market cap. But 32% of RWA spot volume. We worked with @Solana to look beyond assets issued and ask a different question: how are RWAs being used onchain? Across 12 months of data, we found $14.7B in \u2026",
+        "created_at": "Tue Sep 08 16:00:35 +0000 2026",
+        "url": "https://x.com/solana/status/2097354419524518299"
       },
       {
         "handle": "solanalabs",
@@ -2373,11 +2375,18 @@
   },
   "anomalies": [
     {
+      "metric": "tps_non_vote",
+      "severity": "warning",
+      "message": "tps_non_vote is 2.1 sigma above its 288-point mean",
+      "value": 2998.78,
+      "expected": 1938.817
+    },
+    {
       "metric": "rwa_total_usd",
       "severity": "warning",
       "message": "rwa_total_usd is 2.7 sigma above its 288-point mean",
       "value": 2356387783.43,
-      "expected": 2030747954.6846
+      "expected": 2032276058.1264
     }
   ]
 }

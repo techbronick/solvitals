@@ -1,29 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-08 13:35:55 UTC by SolVitals.
+Generated 2026-09-08 17:28:43 UTC by SolVitals.
 
 ## Alerts
 
+- [WARNING] **tps_non_vote** — tps_non_vote is 2.1 sigma above its 288-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.7 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,651.19 |
-| Total TPS (incl. votes) | 4,773.45 |
-| Vote share of transactions | 44.46% |
-| Average slot time | 0.3175 s |
-| Current slot | 445,351,204 |
-| Block height | 423,395,188 |
+| Non-vote TPS | 2,998.78 |
+| Total TPS (incl. votes) | 5,099.43 |
+| Vote share of transactions | 41.19% |
+| Average slot time | 0.3202 s |
+| Current slot | 445,395,230 |
+| Block height | 423,439,186 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1030** — 90.56% complete (`##################..`), ~3.6 hours remaining.
+Epoch **1031** — 0.75% complete (`....................`), ~37.8 hours remaining.
 
-Slot 391,205 of 432,000. Lifetime transaction count: 546,343,095,403.
+Slot 3,232 of 432,000. Lifetime transaction count: 546,405,762,604.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +35,26 @@ Slot 391,205 of 432,000. Lifetime transaction count: 546,343,095,403.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3166 s |
-| Deviation from 0.4s target | -20.85% |
+| Measured slot time (`getBlockTime`) | 0.3172 s |
+| Deviation from 0.4s target | -20.7% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active validators | 676 |
-| Delinquent validators | 12 (1.74%) |
-| Stake held by delinquents | 45,506 SOL (0.010%) |
-| Total active stake | 439,432,483 SOL |
+| Delinquent validators | 11 (1.60%) |
+| Stake held by delinquents | 52,551 SOL (0.012%) |
+| Total active stake | 438,600,954 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 242 |
+| Zero-commission validators | 244 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,42 +62,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,438,541 | 3.968% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,336,964 | 3.718% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,517,399 | 2.849% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,397,824 | 2.594% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,564,412 | 2.177% | 0% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,181,909 | 2.089% | 7% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,038,443 | 2.057% | 10% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,384,461 | 1.68% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,858,929 | 1.561% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,595,421 | 1.501% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,436,766 | 3.976% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,345,792 | 3.727% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,527,540 | 2.856% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,388,333 | 2.597% | 5% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,566,721 | 2.181% | 0% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,286,723 | 2.117% | 7% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,027,481 | 2.058% | 10% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,322,728 | 1.67% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,860,585 | 1.564% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,604,066 | 1.506% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $102.49 (down 2.56%) |
-| Market cap | $60.08B |
-| DeFi TVL | $5.89B |
+| SOL price | $103.71 (down 0.33%) |
+| Market cap | $60.81B |
+| DeFi TVL | $5.91B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.72B (down 6.33%) |
-| Stablecoin supply | $16.27B |
+| Stablecoin supply | $16.18B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$886.65K** |
+| **REV (total)** | **$891.12K** |
 | Network fees | $750.65K |
-| MEV tips (out-of-protocol) | $135.99K (15.34% of REV) |
-| Annualised REV run-rate | $323.63M |
+| MEV tips (out-of-protocol) | $140.47K (15.76% of REV) |
+| Annualised REV run-rate | $325.26M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $119.58K |
+| Jito MEV Tips | $124.05K |
 | Harmonic | $10.23K |
 | bloXroute | $6.19K |
 
@@ -114,7 +115,7 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 | --- | --- |
 | PumpSwap | $3.76M |
 | fomo Wallet | $1.66M |
-| Raydium AMM | $1.33M |
+| Raydium AMM | $1.46M |
 | Axiom | $1.27M |
 | pump.fun | $1.23M |
 
@@ -152,11 +153,11 @@ Fees earned by the 310 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,698 |
+| Unique fee payers (sampled) | 1,391 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,694 |
-| Non-vote share of sample | 45.61% |
-| Signers per block | 566.0 |
+| Transactions in sample | 4,332 |
+| Non-vote share of sample | 52.31% |
+| Signers per block | 463.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,14 +166,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $873.43M |
-| Raydium AMM | $278.89M |
+| Raydium AMM | $294.88M |
 | Orca DEX | $218.84M |
 | BisonFi | $204.07M |
 | Meteora DLMM | $195.35M |
 
 ## Supply
 
-Circulating 586,165,204 SOL of 633,642,484 total (92.51%).
+Circulating 586,251,412 SOL of 633,737,474 total (92.51%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -202,9 +203,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Start the week with @WSOP poker https://t.co/sAXVEGov7T [(link)](https://x.com/solana/status/2097063901279997970)
-- **@solana** — https://t.co/5oeNnYguvf [(link)](https://x.com/solana/status/2097037299435585682)
-- **@solana** — make a confidential transfer. on Solana. Right now. live on https://t.co/vhoQ701uCC https://t.co/G8ULcG7kEc [(link)](https://x.com/solana/status/2097015389448183872)
+- **@solana** — > tokenize equities > make them composable > pair them with anything on @launchonsf > trade & route them through @raydium on solana https://t.co/QH8BrdnpCf [(link)](https://x.com/solana/status/2097369871814107194)
+- **@solana** — In the 1970s, the same stock traded in a dozen places at once with no shared feed showing all the prices. Brokers had to call around and hope they got a good one. It took an act of Congress to build one tape everyone could read. On-chain, … [(link)](https://x.com/solana/status/2097369267414909372)
+- **@solana** — Solana accounts for 12% of onchain RWA market cap. But 32% of RWA spot volume. We worked with @Solana to look beyond assets issued and ask a different question: how are RWAs being used onchain? Across 12 months of data, we found $14.7B in … [(link)](https://x.com/solana/status/2097354419524518299)
 - **@solanalabs** — CLOCK IN - a Solana Mobile Hackathon by @RadiantsDAO is coming 🔜 September 8 - October 8 It’s almost time to clock-in. https://t.co/bTj0T14Ib8 https://t.co/yw2x79n83C [(link)](https://x.com/solanalabs/status/2095546195229716737)
 - **@solana** — $166,946.50 raised for Nepal flood relief. Thank you to everyone that took part. Your logos will be up on our pfp and pinned post for the next week. https://t.co/YssiVQk9eH [(link)](https://x.com/solana/status/2095173372158394780)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
@@ -236,7 +237,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.2` · testnet `4.3.0-beta.3` · devnet `4.3.0-beta.3`
+**Cluster versions:** mainnet `4.2.2` · testnet `unknown` · devnet `4.3.0-beta.3`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 
@@ -247,7 +248,7 @@ _Clusters are running different versions, which is itself a rollout-in-progress 
 | SIMD-0326 | Alpenglow | Review | no gate assigned yet |
 | SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
 | SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
-| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: not created, devnet: not created |
+| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: unknown (RPC unreachable), devnet: not created |
 | SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
 
 _A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
@@ -256,22 +257,24 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 | SIMD | Feature | Mainnet | Testnet | Devnet |
 | --- | --- | --- | --- | --- |
-| SIMD-0163 | `None` | not created | not created | not created |
-| SIMD-0178 | `None` | not created | not created | not created |
-| SIMD-0189 | `None` | not created | not created | not created |
-| SIMD-0219 | `None` | not created | not created | not created |
-| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
-| SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
-| SIMD-0384 | `None` | not created | not created | not created |
-| SIMD-0387 | `None` | not created | not created | not created |
-| SIMD-0406 | `None` | not created | not created | not created |
-| SIMD-0430 | `None` | not created | not created | not created |
-| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
-| SIMD-0599 | `None` | not created | not created | not created |
+| SIMD-0163 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0178 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0189 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0219 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0290 | `relax_fee_payer_constraint` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0384 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0387 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0406 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0430 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0599 | `None` | not created | unknown (RPC unreachable) | not created |
 
 ## Ecosystem and community news
 
-- **[# How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)**
+- **[Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances)**
+  New report on stablecoin remittances covering four implementation paths for money transfer operators, corridor overviews, and case studies.
+- **[How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)**
   BitRobot open-sourced 2,000 hours of robot navigation data and uses Solana to track and reward embodied AI data contributors.
 - **[Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)**
   Solana’s August 2026 roundup: record transactions, $4B in RWAs, growing stablecoin payments, tokenized stocks, DeFi innovation, ETFs, and governance.
@@ -285,8 +288,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Jorge Borges, Head of Latin America at Fireblocks, and Antonio Neto of the Solana Foundation discussed how firms across LATAM are putting stablecoin payments into production.
 - **[Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)**
   V1 Transactions are approaching, while a 300ms slot-time feature gate reached Mainnet and new releases shipped across Solana tooling.
-- **[The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers)**
-  Breakpoint comes to London November 15–17, bringing 8,000+ attendees and leaders from capital markets, payments, technology and policy.
 
 _Source: official Solana news feed (solana.com/news)._
 

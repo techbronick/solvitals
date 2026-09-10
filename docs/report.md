@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-10 09:09:48 UTC by SolVitals.
+Generated 2026-09-10 13:33:34 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ Generated 2026-09-10 09:09:48 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,408.71 |
-| Total TPS (incl. votes) | 3,557.04 |
-| Vote share of transactions | 60.40% |
-| Average slot time | 0.3141 s |
-| Current slot | 445,846,312 |
-| Block height | 423,889,699 |
+| Non-vote TPS | 2,485.16 |
+| Total TPS (incl. votes) | 4,604.72 |
+| Vote share of transactions | 46.03% |
+| Average slot time | 0.3171 s |
+| Current slot | 445,896,398 |
+| Block height | 423,939,767 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1032** — 5.17% complete (`#...................`), ~35.9 hours remaining.
+Epoch **1032** — 16.76% complete (`###.................`), ~31.8 hours remaining.
 
-Slot 22,313 of 432,000. Lifetime transaction count: 546,989,388,119.
+Slot 72,399 of 432,000. Lifetime transaction count: 547,051,410,227.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 22,313 of 432,000. Lifetime transaction count: 546,989,388,119.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3154 s |
-| Deviation from 0.4s target | -21.15% |
+| Measured slot time (`getBlockTime`) | 0.3186 s |
+| Deviation from 0.4s target | -20.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 1 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 6 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 678 |
-| Delinquent validators | 10 (1.45%) |
-| Stake held by delinquents | 36,766 SOL (0.008%) |
-| Total active stake | 439,151,447 SOL |
+| Active validators | 676 |
+| Delinquent validators | 12 (1.74%) |
+| Stake held by delinquents | 106,170 SOL (0.024%) |
+| Total active stake | 439,082,043 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 244 |
+| Zero-commission validators | 243 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -62,13 +62,13 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,441,456 | 3.972% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,324,959 | 3.717% | 0% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,324,959 | 3.718% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,523,951 | 2.852% | 0% |
 | 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,380,651 | 2.592% | 5% |
 | 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,569,332 | 2.179% | 0% |
 | 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,279,796 | 2.113% | 7% |
 | 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,036,257 | 2.058% | 10% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,344,636 | 1.672% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,344,636 | 1.673% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,880,702 | 1.567% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,550,397 | 1.492% | 0% |
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.24 (down 3.20%) |
-| Market cap | $59.36B |
-| DeFi TVL | $5.86B |
+| SOL price | $99.32 (down 4.97%) |
+| Market cap | $58.24B |
+| DeFi TVL | $5.83B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.56B (down 5.68%) |
-| Stablecoin supply | $16.25B |
+| DEX volume (24h) | $3.00B (up 10.69%) |
+| Stablecoin supply | $16.26B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.18M** |
 | Network fees | $978.48K |
-| MEV tips (out-of-protocol) | $205.56K (17.36% of REV) |
-| Annualised REV run-rate | $432.17M |
+| MEV tips (out-of-protocol) | $205.36K (17.35% of REV) |
+| Annualised REV run-rate | $432.10M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $177.67K |
+| Jito MEV Tips | $177.47K |
 | Harmonic | $20.43K |
 | bloXroute | $7.46K |
 
@@ -106,45 +106,45 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $15.57M (down 5.98%) |
-| 7 days | $92.80M |
-| 30 days | $364.81M |
+| 24 hours | $15.44M (down 7.56%) |
+| 7 days | $95.00M |
+| 30 days | $367.01M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $3.36M |
 | Axiom | $1.88M |
-| fomo Wallet | $1.78M |
-| Raydium AMM | $1.43M |
+| fomo Wallet | $1.52M |
 | pump.fun | $1.41M |
+| Raydium AMM | $1.20M |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $2.35B |
-| Tokenized equities | $462.00M (19.69% of RWA) |
+| Total tokenized RWA | $2.34B |
+| Tokenized equities | $460.17M (19.63% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| xStocks | $436.12M | -1.855% |
-| Ondo Global Markets | $25.88M | -1.043% |
+| xStocks | $434.63M | -1.421% |
+| Ondo Global Markets | $25.55M | -1.355% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
 | BlackRock BUIDL | $992.17M | RWA |
-| xStocks | $436.12M | RWA |
-| OnRe | $307.23M | RWA |
-| Ondo Yield Assets | $179.80M | RWA |
-| Huma Finance V2 | $167.13M | RWA |
-| Hastra | $149.40M | RWA |
-| Ondo Global Markets | $25.88M | RWA |
-| Plume Vaults | $25.76M | RWA |
+| xStocks | $434.63M | RWA |
+| OnRe | $307.42M | RWA |
+| Ondo Yield Assets | $180.12M | RWA |
+| Huma Finance V2 | $166.91M | RWA |
+| Hastra | $148.83M | RWA |
+| Plume Vaults | $26.43M | RWA |
+| Ondo Global Markets | $25.55M | RWA |
 | Apollo Diversified Credit Securitize Fund | $18.39M | RWA |
 | VanEck Treasury Fund | $13.96M | RWA |
 
@@ -152,11 +152,11 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,292 |
+| Unique fee payers (sampled) | 1,708 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,299 |
-| Non-vote share of sample | 38.56% |
-| Signers per block | 430.7 |
+| Transactions in sample | 3,991 |
+| Non-vote share of sample | 51.74% |
+| Signers per block | 569.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -164,15 +164,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Raydium AMM | $385.00M |
+| BisonFi | $402.77M |
+| Raydium AMM | $355.61M |
 | PumpSwap | $340.96M |
 | Meteora DLMM | $322.25M |
-| BisonFi | $249.32M |
-| Orca DEX | $177.14M |
+| HumidiFi | $285.64M |
 
 ## Supply
 
-Circulating 586,335,930 SOL of 633,831,042 total (92.51%).
+Circulating 586,335,606 SOL of 633,830,878 total (92.51%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -237,7 +237,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.2.2` · testnet `unknown` · devnet `4.3.0-rc.0`
+**Cluster versions:** mainnet `4.2.2` · testnet `4.3.0-rc.0` · devnet `4.3.0-rc.0`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 
@@ -248,7 +248,7 @@ _Clusters are running different versions, which is itself a rollout-in-progress 
 | SIMD-0326 | Alpenglow | Review | no gate assigned yet |
 | SIMD-0337 | Markers for Alpenglow Fast Leader Handover | Review | no gate assigned yet |
 | SIMD-0357 | Alpenglow Validator Admission Ticket | Review | no gate assigned yet |
-| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: unknown (RPC unreachable), devnet: not created |
+| SIMD-0384 | Alpenglow migration | Review | mainnet: not created, testnet: not created, devnet: not created |
 | SIMD-0525 | Reduce Slot Times | Draft | no gate assigned yet |
 
 _A proposal with no feature gate has not reached the point of being switchable on any cluster. Alpenglow is at that stage today._
@@ -257,18 +257,18 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 | SIMD | Feature | Mainnet | Testnet | Devnet |
 | --- | --- | --- | --- | --- |
-| SIMD-0163 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0178 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0189 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0219 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0290 | `relax_fee_payer_constraint` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0384 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0387 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0406 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0430 | `None` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | unknown (RPC unreachable) | not created |
-| SIMD-0599 | `None` | not created | unknown (RPC unreachable) | not created |
+| SIMD-0163 | `None` | not created | not created | not created |
+| SIMD-0178 | `None` | not created | not created | not created |
+| SIMD-0189 | `None` | not created | not created | not created |
+| SIMD-0219 | `None` | not created | not created | not created |
+| SIMD-0268 | `raise_cpi_nesting_limit_to_8` | not created | not created | not created |
+| SIMD-0290 | `relax_fee_payer_constraint` | not created | not created | not created |
+| SIMD-0384 | `None` | not created | not created | not created |
+| SIMD-0387 | `None` | not created | not created | not created |
+| SIMD-0406 | `None` | not created | not created | not created |
+| SIMD-0430 | `None` | not created | not created | not created |
+| SIMD-0529 | `enable_big_mod_exp_syscall` | not created | not created | not created |
+| SIMD-0599 | `None` | not created | not created | not created |
 
 ## Ecosystem and community news
 

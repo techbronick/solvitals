@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-10 09:09:48",
+  "captured_at": "2026-09-10 13:33:34",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3154,
+      "measured_slot_time_secs": 0.3186,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -21.15,
+      "deviation_from_target_pct": -20.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3557.04,
-      "tps_non_vote": 1408.71,
-      "vote_share_pct": 60.4,
-      "avg_slot_time_secs": 0.3141,
-      "latest_sample_slot": 445846193,
+      "tps_total": 4604.72,
+      "tps_non_vote": 2485.16,
+      "vote_share_pct": 46.03,
+      "avg_slot_time_secs": 0.3171,
+      "latest_sample_slot": 445896329,
       "samples_used": 5,
-      "block_height": 423889699,
-      "current_slot": 445846312
+      "block_height": 423939767,
+      "current_slot": 445896398
     },
     "epoch": {
       "epoch": 1032,
-      "slot_index": 22313,
+      "slot_index": 72399,
       "slots_in_epoch": 432000,
-      "progress_pct": 5.17,
-      "eta_hours": 35.9,
-      "eta_basis_slot_secs": 0.3154,
-      "transaction_count": 546989388119
+      "progress_pct": 16.76,
+      "eta_hours": 31.8,
+      "eta_basis_slot_secs": 0.3186,
+      "transaction_count": 547051410227
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 10,
-      "delinquent_pct": 1.45,
-      "delinquent_stake_sol": 36766.48,
-      "delinquent_stake_pct": 0.008,
-      "total_active_stake_sol": 439151446.56,
+      "active_count": 676,
+      "delinquent_count": 12,
+      "delinquent_pct": 1.74,
+      "delinquent_stake_sol": 106170.0,
+      "delinquent_stake_pct": 0.024,
+      "total_active_stake_sol": 439082043.04,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 244,
+      "zero_commission_count": 243,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -51,7 +51,7 @@
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16324959.09,
-          "stake_pct": 3.717,
+          "stake_pct": 3.718,
           "commission": 0
         },
         {
@@ -87,7 +87,7 @@
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7344636.21,
-          "stake_pct": 1.672,
+          "stake_pct": 1.673,
           "commission": 7
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 633831042.33,
-      "circulating_sol": 586335929.59,
-      "non_circulating_sol": 47495112.75,
+      "total_sol": 633830878.03,
+      "circulating_sol": 586335605.5,
+      "non_circulating_sol": 47495272.53,
       "circulating_pct": 92.51
     },
     "transaction_fees": {
@@ -126,48 +126,52 @@
       "label": "SPL Token program",
       "balance_sol": 0.1988,
       "recent_signature_count": 10,
-      "latest_signature": "dftxeZMbgkiiu6Wi6eHRRAdJ7H6rAw4z8DLdQeEtqrpLpTs1EdJjqk7cbPSxu7hw9WCyMtVspn16uHBRQDfoXJg",
-      "latest_block_time": 1789031388,
-      "errors_in_recent": 1
+      "latest_signature": "P9MLtwBPwNV5NDYmKetUbhdmkEofAnRb6J7RTZZmyzjX5SNJjGi3fCTvmYS7U2vSrbLUxhdoG13zQfZ2d52MF4r",
+      "latest_block_time": 1789047215,
+      "errors_in_recent": 6
     },
     "activity": {
-      "unique_signers_sampled": 1292,
+      "unique_signers_sampled": 1708,
       "blocks_sampled": 3,
-      "transactions_sampled": 3299,
-      "non_vote_transactions_sampled": 1272,
-      "signers_per_block": 430.7,
-      "non_vote_share_pct": 38.56,
+      "transactions_sampled": 3991,
+      "non_vote_transactions_sampled": 2065,
+      "signers_per_block": 569.3,
+      "non_vote_share_pct": 51.74,
       "sampled_slots": [
-        445846143,
-        445844643,
-        445843143
+        445896229,
+        445894729,
+        445893229
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 101.24,
-      "change_24h_pct": -3.2,
-      "market_cap_usd": 59361291175.83862,
-      "volume_24h_usd": 3262254497.516085,
+      "usd": 99.32,
+      "change_24h_pct": -4.97,
+      "market_cap_usd": 58236861530.675644,
+      "volume_24h_usd": 3491529667.4375596,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5860404237.91,
+      "tvl_usd": 5830159879.0,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.66,
+      "share_of_all_chains_pct": 6.64,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2556732104.63,
-      "volume_7d_usd": 16126102807.68,
-      "change_24h_pct": -5.68,
+      "volume_24h_usd": 3000435429.63,
+      "volume_7d_usd": 17542118391.679996,
+      "change_24h_pct": 10.69,
       "protocol_count": 122,
       "top_dexes": [
         {
+          "name": "BisonFi",
+          "volume_24h_usd": 402765962
+        },
+        {
           "name": "Raydium AMM",
-          "volume_24h_usd": 385003862
+          "volume_24h_usd": 355605440
         },
         {
           "name": "PumpSwap",
@@ -178,42 +182,38 @@
           "volume_24h_usd": 322249810
         },
         {
-          "name": "BisonFi",
-          "volume_24h_usd": 249320268
-        },
-        {
-          "name": "Orca DEX",
-          "volume_24h_usd": 177136400
+          "name": "HumidiFi",
+          "volume_24h_usd": 285639061
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16247482906.28,
+      "total_usd": 16255502076.26,
       "by_peg": {
-        "peggedUSD": 16182790855.0,
-        "peggedEUR": 59956617.82,
-        "peggedJPY": 54.5,
-        "peggedCHF": 1267735.99,
-        "peggedAUD": 75513.34,
-        "peggedVAR": 2407131.15,
-        "peggedGBP": 817255.2,
+        "peggedUSD": 16191943612.15,
+        "peggedEUR": 58841804.3,
+        "peggedJPY": 54.33,
+        "peggedCHF": 1257747.15,
+        "peggedAUD": 75578.16,
+        "peggedVAR": 2411995.14,
+        "peggedGBP": 803543.52,
         "peggedTRY": 166273.92,
-        "peggedCAD": 1468.67,
+        "peggedCAD": 1466.88,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1184034,
+      "rev_24h_usd": 1183834,
       "network_fees_24h_usd": 978477,
-      "mev_tips_24h_usd": 205557,
-      "mev_share_of_rev_pct": 17.36,
-      "rev_annualised_usd": 432172410,
+      "mev_tips_24h_usd": 205357,
+      "mev_share_of_rev_pct": 17.35,
+      "rev_annualised_usd": 432099410,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 177671
+          "tips_24h_usd": 177471
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 7456
         }
       ],
-      "app_fees_24h_usd": 15570962.170000002,
-      "app_fees_7d_usd": 92801699.7100001,
-      "app_fees_30d_usd": 364813042.3899996,
-      "app_fees_change_24h_pct": -5.98,
+      "app_fees_24h_usd": 15441079.170000002,
+      "app_fees_7d_usd": 95000144.7100001,
+      "app_fees_30d_usd": 367011487.3899996,
+      "app_fees_change_24h_pct": -7.56,
       "protocol_count": 311,
       "top_fee_earning_apps": [
         {
@@ -240,37 +240,37 @@
         },
         {
           "name": "fomo Wallet",
-          "fees_24h_usd": 1783544
-        },
-        {
-          "name": "Raydium AMM",
-          "fees_24h_usd": 1432623
+          "fees_24h_usd": 1523883
         },
         {
           "name": "pump.fun",
           "fees_24h_usd": 1412179
+        },
+        {
+          "name": "Raydium AMM",
+          "fees_24h_usd": 1200858
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 2346122388.93,
+      "total_rwa_usd": 2344647875.02,
       "protocol_count": 25,
-      "equities_usd": 461997817.09,
-      "equities_share_pct": 19.69,
+      "equities_usd": 460173195.08,
+      "equities_share_pct": 19.63,
       "equity_protocols": [
         {
           "name": "xStocks",
-          "tvl_usd": 436122295.26,
-          "change_24h_pct": -1.855,
+          "tvl_usd": 434627260.46,
+          "change_24h_pct": -1.421,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 25875521.83,
-          "change_24h_pct": -1.043,
+          "tvl_usd": 25545934.62,
+          "change_24h_pct": -1.355,
           "category": "RWA",
           "is_equity": true
         }
@@ -278,64 +278,64 @@
       "top_protocols": [
         {
           "name": "BlackRock BUIDL",
-          "tvl_usd": 992172103.0,
+          "tvl_usd": 992172103,
           "change_24h_pct": -0.571,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "xStocks",
-          "tvl_usd": 436122295.26,
-          "change_24h_pct": -1.855,
+          "tvl_usd": 434627260.46,
+          "change_24h_pct": -1.421,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "OnRe",
-          "tvl_usd": 307229735.74,
-          "change_24h_pct": 0.918,
+          "tvl_usd": 307417419.04,
+          "change_24h_pct": 0.747,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 179795945.74,
-          "change_24h_pct": -0.139,
+          "tvl_usd": 180122035.51,
+          "change_24h_pct": 0.392,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma Finance V2",
-          "tvl_usd": 167134730.03,
-          "change_24h_pct": -1.376,
+          "tvl_usd": 166905080.67,
+          "change_24h_pct": 0.162,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 149397347.57,
-          "change_24h_pct": -0.334,
+          "tvl_usd": 148831858.03,
+          "change_24h_pct": -0.568,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "Plume Vaults",
+          "tvl_usd": 26429252.19,
+          "change_24h_pct": 2.54,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 25875521.83,
-          "change_24h_pct": -1.043,
+          "tvl_usd": 25545934.62,
+          "change_24h_pct": -1.355,
           "category": "RWA",
           "is_equity": true
         },
         {
-          "name": "Plume Vaults",
-          "tvl_usd": 25756837.95,
-          "change_24h_pct": 2.827,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 18389647.37,
-          "change_24h_pct": 0.015,
+          "tvl_usd": 18385826.53,
+          "change_24h_pct": 0.032,
           "category": "RWA",
           "is_equity": false
         },
@@ -2040,7 +2040,7 @@
       "Validators App"
     ],
     "metric_count": 12,
-    "generated_at": "2026-09-09T19:49:16.835Z",
+    "generated_at": "2026-09-10T00:54:36.241Z",
     "range_days": 90,
     "source": "solana.com/data",
     "note": "Official solana.com metric feed. Keyless and unauthenticated; republishes provider-computed analytics including Dune."
@@ -2117,12 +2117,10 @@
     "pending_on_mainnet": 12,
     "cluster_versions": {
       "mainnet": "4.2.2",
-      "testnet": null,
+      "testnet": "4.3.0-rc.0",
       "devnet": "4.3.0-rc.0"
     },
-    "clusters_unreachable": [
-      "testnet"
-    ],
+    "clusters_unreachable": [],
     "highlights": [
       {
         "simd": "0326",
@@ -2163,7 +2161,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         },
         "gate_assigned": true
@@ -2188,7 +2186,7 @@
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2200,7 +2198,7 @@
         "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2212,7 +2210,7 @@
         "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2224,7 +2222,7 @@
         "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2236,7 +2234,7 @@
         "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2248,7 +2246,7 @@
         "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2260,7 +2258,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2272,7 +2270,7 @@
         "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2284,7 +2282,7 @@
         "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2296,7 +2294,7 @@
         "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2308,7 +2306,7 @@
         "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2320,7 +2318,7 @@
         "feature_gate": "RMsTKfD6hZnBhhNvgGBeKNrqCNkeoP3DYYxNtcuWtRg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       }
@@ -2393,8 +2391,8 @@
       "metric": "rwa_total_usd",
       "severity": "warning",
       "message": "rwa_total_usd is 2.2 sigma above its 288-point mean",
-      "value": 2346122388.93,
-      "expected": 2049301209.39
+      "value": 2344647875.02,
+      "expected": 2050659903.3691
     }
   ]
 }

@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-10 13:33:34 UTC by SolVitals.
+Generated 2026-09-10 17:10:39 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.2 sigma above its 288-point mean
+- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.1 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,485.16 |
-| Total TPS (incl. votes) | 4,604.72 |
-| Vote share of transactions | 46.03% |
-| Average slot time | 0.3171 s |
-| Current slot | 445,896,398 |
-| Block height | 423,939,767 |
+| Non-vote TPS | 1,762.92 |
+| Total TPS (incl. votes) | 3,905.13 |
+| Vote share of transactions | 54.86% |
+| Average slot time | 0.3148 s |
+| Current slot | 445,937,445 |
+| Block height | 423,980,798 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1032** — 16.76% complete (`###.................`), ~31.8 hours remaining.
+Epoch **1032** — 26.26% complete (`#####...............`), ~28.1 hours remaining.
 
-Slot 72,399 of 432,000. Lifetime transaction count: 547,051,410,227.
+Slot 113,448 of 432,000. Lifetime transaction count: 547,106,615,206.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 72,399 of 432,000. Lifetime transaction count: 547,051,410,227.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3186 s |
-| Deviation from 0.4s target | -20.35% |
+| Measured slot time (`getBlockTime`) | 0.318 s |
+| Deviation from 0.4s target | -20.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.1988 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 676 |
+| Active validators | 677 |
 | Delinquent validators | 12 (1.74%) |
 | Stake held by delinquents | 106,170 SOL (0.024%) |
 | Total active stake | 439,082,043 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 243 |
+| Zero-commission validators | 242 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $99.32 (down 4.97%) |
-| Market cap | $58.24B |
-| DeFi TVL | $5.83B |
+| SOL price | $99.69 (down 3.59%) |
+| Market cap | $58.45B |
+| DeFi TVL | $5.78B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $3.00B (up 10.69%) |
-| Stablecoin supply | $16.26B |
+| Stablecoin supply | $16.04B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.18M** |
+| **REV (total)** | **$1.19M** |
 | Network fees | $978.48K |
-| MEV tips (out-of-protocol) | $205.36K (17.35% of REV) |
-| Annualised REV run-rate | $432.10M |
+| MEV tips (out-of-protocol) | $207.18K (17.47% of REV) |
+| Annualised REV run-rate | $432.76M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $177.47K |
+| Jito MEV Tips | $179.29K |
 | Harmonic | $20.43K |
 | bloXroute | $7.46K |
 
@@ -106,9 +106,9 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $15.44M (down 7.56%) |
-| 7 days | $95.00M |
-| 30 days | $367.01M |
+| 24 hours | $15.72M (down 5.90%) |
+| 7 days | $95.33M |
+| 30 days | $367.34M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -116,7 +116,7 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 | Axiom | $1.88M |
 | fomo Wallet | $1.52M |
 | pump.fun | $1.41M |
-| Raydium AMM | $1.20M |
+| Raydium AMM | $1.29M |
 
 ## Tokenized assets
 
@@ -152,11 +152,11 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,708 |
+| Unique fee payers (sampled) | 1,654 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,991 |
-| Non-vote share of sample | 51.74% |
-| Signers per block | 569.3 |
+| Transactions in sample | 3,720 |
+| Non-vote share of sample | 45.62% |
+| Signers per block | 551.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -165,14 +165,14 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 | DEX | Volume (24h) |
 | --- | --- |
 | BisonFi | $402.77M |
-| Raydium AMM | $355.61M |
+| Raydium AMM | $352.68M |
 | PumpSwap | $340.96M |
 | Meteora DLMM | $322.25M |
 | HumidiFi | $285.64M |
 
 ## Supply
 
-Circulating 586,335,606 SOL of 633,830,878 total (92.51%).
+Circulating 586,335,459 SOL of 633,830,732 total (92.51%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -203,10 +203,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — The launchpad wars have arrived. Who will win? $STONK and $PONS are now available to trade with leverage on Phoenix: https://t.co/ilc2LEijVC https://t.co/VWbGXKAvr8 [(link)](https://x.com/solana/status/2097771106077737347)
-- **@solana** — ⬜️ https://t.co/lFPbNqfRVj [(link)](https://x.com/solana/status/2097767709169607114)
-- **@solana** — NEW: @world_xyz launches its official prediction market platform on @Solana for over 1 million waitlisted users, powered by Chainlink. Hundreds of markets across sports, crypto, politics, culture, and more. Chainlink. The prediction market… [(link)](https://x.com/solana/status/2097674520978964562)
-- **@solana** — Solana 带着全新的Solana Accelerate China 回来了！一场为科技创造而来的四城巡回之旅 @solana_zh。 10 月 16 日至 22 日，上海、杭州、深圳、北京，Solana 隆重邀请开发者、创业者和投资人加入我们，一起交流、演示，探索中外科技新趋势 https://t.co/FNPFjwvyPr [(link)](https://x.com/solana/status/2097604734027022813)
+- **@solana** — Kings and queens at the ready 2026 WSOP Super Circuit Canada - Main Event continues https://t.co/4IcBPWT1dK [(link)](https://x.com/solana/status/2098094615869981067)
+- **@solana** — Tokenized stocks, now on @Pumpfun. Launch Pumpfun tokens paired with 30+ tokenized stocks issued by Backpack Securities, including $SPCX, $NKE, $RDDT, $LULU, $MU, $SKHY and $AMC. More on the way. All on @Solana. Redeemable 1:1 for the unde… [(link)](https://x.com/solana/status/2098086411614519335)
+- **@solana** — $GRND has been live and tradable on Raydium for ~1 hour. Since launch: - $11.4M+ in trading volume - 150K+ trades - 34K+ wallets Stonk szn on Solana. [(link)](https://x.com/solana/status/2098075151170412925)
+- **@solana** — Tap UP or DOWN to trade👆🏽 Real onchain orderbook on Solana! Powered by @PhoenixTrade🧡 https://t.co/MBN22WoB6g [(link)](https://x.com/solana/status/2098048896521969728)
 - **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)
 - **@solanalabs** — CLOCK IN - a Solana Mobile Hackathon by @RadiantsDAO is coming 🔜 September 8 - October 8 It’s almost time to clock-in. https://t.co/bTj0T14Ib8 https://t.co/yw2x79n83C [(link)](https://x.com/solanalabs/status/2095546195229716737)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)

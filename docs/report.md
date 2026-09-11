@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-11 21:07:49 UTC by SolVitals.
+Generated 2026-09-11 23:13:12 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **equities_usd** — equities_usd is 5.8 sigma below its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 5.5 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,328.26 |
-| Total TPS (incl. votes) | 4,436.51 |
-| Vote share of transactions | 47.52% |
-| Average slot time | 0.3161 s |
-| Current slot | 446,255,164 |
-| Block height | 424,298,178 |
+| Non-vote TPS | 1,859.99 |
+| Total TPS (incl. votes) | 3,962.86 |
+| Vote share of transactions | 53.06% |
+| Average slot time | 0.3185 s |
+| Current slot | 446,278,909 |
+| Block height | 424,321,816 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1032** — 99.81% complete (`####################`), ~0.1 hours remaining.
+Epoch **1033** — 5.3% complete (`#...................`), ~35.9 hours remaining.
 
-Slot 431,164 of 432,000. Lifetime transaction count: 547,510,912,877.
+Slot 22,909 of 432,000. Lifetime transaction count: 547,544,571,841.
 
 ## Transaction costs and slot timing
 
@@ -41,19 +41,19 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active validators | 676 |
-| Delinquent validators | 14 (2.03%) |
-| Stake held by delinquents | 3,058,888 SOL (0.696%) |
-| Total active stake | 436,129,325 SOL |
+| Delinquent validators | 13 (1.89%) |
+| Stake held by delinquents | 2,971,402 SOL (0.680%) |
+| Total active stake | 433,866,279 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 239 |
+| Zero-commission validators | 242 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,48 +61,48 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,441,456 | 3.999% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,324,959 | 3.743% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,523,951 | 2.872% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,380,651 | 2.609% | 5% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,569,332 | 2.194% | 0% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,279,796 | 2.128% | 7% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,036,257 | 2.072% | 10% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,344,636 | 1.684% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,880,702 | 1.578% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,550,397 | 1.502% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,557,397 | 4.047% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,359,842 | 3.771% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,516,388 | 2.885% | 0% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,367,276 | 2.62% | 5% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,667,435 | 2.228% | 0% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,234,081 | 2.128% | 7% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,021,415 | 2.079% | 10% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,357,834 | 1.696% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,941,562 | 1.6% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,551,099 | 1.51% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $102.46 (up 2.41%) |
-| Market cap | $60.09B |
-| DeFi TVL | $5.87B |
+| SOL price | $102.14 (up 3.06%) |
+| Market cap | $59.92B |
+| DeFi TVL | $5.89B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.92B (down 2.61%) |
-| Stablecoin supply | $16.30B |
+| Stablecoin supply | $16.21B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$876.96K** |
+| **REV (total)** | **$875.90K** |
 | Network fees | $709.33K |
-| MEV tips (out-of-protocol) | $167.63K (19.12% of REV) |
-| Annualised REV run-rate | $320.09M |
+| MEV tips (out-of-protocol) | $166.57K (19.02% of REV) |
+| Annualised REV run-rate | $319.70M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $147.06K |
+| Jito MEV Tips | $146.00K |
 | Harmonic | $12.75K |
 | bloXroute | $7.82K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 312 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
@@ -113,7 +113,7 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $2.79M |
-| Raydium AMM | $1.75M |
+| Raydium AMM | $2.07M |
 | Axiom | $1.40M |
 | fomo Wallet | $1.33M |
 | pump.fun | $1.14M |
@@ -122,41 +122,41 @@ Fees earned by the 311 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $1.90B |
-| Tokenized equities | $25.88M (1.36% of RWA) |
+| Total tokenized RWA | $1.91B |
+| Tokenized equities | $26.38M (1.38% of RWA) |
 | RWA protocols on Solana | 25 |
 
 ### Tokenized equity issuers
 
 | Protocol | Value | 24h |
 | --- | --- | --- |
-| Ondo Global Markets | $25.40M | 1.652% |
-| Remora Markets | $481.59K | 0.332% |
+| Ondo Global Markets | $25.90M | 0.638% |
+| Remora Markets | $487.34K | 1.533% |
 
 ### Largest tokenized-asset protocols
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| BlackRock BUIDL | $992.51M | RWA |
-| OnRe | $294.72M | RWA |
-| Ondo Yield Assets | $179.85M | RWA |
-| Huma Finance V2 | $170.16M | RWA |
-| Hastra | $150.67M | RWA |
-| Plume Vaults | $27.21M | RWA |
-| Ondo Global Markets | $25.40M | RWA |
-| Apollo Diversified Credit Securitize Fund | $18.38M | RWA |
+| BlackRock BUIDL | $992.60M | RWA |
+| OnRe | $294.75M | RWA |
+| Ondo Yield Assets | $180.12M | RWA |
+| Huma Finance V2 | $173.85M | RWA |
+| Hastra | $150.47M | RWA |
+| Plume Vaults | $27.43M | RWA |
+| Ondo Global Markets | $25.90M | RWA |
+| Apollo Diversified Credit Securitize Fund | $18.33M | RWA |
 | VanEck Treasury Fund | $14.06M | RWA |
-| MatrixDock XAUM | $6.90M | RWA |
+| MatrixDock XAUM | $6.84M | RWA |
 
 ## Address activity
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,805 |
+| Unique fee payers (sampled) | 1,417 |
 | Blocks sampled | 3 |
-| Transactions in sample | 4,049 |
-| Non-vote share of sample | 50.85% |
-| Signers per block | 601.7 |
+| Transactions in sample | 3,941 |
+| Non-vote share of sample | 48.24% |
+| Signers per block | 472.3 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -164,15 +164,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Raydium AMM | $505.05M |
+| Raydium AMM | $546.27M |
 | PumpSwap | $468.14M |
 | BisonFi | $395.81M |
 | HumidiFi | $322.67M |
-| Tessera V | $232.00M |
+| Orca DEX | $283.81M |
 
 ## Supply
 
-Circulating 586,537,101 SOL of 633,829,666 total (92.54%).
+Circulating 586,623,169 SOL of 633,924,633 total (92.54%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -202,10 +202,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Kings and queens at the ready 2026 WSOP Super Circuit Canada - Main Event continues https://t.co/4IcBPWT1dK [(link)](https://x.com/solana/status/2098094615869981067)
-- **@solana** — Tokenized stocks, now on @Pumpfun. Launch Pumpfun tokens paired with 30+ tokenized stocks issued by Backpack Securities, including $SPCX, $NKE, $RDDT, $LULU, $MU, $SKHY and $AMC. More on the way. All on @Solana. Redeemable 1:1 for the unde… [(link)](https://x.com/solana/status/2098086411614519335)
-- **@solana** — $GRND has been live and tradable on Raydium for ~1 hour. Since launch: - $11.4M+ in trading volume - 150K+ trades - 34K+ wallets Stonk szn on Solana. [(link)](https://x.com/solana/status/2098075151170412925)
-- **@solana** — Tap UP or DOWN to trade👆🏽 Real onchain orderbook on Solana! Powered by @PhoenixTrade🧡 https://t.co/MBN22WoB6g [(link)](https://x.com/solana/status/2098048896521969728)
+- **@solana** — $DKNG is available in your favorite Solana apps @Backpack, @tryfomo, @dflow, @Titan_Exchange, @phantom, @JupiterExchange, @solflare, @kamino_swap, @Raydium, @mayan and more [(link)](https://x.com/solana/status/2098504297323405375)
+- **@solana** — BREAKING: $DKNG is live on Solana via @sunrise, issued by @Backpack Securities https://t.co/jkAwqAwOWu [(link)](https://x.com/solana/status/2098504287672267068)
+- **@solana** — DraftKings ($DKNG) operates a leading US sportsbook and gaming platform, live in over 25 states with millions of monthly players. Verify the address on @tokens: https://t.co/9Y5RJHKtSD [(link)](https://x.com/solana/status/2098504290998338029)
+- **@solana** — collectibles are having a moment on solana. join @taylorfox__ & @allocateur to talk consumer apps, collectibles & the @ripcarsio phenomenon. september 15 · 12pm ET · live on spaces hosted by @KittyKunt_ & @vesper792 for @MeteoraEco. spaces… [(link)](https://x.com/solana/status/2098481736623788127)
 - **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)
 - **@solanalabs** — CLOCK IN - a Solana Mobile Hackathon by @RadiantsDAO is coming 🔜 September 8 - October 8 It’s almost time to clock-in. https://t.co/bTj0T14Ib8 https://t.co/yw2x79n83C [(link)](https://x.com/solanalabs/status/2095546195229716737)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)

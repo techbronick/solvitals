@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-11 21:07:49",
+  "captured_at": "2026-09-11 23:13:12",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4436.51,
-      "tps_non_vote": 2328.26,
-      "vote_share_pct": 47.52,
-      "avg_slot_time_secs": 0.3161,
-      "latest_sample_slot": 446255170,
+      "tps_total": 3962.86,
+      "tps_non_vote": 1859.99,
+      "vote_share_pct": 53.06,
+      "avg_slot_time_secs": 0.3185,
+      "latest_sample_slot": 446278931,
       "samples_used": 5,
-      "block_height": 424298178,
-      "current_slot": 446255164
+      "block_height": 424321816,
+      "current_slot": 446278909
     },
     "epoch": {
-      "epoch": 1032,
-      "slot_index": 431164,
+      "epoch": 1033,
+      "slot_index": 22909,
       "slots_in_epoch": 432000,
-      "progress_pct": 99.81,
-      "eta_hours": 0.1,
+      "progress_pct": 5.3,
+      "eta_hours": 35.9,
       "eta_basis_slot_secs": 0.316,
-      "transaction_count": 547510912877
+      "transaction_count": 547544571841
     },
     "validators": {
       "active_count": 676,
-      "delinquent_count": 14,
-      "delinquent_pct": 2.03,
-      "delinquent_stake_sol": 3058888.14,
-      "delinquent_stake_pct": 0.696,
-      "total_active_stake_sol": 436129324.9,
+      "delinquent_count": 13,
+      "delinquent_pct": 1.89,
+      "delinquent_stake_sol": 2971401.62,
+      "delinquent_stake_pct": 0.68,
+      "total_active_stake_sol": 433866279.18,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 239,
+      "zero_commission_count": 242,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 17441455.74,
-          "stake_pct": 3.999,
+          "stake_sol": 17557396.71,
+          "stake_pct": 4.047,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 16324959.09,
-          "stake_pct": 3.743,
+          "stake_sol": 16359842.33,
+          "stake_pct": 3.771,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12523950.6,
-          "stake_pct": 2.872,
+          "stake_sol": 12516388.43,
+          "stake_pct": 2.885,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 11380650.85,
-          "stake_pct": 2.609,
+          "stake_sol": 11367276.21,
+          "stake_pct": 2.62,
           "commission": 5
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 9569332.04,
-          "stake_pct": 2.194,
+          "stake_sol": 9667434.54,
+          "stake_pct": 2.228,
           "commission": 0
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9279795.5,
+          "stake_sol": 9234081.13,
           "stake_pct": 2.128,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 9036256.99,
-          "stake_pct": 2.072,
+          "stake_sol": 9021415.23,
+          "stake_pct": 2.079,
           "commission": 10
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7344636.21,
-          "stake_pct": 1.684,
+          "stake_sol": 7357833.6,
+          "stake_pct": 1.696,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 6880701.8,
-          "stake_pct": 1.578,
+          "stake_sol": 6941562.48,
+          "stake_pct": 1.6,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-          "stake_sol": 6550396.74,
-          "stake_pct": 1.502,
+          "stake_sol": 6551099.03,
+          "stake_pct": 1.51,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 633829666.24,
-      "circulating_sol": 586537101.24,
-      "non_circulating_sol": 47292565.0,
+      "total_sol": 633924633.36,
+      "circulating_sol": 586623168.91,
+      "non_circulating_sol": 47301464.45,
       "circulating_pct": 92.54
     },
     "transaction_fees": {
@@ -126,35 +126,35 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "3GD5zb9C1bujTZqfCCfsho1Kb4whMedCaYyrqRWbNZkqMgrrrFjLphDYPLJ42vrPg2jRts4qNQyz6XVkq8D3zhcp",
-      "latest_block_time": 1789160865,
-      "errors_in_recent": 2
+      "latest_signature": "YcyLecgaE32ScYkFty8VAJjuWkjxNvh3WrtNnzc72RXCbPaaxKWJQzT1cCPWF1ZqJz5Q8i2tsj15vFvsYRD6hYL",
+      "latest_block_time": 1789168390,
+      "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1805,
+      "unique_signers_sampled": 1417,
       "blocks_sampled": 3,
-      "transactions_sampled": 4049,
-      "non_vote_transactions_sampled": 2059,
-      "signers_per_block": 601.7,
-      "non_vote_share_pct": 50.85,
+      "transactions_sampled": 3941,
+      "non_vote_transactions_sampled": 1901,
+      "signers_per_block": 472.3,
+      "non_vote_share_pct": 48.24,
       "sampled_slots": [
-        446254985,
-        446253485,
-        446251985
+        446278734,
+        446277234,
+        446275734
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 102.46,
-      "change_24h_pct": 2.41,
-      "market_cap_usd": 60089950106.83025,
-      "volume_24h_usd": 4536338923.554736,
+      "usd": 102.14,
+      "change_24h_pct": 3.06,
+      "market_cap_usd": 59919869512.541534,
+      "volume_24h_usd": 4705808045.369437,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5866080365.08,
+      "tvl_usd": 5889121161.22,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.66,
       "source": "defillama"
@@ -167,7 +167,7 @@
       "top_dexes": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 505054548
+          "volume_24h_usd": 546273049
         },
         {
           "name": "PumpSwap",
@@ -182,38 +182,38 @@
           "volume_24h_usd": 322665212
         },
         {
-          "name": "Tessera V",
-          "volume_24h_usd": 231997864
+          "name": "Orca DEX",
+          "volume_24h_usd": 283808767
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16296818214.14,
+      "total_usd": 16206335426.22,
       "by_peg": {
-        "peggedUSD": 16229396458.84,
-        "peggedEUR": 62637217.75,
+        "peggedUSD": 16138933076.48,
+        "peggedEUR": 62646066.48,
         "peggedJPY": 54.51,
-        "peggedCHF": 1268959.37,
-        "peggedAUD": 74906.37,
-        "peggedVAR": 2472891.57,
-        "peggedGBP": 800322.46,
+        "peggedCHF": 1270578.14,
+        "peggedAUD": 74902.33,
+        "peggedVAR": 2442884.8,
+        "peggedGBP": 800460.18,
         "peggedTRY": 165942.22,
-        "peggedCAD": 1460.35,
+        "peggedCAD": 1460.38,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 876959,
+      "rev_24h_usd": 875899,
       "network_fees_24h_usd": 709327,
-      "mev_tips_24h_usd": 167632,
-      "mev_share_of_rev_pct": 19.12,
-      "rev_annualised_usd": 320090035,
+      "mev_tips_24h_usd": 166572,
+      "mev_share_of_rev_pct": 19.02,
+      "rev_annualised_usd": 319703135,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 147061
+          "tips_24h_usd": 146001
         },
         {
           "name": "Harmonic",
@@ -228,7 +228,7 @@
       "app_fees_7d_usd": 98124012.66000007,
       "app_fees_30d_usd": 371970204.8999997,
       "app_fees_change_24h_pct": -6.98,
-      "protocol_count": 311,
+      "protocol_count": 312,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
@@ -236,7 +236,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 1748982
+          "fees_24h_usd": 2068166
         },
         {
           "name": "Axiom",
@@ -255,22 +255,22 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1903695550.31,
+      "total_rwa_usd": 1908192420.95,
       "protocol_count": 25,
-      "equities_usd": 25884699.25,
-      "equities_share_pct": 1.36,
+      "equities_usd": 26382534.84,
+      "equities_share_pct": 1.38,
       "equity_protocols": [
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 25403110.62,
-          "change_24h_pct": 1.652,
+          "tvl_usd": 25895196.92,
+          "change_24h_pct": 0.638,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Remora Markets",
-          "tvl_usd": 481588.63,
-          "change_24h_pct": 0.332,
+          "tvl_usd": 487337.92,
+          "change_24h_pct": 1.533,
           "category": "RWA",
           "is_equity": true
         }
@@ -278,71 +278,71 @@
       "top_protocols": [
         {
           "name": "BlackRock BUIDL",
-          "tvl_usd": 992508734.52,
-          "change_24h_pct": -0.683,
+          "tvl_usd": 992603332.51,
+          "change_24h_pct": -0.61,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "OnRe",
-          "tvl_usd": 294715443.82,
-          "change_24h_pct": -4.132,
+          "tvl_usd": 294746142.76,
+          "change_24h_pct": -4.463,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Yield Assets",
-          "tvl_usd": 179845020.36,
-          "change_24h_pct": 0.018,
+          "tvl_usd": 180120817.33,
+          "change_24h_pct": 0.274,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma Finance V2",
-          "tvl_usd": 170158387.39,
-          "change_24h_pct": 1.141,
+          "tvl_usd": 173851708.58,
+          "change_24h_pct": 1.582,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Hastra",
-          "tvl_usd": 150666148.01,
-          "change_24h_pct": -0.377,
+          "tvl_usd": 150473611.77,
+          "change_24h_pct": -1.252,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 27209278.58,
-          "change_24h_pct": 1.982,
+          "tvl_usd": 27432605.56,
+          "change_24h_pct": 1.303,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Ondo Global Markets",
-          "tvl_usd": 25403110.62,
-          "change_24h_pct": 1.652,
+          "tvl_usd": 25895196.92,
+          "change_24h_pct": 0.638,
           "category": "RWA",
           "is_equity": true
         },
         {
           "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 18377926.87,
-          "change_24h_pct": 0.09,
+          "tvl_usd": 18332059.05,
+          "change_24h_pct": -0.281,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "VanEck Treasury Fund",
-          "tvl_usd": 14056841.46,
-          "change_24h_pct": 0.182,
+          "tvl_usd": 14058190.93,
+          "change_24h_pct": 0.01,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "MatrixDock XAUM",
-          "tvl_usd": 6900245.26,
-          "change_24h_pct": 0.87,
+          "tvl_usd": 6841364.71,
+          "change_24h_pct": 0.537,
           "category": "RWA",
           "is_equity": false
         }
@@ -2314,27 +2314,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Kings and queens at the ready 2026 WSOP Super Circuit Canada - Main Event continues https://t.co/4IcBPWT1dK",
-        "created_at": "Thu Sep 10 17:01:51 +0000 2026",
-        "url": "https://x.com/solana/status/2098094615869981067"
+        "text": "$DKNG is available in your favorite Solana apps @Backpack, @tryfomo, @dflow, @Titan_Exchange, @phantom, @JupiterExchange, @solflare, @kamino_swap, @Raydium, @mayan and more",
+        "created_at": "Fri Sep 11 20:09:47 +0000 2026",
+        "url": "https://x.com/solana/status/2098504297323405375"
       },
       {
         "handle": "solana",
-        "text": "Tokenized stocks, now on @Pumpfun. Launch Pumpfun tokens paired with 30+ tokenized stocks issued by Backpack Securities, including $SPCX, $NKE, $RDDT, $LULU, $MU, $SKHY and $AMC. More on the way. All on @Solana. Redeemable 1:1 for the unde\u2026",
-        "created_at": "Thu Sep 10 16:29:15 +0000 2026",
-        "url": "https://x.com/solana/status/2098086411614519335"
+        "text": "BREAKING: $DKNG is live on Solana via @sunrise, issued by @Backpack Securities https://t.co/jkAwqAwOWu",
+        "created_at": "Fri Sep 11 20:09:45 +0000 2026",
+        "url": "https://x.com/solana/status/2098504287672267068"
       },
       {
         "handle": "solana",
-        "text": "$GRND has been live and tradable on Raydium for ~1 hour. Since launch: - $11.4M+ in trading volume - 150K+ trades - 34K+ wallets Stonk szn on Solana.",
-        "created_at": "Thu Sep 10 15:44:31 +0000 2026",
-        "url": "https://x.com/solana/status/2098075151170412925"
+        "text": "DraftKings ($DKNG) operates a leading US sportsbook and gaming platform, live in over 25 states with millions of monthly players. Verify the address on @tokens: https://t.co/9Y5RJHKtSD",
+        "created_at": "Fri Sep 11 20:09:45 +0000 2026",
+        "url": "https://x.com/solana/status/2098504290998338029"
       },
       {
         "handle": "solana",
-        "text": "Tap UP or DOWN to trade\ud83d\udc46\ud83c\udffd Real onchain orderbook on Solana! Powered by @PhoenixTrade\ud83e\udde1 https://t.co/MBN22WoB6g",
-        "created_at": "Thu Sep 10 14:00:11 +0000 2026",
-        "url": "https://x.com/solana/status/2098048896521969728"
+        "text": "collectibles are having a moment on solana. join @taylorfox__ & @allocateur to talk consumer apps, collectibles & the @ripcarsio phenomenon. september 15 \u00b7 12pm ET \u00b7 live on spaces hosted by @KittyKunt_ & @vesper792 for @MeteoraEco. spaces\u2026",
+        "created_at": "Fri Sep 11 18:40:08 +0000 2026",
+        "url": "https://x.com/solana/status/2098481736623788127"
       },
       {
         "handle": "solanalabs",
@@ -2375,9 +2375,9 @@
     {
       "metric": "equities_usd",
       "severity": "critical",
-      "message": "equities_usd is 5.8 sigma below its 288-point mean",
-      "value": 25884699.25,
-      "expected": 441947540.2847
+      "message": "equities_usd is 5.5 sigma below its 288-point mean",
+      "value": 26382534.84,
+      "expected": 440466371.7989
     }
   ]
 }

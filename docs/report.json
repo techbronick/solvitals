@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-12 05:44:30",
+  "captured_at": "2026-09-12 09:35:31",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3174,
+      "measured_slot_time_secs": 0.3152,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.65,
+      "deviation_from_target_pct": -21.2,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,39 +13,39 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3370.99,
-      "tps_non_vote": 1272.57,
-      "vote_share_pct": 62.25,
-      "avg_slot_time_secs": 0.3212,
-      "latest_sample_slot": 446352952,
+      "tps_total": 3138.67,
+      "tps_non_vote": 1005.34,
+      "vote_share_pct": 67.97,
+      "avg_slot_time_secs": 0.3158,
+      "latest_sample_slot": 446396719,
       "samples_used": 5,
-      "block_height": 424395808,
-      "current_slot": 446352976
+      "block_height": 424439542,
+      "current_slot": 446396742
     },
     "epoch": {
       "epoch": 1033,
-      "slot_index": 96976,
+      "slot_index": 140743,
       "slots_in_epoch": 432000,
-      "progress_pct": 22.45,
-      "eta_hours": 29.5,
-      "eta_basis_slot_secs": 0.3174,
-      "transaction_count": 547632419103
+      "progress_pct": 32.58,
+      "eta_hours": 25.5,
+      "eta_basis_slot_secs": 0.3152,
+      "transaction_count": 547677832386
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 12,
-      "delinquent_pct": 1.74,
-      "delinquent_stake_sol": 1700289.29,
-      "delinquent_stake_pct": 0.389,
-      "total_active_stake_sol": 435137391.51,
+      "active_count": 677,
+      "delinquent_count": 13,
+      "delinquent_pct": 1.88,
+      "delinquent_stake_sol": 1791061.16,
+      "delinquent_stake_pct": 0.41,
+      "total_active_stake_sol": 435046619.64,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 242,
+      "zero_commission_count": 241,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17557396.71,
-          "stake_pct": 4.035,
+          "stake_pct": 4.036,
           "commission": 7
         },
         {
@@ -57,13 +57,13 @@
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12516388.43,
-          "stake_pct": 2.876,
+          "stake_pct": 2.877,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "stake_sol": 11367276.21,
-          "stake_pct": 2.612,
+          "stake_pct": 2.613,
           "commission": 5
         },
         {
@@ -75,13 +75,13 @@
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9234081.13,
-          "stake_pct": 2.122,
+          "stake_pct": 2.123,
           "commission": 7
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 9021415.23,
-          "stake_pct": 2.073,
+          "stake_pct": 2.074,
           "commission": 10
         },
         {
@@ -93,7 +93,7 @@
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 6941562.48,
-          "stake_pct": 1.595,
+          "stake_pct": 1.596,
           "commission": 5
         },
         {
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 633924399.71,
-      "circulating_sol": 586633124.19,
+      "total_sol": 633924280.06,
+      "circulating_sol": 586633004.53,
       "non_circulating_sol": 47291275.52,
       "circulating_pct": 92.54
     },
@@ -126,37 +126,37 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "4vn48DzrHX1ZkGbXbq4uSKG6gimuWS83RYpKteVTqULax8TkfHgKRwz44WyDQ52W2z38MBNrg53BqkLCus3seLCw",
-      "latest_block_time": 1789191866,
+      "latest_signature": "5mcQ5p3AnkW3ipDZP2oVixDNJQgvj2pv7wrCwcDZpoLsKqpxdoTdxc4LCHQTqY3odGrbUpT7i9unBW3Ehwn8vvhf",
+      "latest_block_time": 1789205728,
       "errors_in_recent": 5
     },
     "activity": {
-      "unique_signers_sampled": 1213,
+      "unique_signers_sampled": 1370,
       "blocks_sampled": 3,
-      "transactions_sampled": 3092,
-      "non_vote_transactions_sampled": 991,
-      "signers_per_block": 404.3,
-      "non_vote_share_pct": 32.05,
+      "transactions_sampled": 2843,
+      "non_vote_transactions_sampled": 882,
+      "signers_per_block": 456.7,
+      "non_vote_share_pct": 31.02,
       "sampled_slots": [
-        446352798,
-        446351298,
-        446349798
+        446396565,
+        446395065,
+        446393565
       ],
       "note": "Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count."
     }
   },
   "market": {
     "price": {
-      "usd": 101.59,
-      "change_24h_pct": 1.87,
-      "market_cap_usd": 59606815011.85432,
-      "volume_24h_usd": 4506278786.048879,
+      "usd": 102.02,
+      "change_24h_pct": 2.47,
+      "market_cap_usd": 59875439066.060234,
+      "volume_24h_usd": 4489754254.560228,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5890009602.51,
+      "tvl_usd": 5892056482.19,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.71,
+      "share_of_all_chains_pct": 6.66,
       "source": "defillama"
     },
     "dex_volume": {
@@ -167,7 +167,7 @@
       "top_dexes": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 524847084
+          "volume_24h_usd": 462623076
         },
         {
           "name": "BisonFi",
@@ -189,31 +189,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16199775039.16,
+      "total_usd": 16212349903.8,
       "by_peg": {
-        "peggedUSD": 16134094757.09,
-        "peggedEUR": 60917559.48,
+        "peggedUSD": 16146679457.77,
+        "peggedEUR": 60899013.16,
         "peggedJPY": 54.51,
-        "peggedCHF": 1276534.19,
-        "peggedAUD": 75205.09,
-        "peggedVAR": 2441918.56,
-        "peggedGBP": 801017.12,
+        "peggedCHF": 1275829.18,
+        "peggedAUD": 75021.48,
+        "peggedVAR": 2451560.54,
+        "peggedGBP": 800973.91,
         "peggedTRY": 166533.01,
-        "peggedCAD": 1459.42,
+        "peggedCAD": 1459.52,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1002641,
+      "rev_24h_usd": 994601,
       "network_fees_24h_usd": 835741,
-      "mev_tips_24h_usd": 166900,
-      "mev_share_of_rev_pct": 16.65,
-      "rev_annualised_usd": 365963965,
+      "mev_tips_24h_usd": 158860,
+      "mev_share_of_rev_pct": 15.97,
+      "rev_annualised_usd": 363029365,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 145644
+          "tips_24h_usd": 137604
         },
         {
           "name": "Harmonic",
@@ -224,10 +224,10 @@
           "tips_24h_usd": 7765
         }
       ],
-      "app_fees_24h_usd": 17505489.26,
-      "app_fees_7d_usd": 103620576.66000007,
-      "app_fees_30d_usd": 378219856.38999957,
-      "app_fees_change_24h_pct": 19.78,
+      "app_fees_24h_usd": 17542312.26,
+      "app_fees_7d_usd": 103745688.66000007,
+      "app_fees_30d_usd": 378344968.38999957,
+      "app_fees_change_24h_pct": 20.03,
       "protocol_count": 312,
       "top_fee_earning_apps": [
         {
@@ -235,12 +235,12 @@
           "fees_24h_usd": 2852672
         },
         {
-          "name": "Raydium AMM",
-          "fees_24h_usd": 1981910
-        },
-        {
           "name": "StonkFun",
           "fees_24h_usd": 1840184
+        },
+        {
+          "name": "Raydium AMM",
+          "fees_24h_usd": 1707945
         },
         {
           "name": "Axiom",
@@ -2329,27 +2329,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "$DKNG is available in your favorite Solana apps @Backpack, @tryfomo, @dflow, @Titan_Exchange, @phantom, @JupiterExchange, @solflare, @kamino_swap, @Raydium, @mayan and more",
-        "created_at": "Fri Sep 11 20:09:47 +0000 2026",
-        "url": "https://x.com/solana/status/2098504297323405375"
+        "text": "63% of tokenized equity volume on Solana happens while Wall Street is asleep.",
+        "created_at": "Sat Sep 12 05:06:40 +0000 2026",
+        "url": "https://x.com/solana/status/2098639407884693541"
       },
       {
         "handle": "solana",
-        "text": "BREAKING: $DKNG is live on Solana via @sunrise, issued by @Backpack Securities https://t.co/jkAwqAwOWu",
-        "created_at": "Fri Sep 11 20:09:45 +0000 2026",
-        "url": "https://x.com/solana/status/2098504287672267068"
+        "text": "Build and demo in front of industry leaders. Origins, crypto's premier hackathon, is back. 200 developers, 50 teams, 36 hours (6\u20138 Oct). Take an idea from concept to working product, then demo live on the TOKEN2049 stage. $150,000 prize po\u2026",
+        "created_at": "Sat Sep 12 04:00:01 +0000 2026",
+        "url": "https://x.com/solana/status/2098622633780846951"
       },
       {
         "handle": "solana",
-        "text": "DraftKings ($DKNG) operates a leading US sportsbook and gaming platform, live in over 25 states with millions of monthly players. Verify the address on @tokens: https://t.co/9Y5RJHKtSD",
-        "created_at": "Fri Sep 11 20:09:45 +0000 2026",
-        "url": "https://x.com/solana/status/2098504290998338029"
+        "text": "Tokenized equities don't keep stock-market hours. 63% of tokenized-equity volume on @Solana happened while U.S. exchanges were closed. 17% happened on weekends alone. Putting an asset onchain doesn't just change where it settles. It can ch\u2026",
+        "created_at": "Fri Sep 11 16:00:23 +0000 2026",
+        "url": "https://x.com/solana/status/2098441534467449091"
       },
       {
         "handle": "solana",
-        "text": "collectibles are having a moment on solana. join @taylorfox__ & @allocateur to talk consumer apps, collectibles & the @ripcarsio phenomenon. september 15 \u00b7 12pm ET \u00b7 live on spaces hosted by @KittyKunt_ & @vesper792 for @MeteoraEco. spaces\u2026",
-        "created_at": "Fri Sep 11 18:40:08 +0000 2026",
-        "url": "https://x.com/solana/status/2098481736623788127"
+        "text": "STOCKLANA The stock market is open for building. One week to build something innovative with stocks on Solana. $100K in prizes. Sept 11 - 18, opening bell to closing bell: https://t.co/JU1uP3xWh7 https://t.co/MJVBriTglG",
+        "created_at": "Fri Sep 11 13:29:38 +0000 2026",
+        "url": "https://x.com/solana/status/2098403597004263760"
       },
       {
         "handle": "solanalabs",
@@ -2390,9 +2390,9 @@
     {
       "metric": "equities_usd",
       "severity": "critical",
-      "message": "equities_usd is 5.0 sigma below its 288-point mean",
+      "message": "equities_usd is 4.7 sigma below its 288-point mean",
       "value": 26407177.57,
-      "expected": 437507492.0191
+      "expected": 436028137.6942
     }
   ]
 }

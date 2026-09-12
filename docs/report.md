@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-11 23:13:12 UTC by SolVitals.
+Generated 2026-09-12 01:05:45 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **equities_usd** — equities_usd is 5.5 sigma below its 288-point mean
+- [CRITICAL] **equities_usd** — equities_usd is 5.2 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,859.99 |
-| Total TPS (incl. votes) | 3,962.86 |
-| Vote share of transactions | 53.06% |
-| Average slot time | 0.3185 s |
-| Current slot | 446,278,909 |
-| Block height | 424,321,816 |
+| Non-vote TPS | 1,666.15 |
+| Total TPS (incl. votes) | 3,784.34 |
+| Vote share of transactions | 55.97% |
+| Average slot time | 0.3148 s |
+| Current slot | 446,300,222 |
+| Block height | 424,343,061 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1033** — 5.3% complete (`#...................`), ~35.9 hours remaining.
+Epoch **1033** — 10.24% complete (`##..................`), ~34.0 hours remaining.
 
-Slot 22,909 of 432,000. Lifetime transaction count: 547,544,571,841.
+Slot 44,222 of 432,000. Lifetime transaction count: 547,570,924,118.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $102.14 (up 3.06%) |
-| Market cap | $59.92B |
-| DeFi TVL | $5.89B |
+| SOL price | $101.91 (up 2.51%) |
+| Market cap | $59.76B |
+| DeFi TVL | $5.88B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.92B (down 2.61%) |
-| Stablecoin supply | $16.21B |
+| DEX volume (24h) | $3.25B (up 11.21%) |
+| Stablecoin supply | $16.27B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$875.90K** |
+| **REV (total)** | **$877.40K** |
 | Network fees | $709.33K |
-| MEV tips (out-of-protocol) | $166.57K (19.02% of REV) |
-| Annualised REV run-rate | $319.70M |
+| MEV tips (out-of-protocol) | $168.07K (19.16% of REV) |
+| Annualised REV run-rate | $320.25M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $146.00K |
+| Jito MEV Tips | $147.50K |
 | Harmonic | $12.75K |
 | bloXroute | $7.82K |
 
@@ -106,14 +106,14 @@ Fees earned by the 312 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $14.61M (down 6.98%) |
-| 7 days | $98.12M |
-| 30 days | $371.97M |
+| 24 hours | $16.60M (up 13.56%) |
+| 7 days | $93.17M |
+| 30 days | $367.77M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $2.79M |
-| Raydium AMM | $2.07M |
+| Raydium AMM | $2.18M |
 | Axiom | $1.40M |
 | fomo Wallet | $1.33M |
 | pump.fun | $1.14M |
@@ -152,11 +152,11 @@ Fees earned by the 312 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Unique fee payers (sampled) | 1,417 |
+| Unique fee payers (sampled) | 1,526 |
 | Blocks sampled | 3 |
-| Transactions in sample | 3,941 |
-| Non-vote share of sample | 48.24% |
-| Signers per block | 472.3 |
+| Transactions in sample | 3,905 |
+| Non-vote share of sample | 36.57% |
+| Signers per block | 508.7 |
 
 _Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
 
@@ -164,15 +164,15 @@ _Unique fee payers across sampled blocks -- an activity indicator, not a 24h uni
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Raydium AMM | $546.27M |
-| PumpSwap | $468.14M |
+| Raydium AMM | $562.91M |
 | BisonFi | $395.81M |
+| Meteora DLMM | $363.04M |
 | HumidiFi | $322.67M |
-| Orca DEX | $283.81M |
+| PumpSwap | $294.17M |
 
 ## Supply
 
-Circulating 586,623,169 SOL of 633,924,633 total (92.54%).
+Circulating 586,633,287 SOL of 633,924,563 total (92.54%).
 
 ## Ecosystem growth (solana.com/data)
 

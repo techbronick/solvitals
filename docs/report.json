@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-15 18:43:21",
+  "captured_at": "2026-09-15 21:45:44",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3168,
+      "measured_slot_time_secs": 0.3178,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.8,
+      "deviation_from_target_pct": -20.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 6494.58,
-      "tps_non_vote": 4377.51,
-      "vote_share_pct": 32.6,
-      "avg_slot_time_secs": 0.3178,
-      "latest_sample_slot": 447321026,
+      "tps_total": 4949.46,
+      "tps_non_vote": 2846.34,
+      "vote_share_pct": 42.49,
+      "avg_slot_time_secs": 0.3202,
+      "latest_sample_slot": 447355402,
       "samples_used": 5,
-      "block_height": 425362879,
-      "current_slot": 447321094
+      "block_height": 425397275,
+      "current_slot": 447355538
     },
     "epoch": {
       "epoch": 1035,
-      "slot_index": 201095,
+      "slot_index": 235539,
       "slots_in_epoch": 432000,
-      "progress_pct": 46.55,
-      "eta_hours": 20.3,
-      "eta_basis_slot_secs": 0.3168,
-      "transaction_count": 548781768548
+      "progress_pct": 54.52,
+      "eta_hours": 17.3,
+      "eta_basis_slot_secs": 0.3178,
+      "transaction_count": 548835090108
     },
     "validators": {
       "active_count": 679,
@@ -40,7 +40,7 @@
       "total_active_stake_sol": 439088347.81,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 244,
+      "zero_commission_count": 242,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 634111336.39,
-      "circulating_sol": 587027780.38,
+      "total_sol": 634111197.09,
+      "circulating_sol": 587027641.08,
       "non_circulating_sol": 47083556.01,
       "circulating_pct": 92.57
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "4qHqPKmppVjdmDmoW4CaH3pnHVXq3KYWX6ZCB5k1y6HrjNbLShJPeX8PE5KYbhw5skWtW26qwHjgrjsdLKmJLjjP",
-      "latest_block_time": 1789497798,
-      "errors_in_recent": 6
+      "latest_signature": "61ofcVdnE4euPLsrNHrxuZaS4Mmfa6j7Vxvwbe2Xv1yhRXV5mV1nohJTN4NGaFox31rUcbLV8WSBTRtaHeL3t5dX",
+      "latest_block_time": 1789508742,
+      "errors_in_recent": 5
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,22 +136,22 @@
   },
   "market": {
     "price": {
-      "usd": 98.7,
-      "change_24h_pct": -4.65,
-      "market_cap_usd": 58156800619.13141,
-      "volume_24h_usd": 3466181182.136746,
+      "usd": 96.92,
+      "change_24h_pct": -6.18,
+      "market_cap_usd": 56876382435.85295,
+      "volume_24h_usd": 3767047321.9526005,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5783926870.94,
+      "tvl_usd": 5742497283.68,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.65,
+      "share_of_all_chains_pct": 6.64,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2530223236.85,
-      "volume_7d_usd": 18204699398.309994,
-      "change_24h_pct": 41.27,
+      "volume_24h_usd": 2511771255.85,
+      "volume_7d_usd": 18186088068.309994,
+      "change_24h_pct": 40.24,
       "protocol_count": 123,
       "top_dexes": [
         {
@@ -164,45 +164,45 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 241361713
+          "volume_24h_usd": 258944226
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 198814364
         },
         {
-          "name": "fomo Wallet",
-          "volume_24h_usd": 187201170
+          "name": "HumidiFi",
+          "volume_24h_usd": 179407551
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15724346559.62,
+      "total_usd": 15708317191.36,
       "by_peg": {
-        "peggedUSD": 15659219403.93,
-        "peggedEUR": 60411604.61,
-        "peggedJPY": 54.18,
-        "peggedCHF": 1258554.9,
-        "peggedAUD": 74884.46,
-        "peggedVAR": 2411558.89,
-        "peggedGBP": 803216.72,
+        "peggedUSD": 15643594505.7,
+        "peggedEUR": 60478817.37,
+        "peggedJPY": 53.84,
+        "peggedCHF": 1264912.14,
+        "peggedAUD": 74870.0,
+        "peggedVAR": 2440090.41,
+        "peggedGBP": 296659.91,
         "peggedTRY": 165826.88,
-        "peggedCAD": 1454.34,
+        "peggedCAD": 1454.42,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 798800,
+      "rev_24h_usd": 802912,
       "network_fees_24h_usd": 647012,
-      "mev_tips_24h_usd": 151788,
-      "mev_share_of_rev_pct": 19.0,
-      "rev_annualised_usd": 291562000,
+      "mev_tips_24h_usd": 155900,
+      "mev_share_of_rev_pct": 19.42,
+      "rev_annualised_usd": 293062880,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 131091
+          "tips_24h_usd": 135203
         },
         {
           "name": "Harmonic",
@@ -233,7 +233,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 906267
+          "fees_24h_usd": 1083858
         },
         {
           "name": "fomo Wallet",
@@ -244,94 +244,87 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 1919264485.02,
-      "protocol_count": 25,
-      "equities_usd": 27064107.1,
-      "equities_share_pct": 1.41,
+      "total_rwa_usd": 546463004.09,
+      "protocol_count": 17,
+      "equities_usd": 479848.92,
+      "equities_share_pct": 0.09,
       "equity_protocols": [
         {
-          "name": "Ondo Global Markets",
-          "tvl_usd": 26581733.86,
-          "change_24h_pct": 0.153,
-          "category": "RWA",
-          "is_equity": true
-        },
-        {
           "name": "Remora Markets",
-          "tvl_usd": 482373.24,
-          "change_24h_pct": 0.113,
+          "tvl_usd": 479848.92,
+          "change_24h_pct": -0.16,
           "category": "RWA",
           "is_equity": true
         }
       ],
       "top_protocols": [
         {
-          "name": "BlackRock BUIDL",
-          "tvl_usd": 992887094.02,
-          "change_24h_pct": -0.698,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
           "name": "OnRe",
-          "tvl_usd": 300574958.04,
-          "change_24h_pct": 0.332,
+          "tvl_usd": 300552540.16,
+          "change_24h_pct": 0.309,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma Finance V2",
-          "tvl_usd": 187534731.1,
-          "change_24h_pct": -2.135,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
-          "name": "Ondo Yield Assets",
-          "tvl_usd": 180077220.43,
-          "change_24h_pct": -0.044,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
-          "name": "Hastra",
-          "tvl_usd": 140335820.67,
-          "change_24h_pct": -0.185,
+          "tvl_usd": 188293859.76,
+          "change_24h_pct": -1.895,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 27900039.99,
-          "change_24h_pct": -0.57,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
-          "name": "Ondo Global Markets",
-          "tvl_usd": 26581733.86,
-          "change_24h_pct": 0.153,
-          "category": "RWA",
-          "is_equity": true
-        },
-        {
-          "name": "Apollo Diversified Credit Securitize Fund",
-          "tvl_usd": 18339205.31,
-          "change_24h_pct": -0.135,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
-          "name": "VanEck Treasury Fund",
-          "tvl_usd": 14562225.61,
-          "change_24h_pct": 0.891,
+          "tvl_usd": 28062953.07,
+          "change_24h_pct": 0.48,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "MatrixDock XAUM",
-          "tvl_usd": 6718411.53,
-          "change_24h_pct": -0.538,
+          "tvl_usd": 6748146.82,
+          "change_24h_pct": -0.405,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "Midas RWA",
+          "tvl_usd": 5639162.33,
+          "change_24h_pct": 0.0,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "Invesco USTB",
+          "tvl_usd": 3906663.17,
+          "change_24h_pct": -0.931,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "Mansory",
+          "tvl_usd": 2750480.15,
+          "change_24h_pct": -2.215,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "VNX",
+          "tvl_usd": 2741797.8,
+          "change_24h_pct": -1.077,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "Oro Finance",
+          "tvl_usd": 2471763.79,
+          "change_24h_pct": -0.102,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
+          "name": "International Stable Currency",
+          "tvl_usd": 2450245.26,
+          "change_24h_pct": 0.214,
           "category": "RWA",
           "is_equity": false
         }
@@ -2303,33 +2296,33 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Sunrise has listed $PTN on @Solana. Issued by @Backpack Securities. https://t.co/9XV3VibqKq",
-        "created_at": "Mon Sep 14 20:01:22 +0000 2026",
-        "url": "https://x.com/solana/status/2099589340926038416"
+        "text": "Beezie announced its partnership with The Luxury Closet earlier this month. It took about a year for it to finally come together. @AndreaMYellie, co-founder and CEO of @Beezie, on why: \"We wanted to wait till we were live on @Solana. They'\u2026",
+        "created_at": "Tue Sep 15 20:54:58 +0000 2026",
+        "url": "https://x.com/solana/status/2099965221657813413"
       },
       {
         "handle": "solana",
-        "text": "The Green Candle Cup has officially crossed $100 million in volume \ud83c\udfc6 @solana traders are deploying automated trading strategies on @Triton_One\u2019s Shred Streaming product using data delivered by DoubleZero. Here\u2019s how the leaderboard looks w\u2026",
-        "created_at": "Mon Sep 14 19:31:36 +0000 2026",
-        "url": "https://x.com/solana/status/2099581853581640184"
+        "text": "Raydium just set a new weekly ATH for tokenized equities. $700M in volume traded last week. https://t.co/vPhGOvQkQZ",
+        "created_at": "Tue Sep 15 17:01:53 +0000 2026",
+        "url": "https://x.com/solana/status/2099906564379345130"
       },
       {
         "handle": "solana",
-        "text": "A new milestone comes with new beginnings. A new narrative is blossoming on @solana. Powered by @MeteoraAG and @PhoenixTrade. Trade memes backed by perps: https://t.co/46jWKjQnTl https://t.co/d9BqR3VDc4",
-        "created_at": "Mon Sep 14 19:25:54 +0000 2026",
-        "url": "https://x.com/solana/status/2099580418110472293"
+        "text": "Solana Stories: Comic-Con meets Wall Street @Kamino CEO @WeiszM on Breakpoint https://t.co/P6ziQ50G0o",
+        "created_at": "Tue Sep 15 14:17:07 +0000 2026",
+        "url": "https://x.com/solana/status/2099865096793284639"
+      },
+      {
+        "handle": "solana",
+        "text": "We are thrilled to announce Michael Weisz (@WeiszM) as the new CEO of Kamino After more than a two decades in fintech & private markets, Michael joins Kamino to lead us into our next chapter of institutional growth, and expand Kamino to th\u2026",
+        "created_at": "Tue Sep 15 13:04:03 +0000 2026",
+        "url": "https://x.com/solana/status/2099846709790626038"
       },
       {
         "handle": "solanalabs",
         "text": "Seeker Season brings the heat with One Arena @Rosentica \u2694\ufe0f Rip packs, collect real graded cards, and put your lineup to the test. Seekers get exclusive perks, and the Seeker Cup Tournament starts today with a $50,000 prize pool. Available \u2026",
         "created_at": "Mon Sep 14 16:05:55 +0000 2026",
         "url": "https://x.com/solanalabs/status/2099530088614130111"
-      },
-      {
-        "handle": "solana",
-        "text": "GM. Giving away 10 Breakpoint tickets. Tell us why you deserve one \ud83d\udc47",
-        "created_at": "Mon Sep 14 14:24:14 +0000 2026",
-        "url": "https://x.com/solana/status/2099504502651167136"
       },
       {
         "handle": "solanalabs",
@@ -2362,18 +2355,18 @@
   },
   "anomalies": [
     {
-      "metric": "tps_non_vote",
+      "metric": "rwa_total_usd",
       "severity": "critical",
-      "message": "tps_non_vote is 5.2 sigma above its 288-point mean",
-      "value": 4377.51,
-      "expected": 1907.616
+      "message": "rwa_total_usd is 10.6 sigma below its 288-point mean",
+      "value": 546463004.09,
+      "expected": 2049419967.8631
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
-      "message": "equities_usd is 2.7 sigma below its 288-point mean",
-      "value": 27064107.1,
-      "expected": 402544436.2935
+      "message": "equities_usd is 2.8 sigma below its 288-point mean",
+      "value": 479848.92,
+      "expected": 401096702.8984
     }
   ]
 }

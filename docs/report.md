@@ -1,31 +1,31 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-16 17:21:26 UTC by SolVitals.
+Generated 2026-09-16 20:16:26 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **rwa_total_usd** — rwa_total_usd is 6.1 sigma below its 288-point mean
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.6 sigma below its 288-point mean
+- [CRITICAL] **rwa_total_usd** — rwa_total_usd is 5.7 sigma below its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.5 sigma below its 288-point mean
 - [WARNING] **equities_usd** — equities_usd is 2.4 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,155.58 |
-| Total TPS (incl. votes) | 4,290.46 |
-| Vote share of transactions | 49.76% |
-| Average slot time | 0.3158 s |
-| Current slot | 447,578,127 |
-| Block height | 425,619,556 |
+| Non-vote TPS | 2,337.42 |
+| Total TPS (incl. votes) | 4,472.42 |
+| Vote share of transactions | 47.74% |
+| Average slot time | 0.3151 s |
+| Current slot | 447,611,079 |
+| Block height | 425,652,428 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1036** — 6.05% complete (`#...................`), ~35.6 hours remaining.
+Epoch **1036** — 13.68% complete (`###.................`), ~32.9 hours remaining.
 
-Slot 26,127 of 432,000. Lifetime transaction count: 549,118,678,281.
+Slot 59,079 of 432,000. Lifetime transaction count: 549,172,829,656.
 
 ## Transaction costs and slot timing
 
@@ -36,23 +36,23 @@ Slot 26,127 of 432,000. Lifetime transaction count: 549,118,678,281.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.3162 s |
-| Deviation from 0.4s target | -20.95% |
+| Measured slot time (`getBlockTime`) | 0.3178 s |
+| Deviation from 0.4s target | -20.55% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 677 |
+| Active validators | 676 |
 | Delinquent validators | 14 (2.03%) |
-| Stake held by delinquents | 179,253 SOL (0.041%) |
-| Total active stake | 439,581,830 SOL |
+| Stake held by delinquents | 191,651 SOL (0.044%) |
+| Total active stake | 439,569,431 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 243 |
@@ -78,27 +78,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $97.08 (down 1.86%) |
-| Market cap | $57.00B |
-| DeFi TVL | $5.71B |
+| SOL price | $98.43 (up 1.06%) |
+| Market cap | $57.83B |
+| DeFi TVL | $5.72B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.70B (up 6.84%) |
-| Stablecoin supply | $15.46B |
+| Stablecoin supply | $15.47B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$881.69K** |
+| **REV (total)** | **$879.02K** |
 | Network fees | $693.21K |
-| MEV tips (out-of-protocol) | $188.48K (21.38% of REV) |
-| Annualised REV run-rate | $321.82M |
+| MEV tips (out-of-protocol) | $185.81K (21.14% of REV) |
+| Annualised REV run-rate | $320.84M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $164.79K |
+| Jito MEV Tips | $162.12K |
 | Harmonic | $15.39K |
 | bloXroute | $8.29K |
 
@@ -117,7 +117,7 @@ Fees earned by the 313 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $3.20M |
 | pump.fun | $1.59M |
 | Axiom | $1.30M |
-| Raydium AMM | $833.34K |
+| Raydium AMM | $852.77K |
 | Meteora DLMM | $811.23K |
 
 ## Tokenized assets
@@ -158,11 +158,11 @@ Fees earned by the 313 applications built on Solana -- DEXes, launchpads, wallet
 | BisonFi | $353.62M |
 | HumidiFi | $232.02M |
 | fomo Wallet | $226.51M |
-| Raydium AMM | $199.85M |
+| Raydium AMM | $220.70M |
 
 ## Supply
 
-Circulating 587,150,623 SOL of 634,205,362 total (92.58%).
+Circulating 587,150,295 SOL of 634,205,222 total (92.58%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -192,9 +192,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Funny, we were already planning a trip in November [(link)](https://x.com/solana/status/2100267398628782517)
-- **@solana** — Something is happening in the UK 🇬🇧 You should come and see it for yourself. https://t.co/E6jj8NPOPp [(link)](https://x.com/solana/status/2100264666790281703)
-- **@solana** — SOL is now available as collateral on @PhoenixTrade Every Phoenix market is now available, including equities and commodities. [(link)](https://x.com/solana/status/2100257768577900769)
+- **@solana** — Read how Column built stablecoins straight into its banking core, with Solana as the default network. https://t.co/xLZBCX5eIm [(link)](https://x.com/solana/status/2100300311567208458)
+- **@solana** — BREAKING: @column, the FDIC-insured bank behind Brex and Slash, has built stablecoins directly into its banking core. USDC and USDT on Solana, convertible to and from dollars 24/7, instantly. https://t.co/vdrO1dk1Vz [(link)](https://x.com/solana/status/2100300307691655523)
+- **@solana** — We started @column with the insane idea to rebuild every component of the financial system from scratch. Today, I think we've finally completed that build. We're releasing four new products, so any technology company can build at the front… [(link)](https://x.com/solana/status/2100221381740765495)
 - **@solana** — T-minus 60 days till Breakpoint 🇬🇧 https://t.co/zRKCyA08OO [(link)](https://x.com/solana/status/2100192986261082222)
 - **@solanalabs** — Seeker Season brings the heat with One Arena @Rosentica ⚔️ Rip packs, collect real graded cards, and put your lineup to the test. Seekers get exclusive perks, and the Seeker Cup Tournament starts today with a $50,000 prize pool. Available … [(link)](https://x.com/solanalabs/status/2099530088614130111)
 - **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)
@@ -226,7 +226,9 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.3.0-rc.0` · testnet `4.3.0-rc.0` · devnet `4.3.0-rc.0`
+**Cluster versions:** mainnet `4.3.0-rc.0` · testnet `4.2.2` · devnet `4.3.0-rc.0`
+
+_Clusters are running different versions, which is itself a rollout-in-progress signal._
 
 ### Named proposals
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-16 17:21:26",
+  "captured_at": "2026-09-16 20:16:26",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.3162,
+      "measured_slot_time_secs": 0.3178,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -20.95,
+      "deviation_from_target_pct": -20.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,31 +13,31 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4290.46,
-      "tps_non_vote": 2155.58,
-      "vote_share_pct": 49.76,
-      "avg_slot_time_secs": 0.3158,
-      "latest_sample_slot": 447578071,
+      "tps_total": 4472.42,
+      "tps_non_vote": 2337.42,
+      "vote_share_pct": 47.74,
+      "avg_slot_time_secs": 0.3151,
+      "latest_sample_slot": 447611026,
       "samples_used": 5,
-      "block_height": 425619556,
-      "current_slot": 447578127
+      "block_height": 425652428,
+      "current_slot": 447611079
     },
     "epoch": {
       "epoch": 1036,
-      "slot_index": 26127,
+      "slot_index": 59079,
       "slots_in_epoch": 432000,
-      "progress_pct": 6.05,
-      "eta_hours": 35.6,
-      "eta_basis_slot_secs": 0.3162,
-      "transaction_count": 549118678281
+      "progress_pct": 13.68,
+      "eta_hours": 32.9,
+      "eta_basis_slot_secs": 0.3178,
+      "transaction_count": 549172829656
     },
     "validators": {
-      "active_count": 677,
+      "active_count": 676,
       "delinquent_count": 14,
       "delinquent_pct": 2.03,
-      "delinquent_stake_sol": 179253.01,
-      "delinquent_stake_pct": 0.041,
-      "total_active_stake_sol": 439581829.73,
+      "delinquent_stake_sol": 191651.35,
+      "delinquent_stake_pct": 0.044,
+      "total_active_stake_sol": 439569431.4,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
       "zero_commission_count": 243,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 634205362.34,
-      "circulating_sol": 587150623.07,
-      "non_circulating_sol": 47054739.27,
+      "total_sol": 634205221.59,
+      "circulating_sol": 587150295.07,
+      "non_circulating_sol": 47054926.52,
       "circulating_pct": 92.58
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "5UWd5LWXuwxgmfhsi13epZzz7R9CbT1tEqcuuaQ3X8yhutGNYxettM6MFNBfyA7BMabnaXQ5i4njoF2szAVEmKCM",
-      "latest_block_time": 1789579284,
-      "errors_in_recent": 3
+      "latest_signature": "367qfeBBBece5zKy6PnvJ92HrAThG5RPhWL8jB3RTGvBCEkZQZHJCtN5iEkoV6Yh35DUmGMXkUtKiCk624mjzbcA",
+      "latest_block_time": 1789589786,
+      "errors_in_recent": 4
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 97.08,
-      "change_24h_pct": -1.86,
-      "market_cap_usd": 56998787572.55337,
-      "volume_24h_usd": 3540717299.788466,
+      "usd": 98.43,
+      "change_24h_pct": 1.06,
+      "market_cap_usd": 57831752886.96065,
+      "volume_24h_usd": 3500332865.519086,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5706420553.85,
+      "tvl_usd": 5723932041.42,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.61,
+      "share_of_all_chains_pct": 6.62,
       "source": "defillama"
     },
     "dex_volume": {
@@ -172,37 +172,37 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 199852384
+          "volume_24h_usd": 220697510
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15457528017.07,
+      "total_usd": 15474769159.79,
       "by_peg": {
-        "peggedUSD": 15389454187.47,
-        "peggedEUR": 63834107.2,
-        "peggedJPY": 53.1,
-        "peggedCHF": 1272667.54,
-        "peggedAUD": 74917.5,
-        "peggedVAR": 2429237.04,
-        "peggedGBP": 296343.38,
+        "peggedUSD": 15404817215.84,
+        "peggedEUR": 65589579.25,
+        "peggedJPY": 53.25,
+        "peggedCHF": 1280293.67,
+        "peggedAUD": 75017.13,
+        "peggedVAR": 2544300.63,
+        "peggedGBP": 296195.95,
         "peggedTRY": 165048.96,
-        "peggedCAD": 1454.19,
+        "peggedCAD": 1454.41,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 881686,
+      "rev_24h_usd": 879017,
       "network_fees_24h_usd": 693210,
-      "mev_tips_24h_usd": 188476,
-      "mev_share_of_rev_pct": 21.38,
-      "rev_annualised_usd": 321815390,
+      "mev_tips_24h_usd": 185807,
+      "mev_share_of_rev_pct": 21.14,
+      "rev_annualised_usd": 320841205,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 164787
+          "tips_24h_usd": 162118
         },
         {
           "name": "Harmonic",
@@ -233,7 +233,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 833339
+          "fees_24h_usd": 852768
         },
         {
           "name": "Meteora DLMM",
@@ -2091,7 +2091,7 @@
     "pending_on_mainnet": 12,
     "cluster_versions": {
       "mainnet": "4.3.0-rc.0",
-      "testnet": "4.3.0-rc.0",
+      "testnet": "4.2.2",
       "devnet": "4.3.0-rc.0"
     },
     "clusters_unreachable": [],
@@ -2303,21 +2303,21 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Funny, we were already planning a trip in November",
-        "created_at": "Wed Sep 16 16:55:43 +0000 2026",
-        "url": "https://x.com/solana/status/2100267398628782517"
+        "text": "Read how Column built stablecoins straight into its banking core, with Solana as the default network. https://t.co/xLZBCX5eIm",
+        "created_at": "Wed Sep 16 19:06:30 +0000 2026",
+        "url": "https://x.com/solana/status/2100300311567208458"
       },
       {
         "handle": "solana",
-        "text": "Something is happening in the UK \ud83c\uddec\ud83c\udde7 You should come and see it for yourself. https://t.co/E6jj8NPOPp",
-        "created_at": "Wed Sep 16 16:44:52 +0000 2026",
-        "url": "https://x.com/solana/status/2100264666790281703"
+        "text": "BREAKING: @column, the FDIC-insured bank behind Brex and Slash, has built stablecoins directly into its banking core. USDC and USDT on Solana, convertible to and from dollars 24/7, instantly. https://t.co/vdrO1dk1Vz",
+        "created_at": "Wed Sep 16 19:06:29 +0000 2026",
+        "url": "https://x.com/solana/status/2100300307691655523"
       },
       {
         "handle": "solana",
-        "text": "SOL is now available as collateral on @PhoenixTrade Every Phoenix market is now available, including equities and commodities.",
-        "created_at": "Wed Sep 16 16:17:27 +0000 2026",
-        "url": "https://x.com/solana/status/2100257768577900769"
+        "text": "We started @column with the insane idea to rebuild every component of the financial system from scratch. Today, I think we've finally completed that build. We're releasing four new products, so any technology company can build at the front\u2026",
+        "created_at": "Wed Sep 16 13:52:52 +0000 2026",
+        "url": "https://x.com/solana/status/2100221381740765495"
       },
       {
         "handle": "solana",
@@ -2364,23 +2364,23 @@
     {
       "metric": "rwa_total_usd",
       "severity": "critical",
-      "message": "rwa_total_usd is 6.1 sigma below its 288-point mean",
+      "message": "rwa_total_usd is 5.7 sigma below its 288-point mean",
       "value": 561492956.85,
-      "expected": 2025103145.1553
+      "expected": 2020284253.3848
     },
     {
       "metric": "stablecoins_usd",
       "severity": "warning",
-      "message": "stablecoins_usd is 2.6 sigma below its 288-point mean",
-      "value": 15457528017.07,
-      "expected": 15986781370.9878
+      "message": "stablecoins_usd is 2.5 sigma below its 288-point mean",
+      "value": 15474769159.79,
+      "expected": 15985285590.9454
     },
     {
       "metric": "equities_usd",
       "severity": "warning",
       "message": "equities_usd is 2.4 sigma below its 288-point mean",
       "value": 27827267.89,
-      "expected": 393396503.5022
+      "expected": 391951419.9709
     }
   ]
 }

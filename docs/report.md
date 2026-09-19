@@ -1,32 +1,32 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-19 17:40:53 UTC by SolVitals.
+Generated 2026-09-19 19:35:10 UTC by SolVitals.
 
 ## Alerts
 
 - [WARNING] **price_usd** — price_usd is 2.7 sigma above its 287-point mean
-- [WARNING] **tvl_usd** — tvl_usd is 2.9 sigma above its 288-point mean
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.4 sigma above its 288-point mean
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 3.0 sigma below its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.8 sigma above its 288-point mean
+- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.9 sigma below its 288-point mean
+- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.6 sigma below its 257-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,402.33 |
-| Total TPS (incl. votes) | 4,914.28 |
-| Vote share of transactions | 51.12% |
-| Average slot time | 0.2683 s |
-| Current slot | 448,477,838 |
-| Block height | 426,518,637 |
+| Non-vote TPS | 1,854.06 |
+| Total TPS (incl. votes) | 4,384.44 |
+| Vote share of transactions | 57.71% |
+| Average slot time | 0.2664 s |
+| Current slot | 448,503,538 |
+| Block height | 426,544,308 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1038** — 14.31% complete (`###.................`), ~27.6 hours remaining.
+Epoch **1038** — 20.26% complete (`####................`), ~25.5 hours remaining.
 
-Slot 61,839 of 432,000. Lifetime transaction count: 550,253,845,817.
+Slot 87,539 of 432,000. Lifetime transaction count: 550,285,916,485.
 
 ## Transaction costs and slot timing
 
@@ -37,14 +37,14 @@ Slot 61,839 of 432,000. Lifetime transaction count: 550,253,845,817.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2684 s |
-| Deviation from 0.4s target | -32.9% |
+| Measured slot time (`getBlockTime`) | 0.266 s |
+| Deviation from 0.4s target | -33.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -79,12 +79,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $111.36 (down 0.75%) |
-| Market cap | $65.41B |
+| SOL price | $111.40 (down 2.04%) |
+| Market cap | $65.43B |
 | DeFi TVL | $6.24B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $3.54B (up 36.44%) |
-| Stablecoin supply | $16.57B |
+| Stablecoin supply | $15.49B |
 
 ### Real Economic Value (REV)
 
@@ -92,14 +92,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.17M** |
 | Network fees | $965.96K |
-| MEV tips (out-of-protocol) | $206.53K (17.61% of REV) |
-| Annualised REV run-rate | $427.96M |
+| MEV tips (out-of-protocol) | $200.68K (17.2% of REV) |
+| Annualised REV run-rate | $425.82M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $177.33K |
+| Jito MEV Tips | $171.48K |
 | Harmonic | $18.52K |
 | bloXroute | $10.69K |
 
@@ -119,7 +119,7 @@ Fees earned by the 313 applications built on Solana -- DEXes, launchpads, wallet
 | Axiom | $2.08M |
 | pump.fun | $1.67M |
 | StonkFun | $1.16M |
-| Raydium AMM | $1.06M |
+| Raydium AMM | $1.11M |
 
 ## Tokenized assets
 
@@ -151,6 +151,18 @@ Fees earned by the 313 applications built on Solana -- DEXes, launchpads, wallet
 | International Stable Currency | $2.46M | RWA |
 | Byzanlink RWA Markets | $889.26K | RWA |
 
+## Address activity
+
+| Metric | Value |
+| --- | --- |
+| Unique fee payers (sampled) | 995 |
+| Blocks sampled | 1 |
+| Transactions in sample | 1,216 |
+| Non-vote share of sample | 41.2% |
+| Signers per block | 995.0 |
+
+_Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
+
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
@@ -158,12 +170,12 @@ Fees earned by the 313 applications built on Solana -- DEXes, launchpads, wallet
 | BisonFi | $532.67M |
 | PumpSwap | $488.34M |
 | HumidiFi | $334.93M |
-| Raydium AMM | $326.74M |
+| Raydium AMM | $330.64M |
 | Orca DEX | $300.65M |
 
 ## Supply
 
-Circulating 587,367,796 SOL of 634,376,267 total (92.59%).
+Circulating 587,367,712 SOL of 634,376,183 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -193,10 +205,7 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — https://t.co/O9u3pWBmSM [(link)](https://x.com/solana/status/2100541615433732554)
-- **@solana** — Breakpoint 2026 🔜 https://t.co/pcdcAXTU2f [(link)](https://x.com/solana/status/2100541612439052300)
-- **@solana** — .@peaq and Doosan Robotics, Korea's leading collaborative robotics maker, are putting industrial robots to work on Solana using peaqOS https://t.co/iZm8sQZ8C0 [(link)](https://x.com/solana/status/2100455338658918402)
-- **@solana** — Four cities. One community. Connected by the same instinct: to build. Solana Accelerate China, October 16 to 22. China's founders, developers and investors together with builders from the global Solana ecosystem for live demos, technical d… [(link)](https://x.com/solana/status/2100453823492001942)
+- **@solana** — https://t.co/rub7mYQcZO [(link)](https://x.com/solana/status/2101280214114545701)
 - **@solanalabs** — Seeker Season brings the heat with One Arena @Rosentica ⚔️ Rip packs, collect real graded cards, and put your lineup to the test. Seekers get exclusive perks, and the Seeker Cup Tournament starts today with a $50,000 prize pool. Available … [(link)](https://x.com/solanalabs/status/2099530088614130111)
 - **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)

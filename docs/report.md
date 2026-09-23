@@ -1,34 +1,33 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-23 02:09:10 UTC by SolVitals.
+Generated 2026-09-23 07:42:19 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **price_usd** — price_usd is 3.1 sigma above its 287-point mean
+- [CRITICAL] **price_usd** — price_usd is 3.0 sigma above its 287-point mean
 - [CRITICAL] **tvl_usd** — tvl_usd is 3.2 sigma above its 288-point mean
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.2 sigma above its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.0 sigma above its 288-point mean
 - [WARNING] **rev_24h_usd** — rev_24h_usd is 2.2 sigma above its 287-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.2 sigma below its 288-point mean
-- [WARNING] **unique_signers_sampled** — unique_signers_sampled is 2.5 sigma below its 237-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,736.96 |
-| Total TPS (incl. votes) | 4,297.70 |
-| Vote share of transactions | 59.58% |
-| Average slot time | 0.2629 s |
-| Current slot | 449,563,125 |
-| Block height | 427,603,429 |
+| Non-vote TPS | 1,624.63 |
+| Total TPS (incl. votes) | 4,164.73 |
+| Vote share of transactions | 60.99% |
+| Average slot time | 0.2650 s |
+| Current slot | 449,638,564 |
+| Block height | 427,678,851 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1040** — 65.54% complete (`#############.......`), ~11.0 hours remaining.
+Epoch **1040** — 83.0% complete (`#################...`), ~5.4 hours remaining.
 
-Slot 283,125 of 432,000. Lifetime transaction count: 551,545,761,255.
+Slot 358,565 of 432,000. Lifetime transaction count: 551,628,967,664.
 
 ## Transaction costs and slot timing
 
@@ -39,20 +38,20 @@ Slot 283,125 of 432,000. Lifetime transaction count: 551,545,761,255.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2656 s |
-| Deviation from 0.4s target | -33.6% |
+| Measured slot time (`getBlockTime`) | 0.2642 s |
+| Deviation from 0.4s target | -33.95% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 8 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 677 |
+| Active validators | 676 |
 | Delinquent validators | 12 (1.74%) |
 | Stake held by delinquents | 199,751 SOL (0.045%) |
 | Total active stake | 439,661,998 SOL |
@@ -81,29 +80,29 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $117.98 (up 0.31%) |
+| SOL price | $118.07 (up 1.66%) |
 | Market cap | $69.37B |
-| DeFi TVL | $6.52B |
+| DeFi TVL | $6.54B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $3.45B (up 0.58%) |
-| Stablecoin supply | $16.58B |
+| DEX volume (24h) | $3.45B (up 0.59%) |
+| Stablecoin supply | $16.54B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.40M** |
+| **REV (total)** | **$1.39M** |
 | Network fees | $1.10M |
-| MEV tips (out-of-protocol) | $300.10K (21.5% of REV) |
-| Annualised REV run-rate | $509.54M |
+| MEV tips (out-of-protocol) | $296.18K (21.26% of REV) |
+| Annualised REV run-rate | $508.57M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $258.14K |
-| Harmonic | $29.35K |
-| bloXroute | $12.61K |
+| Jito MEV Tips | $259.30K |
+| Harmonic | $26.34K |
+| bloXroute | $10.55K |
 
 ### Application fees (distinct from REV)
 
@@ -111,23 +110,23 @@ Fees earned by the 316 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $17.58M (down 5.67%) |
-| 7 days | $101.25M |
-| 30 days | $420.69M |
+| 24 hours | $17.84M (down 4.27%) |
+| 7 days | $113.26M |
+| 30 days | $432.69M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $3.36M |
-| Axiom | $2.30M |
-| StonkFun | $1.81M |
-| Raydium AMM | $1.76M |
-| pump.fun | $1.73M |
+| PumpSwap | $3.40M |
+| Axiom | $2.00M |
+| pump.fun | $1.75M |
+| Raydium AMM | $1.52M |
+| StonkFun | $1.27M |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $536.76M |
+| Total tokenized RWA | $536.62M |
 | Tokenized equities | $296.07K (0.06% of RWA) |
 | RWA protocols on Solana | 15 |
 
@@ -141,42 +140,30 @@ Fees earned by the 316 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $302.65M | RWA |
-| Huma Finance V2 | $188.67M | RWA |
-| Plume Vaults | $28.21M | RWA |
+| OnRe | $302.74M | RWA |
+| Huma Finance V2 | $188.39M | RWA |
+| Plume Vaults | $28.20M | RWA |
 | Invesco USTB | $3.91M | RWA |
-| Mansory | $3.01M | RWA |
+| Mansory | $3.02M | RWA |
 | VNX | $2.72M | RWA |
 | Oro Finance | $2.50M | RWA |
-| International Stable Currency | $2.43M | RWA |
-| Byzanlink RWA Markets | $890.52K | RWA |
-| KAIO | $774.58K | RWA |
-
-## Address activity
-
-| Metric | Value |
-| --- | --- |
-| Unique fee payers (sampled) | 973 |
-| Blocks sampled | 1 |
-| Transactions in sample | 1,068 |
-| Non-vote share of sample | 40.92% |
-| Signers per block | 973.0 |
-
-_Unique fee payers across sampled blocks -- an activity indicator, not a 24h unique-address count._
+| International Stable Currency | $2.48M | RWA |
+| Byzanlink RWA Markets | $891.08K | RWA |
+| KAIO | $774.56K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $634.15M |
-| Raydium AMM | $470.31M |
 | BisonFi | $446.78M |
-| Orca DEX | $371.18M |
+| Raydium AMM | $431.07M |
+| Orca DEX | $347.01M |
 | Meteora DLMM | $266.83M |
 
 ## Supply
 
-Circulating 587,507,179 SOL of 634,530,807 total (92.59%).
+Circulating 587,506,961 SOL of 634,530,589 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -207,9 +194,9 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
+- **@solana** — Solana. That's it. https://t.co/b1B8edYrzd [(link)](https://x.com/solana/status/2102646919508209692)
+- **@solana** — $ARM is now listed on @Solana via Sunrise. Issued by @Backpack Securities. https://t.co/i31oMBchwv [(link)](https://x.com/solana/status/2102493983146664416)
 - **@solana** — .@PythNetwork now distributes @Nasdaq's real-time quote and trade product for U.S. equities [(link)](https://x.com/solana/status/2102456369181851889)
-- **@solana** — Mining economy on @Solana with @ORE [(link)](https://x.com/solana/status/2102455009988542466)
-- **@solana** — BREAKING: Pyth is now an external distributor of Nasdaq Basic. @Nasdaq's real-time quote and trade product for U.S. equities, distributed through the Pyth Data Marketplace 🧵 https://t.co/1Xfg7mmYdE [(link)](https://x.com/solana/status/2102397868653072464)
 - **@solana** — Gold, the internet, AI. Every cycle rewards the people who saw it first. The token supercycle is happening on Solana, and this November the people building it meet in London. https://t.co/kZ1WtWjTXm [(link)](https://x.com/solana/status/2102378629665591535)
 - **@solanalabs** — Seeker Season brings the heat with One Arena @Rosentica ⚔️ Rip packs, collect real graded cards, and put your lineup to the test. Seekers get exclusive perks, and the Seeker Cup Tournament starts today with a $50,000 prize pool. Available … [(link)](https://x.com/solanalabs/status/2099530088614130111)
 - **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)

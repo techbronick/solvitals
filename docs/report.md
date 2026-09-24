@@ -1,29 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-24 12:00:01 UTC by SolVitals.
+Generated 2026-09-24 16:40:07 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 2.1 sigma above its 288-point mean
+- [WARNING] **price_usd** — price_usd is 2.6 sigma above its 287-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.3 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,333.06 |
-| Total TPS (incl. votes) | 3,867.20 |
-| Vote share of transactions | 65.53% |
-| Average slot time | 0.2650 s |
-| Current slot | 450,022,430 |
-| Block height | 428,062,533 |
+| Non-vote TPS | 2,258.78 |
+| Total TPS (incl. votes) | 4,777.67 |
+| Vote share of transactions | 52.72% |
+| Average slot time | 0.2667 s |
+| Current slot | 450,085,574 |
+| Block height | 428,125,665 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1041** — 71.86% complete (`##############......`), ~8.9 hours remaining.
+Epoch **1041** — 86.48% complete (`#################...`), ~4.3 hours remaining.
 
-Slot 310,430 of 432,000. Lifetime transaction count: 552,079,240,082.
+Slot 373,575 of 432,000. Lifetime transaction count: 552,160,437,961.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +35,14 @@ Slot 310,430 of 432,000. Lifetime transaction count: 552,079,240,082.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2644 s |
-| Deviation from 0.4s target | -33.9% |
+| Measured slot time (`getBlockTime`) | 0.2666 s |
+| Deviation from 0.4s target | -33.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 10 with errors.
 
 ## Validators
 
@@ -53,7 +54,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 439,764,380 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 234 |
+| Zero-commission validators | 233 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,12 +77,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $113.17 (down 3.35%) |
-| Market cap | $66.50B |
-| DeFi TVL | $6.35B |
+| SOL price | $117.22 (up 2.30%) |
+| Market cap | $68.88B |
+| DeFi TVL | $6.40B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.55B (down 20.10%) |
-| Stablecoin supply | $16.12B |
+| Stablecoin supply | $15.97B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +90,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.26M** |
 | Network fees | $1.01M |
-| MEV tips (out-of-protocol) | $247.84K (19.69% of REV) |
-| Annualised REV run-rate | $459.49M |
+| MEV tips (out-of-protocol) | $246.08K (19.57% of REV) |
+| Annualised REV run-rate | $458.85M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $217.34K |
+| Jito MEV Tips | $215.58K |
 | Harmonic | $21.37K |
 | bloXroute | $9.13K |
 
@@ -106,7 +107,7 @@ Fees earned by the 316 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $16.48M (down 7.80%) |
+| 24 hours | $16.48M (down 7.79%) |
 | 7 days | $115.98M |
 | 30 days | $435.82M |
 
@@ -115,7 +116,7 @@ Fees earned by the 316 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $3.50M |
 | Axiom | $1.82M |
 | pump.fun | $1.59M |
-| Raydium AMM | $1.03M |
+| Raydium AMM | $1.11M |
 | Solana | $1.01M |
 
 ## Tokenized assets
@@ -151,15 +152,15 @@ Fees earned by the 316 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Raydium AMM | $348.41M |
-| Orca DEX | $347.44M |
+| Orca DEX | $350.00M |
+| Raydium AMM | $337.94M |
 | BisonFi | $323.94M |
 | PumpSwap | $270.19M |
 | Meteora DLMM | $233.66M |
 
 ## Supply
 
-Circulating 587,577,213 SOL of 634,608,325 total (92.59%).
+Circulating 587,577,000 SOL of 634,608,112 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -258,6 +259,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)**
+  The Solana Foundation appointed Rachel Conlan to lead strategy and Jamal Raees to expand global payments adoption.
 - **[Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)**
   A five-year SEC order lets tokenized shares with full rights trade on public blockchains without stock-exchange registration; Solana's architecture is live.
 - **[Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)**
@@ -272,8 +275,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   V1 transaction activation is delayed to Epoch 1035, alongside new Agave, Firedancer, Web3.js, Solana Kit, and program releases.
 - **[Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)**
   Firedancer adopts three RPC calls and advances ARM support, while three mainnet feature gates and new Agave, Web3.js, and Solana Kit versions land.
-- **[Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances)**
-  New report on stablecoin remittances covering four implementation paths for money transfer operators, corridor overviews, and case studies.
 
 _Source: official Solana news feed (solana.com/news)._
 

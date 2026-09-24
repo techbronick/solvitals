@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-24 12:00:01",
+  "captured_at": "2026-09-24 16:40:07",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2644,
+      "measured_slot_time_secs": 0.2666,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -33.9,
+      "deviation_from_target_pct": -33.35,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 3867.2,
-      "tps_non_vote": 1333.06,
-      "vote_share_pct": 65.53,
-      "avg_slot_time_secs": 0.265,
-      "latest_sample_slot": 450022451,
+      "tps_total": 4777.67,
+      "tps_non_vote": 2258.78,
+      "vote_share_pct": 52.72,
+      "avg_slot_time_secs": 0.2667,
+      "latest_sample_slot": 450085517,
       "samples_used": 5,
-      "block_height": 428062533,
-      "current_slot": 450022430
+      "block_height": 428125665,
+      "current_slot": 450085574
     },
     "epoch": {
       "epoch": 1041,
-      "slot_index": 310430,
+      "slot_index": 373575,
       "slots_in_epoch": 432000,
-      "progress_pct": 71.86,
-      "eta_hours": 8.9,
-      "eta_basis_slot_secs": 0.2644,
-      "transaction_count": 552079240082
+      "progress_pct": 86.48,
+      "eta_hours": 4.3,
+      "eta_basis_slot_secs": 0.2666,
+      "transaction_count": 552160437961
     },
     "validators": {
       "active_count": 674,
@@ -40,7 +40,7 @@
       "total_active_stake_sol": 439764380.23,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 234,
+      "zero_commission_count": 233,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 634608324.96,
-      "circulating_sol": 587577213.17,
+      "total_sol": 634608111.66,
+      "circulating_sol": 587576999.87,
       "non_circulating_sol": 47031111.79,
       "circulating_pct": 92.59
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "4ZUoKEcfPRSyX5utBopVcvnzW188ZfNMvebTKCmcrWYH6yQLveSuCy4GKjnZuas52CGRdWDQZVqXJfWoRYGSkgms",
-      "latest_block_time": 1790251198,
-      "errors_in_recent": 2
+      "latest_signature": "3ueM2qc5xU1qtyjy91vgm2ZNwuPu9VykdfppS4MqxW4BkBzY7weR11LiVcnFaFmutM7ycwbyJgVobJk8UxyFRWPV",
+      "latest_block_time": 1790268005,
+      "errors_in_recent": 10
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 113.17,
-      "change_24h_pct": -3.35,
-      "market_cap_usd": 66495639398.7169,
-      "volume_24h_usd": 4741500991.783312,
+      "usd": 117.22,
+      "change_24h_pct": 2.3,
+      "market_cap_usd": 68876925875.75972,
+      "volume_24h_usd": 4193604653.154452,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6352128812.74,
+      "tvl_usd": 6398749234.56,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.74,
+      "share_of_all_chains_pct": 6.76,
       "source": "defillama"
     },
     "dex_volume": {
@@ -155,12 +155,12 @@
       "protocol_count": 125,
       "top_dexes": [
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 348406226
+          "name": "Orca DEX",
+          "volume_24h_usd": 349998885
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 347442643
+          "name": "Raydium AMM",
+          "volume_24h_usd": 337944191
         },
         {
           "name": "BisonFi",
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16116962081.77,
+      "total_usd": 15973892854.64,
       "by_peg": {
-        "peggedUSD": 16055861140.97,
-        "peggedEUR": 56814167.6,
-        "peggedJPY": 52.78,
-        "peggedCHF": 1245097.38,
-        "peggedAUD": 74884.83,
-        "peggedVAR": 2412543.72,
-        "peggedGBP": 387707.99,
+        "peggedUSD": 15912838208.84,
+        "peggedEUR": 56789875.37,
+        "peggedJPY": 52.7,
+        "peggedCHF": 1226029.87,
+        "peggedAUD": 74913.68,
+        "peggedVAR": 2409880.81,
+        "peggedGBP": 387411.72,
         "peggedTRY": 165048.66,
-        "peggedCAD": 1437.14,
+        "peggedCAD": 1432.29,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1258870,
+      "rev_24h_usd": 1257115,
       "network_fees_24h_usd": 1011035,
-      "mev_tips_24h_usd": 247835,
-      "mev_share_of_rev_pct": 19.69,
-      "rev_annualised_usd": 459487550,
+      "mev_tips_24h_usd": 246080,
+      "mev_share_of_rev_pct": 19.57,
+      "rev_annualised_usd": 458846975,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 217338
+          "tips_24h_usd": 215583
         },
         {
           "name": "Harmonic",
@@ -213,10 +213,10 @@
           "tips_24h_usd": 9128
         }
       ],
-      "app_fees_24h_usd": 16480665.029999997,
-      "app_fees_7d_usd": 115980921.78000002,
-      "app_fees_30d_usd": 435823950.6599999,
-      "app_fees_change_24h_pct": -7.8,
+      "app_fees_24h_usd": 16480956.029999997,
+      "app_fees_7d_usd": 115978103.78000002,
+      "app_fees_30d_usd": 435821132.6599999,
+      "app_fees_change_24h_pct": -7.79,
       "protocol_count": 316,
       "top_fee_earning_apps": [
         {
@@ -233,7 +233,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 1030847
+          "fees_24h_usd": 1113979
         },
         {
           "name": "Solana",
@@ -2040,6 +2040,12 @@
   "news": {
     "items": [
       {
+        "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
+        "link": "https://solana.com/news/solana-foundation-appoints-2026",
+        "published": "Thu, 24 Sep 2026 13:20:00 GMT",
+        "summary": "The Solana Foundation appointed Rachel Conlan to lead strategy and Jamal Raees to expand global payments adoption."
+      },
+      {
         "title": "Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana",
         "link": "https://solana.com/news/stocks-sec-innovation-exemption",
         "published": "Wed, 23 Sep 2026 14:06:00 GMT",
@@ -2080,12 +2086,6 @@
         "link": "https://solana.com/news/solana-changelog-september-3-2026",
         "published": "Thu, 10 Sep 2026 20:16:00 GMT",
         "summary": "Firedancer adopts three RPC calls and advances ARM support, while three mainnet feature gates and new Agave, Web3.js, and Solana Kit versions land."
-      },
-      {
-        "title": "Report: Stablecoins Are Reshaping Remittances",
-        "link": "https://solana.com/news/report-stablecoins-are-reshaping-remittances",
-        "published": "Tue, 08 Sep 2026 13:14:00 GMT",
-        "summary": "New report on stablecoin remittances covering four implementation paths for money transfer operators, corridor overviews, and case studies."
       }
     ],
     "count": 8,
@@ -2380,11 +2380,18 @@
   },
   "anomalies": [
     {
+      "metric": "price_usd",
+      "severity": "warning",
+      "message": "price_usd is 2.6 sigma above its 287-point mean",
+      "value": 117.22,
+      "expected": 102.0892
+    },
+    {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.1 sigma above its 288-point mean",
-      "value": 6352128812.74,
-      "expected": 5841581613.3841
+      "message": "tvl_usd is 2.3 sigma above its 288-point mean",
+      "value": 6398749234.56,
+      "expected": 5844241867.0679
     }
   ]
 }

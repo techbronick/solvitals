@@ -1,31 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-25 17:06:07 UTC by SolVitals.
+Generated 2026-09-25 20:26:58 UTC by SolVitals.
 
 ## Alerts
 
 - [CRITICAL] **price_usd** — price_usd is 3.1 sigma above its 287-point mean
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 4.1 sigma above its 288-point mean
-- [WARNING] **tvl_usd** — tvl_usd is 2.8 sigma above its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 3.0 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,474.47 |
-| Total TPS (incl. votes) | 4,975.80 |
-| Vote share of transactions | 50.27% |
-| Average slot time | 0.2688 s |
-| Current slot | 450,414,846 |
-| Block height | 428,454,729 |
+| Non-vote TPS | 2,370.25 |
+| Total TPS (incl. votes) | 4,890.41 |
+| Vote share of transactions | 51.53% |
+| Average slot time | 0.2674 s |
+| Current slot | 450,459,756 |
+| Block height | 428,499,623 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1042** — 62.7% complete (`#############.......`), ~12.0 hours remaining.
+Epoch **1042** — 73.09% complete (`###############.....`), ~8.6 hours remaining.
 
-Slot 270,847 of 432,000. Lifetime transaction count: 552,551,038,575.
+Slot 315,757 of 432,000. Lifetime transaction count: 552,608,833,325.
 
 ## Transaction costs and slot timing
 
@@ -36,26 +35,26 @@ Slot 270,847 of 432,000. Lifetime transaction count: 552,551,038,575.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2682 s |
-| Deviation from 0.4s target | -32.95% |
+| Measured slot time (`getBlockTime`) | 0.2676 s |
+| Deviation from 0.4s target | -33.1% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 675 |
-| Delinquent validators | 10 (1.46%) |
-| Stake held by delinquents | 36,346 SOL (0.008%) |
-| Total active stake | 440,600,850 SOL |
+| Active validators | 676 |
+| Delinquent validators | 9 (1.31%) |
+| Stake held by delinquents | 60,887 SOL (0.014%) |
+| Total active stake | 440,576,309 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 230 |
+| Zero-commission validators | 232 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -78,12 +77,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $121.41 (up 3.79%) |
-| Market cap | $71.39B |
-| DeFi TVL | $6.56B |
+| SOL price | $121.95 (up 4.49%) |
+| Market cap | $71.61B |
+| DeFi TVL | $6.63B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.45B (down 4.00%) |
-| Stablecoin supply | $17.32B |
+| Stablecoin supply | $16.65B |
 
 ### Real Economic Value (REV)
 
@@ -91,14 +90,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.22M** |
 | Network fees | $952.67K |
-| MEV tips (out-of-protocol) | $263.15K (21.64% of REV) |
-| Annualised REV run-rate | $443.77M |
+| MEV tips (out-of-protocol) | $265.22K (21.78% of REV) |
+| Annualised REV run-rate | $444.53M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $212.06K |
+| Jito MEV Tips | $214.14K |
 | Harmonic | $40.94K |
 | bloXroute | $10.15K |
 
@@ -117,7 +116,7 @@ Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $3.39M |
 | Axiom | $1.66M |
 | pump.fun | $1.65M |
-| Raydium AMM | $1.05M |
+| Raydium AMM | $1.19M |
 | Solana | $952.67K |
 
 ## Tokenized assets
@@ -155,13 +154,13 @@ Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallet
 | --- | --- |
 | BisonFi | $395.08M |
 | Orca DEX | $344.60M |
-| Raydium AMM | $292.89M |
+| Raydium AMM | $310.66M |
 | Meteora DLMM | $191.04M |
 | HumidiFi | $190.33M |
 
 ## Supply
 
-Circulating 587,653,371 SOL of 634,685,966 total (92.59%).
+Circulating 587,642,057 SOL of 634,685,814 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -269,12 +268,12 @@ _A proposal with no feature gate has not reached the point of being switchable o
   A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats.
 - **[Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)**
   Project Harmonia connects Allfunds, with about €1.9 trillion under administration, to tokenized funds on Solana; submissions close October 24, 2026.
+- **[Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)**
+  A look back at Solana Summer School 2026: 1,164 applicants from 69 countries, five weeks of live classes, four weeks of capstone building, and one demo day.
 - **[Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)**
   Solana has maintained 100% uptime since February 2024, including when a routing failure took nearly 29% of network stake offline.
 - **[Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026)**
   V1 transaction activation is delayed to Epoch 1035, alongside new Agave, Firedancer, Web3.js, Solana Kit, and program releases.
-- **[Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)**
-  Firedancer adopts three RPC calls and advances ARM support, while three mainnet feature gates and new Agave, Web3.js, and Solana Kit versions land.
 
 _Source: official Solana news feed (solana.com/news)._
 

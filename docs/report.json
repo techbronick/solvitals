@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-25 17:06:07",
+  "captured_at": "2026-09-25 20:26:58",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2682,
+      "measured_slot_time_secs": 0.2676,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -32.95,
+      "deviation_from_target_pct": -33.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4975.8,
-      "tps_non_vote": 2474.47,
-      "vote_share_pct": 50.27,
-      "avg_slot_time_secs": 0.2688,
-      "latest_sample_slot": 450414659,
+      "tps_total": 4890.41,
+      "tps_non_vote": 2370.25,
+      "vote_share_pct": 51.53,
+      "avg_slot_time_secs": 0.2674,
+      "latest_sample_slot": 450459611,
       "samples_used": 5,
-      "block_height": 428454729,
-      "current_slot": 450414846
+      "block_height": 428499623,
+      "current_slot": 450459756
     },
     "epoch": {
       "epoch": 1042,
-      "slot_index": 270847,
+      "slot_index": 315757,
       "slots_in_epoch": 432000,
-      "progress_pct": 62.7,
-      "eta_hours": 12.0,
-      "eta_basis_slot_secs": 0.2682,
-      "transaction_count": 552551038575
+      "progress_pct": 73.09,
+      "eta_hours": 8.6,
+      "eta_basis_slot_secs": 0.2676,
+      "transaction_count": 552608833325
     },
     "validators": {
-      "active_count": 675,
-      "delinquent_count": 10,
-      "delinquent_pct": 1.46,
-      "delinquent_stake_sol": 36345.69,
-      "delinquent_stake_pct": 0.008,
-      "total_active_stake_sol": 440600850.19,
+      "active_count": 676,
+      "delinquent_count": 9,
+      "delinquent_pct": 1.31,
+      "delinquent_stake_sol": 60886.58,
+      "delinquent_stake_pct": 0.014,
+      "total_active_stake_sol": 440576309.3,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 230,
+      "zero_commission_count": 232,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 634685965.75,
-      "circulating_sol": 587653371.33,
-      "non_circulating_sol": 47032594.42,
+      "total_sol": 634685814.2,
+      "circulating_sol": 587642056.78,
+      "non_circulating_sol": 47043757.42,
       "circulating_pct": 92.59
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "4SvXJXnupNAaLg8nbm959Lw9o8zjHdecwuvpwcZu9kPPpxHtkwNpi5uVbdDKeFa3rPbc8QeDbYnAde338uhTXWvh",
-      "latest_block_time": 1790355967,
-      "errors_in_recent": 3
+      "latest_signature": "21WrXQLxAKLkrg7yZrzQpAKW8CRghmtPmnss4gUiQePMtHRSgS3eBnY15333WuUZWWNJdhhpwS5pD8p2UouaJxma",
+      "latest_block_time": 1790368016,
+      "errors_in_recent": 4
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 121.41,
-      "change_24h_pct": 3.79,
-      "market_cap_usd": 71393812825.18364,
-      "volume_24h_usd": 6154648402.911905,
+      "usd": 121.95,
+      "change_24h_pct": 4.49,
+      "market_cap_usd": 71609767966.68713,
+      "volume_24h_usd": 6380088890.852708,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6563030542.65,
+      "tvl_usd": 6627068620.75,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.88,
+      "share_of_all_chains_pct": 6.93,
       "source": "defillama"
     },
     "dex_volume": {
@@ -164,7 +164,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 292887328
+          "volume_24h_usd": 310661335
         },
         {
           "name": "Meteora DLMM",
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 17321155880.26,
+      "total_usd": 16654230014.79,
       "by_peg": {
-        "peggedUSD": 17261261221.61,
-        "peggedEUR": 55615419.56,
-        "peggedJPY": 52.71,
-        "peggedCHF": 1221020.94,
-        "peggedAUD": 74791.39,
-        "peggedVAR": 2433078.41,
-        "peggedGBP": 384147.01,
+        "peggedUSD": 16594421527.59,
+        "peggedEUR": 55516007.38,
+        "peggedJPY": 52.72,
+        "peggedCHF": 1238372.5,
+        "peggedAUD": 74549.29,
+        "peggedVAR": 2429107.06,
+        "peggedGBP": 384251.79,
         "peggedTRY": 164714.6,
-        "peggedCAD": 1433.34,
+        "peggedCAD": 1431.16,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1215819,
+      "rev_24h_usd": 1217895,
       "network_fees_24h_usd": 952671,
-      "mev_tips_24h_usd": 263148,
-      "mev_share_of_rev_pct": 21.64,
-      "rev_annualised_usd": 443773935,
+      "mev_tips_24h_usd": 265224,
+      "mev_share_of_rev_pct": 21.78,
+      "rev_annualised_usd": 444531675,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 212064
+          "tips_24h_usd": 214140
         },
         {
           "name": "Harmonic",
@@ -233,7 +233,7 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 1054603
+          "fees_24h_usd": 1190280
         },
         {
           "name": "Solana",
@@ -2062,6 +2062,12 @@
         "summary": "Project Harmonia connects Allfunds, with about \u20ac1.9 trillion under administration, to tokenized funds on Solana; submissions close October 24, 2026."
       },
       {
+        "title": "Solana Summer School 2026: From first program to demo day",
+        "link": "https://solana.com/news/solana-summer-school-2026",
+        "published": "Mon, 14 Sep 2026 12:00:00 GMT",
+        "summary": "A look back at Solana Summer School 2026: 1,164 applicants from 69 countries, five weeks of live classes, four weeks of capstone building, and one demo day."
+      },
+      {
         "title": "Solana: Building, Proving and Earning Trust in Public",
         "link": "https://solana.com/news/solana-building-trust-in-public",
         "published": "Mon, 14 Sep 2026 11:00:00 GMT",
@@ -2072,12 +2078,6 @@
         "link": "https://solana.com/news/solana-changelog-september-10-2026",
         "published": "Thu, 10 Sep 2026 20:16:00 GMT",
         "summary": "V1 transaction activation is delayed to Epoch 1035, alongside new Agave, Firedancer, Web3.js, Solana Kit, and program releases."
-      },
-      {
-        "title": "Solana Changelog: September 3, 2026",
-        "link": "https://solana.com/news/solana-changelog-september-3-2026",
-        "published": "Thu, 10 Sep 2026 20:16:00 GMT",
-        "summary": "Firedancer adopts three RPC calls and advances ARM support, while three mainnet feature gates and new Agave, Web3.js, and Solana Kit versions land."
       }
     ],
     "count": 8,
@@ -2375,22 +2375,15 @@
       "metric": "price_usd",
       "severity": "critical",
       "message": "price_usd is 3.1 sigma above its 287-point mean",
-      "value": 121.41,
-      "expected": 102.5608
-    },
-    {
-      "metric": "stablecoins_usd",
-      "severity": "critical",
-      "message": "stablecoins_usd is 4.1 sigma above its 288-point mean",
-      "value": 17321155880.26,
-      "expected": 15988309140.4857
+      "value": 121.95,
+      "expected": 102.6562
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.8 sigma above its 288-point mean",
-      "value": 6563030542.65,
-      "expected": 5862564224.4455
+      "message": "tvl_usd is 3.0 sigma above its 288-point mean",
+      "value": 6627068620.75,
+      "expected": 5866011020.0982
     }
   ]
 }

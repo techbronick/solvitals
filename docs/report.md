@@ -1,31 +1,31 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-27 17:57:58 UTC by SolVitals.
+Generated 2026-09-27 20:47:02 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **price_usd** — price_usd is 2.6 sigma above its 287-point mean
-- [WARNING] **tvl_usd** — tvl_usd is 2.6 sigma above its 288-point mean
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.3 sigma above its 287-point mean
+- [WARNING] **price_usd** — price_usd is 2.7 sigma above its 287-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.7 sigma above its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.2 sigma above its 287-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,515.26 |
-| Total TPS (incl. votes) | 4,994.14 |
-| Vote share of transactions | 49.64% |
-| Average slot time | 0.2712 s |
-| Current slot | 451,070,627 |
-| Block height | 429,110,308 |
+| Non-vote TPS | 2,078.77 |
+| Total TPS (incl. votes) | 4,568.92 |
+| Vote share of transactions | 54.50% |
+| Average slot time | 0.2703 s |
+| Current slot | 451,108,479 |
+| Block height | 429,148,159 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1044** — 14.5% complete (`###.................`), ~27.7 hours remaining.
+Epoch **1044** — 23.26% complete (`#####...............`), ~24.6 hours remaining.
 
-Slot 62,628 of 432,000. Lifetime transaction count: 553,343,961,384.
+Slot 100,479 of 432,000. Lifetime transaction count: 553,389,818,616.
 
 ## Transaction costs and slot timing
 
@@ -36,14 +36,14 @@ Slot 62,628 of 432,000. Lifetime transaction count: 553,343,961,384.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2698 s |
-| Deviation from 0.4s target | -32.55% |
+| Measured slot time (`getBlockTime`) | 0.2672 s |
+| Deviation from 0.4s target | -33.2% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -78,27 +78,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $122.06 (up 0.48%) |
-| Market cap | $71.75B |
-| DeFi TVL | $6.65B |
+| SOL price | $122.91 (up 1.88%) |
+| Market cap | $72.24B |
+| DeFi TVL | $6.70B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.16B (down 17.52%) |
-| Stablecoin supply | $16.47B |
+| Stablecoin supply | $16.45B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.52M** |
+| **REV (total)** | **$1.51M** |
 | Network fees | $1.21M |
-| MEV tips (out-of-protocol) | $309.63K (20.39% of REV) |
-| Annualised REV run-rate | $554.24M |
+| MEV tips (out-of-protocol) | $298.61K (19.81% of REV) |
+| Annualised REV run-rate | $550.22M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $262.88K |
+| Jito MEV Tips | $251.87K |
 | Harmonic | $33.38K |
 | bloXroute | $13.36K |
 
@@ -108,7 +108,7 @@ Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $17.93M (up 18.95%) |
+| 24 hours | $17.94M (up 18.97%) |
 | 7 days | $112.07M |
 | 30 days | $404.05M |
 
@@ -157,11 +157,11 @@ Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallet
 | BisonFi | $251.33M |
 | Orca DEX | $236.34M |
 | pump.fun | $210.79M |
-| Raydium AMM | $180.28M |
+| Raydium AMM | $180.23M |
 
 ## Supply
 
-Circulating 587,782,835 SOL of 634,841,546 total (92.59%).
+Circulating 587,782,715 SOL of 634,841,426 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 

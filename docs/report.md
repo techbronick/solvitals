@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-28 21:56:23 UTC by SolVitals.
+Generated 2026-09-29 01:21:51 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 2.0 sigma above its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.2 sigma above its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,091.62 |
-| Total TPS (incl. votes) | 4,620.29 |
-| Vote share of transactions | 54.73% |
-| Average slot time | 0.2660 s |
-| Current slot | 451,446,094 |
-| Block height | 429,485,724 |
+| Non-vote TPS | 2,044.84 |
+| Total TPS (incl. votes) | 4,561.71 |
+| Vote share of transactions | 55.17% |
+| Average slot time | 0.2669 s |
+| Current slot | 451,492,131 |
+| Block height | 429,531,716 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1045** — 1.41% complete (`....................`), ~31.7 hours remaining.
+Epoch **1045** — 12.07% complete (`##..................`), ~28.2 hours remaining.
 
-Slot 6,095 of 432,000. Lifetime transaction count: 553,810,301,106.
+Slot 52,132 of 432,000. Lifetime transaction count: 553,864,968,160.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 6,095 of 432,000. Lifetime transaction count: 553,810,301,106.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.268 s |
-| Deviation from 0.4s target | -33.0% |
+| Measured slot time (`getBlockTime`) | 0.2668 s |
+| Deviation from 0.4s target | -33.3% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 2 with errors.
 
 ## Validators
 
@@ -76,53 +76,53 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $117.72 (down 4.17%) |
-| Market cap | $69.27B |
-| DeFi TVL | $6.55B |
+| SOL price | $116.84 (down 3.99%) |
+| Market cap | $68.99B |
+| DeFi TVL | $6.60B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $1.90B (down 11.69%) |
-| Stablecoin supply | $16.42B |
+| DEX volume (24h) | $2.22B (up 19.53%) |
+| Stablecoin supply | $16.43B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.22M** |
-| Network fees | $949.15K |
-| MEV tips (out-of-protocol) | $273.13K (22.35% of REV) |
-| Annualised REV run-rate | $446.13M |
+| **REV (total)** | **$1.33M** |
+| Network fees | $1.06M |
+| MEV tips (out-of-protocol) | $269.03K (20.22% of REV) |
+| Annualised REV run-rate | $485.70M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $241.65K |
+| Jito MEV Tips | $237.54K |
 | Harmonic | $21.49K |
 | bloXroute | $10.00K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 318 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $15.42M (down 14.03%) |
-| 7 days | $113.65M |
-| 30 days | $404.79M |
+| 24 hours | $16.39M (up 6.28%) |
+| 7 days | $101.68M |
+| 30 days | $400.13M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $5.07M |
 | pump.fun | $2.11M |
+| Solana | $1.06M |
 | Axiom | $1.00M |
-| Solana | $949.15K |
-| Raydium AMM | $800.97K |
+| Raydium AMM | $831.85K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $544.69M |
+| Total tokenized RWA | $544.08M |
 | Tokenized equities | $296.07K (0.05% of RWA) |
 | RWA protocols on Solana | 14 |
 
@@ -136,46 +136,46 @@ Fees earned by the 317 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $295.34M | RWA |
-| Huma | $208.93M | RWA |
-| Plume Vaults | $25.47M | RWA |
+| OnRe | $294.72M | RWA |
+| Huma | $208.98M | RWA |
+| Plume Vaults | $25.48M | RWA |
 | Invesco USTB | $3.91M | RWA |
 | Mansory | $3.01M | RWA |
-| International Stable Currency | $2.46M | RWA |
-| Oro Finance | $2.40M | RWA |
-| Byzanlink RWA Markets | $892.46K | RWA |
-| KAIO | $774.57K | RWA |
-| Solayer USD | $681.22K | RWA |
+| International Stable Currency | $2.42M | RWA |
+| Oro Finance | $2.39M | RWA |
+| Byzanlink RWA Markets | $892.47K | RWA |
+| KAIO | $774.59K | RWA |
+| Solayer USD | $680.99K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $426.72M |
-| PumpSwap | $297.07M |
+| Orca DEX | $412.63M |
+| Raydium AMM | $271.12M |
 | BisonFi | $270.02M |
-| Raydium AMM | $269.47M |
-| Meteora DLMM | $158.26M |
+| PumpSwap | $268.39M |
+| Meteora DLMM | $205.60M |
 
 ## Supply
 
-Circulating 587,853,233 SOL of 634,919,072 total (92.59%).
+Circulating 587,852,843 SOL of 634,918,929 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 
 | Metric | Value | As of | Provider |
 | --- | --- | --- | --- |
-| Active Addresses | 589,969 | 2026-09-27 | Dune |
+| Active Addresses | 734,269 | 2026-09-27 | Dune |
 | Fee Payers | 2,735,755 | 2026-09-27 | Dune |
 | Transaction Count (Total) | 380,759,936 | 2026-09-27 | Dune |
 | Non Vote Transaction Count (Success) | 113,568,748 | 2026-09-27 | Dune |
 | Non Vote Transaction Count (Failed) | 50,579,534 | 2026-09-27 | Dune |
-| DEX Volume | $1.36B | 2026-09-27 | Dune |
-| DEX Traders | 677,089 | 2026-09-27 | Dune |
-| Transfer Volume | $9.04B | 2026-09-26 | Dune |
-| Total Stake | 440,618,116 | 2026-09-27 | Solscan |
-| Validator Count | 674 | 2026-09-28 | Stakewiz |
-| Top 3 ASN Share | 46.84 | 2026-09-28 | Stakewiz |
+| DEX Volume | $2.28B | 2026-09-27 | Dune |
+| DEX Traders | 933,493 | 2026-09-27 | Dune |
+| Transfer Volume | $15.07B | 2026-09-27 | Dune |
+| Total Stake | 440,550,862 | 2026-09-27 | Solscan |
+| Validator Count | 675 | 2026-09-28 | Stakewiz |
+| Top 3 ASN Share | 46.79 | 2026-09-28 | Stakewiz |
 
 _Daily active addresses are deduplicated across the full day by the provider — distinct from the live block sample below, which measures current activity._
 
@@ -185,16 +185,17 @@ The same metric is published by multiple providers with different methodologies.
 
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
-| Active Addresses | 2026-09-27 | 85.8% | Allium: 739,582, Dune: 589,969, Goldsky: 735,016, Top Ledger: 397,999 |
+| Active Addresses | 2026-09-27 | 81.4% | Allium: 739,582, Artemis: 660,277, Blockworks: 419,220, Dune: 734,269, Goldsky: 735,016, RWA: 755,321, Top Ledger: 416,314 |
+| Fee Payers | 2026-09-27 | 90.3% | Allium: 2,735,794, Artemis: 5,123,259, Blockworks: 2,691,945, Dune: 2,735,755, Token Terminal: 2,729,730, Top Ledger: 2,735,794 |
 
 ## Announcements from key accounts
 
-- **@solana** — Suggest blocking some time on your calendar for this legendary Alpenglow whiteboard session. The full video drops tomorrow. https://t.co/38J8kh58Mq [(link)](https://x.com/solana/status/2104379338720207093)
-- **@solana** — Domains are now assets. Meet @domaprotocol, tokenizing the internet’s oldest ownership protocol. [(link)](https://x.com/solana/status/2104363577029324880)
-- **@solana** — Solana traders see Supercycles before they happen and domains are no different. Frontier is now open on @Solana via @Loopscale ⬇️ Deposit now. Earn points. Set your priority. https://t.co/WapeK69Wug https://t.co/PojwAVEVL2 [(link)](https://x.com/solana/status/2104357699530219831)
-- **@solana** — Stablecoins at an ATH, RWAs at an ATH, a million-plus wallets holding tokenized stocks, and the race is on to drive home a Porsche 911 GT3 RS. Here’s what happened over the week: 📰 Headline News - Stablecoin supply on Solana hit a new ATH … [(link)](https://x.com/solana/status/2104201896911057197)
-- **@solanalabs** — Seeker Season brings the heat with One Arena @Rosentica ⚔️ Rip packs, collect real graded cards, and put your lineup to the test. Seekers get exclusive perks, and the Seeker Cup Tournament starts today with a $50,000 prize pool. Available … [(link)](https://x.com/solanalabs/status/2099530088614130111)
-- **@solanalabs** — Clock In 📱 The Solana Mobile Hackathon by RadiantsDAO is live. - 4 weeks - $135k in prizes - A SKR integration track This is your shot to get distribution and build the next viral mobile crypto app. Submissions due on October 8. Register n… [(link)](https://x.com/solanalabs/status/2097387853990748448)
+- **@solana** — .@nansen_ai reached a new ATH in @x402 transactions per week on Solana They settle transactions on Solana more than all other networks combined [(link)](https://x.com/solana/status/2104729754243084553)
+- **@solana** — Introducing a new way to rip Pokémon built around the entire market, not a warehouse. Open packs, cash out, hunt exact cards, or ship your pulls IRL. Meet KodaPacks 👇 https://t.co/p4jYHUcTWQ [(link)](https://x.com/solana/status/2104624777583292710)
+- **@solanalabs** — Thinking about Breakpoint? Now’s a pretty good time to lock it in. For the next 72 hours, use code BP26-SEEKER25 for 25% off your ticket and get a Seeker for half off. Get your ticket. Get your Seeker. See you at Breakpoint. [(link)](https://x.com/solanalabs/status/2104591285915173285)
+- **@solana** — AI agents are buying @nansen_ai's smart money data one cent at a time. last week they bought almost 3× more than the week before 🧵 https://t.co/EBmZlBsma5 [(link)](https://x.com/solana/status/2104556775491998023)
+- **@solana** — Buy a Breakpoint ticket with BP26-SEEKER25 for 25% off, and you get a @solanamobile Seeker for half price. For 72 hours only. https://t.co/QH9zfxQMtm [(link)](https://x.com/solana/status/2104556733255282966)
+- **@solanalabs** — Buy a Breakpoint ticket with BP26-SEEKER25 for 25% off, and you get a @solanamobile Seeker for half price. For 72 hours only. https://t.co/QH9zfxQMtm [(link)](https://x.com/solanalabs/status/2104556733255282966)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
 - **@solanalabs** — Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet — founders building across AI, robotics, and trading on @solana. Day one of working with these teams: 🟣@clawpumptech 🟣@crowdbrainai 🟣@Lavaragexyz 🟣@morfimarkets 🟣@… [(link)](https://x.com/solanalabs/status/2094842504025694668)
 
@@ -266,12 +267,12 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Transaction V1 reaches mainnet as Solana targets 250ms slots, lower rent, and program deployments with four times lower fees.
 - **[How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)**
   A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats.
+- **[Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)**
+  Your Solana Events guide to thriving (and surviving) at Breakpoint London 2026
 - **[Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)**
   Project Harmonia connects Allfunds, with about €1.9 trillion under administration, to tokenized funds on Solana; submissions close October 24, 2026.
 - **[Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)**
   A look back at Solana Summer School 2026: 1,164 applicants from 69 countries, five weeks of live classes, four weeks of capstone building, and one demo day.
-- **[Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)**
-  Solana has maintained 100% uptime since February 2024, including when a routing failure took nearly 29% of network stake offline.
 
 _Source: official Solana news feed (solana.com/news)._
 

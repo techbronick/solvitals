@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-09-29 01:21:51 UTC by SolVitals.
+Generated 2026-09-29 07:04:12 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 2.2 sigma above its 288-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,044.84 |
-| Total TPS (incl. votes) | 4,561.71 |
-| Vote share of transactions | 55.17% |
-| Average slot time | 0.2669 s |
-| Current slot | 451,492,131 |
-| Block height | 429,531,716 |
+| Non-vote TPS | 1,417.71 |
+| Total TPS (incl. votes) | 3,930.95 |
+| Vote share of transactions | 63.93% |
+| Average slot time | 0.2676 s |
+| Current slot | 451,568,961 |
+| Block height | 429,608,524 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1045** — 12.07% complete (`##..................`), ~28.2 hours remaining.
+Epoch **1045** — 29.85% complete (`######..............`), ~22.5 hours remaining.
 
-Slot 52,132 of 432,000. Lifetime transaction count: 553,864,968,160.
+Slot 128,961 of 432,000. Lifetime transaction count: 553,949,857,075.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $116.84 (down 3.99%) |
-| Market cap | $68.99B |
-| DeFi TVL | $6.60B |
+| SOL price | n/a |
+| Market cap | n/a |
+| DeFi TVL | $6.44B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.22B (up 19.53%) |
-| Stablecoin supply | $16.43B |
+| DEX volume (24h) | $2.29B (up 18.88%) |
+| Stablecoin supply | $16.21B |
 
 ### Real Economic Value (REV)
 
@@ -89,16 +89,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.33M** |
 | Network fees | $1.06M |
-| MEV tips (out-of-protocol) | $269.03K (20.22% of REV) |
-| Annualised REV run-rate | $485.70M |
+| MEV tips (out-of-protocol) | $264.77K (19.96% of REV) |
+| Annualised REV run-rate | $484.15M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $237.54K |
-| Harmonic | $21.49K |
-| bloXroute | $10.00K |
+| Jito MEV Tips | $229.67K |
+| Harmonic | $24.10K |
+| bloXroute | $11.00K |
 
 ### Application fees (distinct from REV)
 
@@ -106,17 +106,17 @@ Fees earned by the 318 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $16.39M (up 6.28%) |
-| 7 days | $101.68M |
-| 30 days | $400.13M |
+| 24 hours | $17.45M (up 13.17%) |
+| 7 days | $112.97M |
+| 30 days | $411.41M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $5.07M |
-| pump.fun | $2.11M |
+| PumpSwap | $5.50M |
+| pump.fun | $2.23M |
+| Axiom | $1.13M |
 | Solana | $1.06M |
-| Axiom | $1.00M |
-| Raydium AMM | $831.85K |
+| Meteora DLMM | $813.07K |
 
 ## Tokenized assets
 
@@ -151,15 +151,15 @@ Fees earned by the 318 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $412.63M |
-| Raydium AMM | $271.12M |
+| Orca DEX | $383.82M |
 | BisonFi | $270.02M |
 | PumpSwap | $268.39M |
+| Raydium AMM | $251.27M |
 | Meteora DLMM | $205.60M |
 
 ## Supply
 
-Circulating 587,852,843 SOL of 634,918,929 total (92.59%).
+Circulating 587,852,623 SOL of 634,918,708 total (92.59%).
 
 ## Ecosystem growth (solana.com/data)
 

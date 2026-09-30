@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-30 15:03:58",
+  "captured_at": "2026-09-30 19:58:28",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2692,
+      "measured_slot_time_secs": 0.268,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -32.7,
+      "deviation_from_target_pct": -33.0,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,39 +13,39 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5207.95,
-      "tps_non_vote": 2699.52,
-      "vote_share_pct": 48.17,
+      "tps_total": 4809.84,
+      "tps_non_vote": 2305.78,
+      "vote_share_pct": 52.06,
       "avg_slot_time_secs": 0.2664,
-      "latest_sample_slot": 451999406,
+      "latest_sample_slot": 452065284,
       "samples_used": 5,
-      "block_height": 430038749,
-      "current_slot": 451999422
+      "block_height": 430104552,
+      "current_slot": 452065354
     },
     "epoch": {
       "epoch": 1046,
-      "slot_index": 127423,
+      "slot_index": 193355,
       "slots_in_epoch": 432000,
-      "progress_pct": 29.5,
-      "eta_hours": 22.8,
-      "eta_basis_slot_secs": 0.2692,
-      "transaction_count": 554455711374
+      "progress_pct": 44.76,
+      "eta_hours": 17.8,
+      "eta_basis_slot_secs": 0.268,
+      "transaction_count": 554541238197
     },
     "validators": {
-      "active_count": 671,
-      "delinquent_count": 12,
-      "delinquent_pct": 1.76,
-      "delinquent_stake_sol": 247614.66,
-      "delinquent_stake_pct": 0.056,
-      "total_active_stake_sol": 440302030.32,
+      "active_count": 672,
+      "delinquent_count": 11,
+      "delinquent_pct": 1.61,
+      "delinquent_stake_sol": 223485.18,
+      "delinquent_stake_pct": 0.051,
+      "total_active_stake_sol": 440326159.8,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 230,
+      "zero_commission_count": 229,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17227375.87,
-          "stake_pct": 3.913,
+          "stake_pct": 3.912,
           "commission": 7
         },
         {
@@ -57,13 +57,13 @@
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12330668.09,
-          "stake_pct": 2.801,
+          "stake_pct": 2.8,
           "commission": 0
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 11384141.14,
-          "stake_pct": 2.586,
+          "stake_pct": 2.585,
           "commission": 0
         },
         {
@@ -75,7 +75,7 @@
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9257721.06,
-          "stake_pct": 2.103,
+          "stake_pct": 2.102,
           "commission": 7
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 634996133.77,
-      "circulating_sol": 588005756.59,
-      "non_circulating_sol": 46990377.18,
+      "total_sol": 634995910.45,
+      "circulating_sol": 588005533.22,
+      "non_circulating_sol": 46990377.23,
       "circulating_pct": 92.6
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "29nnXTw3jYmNfy4GiAf5dAcsKUx3xmhXNRHZJFAY8dWq44yxxNthWUEaiSCxqT24FBSvPHaooPN7r7b73R7P4CT6",
-      "latest_block_time": 1790780638,
-      "errors_in_recent": 2
+      "latest_signature": "4kr14zL2rnhUj7ELs2s18EKCdh3oSu2ytBggNxLP34jDePxTXNa79NVZGD9YyVQmuT5Wp4rinboHYMtb8YFJyBX3",
+      "latest_block_time": 1790798308,
+      "errors_in_recent": 0
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,27 +136,27 @@
   },
   "market": {
     "price": {
-      "usd": 118.85,
-      "change_24h_pct": -0.83,
-      "market_cap_usd": 69902243478.18437,
-      "volume_24h_usd": 4283029612.8085966,
+      "usd": 117.3,
+      "change_24h_pct": -1.24,
+      "market_cap_usd": 68970556730.45418,
+      "volume_24h_usd": 4112409502.0377245,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6471396749.8,
+      "tvl_usd": 6551587163.28,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.75,
+      "share_of_all_chains_pct": 6.89,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2534247588.8400006,
-      "volume_7d_usd": 16895278459.689999,
+      "volume_24h_usd": 2534187471.8400006,
+      "volume_7d_usd": 16894853391.689999,
       "change_24h_pct": -4.8,
-      "protocol_count": 127,
+      "protocol_count": 126,
       "top_dexes": [
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 374425942
+          "volume_24h_usd": 430017177
         },
         {
           "name": "BisonFi",
@@ -168,7 +168,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 264581337
+          "volume_24h_usd": 301095333
         },
         {
           "name": "Meteora DLMM",
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16392962774.97,
+      "total_usd": 16088959854.22,
       "by_peg": {
-        "peggedUSD": 16330912485.57,
-        "peggedEUR": 57824523.93,
-        "peggedJPY": 52.84,
-        "peggedCHF": 1173886.24,
-        "peggedAUD": 73396.91,
-        "peggedVAR": 2422536.63,
-        "peggedGBP": 389960.03,
+        "peggedUSD": 16027857382.34,
+        "peggedEUR": 56901800.6,
+        "peggedJPY": 54.42,
+        "peggedCHF": 1173831.13,
+        "peggedAUD": 73535.93,
+        "peggedVAR": 2397715.63,
+        "peggedGBP": 389599.89,
         "peggedTRY": 164504.61,
-        "peggedCAD": 1427.5,
+        "peggedCAD": 1428.98,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1322381,
+      "rev_24h_usd": 1333054,
       "network_fees_24h_usd": 1068421,
-      "mev_tips_24h_usd": 253960,
-      "mev_share_of_rev_pct": 19.2,
-      "rev_annualised_usd": 482669065,
+      "mev_tips_24h_usd": 264633,
+      "mev_share_of_rev_pct": 19.85,
+      "rev_annualised_usd": 486564710,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 225065
+          "tips_24h_usd": 235738
         },
         {
           "name": "Harmonic",
@@ -213,10 +213,10 @@
           "tips_24h_usd": 9289
         }
       ],
-      "app_fees_24h_usd": 14859731.169999998,
-      "app_fees_7d_usd": 111722719.42000005,
-      "app_fees_30d_usd": 415786019.2099995,
-      "app_fees_change_24h_pct": -15.16,
+      "app_fees_24h_usd": 14686283.169999998,
+      "app_fees_7d_usd": 110706474.42000005,
+      "app_fees_30d_usd": 412188883.2099995,
+      "app_fees_change_24h_pct": -15.09,
       "protocol_count": 319,
       "top_fee_earning_apps": [
         {
@@ -2030,6 +2030,12 @@
   "news": {
     "items": [
       {
+        "title": "Open USD Is Live on Solana",
+        "link": "https://solana.com/news/open-usd-is-live-on-solana",
+        "published": "Wed, 30 Sep 2026 19:17:00 GMT",
+        "summary": "Open USD is live on Solana, letting businesses mint and burn 1:1 for dollars at no cost, with over $1 billion committed to liquidity."
+      },
+      {
         "title": "Slot Time Reduction Effects",
         "link": "https://solana.com/news/slot-time-reduction-effects",
         "published": "Mon, 28 Sep 2026 15:00:00 GMT",
@@ -2070,12 +2076,6 @@
         "link": "https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana",
         "published": "Wed, 16 Sep 2026 00:56:00 GMT",
         "summary": "Project Harmonia connects Allfunds, with about \u20ac1.9 trillion under administration, to tokenized funds on Solana; submissions close October 24, 2026."
-      },
-      {
-        "title": "Solana Summer School 2026: From first program to demo day",
-        "link": "https://solana.com/news/solana-summer-school-2026",
-        "published": "Mon, 14 Sep 2026 12:00:00 GMT",
-        "summary": "A look back at Solana Summer School 2026: 1,164 applicants from 69 countries, five weeks of live classes, four weeks of capstone building, and one demo day."
       }
     ],
     "count": 8,

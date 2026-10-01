@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-09-30 23:26:23",
+  "captured_at": "2026-10-01 02:15:29",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2674,
+      "measured_slot_time_secs": 0.2668,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -33.15,
+      "deviation_from_target_pct": -33.3,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4672.42,
-      "tps_non_vote": 2148.6,
-      "vote_share_pct": 54.02,
-      "avg_slot_time_secs": 0.2643,
-      "latest_sample_slot": 452111849,
+      "tps_total": 4756.8,
+      "tps_non_vote": 2254.81,
+      "vote_share_pct": 52.6,
+      "avg_slot_time_secs": 0.2679,
+      "latest_sample_slot": 452149703,
       "samples_used": 5,
-      "block_height": 430151105,
-      "current_slot": 452111945
+      "block_height": 430188949,
+      "current_slot": 452149821
     },
     "epoch": {
       "epoch": 1046,
-      "slot_index": 239945,
+      "slot_index": 277822,
       "slots_in_epoch": 432000,
-      "progress_pct": 55.54,
-      "eta_hours": 14.3,
-      "eta_basis_slot_secs": 0.2674,
-      "transaction_count": 554600438375
+      "progress_pct": 64.31,
+      "eta_hours": 11.4,
+      "eta_basis_slot_secs": 0.2668,
+      "transaction_count": 554647693503
     },
     "validators": {
       "active_count": 672,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 634995755.36,
-      "circulating_sol": 588005378.13,
-      "non_circulating_sol": 46990377.23,
+      "total_sol": 634995631.85,
+      "circulating_sol": 588005277.62,
+      "non_circulating_sol": 46990354.23,
       "circulating_pct": 92.6
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "4rr152pWwWfviHx1ccNEZDaYRmoQ4w5f9KFZVPb5RkJ23kbqmHTcXjqtMdVgdJwR2aMcGwebgZgVJZvcY6jRptcH",
-      "latest_block_time": 1790810784,
-      "errors_in_recent": 6
+      "latest_signature": "36RaiJdQdugU8ZbdmjKKXnnjuR4qs5kEB2vhSy5vih4aSwrgbKQiBWhpqB63Z6mNRTxEc25oYKQmbJ8uopUcWKva",
+      "latest_block_time": 1790820929,
+      "errors_in_recent": 5
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,92 +136,92 @@
   },
   "market": {
     "price": {
-      "usd": 118.23,
-      "change_24h_pct": -0.92,
-      "market_cap_usd": 69522905158.15791,
-      "volume_24h_usd": 4306729485.937246,
+      "usd": 118.24,
+      "change_24h_pct": -1.21,
+      "market_cap_usd": 69536078495.86087,
+      "volume_24h_usd": 4341048862.345966,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6522581271.68,
+      "tvl_usd": 6513835222.52,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.87,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2534187471.8400006,
-      "volume_7d_usd": 16894853391.689999,
-      "change_24h_pct": -4.8,
+      "volume_24h_usd": 2543614741.16,
+      "volume_7d_usd": 15796243487.640001,
+      "change_24h_pct": 0.37,
       "protocol_count": 126,
       "top_dexes": [
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 442680216
+          "volume_24h_usd": 437186915
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 349038628
         },
         {
-          "name": "PumpSwap",
-          "volume_24h_usd": 337458953
+          "name": "Raydium AMM",
+          "volume_24h_usd": 303565599
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 314253874
+          "name": "PumpSwap",
+          "volume_24h_usd": 207001001
         },
         {
           "name": "Meteora DLMM",
-          "volume_24h_usd": 189697364
+          "volume_24h_usd": 205404064
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16108906360.2,
+      "total_usd": 16128966752.09,
       "by_peg": {
-        "peggedUSD": 16047943087.34,
-        "peggedEUR": 56732988.35,
+        "peggedUSD": 16067950325.77,
+        "peggedEUR": 56785848.38,
         "peggedJPY": 53.01,
-        "peggedCHF": 1173622.45,
-        "peggedAUD": 73617.97,
-        "peggedVAR": 2427653.6,
-        "peggedGBP": 389407.99,
-        "peggedTRY": 164504.61,
-        "peggedCAD": 1424.18,
+        "peggedCHF": 1176100.13,
+        "peggedAUD": 73254.62,
+        "peggedVAR": 2426021.81,
+        "peggedGBP": 389302.53,
+        "peggedTRY": 164422.7,
+        "peggedCAD": 1422.45,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1342119,
+      "rev_24h_usd": 1350416,
       "network_fees_24h_usd": 1068421,
-      "mev_tips_24h_usd": 273698,
-      "mev_share_of_rev_pct": 20.39,
-      "rev_annualised_usd": 489873435,
+      "mev_tips_24h_usd": 281995,
+      "mev_share_of_rev_pct": 20.88,
+      "rev_annualised_usd": 492901840,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 244803
+          "tips_24h_usd": 248886
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 19606
+          "tips_24h_usd": 24193
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 9289
+          "tips_24h_usd": 8916
         }
       ],
-      "app_fees_24h_usd": 14686283.169999998,
-      "app_fees_7d_usd": 110706474.42000005,
-      "app_fees_30d_usd": 412188883.2099995,
-      "app_fees_change_24h_pct": -15.09,
+      "app_fees_24h_usd": 15527809.4,
+      "app_fees_7d_usd": 105667198.38000004,
+      "app_fees_30d_usd": 410432919.7799995,
+      "app_fees_change_24h_pct": 5.76,
       "protocol_count": 319,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
-          "fees_24h_usd": 3708908
+          "fees_24h_usd": 3894111
         },
         {
           "name": "pump.fun",
@@ -229,7 +229,7 @@
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 1255467
+          "fees_24h_usd": 1228564
         },
         {
           "name": "StonkFun",

@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-03 11:51:45 UTC by SolVitals.
+Generated 2026-10-03 15:19:47 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,629.00 |
-| Total TPS (incl. votes) | 4,155.41 |
-| Vote share of transactions | 60.80% |
-| Average slot time | 0.2650 s |
-| Current slot | 452,925,232 |
-| Block height | 430,963,801 |
+| Non-vote TPS | 2,071.24 |
+| Total TPS (incl. votes) | 4,580.92 |
+| Vote share of transactions | 54.79% |
+| Average slot time | 0.2671 s |
+| Current slot | 452,971,970 |
+| Block height | 431,010,540 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1048** — 43.8% complete (`#########...........`), ~18.0 hours remaining.
+Epoch **1048** — 54.62% complete (`###########.........`), ~14.5 hours remaining.
 
-Slot 189,233 of 432,000. Lifetime transaction count: 555,571,401,276.
+Slot 235,970 of 432,000. Lifetime transaction count: 555,623,835,580.
 
 ## Transaction costs and slot timing
 
@@ -41,19 +41,19 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 672 |
+| Active validators | 673 |
 | Delinquent validators | 12 (1.75%) |
 | Stake held by delinquents | 28,625 SOL (0.006%) |
 | Total active stake | 441,984,565 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 229 |
+| Zero-commission validators | 228 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,39 +76,39 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.38 (down 2.15%) |
-| Market cap | $70.21B |
+| SOL price | $119.58 (down 0.36%) |
+| Market cap | $70.33B |
 | DeFi TVL | $6.65B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.76B (up 10.92%) |
-| Stablecoin supply | $16.62B |
+| Stablecoin supply | $16.63B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.39M** |
+| **REV (total)** | **$1.38M** |
 | Network fees | $1.09M |
-| MEV tips (out-of-protocol) | $295.13K (21.24% of REV) |
-| Annualised REV run-rate | $507.22M |
+| MEV tips (out-of-protocol) | $289.22K (20.9% of REV) |
+| Annualised REV run-rate | $505.07M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $258.04K |
+| Jito MEV Tips | $252.13K |
 | Harmonic | $27.96K |
 | bloXroute | $9.13K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 319 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 320 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $17.30M (up 0.97%) |
-| 7 days | $115.56M |
-| 30 days | $429.85M |
+| 24 hours | $17.40M (up 1.56%) |
+| 7 days | $115.67M |
+| 30 days | $429.95M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -136,30 +136,30 @@ Fees earned by the 319 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $291.52M | RWA |
-| Huma | $260.16M | RWA |
-| Plume Vaults | $32.39M | RWA |
+| OnRe | $291.54M | RWA |
+| Huma | $260.15M | RWA |
+| Plume Vaults | $32.41M | RWA |
 | Invesco USTB | $3.91M | RWA |
 | Mansory | $2.99M | RWA |
-| Oro Finance | $2.44M | RWA |
-| International Stable Currency | $2.38M | RWA |
-| Byzanlink RWA Markets | $893.03K | RWA |
-| KAIO | $774.61K | RWA |
-| Solayer USD | $670.99K | RWA |
+| International Stable Currency | $2.40M | RWA |
+| Oro Finance | $2.39M | RWA |
+| Byzanlink RWA Markets | $893.08K | RWA |
+| KAIO | $774.62K | RWA |
+| Solayer USD | $677.19K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | BisonFi | $347.77M |
-| Orca DEX | $324.73M |
 | PumpSwap | $321.13M |
-| Raydium AMM | $214.79M |
+| Orca DEX | $305.07M |
+| Raydium AMM | $188.20M |
 | Meteora DLMM | $180.66M |
 
 ## Supply
 
-Circulating 588,146,031 SOL of 635,150,605 total (92.6%).
+Circulating 588,145,895 SOL of 635,150,468 total (92.6%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -259,6 +259,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)**
+  Solana can give AI agents permissionless access to compute, training, identity, memory, and machine-native payments.
 - **[Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)**
   Open USD is live on Solana, letting businesses mint and burn 1:1 for dollars at no cost, with over $1 billion committed to liquidity.
 - **[Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)**
@@ -273,8 +275,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats.
 - **[Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)**
   Your Solana Events guide to thriving (and surviving) at Breakpoint London 2026
-- **[Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)**
-  Project Harmonia connects Allfunds, with about €1.9 trillion under administration, to tokenized funds on Solana; submissions close October 24, 2026.
 
 _Source: official Solana news feed (solana.com/news)._
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-03 21:46:40",
+  "captured_at": "2026-10-04 00:11:28",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.269,
+      "measured_slot_time_secs": 0.2674,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -32.75,
+      "deviation_from_target_pct": -33.15,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4691.81,
-      "tps_non_vote": 2198.56,
-      "vote_share_pct": 53.14,
-      "avg_slot_time_secs": 0.2681,
-      "latest_sample_slot": 453058453,
+      "tps_total": 4748.36,
+      "tps_non_vote": 2261.23,
+      "vote_share_pct": 52.38,
+      "avg_slot_time_secs": 0.2688,
+      "latest_sample_slot": 453091002,
       "samples_used": 5,
-      "block_height": 431096983,
-      "current_slot": 453058499
+      "block_height": 431129464,
+      "current_slot": 453091000
     },
     "epoch": {
       "epoch": 1048,
-      "slot_index": 322499,
+      "slot_index": 355001,
       "slots_in_epoch": 432000,
-      "progress_pct": 74.65,
-      "eta_hours": 8.2,
-      "eta_basis_slot_secs": 0.269,
-      "transaction_count": 555734732280
+      "progress_pct": 82.18,
+      "eta_hours": 5.7,
+      "eta_basis_slot_secs": 0.2674,
+      "transaction_count": 555775262644
     },
     "validators": {
       "active_count": 671,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 635150177.5,
-      "circulating_sol": 588145603.9,
-      "non_circulating_sol": 47004573.59,
+      "total_sol": 635150071.59,
+      "circulating_sol": 588145497.91,
+      "non_circulating_sol": 47004573.68,
       "circulating_pct": 92.6
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "5tVtvJijWtNL4TgF6m827KvS2xE9vzVAbSZmGY5bx1TuBzyUCt79Ku3reZDBnVKZ2ioRvuxcf17EwDuyUvK1cyCt",
-      "latest_block_time": 1791063998,
-      "errors_in_recent": 4
+      "latest_signature": "3JafnQv4tvosxfvgdmGFkvxieCFQfMgUz1GAHU9sE5mnCPgnq3v7ds8gcAjQsi7btwLXvwYqJAUR6926YGzfAumR",
+      "latest_block_time": 1791072687,
+      "errors_in_recent": 6
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 119.61,
-      "change_24h_pct": 1.28,
-      "market_cap_usd": 70345382957.05159,
-      "volume_24h_usd": 1621174788.5901093,
+      "usd": 119.7,
+      "change_24h_pct": 0.99,
+      "market_cap_usd": 70387198513.92114,
+      "volume_24h_usd": 1561309245.6256,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6667517929.08,
+      "tvl_usd": 6668411021.85,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.98,
+      "share_of_all_chains_pct": 6.97,
       "source": "defillama"
     },
     "dex_volume": {
@@ -171,38 +171,38 @@
           "volume_24h_usd": 177556550
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 157382488
+          "name": "Tessera V",
+          "volume_24h_usd": 154912191
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16592620840.28,
+      "total_usd": 16584248003.83,
       "by_peg": {
-        "peggedUSD": 16531481552.08,
-        "peggedEUR": 56917937.93,
-        "peggedJPY": 59.48,
-        "peggedCHF": 1182045.42,
-        "peggedAUD": 73536.76,
-        "peggedVAR": 2416496.08,
-        "peggedGBP": 383643.81,
+        "peggedUSD": 16523121798.07,
+        "peggedEUR": 56916299.0,
+        "peggedJPY": 60.04,
+        "peggedCHF": 1186140.48,
+        "peggedAUD": 72945.92,
+        "peggedVAR": 2401564.72,
+        "peggedGBP": 383626.04,
         "peggedTRY": 164146.28,
-        "peggedCAD": 1421.75,
+        "peggedCAD": 1422.57,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1371169,
+      "rev_24h_usd": 1352621,
       "network_fees_24h_usd": 1094519,
-      "mev_tips_24h_usd": 276650,
-      "mev_share_of_rev_pct": 20.18,
-      "rev_annualised_usd": 500476685,
+      "mev_tips_24h_usd": 258102,
+      "mev_share_of_rev_pct": 19.08,
+      "rev_annualised_usd": 493706665,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 239561
+          "tips_24h_usd": 221013
         },
         {
           "name": "Harmonic",
@@ -2313,33 +2313,33 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "At Solana Summit DC, @AlliumLabs\u2019 @ethanyish breaks down how Solana is serving two sides of the market: Institutions are using Solana for issuance. Retail is using it for trading. Low fees + high throughput + global reach. @solana's infras\u2026",
-        "created_at": "Tue Sep 29 15:34:43 +0000 2026",
-        "url": "https://x.com/solana/status/2104958055712469109"
+        "text": "https://t.co/VEdOkFH5Mh",
+        "created_at": "Sat Oct 03 12:00:16 +0000 2026",
+        "url": "https://x.com/solana/status/2106353639245991961"
       },
       {
         "handle": "solana",
-        "text": ".@joinfrontier takes over seoul tomorrow \ud83c\uddf0\ud83c\uddf7 a live trading tournament, with a Porsche 911 GT3 RS on the line for london. tune in. https://t.co/8wkyaothqu",
-        "created_at": "Tue Sep 29 15:31:52 +0000 2026",
-        "url": "https://x.com/solana/status/2104957340172886135"
+        "text": "Watch the full interview with @KrutzkyTrades https://t.co/wAvAgix7tV",
+        "created_at": "Sat Oct 03 07:30:00 +0000 2026",
+        "url": "https://x.com/solana/status/2106285624420430269"
       },
       {
         "handle": "solana",
-        "text": "Solana Stories: @Collector_Crypt @TuomHolmberg https://t.co/xDLrxXm7Wd",
-        "created_at": "Tue Sep 29 15:00:03 +0000 2026",
-        "url": "https://x.com/solana/status/2104949331396874251"
-      },
-      {
-        "handle": "solana",
-        "text": "$BAGEY is open. The Baillie Gifford Enhanced Yield Fund is now open for investment. Actively managed short-duration bonds, issued fully nativelyonchain, with the blockchain as the legal record of ownership. Subscribe and redeem in USDC or \u2026",
-        "created_at": "Tue Sep 29 13:30:01 +0000 2026",
-        "url": "https://x.com/solana/status/2104926672877150716"
+        "text": "Vibhu explains how @Backpack lets users turn tokenized stocks back into actual shares \"Backpack is a full brokerage, so it's one-to-one. They seed liquidity, and if demand outweighs the supply onchain, they progressively buy more shares on\u2026",
+        "created_at": "Sat Oct 03 07:30:00 +0000 2026",
+        "url": "https://x.com/solana/status/2106285623657017726"
       },
       {
         "handle": "solanalabs",
-        "text": "Thinking about Breakpoint? Now\u2019s a pretty good time to lock it in. For the next 72 hours, use code BP26-SEEKER25 for 25% off your ticket and get a Seeker for half off. Get your ticket. Get your Seeker. See you at Breakpoint.",
-        "created_at": "Mon Sep 28 15:17:18 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2104591285915173285"
+        "text": "The clock is ticking \u23f0 Less than 7 days left to ship your Clock In hackathon submission. What are you building? https://t.co/2aW9Rca5ZZ",
+        "created_at": "Fri Oct 02 18:36:32 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2106090974900592964"
+      },
+      {
+        "handle": "solana",
+        "text": "LIVE NOW: in the trenches with @vibhu | Ep 86 | Presented by @fomo & @solana https://t.co/Oi9nQpR2Ua",
+        "created_at": "Thu Oct 01 17:00:43 +0000 2026",
+        "url": "https://x.com/solana/status/2105704475679920571"
       },
       {
         "handle": "solanalabs",

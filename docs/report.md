@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-03 21:46:40 UTC by SolVitals.
+Generated 2026-10-04 00:11:28 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,198.56 |
-| Total TPS (incl. votes) | 4,691.81 |
-| Vote share of transactions | 53.14% |
-| Average slot time | 0.2681 s |
-| Current slot | 453,058,499 |
-| Block height | 431,096,983 |
+| Non-vote TPS | 2,261.23 |
+| Total TPS (incl. votes) | 4,748.36 |
+| Vote share of transactions | 52.38% |
+| Average slot time | 0.2688 s |
+| Current slot | 453,091,000 |
+| Block height | 431,129,464 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1048** — 74.65% complete (`###############.....`), ~8.2 hours remaining.
+Epoch **1048** — 82.18% complete (`################....`), ~5.7 hours remaining.
 
-Slot 322,499 of 432,000. Lifetime transaction count: 555,734,732,280.
+Slot 355,001 of 432,000. Lifetime transaction count: 555,775,262,644.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 322,499 of 432,000. Lifetime transaction count: 555,734,732,280.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.269 s |
-| Deviation from 0.4s target | -32.75% |
+| Measured slot time (`getBlockTime`) | 0.2674 s |
+| Deviation from 0.4s target | -33.15% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 6 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.61 (up 1.28%) |
-| Market cap | $70.35B |
+| SOL price | $119.70 (up 0.99%) |
+| Market cap | $70.39B |
 | DeFi TVL | $6.67B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.76B (up 10.92%) |
-| Stablecoin supply | $16.59B |
+| Stablecoin supply | $16.58B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.37M** |
+| **REV (total)** | **$1.35M** |
 | Network fees | $1.09M |
-| MEV tips (out-of-protocol) | $276.65K (20.18% of REV) |
-| Annualised REV run-rate | $500.48M |
+| MEV tips (out-of-protocol) | $258.10K (19.08% of REV) |
+| Annualised REV run-rate | $493.71M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $239.56K |
+| Jito MEV Tips | $221.01K |
 | Harmonic | $27.96K |
 | bloXroute | $9.13K |
 
@@ -155,11 +155,11 @@ Fees earned by the 320 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $321.13M |
 | Meteora DLMM | $180.66M |
 | pump.fun | $177.56M |
-| Raydium AMM | $157.38M |
+| Tessera V | $154.91M |
 
 ## Supply
 
-Circulating 588,145,604 SOL of 635,150,178 total (92.6%).
+Circulating 588,145,498 SOL of 635,150,072 total (92.6%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -190,11 +190,11 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — At Solana Summit DC, @AlliumLabs’ @ethanyish breaks down how Solana is serving two sides of the market: Institutions are using Solana for issuance. Retail is using it for trading. Low fees + high throughput + global reach. @solana's infras… [(link)](https://x.com/solana/status/2104958055712469109)
-- **@solana** — .@joinfrontier takes over seoul tomorrow 🇰🇷 a live trading tournament, with a Porsche 911 GT3 RS on the line for london. tune in. https://t.co/8wkyaothqu [(link)](https://x.com/solana/status/2104957340172886135)
-- **@solana** — Solana Stories: @Collector_Crypt @TuomHolmberg https://t.co/xDLrxXm7Wd [(link)](https://x.com/solana/status/2104949331396874251)
-- **@solana** — $BAGEY is open. The Baillie Gifford Enhanced Yield Fund is now open for investment. Actively managed short-duration bonds, issued fully nativelyonchain, with the blockchain as the legal record of ownership. Subscribe and redeem in USDC or … [(link)](https://x.com/solana/status/2104926672877150716)
-- **@solanalabs** — Thinking about Breakpoint? Now’s a pretty good time to lock it in. For the next 72 hours, use code BP26-SEEKER25 for 25% off your ticket and get a Seeker for half off. Get your ticket. Get your Seeker. See you at Breakpoint. [(link)](https://x.com/solanalabs/status/2104591285915173285)
+- **@solana** — https://t.co/VEdOkFH5Mh [(link)](https://x.com/solana/status/2106353639245991961)
+- **@solana** — Watch the full interview with @KrutzkyTrades https://t.co/wAvAgix7tV [(link)](https://x.com/solana/status/2106285624420430269)
+- **@solana** — Vibhu explains how @Backpack lets users turn tokenized stocks back into actual shares "Backpack is a full brokerage, so it's one-to-one. They seed liquidity, and if demand outweighs the supply onchain, they progressively buy more shares on… [(link)](https://x.com/solana/status/2106285623657017726)
+- **@solanalabs** — The clock is ticking ⏰ Less than 7 days left to ship your Clock In hackathon submission. What are you building? https://t.co/2aW9Rca5ZZ [(link)](https://x.com/solanalabs/status/2106090974900592964)
+- **@solana** — LIVE NOW: in the trenches with @vibhu | Ep 86 | Presented by @fomo & @solana https://t.co/Oi9nQpR2Ua [(link)](https://x.com/solana/status/2105704475679920571)
 - **@solanalabs** — Buy a Breakpoint ticket with BP26-SEEKER25 for 25% off, and you get a @solanamobile Seeker for half price. For 72 hours only. https://t.co/QH9zfxQMtm [(link)](https://x.com/solanalabs/status/2104556733255282966)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
 - **@solanalabs** — Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet — founders building across AI, robotics, and trading on @solana. Day one of working with these teams: 🟣@clawpumptech 🟣@crowdbrainai 🟣@Lavaragexyz 🟣@morfimarkets 🟣@… [(link)](https://x.com/solanalabs/status/2094842504025694668)

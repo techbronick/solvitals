@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-05 15:01:57 UTC by SolVitals.
+Generated 2026-10-05 21:58:54 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,620.69 |
-| Total TPS (incl. votes) | 5,057.41 |
-| Vote share of transactions | 48.18% |
-| Average slot time | 0.2732 s |
-| Current slot | 453,613,624 |
-| Block height | 431,651,707 |
+| Non-vote TPS | 1,603.41 |
+| Total TPS (incl. votes) | 4,092.89 |
+| Vote share of transactions | 60.82% |
+| Average slot time | 0.2691 s |
+| Current slot | 453,706,677 |
+| Block height | 431,744,570 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1050** — 3.15% complete (`#...................`), ~31.4 hours remaining.
+Epoch **1050** — 24.69% complete (`#####...............`), ~24.2 hours remaining.
 
-Slot 13,625 of 432,000. Lifetime transaction count: 556,382,705,830.
+Slot 106,678 of 432,000. Lifetime transaction count: 556,501,746,893.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 13,625 of 432,000. Lifetime transaction count: 556,382,705,830.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2702 s |
-| Deviation from 0.4s target | -32.45% |
+| Measured slot time (`getBlockTime`) | 0.2674 s |
+| Deviation from 0.4s target | -33.15% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 6 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.48 (down 1.93%) |
-| Market cap | $70.29B |
-| DeFi TVL | $6.70B |
+| SOL price | $120.76 (down 0.32%) |
+| Market cap | $71.07B |
+| DeFi TVL | $6.76B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $1.71B (up 9.92%) |
-| Stablecoin supply | $16.52B |
+| Stablecoin supply | $16.74B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.31M** |
+| **REV (total)** | **$1.33M** |
 | Network fees | $1.01M |
-| MEV tips (out-of-protocol) | $303.82K (23.14% of REV) |
-| Annualised REV run-rate | $479.30M |
+| MEV tips (out-of-protocol) | $317.23K (23.91% of REV) |
+| Annualised REV run-rate | $484.19M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $268.85K |
+| Jito MEV Tips | $282.26K |
 | Harmonic | $24.60K |
 | bloXroute | $10.37K |
 
@@ -122,7 +122,7 @@ Fees earned by the 322 applications built on Solana -- DEXes, launchpads, wallet
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $597.62M |
+| Total tokenized RWA | $599.14M |
 | Tokenized equities | $296.07K (0.05% of RWA) |
 | RWA protocols on Solana | 14 |
 
@@ -136,30 +136,30 @@ Fees earned by the 322 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $292.79M | RWA |
-| Huma | $257.47M | RWA |
-| Plume Vaults | $32.52M | RWA |
+| OnRe | $292.81M | RWA |
+| Huma | $259.03M | RWA |
+| Plume Vaults | $32.54M | RWA |
 | Invesco USTB | $3.91M | RWA |
-| Mansory | $3.01M | RWA |
-| Oro Finance | $2.44M | RWA |
-| International Stable Currency | $2.40M | RWA |
-| Byzanlink RWA Markets | $894.45K | RWA |
-| KAIO | $774.62K | RWA |
-| Solayer USD | $677.09K | RWA |
+| Mansory | $3.00M | RWA |
+| Oro Finance | $2.40M | RWA |
+| International Stable Currency | $2.39M | RWA |
+| Byzanlink RWA Markets | $894.37K | RWA |
+| KAIO | $774.56K | RWA |
+| Solayer USD | $677.17K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $397.81M |
-| Orca DEX | $257.83M |
+| Orca DEX | $307.62M |
 | BisonFi | $236.72M |
 | pump.fun | $184.20M |
-| fomo Wallet | $144.96M |
+| Raydium AMM | $176.67M |
 
 ## Supply
 
-Circulating 588,385,179 SOL of 635,305,735 total (92.61%).
+Circulating 588,384,605 SOL of 635,305,424 total (92.61%).
 
 ## Ecosystem growth (solana.com/data)
 

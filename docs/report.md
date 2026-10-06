@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-06 02:03:39 UTC by SolVitals.
+Generated 2026-10-06 08:54:59 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 2.1 sigma above its 288-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,882.78 |
-| Total TPS (incl. votes) | 4,386.78 |
-| Vote share of transactions | 57.08% |
-| Average slot time | 0.2674 s |
-| Current slot | 453,761,375 |
-| Block height | 431,799,229 |
+| Non-vote TPS | 1,580.95 |
+| Total TPS (incl. votes) | 4,076.34 |
+| Vote share of transactions | 61.22% |
+| Average slot time | 0.2683 s |
+| Current slot | 453,853,665 |
+| Block height | 431,891,492 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1050** — 37.36% complete (`#######.............`), ~20.2 hours remaining.
+Epoch **1050** — 58.72% complete (`############........`), ~13.2 hours remaining.
 
-Slot 161,376 of 432,000. Lifetime transaction count: 556,569,215,812.
+Slot 253,666 of 432,000. Lifetime transaction count: 556,672,264,883.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 161,376 of 432,000. Lifetime transaction count: 556,569,215,812.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2682 s |
-| Deviation from 0.4s target | -32.95% |
+| Measured slot time (`getBlockTime`) | 0.267 s |
+| Deviation from 0.4s target | -33.25% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -53,7 +53,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 441,657,013 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 231 |
+| Zero-commission validators | 229 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,29 +76,29 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $120.53 (down 0.57%) |
-| Market cap | $70.93B |
-| DeFi TVL | $6.80B |
+| SOL price | $120.49 (down 0.44%) |
+| Market cap | $70.88B |
+| DeFi TVL | $6.76B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $1.90B (up 11.49%) |
-| Stablecoin supply | $16.75B |
+| DEX volume (24h) | $1.90B (up 11.51%) |
+| Stablecoin supply | $16.73B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.35M** |
-| Network fees | $1.01M |
-| MEV tips (out-of-protocol) | $338.62K (25.12% of REV) |
-| Annualised REV run-rate | $492.00M |
+| **REV (total)** | **$1.38M** |
+| Network fees | $1.04M |
+| MEV tips (out-of-protocol) | $335.10K (24.36% of REV) |
+| Annualised REV run-rate | $502.17M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $299.50K |
+| Jito MEV Tips | $296.30K |
 | Harmonic | $28.75K |
-| bloXroute | $10.37K |
+| bloXroute | $10.05K |
 
 ### Application fees (distinct from REV)
 
@@ -106,23 +106,23 @@ Fees earned by the 322 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $16.67M (up 3.38%) |
-| 7 days | $101.71M |
-| 30 days | $439.67M |
+| 24 hours | $16.11M (down 0.10%) |
+| 7 days | $109.60M |
+| 30 days | $447.55M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $5.16M |
+| PumpSwap | $4.45M |
 | pump.fun | $2.59M |
-| Axiom | $1.20M |
-| Solana | $1.01M |
+| Axiom | $1.28M |
+| Solana | $1.04M |
 | Meteora DLMM | $678.40K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $599.14M |
+| Total tokenized RWA | $599.56M |
 | Tokenized equities | $296.07K (0.05% of RWA) |
 | RWA protocols on Solana | 14 |
 
@@ -136,43 +136,43 @@ Fees earned by the 322 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $292.81M | RWA |
-| Huma | $259.03M | RWA |
-| Plume Vaults | $32.54M | RWA |
+| OnRe | $292.96M | RWA |
+| Huma | $259.23M | RWA |
+| Plume Vaults | $32.56M | RWA |
 | Invesco USTB | $3.91M | RWA |
-| Mansory | $3.00M | RWA |
-| Oro Finance | $2.40M | RWA |
-| International Stable Currency | $2.39M | RWA |
-| Byzanlink RWA Markets | $894.37K | RWA |
-| KAIO | $774.56K | RWA |
-| Solayer USD | $677.17K | RWA |
+| Mansory | $3.01M | RWA |
+| International Stable Currency | $2.43M | RWA |
+| Oro Finance | $2.39M | RWA |
+| Byzanlink RWA Markets | $894.40K | RWA |
+| KAIO | $774.61K | RWA |
+| Solayer USD | $676.43K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $306.60M |
-| Orca DEX | $294.87M |
+| Orca DEX | $273.31M |
 | BisonFi | $236.72M |
 | pump.fun | $184.20M |
-| Raydium AMM | $175.83M |
+| Raydium AMM | $163.48M |
 
 ## Supply
 
-Circulating 588,385,728 SOL of 635,305,247 total (92.61%).
+Circulating 588,385,457 SOL of 635,304,979 total (92.61%).
 
 ## Ecosystem growth (solana.com/data)
 
 | Metric | Value | As of | Provider |
 | --- | --- | --- | --- |
-| Active Addresses | 584,807 | 2026-10-04 | Dune |
+| Active Addresses | 753,933 | 2026-10-04 | Dune |
 | Fee Payers | 3,183,154 | 2026-10-04 | Dune |
 | Transaction Count (Total) | 383,495,841 | 2026-10-04 | Dune |
 | Non Vote Transaction Count (Success) | 112,599,109 | 2026-10-04 | Dune |
 | Non Vote Transaction Count (Failed) | 55,234,591 | 2026-10-04 | Dune |
-| DEX Volume | $1.39B | 2026-10-04 | Dune |
-| DEX Traders | 652,687 | 2026-10-04 | Dune |
-| Transfer Volume | $5.31B | 2026-10-03 | Dune |
+| DEX Volume | $2.40B | 2026-10-04 | Dune |
+| DEX Traders | 930,776 | 2026-10-04 | Dune |
+| Transfer Volume | $5.46B | 2026-10-04 | Dune |
 | Total Stake | 441,847,195 | 2026-10-04 | Solscan |
 | Validator Count | 670 | 2026-10-05 | Stakewiz |
 | Top 3 ASN Share | 46.87 | 2026-10-05 | Stakewiz |
@@ -185,7 +185,8 @@ The same metric is published by multiple providers with different methodologies.
 
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
-| Active Addresses | 2026-10-04 | 89.1% | Allium: 759,504, Dune: 584,807, Goldsky: 754,667, Top Ledger: 401,616 |
+| Active Addresses | 2026-10-04 | 140.0% | Allium: 759,504, Artemis: 669,196, Blockworks: 337,787, Dune: 753,933, Goldsky: 754,667, RWA: 810,759, Top Ledger: 434,315 |
+| Fee Payers | 2026-10-04 | 65.7% | Allium: 3,183,188, Artemis: 5,189,780, Blockworks: 3,200,981, Dune: 3,183,154, Token Terminal: 3,131,093, Top Ledger: 3,183,188 |
 
 ## Announcements from key accounts
 
@@ -258,6 +259,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)**
+  Onchain open-source delivery-versus-payment infrastructure, tailored for the world’s leading financial institutions
 - **[Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)**
   Solana can give AI agents permissionless access to compute, training, identity, memory, and machine-native payments.
 - **[Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)**
@@ -272,8 +275,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Transaction V1 reaches mainnet as Solana targets 250ms slots, lower rent, and program deployments with four times lower fees.
 - **[How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)**
   A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats.
-- **[Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)**
-  Your Solana Events guide to thriving (and surviving) at Breakpoint London 2026
 
 _Source: official Solana news feed (solana.com/news)._
 

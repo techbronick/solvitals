@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-07 18:55:25 UTC by SolVitals.
+Generated 2026-10-07 23:22:29 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,504.68 |
-| Total TPS (incl. votes) | 4,989.13 |
-| Vote share of transactions | 49.80% |
-| Average slot time | 0.2691 s |
-| Current slot | 454,309,239 |
-| Block height | 432,346,807 |
+| Non-vote TPS | 2,023.76 |
+| Total TPS (incl. votes) | 4,532.70 |
+| Vote share of transactions | 55.35% |
+| Average slot time | 0.2664 s |
+| Current slot | 454,368,608 |
+| Block height | 432,406,110 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1051** — 64.18% complete (`#############.......`), ~11.6 hours remaining.
+Epoch **1051** — 77.92% complete (`################....`), ~7.1 hours remaining.
 
-Slot 277,240 of 432,000. Lifetime transaction count: 557,234,690,168.
+Slot 336,608 of 432,000. Lifetime transaction count: 557,311,904,627.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 277,240 of 432,000. Lifetime transaction count: 557,234,690,168.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.269 s |
-| Deviation from 0.4s target | -32.75% |
+| Measured slot time (`getBlockTime`) | 0.2676 s |
+| Deviation from 0.4s target | -33.1% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 10 with errors.
 
 ## Validators
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $116.24 (down 3.84%) |
-| Market cap | $68.52B |
-| DeFi TVL | $6.45B |
+| SOL price | $116.21 (down 3.60%) |
+| Market cap | $68.44B |
+| DeFi TVL | $6.46B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $2.05B (down 0.22%) |
-| Stablecoin supply | $16.43B |
+| Stablecoin supply | $16.30B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.36M** |
+| **REV (total)** | **$1.34M** |
 | Network fees | $1.05M |
-| MEV tips (out-of-protocol) | $305.49K (22.53% of REV) |
-| Annualised REV run-rate | $494.98M |
+| MEV tips (out-of-protocol) | $293.05K (21.81% of REV) |
+| Annualised REV run-rate | $490.44M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $266.11K |
+| Jito MEV Tips | $253.66K |
 | Harmonic | $29.73K |
 | bloXroute | $9.65K |
 
@@ -151,15 +151,15 @@ Fees earned by the 323 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $310.82M |
 | PumpSwap | $302.95M |
-| Raydium AMM | $220.71M |
+| Orca DEX | $297.86M |
+| Raydium AMM | $232.62M |
 | BisonFi | $220.60M |
 | pump.fun | $184.98M |
 
 ## Supply
 
-Circulating 589,094,185 SOL of 635,382,085 total (92.71%).
+Circulating 589,093,983 SOL of 635,381,882 total (92.71%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -258,6 +258,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)**
+  September saw growth across tokenized stocks, stablecoins, payments, and DeFi. Tokenized equity supply reached $684 million, stablecoins hit $17.51 billion, and the network processed 3.18 billion non-vote transactions.
 - **[Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)**
   Onchain open-source delivery-versus-payment infrastructure, tailored for the world’s leading financial institutions
 - **[Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)**
@@ -272,8 +274,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Solana is now producing slots with a 250ms target, going down from 400ms. In this article we study the effects of this reduction based on direct on-chain measures.
 - **[Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)**
   Agave v4.3.0 and Firedancer v26.09.4 ship alongside proposals for 4,096-byte transactions, deterministic ordering, and BN254 support.
-- **[Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)**
-  The Solana Foundation appointed Rachel Conlan to lead strategy and Jamal Raees to expand global payments adoption.
 
 _Source: official Solana news feed (solana.com/news)._
 

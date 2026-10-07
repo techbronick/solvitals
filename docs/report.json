@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-07 18:55:25",
+  "captured_at": "2026-10-07 23:22:29",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.269,
+      "measured_slot_time_secs": 0.2676,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -32.75,
+      "deviation_from_target_pct": -33.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4989.13,
-      "tps_non_vote": 2504.68,
-      "vote_share_pct": 49.8,
-      "avg_slot_time_secs": 0.2691,
-      "latest_sample_slot": 454309176,
+      "tps_total": 4532.7,
+      "tps_non_vote": 2023.76,
+      "vote_share_pct": 55.35,
+      "avg_slot_time_secs": 0.2664,
+      "latest_sample_slot": 454368543,
       "samples_used": 5,
-      "block_height": 432346807,
-      "current_slot": 454309239
+      "block_height": 432406110,
+      "current_slot": 454368608
     },
     "epoch": {
       "epoch": 1051,
-      "slot_index": 277240,
+      "slot_index": 336608,
       "slots_in_epoch": 432000,
-      "progress_pct": 64.18,
-      "eta_hours": 11.6,
-      "eta_basis_slot_secs": 0.269,
-      "transaction_count": 557234690168
+      "progress_pct": 77.92,
+      "eta_hours": 7.1,
+      "eta_basis_slot_secs": 0.2676,
+      "transaction_count": 557311904627
     },
     "validators": {
       "active_count": 671,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 635382084.54,
-      "circulating_sol": 589094184.86,
+      "total_sol": 635381882.31,
+      "circulating_sol": 589093982.64,
       "non_circulating_sol": 46287899.67,
       "circulating_pct": 92.71
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "zpY7pVXybEmPosbcjz8JABFNgzQKZnVSTFRN4iLKYu7D8HbzVDsZ3v5v3snth5dZoQaPTtb5wjMjo94N6Sf1NL9",
-      "latest_block_time": 1791399324,
-      "errors_in_recent": 0
+      "latest_signature": "4B2WH8D9EVsWGWxRM3xowfm1LUngHJm9kFcaUmND8HUMnmf9JZ4mBYKQ1RqHqnP1YwXtmihqWpuTAZcDn2sJjziU",
+      "latest_block_time": 1791415348,
+      "errors_in_recent": 10
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 116.24,
-      "change_24h_pct": -3.84,
-      "market_cap_usd": 68521068964.01978,
-      "volume_24h_usd": 3077807617.7458267,
+      "usd": 116.21,
+      "change_24h_pct": -3.6,
+      "market_cap_usd": 68442752220.734375,
+      "volume_24h_usd": 3071669820.3885307,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6449913916.13,
+      "tvl_usd": 6459557178.48,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.89,
+      "share_of_all_chains_pct": 6.9,
       "source": "defillama"
     },
     "dex_volume": {
@@ -155,16 +155,16 @@
       "protocol_count": 126,
       "top_dexes": [
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 310821830
-        },
-        {
           "name": "PumpSwap",
           "volume_24h_usd": 302947883
         },
         {
+          "name": "Orca DEX",
+          "volume_24h_usd": 297858981
+        },
+        {
           "name": "Raydium AMM",
-          "volume_24h_usd": 220705397
+          "volume_24h_usd": 232618197
         },
         {
           "name": "BisonFi",
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16427571108.99,
+      "total_usd": 16300640935.11,
       "by_peg": {
-        "peggedUSD": 16356092775.86,
-        "peggedEUR": 67270711.76,
-        "peggedJPY": 58.01,
-        "peggedCHF": 1187344.67,
-        "peggedAUD": 73108.29,
-        "peggedVAR": 2397123.02,
-        "peggedGBP": 384650.89,
+        "peggedUSD": 16227326764.17,
+        "peggedEUR": 69095797.56,
+        "peggedJPY": 58.92,
+        "peggedCHF": 1186802.97,
+        "peggedAUD": 72952.15,
+        "peggedVAR": 2408518.31,
+        "peggedGBP": 384703.45,
         "peggedTRY": 163915.07,
-        "peggedCAD": 1420.73,
+        "peggedCAD": 1421.8,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1356123,
+      "rev_24h_usd": 1343682,
       "network_fees_24h_usd": 1050629,
-      "mev_tips_24h_usd": 305494,
-      "mev_share_of_rev_pct": 22.53,
-      "rev_annualised_usd": 494984895,
+      "mev_tips_24h_usd": 293053,
+      "mev_share_of_rev_pct": 21.81,
+      "rev_annualised_usd": 490443930,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 266105
+          "tips_24h_usd": 253664
         },
         {
           "name": "Harmonic",
@@ -2016,6 +2016,12 @@
   "news": {
     "items": [
       {
+        "title": "Solana Ecosystem Roundup: September 2026",
+        "link": "https://solana.com/news/solana-ecosystem-roundup-september-2026",
+        "published": "Tue, 06 Oct 2026 19:38:00 GMT",
+        "summary": "September saw growth across tokenized stocks, stablecoins, payments, and DeFi. Tokenized equity supply reached $684 million, stablecoins hit $17.51 billion, and the network processed 3.18 billion non-vote transactions."
+      },
+      {
         "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
         "link": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
         "published": "Tue, 06 Oct 2026 02:00:00 GMT",
@@ -2056,12 +2062,6 @@
         "link": "https://solana.com/news/solana-changelog-september-24-2026",
         "published": "Thu, 24 Sep 2026 19:24:00 GMT",
         "summary": "Agave v4.3.0 and Firedancer v26.09.4 ship alongside proposals for 4,096-byte transactions, deterministic ordering, and BN254 support."
-      },
-      {
-        "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
-        "link": "https://solana.com/news/solana-foundation-appoints-2026",
-        "published": "Thu, 24 Sep 2026 13:20:00 GMT",
-        "summary": "The Solana Foundation appointed Rachel Conlan to lead strategy and Jamal Raees to expand global payments adoption."
       }
     ],
     "count": 8,

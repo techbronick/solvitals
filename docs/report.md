@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-07 00:06:32 UTC by SolVitals.
+Generated 2026-10-07 05:50:56 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,044.91 |
-| Total TPS (incl. votes) | 4,514.80 |
-| Vote share of transactions | 54.71% |
-| Average slot time | 0.2715 s |
-| Current slot | 454,056,925 |
-| Block height | 432,094,535 |
+| Non-vote TPS | 1,728.82 |
+| Total TPS (incl. votes) | 4,237.69 |
+| Vote share of transactions | 59.20% |
+| Average slot time | 0.2671 s |
+| Current slot | 454,133,924 |
+| Block height | 432,171,519 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1051** — 5.77% complete (`#...................`), ~30.7 hours remaining.
+Epoch **1051** — 23.59% complete (`#####...............`), ~24.7 hours remaining.
 
-Slot 24,925 of 432,000. Lifetime transaction count: 556,931,631,769.
+Slot 101,924 of 432,000. Lifetime transaction count: 557,024,393,392.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 24,925 of 432,000. Lifetime transaction count: 556,931,631,769.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2714 s |
-| Deviation from 0.4s target | -32.15% |
+| Measured slot time (`getBlockTime`) | 0.2698 s |
+| Deviation from 0.4s target | -32.55% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2007 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 673 |
-| Delinquent validators | 8 (1.17%) |
-| Stake held by delinquents | 15,671 SOL (0.004%) |
-| Total active stake | 439,327,360 SOL |
+| Active validators | 672 |
+| Delinquent validators | 9 (1.32%) |
+| Stake held by delinquents | 71,350 SOL (0.016%) |
+| Total active stake | 439,271,681 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 232 |
+| Zero-commission validators | 231 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,7 +61,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,653,055 | 4.018% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,653,055 | 4.019% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,968,869 | 3.635% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,308,201 | 2.802% | 0% |
 | 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 11,264,081 | 2.564% | 0% |
@@ -76,29 +76,29 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $120.54 (down 0.23%) |
-| Market cap | $70.94B |
-| DeFi TVL | $6.63B |
+| SOL price | $118.74 (down 0.97%) |
+| Market cap | $69.93B |
+| DeFi TVL | $6.56B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $2.06B (up 20.43%) |
-| Stablecoin supply | $16.66B |
+| DEX volume (24h) | $2.04B (down 0.87%) |
+| Stablecoin supply | $16.69B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$1.37M** |
-| Network fees | $1.04M |
-| MEV tips (out-of-protocol) | $326.75K (23.89% of REV) |
-| Annualised REV run-rate | $499.12M |
+| **REV (total)** | **$1.36M** |
+| Network fees | $1.05M |
+| MEV tips (out-of-protocol) | $314.08K (23.01% of REV) |
+| Annualised REV run-rate | $498.12M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $287.95K |
-| Harmonic | $28.75K |
-| bloXroute | $10.05K |
+| Jito MEV Tips | $274.69K |
+| Harmonic | $29.73K |
+| bloXroute | $9.65K |
 
 ### Application fees (distinct from REV)
 
@@ -106,17 +106,17 @@ Fees earned by the 323 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $16.09M (down 0.21%) |
-| 7 days | $110.37M |
-| 30 days | $448.32M |
+| 24 hours | $16.06M (down 0.22%) |
+| 7 days | $111.10M |
+| 30 days | $450.81M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $4.45M |
-| pump.fun | $2.59M |
-| Axiom | $1.28M |
-| Solana | $1.04M |
-| Meteora DLMM | $678.40K |
+| PumpSwap | $4.47M |
+| pump.fun | $2.52M |
+| Axiom | $1.36M |
+| Solana | $1.05M |
+| Meteora DLMM | $826.08K |
 
 ## Tokenized assets
 
@@ -151,15 +151,15 @@ Fees earned by the 323 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| PumpSwap | $306.60M |
-| Orca DEX | $288.27M |
+| Orca DEX | $313.58M |
+| PumpSwap | $302.95M |
 | BisonFi | $234.22M |
+| Raydium AMM | $191.54M |
 | pump.fun | $187.50M |
-| Raydium AMM | $184.69M |
 
 ## Supply
 
-Circulating 589,095,038 SOL of 635,382,874 total (92.71%).
+Circulating 589,094,734 SOL of 635,382,633 total (92.71%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -262,18 +262,18 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Onchain open-source delivery-versus-payment infrastructure, tailored for the world’s leading financial institutions
 - **[Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)**
   Solana can give AI agents permissionless access to compute, training, identity, memory, and machine-native payments.
+- **[Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)**
+  Devnet lists Alpenglow as a notable feature gate alongside new Agave, Firedancer, Superbank, Web3.js, Kit, and program SDK releases.
 - **[Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)**
   Open USD is live on Solana, letting businesses mint and burn 1:1 for dollars at no cost, with over $1 billion committed to liquidity.
 - **[Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)**
   Solana is now producing slots with a 250ms target, going down from 400ms. In this article we study the effects of this reduction based on direct on-chain measures.
+- **[Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)**
+  Agave v4.3.0 and Firedancer v26.09.4 ship alongside proposals for 4,096-byte transactions, deterministic ordering, and BN254 support.
 - **[Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)**
   The Solana Foundation appointed Rachel Conlan to lead strategy and Jamal Raees to expand global payments adoption.
 - **[Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)**
   A five-year SEC order lets tokenized shares with full rights trade on public blockchains without stock-exchange registration; Solana's architecture is live.
-- **[Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)**
-  Transaction V1 reaches mainnet as Solana targets 250ms slots, lower rent, and program deployments with four times lower fees.
-- **[How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)**
-  A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats.
 
 _Source: official Solana news feed (solana.com/news)._
 

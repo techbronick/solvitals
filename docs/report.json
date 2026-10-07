@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-07 00:06:32",
+  "captured_at": "2026-10-07 05:50:56",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2714,
+      "measured_slot_time_secs": 0.2698,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -32.15,
+      "deviation_from_target_pct": -32.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,39 +13,39 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 4514.8,
-      "tps_non_vote": 2044.91,
-      "vote_share_pct": 54.71,
-      "avg_slot_time_secs": 0.2715,
-      "latest_sample_slot": 454056804,
+      "tps_total": 4237.69,
+      "tps_non_vote": 1728.82,
+      "vote_share_pct": 59.2,
+      "avg_slot_time_secs": 0.2671,
+      "latest_sample_slot": 454133951,
       "samples_used": 5,
-      "block_height": 432094535,
-      "current_slot": 454056925
+      "block_height": 432171519,
+      "current_slot": 454133924
     },
     "epoch": {
       "epoch": 1051,
-      "slot_index": 24925,
+      "slot_index": 101924,
       "slots_in_epoch": 432000,
-      "progress_pct": 5.77,
-      "eta_hours": 30.7,
-      "eta_basis_slot_secs": 0.2714,
-      "transaction_count": 556931631769
+      "progress_pct": 23.59,
+      "eta_hours": 24.7,
+      "eta_basis_slot_secs": 0.2698,
+      "transaction_count": 557024393392
     },
     "validators": {
-      "active_count": 673,
-      "delinquent_count": 8,
-      "delinquent_pct": 1.17,
-      "delinquent_stake_sol": 15670.61,
-      "delinquent_stake_pct": 0.004,
-      "total_active_stake_sol": 439327360.1,
+      "active_count": 672,
+      "delinquent_count": 9,
+      "delinquent_pct": 1.32,
+      "delinquent_stake_sol": 71349.73,
+      "delinquent_stake_pct": 0.016,
+      "total_active_stake_sol": 439271680.97,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 232,
+      "zero_commission_count": 231,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 17653054.75,
-          "stake_pct": 4.018,
+          "stake_pct": 4.019,
           "commission": 7
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 635382874.39,
-      "circulating_sol": 589095038.34,
-      "non_circulating_sol": 46287836.05,
+      "total_sol": 635382633.09,
+      "circulating_sol": 589094734.33,
+      "non_circulating_sol": 46287898.76,
       "circulating_pct": 92.71
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2007,
       "recent_signature_count": 10,
-      "latest_signature": "3ebVZ1VTu8z8zJ6zBgFnWGW9XWcWLVgtYCpyjvMaEV1eHnsxqM2np9xibxv4LidkJ6YaqpncNBnW1sCx6zUF1SqZ",
-      "latest_block_time": 1791331591,
-      "errors_in_recent": 5
+      "latest_signature": "496bt5x8aVhRYP4HhsVBs8MhM33Wk5SwA91Png2WsWYm4jHCiSNE797515udnkejoBayFt14p3mdCw52u3SoRkF9",
+      "latest_block_time": 1791352255,
+      "errors_in_recent": 1
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,108 +136,108 @@
   },
   "market": {
     "price": {
-      "usd": 120.54,
-      "change_24h_pct": -0.23,
-      "market_cap_usd": 70938434243.70892,
-      "volume_24h_usd": 2453175679.237039,
+      "usd": 118.74,
+      "change_24h_pct": -0.97,
+      "market_cap_usd": 69934538984.97862,
+      "volume_24h_usd": 2864938257.434461,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6627770170.38,
+      "tvl_usd": 6564899007.08,
       "rank_by_tvl": 2,
-      "share_of_all_chains_pct": 6.88,
+      "share_of_all_chains_pct": 6.95,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2057146062.5000002,
-      "volume_7d_usd": 15672173109.649996,
-      "change_24h_pct": 20.43,
+      "volume_24h_usd": 2039240588.65,
+      "volume_7d_usd": 14330215297.459995,
+      "change_24h_pct": -0.87,
       "protocol_count": 126,
       "top_dexes": [
         {
-          "name": "PumpSwap",
-          "volume_24h_usd": 306601303
+          "name": "Orca DEX",
+          "volume_24h_usd": 313577691
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 288274670
+          "name": "PumpSwap",
+          "volume_24h_usd": 302947883
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 234218835
         },
         {
-          "name": "pump.fun",
-          "volume_24h_usd": 187500807
+          "name": "Raydium AMM",
+          "volume_24h_usd": 191536219
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 184687027
+          "name": "pump.fun",
+          "volume_24h_usd": 187500807
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16660421479.47,
+      "total_usd": 16685613464.33,
       "by_peg": {
-        "peggedUSD": 16590432604.82,
-        "peggedEUR": 65782344.46,
-        "peggedJPY": 52.54,
-        "peggedCHF": 1166247.97,
-        "peggedAUD": 73359.12,
-        "peggedVAR": 2419095.13,
-        "peggedGBP": 382259.76,
-        "peggedTRY": 164089.49,
-        "peggedCAD": 1425.49,
+        "peggedUSD": 16615700089.81,
+        "peggedEUR": 65690913.2,
+        "peggedJPY": 52.51,
+        "peggedCHF": 1174399.66,
+        "peggedAUD": 73165.75,
+        "peggedVAR": 2427537.81,
+        "peggedGBP": 381965.69,
+        "peggedTRY": 163915.07,
+        "peggedCAD": 1424.12,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1367448,
-      "network_fees_24h_usd": 1040700,
-      "mev_tips_24h_usd": 326748,
-      "mev_share_of_rev_pct": 23.89,
-      "rev_annualised_usd": 499118520,
+      "rev_24h_usd": 1364705,
+      "network_fees_24h_usd": 1050629,
+      "mev_tips_24h_usd": 314076,
+      "mev_share_of_rev_pct": 23.01,
+      "rev_annualised_usd": 498117325,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 287946
+          "tips_24h_usd": 274687
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 28753
+          "tips_24h_usd": 29735
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 10049
+          "tips_24h_usd": 9654
         }
       ],
-      "app_fees_24h_usd": 16090422.62,
-      "app_fees_7d_usd": 110365474.59000002,
-      "app_fees_30d_usd": 448322256.7299998,
-      "app_fees_change_24h_pct": -0.21,
+      "app_fees_24h_usd": 16055634.31,
+      "app_fees_7d_usd": 111099282.56000002,
+      "app_fees_30d_usd": 450813872.4299996,
+      "app_fees_change_24h_pct": -0.22,
       "protocol_count": 323,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
-          "fees_24h_usd": 4447961
+          "fees_24h_usd": 4474974
         },
         {
           "name": "pump.fun",
-          "fees_24h_usd": 2585425
+          "fees_24h_usd": 2516228
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 1277944
+          "fees_24h_usd": 1363553
         },
         {
           "name": "Solana",
-          "fees_24h_usd": 1040700
+          "fees_24h_usd": 1050629
         },
         {
           "name": "Meteora DLMM",
-          "fees_24h_usd": 678402
+          "fees_24h_usd": 826079
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2028,6 +2028,12 @@
         "summary": "Solana can give AI agents permissionless access to compute, training, identity, memory, and machine-native payments."
       },
       {
+        "title": "Solana Changelog: October 1, 2026",
+        "link": "https://solana.com/news/solana-changelog-october-1-2026",
+        "published": "Thu, 01 Oct 2026 09:30:00 GMT",
+        "summary": "Devnet lists Alpenglow as a notable feature gate alongside new Agave, Firedancer, Superbank, Web3.js, Kit, and program SDK releases."
+      },
+      {
         "title": "Open USD Is Live on Solana",
         "link": "https://solana.com/news/open-usd-is-live-on-solana",
         "published": "Wed, 30 Sep 2026 19:17:00 GMT",
@@ -2040,6 +2046,12 @@
         "summary": "Solana is now producing slots with a 250ms target, going down from 400ms. In this article we study the effects of this reduction based on direct on-chain measures."
       },
       {
+        "title": "Solana Changelog: September 24, 2026",
+        "link": "https://solana.com/news/solana-changelog-september-24-2026",
+        "published": "Thu, 24 Sep 2026 19:24:00 GMT",
+        "summary": "Agave v4.3.0 and Firedancer v26.09.4 ship alongside proposals for 4,096-byte transactions, deterministic ordering, and BN254 support."
+      },
+      {
         "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
         "link": "https://solana.com/news/solana-foundation-appoints-2026",
         "published": "Thu, 24 Sep 2026 13:20:00 GMT",
@@ -2050,18 +2062,6 @@
         "link": "https://solana.com/news/stocks-sec-innovation-exemption",
         "published": "Wed, 23 Sep 2026 14:06:00 GMT",
         "summary": "A five-year SEC order lets tokenized shares with full rights trade on public blockchains without stock-exchange registration; Solana's architecture is live."
-      },
-      {
-        "title": "Solana Changelog: September 18, 2026",
-        "link": "https://solana.com/news/solana-changelog-september-18-2026",
-        "published": "Sat, 19 Sep 2026 11:28:00 GMT",
-        "summary": "Transaction V1 reaches mainnet as Solana targets 250ms slots, lower rent, and program deployments with four times lower fees."
-      },
-      {
-        "title": "How AI Is Reshaping Crypto Security, with Michael Coates",
-        "link": "https://solana.com/news/bits-to-bricks-crypto-security-michael-coates",
-        "published": "Sat, 19 Sep 2026 10:00:00 GMT",
-        "summary": "A ~$116 million Coldcard exploit shows why crypto security must eliminate single points of failure and automate defenses for AI-speed threats."
       }
     ],
     "count": 8,

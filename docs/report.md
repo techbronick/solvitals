@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-10 19:22:46 UTC by SolVitals.
+Generated 2026-10-10 22:43:38 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **delinquent_pct** — delinquent_pct is 5.0 (elevated above 5.0)
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,975.27 |
-| Total TPS (incl. votes) | 4,953.84 |
-| Vote share of transactions | 60.13% |
-| Average slot time | 0.2169 s |
-| Current slot | 455,369,033 |
-| Block height | 433,406,206 |
+| Non-vote TPS | 1,952.28 |
+| Total TPS (incl. votes) | 5,020.99 |
+| Vote share of transactions | 61.12% |
+| Average slot time | 0.2190 s |
+| Current slot | 455,424,271 |
+| Block height | 433,461,440 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1054** — 9.5% complete (`##..................`), ~23.7 hours remaining.
+Epoch **1054** — 22.28% complete (`####................`), ~20.3 hours remaining.
 
-Slot 41,034 of 432,000. Lifetime transaction count: 558,440,791,302.
+Slot 96,271 of 432,000. Lifetime transaction count: 558,499,406,084.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 41,034 of 432,000. Lifetime transaction count: 558,440,791,302.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.218 s |
-| Deviation from 0.4s target | -45.5% |
+| Measured slot time (`getBlockTime`) | 0.2178 s |
+| Deviation from 0.4s target | -45.55% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 8 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 646 |
-| Delinquent validators | 34 (5.00%) |
-| Stake held by delinquents | 3,903,025 SOL (0.890%) |
-| Total active stake | 434,834,940 SOL |
+| Active validators | 674 |
+| Delinquent validators | 6 (0.88%) |
+| Stake held by delinquents | 123,864 SOL (0.028%) |
+| Total active stake | 438,614,101 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 232 |
+| Zero-commission validators | 233 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,27 +61,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,775,444 | 4.088% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,954,957 | 3.669% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,313,356 | 2.832% | 0% |
-| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 11,145,934 | 2.563% | 0% |
-| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 10,754,664 | 2.473% | 5% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,328,689 | 2.145% | 10% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,240,266 | 2.125% | 7% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,603,786 | 1.749% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,810,142 | 1.566% | 5% |
-| 10 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,421,774 | 1.477% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,775,444 | 4.053% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,954,957 | 3.638% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,313,356 | 2.807% | 0% |
+| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 11,145,934 | 2.541% | 0% |
+| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 10,754,664 | 2.452% | 5% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,328,689 | 2.127% | 10% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,240,266 | 2.107% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,603,786 | 1.734% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,810,142 | 1.553% | 5% |
+| 10 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,421,774 | 1.464% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $110.35 (up 0.98%) |
-| Market cap | $64.98B |
+| SOL price | $110.45 (up 1.07%) |
+| Market cap | $65.04B |
 | DeFi TVL | $6.22B |
 | TVL rank across chains | 2 |
 | DEX volume (24h) | $1.98B (down 25.21%) |
-| Stablecoin supply | $16.10B |
+| Stablecoin supply | $16.11B |
 
 ### Real Economic Value (REV)
 
@@ -89,40 +89,40 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.04M** |
 | Network fees | $808.72K |
-| MEV tips (out-of-protocol) | $234.51K (22.48% of REV) |
-| Annualised REV run-rate | $380.78M |
+| MEV tips (out-of-protocol) | $234.46K (22.48% of REV) |
+| Annualised REV run-rate | $380.76M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $200.51K |
+| Jito MEV Tips | $200.46K |
 | Harmonic | $24.55K |
 | bloXroute | $9.45K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 332 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 333 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
 | 24 hours | $13.91M (down 7.66%) |
 | 7 days | $107.65M |
-| 30 days | $476.68M |
+| 30 days | $476.99M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $4.05M |
 | pump.fun | $2.20M |
-| Collector Crypt | $967.45K |
 | Axiom | $891.26K |
+| Collector Crypt | $842.73K |
 | Solana | $808.72K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $596.28M |
+| Total tokenized RWA | $596.36M |
 | Tokenized equities | $296.07K (0.05% of RWA) |
 | RWA protocols on Solana | 14 |
 
@@ -136,16 +136,16 @@ Fees earned by the 332 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $292.67M | RWA |
-| Huma | $255.91M | RWA |
-| Plume Vaults | $33.05M | RWA |
+| OnRe | $292.66M | RWA |
+| Huma | $255.94M | RWA |
+| Plume Vaults | $33.13M | RWA |
 | Invesco USTB | $3.92M | RWA |
-| Mansory | $2.87M | RWA |
-| International Stable Currency | $2.41M | RWA |
-| Oro Finance | $2.41M | RWA |
-| Byzanlink RWA Markets | $894.80K | RWA |
-| KAIO | $774.45K | RWA |
-| Solayer USD | $667.05K | RWA |
+| Mansory | $2.84M | RWA |
+| International Stable Currency | $2.42M | RWA |
+| Oro Finance | $2.40M | RWA |
+| Byzanlink RWA Markets | $894.76K | RWA |
+| KAIO | $774.41K | RWA |
+| Solayer USD | $672.27K | RWA |
 
 ### Top DEXes by 24h volume
 
@@ -154,28 +154,28 @@ Fees earned by the 332 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $389.88M |
 | BisonFi | $258.65M |
 | pump.fun | $175.62M |
-| Orca DEX | $139.81M |
-| Raydium AMM | $110.95M |
+| Orca DEX | $121.29M |
+| Meteora DLMM | $110.70M |
 
 ## Supply
 
-Circulating 588,848,456 SOL of 635,598,765 total (92.64%).
+Circulating 588,848,303 SOL of 635,598,613 total (92.64%).
 
 ## Ecosystem growth (solana.com/data)
 
 | Metric | Value | As of | Provider |
 | --- | --- | --- | --- |
-| Active Addresses | 693,289 | 2026-10-08 | Dune |
-| Fee Payers | 3,460,709 | 2026-10-08 | Dune |
-| Transaction Count (Total) | 392,296,222 | 2026-10-08 | Dune |
-| Non Vote Transaction Count (Success) | 122,335,016 | 2026-10-08 | Dune |
-| Non Vote Transaction Count (Failed) | 54,965,223 | 2026-10-08 | Dune |
-| DEX Volume | $1.56B | 2026-10-08 | Dune |
-| DEX Traders | 631,483 | 2026-10-08 | Dune |
-| Transfer Volume | $16.02B | 2026-10-07 | Dune |
-| Total Stake | 439,006,518 | 2026-10-08 | Solscan |
-| Validator Count | 672 | 2026-10-09 | Stakewiz |
-| Top 3 ASN Share | 50.62 | 2026-10-09 | Stakewiz |
+| Active Addresses | 777,662 | 2026-10-09 | Dune |
+| Fee Payers | 3,223,221 | 2026-10-09 | Dune |
+| Transaction Count (Total) | 394,948,962 | 2026-10-09 | Dune |
+| Non Vote Transaction Count (Success) | 113,803,431 | 2026-10-09 | Dune |
+| Non Vote Transaction Count (Failed) | 45,962,012 | 2026-10-09 | Dune |
+| DEX Volume | $2.35B | 2026-10-09 | Dune |
+| DEX Traders | 940,306 | 2026-10-09 | Dune |
+| Transfer Volume | $15.70B | 2026-10-09 | Dune |
+| Total Stake | 437,866,786 | 2026-10-09 | Solscan |
+| Validator Count | 674 | 2026-10-10 | Stakewiz |
+| Top 3 ASN Share | 46.64 | 2026-10-10 | Stakewiz |
 
 _Daily active addresses are deduplicated across the full day by the provider — distinct from the live block sample below, which measures current activity._
 
@@ -185,7 +185,8 @@ The same metric is published by multiple providers with different methodologies.
 
 | Metric | Date | Spread | Provider readings |
 | --- | --- | --- | --- |
-| Active Addresses | 2026-10-08 | 81.0% | Allium: 867,990, Dune: 693,289, Goldsky: 859,300, Top Ledger: 479,645 |
+| Active Addresses | 2026-10-09 | 88.0% | Allium: 787,662, Artemis: 696,118, Blockworks: 814,122, Dune: 777,662, Goldsky: 778,525, RWA: 828,682, Top Ledger: 440,766 |
+| Fee Payers | 2026-10-09 | 70.6% | Allium: 3,223,258, Artemis: 5,463,821, Blockworks: 3,246,555, Dune: 3,223,221, Token Terminal: 3,201,994, Top Ledger: 3,223,258 |
 
 ## Announcements from key accounts
 

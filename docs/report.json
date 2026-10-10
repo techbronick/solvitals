@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-10 15:18:52",
+  "captured_at": "2026-10-10 19:22:46",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2206,
+      "measured_slot_time_secs": 0.218,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -44.85,
+      "deviation_from_target_pct": -45.5,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,101 +13,101 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5213.77,
-      "tps_non_vote": 2130.57,
-      "vote_share_pct": 59.14,
-      "avg_slot_time_secs": 0.2174,
-      "latest_sample_slot": 455302327,
+      "tps_total": 4953.84,
+      "tps_non_vote": 1975.27,
+      "vote_share_pct": 60.13,
+      "avg_slot_time_secs": 0.2169,
+      "latest_sample_slot": 455368999,
       "samples_used": 5,
-      "block_height": 433339520,
-      "current_slot": 455302324
+      "block_height": 433406206,
+      "current_slot": 455369033
     },
     "epoch": {
-      "epoch": 1053,
-      "slot_index": 406325,
+      "epoch": 1054,
+      "slot_index": 41034,
       "slots_in_epoch": 432000,
-      "progress_pct": 94.06,
-      "eta_hours": 1.6,
-      "eta_basis_slot_secs": 0.2206,
-      "transaction_count": 558366044289
+      "progress_pct": 9.5,
+      "eta_hours": 23.7,
+      "eta_basis_slot_secs": 0.218,
+      "transaction_count": 558440791302
     },
     "validators": {
-      "active_count": 675,
-      "delinquent_count": 6,
-      "delinquent_pct": 0.88,
-      "delinquent_stake_sol": 9610.86,
-      "delinquent_stake_pct": 0.002,
-      "total_active_stake_sol": 437858115.65,
+      "active_count": 646,
+      "delinquent_count": 34,
+      "delinquent_pct": 5.0,
+      "delinquent_stake_sol": 3903024.56,
+      "delinquent_stake_pct": 0.89,
+      "total_active_stake_sol": 434834939.77,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 231,
+      "zero_commission_count": 232,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-          "stake_sol": 17788627.2,
-          "stake_pct": 4.063,
+          "stake_sol": 17775444.15,
+          "stake_pct": 4.088,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-          "stake_sol": 15954194.79,
-          "stake_pct": 3.644,
+          "stake_sol": 15954956.57,
+          "stake_pct": 3.669,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-          "stake_sol": 12299759.25,
-          "stake_pct": 2.809,
+          "stake_sol": 12313355.73,
+          "stake_pct": 2.832,
           "commission": 0
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-          "stake_sol": 11178786.74,
-          "stake_pct": 2.553,
+          "stake_sol": 11145933.52,
+          "stake_pct": 2.563,
           "commission": 0
         },
         {
           "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "stake_sol": 10972769.54,
-          "stake_pct": 2.506,
+          "stake_sol": 10754664.23,
+          "stake_pct": 2.473,
           "commission": 5
         },
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-          "stake_sol": 9315835.37,
-          "stake_pct": 2.128,
+          "stake_sol": 9328688.51,
+          "stake_pct": 2.145,
           "commission": 10
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-          "stake_sol": 9251552.15,
-          "stake_pct": 2.113,
+          "stake_sol": 9240265.58,
+          "stake_pct": 2.125,
           "commission": 7
         },
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-          "stake_sol": 7589921.71,
-          "stake_pct": 1.733,
+          "stake_sol": 7603785.75,
+          "stake_pct": 1.749,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-          "stake_sol": 6809494.18,
-          "stake_pct": 1.555,
+          "stake_sol": 6810142.07,
+          "stake_pct": 1.566,
           "commission": 5
         },
         {
           "vote_account": "3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf",
-          "stake_sol": 6692115.38,
-          "stake_pct": 1.528,
+          "stake_sol": 6421774.32,
+          "stake_pct": 1.477,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 635536176.68,
-      "circulating_sol": 588791531.73,
-      "non_circulating_sol": 46744644.95,
+      "total_sol": 635598765.48,
+      "circulating_sol": 588848455.67,
+      "non_circulating_sol": 46750309.8,
       "circulating_pct": 92.64
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "3hVxrQtf8QeAzEVvL9dEjBeintGSGDWcB1wxyYpobH2Eo84KxxbNs9wUQUYUBHTzCRHHocgSnt1Q2B2NjwsUMcVm",
-      "latest_block_time": 1791645530,
-      "errors_in_recent": 8
+      "latest_signature": "2D2YVxJRuZ823zxETnPda2aT6sxb2DwozQocMtM6g59aVt8fvi9kacx1NTpZJUt8Hr4r6HBEAa8Wy32a7hrc8Vmz",
+      "latest_block_time": 1791660167,
+      "errors_in_recent": 3
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,14 +136,14 @@
   },
   "market": {
     "price": {
-      "usd": 110.34,
-      "change_24h_pct": 0.73,
-      "market_cap_usd": 64952052586.19642,
-      "volume_24h_usd": 1814143737.1678855,
+      "usd": 110.35,
+      "change_24h_pct": 0.98,
+      "market_cap_usd": 64978155366.8972,
+      "volume_24h_usd": 1619381776.887153,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6207639306.96,
+      "tvl_usd": 6217163004.51,
       "rank_by_tvl": 2,
       "share_of_all_chains_pct": 6.73,
       "source": "defillama"
@@ -168,41 +168,41 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 172890590
+          "volume_24h_usd": 139809801
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 113318607
+          "volume_24h_usd": 110952709
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 16114604179.33,
+      "total_usd": 16101220731.33,
       "by_peg": {
-        "peggedUSD": 16041324559.15,
-        "peggedEUR": 69046571.46,
-        "peggedJPY": 52.62,
-        "peggedCHF": 1188694.24,
-        "peggedAUD": 72720.4,
-        "peggedVAR": 2418690.2,
-        "peggedGBP": 387794.39,
-        "peggedTRY": 163674.54,
-        "peggedCAD": 1421.64,
-        "peggedKRW": 0.7
+        "peggedUSD": 16027937049.29,
+        "peggedEUR": 69069345.77,
+        "peggedJPY": 52.85,
+        "peggedCHF": 1185394.81,
+        "peggedAUD": 72629.36,
+        "peggedVAR": 2401927.33,
+        "peggedGBP": 387643.11,
+        "peggedTRY": 165266.18,
+        "peggedCAD": 1421.93,
+        "peggedKRW": 0.69
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1043621,
+      "rev_24h_usd": 1043233,
       "network_fees_24h_usd": 808718,
-      "mev_tips_24h_usd": 234903,
-      "mev_share_of_rev_pct": 22.51,
-      "rev_annualised_usd": 380921665,
+      "mev_tips_24h_usd": 234515,
+      "mev_share_of_rev_pct": 22.48,
+      "rev_annualised_usd": 380780045,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 200903
+          "tips_24h_usd": 200515
         },
         {
           "name": "Harmonic",
@@ -217,7 +217,7 @@
       "app_fees_7d_usd": 107651444.03000003,
       "app_fees_30d_usd": 476682765.52999973,
       "app_fees_change_24h_pct": -7.66,
-      "protocol_count": 331,
+      "protocol_count": 332,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
@@ -2354,5 +2354,13 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "delinquent_pct",
+      "severity": "warning",
+      "message": "delinquent_pct is 5.0 (elevated above 5.0)",
+      "value": 5.0,
+      "expected": "< 5.0"
+    }
+  ]
 }

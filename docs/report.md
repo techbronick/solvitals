@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-11 22:33:22 UTC by SolVitals.
+Generated 2026-10-12 01:45:24 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,109.01 |
-| Total TPS (incl. votes) | 5,133.75 |
-| Vote share of transactions | 58.92% |
-| Average slot time | 0.2214 s |
-| Current slot | 455,817,118 |
-| Block height | 433,854,234 |
+| Non-vote TPS | 1,880.88 |
+| Total TPS (incl. votes) | 4,983.20 |
+| Vote share of transactions | 62.26% |
+| Average slot time | 0.2160 s |
+| Current slot | 455,870,055 |
+| Block height | 433,907,168 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1055** — 13.22% complete (`###.................`), ~22.8 hours remaining.
+Epoch **1055** — 25.48% complete (`#####...............`), ~19.4 hours remaining.
 
-Slot 57,118 of 432,000. Lifetime transaction count: 558,906,673,345.
+Slot 110,055 of 432,000. Lifetime transaction count: 558,961,472,702.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 57,118 of 432,000. Lifetime transaction count: 558,906,673,345.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.219 s |
-| Deviation from 0.4s target | -45.25% |
+| Measured slot time (`getBlockTime`) | 0.2172 s |
+| Deviation from 0.4s target | -45.7% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 4 with errors.
 
 ## Validators
 
@@ -49,11 +49,11 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | --- | --- |
 | Active validators | 673 |
 | Delinquent validators | 8 (1.17%) |
-| Stake held by delinquents | 46,546 SOL (0.011%) |
-| Total active stake | 438,715,594 SOL |
+| Stake held by delinquents | 74,554 SOL (0.017%) |
+| Total active stake | 438,687,586 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 233 |
+| Zero-commission validators | 232 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $110.99 (up 0.66%) |
-| Market cap | $65.40B |
-| DeFi TVL | $6.26B |
-| TVL rank across chains | 2 |
-| DEX volume (24h) | $1.29B (down 34.97%) |
-| Stablecoin supply | $16.08B |
+| SOL price | $111.32 (up 1.16%) |
+| Market cap | $65.60B |
+| DeFi TVL | $6.22B |
+| TVL rank across chains | 3 |
+| DEX volume (24h) | $1.25B (down 3.01%) |
+| Stablecoin supply | $16.07B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$937.65K** |
+| **REV (total)** | **$938.13K** |
 | Network fees | $740.67K |
-| MEV tips (out-of-protocol) | $196.98K (21.01% of REV) |
-| Annualised REV run-rate | $342.24M |
+| MEV tips (out-of-protocol) | $197.46K (21.05% of REV) |
+| Annualised REV run-rate | $342.42M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $172.60K |
+| Jito MEV Tips | $173.08K |
 | Harmonic | $17.49K |
 | bloXroute | $6.89K |
 
@@ -106,9 +106,9 @@ Fees earned by the 333 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $11.94M (down 14.21%) |
-| 7 days | $106.22M |
-| 30 days | $475.16M |
+| 24 hours | $11.61M (down 2.71%) |
+| 7 days | $90.55M |
+| 30 days | $458.24M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -151,15 +151,15 @@ Fees earned by the 333 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| PumpSwap | $235.28M |
 | pump.fun | $156.79M |
 | BisonFi | $156.53M |
-| Orca DEX | $136.14M |
-| Raydium AMM | $126.43M |
+| Orca DEX | $147.46M |
+| PumpSwap | $135.49M |
+| Raydium AMM | $128.48M |
 
 ## Supply
 
-Circulating 589,107,532 SOL of 635,660,316 total (92.68%).
+Circulating 589,107,389 SOL of 635,660,173 total (92.68%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -259,6 +259,8 @@ _A proposal with no feature gate has not reached the point of being switchable o
 
 ## Ecosystem and community news
 
+- **[Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026)**
+  web3.js v3 is ready for general use, while Solana activates a feature gate to cut slot times from 250ms to 200ms after one epoch.
 - **[Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet)**
   Beginning the last week of October 2026, Samsung Wallet will support USDC cross-border transfers on Solana across 82 million U.S. Galaxy devices.
 - **[Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)**
@@ -273,8 +275,6 @@ _A proposal with no feature gate has not reached the point of being switchable o
   Devnet lists Alpenglow as a notable feature gate alongside new Agave, Firedancer, Superbank, Web3.js, Kit, and program SDK releases.
 - **[Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)**
   Open USD is live on Solana, letting businesses mint and burn 1:1 for dollars at no cost, with over $1 billion committed to liquidity.
-- **[Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)**
-  Solana is now producing slots with a 250ms target, going down from 400ms. In this article we study the effects of this reduction based on direct on-chain measures.
 
 _Source: official Solana news feed (solana.com/news)._
 

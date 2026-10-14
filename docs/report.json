@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-14 20:57:26",
+  "captured_at": "2026-10-14 23:35:44",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.216,
+      "measured_slot_time_secs": 0.2158,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.0,
+      "deviation_from_target_pct": -46.05,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5705.89,
-      "tps_non_vote": 2600.93,
-      "vote_share_pct": 54.42,
-      "avg_slot_time_secs": 0.2158,
-      "latest_sample_slot": 456979192,
+      "tps_total": 5174.35,
+      "tps_non_vote": 2058.61,
+      "vote_share_pct": 60.22,
+      "avg_slot_time_secs": 0.2151,
+      "latest_sample_slot": 457023212,
       "samples_used": 5,
-      "block_height": 435015395,
-      "current_slot": 456979228
+      "block_height": 435059403,
+      "current_slot": 457023245
     },
     "epoch": {
       "epoch": 1057,
-      "slot_index": 355230,
+      "slot_index": 399245,
       "slots_in_epoch": 432000,
-      "progress_pct": 82.23,
-      "eta_hours": 4.6,
-      "eta_basis_slot_secs": 0.216,
-      "transaction_count": 560174527788
+      "progress_pct": 92.42,
+      "eta_hours": 2.0,
+      "eta_basis_slot_secs": 0.2158,
+      "transaction_count": 560223560720
     },
     "validators": {
       "active_count": 673,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 635782485.6,
-      "circulating_sol": 589212445.26,
-      "non_circulating_sol": 46570040.34,
+      "total_sol": 635782358.5,
+      "circulating_sol": 589212317.94,
+      "non_circulating_sol": 46570040.56,
       "circulating_pct": 92.68
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "e7ejJku3uGVDjaoCF1Xp9H6BFMrU74oNfqCMV2eGb1Z8o7uKjgg3VEe9XLiBY5okBZPFAZXphWNRDe1z4D4PK5r",
-      "latest_block_time": 1792011454,
-      "errors_in_recent": 7
+      "latest_signature": "5rtry69c6Tm4aXLupPwDDUzE9b4sXKxCQLt8u3kN8afombxgrF1odwpDP18kuQFG3x96wV1mSQhNdcF4qwTGwDAu",
+      "latest_block_time": 1792020944,
+      "errors_in_recent": 1
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 104.16,
-      "change_24h_pct": -2.69,
-      "market_cap_usd": 61340249333.93391,
-      "volume_24h_usd": 3196070930.5554028,
+      "usd": 104.2,
+      "change_24h_pct": -2.38,
+      "market_cap_usd": 61397852520.976906,
+      "volume_24h_usd": 3246964219.0352216,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5960876308.03,
+      "tvl_usd": 5989979351.44,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.64,
+      "share_of_all_chains_pct": 6.68,
       "source": "defillama"
     },
     "dex_volume": {
@@ -164,11 +164,11 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 281006244
+          "volume_24h_usd": 285683264
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 172096803
+          "volume_24h_usd": 168344460
         },
         {
           "name": "pump.fun",
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15810422885.4,
+      "total_usd": 15782855998.85,
       "by_peg": {
-        "peggedUSD": 15730933268.69,
-        "peggedEUR": 75269009.11,
-        "peggedJPY": 52.05,
-        "peggedCHF": 1194343.95,
-        "peggedAUD": 72845.54,
-        "peggedVAR": 2405798.3,
-        "peggedGBP": 382829.4,
+        "peggedUSD": 15713204976.12,
+        "peggedEUR": 65434068.44,
+        "peggedJPY": 52.27,
+        "peggedCHF": 1195456.55,
+        "peggedAUD": 72982.42,
+        "peggedVAR": 2400866.94,
+        "peggedGBP": 382857.65,
         "peggedTRY": 163316.77,
-        "peggedCAD": 1420.9,
+        "peggedCAD": 1420.99,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1021089,
+      "rev_24h_usd": 1017501,
       "network_fees_24h_usd": 790543,
-      "mev_tips_24h_usd": 230546,
-      "mev_share_of_rev_pct": 22.58,
-      "rev_annualised_usd": 372697485,
+      "mev_tips_24h_usd": 226958,
+      "mev_share_of_rev_pct": 22.31,
+      "rev_annualised_usd": 371387865,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 200198
+          "tips_24h_usd": 196610
         },
         {
           "name": "Harmonic",
@@ -2305,27 +2305,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Altitude is the business account your agents love, built on Solana",
-        "created_at": "Wed Oct 14 16:59:33 +0000 2026",
-        "url": "https://x.com/solana/status/2110415222586347678"
+        "text": "HUGE: 65% of tokenized stock trading on @Solana has happened outside US market hours. https://t.co/6iDn2KE6XX",
+        "created_at": "Wed Oct 14 20:24:55 +0000 2026",
+        "url": "https://x.com/solana/status/2110466906453049788"
       },
       {
         "handle": "solana",
-        "text": "Humans of Hacker House. EP 1 - @bangerz. https://t.co/df6duFomfc",
-        "created_at": "Wed Oct 14 16:57:10 +0000 2026",
-        "url": "https://x.com/solana/status/2110414624361439289"
-      },
-      {
-        "handle": "solana",
-        "text": "Ok @bot, analyze my entire transaction history and figure out how to turn this into a trillion dollar company. Make no mistakes. Say hello to Altitude MCP v1. Connect your AI agent to Altitude and put your transaction data to work. Get sta\u2026",
-        "created_at": "Wed Oct 14 16:05:53 +0000 2026",
-        "url": "https://x.com/solana/status/2110401717087195215"
+        "text": "INSIGHT: \"Tokenization is the future of how products move in capital markets,\" @Securitize CEO Carlos Domingo on the @NYSE channel, a week after Securitize Stocks went live on @Solana. How long until tokenized stocks are standard at US bro\u2026",
+        "created_at": "Wed Oct 14 17:08:18 +0000 2026",
+        "url": "https://x.com/solana/status/2110417427070910866"
       },
       {
         "handle": "solana",
         "text": "ni hao shanghai \ud83c\udde8\ud83c\uddf3 https://t.co/ctqzJdIfQy",
         "created_at": "Wed Oct 14 12:10:24 +0000 2026",
         "url": "https://x.com/solana/status/2110342458303508787"
+      },
+      {
+        "handle": "solana",
+        "text": "Internet capital markets don't keep business hours. 66% of tokenized stock trades on @solana now settle outside US market hours. Nights. Weekends. Holidays. Global liquidity 24/7. https://t.co/pBMKTgJNgp",
+        "created_at": "Sun Oct 11 18:02:51 +0000 2026",
+        "url": "https://x.com/solana/status/2109343989824377084"
       },
       {
         "handle": "solanalabs",

@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-14 20:57:26 UTC by SolVitals.
+Generated 2026-10-14 23:35:44 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,600.93 |
-| Total TPS (incl. votes) | 5,705.89 |
-| Vote share of transactions | 54.42% |
-| Average slot time | 0.2158 s |
-| Current slot | 456,979,228 |
-| Block height | 435,015,395 |
+| Non-vote TPS | 2,058.61 |
+| Total TPS (incl. votes) | 5,174.35 |
+| Vote share of transactions | 60.22% |
+| Average slot time | 0.2151 s |
+| Current slot | 457,023,245 |
+| Block height | 435,059,403 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1057** — 82.23% complete (`################....`), ~4.6 hours remaining.
+Epoch **1057** — 92.42% complete (`##################..`), ~2.0 hours remaining.
 
-Slot 355,230 of 432,000. Lifetime transaction count: 560,174,527,788.
+Slot 399,245 of 432,000. Lifetime transaction count: 560,223,560,720.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 355,230 of 432,000. Lifetime transaction count: 560,174,527,788.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.216 s |
-| Deviation from 0.4s target | -46.0% |
+| Measured slot time (`getBlockTime`) | 0.2158 s |
+| Deviation from 0.4s target | -46.05% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 7 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,12 +76,12 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.16 (down 2.69%) |
-| Market cap | $61.34B |
-| DeFi TVL | $5.96B |
+| SOL price | $104.20 (down 2.38%) |
+| Market cap | $61.40B |
+| DeFi TVL | $5.99B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $2.50B (up 11.80%) |
-| Stablecoin supply | $15.81B |
+| Stablecoin supply | $15.78B |
 
 ### Real Economic Value (REV)
 
@@ -89,14 +89,14 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 | --- | --- |
 | **REV (total)** | **$1.02M** |
 | Network fees | $790.54K |
-| MEV tips (out-of-protocol) | $230.55K (22.58% of REV) |
-| Annualised REV run-rate | $372.70M |
+| MEV tips (out-of-protocol) | $226.96K (22.31% of REV) |
+| Annualised REV run-rate | $371.39M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $200.20K |
+| Jito MEV Tips | $196.61K |
 | Harmonic | $24.22K |
 | bloXroute | $6.13K |
 
@@ -147,13 +147,13 @@ Fees earned by the 336 applications built on Solana -- DEXes, launchpads, wallet
 | --- | --- |
 | PumpSwap | $451.80M |
 | BisonFi | $411.45M |
-| Orca DEX | $281.01M |
-| Raydium AMM | $172.10M |
+| Orca DEX | $285.68M |
+| Raydium AMM | $168.34M |
 | pump.fun | $164.38M |
 
 ## Supply
 
-Circulating 589,212,445 SOL of 635,782,486 total (92.68%).
+Circulating 589,212,318 SOL of 635,782,358 total (92.68%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -184,10 +184,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Altitude is the business account your agents love, built on Solana [(link)](https://x.com/solana/status/2110415222586347678)
-- **@solana** — Humans of Hacker House. EP 1 - @bangerz. https://t.co/df6duFomfc [(link)](https://x.com/solana/status/2110414624361439289)
-- **@solana** — Ok @bot, analyze my entire transaction history and figure out how to turn this into a trillion dollar company. Make no mistakes. Say hello to Altitude MCP v1. Connect your AI agent to Altitude and put your transaction data to work. Get sta… [(link)](https://x.com/solana/status/2110401717087195215)
+- **@solana** — HUGE: 65% of tokenized stock trading on @Solana has happened outside US market hours. https://t.co/6iDn2KE6XX [(link)](https://x.com/solana/status/2110466906453049788)
+- **@solana** — INSIGHT: "Tokenization is the future of how products move in capital markets," @Securitize CEO Carlos Domingo on the @NYSE channel, a week after Securitize Stocks went live on @Solana. How long until tokenized stocks are standard at US bro… [(link)](https://x.com/solana/status/2110417427070910866)
 - **@solana** — ni hao shanghai 🇨🇳 https://t.co/ctqzJdIfQy [(link)](https://x.com/solana/status/2110342458303508787)
+- **@solana** — Internet capital markets don't keep business hours. 66% of tokenized stock trades on @solana now settle outside US market hours. Nights. Weekends. Holidays. Global liquidity 24/7. https://t.co/pBMKTgJNgp [(link)](https://x.com/solana/status/2109343989824377084)
 - **@solanalabs** — More time on the clock ⏰ We’re extending the Clock In hackathon submission deadline to Monday 10/12 at 11:59PM UTC. Take the weekend to polish your build, tighten your pitch, and get everything where you want it. Make it count. [(link)](https://x.com/solanalabs/status/2107844252923531574)
 - **@solanalabs** — The community has spoken. You guys wanted the 50% off Seeker deal to stick around a little longer. Consider it extended through the end of Breakpoint. While supplies last. Order now : https://t.co/UNjxVcSV2j https://t.co/xp3kjt1WlV [(link)](https://x.com/solanalabs/status/2107156127498621269)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)

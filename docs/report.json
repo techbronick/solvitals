@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-14 12:31:43",
+  "captured_at": "2026-10-14 17:34:57",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.217,
+      "measured_slot_time_secs": 0.2178,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -45.75,
+      "deviation_from_target_pct": -45.55,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 6101.96,
-      "tps_non_vote": 3006.98,
-      "vote_share_pct": 50.72,
-      "avg_slot_time_secs": 0.2165,
-      "latest_sample_slot": 456839299,
+      "tps_total": 5075.87,
+      "tps_non_vote": 2008.09,
+      "vote_share_pct": 60.44,
+      "avg_slot_time_secs": 0.2183,
+      "latest_sample_slot": 456922929,
       "samples_used": 5,
-      "block_height": 434875603,
-      "current_slot": 456839345
+      "block_height": 434959313,
+      "current_slot": 456923099
     },
     "epoch": {
       "epoch": 1057,
-      "slot_index": 215346,
+      "slot_index": 299099,
       "slots_in_epoch": 432000,
-      "progress_pct": 49.85,
-      "eta_hours": 13.1,
-      "eta_basis_slot_secs": 0.217,
-      "transaction_count": 560012045607
+      "progress_pct": 69.24,
+      "eta_hours": 8.0,
+      "eta_basis_slot_secs": 0.2178,
+      "transaction_count": 560110471737
     },
     "validators": {
       "active_count": 673,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 635782906.15,
-      "circulating_sol": 589218947.88,
-      "non_circulating_sol": 46563958.27,
+      "total_sol": 635782651.47,
+      "circulating_sol": 589212611.13,
+      "non_circulating_sol": 46570040.34,
       "circulating_pct": 92.68
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "5os1iPvGDZztRce9nU2pvJXgahugN1WD16LaJeuNtvaRuy4zP6pcDYBk2d1h3C9LWLm6Dte4jnvd2kY7B9Dft8K",
-      "latest_block_time": 1791981102,
-      "errors_in_recent": 0
+      "latest_signature": "3QifWiWu7HvUudFw44SSB9VpVLk6xB2tLe9bJgt6QsB2D83m8PiP32Z2fXLTtMC2XnZYxPU995JVaZnHJPL4nvip",
+      "latest_block_time": 1791999298,
+      "errors_in_recent": 2
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,14 +136,14 @@
   },
   "market": {
     "price": {
-      "usd": 107.67,
-      "change_24h_pct": 1.21,
-      "market_cap_usd": 63376295310.26575,
-      "volume_24h_usd": 2318876486.445057,
+      "usd": 104.79,
+      "change_24h_pct": -2.29,
+      "market_cap_usd": 61742548974.54035,
+      "volume_24h_usd": 3207911441.3418136,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 6056324917.37,
+      "tvl_usd": 5946390611.97,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.62,
       "source": "defillama"
@@ -164,45 +164,45 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 241693939
+          "volume_24h_usd": 281006244
+        },
+        {
+          "name": "Raydium AMM",
+          "volume_24h_usd": 169177110
         },
         {
           "name": "pump.fun",
           "volume_24h_usd": 164379780
-        },
-        {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 145501747
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15906735251.18,
+      "total_usd": 15813940254.68,
       "by_peg": {
-        "peggedUSD": 15836232930.07,
-        "peggedEUR": 66309597.55,
-        "peggedJPY": 52.43,
-        "peggedCHF": 1181468.25,
-        "peggedAUD": 73218.73,
-        "peggedVAR": 2387688.19,
-        "peggedGBP": 385551.16,
+        "peggedUSD": 15743878807.34,
+        "peggedEUR": 65820004.61,
+        "peggedJPY": 51.69,
+        "peggedCHF": 1193626.34,
+        "peggedAUD": 72972.6,
+        "peggedVAR": 2427410.51,
+        "peggedGBP": 382646.23,
         "peggedTRY": 163316.77,
-        "peggedCAD": 1427.34,
+        "peggedCAD": 1417.89,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 1035900,
+      "rev_24h_usd": 1031114,
       "network_fees_24h_usd": 790543,
-      "mev_tips_24h_usd": 245357,
-      "mev_share_of_rev_pct": 23.69,
-      "rev_annualised_usd": 378103500,
+      "mev_tips_24h_usd": 240571,
+      "mev_share_of_rev_pct": 23.33,
+      "rev_annualised_usd": 376356610,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 215009
+          "tips_24h_usd": 210223
         },
         {
           "name": "Harmonic",
@@ -213,10 +213,10 @@
           "tips_24h_usd": 6126
         }
       ],
-      "app_fees_24h_usd": 11649597.740000004,
-      "app_fees_7d_usd": 91285955.47999999,
-      "app_fees_30d_usd": 465274421.7399996,
-      "app_fees_change_24h_pct": -11.1,
+      "app_fees_24h_usd": 11775288.160000004,
+      "app_fees_7d_usd": 91411615.97000001,
+      "app_fees_30d_usd": 465431577.22999966,
+      "app_fees_change_24h_pct": -10.14,
       "protocol_count": 336,
       "top_fee_earning_apps": [
         {
@@ -236,8 +236,8 @@
           "fees_24h_usd": 790543
         },
         {
-          "name": "Collector Crypt",
-          "fees_24h_usd": 514646
+          "name": "Meteora DLMM",
+          "fees_24h_usd": 462055
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2305,39 +2305,39 @@
     "posts": [
       {
         "handle": "solana",
+        "text": "Altitude is the business account your agents love, built on Solana",
+        "created_at": "Wed Oct 14 16:59:33 +0000 2026",
+        "url": "https://x.com/solana/status/2110415222586347678"
+      },
+      {
+        "handle": "solana",
+        "text": "Humans of Hacker House. EP 1 - @bangerz. https://t.co/df6duFomfc",
+        "created_at": "Wed Oct 14 16:57:10 +0000 2026",
+        "url": "https://x.com/solana/status/2110414624361439289"
+      },
+      {
+        "handle": "solana",
+        "text": "Ok @bot, analyze my entire transaction history and figure out how to turn this into a trillion dollar company. Make no mistakes. Say hello to Altitude MCP v1. Connect your AI agent to Altitude and put your transaction data to work. Get sta\u2026",
+        "created_at": "Wed Oct 14 16:05:53 +0000 2026",
+        "url": "https://x.com/solana/status/2110401717087195215"
+      },
+      {
+        "handle": "solana",
         "text": "ni hao shanghai \ud83c\udde8\ud83c\uddf3 https://t.co/ctqzJdIfQy",
         "created_at": "Wed Oct 14 12:10:24 +0000 2026",
         "url": "https://x.com/solana/status/2110342458303508787"
       },
       {
-        "handle": "solana",
-        "text": "Super Intelligence leads on @Solana. $NVDAx is the most held tokenized stock on Solana with 175K holders. \u2192 Lend it on @kamino \u2192 Hold it on @solflare \u2192 Pair it on @launchonsf or @pumpfun \u2192 Earn yield on @krakenfx or @krakenpro \u2192 Trade it o\u2026",
-        "created_at": "Wed Oct 14 11:39:01 +0000 2026",
-        "url": "https://x.com/solana/status/2110334559581835555"
-      },
-      {
-        "handle": "solana",
-        "text": "Follow the Breakpoint 2026 side events calendar for more: https://t.co/iN83ZCvDmQ",
-        "created_at": "Wed Oct 14 09:07:39 +0000 2026",
-        "url": "https://x.com/solana/status/2110296466812252549"
-      },
-      {
-        "handle": "solana",
-        "text": "\u201cEvery agent needs a name on the internet. There will be over a billion domain names in the next ten years, driven by agents, humans, and robots.\u201d @D3inc founder @mxchaelho on bringing domains to Solana for the token supercycle. https://t.\u2026",
-        "created_at": "Tue Oct 13 13:22:32 +0000 2026",
-        "url": "https://x.com/solana/status/2109998220936204691"
+        "handle": "solanalabs",
+        "text": "More time on the clock \u23f0 We\u2019re extending the Clock In hackathon submission deadline to Monday 10/12 at 11:59PM UTC. Take the weekend to polish your build, tighten your pitch, and get everything where you want it. Make it count.",
+        "created_at": "Wed Oct 07 14:43:26 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2107844252923531574"
       },
       {
         "handle": "solanalabs",
-        "text": "The clock is ticking \u23f0 Less than 7 days left to ship your Clock In hackathon submission. What are you building? https://t.co/2aW9Rca5ZZ",
-        "created_at": "Fri Oct 02 18:36:32 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2106090974900592964"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Buy a Breakpoint ticket with BP26-SEEKER25 for 25% off, and you get a @solanamobile Seeker for half price. For 72 hours only. https://t.co/QH9zfxQMtm",
-        "created_at": "Mon Sep 28 13:00:00 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2104556733255282966"
+        "text": "The community has spoken. You guys wanted the 50% off Seeker deal to stick around a little longer. Consider it extended through the end of Breakpoint. While supplies last. Order now : https://t.co/UNjxVcSV2j https://t.co/xp3kjt1WlV",
+        "created_at": "Mon Oct 05 17:09:04 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2107156127498621269"
       },
       {
         "handle": "solanalabs",
@@ -2362,13 +2362,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "tps_non_vote",
-      "severity": "warning",
-      "message": "tps_non_vote is 2.4 sigma above its 288-point mean",
-      "value": 3006.98,
-      "expected": 1903.5526
-    }
-  ]
+  "anomalies": []
 }

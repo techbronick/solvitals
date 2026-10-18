@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-18 17:23:09 UTC by SolVitals.
+Generated 2026-10-18 19:29:45 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,119.32 |
-| Total TPS (incl. votes) | 5,201.62 |
-| Vote share of transactions | 59.26% |
-| Average slot time | 0.2157 s |
-| Current slot | 458,516,426 |
-| Block height | 436,551,671 |
+| Non-vote TPS | 1,903.86 |
+| Total TPS (incl. votes) | 4,977.88 |
+| Vote share of transactions | 61.75% |
+| Average slot time | 0.2163 s |
+| Current slot | 458,551,400 |
+| Block height | 436,586,645 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1061** — 38.06% complete (`########............`), ~16.2 hours remaining.
+Epoch **1061** — 46.16% complete (`#########...........`), ~14.0 hours remaining.
 
-Slot 164,426 of 432,000. Lifetime transaction count: 561,811,896,897.
+Slot 199,401 of 432,000. Lifetime transaction count: 561,849,467,843.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 164,426 of 432,000. Lifetime transaction count: 561,811,896,897.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2178 s |
-| Deviation from 0.4s target | -45.55% |
+| Measured slot time (`getBlockTime`) | 0.2164 s |
+| Deviation from 0.4s target | -45.9% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -76,8 +76,8 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $102.17 (down 0.99%) |
-| Market cap | $60.24B |
+| SOL price | $101.76 (down 1.97%) |
+| Market cap | $59.95B |
 | DeFi TVL | $5.88B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.25B (down 42.23%) |
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$764.81K** |
+| **REV (total)** | **$762.14K** |
 | Network fees | $622.77K |
-| MEV tips (out-of-protocol) | $142.04K (18.57% of REV) |
-| Annualised REV run-rate | $279.16M |
+| MEV tips (out-of-protocol) | $139.37K (18.29% of REV) |
+| Annualised REV run-rate | $278.18M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $122.93K |
+| Jito MEV Tips | $120.26K |
 | Harmonic | $14.15K |
 | bloXroute | $4.96K |
 
@@ -153,7 +153,7 @@ Fees earned by the 342 applications built on Solana -- DEXes, launchpads, wallet
 
 ## Supply
 
-Circulating 589,438,130 SOL of 636,028,895 total (92.67%).
+Circulating 589,438,033 SOL of 636,028,798 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -184,12 +184,12 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — HUGE: 65% of tokenized stock trading on @Solana has happened outside US market hours. https://t.co/6iDn2KE6XX [(link)](https://x.com/solana/status/2110466906453049788)
-- **@solana** — INSIGHT: "Tokenization is the future of how products move in capital markets," @Securitize CEO Carlos Domingo on the @NYSE channel, a week after Securitize Stocks went live on @Solana. How long until tokenized stocks are standard at US bro… [(link)](https://x.com/solana/status/2110417427070910866)
-- **@solana** — ni hao shanghai 🇨🇳 https://t.co/ctqzJdIfQy [(link)](https://x.com/solana/status/2110342458303508787)
-- **@solana** — Internet capital markets don't keep business hours. 66% of tokenized stock trades on @solana now settle outside US market hours. Nights. Weekends. Holidays. Global liquidity 24/7. https://t.co/pBMKTgJNgp [(link)](https://x.com/solana/status/2109343989824377084)
-- **@solanalabs** — More time on the clock ⏰ We’re extending the Clock In hackathon submission deadline to Monday 10/12 at 11:59PM UTC. Take the weekend to polish your build, tighten your pitch, and get everything where you want it. Make it count. [(link)](https://x.com/solanalabs/status/2107844252923531574)
-- **@solanalabs** — The community has spoken. You guys wanted the 50% off Seeker deal to stick around a little longer. Consider it extended through the end of Breakpoint. While supplies last. Order now : https://t.co/UNjxVcSV2j https://t.co/xp3kjt1WlV [(link)](https://x.com/solanalabs/status/2107156127498621269)
+- **@solana** — Stocks on Solana. 24/7, 365 days a year. https://t.co/l8GJbc2zNy [(link)](https://x.com/solana/status/2111878008785019251)
+- **@solana** — The last week on Sunrise. • $840M+ in trading volume • 245K+ new holders • New listings: $ASTER, $XPL, $RIOT, $CMG, $TSM, $AVGO, $UVXY, $NEAR, $ZEC The world's markets are coming to @Solana. 🌅 https://t.co/kv3Ns19UuH [(link)](https://x.com/solana/status/2111858132670709940)
+- **@solana** — This week Solana reached retail users in Mexico through Western Union’s USDPT, institutional allocators in Hong Kong through a second spot SOL ETF, and Da Nang’s innovation ecosystem through a new MOU with its Startup Support Centre. BREAK… [(link)](https://x.com/solana/status/2111837474079293847)
+- **@solana** — Watch the Pirates Parley episode hosted by @SteveCleanBrook https://t.co/AelUc7d2T6 [(link)](https://x.com/solana/status/2111744102211740136)
+- **@solanalabs** — Seekers, meet Ledger Atom™ @Ledger Atom ships with the @solanamobile Seeker app, combining the Solana dApp Store and wallet, putting 1,500+ Solana apps in front of Ledger users Get yours today: https://t.co/LbZ8P8Rvw2 https://t.co/pqnC6bXx… [(link)](https://x.com/solanalabs/status/2110774724246515965)
+- **@solanalabs** — BREAKING: @solanamobile names @Ledger its first hardware partner. The Seeker app, home to the Solana dApp Store and wallet, ships preinstalled on Ledger Atom and brings 1,500+ apps to Ledger users. [(link)](https://x.com/solanalabs/status/2110718532853940458)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
 - **@solanalabs** — Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet — founders building across AI, robotics, and trading on @solana. Day one of working with these teams: 🟣@clawpumptech 🟣@crowdbrainai 🟣@Lavaragexyz 🟣@morfimarkets 🟣@… [(link)](https://x.com/solanalabs/status/2094842504025694668)
 

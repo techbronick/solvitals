@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-18 17:23:09",
+  "captured_at": "2026-10-18 19:29:45",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2178,
+      "measured_slot_time_secs": 0.2164,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -45.55,
+      "deviation_from_target_pct": -45.9,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 5201.62,
-      "tps_non_vote": 2119.32,
-      "vote_share_pct": 59.26,
-      "avg_slot_time_secs": 0.2157,
-      "latest_sample_slot": 458516388,
+      "tps_total": 4977.88,
+      "tps_non_vote": 1903.86,
+      "vote_share_pct": 61.75,
+      "avg_slot_time_secs": 0.2163,
+      "latest_sample_slot": 458551199,
       "samples_used": 5,
-      "block_height": 436551671,
-      "current_slot": 458516426
+      "block_height": 436586645,
+      "current_slot": 458551400
     },
     "epoch": {
       "epoch": 1061,
-      "slot_index": 164426,
+      "slot_index": 199401,
       "slots_in_epoch": 432000,
-      "progress_pct": 38.06,
-      "eta_hours": 16.2,
-      "eta_basis_slot_secs": 0.2178,
-      "transaction_count": 561811896897
+      "progress_pct": 46.16,
+      "eta_hours": 14.0,
+      "eta_basis_slot_secs": 0.2164,
+      "transaction_count": 561849467843
     },
     "validators": {
       "active_count": 668,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 636028895.02,
-      "circulating_sol": 589438130.22,
-      "non_circulating_sol": 46590764.8,
+      "total_sol": 636028798.3,
+      "circulating_sol": 589438033.42,
+      "non_circulating_sol": 46590764.87,
       "circulating_pct": 92.67
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "5beLHi6rJFyTuidLF3ntnebve7HCZ2nWJmHdWrpeSz9ZUkG1g315976LTGL2vsWawbNgxdiRYp8G14aUvzjMD6n9",
-      "latest_block_time": 1792344191,
-      "errors_in_recent": 2
+      "latest_signature": "227wGXVSpv7z4WzMYwtc3FVY2RbRizTWWYw9yGS4narHD7sVZFKaoeBt7qtEy1LSGPGFN61QuLonghsNARHwDmYJ",
+      "latest_block_time": 1792351787,
+      "errors_in_recent": 1
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 102.17,
-      "change_24h_pct": -0.99,
-      "market_cap_usd": 60235902552.01084,
-      "volume_24h_usd": 2122994694.9576519,
+      "usd": 101.76,
+      "change_24h_pct": -1.97,
+      "market_cap_usd": 59947962972.33678,
+      "volume_24h_usd": 2117439722.0663555,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5876217157.27,
+      "tvl_usd": 5875275842.39,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.67,
+      "share_of_all_chains_pct": 6.66,
       "source": "defillama"
     },
     "dex_volume": {
@@ -178,31 +178,31 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15542568701.87,
+      "total_usd": 15535722794.16,
       "by_peg": {
-        "peggedUSD": 15470574289.61,
-        "peggedEUR": 67776515.84,
-        "peggedJPY": 52.47,
-        "peggedCHF": 1189285.93,
-        "peggedAUD": 73280.35,
-        "peggedVAR": 2443800.24,
-        "peggedGBP": 347174.01,
+        "peggedUSD": 15463730158.19,
+        "peggedEUR": 67785438.29,
+        "peggedJPY": 52.44,
+        "peggedCHF": 1190157.71,
+        "peggedAUD": 73283.37,
+        "peggedVAR": 2432152.77,
+        "peggedGBP": 347248.16,
         "peggedTRY": 162868.62,
-        "peggedCAD": 1434.11,
+        "peggedCAD": 1433.92,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 764810,
+      "rev_24h_usd": 762142,
       "network_fees_24h_usd": 622771,
-      "mev_tips_24h_usd": 142039,
-      "mev_share_of_rev_pct": 18.57,
-      "rev_annualised_usd": 279155650,
+      "mev_tips_24h_usd": 139371,
+      "mev_share_of_rev_pct": 18.29,
+      "rev_annualised_usd": 278181830,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 122932
+          "tips_24h_usd": 120264
         },
         {
           "name": "Harmonic",
@@ -2305,39 +2305,39 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "HUGE: 65% of tokenized stock trading on @Solana has happened outside US market hours. https://t.co/6iDn2KE6XX",
-        "created_at": "Wed Oct 14 20:24:55 +0000 2026",
-        "url": "https://x.com/solana/status/2110466906453049788"
+        "text": "Stocks on Solana. 24/7, 365 days a year. https://t.co/l8GJbc2zNy",
+        "created_at": "Sun Oct 18 17:52:08 +0000 2026",
+        "url": "https://x.com/solana/status/2111878008785019251"
       },
       {
         "handle": "solana",
-        "text": "INSIGHT: \"Tokenization is the future of how products move in capital markets,\" @Securitize CEO Carlos Domingo on the @NYSE channel, a week after Securitize Stocks went live on @Solana. How long until tokenized stocks are standard at US bro\u2026",
-        "created_at": "Wed Oct 14 17:08:18 +0000 2026",
-        "url": "https://x.com/solana/status/2110417427070910866"
+        "text": "The last week on Sunrise. \u2022 $840M+ in trading volume \u2022 245K+ new holders \u2022 New listings: $ASTER, $XPL, $RIOT, $CMG, $TSM, $AVGO, $UVXY, $NEAR, $ZEC The world's markets are coming to @Solana. \ud83c\udf05 https://t.co/kv3Ns19UuH",
+        "created_at": "Sun Oct 18 16:33:09 +0000 2026",
+        "url": "https://x.com/solana/status/2111858132670709940"
       },
       {
         "handle": "solana",
-        "text": "ni hao shanghai \ud83c\udde8\ud83c\uddf3 https://t.co/ctqzJdIfQy",
-        "created_at": "Wed Oct 14 12:10:24 +0000 2026",
-        "url": "https://x.com/solana/status/2110342458303508787"
+        "text": "This week Solana reached retail users in Mexico through Western Union\u2019s USDPT, institutional allocators in Hong Kong through a second spot SOL ETF, and Da Nang\u2019s innovation ecosystem through a new MOU with its Startup Support Centre. BREAK\u2026",
+        "created_at": "Sun Oct 18 15:11:04 +0000 2026",
+        "url": "https://x.com/solana/status/2111837474079293847"
       },
       {
         "handle": "solana",
-        "text": "Internet capital markets don't keep business hours. 66% of tokenized stock trades on @solana now settle outside US market hours. Nights. Weekends. Holidays. Global liquidity 24/7. https://t.co/pBMKTgJNgp",
-        "created_at": "Sun Oct 11 18:02:51 +0000 2026",
-        "url": "https://x.com/solana/status/2109343989824377084"
+        "text": "Watch the Pirates Parley episode hosted by @SteveCleanBrook https://t.co/AelUc7d2T6",
+        "created_at": "Sun Oct 18 09:00:02 +0000 2026",
+        "url": "https://x.com/solana/status/2111744102211740136"
       },
       {
         "handle": "solanalabs",
-        "text": "More time on the clock \u23f0 We\u2019re extending the Clock In hackathon submission deadline to Monday 10/12 at 11:59PM UTC. Take the weekend to polish your build, tighten your pitch, and get everything where you want it. Make it count.",
-        "created_at": "Wed Oct 07 14:43:26 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2107844252923531574"
+        "text": "Seekers, meet Ledger Atom\u2122 @Ledger Atom ships with the @solanamobile Seeker app, combining the Solana dApp Store and wallet, putting 1,500+ Solana apps in front of Ledger users Get yours today: https://t.co/LbZ8P8Rvw2 https://t.co/pqnC6bXx\u2026",
+        "created_at": "Thu Oct 15 16:48:05 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2110774724246515965"
       },
       {
         "handle": "solanalabs",
-        "text": "The community has spoken. You guys wanted the 50% off Seeker deal to stick around a little longer. Consider it extended through the end of Breakpoint. While supplies last. Order now : https://t.co/UNjxVcSV2j https://t.co/xp3kjt1WlV",
-        "created_at": "Mon Oct 05 17:09:04 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2107156127498621269"
+        "text": "BREAKING: @solanamobile names @Ledger its first hardware partner. The Seeker app, home to the Solana dApp Store and wallet, ships preinstalled on Ledger Atom and brings 1,500+ apps to Ledger users.",
+        "created_at": "Thu Oct 15 13:04:48 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2110718532853940458"
       },
       {
         "handle": "solanalabs",

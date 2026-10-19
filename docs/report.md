@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-19 19:52:30 UTC by SolVitals.
+Generated 2026-10-19 23:10:48 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,307.30 |
-| Total TPS (incl. votes) | 5,381.25 |
-| Vote share of transactions | 57.12% |
-| Average slot time | 0.2168 s |
-| Current slot | 458,955,893 |
-| Block height | 436,991,065 |
+| Non-vote TPS | 1,845.39 |
+| Total TPS (incl. votes) | 4,903.80 |
+| Vote share of transactions | 62.37% |
+| Average slot time | 0.2175 s |
+| Current slot | 459,010,457 |
+| Block height | 437,045,576 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1062** — 39.79% complete (`########............`), ~15.7 hours remaining.
+Epoch **1062** — 52.42% complete (`##########..........`), ~12.4 hours remaining.
 
-Slot 171,893 of 432,000. Lifetime transaction count: 562,290,339,660.
+Slot 226,458 of 432,000. Lifetime transaction count: 562,350,871,369.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 171,893 of 432,000. Lifetime transaction count: 562,290,339,660.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2178 s |
-| Deviation from 0.4s target | -45.55% |
+| Measured slot time (`getBlockTime`) | 0.2174 s |
+| Deviation from 0.4s target | -45.65% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 5 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 669 |
-| Delinquent validators | 10 (1.47%) |
-| Stake held by delinquents | 1,510 SOL (0.000%) |
-| Total active stake | 437,879,112 SOL |
+| Active validators | 668 |
+| Delinquent validators | 11 (1.62%) |
+| Stake held by delinquents | 11,373 SOL (0.003%) |
+| Total active stake | 437,869,249 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 230 |
+| Zero-commission validators | 227 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.14 (up 3.09%) |
-| Market cap | $61.39B |
-| DeFi TVL | $5.85B |
+| SOL price | $104.94 (up 1.21%) |
+| Market cap | $61.86B |
+| DeFi TVL | $5.86B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $1.70B (up 35.52%) |
-| Stablecoin supply | $15.54B |
+| Stablecoin supply | $15.69B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$816.03K** |
+| **REV (total)** | **$826.36K** |
 | Network fees | $641.35K |
-| MEV tips (out-of-protocol) | $174.68K (21.41% of REV) |
-| Annualised REV run-rate | $297.85M |
+| MEV tips (out-of-protocol) | $185.01K (22.39% of REV) |
+| Annualised REV run-rate | $301.62M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $154.10K |
+| Jito MEV Tips | $164.42K |
 | Harmonic | $15.61K |
 | bloXroute | $4.98K |
 
@@ -116,13 +116,13 @@ Fees earned by the 342 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.74M |
 | Axiom | $668.31K |
 | Solana | $641.35K |
-| Meteora DLMM | $369.27K |
+| Collector Crypt | $459.64K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $614.05M |
+| Total tokenized RWA | $613.28M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 12 |
 
@@ -130,30 +130,30 @@ Fees earned by the 342 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $293.86M | RWA |
-| Huma | $274.12M | RWA |
-| Plume Vaults | $36.04M | RWA |
-| Mansory | $2.72M | RWA |
-| International Stable Currency | $2.42M | RWA |
-| Oro Finance | $2.40M | RWA |
-| Byzanlink RWA Markets | $898.28K | RWA |
-| KAIO | $774.56K | RWA |
-| Solayer USD | $669.69K | RWA |
-| Credible Finance | $134.14K | RWA |
+| OnRe | $293.87M | RWA |
+| Huma | $274.69M | RWA |
+| Plume Vaults | $34.81M | RWA |
+| Mansory | $2.71M | RWA |
+| International Stable Currency | $2.41M | RWA |
+| Oro Finance | $2.39M | RWA |
+| Byzanlink RWA Markets | $898.31K | RWA |
+| KAIO | $774.52K | RWA |
+| Solayer USD | $669.79K | RWA |
+| Credible Finance | $34.15K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $467.32M |
-| Orca DEX | $242.67M |
+| Orca DEX | $243.66M |
 | BisonFi | $235.99M |
-| Raydium AMM | $143.37M |
+| Raydium AMM | $164.68M |
 | pump.fun | $140.77M |
 
 ## Supply
 
-Circulating 589,493,717 SOL of 636,090,266 total (92.67%).
+Circulating 589,493,560 SOL of 636,090,108 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -183,10 +183,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Stocks on Solana. 24/7, 365 days a year. https://t.co/l8GJbc2zNy [(link)](https://x.com/solana/status/2111878008785019251)
-- **@solana** — The last week on Sunrise. • $840M+ in trading volume • 245K+ new holders • New listings: $ASTER, $XPL, $RIOT, $CMG, $TSM, $AVGO, $UVXY, $NEAR, $ZEC The world's markets are coming to @Solana. 🌅 https://t.co/kv3Ns19UuH [(link)](https://x.com/solana/status/2111858132670709940)
-- **@solana** — This week Solana reached retail users in Mexico through Western Union’s USDPT, institutional allocators in Hong Kong through a second spot SOL ETF, and Da Nang’s innovation ecosystem through a new MOU with its Startup Support Centre. BREAK… [(link)](https://x.com/solana/status/2111837474079293847)
-- **@solana** — Watch the Pirates Parley episode hosted by @SteveCleanBrook https://t.co/AelUc7d2T6 [(link)](https://x.com/solana/status/2111744102211740136)
+- **@solana** — JUST IN: 8.92B non-vote transactions on Solana in Q3 2026, up 104% from Q4 2025. https://t.co/DDXeEqacW6 [(link)](https://x.com/solana/status/2112251409924280535)
+- **@solana** — Ellie shares some Breakpoint 2026 Alpha 👀 “Our theme is cyberpunk utopic distortion. For London specifically, we’re bringing a lot of the UK into the actual space. And yes, there will be a proper pub.” https://t.co/29Z2zsT4ER [(link)](https://x.com/solana/status/2112214324680995050)
+- **@solana** — Lend on USDY. Borrow USDC against @Ondo USDY on @Solana, now available on https://t.co/JRE0j7s1gD Market by @Kamino, Price Feeds by @PythNetwork. A thread on how to earn, borrow, and our path to an open standard of curation 🧵 https://t.co/… [(link)](https://x.com/solana/status/2112197088943419419)
+- **@solana** — Solana Stories: More Than A Fan feat: @smokemonsterLA & @doodlifts https://t.co/qSVbC78WUp [(link)](https://x.com/solana/status/2112186143727038802)
 - **@solanalabs** — Seekers, meet Ledger Atom™ @Ledger Atom ships with the @solanamobile Seeker app, combining the Solana dApp Store and wallet, putting 1,500+ Solana apps in front of Ledger users Get yours today: https://t.co/LbZ8P8Rvw2 https://t.co/pqnC6bXx… [(link)](https://x.com/solanalabs/status/2110774724246515965)
 - **@solanalabs** — BREAKING: @solanamobile names @Ledger its first hardware partner. The Seeker app, home to the Solana dApp Store and wallet, ships preinstalled on Ledger Atom and brings 1,500+ apps to Ledger users. [(link)](https://x.com/solanalabs/status/2110718532853940458)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)
@@ -217,7 +217,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Living | 2 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.3.0` · testnet `4.4.0-beta.1` · devnet `4.4.0-beta.0`
+**Cluster versions:** mainnet `4.3.2` · testnet `4.4.0-beta.1` · devnet `4.4.0-beta.0`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 

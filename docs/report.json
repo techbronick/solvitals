@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-22 06:45:44",
+  "captured_at": "2026-10-22 12:35:47",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2114,
+      "measured_slot_time_secs": 0.2126,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -47.15,
+      "deviation_from_target_pct": -46.85,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1636.32,
-      "tps_non_vote": 1636.32,
+      "tps_total": 1805.24,
+      "tps_non_vote": 1805.24,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2108,
-      "latest_sample_slot": 459938403,
+      "avg_slot_time_secs": 0.2116,
+      "latest_sample_slot": 460037326,
       "samples_used": 5,
-      "block_height": 437972296,
-      "current_slot": 459938411
+      "block_height": 438071225,
+      "current_slot": 460037438
     },
     "epoch": {
       "epoch": 1064,
-      "slot_index": 290411,
+      "slot_index": 389438,
       "slots_in_epoch": 432000,
-      "progress_pct": 67.22,
-      "eta_hours": 8.3,
-      "eta_basis_slot_secs": 0.2114,
-      "transaction_count": 563173376672
+      "progress_pct": 90.15,
+      "eta_hours": 2.5,
+      "eta_basis_slot_secs": 0.2126,
+      "transaction_count": 563211436340
     },
     "validators": {
       "active_count": 668,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 636212590.4,
-      "circulating_sol": 589604560.65,
+      "total_sol": 636212487.85,
+      "circulating_sol": 589604458.1,
       "non_circulating_sol": 46608029.75,
       "circulating_pct": 92.67
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "dhCwLF8nx4nvztdUUsHav4wCPnHEhAwnR6KCx1s1aYUUacZuBJvcpEUYf5Hvtr1fQ9y2trY26u8PHQ5nk1aUBPZ",
-      "latest_block_time": 1792651551,
-      "errors_in_recent": 0
+      "latest_signature": "29QXFbrdAFM3ZxfWREcKSGvzrhVckAYTbyipLd52tBBmZu3fcpCJB3x4gcc5KxrjTsNdfa2Yd2JQzmz7HeZP2Y4r",
+      "latest_block_time": 1792672554,
+      "errors_in_recent": 5
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,27 +136,27 @@
   },
   "market": {
     "price": {
-      "usd": 104.54,
-      "change_24h_pct": -1.35,
-      "market_cap_usd": 61634709708.08407,
-      "volume_24h_usd": 2800017506.436223,
+      "usd": 104.28,
+      "change_24h_pct": -2.38,
+      "market_cap_usd": 61484710551.68057,
+      "volume_24h_usd": 2872773531.9245973,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5967001028.42,
+      "tvl_usd": 5913671339.97,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.53,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2278262309.37,
-      "volume_7d_usd": 13309937975.690002,
-      "change_24h_pct": -6.54,
+      "volume_24h_usd": 2270402206.37,
+      "volume_7d_usd": 14449639597.690002,
+      "change_24h_pct": -6.87,
       "protocol_count": 138,
       "top_dexes": [
         {
           "name": "BisonFi",
-          "volume_24h_usd": 340984354
+          "volume_24h_usd": 380455202
         },
         {
           "name": "PumpSwap",
@@ -164,45 +164,45 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 260339655
+          "volume_24h_usd": 262327797
+        },
+        {
+          "name": "Tessera V",
+          "volume_24h_usd": 191526359
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 181641788
-        },
-        {
-          "name": "pump.fun",
-          "volume_24h_usd": 166390519
+          "volume_24h_usd": 161963116
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15912973798.47,
+      "total_usd": 15899192664.15,
       "by_peg": {
-        "peggedUSD": 15841932672.2,
-        "peggedEUR": 66837563.51,
+        "peggedUSD": 15832446745.89,
+        "peggedEUR": 62503406.36,
         "peggedJPY": 52.35,
-        "peggedCHF": 1204093.98,
-        "peggedAUD": 73843.2,
-        "peggedVAR": 2408134.21,
-        "peggedGBP": 350655.67,
-        "peggedTRY": 165339.8,
-        "peggedCAD": 1442.85,
+        "peggedCHF": 1220178.95,
+        "peggedAUD": 73856.34,
+        "peggedVAR": 2433935.81,
+        "peggedGBP": 350545.26,
+        "peggedTRY": 162498.73,
+        "peggedCAD": 1443.76,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 878896,
+      "rev_24h_usd": 895274,
       "network_fees_24h_usd": 732119,
-      "mev_tips_24h_usd": 146777,
-      "mev_share_of_rev_pct": 16.7,
-      "rev_annualised_usd": 320797040,
+      "mev_tips_24h_usd": 163155,
+      "mev_share_of_rev_pct": 18.22,
+      "rev_annualised_usd": 326775010,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 128451
+          "tips_24h_usd": 144829
         },
         {
           "name": "Harmonic",
@@ -213,10 +213,10 @@
           "tips_24h_usd": 5346
         }
       ],
-      "app_fees_24h_usd": 11871490.659999996,
-      "app_fees_7d_usd": 81056206.74000007,
-      "app_fees_30d_usd": 436501452.8999991,
-      "app_fees_change_24h_pct": -9.89,
+      "app_fees_24h_usd": 11888130.659999996,
+      "app_fees_7d_usd": 81485895.74000007,
+      "app_fees_30d_usd": 436931141.8999991,
+      "app_fees_change_24h_pct": -9.76,
       "protocol_count": 348,
       "top_fee_earning_apps": [
         {
@@ -232,12 +232,12 @@
           "fees_24h_usd": 883443
         },
         {
-          "name": "Solana",
-          "fees_24h_usd": 732119
+          "name": "Collector Crypt",
+          "fees_24h_usd": 764517
         },
         {
-          "name": "Meteora DLMM",
-          "fees_24h_usd": 547072
+          "name": "Solana",
+          "fees_24h_usd": 732119
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",

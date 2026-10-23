@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-23 20:32:06",
+  "captured_at": "2026-10-23 23:28:52",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2124,
+      "measured_slot_time_secs": 0.212,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.9,
+      "deviation_from_target_pct": -47.0,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2191.51,
-      "tps_non_vote": 2191.51,
+      "tps_total": 1618.34,
+      "tps_non_vote": 1618.34,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2123,
-      "latest_sample_slot": 460579960,
+      "avg_slot_time_secs": 0.2131,
+      "latest_sample_slot": 460629711,
       "samples_used": 5,
-      "block_height": 438610814,
-      "current_slot": 460580031
+      "block_height": 438660597,
+      "current_slot": 460629960
     },
     "epoch": {
       "epoch": 1066,
-      "slot_index": 68032,
+      "slot_index": 117960,
       "slots_in_epoch": 432000,
-      "progress_pct": 15.75,
-      "eta_hours": 21.5,
-      "eta_basis_slot_secs": 0.2124,
-      "transaction_count": 563444998741
+      "progress_pct": 27.31,
+      "eta_hours": 18.5,
+      "eta_basis_slot_secs": 0.212,
+      "transaction_count": 563466747994
     },
     "validators": {
       "active_count": 664,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 636335095.25,
-      "circulating_sol": 589708994.2,
+      "total_sol": 636335037.17,
+      "circulating_sol": 589708936.13,
       "non_circulating_sol": 46626101.05,
       "circulating_pct": 92.67
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "zXSpJbxFEZxbntf2rkiUiBpk3S8LXV8GaG5DtN3ujt8gtrz9WxL7SJBULTECAZaSXiHXYjYtLXMUZzjUy7Ji2rD",
-      "latest_block_time": 1792787540,
-      "errors_in_recent": 3
+      "latest_signature": "2pmsK6v5jzUpDDvnuM3pZH55b3W6DMzUMnpNwRSadUzXC7ZoGucUN9Tc6WgEvfAxh7oDMZ2a3voQSm1iCU2rex3Y",
+      "latest_block_time": 1792798138,
+      "errors_in_recent": 1
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 103.6,
-      "change_24h_pct": 0.25,
-      "market_cap_usd": 61069302358.46368,
-      "volume_24h_usd": 2027725513.740224,
+      "usd": 102.62,
+      "change_24h_pct": -0.64,
+      "market_cap_usd": 60517447833.02294,
+      "volume_24h_usd": 2172998571.45556,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5856615202.66,
+      "tvl_usd": 5833445504.51,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.47,
+      "share_of_all_chains_pct": 6.45,
       "source": "defillama"
     },
     "dex_volume": {
@@ -164,7 +164,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 204864766
+          "volume_24h_usd": 197426466
         },
         {
           "name": "Tessera V",
@@ -178,30 +178,30 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15616976812.54,
+      "total_usd": 15644221356.72,
       "by_peg": {
-        "peggedUSD": 15533103097.45,
-        "peggedEUR": 82053554.0,
-        "peggedJPY": 52.29,
-        "peggedCHF": 1233175.14,
-        "peggedAUD": 74238.55,
-        "peggedGBP": 349121.56,
+        "peggedUSD": 15560278141.57,
+        "peggedEUR": 82123291.39,
+        "peggedJPY": 52.28,
+        "peggedCHF": 1233006.42,
+        "peggedAUD": 74004.49,
+        "peggedGBP": 349285.5,
         "peggedTRY": 162126.2,
-        "peggedCAD": 1446.65,
+        "peggedCAD": 1448.18,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 792197,
+      "rev_24h_usd": 790880,
       "network_fees_24h_usd": 631016,
-      "mev_tips_24h_usd": 161181,
-      "mev_share_of_rev_pct": 20.35,
-      "rev_annualised_usd": 289151905,
+      "mev_tips_24h_usd": 159864,
+      "mev_share_of_rev_pct": 20.21,
+      "rev_annualised_usd": 288671200,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 139905
+          "tips_24h_usd": 138588
         },
         {
           "name": "Harmonic",
@@ -213,8 +213,8 @@
         }
       ],
       "app_fees_24h_usd": 11472475.22,
-      "app_fees_7d_usd": 81525200.60000004,
-      "app_fees_30d_usd": 439733984.1499991,
+      "app_fees_7d_usd": 82695914.60000004,
+      "app_fees_30d_usd": 447811198.1499991,
       "app_fees_change_24h_pct": -6.89,
       "protocol_count": 350,
       "top_fee_earning_apps": [
@@ -235,15 +235,15 @@
           "fees_24h_usd": 631016
         },
         {
-          "name": "Meteora DLMM",
-          "fees_24h_usd": 387993
+          "name": "Collector Crypt",
+          "fees_24h_usd": 460153
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 593915274.69,
+      "total_rwa_usd": 594359797.25,
       "protocol_count": 12,
       "equities_usd": 0,
       "equities_share_pct": 0.0,
@@ -251,71 +251,71 @@
       "top_protocols": [
         {
           "name": "OnRe",
-          "tvl_usd": 295174523.11,
-          "change_24h_pct": 0.043,
+          "tvl_usd": 295309239.21,
+          "change_24h_pct": 0.099,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma",
-          "tvl_usd": 252396009.98,
-          "change_24h_pct": -1.538,
+          "tvl_usd": 252748799.54,
+          "change_24h_pct": -1.646,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 36434933.99,
-          "change_24h_pct": 0.922,
+          "tvl_usd": 36444303.56,
+          "change_24h_pct": 0.123,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Mansory",
-          "tvl_usd": 2707714.41,
-          "change_24h_pct": -0.128,
+          "tvl_usd": 2704375.44,
+          "change_24h_pct": 0.1,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "International Stable Currency",
-          "tvl_usd": 2462592.8,
-          "change_24h_pct": 3.478,
+          "tvl_usd": 2407109.29,
+          "change_24h_pct": 0.102,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Oro Finance",
-          "tvl_usd": 2314159.61,
-          "change_24h_pct": -1.39,
+          "tvl_usd": 2320399.35,
+          "change_24h_pct": -0.336,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Byzanlink RWA Markets",
-          "tvl_usd": 898030.77,
-          "change_24h_pct": -0.009,
+          "tvl_usd": 898117.35,
+          "change_24h_pct": 0.016,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "KAIO",
-          "tvl_usd": 774347.48,
-          "change_24h_pct": -0.007,
+          "tvl_usd": 774433.64,
+          "change_24h_pct": 0.025,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Solayer USD",
-          "tvl_usd": 707829.27,
-          "change_24h_pct": 7.322,
+          "tvl_usd": 707882.74,
+          "change_24h_pct": 6.876,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Credible Finance",
-          "tvl_usd": 33996.03,
-          "change_24h_pct": -0.045,
+          "tvl_usd": 33998.5,
+          "change_24h_pct": -0.007,
           "category": "RWA",
           "is_equity": false
         }
@@ -2015,7 +2015,7 @@
       "Validators App"
     ],
     "metric_count": 12,
-    "generated_at": "2026-10-23T13:20:15.240293+00:00",
+    "generated_at": "2026-10-23T13:20:15.085060+00:00",
     "range_days": 90,
     "source": "solana.com/data",
     "note": "Official solana.com metric feed. Keyless and unauthenticated; republishes provider-computed analytics including Dune."

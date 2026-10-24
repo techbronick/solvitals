@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-23 23:28:52",
+  "captured_at": "2026-10-24 01:47:44",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.212,
+      "measured_slot_time_secs": 0.2122,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -47.0,
+      "deviation_from_target_pct": -46.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1618.34,
-      "tps_non_vote": 1618.34,
+      "tps_total": 1636.32,
+      "tps_non_vote": 1636.32,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2131,
-      "latest_sample_slot": 460629711,
+      "avg_slot_time_secs": 0.212,
+      "latest_sample_slot": 460668981,
       "samples_used": 5,
-      "block_height": 438660597,
-      "current_slot": 460629960
+      "block_height": 438699778,
+      "current_slot": 460669187
     },
     "epoch": {
       "epoch": 1066,
-      "slot_index": 117960,
+      "slot_index": 157187,
       "slots_in_epoch": 432000,
-      "progress_pct": 27.31,
-      "eta_hours": 18.5,
-      "eta_basis_slot_secs": 0.212,
-      "transaction_count": 563466747994
+      "progress_pct": 36.39,
+      "eta_hours": 16.2,
+      "eta_basis_slot_secs": 0.2122,
+      "transaction_count": 563482310509
     },
     "validators": {
       "active_count": 664,
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 636335037.17,
-      "circulating_sol": 589708936.13,
+      "total_sol": 636334994.97,
+      "circulating_sol": 589708893.92,
       "non_circulating_sol": 46626101.05,
       "circulating_pct": 92.67
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "2pmsK6v5jzUpDDvnuM3pZH55b3W6DMzUMnpNwRSadUzXC7ZoGucUN9Tc6WgEvfAxh7oDMZ2a3voQSm1iCU2rex3Y",
-      "latest_block_time": 1792798138,
-      "errors_in_recent": 1
+      "latest_signature": "3wMes4fBiiCouDDRygHaDZeCffe5iziSuXX9nJSoJoLkWQDsBv7GDGud5bbFUFRXyXTGeEKr64vs3QEj5XPhv1EE",
+      "latest_block_time": 1792806471,
+      "errors_in_recent": 3
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,22 +136,22 @@
   },
   "market": {
     "price": {
-      "usd": 102.62,
-      "change_24h_pct": -0.64,
-      "market_cap_usd": 60517447833.02294,
-      "volume_24h_usd": 2172998571.45556,
+      "usd": 102.38,
+      "change_24h_pct": -1.99,
+      "market_cap_usd": 60362020892.78199,
+      "volume_24h_usd": 2195460087.348904,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5833445504.51,
+      "tvl_usd": 5819430979.26,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.45,
+      "share_of_all_chains_pct": 6.48,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 2039384832.23,
-      "volume_7d_usd": 13689165823.890003,
-      "change_24h_pct": -10.18,
+      "volume_24h_usd": 2021288711.44,
+      "volume_7d_usd": 12480476924.700005,
+      "change_24h_pct": -0.89,
       "protocol_count": 138,
       "top_dexes": [
         {
@@ -160,11 +160,11 @@
         },
         {
           "name": "PumpSwap",
-          "volume_24h_usd": 259020552
+          "volume_24h_usd": 266434292
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 197426466
+          "volume_24h_usd": 216322692
         },
         {
           "name": "Tessera V",
@@ -178,65 +178,65 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15644221356.72,
+      "total_usd": 15646732186.77,
       "by_peg": {
-        "peggedUSD": 15560278141.57,
-        "peggedEUR": 82123291.39,
-        "peggedJPY": 52.28,
-        "peggedCHF": 1233006.42,
-        "peggedAUD": 74004.49,
-        "peggedGBP": 349285.5,
+        "peggedUSD": 15562832644.18,
+        "peggedEUR": 82082448.07,
+        "peggedJPY": 52.26,
+        "peggedCHF": 1230146.0,
+        "peggedAUD": 74031.54,
+        "peggedGBP": 349290.01,
         "peggedTRY": 162126.2,
-        "peggedCAD": 1448.18,
+        "peggedCAD": 1447.83,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 790880,
-      "network_fees_24h_usd": 631016,
-      "mev_tips_24h_usd": 159864,
-      "mev_share_of_rev_pct": 20.21,
-      "rev_annualised_usd": 288671200,
+      "rev_24h_usd": 719831,
+      "network_fees_24h_usd": 560392,
+      "mev_tips_24h_usd": 159439,
+      "mev_share_of_rev_pct": 22.15,
+      "rev_annualised_usd": 262738315,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 138588
+          "tips_24h_usd": 140931
         },
         {
           "name": "Harmonic",
-          "tips_24h_usd": 16601
+          "tips_24h_usd": 14453
         },
         {
           "name": "bloXroute",
-          "tips_24h_usd": 4675
+          "tips_24h_usd": 4055
         }
       ],
-      "app_fees_24h_usd": 11472475.22,
-      "app_fees_7d_usd": 82695914.60000004,
-      "app_fees_30d_usd": 447811198.1499991,
-      "app_fees_change_24h_pct": -6.89,
+      "app_fees_24h_usd": 10517148.750000002,
+      "app_fees_7d_usd": 79779653,
+      "app_fees_30d_usd": 440147229.1299993,
+      "app_fees_change_24h_pct": -8.33,
       "protocol_count": 350,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
-          "fees_24h_usd": 3453634
+          "fees_24h_usd": 2921326
         },
         {
           "name": "pump.fun",
-          "fees_24h_usd": 1882010
+          "fees_24h_usd": 1884150
         },
         {
           "name": "Axiom",
-          "fees_24h_usd": 792288
+          "fees_24h_usd": 685226
         },
         {
           "name": "Solana",
-          "fees_24h_usd": 631016
+          "fees_24h_usd": 560392
         },
         {
           "name": "Collector Crypt",
-          "fees_24h_usd": 460153
+          "fees_24h_usd": 457287
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
@@ -2095,7 +2095,9 @@
       "testnet": "4.4.0-beta.1",
       "devnet": "4.4.0-beta.1"
     },
-    "clusters_unreachable": [],
+    "clusters_unreachable": [
+      "testnet"
+    ],
     "highlights": [
       {
         "simd": "0326",
@@ -2136,7 +2138,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         },
         "gate_assigned": true
@@ -2161,7 +2163,7 @@
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2173,7 +2175,7 @@
         "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2185,7 +2187,7 @@
         "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2197,7 +2199,7 @@
         "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2209,7 +2211,7 @@
         "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2221,7 +2223,7 @@
         "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2233,7 +2235,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2245,7 +2247,7 @@
         "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2257,7 +2259,7 @@
         "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2269,7 +2271,7 @@
         "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2281,7 +2283,7 @@
         "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       },
@@ -2293,7 +2295,7 @@
         "feature_gate": "RMsTKfD6hZnBhhNvgGBeKNrqCNkeoP3DYYxNtcuWtRg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "not created",
+          "testnet": "unknown (RPC unreachable)",
           "devnet": "not created"
         }
       }

@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-24 17:41:34 UTC by SolVitals.
+Generated 2026-10-24 19:47:01 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,942.73 |
-| Total TPS (incl. votes) | 1,942.73 |
+| Non-vote TPS | 2,277.72 |
+| Total TPS (incl. votes) | 2,277.73 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2123 s |
-| Current slot | 460,938,837 |
-| Block height | 438,969,187 |
+| Average slot time | 0.2114 s |
+| Current slot | 460,974,375 |
+| Block height | 439,003,652 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1066** — 98.81% complete (`####################`), ~0.3 hours remaining.
+Epoch **1067** — 7.03% complete (`#...................`), ~23.7 hours remaining.
 
-Slot 426,839 of 432,000. Lifetime transaction count: 563,574,028,775.
+Slot 30,375 of 432,000. Lifetime transaction count: 563,587,740,146.
 
 ## Transaction costs and slot timing
 
@@ -34,26 +34,26 @@ Slot 426,839 of 432,000. Lifetime transaction count: 563,574,028,775.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2116 s |
-| Deviation from 0.4s target | -47.1% |
+| Measured slot time (`getBlockTime`) | 0.2124 s |
+| Deviation from 0.4s target | -46.9% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 6 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active validators | 664 |
-| Delinquent validators | 14 (2.06%) |
-| Stake held by delinquents | 289,775 SOL (0.066%) |
-| Total active stake | 436,827,007 SOL |
+| Delinquent validators | 26 (3.77%) |
+| Stake held by delinquents | 1,276,070 SOL (0.292%) |
+| Total active stake | 435,914,936 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 225 |
+| Zero-commission validators | 227 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,42 +61,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,096,230 | 3.914% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,022,778 | 3.668% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,572,396 | 2.878% | 0% |
-| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,882,511 | 2.491% | 0% |
-| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,724,046 | 2.226% | 5% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,478,407 | 2.17% | 10% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,213,418 | 2.109% | 7% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,782,539 | 1.782% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,037,301 | 1.611% | 5% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 7,003,145 | 1.603% | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,099,113 | 3.923% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,646,121 | 3.819% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,588,035 | 2.888% | 0% |
+| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,881,430 | 2.496% | 0% |
+| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,721,918 | 2.23% | 5% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,483,244 | 2.175% | 10% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,216,837 | 2.114% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,785,036 | 1.786% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,038,249 | 1.615% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 7,006,653 | 1.607% | 0% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $100.12 (down 4.07%) |
-| Market cap | $59.03B |
-| DeFi TVL | $5.71B |
-| TVL rank across chains | 3 |
+| SOL price | $101.06 (down 2.50%) |
+| Market cap | $59.60B |
+| DeFi TVL | $5.72B |
+| TVL rank across chains | 4 |
 | DEX volume (24h) | $2.00B (down 2.07%) |
-| Stablecoin supply | $15.60B |
+| Stablecoin supply | $15.61B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$715.30K** |
+| **REV (total)** | **$712.75K** |
 | Network fees | $560.39K |
-| MEV tips (out-of-protocol) | $154.90K (21.66% of REV) |
-| Annualised REV run-rate | $261.08M |
+| MEV tips (out-of-protocol) | $152.35K (21.38% of REV) |
+| Annualised REV run-rate | $260.15M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $136.40K |
+| Jito MEV Tips | $133.85K |
 | Harmonic | $14.45K |
 | bloXroute | $4.05K |
 
@@ -149,11 +149,11 @@ Fees earned by the 350 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $266.43M |
 | Orca DEX | $183.81M |
 | Tessera V | $162.38M |
-| Manifest Trade | $153.94M |
+| Manifest Trade | $152.37M |
 
 ## Supply
 
-Circulating 589,708,647 SOL of 636,334,748 total (92.67%).
+Circulating 589,764,467 SOL of 636,396,200 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 

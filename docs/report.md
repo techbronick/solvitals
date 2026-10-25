@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-24 22:03:47 UTC by SolVitals.
+Generated 2026-10-25 00:18:30 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 2,273.42 |
-| Total TPS (incl. votes) | 2,273.42 |
+| Non-vote TPS | 1,884.21 |
+| Total TPS (incl. votes) | 1,884.21 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2119 s |
-| Current slot | 461,013,051 |
-| Block height | 439,042,161 |
+| Average slot time | 0.2117 s |
+| Current slot | 461,051,151 |
+| Block height | 439,080,192 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1067** — 15.98% complete (`###.................`), ~21.4 hours remaining.
+Epoch **1067** — 24.8% complete (`#####...............`), ~19.1 hours remaining.
 
-Slot 69,051 of 432,000. Lifetime transaction count: 563,603,302,248.
+Slot 107,151 of 432,000. Lifetime transaction count: 563,617,026,241.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 69,051 of 432,000. Lifetime transaction count: 563,603,302,248.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2122 s |
-| Deviation from 0.4s target | -46.95% |
+| Measured slot time (`getBlockTime`) | 0.212 s |
+| Deviation from 0.4s target | -47.0% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
@@ -76,10 +76,10 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.36 (down 2.26%) |
-| Market cap | $59.77B |
-| DeFi TVL | $5.76B |
-| TVL rank across chains | 3 |
+| SOL price | $102.23 (down 0.19%) |
+| Market cap | $60.29B |
+| DeFi TVL | $5.75B |
+| TVL rank across chains | 4 |
 | DEX volume (24h) | $2.00B (down 2.07%) |
 | Stablecoin supply | $15.62B |
 
@@ -87,16 +87,16 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$703.97K** |
+| **REV (total)** | **$698.74K** |
 | Network fees | $560.39K |
-| MEV tips (out-of-protocol) | $143.57K (20.39% of REV) |
-| Annualised REV run-rate | $256.95M |
+| MEV tips (out-of-protocol) | $138.34K (19.8% of REV) |
+| Annualised REV run-rate | $255.04M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $125.06K |
+| Jito MEV Tips | $119.84K |
 | Harmonic | $14.45K |
 | bloXroute | $4.05K |
 
@@ -115,8 +115,8 @@ Fees earned by the 350 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $2.92M |
 | pump.fun | $1.88M |
 | Axiom | $685.23K |
-| Collector Crypt | $655.55K |
 | Solana | $560.39K |
+| Collector Crypt | $540.34K |
 
 ## Tokenized assets
 
@@ -147,13 +147,13 @@ Fees earned by the 350 applications built on Solana -- DEXes, launchpads, wallet
 | --- | --- |
 | BisonFi | $342.50M |
 | PumpSwap | $266.43M |
-| Orca DEX | $171.09M |
 | Tessera V | $162.38M |
+| Orca DEX | $155.46M |
 | pump.fun | $142.80M |
 
 ## Supply
 
-Circulating 589,764,401 SOL of 636,396,158 total (92.67%).
+Circulating 589,764,364 SOL of 636,396,120 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -199,7 +199,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 
 | Metric | Value |
 | --- | --- |
-| Improvement proposals tracked | 135 |
+| Improvement proposals tracked | 136 |
 | With an assigned feature gate | 35 |
 | Gates live on mainnet | 22 |
 | Gates awaiting mainnet | 13 |
@@ -208,7 +208,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 
 | Status | Count |
 | --- | --- |
-| Review | 57 |
+| Review | 58 |
 | Activated | 25 |
 | Idea | 15 |
 | Implemented | 14 |

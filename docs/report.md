@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-26 05:02:59 UTC by SolVitals.
+Generated 2026-10-26 11:01:22 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.0 sigma below its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.2 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,308.78 |
-| Total TPS (incl. votes) | 1,308.78 |
+| Non-vote TPS | 1,319.04 |
+| Total TPS (incl. votes) | 1,319.04 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2114 s |
-| Current slot | 461,538,197 |
-| Block height | 439,565,469 |
+| Average slot time | 0.2099 s |
+| Current slot | 461,639,444 |
+| Block height | 439,666,644 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1068** — 37.55% complete (`########............`), ~15.9 hours remaining.
+Epoch **1068** — 60.98% complete (`############........`), ~9.9 hours remaining.
 
-Slot 162,197 of 432,000. Lifetime transaction count: 563,783,280,454.
+Slot 263,445 of 432,000. Lifetime transaction count: 563,813,345,592.
 
 ## Transaction costs and slot timing
 
@@ -41,7 +41,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 1 with errors.
 
 ## Validators
 
@@ -53,7 +53,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 437,176,500 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 229 |
+| Zero-commission validators | 227 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -76,47 +76,47 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.22 (down 1.25%) |
-| Market cap | $59.70B |
-| DeFi TVL | $5.72B |
+| SOL price | $101.31 (up 0.68%) |
+| Market cap | $59.76B |
+| DeFi TVL | $5.74B |
 | TVL rank across chains | 4 |
-| DEX volume (24h) | $1.35B (down 5.23%) |
-| Stablecoin supply | $15.63B |
+| DEX volume (24h) | $1.45B (up 1.84%) |
+| Stablecoin supply | $15.68B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$595.27K** |
-| Network fees | $477.32K |
-| MEV tips (out-of-protocol) | $117.95K (19.81% of REV) |
-| Annualised REV run-rate | $217.27M |
+| **REV (total)** | **$558.75K** |
+| Network fees | $434.09K |
+| MEV tips (out-of-protocol) | $124.66K (22.31% of REV) |
+| Annualised REV run-rate | $203.94M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $102.59K |
+| Jito MEV Tips | $109.65K |
 | Harmonic | $11.47K |
-| bloXroute | $3.88K |
+| bloXroute | $3.54K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 352 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 353 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $9.63M (down 4.14%) |
-| 7 days | $77.63M |
-| 30 days | $424.85M |
+| 24 hours | $9.30M (down 7.43%) |
+| 7 days | $79.73M |
+| 30 days | $426.95M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $2.48M |
-| pump.fun | $1.58M |
-| Collector Crypt | $749.50K |
+| pump.fun | $1.40M |
+| Collector Crypt | $1.18M |
 | Axiom | $545.10K |
-| Solana | $477.32K |
+| Solana | $434.09K |
 
 ## Tokenized assets
 
@@ -145,15 +145,15 @@ Fees earned by the 352 applications built on Solana -- DEXes, launchpads, wallet
 
 | DEX | Volume (24h) |
 | --- | --- |
-| BisonFi | $219.28M |
-| Manifest Trade | $169.20M |
-| Tessera V | $135.53M |
-| Orca DEX | $134.50M |
-| pump.fun | $119.13M |
+| PumpSwap | $310.94M |
+| Manifest Trade | $189.23M |
+| BisonFi | $184.76M |
+| Orca DEX | $179.89M |
+| Raydium AMM | $107.23M |
 
 ## Supply
 
-Circulating 589,819,746 SOL of 636,457,184 total (92.67%).
+Circulating 589,819,664 SOL of 636,457,102 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -183,10 +183,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — Builders, operators, anyone in the ecosystem. Come through. https://t.co/9h9kGagHHN [(link)](https://x.com/solana/status/2114303455322165652)
-- **@solana** — “If I could give one piece of advice to anybody that wants to be a part of this ecosystem, it’s show up to Solana Hacker House.” - @Amystreet @HackerHouses London Special Edition 🇬🇧 Nov 1–12, right before Breakpoint. https://t.co/ZiJGrLPLal [(link)](https://x.com/solana/status/2114303454961365044)
-- **@solana** — crypto perps stock perps gold perps oil perps pre-IPO perps All on Solana. [(link)](https://x.com/solana/status/2114157802574811160)
-- **@solana** — https://t.co/YEuJeMkvxB [(link)](https://x.com/solana/status/2113963979236331925)
+- **@solana** — “Five years from now, nobody will say tokenized. It will just be how assets are issued and settled.” Tatsunori Kondo, Digital Assets at IBM, on the token supercycle. https://t.co/jltbNpkdK4 [(link)](https://x.com/solana/status/2114658304513245308)
+- **@solana** — 🇺🇸 @Solana ETFs just surpassed Bitcoin ETFs in 2026 net flows. Year to date, U.S. spot Solana ETFs lead every other asset’s U.S. spot ETFs in net flows: +$774M. XRP: +$638M Bitcoin: +$570M Ether: +$391M Bitcoin ETFs peaked at +$3.2B in May… [(link)](https://x.com/solana/status/2114645649602056574)
+- **@solana** — 1.5 million people now hold tokenized equities on Solana. A new all-time high, 5x since August. https://t.co/GeUJ5DLTjJ [(link)](https://x.com/solana/status/2114610515452551411)
+- **@solana** — IMO the bigger opportunity for tokenized equities is in the long tail. Through Oct 24, $VIDA and $PTN generated 7.8x and 2.1x their underlying stocks’ estimated US turnover over matching periods since first observed on @solana. Harder to a… [(link)](https://x.com/solana/status/2114491471554306397)
 - **@solanalabs** — Seekers, meet Ledger Atom™ @Ledger Atom ships with the @solanamobile Seeker app, combining the Solana dApp Store and wallet, putting 1,500+ Solana apps in front of Ledger users Get yours today: https://t.co/LbZ8P8Rvw2 https://t.co/pqnC6bXx… [(link)](https://x.com/solanalabs/status/2110774724246515965)
 - **@solanalabs** — BREAKING: @solanamobile names @Ledger its first hardware partner. The Seeker app, home to the Solana dApp Store and wallet, ships preinstalled on Ledger Atom and brings 1,500+ apps to Ledger users. [(link)](https://x.com/solanalabs/status/2110718532853940458)
 - **@solanalabs** — Welcome and a big congrats to the incredible teams in Cohort 5 🥳 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator. [(link)](https://x.com/solanalabs/status/2094856511587860600)

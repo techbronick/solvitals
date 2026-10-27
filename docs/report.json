@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-26 21:42:50",
+  "captured_at": "2026-10-27 00:50:08",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.213,
+      "measured_slot_time_secs": 0.2122,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.75,
+      "deviation_from_target_pct": -46.95,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1816.62,
-      "tps_non_vote": 1816.62,
+      "tps_total": 1384.56,
+      "tps_non_vote": 1384.56,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2125,
-      "latest_sample_slot": 461820475,
+      "avg_slot_time_secs": 0.2114,
+      "latest_sample_slot": 461873290,
       "samples_used": 5,
-      "block_height": 439846893,
-      "current_slot": 461820591
+      "block_height": 439899438,
+      "current_slot": 461873473
     },
     "epoch": {
       "epoch": 1069,
-      "slot_index": 12592,
+      "slot_index": 65473,
       "slots_in_epoch": 432000,
-      "progress_pct": 2.91,
-      "eta_hours": 24.8,
-      "eta_basis_slot_secs": 0.213,
-      "transaction_count": 563899578133
+      "progress_pct": 15.16,
+      "eta_hours": 21.6,
+      "eta_basis_slot_secs": 0.2122,
+      "transaction_count": 563921047234
     },
     "validators": {
       "active_count": 665,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 636517882.08,
-      "circulating_sol": 589874911.77,
-      "non_circulating_sol": 46642970.31,
+      "total_sol": 636517824.55,
+      "circulating_sol": 589874750.34,
+      "non_circulating_sol": 46643074.21,
       "circulating_pct": 92.67
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "2YfgXuKA42k5dmk7T333pmz6PkrEJwKJqBH83eDXAX9aeAdH4DoBb8VnoGFka8EwpbLZabrdtTxF8CPP2WNvTgwN",
-      "latest_block_time": 1793050978,
-      "errors_in_recent": 8
+      "latest_signature": "5yreMVK8eMRSqaibM2xggTjvvpgAuyD2A1gjw9bTGfSdAKFytHckS1T789xxAUqBdHG2TeEaYJujL6L2riKhp91Q",
+      "latest_block_time": 1793062216,
+      "errors_in_recent": 3
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,22 +136,22 @@
   },
   "market": {
     "price": {
-      "usd": 100.59,
-      "change_24h_pct": -0.69,
-      "market_cap_usd": 59334825207.17064,
-      "volume_24h_usd": 2472434204.306321,
+      "usd": 100.72,
+      "change_24h_pct": -0.41,
+      "market_cap_usd": 59410461201.19582,
+      "volume_24h_usd": 2432702742.6564217,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5710299219.66,
+      "tvl_usd": 5695265665.35,
       "rank_by_tvl": 3,
       "share_of_all_chains_pct": 6.46,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1449231950.27,
-      "volume_7d_usd": 13440510378.860004,
-      "change_24h_pct": 1.84,
+      "volume_24h_usd": 1805139628.23,
+      "volume_7d_usd": 12397879440.320002,
+      "change_24h_pct": 24.56,
       "protocol_count": 138,
       "top_dexes": [
         {
@@ -160,11 +160,11 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 254221342
+          "volume_24h_usd": 296397854
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 244454487
+          "volume_24h_usd": 242748172
         },
         {
           "name": "BisonFi",
@@ -172,36 +172,36 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 146444338
+          "volume_24h_usd": 144931009
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15519469541.42,
+      "total_usd": 15482759951.33,
       "by_peg": {
-        "peggedUSD": 15459746838.96,
-        "peggedEUR": 57879506.86,
-        "peggedJPY": 47.51,
-        "peggedCHF": 1247897.23,
-        "peggedAUD": 73894.38,
-        "peggedGBP": 357853.16,
+        "peggedUSD": 15422831305.75,
+        "peggedEUR": 58089413.19,
+        "peggedJPY": 52.42,
+        "peggedCHF": 1244247.51,
+        "peggedAUD": 73701.07,
+        "peggedGBP": 357727.92,
         "peggedTRY": 162055.46,
-        "peggedCAD": 1447.15,
+        "peggedCAD": 1447.31,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 589055,
+      "rev_24h_usd": 590781,
       "network_fees_24h_usd": 434092,
-      "mev_tips_24h_usd": 154963,
-      "mev_share_of_rev_pct": 26.31,
-      "rev_annualised_usd": 215005075,
+      "mev_tips_24h_usd": 156689,
+      "mev_share_of_rev_pct": 26.52,
+      "rev_annualised_usd": 215635065,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 139951
+          "tips_24h_usd": 141677
         },
         {
           "name": "Harmonic",
@@ -212,10 +212,10 @@
           "tips_24h_usd": 3544
         }
       ],
-      "app_fees_24h_usd": 9292855.030000001,
-      "app_fees_7d_usd": 79736277.80000001,
-      "app_fees_30d_usd": 426956374.5799991,
-      "app_fees_change_24h_pct": -7.51,
+      "app_fees_24h_usd": 9943216.140000002,
+      "app_fees_7d_usd": 70435610.16,
+      "app_fees_30d_usd": 409787286.61999923,
+      "app_fees_change_24h_pct": 7,
       "protocol_count": 353,
       "top_fee_earning_apps": [
         {
@@ -228,7 +228,7 @@
         },
         {
           "name": "Collector Crypt",
-          "fees_24h_usd": 1317350
+          "fees_24h_usd": 1066315
         },
         {
           "name": "Axiom",
@@ -243,7 +243,7 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 592314021.54,
+      "total_rwa_usd": 601165604.0,
       "protocol_count": 12,
       "equities_usd": 0,
       "equities_share_pct": 0.0,
@@ -251,71 +251,71 @@
       "top_protocols": [
         {
           "name": "OnRe",
-          "tvl_usd": 295824895.31,
-          "change_24h_pct": 0.126,
+          "tvl_usd": 295818641.81,
+          "change_24h_pct": 0.122,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma",
-          "tvl_usd": 250227529.0,
-          "change_24h_pct": -0.483,
+          "tvl_usd": 258986120.69,
+          "change_24h_pct": 1.832,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 36466903.84,
-          "change_24h_pct": -0.372,
+          "tvl_usd": 36546840.97,
+          "change_24h_pct": -0.741,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Mansory",
-          "tvl_usd": 2640664.74,
-          "change_24h_pct": -0.689,
+          "tvl_usd": 2623515.44,
+          "change_24h_pct": -0.536,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "International Stable Currency",
-          "tvl_usd": 2412686.02,
-          "change_24h_pct": -0.4,
+          "tvl_usd": 2404763.41,
+          "change_24h_pct": -0.02,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Oro Finance",
-          "tvl_usd": 2315622.11,
-          "change_24h_pct": 0.78,
+          "tvl_usd": 2310159.05,
+          "change_24h_pct": -0.688,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Byzanlink RWA Markets",
-          "tvl_usd": 899773.92,
-          "change_24h_pct": 0.163,
+          "tvl_usd": 949696.88,
+          "change_24h_pct": 2.54,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "KAIO",
-          "tvl_usd": 774177.73,
-          "change_24h_pct": -0.018,
+          "tvl_usd": 774134.7,
+          "change_24h_pct": -0.028,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Solayer USD",
-          "tvl_usd": 707617.1,
-          "change_24h_pct": -0.025,
+          "tvl_usd": 707601.98,
+          "change_24h_pct": -0.03,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Credible Finance",
-          "tvl_usd": 33005.69,
-          "change_24h_pct": 0.024,
+          "tvl_usd": 32989.83,
+          "change_24h_pct": -0.024,
           "category": "RWA",
           "is_equity": false
         }
@@ -2090,12 +2090,10 @@
     "pending_on_mainnet": 13,
     "cluster_versions": {
       "mainnet": "4.3.2",
-      "testnet": null,
+      "testnet": "4.4.0-beta.1",
       "devnet": "4.4.0-beta.1"
     },
-    "clusters_unreachable": [
-      "testnet"
-    ],
+    "clusters_unreachable": [],
     "highlights": [
       {
         "simd": "0326",
@@ -2136,7 +2134,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         },
         "gate_assigned": true
@@ -2161,7 +2159,7 @@
         "feature_gate": "HcW8ZjBezYYgvcbxNJwqv1t484Y2556qJsfNDWvJGZRH",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2173,7 +2171,7 @@
         "feature_gate": "BUwGLeF3Lxyfv1J1wY8biFHBB2hrk2QhbNftQf3VV3cC",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2185,7 +2183,7 @@
         "feature_gate": "GJav1vwg2etvSWraPT96QvYuQJswJTJwtcyARrvkhuV9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2197,7 +2195,7 @@
         "feature_gate": "C37iaPi6VE4CZDueU1vL8y6pGp5i8amAbEsF31xzz723",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2209,7 +2207,7 @@
         "feature_gate": "6TkHkRmP7JZy1fdM6fg5uXn76wChQBWGokHBJzrLB3mj",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2221,7 +2219,7 @@
         "feature_gate": "FEEXbxUuKobtrt1qNK5pjtzbPQhsppBTrNNG74xu4mai",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2233,7 +2231,7 @@
         "feature_gate": "a1penGLz8Vm2QHYB3JPefBiU4BY3Z6JkW2k3Scw5GWP",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2245,7 +2243,7 @@
         "feature_gate": "2uxQgtKa2ECHGs67Zdj7dgmzn2w9HiqhdcedwCWfYzzq",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2257,7 +2255,7 @@
         "feature_gate": "DqbnFPASg7tHmZ6qfpdrt2M6MWoSeiicWPXxPhxqFCQ",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2269,7 +2267,7 @@
         "feature_gate": "H5AgGhTzvHp2GH9SVGZYBpjeQPy1V9bqYQ4MmTtiCWr9",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2281,7 +2279,7 @@
         "feature_gate": "expH2ppKPW2ANEdEmAjfhSEcnBQJfmoX4FjuNpe9ttg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       },
@@ -2293,7 +2291,7 @@
         "feature_gate": "RMsTKfD6hZnBhhNvgGBeKNrqCNkeoP3DYYxNtcuWtRg",
         "clusters": {
           "mainnet": "not created",
-          "testnet": "unknown (RPC unreachable)",
+          "testnet": "not created",
           "devnet": "not created"
         }
       }
@@ -2361,13 +2359,5 @@
     "source": "x.com syndication timeline (keyless)",
     "note": "Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused."
   },
-  "anomalies": [
-    {
-      "metric": "rev_24h_usd",
-      "severity": "warning",
-      "message": "rev_24h_usd is 2.0 sigma below its 288-point mean",
-      "value": 589055,
-      "expected": 1051190.2396
-    }
-  ]
+  "anomalies": []
 }

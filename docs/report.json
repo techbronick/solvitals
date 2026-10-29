@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-29 19:50:35",
+  "captured_at": "2026-10-29 23:41:00",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1846.8,
-      "tps_non_vote": 1846.8,
+      "tps_total": 2065.27,
+      "tps_non_vote": 2065.27,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2129,
-      "latest_sample_slot": 463004838,
+      "avg_slot_time_secs": 0.2135,
+      "latest_sample_slot": 463069524,
       "samples_used": 5,
-      "block_height": 441028306,
-      "current_slot": 463005009
+      "block_height": 441092700,
+      "current_slot": 463069532
     },
     "epoch": {
       "epoch": 1071,
-      "slot_index": 333010,
+      "slot_index": 397533,
       "slots_in_epoch": 432000,
-      "progress_pct": 77.09,
-      "eta_hours": 5.9,
+      "progress_pct": 92.02,
+      "eta_hours": 2.1,
       "eta_basis_slot_secs": 0.2146,
-      "transaction_count": 564341508494
+      "transaction_count": 564381294646
     },
     "validators": {
-      "active_count": 665,
-      "delinquent_count": 24,
-      "delinquent_pct": 3.48,
-      "delinquent_stake_sol": 3221157.19,
+      "active_count": 666,
+      "delinquent_count": 23,
+      "delinquent_pct": 3.34,
+      "delinquent_stake_sol": 3220996.86,
       "delinquent_stake_pct": 0.737,
-      "total_active_stake_sol": 433555030.22,
+      "total_active_stake_sol": 433555190.55,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 227,
+      "zero_commission_count": 228,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -105,8 +105,8 @@
       ]
     },
     "supply": {
-      "total_sol": 636639206.91,
-      "circulating_sol": 589983652.94,
+      "total_sol": 636639100.94,
+      "circulating_sol": 589983546.97,
       "non_circulating_sol": 46655553.97,
       "circulating_pct": 92.67
     },
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "2ZGPrY8f6XnkhDAY5AqkNMHSXDUfAgpgosR1FgzfvoURhdnjXBxaQbxreyr7YAU2z6vHEPFG7JRmp3TMan2yuE6L",
-      "latest_block_time": 1793303442,
-      "errors_in_recent": 4
+      "latest_signature": "6YLJKcSEAHaNrxrfahjuXMxNBueLT33UcsmVqPknKmNpTjkwGRSDQr5pdjArsrwaj5DA58fQYYP9EXZtBrKTtEL",
+      "latest_block_time": 1793317269,
+      "errors_in_recent": 10
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 100.03,
-      "change_24h_pct": -2.41,
-      "market_cap_usd": 59014263016.89497,
-      "volume_24h_usd": 2889490603.926823,
+      "usd": 96.22,
+      "change_24h_pct": -5.97,
+      "market_cap_usd": 56757287940.069534,
+      "volume_24h_usd": 4377676620.187321,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5688911699.72,
-      "rank_by_tvl": 4,
-      "share_of_all_chains_pct": 6.39,
+      "tvl_usd": 5517728355.82,
+      "rank_by_tvl": 5,
+      "share_of_all_chains_pct": 6.24,
       "source": "defillama"
     },
     "dex_volume": {
@@ -156,7 +156,7 @@
       "top_dexes": [
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 264959347
+          "volume_24h_usd": 335138434
         },
         {
           "name": "BisonFi",
@@ -164,11 +164,11 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 165028613
+          "volume_24h_usd": 188600141
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 162617309
+          "volume_24h_usd": 150385042
         },
         {
           "name": "Tessera V",
@@ -178,30 +178,30 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15321411008.15,
+      "total_usd": 15163152647.13,
       "by_peg": {
-        "peggedUSD": 15253059705.24,
-        "peggedEUR": 66485597.95,
-        "peggedJPY": 49.31,
-        "peggedCHF": 1251508.15,
-        "peggedAUD": 74184.33,
-        "peggedGBP": 376692.87,
+        "peggedUSD": 15096034674.42,
+        "peggedEUR": 65240661.26,
+        "peggedJPY": 48.27,
+        "peggedCHF": 1259946.06,
+        "peggedAUD": 74204.38,
+        "peggedGBP": 379842.75,
         "peggedTRY": 161820.51,
-        "peggedCAD": 1449.1,
+        "peggedCAD": 1448.78,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 692729,
+      "rev_24h_usd": 692548,
       "network_fees_24h_usd": 527147,
-      "mev_tips_24h_usd": 165582,
-      "mev_share_of_rev_pct": 23.9,
-      "rev_annualised_usd": 252846085,
+      "mev_tips_24h_usd": 165401,
+      "mev_share_of_rev_pct": 23.88,
+      "rev_annualised_usd": 252780020,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 146097
+          "tips_24h_usd": 145916
         },
         {
           "name": "Harmonic",
@@ -213,8 +213,8 @@
         }
       ],
       "app_fees_24h_usd": 10347418.88,
-      "app_fees_7d_usd": 75940987,
-      "app_fees_30d_usd": 416823872.0799994,
+      "app_fees_7d_usd": 75940996.75,
+      "app_fees_30d_usd": 416823891.2199994,
       "app_fees_change_24h_pct": -7.89,
       "protocol_count": 360,
       "top_fee_earning_apps": [
@@ -236,14 +236,14 @@
         },
         {
           "name": "Raydium AMM",
-          "fees_24h_usd": 439535
+          "fees_24h_usd": 521620
         }
       ],
       "note": "REV = network fees (DeFiLlama 'Chain' category) + out-of-protocol MEV tips ('MEV' category). app_fees is the separate, much larger figure for fees earned by applications on Solana.",
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 596999579.56,
+      "total_rwa_usd": 596443829.38,
       "protocol_count": 13,
       "equities_usd": 0,
       "equities_share_pct": 0.0,
@@ -251,71 +251,71 @@
       "top_protocols": [
         {
           "name": "OnRe",
-          "tvl_usd": 305422967.21,
-          "change_24h_pct": 1.395,
+          "tvl_usd": 304095669.63,
+          "change_24h_pct": -0.474,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma",
-          "tvl_usd": 246029957.44,
-          "change_24h_pct": -2.167,
+          "tvl_usd": 246311845.14,
+          "change_24h_pct": -2.052,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Plume Vaults",
-          "tvl_usd": 35024888.22,
-          "change_24h_pct": 1.816,
+          "tvl_usd": 35559475.32,
+          "change_24h_pct": 1.727,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Mansory",
-          "tvl_usd": 2633952.57,
-          "change_24h_pct": -0.164,
+          "tvl_usd": 2588163.25,
+          "change_24h_pct": -2.09,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "International Stable Currency",
-          "tvl_usd": 2394275.33,
-          "change_24h_pct": -0.136,
+          "tvl_usd": 2407528.26,
+          "change_24h_pct": -0.605,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Oro Finance",
-          "tvl_usd": 2326590.81,
-          "change_24h_pct": -0.262,
+          "tvl_usd": 2317492.86,
+          "change_24h_pct": -0.787,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Byzanlink RWA Markets",
-          "tvl_usd": 950150.46,
-          "change_24h_pct": 0.02,
+          "tvl_usd": 949696.8,
+          "change_24h_pct": -0.043,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "KAIO",
-          "tvl_usd": 774263.33,
-          "change_24h_pct": -2.335,
+          "tvl_usd": 774483.04,
+          "change_24h_pct": -2.329,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Solayer USD",
-          "tvl_usd": 706552.68,
-          "change_24h_pct": 0.015,
+          "tvl_usd": 706302.22,
+          "change_24h_pct": -0.04,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Exceed Finance",
-          "tvl_usd": 700788.01,
-          "change_24h_pct": -0.32,
+          "tvl_usd": 697978.09,
+          "change_24h_pct": -0.716,
           "category": "RWA",
           "is_equity": false
         }
@@ -2298,39 +2298,39 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Source: Dune https://t.co/D7Rn5NKj8E",
-        "created_at": "Tue Oct 27 11:07:56 +0000 2026",
-        "url": "https://x.com/solana/status/2115037777456947539"
+        "text": "My own story has Inspired me. I am personally offering a full stay in London for @solana Breakpoint + 1 ticket. (not flights) It was Solana Events that helped shape a big part of my life's trajectory and I want to help someone have the sam\u2026",
+        "created_at": "Thu Oct 29 19:10:06 +0000 2026",
+        "url": "https://x.com/solana/status/2115883897061838974"
       },
       {
         "handle": "solana",
-        "text": "JUST IN: Solana weekly DEX transactions up 65.4% year over year. https://t.co/9jqD3KvEH8",
-        "created_at": "Tue Oct 27 11:07:55 +0000 2026",
-        "url": "https://x.com/solana/status/2115037774944653531"
+        "text": "The Solana Vote: Builders, Users and the Midterms https://t.co/9CZLgkiSE6",
+        "created_at": "Thu Oct 29 19:00:16 +0000 2026",
+        "url": "https://x.com/solana/status/2115881420094923079"
       },
       {
         "handle": "solana",
-        "text": "A tokenized stock is more than an asset to hold. On @solana, it can be traded, used as loan collateral, supplied to liquidity pools, or deployed through a vault. Composability connects these use cases around the same asset. Here\u2019s what tha\u2026",
-        "created_at": "Tue Oct 27 09:32:54 +0000 2026",
-        "url": "https://x.com/solana/status/2115013860289806741"
+        "text": "\"the solana guys saved us.\" probably the sentence we've repeated the most over the past 6 months. from surviving on free pizza in SF to closing deals on factory floors in china. none of this would've happened without @solana and @Superteam\u2026",
+        "created_at": "Thu Oct 29 17:00:05 +0000 2026",
+        "url": "https://x.com/solana/status/2115851177304916315"
       },
       {
         "handle": "solana",
-        "text": "Backpack just took the lead in tokenized equity spot DEX volume across ALL chains. 27% of our tracked volume on Oct 25, ahead of Coinbase\u2019s 25%. Issuance models (@Backpack x @sunrise) and the underlying tech (@solana) still matter, and tha\u2026",
-        "created_at": "Mon Oct 26 21:01:00 +0000 2026",
-        "url": "https://x.com/solana/status/2114824639897633040"
+        "text": "More Breakpoint 2026 speakers are confirmed. Lending, trading cards, robotics, poker and tokenized bank assets, all running on Solana and all on the Breakpoint stage in London this November. https://t.co/5TWZJA3Koj",
+        "created_at": "Thu Oct 29 16:34:49 +0000 2026",
+        "url": "https://x.com/solana/status/2115844818454892688"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Shipped with Solana Mobile & SolanaFloor \u2600\ufe0f Episode 6 https://t.co/IsOFaG8jkq",
+        "created_at": "Tue Oct 27 16:00:16 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2115111347868651861"
       },
       {
         "handle": "solanalabs",
         "text": "Seekers, meet Ledger Atom\u2122 @Ledger Atom ships with the @solanamobile Seeker app, combining the Solana dApp Store and wallet, putting 1,500+ Solana apps in front of Ledger users Get yours today: https://t.co/LbZ8P8Rvw2 https://t.co/pqnC6bXx\u2026",
         "created_at": "Thu Oct 15 16:48:05 +0000 2026",
         "url": "https://x.com/solanalabs/status/2110774724246515965"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "BREAKING: @solanamobile names @Ledger its first hardware partner. The Seeker app, home to the Solana dApp Store and wallet, ships preinstalled on Ledger Atom and brings 1,500+ apps to Ledger users.",
-        "created_at": "Thu Oct 15 13:04:48 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2110718532853940458"
       },
       {
         "handle": "solanalabs",

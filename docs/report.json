@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-30 16:04:45",
+  "captured_at": "2026-10-30 20:43:35",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2134,
+      "measured_slot_time_secs": 0.214,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.65,
+      "deviation_from_target_pct": -46.5,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,57 +13,57 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2302.15,
-      "tps_non_vote": 2302.15,
+      "tps_total": 1846.39,
+      "tps_non_vote": 1846.39,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2138,
-      "latest_sample_slot": 463345769,
+      "avg_slot_time_secs": 0.2152,
+      "latest_sample_slot": 463423830,
       "samples_used": 5,
-      "block_height": 441368258,
-      "current_slot": 463345948
+      "block_height": 441446237,
+      "current_slot": 463423953
     },
     "epoch": {
       "epoch": 1072,
-      "slot_index": 241949,
+      "slot_index": 319955,
       "slots_in_epoch": 432000,
-      "progress_pct": 56.01,
-      "eta_hours": 11.3,
-      "eta_basis_slot_secs": 0.2134,
-      "transaction_count": 564479926522
+      "progress_pct": 74.06,
+      "eta_hours": 6.7,
+      "eta_basis_slot_secs": 0.214,
+      "transaction_count": 564516754821
     },
     "validators": {
-      "active_count": 667,
-      "delinquent_count": 24,
-      "delinquent_pct": 3.47,
-      "delinquent_stake_sol": 2711353.01,
-      "delinquent_stake_pct": 0.623,
-      "total_active_stake_sol": 432645740.14,
+      "active_count": 666,
+      "delinquent_count": 25,
+      "delinquent_pct": 3.62,
+      "delinquent_stake_sol": 2848302.55,
+      "delinquent_stake_pct": 0.654,
+      "total_active_stake_sol": 432508790.6,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 228,
+      "zero_commission_count": 227,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "stake_sol": 16965455.7,
-          "stake_pct": 3.921,
+          "stake_pct": 3.923,
           "commission": 7
         },
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "stake_sol": 16678000.07,
-          "stake_pct": 3.855,
+          "stake_pct": 3.856,
           "commission": 0
         },
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 12919679.96,
-          "stake_pct": 2.986,
+          "stake_pct": 2.987,
           "commission": 0
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 10502229.13,
-          "stake_pct": 2.427,
+          "stake_pct": 2.428,
           "commission": 0
         },
         {
@@ -87,27 +87,27 @@
         {
           "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "stake_sol": 7780140.24,
-          "stake_pct": 1.798,
+          "stake_pct": 1.799,
           "commission": 7
         },
         {
           "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
           "stake_sol": 7045149.57,
-          "stake_pct": 1.628,
+          "stake_pct": 1.629,
           "commission": 5
         },
         {
           "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
           "stake_sol": 7001505.63,
-          "stake_pct": 1.618,
+          "stake_pct": 1.619,
           "commission": 0
         }
       ]
     },
     "supply": {
-      "total_sol": 636700215.01,
-      "circulating_sol": 590039820.33,
-      "non_circulating_sol": 46660394.67,
+      "total_sol": 636700114.18,
+      "circulating_sol": 590039718.83,
+      "non_circulating_sol": 46660395.35,
       "circulating_pct": 92.67
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "3y7WVCBAVCNaXvQoyjrVS3Z1SQC1mrmH2PJb7wK9R4gXjCENMgY3dMySWMjW9U7ULnEECDxvvnZ5yLB3kKf4WEb3",
-      "latest_block_time": 1793376292,
-      "errors_in_recent": 6
+      "latest_signature": "auKh81ghEVxnzM9rg5BD8eEWfTGA63QSUpwHCUwY2wWCRdw92aCHNhkQyhd9UNwx7hBTy3ox2hE7ewYvoPNg7qp",
+      "latest_block_time": 1793393022,
+      "errors_in_recent": 1
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 94.5,
-      "change_24h_pct": -7.8,
-      "market_cap_usd": 55771773028.82181,
-      "volume_24h_usd": 5863058662.5808525,
+      "usd": 94.97,
+      "change_24h_pct": -2.34,
+      "market_cap_usd": 56027693832.73372,
+      "volume_24h_usd": 5618361257.861965,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5353652144.34,
+      "tvl_usd": 5308959480.25,
       "rank_by_tvl": 5,
-      "share_of_all_chains_pct": 6.41,
+      "share_of_all_chains_pct": 6.34,
       "source": "defillama"
     },
     "dex_volume": {
@@ -156,7 +156,7 @@
       "top_dexes": [
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 456285321
+          "volume_24h_usd": 463790651
         },
         {
           "name": "BisonFi",
@@ -164,7 +164,7 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 266144375
+          "volume_24h_usd": 256498760
         },
         {
           "name": "Tessera V",
@@ -172,36 +172,36 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 199406946
+          "volume_24h_usd": 201734919
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 15147368399.58,
+      "total_usd": 15196406366.19,
       "by_peg": {
-        "peggedUSD": 15080855974.84,
-        "peggedEUR": 64616469.64,
-        "peggedJPY": 47.87,
-        "peggedCHF": 1286373.13,
-        "peggedAUD": 73886.77,
-        "peggedGBP": 372738.73,
+        "peggedUSD": 15129603240.37,
+        "peggedEUR": 64902650.32,
+        "peggedJPY": 51.93,
+        "peggedCHF": 1291547.42,
+        "peggedAUD": 73845.21,
+        "peggedGBP": 372120.59,
         "peggedTRY": 161458.46,
-        "peggedCAD": 1449.46,
+        "peggedCAD": 1451.2,
         "peggedKRW": 0.7
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 727006,
+      "rev_24h_usd": 716936,
       "network_fees_24h_usd": 564523,
-      "mev_tips_24h_usd": 162483,
-      "mev_share_of_rev_pct": 22.35,
-      "rev_annualised_usd": 265357190,
+      "mev_tips_24h_usd": 152413,
+      "mev_share_of_rev_pct": 21.26,
+      "rev_annualised_usd": 261681640,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 134754
+          "tips_24h_usd": 124684
         },
         {
           "name": "Harmonic",
@@ -2298,27 +2298,27 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "My own story has Inspired me. I am personally offering a full stay in London for @solana Breakpoint + 1 ticket. (not flights) It was Solana Events that helped shape a big part of my life's trajectory and I want to help someone have the sam\u2026",
-        "created_at": "Thu Oct 29 19:10:06 +0000 2026",
-        "url": "https://x.com/solana/status/2115883897061838974"
+        "text": "BREAKPOINT TICKET SECURED https://t.co/1V8EwWgdyg",
+        "created_at": "Fri Oct 30 17:15:13 +0000 2026",
+        "url": "https://x.com/solana/status/2116217372822396990"
       },
       {
         "handle": "solana",
-        "text": "The Solana Vote: Builders, Users and the Midterms https://t.co/9CZLgkiSE6",
-        "created_at": "Thu Oct 29 19:00:16 +0000 2026",
-        "url": "https://x.com/solana/status/2115881420094923079"
+        "text": "HACKER HOUSE LONDON NOV 1 - NOV 12 MEET OTHER FOUNDERS, DEVS & TECH EXPERTS OPEN TO ALL WHO DARE TO GO FURTHER https://t.co/UY00O0jAy3",
+        "created_at": "Fri Oct 30 16:44:25 +0000 2026",
+        "url": "https://x.com/solana/status/2116209618586350038"
       },
       {
         "handle": "solana",
-        "text": "\"the solana guys saved us.\" probably the sentence we've repeated the most over the past 6 months. from surviving on free pizza in SF to closing deals on factory floors in china. none of this would've happened without @solana and @Superteam\u2026",
-        "created_at": "Thu Oct 29 17:00:05 +0000 2026",
-        "url": "https://x.com/solana/status/2115851177304916315"
+        "text": "Introducing: Bring Your Own Wallet Users can now connect existing Solana wallets such as Phantom, Backpack, and Ledger, and trade directly on JTX, without having to use a separate trading wallet after signing in. https://t.co/I6Wymhc3Kn",
+        "created_at": "Fri Oct 30 15:15:14 +0000 2026",
+        "url": "https://x.com/solana/status/2116187177017389239"
       },
       {
         "handle": "solana",
-        "text": "More Breakpoint 2026 speakers are confirmed. Lending, trading cards, robotics, poker and tokenized bank assets, all running on Solana and all on the Breakpoint stage in London this November. https://t.co/5TWZJA3Koj",
-        "created_at": "Thu Oct 29 16:34:49 +0000 2026",
-        "url": "https://x.com/solana/status/2115844818454892688"
+        "text": "Why We Ship: @cesto_co \"Anyone can access information. The opportunities behind it aren't as easy to reach.\" @jasonrodrigues built Cesto so anyone can back an investment basket that reflects their worldview, simple enough that even his par\u2026",
+        "created_at": "Fri Oct 30 12:30:01 +0000 2026",
+        "url": "https://x.com/solana/status/2116145599351607689"
       },
       {
         "handle": "solanalabs",
@@ -2359,9 +2359,9 @@
     {
       "metric": "tvl_usd",
       "severity": "warning",
-      "message": "tvl_usd is 2.3 sigma below its 288-point mean",
-      "value": 5353652144.34,
-      "expected": 6138389498.6581
+      "message": "tvl_usd is 2.4 sigma below its 288-point mean",
+      "value": 5308959480.25,
+      "expected": 6137000314.348
     }
   ]
 }

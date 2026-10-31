@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-31 19:56:10 UTC by SolVitals.
+Generated 2026-10-31 22:56:06 UTC by SolVitals.
 
 ## Alerts
 
@@ -10,20 +10,20 @@ No anomalies detected against configured thresholds and recent history.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,900.53 |
-| Total TPS (incl. votes) | 1,900.53 |
+| Non-vote TPS | 1,692.46 |
+| Total TPS (incl. votes) | 1,692.46 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2152 s |
-| Current slot | 463,813,950 |
-| Block height | 441,835,778 |
+| Average slot time | 0.2125 s |
+| Current slot | 463,864,378 |
+| Block height | 441,886,204 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1073** — 64.34% complete (`#############.......`), ~9.2 hours remaining.
+Epoch **1073** — 76.01% complete (`###############.....`), ~6.2 hours remaining.
 
-Slot 277,951 of 432,000. Lifetime transaction count: 564,630,721,295.
+Slot 328,378 of 432,000. Lifetime transaction count: 564,649,667,109.
 
 ## Transaction costs and slot timing
 
@@ -34,14 +34,14 @@ Slot 277,951 of 432,000. Lifetime transaction count: 564,630,721,295.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.215 s |
-| Deviation from 0.4s target | -46.25% |
+| Measured slot time (`getBlockTime`) | 0.214 s |
+| Deviation from 0.4s target | -46.5% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -76,39 +76,39 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $95.79 (up 1.04%) |
-| Market cap | $56.51B |
+| SOL price | $95.34 (down 0.42%) |
+| Market cap | $56.26B |
 | DeFi TVL | $5.45B |
 | TVL rank across chains | 4 |
 | DEX volume (24h) | $2.12B (down 7.75%) |
-| Stablecoin supply | $15.20B |
+| Stablecoin supply | $15.24B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$594.94K** |
+| **REV (total)** | **$593.22K** |
 | Network fees | $491.89K |
-| MEV tips (out-of-protocol) | $103.06K (17.32% of REV) |
-| Annualised REV run-rate | $217.15M |
+| MEV tips (out-of-protocol) | $101.33K (17.08% of REV) |
+| Annualised REV run-rate | $216.52M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $87.99K |
+| Jito MEV Tips | $86.27K |
 | Harmonic | $11.86K |
 | bloXroute | $3.21K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 361 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 365 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $11.23M (down 8.90%) |
+| 24 hours | $11.23M (down 8.89%) |
 | 7 days | $77.25M |
-| 30 days | $404.83M |
+| 30 days | $404.84M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -148,12 +148,12 @@ Fees earned by the 361 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $221.74M |
 | BisonFi | $182.87M |
 | Tessera V | $181.44M |
-| Orca DEX | $178.97M |
 | Meteora DLMM | $131.86M |
+| Orca DEX | $126.41M |
 
 ## Supply
 
-Circulating 590,095,019 SOL of 636,761,086 total (92.67%).
+Circulating 590,094,967 SOL of 636,761,035 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 

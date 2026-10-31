@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-10-30 20:43:35 UTC by SolVitals.
+Generated 2026-10-31 00:05:31 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tvl_usd** — tvl_usd is 2.4 sigma below its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.1 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,846.39 |
-| Total TPS (incl. votes) | 1,846.39 |
+| Non-vote TPS | 1,434.54 |
+| Total TPS (incl. votes) | 1,434.54 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2152 s |
-| Current slot | 463,423,953 |
-| Block height | 441,446,237 |
+| Average slot time | 0.2151 s |
+| Current slot | 463,480,456 |
+| Block height | 441,502,717 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1072** — 74.06% complete (`###############.....`), ~6.7 hours remaining.
+Epoch **1072** — 87.14% complete (`#################...`), ~3.3 hours remaining.
 
-Slot 319,955 of 432,000. Lifetime transaction count: 564,516,754,821.
+Slot 376,457 of 432,000. Lifetime transaction count: 564,535,428,642.
 
 ## Transaction costs and slot timing
 
@@ -34,8 +34,8 @@ Slot 319,955 of 432,000. Lifetime transaction count: 564,516,754,821.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.214 s |
-| Deviation from 0.4s target | -46.5% |
+| Measured slot time (`getBlockTime`) | 0.2146 s |
+| Deviation from 0.4s target | -46.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -49,8 +49,8 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | --- | --- |
 | Active validators | 666 |
 | Delinquent validators | 25 (3.62%) |
-| Stake held by delinquents | 2,848,303 SOL (0.654%) |
-| Total active stake | 432,508,791 SOL |
+| Stake held by delinquents | 2,810,488 SOL (0.646%) |
+| Total active stake | 432,546,605 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 227 |
@@ -61,7 +61,7 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,965,456 | 3.923% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,965,456 | 3.922% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,678,000 | 3.856% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,919,680 | 2.987% | 0% |
 | 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,502,229 | 2.428% | 0% |
@@ -76,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $94.97 (down 2.34%) |
-| Market cap | $56.03B |
-| DeFi TVL | $5.31B |
+| SOL price | $96.31 (up 0.88%) |
+| Market cap | $56.84B |
+| DeFi TVL | $5.43B |
 | TVL rank across chains | 5 |
 | DEX volume (24h) | $2.30B (up 32.42%) |
-| Stablecoin supply | $15.20B |
+| Stablecoin supply | $15.24B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$716.94K** |
+| **REV (total)** | **$707.95K** |
 | Network fees | $564.52K |
-| MEV tips (out-of-protocol) | $152.41K (21.26% of REV) |
-| Annualised REV run-rate | $261.68M |
+| MEV tips (out-of-protocol) | $143.43K (20.26% of REV) |
+| Annualised REV run-rate | $258.40M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $124.68K |
+| Jito MEV Tips | $115.70K |
 | Harmonic | $22.98K |
 | bloXroute | $4.75K |
 
@@ -115,14 +115,14 @@ Fees earned by the 361 applications built on Solana -- DEXes, launchpads, wallet
 | PumpSwap | $2.70M |
 | pump.fun | $1.71M |
 | Meteora DLMM | $883.32K |
-| Collector Crypt | $740.67K |
+| Collector Crypt | $783.77K |
 | Jupiter Perpetual Exchange | $736.57K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $612.57M |
+| Total tokenized RWA | $615.80M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 13 |
 
@@ -130,30 +130,30 @@ Fees earned by the 361 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $304.25M | RWA |
-| Huma | $262.56M | RWA |
-| Plume Vaults | $35.34M | RWA |
+| OnRe | $307.54M | RWA |
+| Huma | $262.87M | RWA |
+| Plume Vaults | $34.99M | RWA |
 | Mansory | $2.56M | RWA |
-| International Stable Currency | $2.41M | RWA |
-| Oro Finance | $2.27M | RWA |
-| Byzanlink RWA Markets | $950.29K | RWA |
-| KAIO | $774.32K | RWA |
-| Exceed Finance | $721.67K | RWA |
-| Solayer USD | $704.53K | RWA |
+| International Stable Currency | $2.40M | RWA |
+| Oro Finance | $2.25M | RWA |
+| Byzanlink RWA Markets | $950.45K | RWA |
+| KAIO | $774.48K | RWA |
+| Exceed Finance | $723.14K | RWA |
+| Solayer USD | $704.70K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $463.79M |
+| Orca DEX | $353.37M |
 | BisonFi | $301.26M |
-| Manifest Trade | $256.50M |
+| Manifest Trade | $217.92M |
 | Tessera V | $209.29M |
-| Raydium AMM | $201.73M |
+| Raydium AMM | $200.04M |
 
 ## Supply
 
-Circulating 590,039,719 SOL of 636,700,114 total (92.67%).
+Circulating 590,039,667 SOL of 636,700,062 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -218,7 +218,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Implemented | 1 |
 | Stagnant | 1 |
 
-**Cluster versions:** mainnet `4.3.2` · testnet `4.3.2` · devnet `4.4.0-beta.1`
+**Cluster versions:** mainnet `4.3.2` · testnet `4.4.0` · devnet `4.4.0-beta.1`
 
 _Clusters are running different versions, which is itself a rollout-in-progress signal._
 

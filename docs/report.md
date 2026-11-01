@@ -1,30 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-01 08:07:49 UTC by SolVitals.
+Generated 2026-11-01 15:02:52 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **tps_non_vote** — tps_non_vote is 2.1 sigma below its 288-point mean
-- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.3 sigma below its 288-point mean
+- [WARNING] **rev_24h_usd** — rev_24h_usd is 2.2 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 929.71 |
-| Total TPS (incl. votes) | 929.71 |
+| Non-vote TPS | 2,551.84 |
+| Total TPS (incl. votes) | 2,551.86 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2131 s |
-| Current slot | 464,019,007 |
-| Block height | 442,040,531 |
+| Average slot time | 0.2149 s |
+| Current slot | 464,135,349 |
+| Block height | 442,156,828 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1074** — 11.81% complete (`##..................`), ~22.6 hours remaining.
+Epoch **1074** — 38.74% complete (`########............`), ~15.8 hours remaining.
 
-Slot 51,008 of 432,000. Lifetime transaction count: 564,691,062,608.
+Slot 167,350 of 432,000. Lifetime transaction count: 564,722,596,551.
 
 ## Transaction costs and slot timing
 
@@ -35,14 +34,14 @@ Slot 51,008 of 432,000. Lifetime transaction count: 564,691,062,608.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2132 s |
-| Deviation from 0.4s target | -46.7% |
+| Measured slot time (`getBlockTime`) | 0.2146 s |
+| Deviation from 0.4s target | -46.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 3 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2301 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -77,27 +76,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $95.49 (down 0.09%) |
-| Market cap | $56.29B |
-| DeFi TVL | $5.44B |
+| SOL price | $94.95 (down 0.77%) |
+| Market cap | $55.81B |
+| DeFi TVL | $5.42B |
 | TVL rank across chains | 4 |
-| DEX volume (24h) | $1.44B (down 31.85%) |
-| Stablecoin supply | $15.23B |
+| DEX volume (24h) | $953.37M (down 54.97%) |
+| Stablecoin supply | $15.16B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$452.80K** |
+| **REV (total)** | **$455.08K** |
 | Network fees | $364.24K |
-| MEV tips (out-of-protocol) | $88.55K (19.56% of REV) |
-| Annualised REV run-rate | $165.27M |
+| MEV tips (out-of-protocol) | $90.84K (19.96% of REV) |
+| Annualised REV run-rate | $166.10M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $77.89K |
+| Jito MEV Tips | $80.18K |
 | Harmonic | $7.83K |
 | bloXroute | $2.83K |
 
@@ -107,9 +106,9 @@ Fees earned by the 365 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.58M (down 23.60%) |
-| 7 days | $74.74M |
-| 30 days | $393.18M |
+| 24 hours | $8.27M (down 26.39%) |
+| 7 days | $75.21M |
+| 30 days | $393.66M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
@@ -117,13 +116,13 @@ Fees earned by the 365 applications built on Solana -- DEXes, launchpads, wallet
 | pump.fun | $1.42M |
 | Axiom | $408.90K |
 | Solana | $364.24K |
-| pump.fun Mobile App | $303.53K |
+| Collector Crypt | $304.24K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $598.46M |
+| Total tokenized RWA | $597.41M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 13 |
 
@@ -131,30 +130,30 @@ Fees earned by the 365 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $307.78M | RWA |
-| Huma | $245.18M | RWA |
+| OnRe | $307.77M | RWA |
+| Huma | $244.14M | RWA |
 | Plume Vaults | $35.12M | RWA |
 | Mansory | $2.55M | RWA |
 | International Stable Currency | $2.40M | RWA |
 | Oro Finance | $2.24M | RWA |
-| Byzanlink RWA Markets | $950.71K | RWA |
-| KAIO | $774.66K | RWA |
-| Exceed Finance | $723.31K | RWA |
-| Solayer USD | $704.84K | RWA |
+| Byzanlink RWA Markets | $950.63K | RWA |
+| KAIO | $774.62K | RWA |
+| Exceed Finance | $722.39K | RWA |
+| Solayer USD | $704.80K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
-| BisonFi | $182.87M |
-| Tessera V | $181.44M |
 | PumpSwap | $130.68M |
-| pump.fun | $113.64M |
-| GoonFi | $108.02M |
+| pump.fun | $103.80M |
+| Orca DEX | $86.45M |
+| GoonFi | $73.87M |
+| Tessera V | $70.33M |
 
 ## Supply
 
-Circulating 590,150,495 SOL of 636,822,284 total (92.67%).
+Circulating 590,150,407 SOL of 636,822,197 total (92.67%).
 
 ## Ecosystem growth (solana.com/data)
 

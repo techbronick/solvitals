@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-11-05 17:29:41",
+  "captured_at": "2026-11-05 22:46:21",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2136,
+      "measured_slot_time_secs": 0.2134,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.6,
+      "deviation_from_target_pct": -46.65,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,34 +13,34 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 2648.75,
-      "tps_non_vote": 2648.75,
+      "tps_total": 1485.3,
+      "tps_non_vote": 1485.3,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2138,
-      "latest_sample_slot": 465789916,
+      "avg_slot_time_secs": 0.2114,
+      "latest_sample_slot": 465878590,
       "samples_used": 5,
-      "block_height": 443809984,
-      "current_slot": 465790087
+      "block_height": 443898622,
+      "current_slot": 465878794
     },
     "epoch": {
       "epoch": 1078,
-      "slot_index": 94089,
+      "slot_index": 182795,
       "slots_in_epoch": 432000,
-      "progress_pct": 21.78,
-      "eta_hours": 20.0,
-      "eta_basis_slot_secs": 0.2136,
-      "transaction_count": 565379664100
+      "progress_pct": 42.31,
+      "eta_hours": 14.8,
+      "eta_basis_slot_secs": 0.2134,
+      "transaction_count": 565426131995
     },
     "validators": {
-      "active_count": 663,
-      "delinquent_count": 31,
-      "delinquent_pct": 4.47,
-      "delinquent_stake_sol": 577457.37,
-      "delinquent_stake_pct": 0.134,
-      "total_active_stake_sol": 430295024.45,
+      "active_count": 662,
+      "delinquent_count": 32,
+      "delinquent_pct": 4.61,
+      "delinquent_stake_sol": 676190.62,
+      "delinquent_stake_pct": 0.157,
+      "total_active_stake_sol": 430196291.2,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 226,
+      "zero_commission_count": 225,
       "top_validators": [
         {
           "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -57,13 +57,13 @@
         {
           "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "stake_sol": 13020023.68,
-          "stake_pct": 3.026,
+          "stake_pct": 3.027,
           "commission": 0
         },
         {
           "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "stake_sol": 10434901.29,
-          "stake_pct": 2.425,
+          "stake_pct": 2.426,
           "commission": 0
         },
         {
@@ -75,13 +75,13 @@
         {
           "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "stake_sol": 9459109.34,
-          "stake_pct": 2.198,
+          "stake_pct": 2.199,
           "commission": 10
         },
         {
           "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "stake_sol": 9222691.68,
-          "stake_pct": 2.143,
+          "stake_pct": 2.144,
           "commission": 7
         },
         {
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 637066808.21,
-      "circulating_sol": 590317579.61,
-      "non_circulating_sol": 46749228.6,
+      "total_sol": 637066684.42,
+      "circulating_sol": 590287429.18,
+      "non_circulating_sol": 46779255.24,
       "circulating_pct": 92.66
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2301,
       "recent_signature_count": 10,
-      "latest_signature": "4f29DwfWVd5hBNoEkz1TqiFbFunkDtaNdFHTgCN1KuwnH3qrHv8CzW1PukenJWtEauoCooT6NFjsncXUDNX7vB9g",
-      "latest_block_time": 1793899790,
-      "errors_in_recent": 3
+      "latest_signature": "3xtHWqZounYCWLGdigkPbETuk9fyKcS1tNbVoYmPYiLaDmfmapfR8d5n3aCPydBzzVh9gLSHCXtDHy91YWtA7ttk",
+      "latest_block_time": 1793918788,
+      "errors_in_recent": 5
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -137,15 +137,15 @@
   "market": {
     "price": {
       "usd": 89.66,
-      "change_24h_pct": -6.52,
-      "market_cap_usd": 52929284520.53127,
-      "volume_24h_usd": 4410070838.965073,
+      "change_24h_pct": -6.61,
+      "market_cap_usd": 52907274132.51377,
+      "volume_24h_usd": 4477906358.566838,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5411418777.47,
+      "tvl_usd": 5293435850.32,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.59,
+      "share_of_all_chains_pct": 6.53,
       "source": "defillama"
     },
     "dex_volume": {
@@ -160,7 +160,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 269115486
+          "volume_24h_usd": 293105466
         },
         {
           "name": "BisonFi",
@@ -168,7 +168,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 222344202
+          "volume_24h_usd": 216731645
         },
         {
           "name": "Meteora DLMM",
@@ -178,32 +178,32 @@
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 14978876478.93,
+      "total_usd": 14776362600.22,
       "by_peg": {
-        "peggedUSD": 14899539521.01,
-        "peggedEUR": 76903823.31,
-        "peggedJPY": 52.25,
-        "peggedCHF": 1304282.93,
-        "peggedAUD": 73624.15,
-        "peggedGBP": 421888.64,
+        "peggedUSD": 14695332073.05,
+        "peggedEUR": 78605254.04,
+        "peggedJPY": 52.18,
+        "peggedCHF": 1299788.43,
+        "peggedAUD": 73416.38,
+        "peggedGBP": 418834.65,
         "peggedTRY": 161158.87,
-        "peggedCAD": 1447.83,
+        "peggedCAD": 1444.94,
         "peggedKRW": 0.7,
         "peggedCOP": 827.26,
-        "peggedMXN": 469851.99
+        "peggedMXN": 469749.72
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 735303,
+      "rev_24h_usd": 727174,
       "network_fees_24h_usd": 579751,
-      "mev_tips_24h_usd": 155552,
-      "mev_share_of_rev_pct": 21.15,
-      "rev_annualised_usd": 268385595,
+      "mev_tips_24h_usd": 147423,
+      "mev_share_of_rev_pct": 20.27,
+      "rev_annualised_usd": 265418510,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 138428
+          "tips_24h_usd": 130299
         },
         {
           "name": "Harmonic",
@@ -214,11 +214,11 @@
           "tips_24h_usd": 3875
         }
       ],
-      "app_fees_24h_usd": 11227430.640000004,
-      "app_fees_7d_usd": 73955643.31999996,
-      "app_fees_30d_usd": 364152371.6599986,
-      "app_fees_change_24h_pct": -1.62,
-      "protocol_count": 371,
+      "app_fees_24h_usd": 11227806.640000004,
+      "app_fees_7d_usd": 73956019.31999996,
+      "app_fees_30d_usd": 364152756.2799986,
+      "app_fees_change_24h_pct": -1.61,
+      "protocol_count": 373,
       "top_fee_earning_apps": [
         {
           "name": "PumpSwap",
@@ -2300,51 +2300,51 @@
     "posts": [
       {
         "handle": "solana",
-        "text": "Breakpoint is Solana\u2019s flagship yearly event, gathering the leaders, builders and institutions driving the token supercycle. This year, it comes to London, the birthplace of modern finance. Get your tickets today. https://t.co/O9u3pWBmSM",
-        "created_at": "Wed Nov 04 15:39:09 +0000 2026",
-        "url": "https://x.com/solana/status/2118005134458548479"
+        "text": "In London for Breakpoint? Get 5% cashback when you pay with your Avici card, 14\u201318 Nov. https://t.co/KF1bZV9A7s",
+        "created_at": "Thu Nov 05 18:43:28 +0000 2026",
+        "url": "https://x.com/solana/status/2118413909543850114"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Introducing @leapxyz, a Solana Labs Company. Built by the team behind Dialect and integrated with the best of the Solana ecosystem. Available now in early access \ud83d\udc47",
+        "created_at": "Thu Nov 05 17:08:11 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2118389929894084864"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Earlier this year, Solana Labs acquired my company Dialect. Today we\u2019re launching our team\u2019s next phase. Meet Leap, the trading app for high performance. Built on the belief that crypto is the future, Solana is the network, & trading disci\u2026",
+        "created_at": "Thu Nov 05 17:05:14 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2118389186369589327"
       },
       {
         "handle": "solana",
-        "text": "Kristin Smith (@KristinSmith) is President of @SolanaInstitute, which works with policymakers on how digital assets are regulated. She joins us at Breakpoint in London, 15-17 November. https://t.co/sUo97UtyGA",
-        "created_at": "Wed Nov 04 15:39:06 +0000 2026",
-        "url": "https://x.com/solana/status/2118005122420903986"
+        "text": "BREAKING: Stablecoin Account is live in Samsung Wallet, across 82 million compatible Galaxy devices. Buy, hold and send USDC on Solana from the same wallet Galaxy users already open for cards, boarding passes and IDs. https://t.co/LMKvCAGS\u2026",
+        "created_at": "Thu Nov 05 17:03:37 +0000 2026",
+        "url": "https://x.com/solana/status/2118388778276733438"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "BREAKING: @leapxyz, a new company from @solanalabs, is live in early access. High performance mobile trading app, engineered for discipline. Every asset from tokenized stocks to memecoins, with the stories behind the charts and P&L that co\u2026",
+        "created_at": "Thu Nov 05 17:02:52 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2118388589771845940"
+      },
+      {
+        "handle": "solanalabs",
+        "text": "Introducing Leap, the mobile trading app designed for high performance. A Solana Labs Company. Early access starts today. \ud83e\uddf5\ud83d\udc47 https://t.co/5zaBE5nyOk",
+        "created_at": "Thu Nov 05 16:59:55 +0000 2026",
+        "url": "https://x.com/solanalabs/status/2118387847853908115"
       },
       {
         "handle": "solana",
-        "text": "Ramp supports stablecoins on Solana. Ahmed Zifzaf (@ahmedzifzaf), Head of Digital Asset Partnerships at @tryramp, joins us at Breakpoint to take on a simple question: why should I use your stablecoin? https://t.co/ssqfXb8Mdg",
-        "created_at": "Wed Nov 04 15:38:59 +0000 2026",
-        "url": "https://x.com/solana/status/2118005094864298271"
+        "text": "We're proud to announce that @ElevenLabs now uses Silencio for consent-cleared voice data. https://t.co/JEAvcrrmwe",
+        "created_at": "Thu Nov 05 14:29:12 +0000 2026",
+        "url": "https://x.com/solana/status/2118349920914620640"
       },
       {
         "handle": "solana",
-        "text": "BREAKING: @Schroders, one of the largest asset managers in the world, is bringing an emerging markets debt fund to Solana with @centrifuge. Their first fund on Solana, and $1.1 trillion in assets under management behind it. https://t.co/O3\u2026",
-        "created_at": "Wed Nov 04 13:26:25 +0000 2026",
-        "url": "https://x.com/solana/status/2117971729729622521"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "SKR buy and burns are now live \ud83d\udd25\ud83d\udd25\ud83d\udd25 The Buy and Burn Program purchases SKR on the open market and burns it each day \ud83e\uddf5 https://t.co/evs5ZbNt2z",
-        "created_at": "Tue Nov 03 17:18:18 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2117667700986249361"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Build alongside @solanalabs with @incubator Cohort 6 Applications are now open for 3 months of support, mentorship and guidance in NYC",
-        "created_at": "Mon Nov 02 18:50:15 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2117328449371259359"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Welcome and a big congrats to the incredible teams in Cohort 5 \ud83e\udd73 Follow @incubator for updates on their progress and to stay in the loop on all things Solana Incubator.",
-        "created_at": "Tue Sep 01 18:34:47 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2094856511587860600"
-      },
-      {
-        "handle": "solanalabs",
-        "text": "Introducing Cohort 5 of the Solana Incubator. Our most competitive pool yet \u2014 founders building across AI, robotics, and trading on @solana. Day one of working with these teams: \ud83d\udfe3@clawpumptech \ud83d\udfe3@crowdbrainai \ud83d\udfe3@Lavaragexyz \ud83d\udfe3@morfimarkets \ud83d\udfe3@\u2026",
-        "created_at": "Tue Sep 01 17:39:07 +0000 2026",
-        "url": "https://x.com/solanalabs/status/2094842504025694668"
+        "text": "Every token has a BUY button We built the other one On R8 every token is born with two sides: COOL and SUCKS 1. Fan? Buy COOL. Hater? Buy SUCKS 2. When your side grows -> you win 3. Launch a market. Every trade pays you Pick a side -> http\u2026",
+        "created_at": "Thu Nov 05 13:04:15 +0000 2026",
+        "url": "https://x.com/solana/status/2118328539401634042"
       }
     ],
     "accounts_reached": [
@@ -2361,9 +2361,16 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.2 sigma below its 284-point mean",
+      "message": "price_usd is 2.1 sigma below its 284-point mean",
       "value": 89.66,
-      "expected": 108.1683
+      "expected": 108.1199
+    },
+    {
+      "metric": "tvl_usd",
+      "severity": "warning",
+      "message": "tvl_usd is 2.1 sigma below its 288-point mean",
+      "value": 5293435850.32,
+      "expected": 6098904722.3215
     }
   ]
 }

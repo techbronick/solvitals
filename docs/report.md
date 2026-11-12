@@ -1,6 +1,6 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-12 00:35:31 UTC by SolVitals.
+Generated 2026-11-12 07:42:00 UTC by SolVitals.
 
 ## Alerts
 
@@ -13,20 +13,20 @@ Generated 2026-11-12 00:35:31 UTC by SolVitals.
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,868.48 |
-| Total TPS (incl. votes) | 1,868.49 |
+| Non-vote TPS | 1,128.08 |
+| Total TPS (incl. votes) | 1,128.08 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2131 s |
-| Current slot | 468,326,282 |
-| Block height | 446,342,267 |
+| Average slot time | 0.2161 s |
+| Current slot | 468,445,324 |
+| Block height | 446,461,214 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1084** — 8.86% complete (`##..................`), ~23.4 hours remaining.
+Epoch **1084** — 36.42% complete (`#######.............`), ~16.4 hours remaining.
 
-Slot 38,282 of 432,000. Lifetime transaction count: 566,275,850,710.
+Slot 157,325 of 432,000. Lifetime transaction count: 566,316,503,521.
 
 ## Transaction costs and slot timing
 
@@ -37,14 +37,14 @@ Slot 38,282 of 432,000. Lifetime transaction count: 566,275,850,710.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.214 s |
-| Deviation from 0.4s target | -46.5% |
+| Measured slot time (`getBlockTime`) | 0.2152 s |
+| Deviation from 0.4s target | -46.2% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 5 with errors.
 
 ## Validators
 
@@ -79,45 +79,45 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $83.46 (up 0.09%) |
-| Market cap | $49.40B |
-| DeFi TVL | $5.08B |
+| SOL price | $82.86 (up 0.13%) |
+| Market cap | $49.00B |
+| DeFi TVL | $5.04B |
 | TVL rank across chains | 3 |
-| DEX volume (24h) | $1.37B (up 2.54%) |
-| Stablecoin supply | $13.91B |
+| DEX volume (24h) | $1.64B (up 22.25%) |
+| Stablecoin supply | $13.92B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$590.20K** |
-| Network fees | $444.51K |
-| MEV tips (out-of-protocol) | $145.69K (24.68% of REV) |
-| Annualised REV run-rate | $215.42M |
+| **REV (total)** | **$653.51K** |
+| Network fees | $500.87K |
+| MEV tips (out-of-protocol) | $152.64K (23.36% of REV) |
+| Annualised REV run-rate | $238.53M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $130.17K |
-| Harmonic | $12.42K |
-| bloXroute | $3.10K |
+| Jito MEV Tips | $138.41K |
+| Harmonic | $10.18K |
+| bloXroute | $4.05K |
 
 ### Application fees (distinct from REV)
 
-Fees earned by the 381 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
+Fees earned by the 382 applications built on Solana -- DEXes, launchpads, wallets and bots. Economically interesting, but not network revenue.
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $8.71M (up 3.74%) |
-| 7 days | $54.70M |
-| 30 days | $320.21M |
+| 24 hours | $9.32M (up 10.97%) |
+| 7 days | $60.55M |
+| 30 days | $326.06M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $1.70M |
-| pump.fun | $1.21M |
-| Jupiter Perpetual Exchange | $513.04K |
+| PumpSwap | $2.25M |
+| pump.fun | $1.29M |
+| Solana | $500.87K |
 | Meteora DLMM | $494.00K |
 | Axiom | $487.11K |
 
@@ -133,30 +133,30 @@ Fees earned by the 381 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $309.27M | RWA |
-| Huma | $225.85M | RWA |
+| OnRe | $309.38M | RWA |
+| Huma | $225.75M | RWA |
 | Plume Vaults | $36.90M | RWA |
 | Mansory | $2.42M | RWA |
 | International Stable Currency | $2.40M | RWA |
-| Oro Finance | $2.31M | RWA |
-| Byzanlink RWA Markets | $950.49K | RWA |
-| KAIO | $774.50K | RWA |
+| Oro Finance | $2.30M | RWA |
+| Byzanlink RWA Markets | $950.40K | RWA |
+| KAIO | $774.43K | RWA |
 | Exceed Finance exUSDC | $710.61K | RWA |
-| Solayer USD | $702.67K | RWA |
+| Solayer USD | $702.64K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $201.23M |
+| PumpSwap | $395.67M |
+| Orca DEX | $201.52M |
 | BisonFi | $152.62M |
-| Raydium AMM | $148.61M |
+| Raydium AMM | $138.75M |
 | Meteora DLMM | $129.37M |
-| Manifest Trade | $99.41M |
 
 ## Supply
 
-Circulating 591,457,116 SOL of 637,432,955 total (92.79%).
+Circulating 591,457,005 SOL of 637,432,844 total (92.79%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -187,13 +187,13 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — BREAKPOINT [(link)](https://x.com/solana/status/2120454266280198496)
-- **@solana** — BREAKPOINT https://t.co/1o9hbiMVM9 [(link)](https://x.com/solana/status/2120434204173619671)
-- **@solana** — BREAKING: Users can now trade any Solana token on @fomo directly from X Cashtags. See live market data powered by Solana and trade in a single tap. https://t.co/zkQLYrAnO5 [(link)](https://x.com/solana/status/2120158301422055630)
-- **@solana** — Tap the cashtag, trade it on fomo. Available for all @solana tokens. https://t.co/xTy1IQj814 [(link)](https://x.com/solana/status/2120154677241409745)
+- **@solana** — you should follow solana on instagram: https://t.co/tq0K8Unilv [(link)](https://x.com/solana/status/2120779788583407962)
+- **@solana** — The @hackerhouses Experience https://t.co/Dkzte356Bg [(link)](https://x.com/solana/status/2120778746646995350)
+- **@solana** — RWAs on @solana are up nearly 6x this year to $5.16B. The assets are here. The investors are here. The rails are here. That's why Corda's first blue chip vault, from the team at @inside_r3, is coming to Solana. https://t.co/bLIzpIWEZm [(link)](https://x.com/solana/status/2120720752337211530)
+- **@solanalabs** — Cohort 5 Demo Day is live. See how these teams are pushing @solana forward: 4:10 → @crowdbrainai 9:06 → @ownit_xyz 14:25 → @clawpumptech 20:07 → @projectsolo 26:05 → @getareaapp by @Lavaragexyz 31:08 → @morfimarkets Cohort 6 apps are open … [(link)](https://x.com/solanalabs/status/2120595909759361300)
+- **@solana** — SPEED POD | EP.13 10 questions with @platis_e from @SolanaFndn Breakpoint edition. https://t.co/b47W3d4fcq [(link)](https://x.com/solana/status/2120551722674250025)
 - **@solanalabs** — solana labs builds products on @solana. we’ve often heard demand for an app that prioritizes: - disciplined, long-term investing - solana-native assets - harnessing solana performance - instant rollout of latest standards solana is intense… [(link)](https://x.com/solanalabs/status/2118542320446673232)
 - **@solanalabs** — Introducing @leapxyz, a Solana Labs Company. Built by the team behind Dialect and integrated with the best of the Solana ecosystem. Available now in early access 👇 [(link)](https://x.com/solanalabs/status/2118389929894084864)
-- **@solanalabs** — Earlier this year, Solana Labs acquired my company Dialect. Today we’re launching our team’s next phase. Meet Leap, the trading app for high performance. Built on the belief that crypto is the future, Solana is the network, & trading disci… [(link)](https://x.com/solanalabs/status/2118389186369589327)
 - **@solanalabs** — Introducing Leap, the mobile trading app designed for high performance. A Solana Labs Company. Early access starts today. 🧵👇 https://t.co/5zaBE5nyOk [(link)](https://x.com/solanalabs/status/2118387847853908115)
 
 _Announcements only; replies and retweets filtered. The endpoint rate-limits intermittently, so a failed account degrades this section alone and the cached copy is reused._

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-11-12 16:14:53",
+  "captured_at": "2026-11-12 22:14:37",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.215,
+      "measured_slot_time_secs": 0.2144,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.25,
+      "deviation_from_target_pct": -46.4,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1892.65,
-      "tps_non_vote": 1892.65,
+      "tps_total": 2138.81,
+      "tps_non_vote": 2138.81,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2152,
-      "latest_sample_slot": 468588395,
+      "avg_slot_time_secs": 0.2135,
+      "latest_sample_slot": 468688552,
       "samples_used": 5,
-      "block_height": 446604131,
-      "current_slot": 468588461
+      "block_height": 446704314,
+      "current_slot": 468688785
     },
     "epoch": {
       "epoch": 1084,
-      "slot_index": 300465,
+      "slot_index": 400786,
       "slots_in_epoch": 432000,
-      "progress_pct": 69.55,
-      "eta_hours": 7.9,
-      "eta_basis_slot_secs": 0.215,
-      "transaction_count": 566367065003
+      "progress_pct": 92.77,
+      "eta_hours": 1.9,
+      "eta_basis_slot_secs": 0.2144,
+      "transaction_count": 566412689287
     },
     "validators": {
       "active_count": 660,
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 637432704.67,
-      "circulating_sol": 591455741.71,
-      "non_circulating_sol": 45976962.96,
+      "total_sol": 637432580.06,
+      "circulating_sol": 591455617.05,
+      "non_circulating_sol": 45976963.01,
       "circulating_pct": 92.79
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2401,
       "recent_signature_count": 10,
-      "latest_signature": "5toqqNWY2WigJi4jf5JHcZEcQVG4issfTpKGYkwWKVWe2RBzT6DSLPN4AnwsT6K2AcSbWtyspTCT3shwRSMyBgy6",
-      "latest_block_time": 1794500135,
-      "errors_in_recent": 5
+      "latest_signature": "3p97YvsKDCZgBgYhb821URSqHyNhwbXLFwcGzxaQBQ9zwD5MptmLkTjx851bQFuMtoe3gzwucjsJmWnwFHTfxGMi",
+      "latest_block_time": 1794521687,
+      "errors_in_recent": 3
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,16 +136,16 @@
   },
   "market": {
     "price": {
-      "usd": 81.99,
-      "change_24h_pct": -3.32,
-      "market_cap_usd": 48483864459.2804,
-      "volume_24h_usd": 2070283045.1573381,
+      "usd": 81.38,
+      "change_24h_pct": -3.79,
+      "market_cap_usd": 48135156874.298416,
+      "volume_24h_usd": 2232692675.4464054,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 5045244827.57,
+      "tvl_usd": 5021439588.78,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.5,
+      "share_of_all_chains_pct": 6.54,
       "source": "defillama"
     },
     "dex_volume": {
@@ -160,34 +160,34 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 184437545
+          "volume_24h_usd": 205409437
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 163360401
         },
         {
-          "name": "BisonFi",
-          "volume_24h_usd": 144682568
+          "name": "Raydium AMM",
+          "volume_24h_usd": 151955007
         },
         {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 138187986
+          "name": "BisonFi",
+          "volume_24h_usd": 144682568
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 13860767957.0,
+      "total_usd": 13912590007.27,
       "by_peg": {
-        "peggedUSD": 13780361105.65,
-        "peggedEUR": 77875128.54,
-        "peggedJPY": 41.32,
-        "peggedCHF": 1284761.75,
-        "peggedAUD": 167577.73,
-        "peggedGBP": 436552.66,
+        "peggedUSD": 13831190726.37,
+        "peggedEUR": 78858301.55,
+        "peggedJPY": 43.25,
+        "peggedCHF": 1284383.86,
+        "peggedAUD": 168131.63,
+        "peggedGBP": 445630.42,
         "peggedTRY": 160453.86,
-        "peggedCAD": 1419.92,
+        "peggedCAD": 1420.75,
         "peggedKRW": 0.7,
         "peggedCOP": 4543.25,
         "peggedMXN": 476371.63
@@ -195,15 +195,15 @@
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 652621,
+      "rev_24h_usd": 652030,
       "network_fees_24h_usd": 500869,
-      "mev_tips_24h_usd": 151752,
-      "mev_share_of_rev_pct": 23.25,
-      "rev_annualised_usd": 238206665,
+      "mev_tips_24h_usd": 151161,
+      "mev_share_of_rev_pct": 23.18,
+      "rev_annualised_usd": 237990950,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 137525
+          "tips_24h_usd": 136934
         },
         {
           "name": "Harmonic",
@@ -216,7 +216,7 @@
       ],
       "app_fees_24h_usd": 10185070.879999997,
       "app_fees_7d_usd": 62866258.750000015,
-      "app_fees_30d_usd": 328375394.659999,
+      "app_fees_30d_usd": 332169287.659999,
       "app_fees_change_24h_pct": 21.06,
       "protocol_count": 383,
       "top_fee_earning_apps": [
@@ -2369,22 +2369,22 @@
       "metric": "price_usd",
       "severity": "warning",
       "message": "price_usd is 2.4 sigma below its 284-point mean",
-      "value": 81.99,
-      "expected": 106.7725
+      "value": 81.38,
+      "expected": 106.6642
     },
     {
       "metric": "tvl_usd",
       "severity": "warning",
       "message": "tvl_usd is 2.1 sigma below its 288-point mean",
-      "value": 5045244827.57,
-      "expected": 6032744747.2876
+      "value": 5021439588.78,
+      "expected": 6028428719.3159
     },
     {
       "metric": "stablecoins_usd",
       "severity": "warning",
-      "message": "stablecoins_usd is 2.8 sigma below its 288-point mean",
-      "value": 13860767957.0,
-      "expected": 15802965964.5866
+      "message": "stablecoins_usd is 2.7 sigma below its 288-point mean",
+      "value": 13912590007.27,
+      "expected": 15797075938.3707
     }
   ]
 }

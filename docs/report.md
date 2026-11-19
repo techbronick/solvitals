@@ -1,30 +1,31 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-19 07:41:04 UTC by SolVitals.
+Generated 2026-11-19 16:47:05 UTC by SolVitals.
 
 ## Alerts
 
-- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 3.4 sigma below its 288-point mean
-- [WARNING] **price_usd** — price_usd is 2.1 sigma below its 284-point mean
+- [CRITICAL] **stablecoins_usd** — stablecoins_usd is 3.3 sigma below its 288-point mean
+- [WARNING] **tps_non_vote** — tps_non_vote is 2.3 sigma above its 288-point mean
+- [WARNING] **price_usd** — price_usd is 2.2 sigma below its 284-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,374.77 |
-| Total TPS (incl. votes) | 1,374.77 |
+| Non-vote TPS | 2,992.10 |
+| Total TPS (incl. votes) | 2,992.11 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2149 s |
-| Current slot | 471,255,730 |
-| Block height | 449,270,037 |
+| Average slot time | 0.2163 s |
+| Current slot | 471,407,941 |
+| Block height | 449,422,127 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1090** — 86.97% complete (`#################...`), ~3.4 hours remaining.
+Epoch **1091** — 22.21% complete (`####................`), ~20.2 hours remaining.
 
-Slot 375,731 of 432,000. Lifetime transaction count: 567,388,201,278.
+Slot 95,942 of 432,000. Lifetime transaction count: 567,443,688,155.
 
 ## Transaction costs and slot timing
 
@@ -35,8 +36,8 @@ Slot 375,731 of 432,000. Lifetime transaction count: 567,388,201,278.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2152 s |
-| Deviation from 0.4s target | -46.2% |
+| Measured slot time (`getBlockTime`) | 0.2164 s |
+| Deviation from 0.4s target | -45.9% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
@@ -48,11 +49,11 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 660 |
-| Delinquent validators | 25 (3.65%) |
-| Stake held by delinquents | 66,021 SOL (0.015%) |
-| Total active stake | 426,680,595 SOL |
-| Nakamoto coefficient | 17 |
+| Active validators | 659 |
+| Delinquent validators | 26 (3.80%) |
+| Stake held by delinquents | 108,886 SOL (0.025%) |
+| Total active stake | 428,573,844 SOL |
+| Nakamoto coefficient | 18 |
 | Median commission | 5% |
 | Zero-commission validators | 219 |
 
@@ -62,42 +63,42 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 17,030,759 | 3.991% | 0% |
-| 2 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,476,078 | 3.861% | 7% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,423,470 | 2.912% | 0% |
-| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,297,722 | 2.413% | 0% |
-| 5 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,815,430 | 2.3% | 10% |
-| 6 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,574,562 | 2.244% | 5% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,222,715 | 2.162% | 7% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,973,220 | 1.869% | 7% |
-| 9 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,996,720 | 1.64% | 0% |
-| 10 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,771,472 | 1.587% | 5% |
+| 1 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 17,028,960 | 3.973% | 0% |
+| 2 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 16,375,745 | 3.821% | 7% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,422,025 | 2.898% | 0% |
+| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,299,570 | 2.403% | 0% |
+| 5 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,815,431 | 2.29% | 10% |
+| 6 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,573,248 | 2.234% | 5% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,225,578 | 2.153% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,980,784 | 1.862% | 7% |
+| 9 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,997,844 | 1.633% | 0% |
+| 10 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,772,455 | 1.58% | 5% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.73 (down 0.10%) |
-| Market cap | $44.23B |
-| DeFi TVL | $4.79B |
+| SOL price | $73.75 (up 1.72%) |
+| Market cap | $43.64B |
+| DeFi TVL | $4.80B |
 | TVL rank across chains | 3 |
-| DEX volume (24h) | $1.70B (up 12.72%) |
-| Stablecoin supply | $12.69B |
+| DEX volume (24h) | $1.82B (up 20.25%) |
+| Stablecoin supply | $12.73B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$730.00K** |
+| **REV (total)** | **$714.90K** |
 | Network fees | $560.49K |
-| MEV tips (out-of-protocol) | $169.51K (23.22% of REV) |
-| Annualised REV run-rate | $266.45M |
+| MEV tips (out-of-protocol) | $154.41K (21.6% of REV) |
+| Annualised REV run-rate | $260.94M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $148.39K |
+| Jito MEV Tips | $133.29K |
 | Harmonic | $16.93K |
 | bloXroute | $4.19K |
 
@@ -107,23 +108,23 @@ Fees earned by the 389 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $9.97M (up 22.52%) |
-| 7 days | $57.51M |
-| 30 days | $303.08M |
+| 24 hours | $10.95M (up 33.50%) |
+| 7 days | $59.87M |
+| 30 days | $305.44M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $3.01M |
 | pump.fun | $1.72M |
+| Meteora DLMM | $927.79K |
+| Axiom | $817.38K |
 | Solana | $560.49K |
-| Meteora DLMM | $451.91K |
-| Axiom | $433.46K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $560.52M |
+| Total tokenized RWA | $559.16M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 12 |
 
@@ -131,30 +132,30 @@ Fees earned by the 389 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $292.90M | RWA |
-| Huma | $219.62M | RWA |
+| OnRe | $291.95M | RWA |
+| Huma | $219.32M | RWA |
 | Plume Vaults | $39.32M | RWA |
-| International Stable Currency | $2.40M | RWA |
-| Mansory | $2.26M | RWA |
+| International Stable Currency | $2.41M | RWA |
+| Mansory | $2.15M | RWA |
 | Exceed Finance exUSDC | $1.34M | RWA |
-| Byzanlink RWA Markets | $956.94K | RWA |
-| KAIO | $774.50K | RWA |
-| Solayer USD | $639.95K | RWA |
-| Credible Finance | $282.14K | RWA |
+| Byzanlink RWA Markets | $957.02K | RWA |
+| KAIO | $774.51K | RWA |
+| Solayer USD | $639.96K | RWA |
+| Credible Finance | $282.16K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
 | PumpSwap | $330.65M |
-| Orca DEX | $259.76M |
-| Meteora DLMM | $172.72M |
-| BisonFi | $149.60M |
-| Raydium AMM | $136.78M |
+| Orca DEX | $254.46M |
+| Meteora DLMM | $246.17M |
+| BisonFi | $153.98M |
+| pump.fun | $127.79M |
 
 ## Supply
 
-Circulating 591,796,251 SOL of 637,798,562 total (92.79%).
+Circulating 591,851,541 SOL of 637,859,716 total (92.79%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -185,10 +186,10 @@ The same metric is published by multiple providers with different methodologies.
 
 ## Announcements from key accounts
 
-- **@solana** — BREAKING: @solana now leads all chains in tokenized stock holders, passing BNB Chain for the #1 spot. https://t.co/GyngvLKrIG [(link)](https://x.com/solana/status/2123099002023625035)
-- **@solana** — https://t.co/WBHKaJb1ht [(link)](https://x.com/solana/status/2123098919491997873)
-- **@solana** — FCM, DCM, DCO secured. @Backpack is The American Perpetuals Exchange. [(link)](https://x.com/solana/status/2123073301530505716)
-- **@solana** — Our top stories from Day 2 at Breakpoint 2026 🔥 https://t.co/H3p1RiMpoy [(link)](https://x.com/solana/status/2123023422372679896)
+- **@solana** — Stablecoins & tokenized assets on Solana have a combined market cap of ~$18.4B By sector: Stablecoins: $13.1B Tokenized funds: $4.0B Tokenized stocks: $1.2B Tokenized commodities: $45.2M https://t.co/ALxuZZavnE [(link)](https://x.com/solana/status/2123448010101366914)
+- **@solana** — .@leaps_finance brings options to Solana Fully onchain settlement for covered calls powered by @kamino, @PythNetwork, @Titan_Exchange and @JupiterExchange [(link)](https://x.com/solana/status/2123433190513586311)
+- **@solana** — PDAX opens Philippine sovereign bonds to stablecoins on Solana. It's a first for the country, with USD₮, PYUSD, USDG and USDPT all accepted. https://t.co/XGPYdm7qAm [(link)](https://x.com/solana/status/2123418564015399377)
+- **@solana** — Introducing Leaps Finance A platform where you get paid yield upfront for selling options on Solana https://t.co/hYwxHNHEc4 [(link)](https://x.com/solana/status/2123416004260720900)
 - **@solanalabs** — Breakpoint was a movie Just 24 hours remain to get a Solana Seeker at 50% off 🤯 If I dont sell any more my boss will yell at me so pls send help https://t.co/eJTBP3HDvt [(link)](https://x.com/solanalabs/status/2122998151556604368)
 - **@solanalabs** — Day 2 at Breakpoint, Main Stage, 12:20 GMT. Retail traders deserve a product engineered for discipline, not volume. Our GM @aliquotchris on why that belief shapes Leap, and where we think trading is going. Watch live on @solana. https://t.… [(link)](https://x.com/solanalabs/status/2122387604729638927)
 - **@solanalabs** — Introducing @leapxyz, a Solana Labs Company. Built by the team behind Dialect and integrated with the best of the Solana ecosystem. Available now in early access 👇 [(link)](https://x.com/solanalabs/status/2118389929894084864)

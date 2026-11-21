@@ -1,32 +1,32 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-21 16:28:19 UTC by SolVitals.
+Generated 2026-11-21 21:46:40 UTC by SolVitals.
 
 ## Alerts
 
 - [WARNING] **price_usd** — price_usd is 2.2 sigma below its 284-point mean
-- [WARNING] **tvl_usd** — tvl_usd is 2.1 sigma below its 288-point mean
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.5 sigma below its 288-point mean
-- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.8 sigma below its 288-point mean
+- [WARNING] **tvl_usd** — tvl_usd is 2.0 sigma below its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.4 sigma below its 288-point mean
+- [WARNING] **rwa_total_usd** — rwa_total_usd is 2.7 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,903.11 |
-| Total TPS (incl. votes) | 1,903.11 |
+| Non-vote TPS | 1,807.43 |
+| Total TPS (incl. votes) | 1,807.43 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2160 s |
-| Current slot | 472,205,998 |
-| Block height | 450,219,943 |
+| Average slot time | 0.2135 s |
+| Current slot | 472,294,838 |
+| Block height | 450,308,768 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1093** — 6.94% complete (`#...................`), ~24.0 hours remaining.
+Epoch **1093** — 27.51% complete (`######..............`), ~18.7 hours remaining.
 
-Slot 29,998 of 432,000. Lifetime transaction count: 567,754,864,764.
+Slot 118,839 of 432,000. Lifetime transaction count: 567,787,280,703.
 
 ## Transaction costs and slot timing
 
@@ -37,14 +37,14 @@ Slot 29,998 of 432,000. Lifetime transaction count: 567,754,864,764.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2152 s |
-| Deviation from 0.4s target | -46.2% |
+| Measured slot time (`getBlockTime`) | 0.2146 s |
+| Deviation from 0.4s target | -46.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 2 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 10 with errors.
 
 ## Validators
 
@@ -79,27 +79,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $70.30 (up 2.39%) |
-| Market cap | $41.61B |
-| DeFi TVL | $4.60B |
+| SOL price | $70.42 (up 2.35%) |
+| Market cap | $41.68B |
+| DeFi TVL | $4.63B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.88B (down 1.02%) |
-| Stablecoin supply | $13.09B |
+| Stablecoin supply | $13.19B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$517.39K** |
+| **REV (total)** | **$505.71K** |
 | Network fees | $395.05K |
-| MEV tips (out-of-protocol) | $122.33K (23.64% of REV) |
-| Annualised REV run-rate | $188.85M |
+| MEV tips (out-of-protocol) | $110.65K (21.88% of REV) |
+| Annualised REV run-rate | $184.58M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $109.59K |
+| Jito MEV Tips | $97.92K |
 | Harmonic | $10.00K |
 | bloXroute | $2.74K |
 
@@ -151,12 +151,12 @@ Fees earned by the 394 applications built on Solana -- DEXes, launchpads, wallet
 | Orca DEX | $283.30M |
 | BisonFi | $206.37M |
 | Meteora DLMM | $177.91M |
-| Raydium AMM | $170.21M |
 | PumpSwap | $166.14M |
+| Raydium AMM | $149.60M |
 
 ## Supply
 
-Circulating 591,961,755 SOL of 637,981,585 total (92.79%).
+Circulating 591,961,665 SOL of 637,981,497 total (92.79%).
 
 ## Ecosystem growth (solana.com/data)
 

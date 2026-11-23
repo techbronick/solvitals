@@ -1,31 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-23 02:40:47 UTC by SolVitals.
+Generated 2026-11-23 11:14:53 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **price_usd** — price_usd is 2.1 sigma below its 284-point mean
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.3 sigma below its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.2 sigma below its 288-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.6 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,722.77 |
-| Total TPS (incl. votes) | 1,722.78 |
+| Non-vote TPS | 1,097.25 |
+| Total TPS (incl. votes) | 1,097.25 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2169 s |
-| Current slot | 472,778,677 |
-| Block height | 450,792,256 |
+| Average slot time | 0.2166 s |
+| Current slot | 472,922,080 |
+| Block height | 450,935,615 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1094** — 39.51% complete (`########............`), ~15.7 hours remaining.
+Epoch **1094** — 72.7% complete (`###############.....`), ~7.0 hours remaining.
 
-Slot 170,679 of 432,000. Lifetime transaction count: 567,941,829,147.
+Slot 314,080 of 432,000. Lifetime transaction count: 567,982,206,394.
 
 ## Transaction costs and slot timing
 
@@ -36,14 +35,14 @@ Slot 170,679 of 432,000. Lifetime transaction count: 567,941,829,147.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2158 s |
-| Deviation from 0.4s target | -46.05% |
+| Measured slot time (`getBlockTime`) | 0.2146 s |
+| Deviation from 0.4s target | -46.35% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 4 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2401 SOL, 10 recent signatures, 6 with errors.
 
 ## Validators
 
@@ -55,7 +54,7 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 | Total active stake | 425,641,046 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 220 |
+| Zero-commission validators | 219 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -78,27 +77,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $70.14 (up 0.74%) |
-| Market cap | $41.52B |
-| DeFi TVL | $4.65B |
+| SOL price | $72.14 (up 2.04%) |
+| Market cap | $42.71B |
+| DeFi TVL | $4.71B |
 | TVL rank across chains | 3 |
 | DEX volume (24h) | $1.19B (down 11.85%) |
-| Stablecoin supply | $13.14B |
+| Stablecoin supply | $13.21B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$374.32K** |
+| **REV (total)** | **$377.78K** |
 | Network fees | $287.12K |
-| MEV tips (out-of-protocol) | $87.20K (23.3% of REV) |
-| Annualised REV run-rate | $136.63M |
+| MEV tips (out-of-protocol) | $90.66K (24.0% of REV) |
+| Annualised REV run-rate | $137.89M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $77.57K |
+| Jito MEV Tips | $81.03K |
 | Harmonic | $7.82K |
 | bloXroute | $1.81K |
 
@@ -108,23 +107,23 @@ Fees earned by the 394 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $6.01M (down 20.50%) |
-| 7 days | $57.66M |
-| 30 days | $284.30M |
+| 24 hours | $5.97M (down 21.06%) |
+| 7 days | $58.08M |
+| 30 days | $284.71M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $1.10M |
 | pump.fun | $955.78K |
 | Jupiter Perpetual Exchange | $507.42K |
-| Axiom | $326.90K |
+| Axiom | $300.92K |
 | Solana | $287.12K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $521.61M |
+| Total tokenized RWA | $522.38M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 11 |
 
@@ -132,15 +131,15 @@ Fees earned by the 394 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $287.54M | RWA |
-| Huma | $225.54M | RWA |
-| International Stable Currency | $2.39M | RWA |
-| Mansory | $2.15M | RWA |
+| OnRe | $287.55M | RWA |
+| Huma | $226.27M | RWA |
+| International Stable Currency | $2.40M | RWA |
+| Mansory | $2.18M | RWA |
 | Exceed Finance exUSDC | $1.34M | RWA |
-| Byzanlink RWA Markets | $957.13K | RWA |
-| KAIO | $774.52K | RWA |
-| Solayer USD | $640.04K | RWA |
-| Credible Finance | $264.13K | RWA |
+| Byzanlink RWA Markets | $956.99K | RWA |
+| KAIO | $774.50K | RWA |
+| Solayer USD | $638.84K | RWA |
+| Credible Finance | $264.14K | RWA |
 | TruCore | $11.16K | RWA |
 
 ### Top DEXes by 24h volume
@@ -148,14 +147,14 @@ Fees earned by the 394 applications built on Solana -- DEXes, launchpads, wallet
 | DEX | Volume (24h) |
 | --- | --- |
 | BisonFi | $153.40M |
-| Orca DEX | $132.41M |
+| Orca DEX | $149.94M |
 | Scorch | $127.86M |
 | PumpSwap | $109.84M |
-| Meteora DLMM | $96.82M |
+| Raydium AMM | $101.05M |
 
 ## Supply
 
-Circulating 592,016,818 SOL of 638,042,418 total (92.79%).
+Circulating 592,016,708 SOL of 638,042,309 total (92.79%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -201,7 +200,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 
 | Metric | Value |
 | --- | --- |
-| Improvement proposals tracked | 142 |
+| Improvement proposals tracked | 143 |
 | With an assigned feature gate | 35 |
 | Gates live on mainnet | 22 |
 | Gates awaiting mainnet | 13 |
@@ -211,7 +210,7 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Status | Count |
 | --- | --- |
 | Activated | 79 |
-| Review | 33 |
+| Review | 34 |
 | Idea | 12 |
 | Draft | 6 |
 | Withdrawn | 5 |

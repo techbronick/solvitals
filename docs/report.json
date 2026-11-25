@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-11-25 01:56:32",
+  "captured_at": "2026-11-25 10:43:28",
   "generator": "solvitals/1.0.0",
   "chain": {
     "slot_timing": {
-      "measured_slot_time_secs": 0.2148,
+      "measured_slot_time_secs": 0.2156,
       "target_slot_time_secs": 0.4,
-      "deviation_from_target_pct": -46.3,
+      "deviation_from_target_pct": -46.1,
       "slots_spanned": 5000,
       "method": "getBlockTime"
     },
@@ -13,23 +13,23 @@
       "status": "ok"
     },
     "performance": {
-      "tps_total": 1765.36,
-      "tps_non_vote": 1765.36,
+      "tps_total": 1110.19,
+      "tps_non_vote": 1110.19,
       "vote_share_pct": 0.0,
-      "avg_slot_time_secs": 0.2154,
-      "latest_sample_slot": 473569843,
+      "avg_slot_time_secs": 0.2147,
+      "latest_sample_slot": 473717038,
       "samples_used": 5,
-      "block_height": 451583093,
-      "current_slot": 473569984
+      "block_height": 451730216,
+      "current_slot": 473717141
     },
     "epoch": {
       "epoch": 1096,
-      "slot_index": 97985,
+      "slot_index": 245142,
       "slots_in_epoch": 432000,
-      "progress_pct": 22.68,
-      "eta_hours": 19.9,
-      "eta_basis_slot_secs": 0.2148,
-      "transaction_count": 568256237599
+      "progress_pct": 56.75,
+      "eta_hours": 11.2,
+      "eta_basis_slot_secs": 0.2156,
+      "transaction_count": 568307028978
     },
     "validators": {
       "active_count": 660,
@@ -40,7 +40,7 @@
       "total_active_stake_sol": 424711885.53,
       "nakamoto_coefficient": 18,
       "median_commission": 5,
-      "zero_commission_count": 220,
+      "zero_commission_count": 219,
       "top_validators": [
         {
           "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
@@ -105,9 +105,9 @@
       ]
     },
     "supply": {
-      "total_sol": 638164036.79,
-      "circulating_sol": 592128398.39,
-      "non_circulating_sol": 46035638.4,
+      "total_sol": 638163900.18,
+      "circulating_sol": 592128261.11,
+      "non_circulating_sol": 46035639.07,
       "circulating_pct": 92.79
     },
     "transaction_fees": {
@@ -126,9 +126,9 @@
       "label": "SPL Token program",
       "balance_sol": 0.2402,
       "recent_signature_count": 10,
-      "latest_signature": "2AWnGHXVzg8DuXH2Y6Xt6eZCGGhnYAnLceD4jrs3M1jQkhsPnNHDhbgwnQEoQjQaWKV5z6bmPmmukFDDiYioT25k",
-      "latest_block_time": 1795571798,
-      "errors_in_recent": 4
+      "latest_signature": "5Gjwk7DSGPk9YhXFkLmMngFSGoRCcwkWYmmk3cQbMqxLK8tg2CU5Bty7KRtCKCmpfjVFM4RUqe2fVcFU1jpb1X4U",
+      "latest_block_time": 1795603414,
+      "errors_in_recent": 6
     },
     "activity": {
       "error": "no blocks could be sampled"
@@ -136,22 +136,22 @@
   },
   "market": {
     "price": {
-      "usd": 69.02,
-      "change_24h_pct": -4.1,
-      "market_cap_usd": 40874761528.27649,
-      "volume_24h_usd": 2365078338.366333,
+      "usd": 67.68,
+      "change_24h_pct": -3.91,
+      "market_cap_usd": 40077680914.62034,
+      "volume_24h_usd": 2627625880.1821575,
       "source": "coingecko"
     },
     "tvl": {
-      "tvl_usd": 4549019815.53,
+      "tvl_usd": 4490731063.38,
       "rank_by_tvl": 3,
-      "share_of_all_chains_pct": 6.65,
+      "share_of_all_chains_pct": 6.62,
       "source": "defillama"
     },
     "dex_volume": {
-      "volume_24h_usd": 1646650638.44,
-      "volume_7d_usd": 10427871340.619999,
-      "change_24h_pct": -8.82,
+      "volume_24h_usd": 1645258098.44,
+      "volume_7d_usd": 10431177279.619999,
+      "change_24h_pct": -8.9,
       "protocol_count": 145,
       "top_dexes": [
         {
@@ -160,7 +160,11 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 197911484
+          "volume_24h_usd": 184704464
+        },
+        {
+          "name": "Manifest Trade",
+          "volume_24h_usd": 171280569
         },
         {
           "name": "Meteora DLMM",
@@ -169,41 +173,37 @@
         {
           "name": "Scorch",
           "volume_24h_usd": 159208035
-        },
-        {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 141231668
         }
       ],
       "source": "defillama"
     },
     "stablecoins": {
-      "total_usd": 13256397589.69,
+      "total_usd": 13075616496.69,
       "by_peg": {
-        "peggedUSD": 13173050643.86,
-        "peggedEUR": 80830856.94,
+        "peggedUSD": 12991934045.73,
+        "peggedEUR": 81162796.15,
         "peggedJPY": 42.8,
-        "peggedCHF": 1184176.02,
-        "peggedAUD": 183866.08,
-        "peggedGBP": 482499.87,
+        "peggedCHF": 1189654.79,
+        "peggedAUD": 182901.49,
+        "peggedGBP": 481556.77,
         "peggedTRY": 159067.21,
-        "peggedCAD": 27677.38,
+        "peggedCAD": 27677.32,
         "peggedKRW": 0.7,
         "peggedCOP": 4266.15,
-        "peggedMXN": 474492.69
+        "peggedMXN": 474487.6
       },
       "source": "defillama"
     },
     "fees": {
-      "rev_24h_usd": 478784,
+      "rev_24h_usd": 482196,
       "network_fees_24h_usd": 365957,
-      "mev_tips_24h_usd": 112827,
-      "mev_share_of_rev_pct": 23.57,
-      "rev_annualised_usd": 174756160,
+      "mev_tips_24h_usd": 116239,
+      "mev_share_of_rev_pct": 24.11,
+      "rev_annualised_usd": 176001540,
       "mev_breakdown": [
         {
           "name": "Jito MEV Tips",
-          "tips_24h_usd": 103616
+          "tips_24h_usd": 107028
         },
         {
           "name": "Harmonic",
@@ -214,9 +214,9 @@
           "tips_24h_usd": 2098
         }
       ],
-      "app_fees_24h_usd": 7378568.199999998,
-      "app_fees_7d_usd": 56576935.31999998,
-      "app_fees_30d_usd": 279121711.8499996,
+      "app_fees_24h_usd": 7379126.729999999,
+      "app_fees_7d_usd": 56727975.84999998,
+      "app_fees_30d_usd": 279272752.5399996,
       "app_fees_change_24h_pct": -12.64,
       "protocol_count": 395,
       "top_fee_earning_apps": [
@@ -245,7 +245,7 @@
       "source": "defillama"
     },
     "tokenized_assets": {
-      "total_rwa_usd": 525326438.3,
+      "total_rwa_usd": 525198027.8,
       "protocol_count": 11,
       "equities_usd": 0,
       "equities_share_pct": 0.0,
@@ -253,71 +253,71 @@
       "top_protocols": [
         {
           "name": "OnRe",
-          "tvl_usd": 289895764.67,
-          "change_24h_pct": 0.006,
+          "tvl_usd": 289882822.45,
+          "change_24h_pct": 0.008,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Huma",
-          "tvl_usd": 226285877.1,
-          "change_24h_pct": 3.969,
+          "tvl_usd": 226159399.33,
+          "change_24h_pct": -4.583,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "International Stable Currency",
-          "tvl_usd": 2388593.6,
-          "change_24h_pct": -0.383,
+          "tvl_usd": 2405131.1,
+          "change_24h_pct": -0.216,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Mansory",
-          "tvl_usd": 2237373.4,
-          "change_24h_pct": -0.38,
+          "tvl_usd": 2231800.37,
+          "change_24h_pct": -0.305,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Exceed Finance exUSDC",
-          "tvl_usd": 1887945.83,
+          "tvl_usd": 1888090.48,
           "change_24h_pct": 40.629,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Byzanlink RWA Markets",
-          "tvl_usd": 957160.26,
-          "change_24h_pct": 0.011,
+          "tvl_usd": 956997.6,
+          "change_24h_pct": 0.004,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "KAIO",
-          "tvl_usd": 774592.74,
-          "change_24h_pct": -0.001,
+          "tvl_usd": 774558.06,
+          "change_24h_pct": 0.002,
           "category": "RWA",
           "is_equity": false
         },
         {
           "name": "Solayer USD",
-          "tvl_usd": 638815.87,
-          "change_24h_pct": -0.008,
-          "category": "RWA",
-          "is_equity": false
-        },
-        {
-          "name": "Credible Finance",
-          "tvl_usd": 249143.3,
+          "tvl_usd": 638784.14,
           "change_24h_pct": -0.006,
           "category": "RWA",
           "is_equity": false
         },
         {
+          "name": "Credible Finance",
+          "tvl_usd": 249273.83,
+          "change_24h_pct": 0.052,
+          "category": "RWA",
+          "is_equity": false
+        },
+        {
           "name": "TruCore",
-          "tvl_usd": 11170.53,
-          "change_24h_pct": -0.014,
+          "tvl_usd": 11169.44,
+          "change_24h_pct": -0.016,
           "category": "RWA",
           "is_equity": false
         }
@@ -2361,23 +2361,30 @@
     {
       "metric": "price_usd",
       "severity": "warning",
-      "message": "price_usd is 2.0 sigma below its 284-point mean",
-      "value": 69.02,
-      "expected": 100.3188
+      "message": "price_usd is 2.1 sigma below its 284-point mean",
+      "value": 67.68,
+      "expected": 100.1324
+    },
+    {
+      "metric": "tvl_usd",
+      "severity": "warning",
+      "message": "tvl_usd is 2.0 sigma below its 288-point mean",
+      "value": 4490731063.38,
+      "expected": 5777377668.7622
     },
     {
       "metric": "stablecoins_usd",
       "severity": "warning",
-      "message": "stablecoins_usd is 2.1 sigma below its 288-point mean",
-      "value": 13256397589.69,
-      "expected": 15404313788.2425
+      "message": "stablecoins_usd is 2.2 sigma below its 288-point mean",
+      "value": 13075616496.69,
+      "expected": 15392515758.9887
     },
     {
       "metric": "rwa_total_usd",
       "severity": "warning",
       "message": "rwa_total_usd is 2.4 sigma below its 288-point mean",
-      "value": 525326438.3,
-      "expected": 584907806.7963
+      "value": 525198027.8,
+      "expected": 584844371.5311
     }
   ]
 }

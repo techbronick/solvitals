@@ -1,30 +1,30 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-26 02:47:26 UTC by SolVitals.
+Generated 2026-11-26 11:38:37 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.3 sigma below its 288-point mean
+- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.4 sigma below its 288-point mean
 - [WARNING] **rwa_total_usd** — rwa_total_usd is 2.3 sigma below its 288-point mean
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,473.71 |
-| Total TPS (incl. votes) | 1,473.71 |
+| Non-vote TPS | 1,387.56 |
+| Total TPS (incl. votes) | 1,387.56 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2144 s |
-| Current slot | 473,986,038 |
-| Block height | 451,998,950 |
+| Average slot time | 0.2147 s |
+| Current slot | 474,134,343 |
+| Block height | 452,147,209 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1097** — 18.99% complete (`####................`), ~20.9 hours remaining.
+Epoch **1097** — 53.32% complete (`###########.........`), ~12.1 hours remaining.
 
-Slot 82,040 of 432,000. Lifetime transaction count: 568,433,089,899.
+Slot 230,343 of 432,000. Lifetime transaction count: 568,474,236,770.
 
 ## Transaction costs and slot timing
 
@@ -35,26 +35,26 @@ Slot 82,040 of 432,000. Lifetime transaction count: 568,433,089,899.
 | 95th percentile | 0 |
 | Slots needing no priority fee | 100.0% |
 | Median total fee (200k CU, 1 sig) | 5e-06 SOL |
-| Measured slot time (`getBlockTime`) | 0.2148 s |
-| Deviation from 0.4s target | -46.3% |
+| Measured slot time (`getBlockTime`) | 0.2152 s |
+| Deviation from 0.4s target | -46.2% |
 
 _Priority fees are per compute unit in micro-lamports. Median total assumes a 200k CU transaction with one signature._
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2402 SOL, 10 recent signatures, 0 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2402 SOL, 10 recent signatures, 3 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active validators | 656 |
-| Delinquent validators | 32 (4.65%) |
-| Stake held by delinquents | 144,721 SOL (0.034%) |
-| Total active stake | 423,531,207 SOL |
+| Active validators | 657 |
+| Delinquent validators | 31 (4.51%) |
+| Stake held by delinquents | 134,069 SOL (0.032%) |
+| Total active stake | 423,541,858 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 219 |
+| Zero-commission validators | 218 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -77,27 +77,27 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $71.28 (up 3.78%) |
-| Market cap | $42.21B |
+| SOL price | $70.68 (up 4.81%) |
+| Market cap | $41.86B |
 | DeFi TVL | $4.61B |
 | TVL rank across chains | 3 |
-| DEX volume (24h) | $1.47B (up 0.93%) |
-| Stablecoin supply | $12.98B |
+| DEX volume (24h) | $1.51B (up 3.72%) |
+| Stablecoin supply | $12.87B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$537.07K** |
+| **REV (total)** | **$530.32K** |
 | Network fees | $415.33K |
-| MEV tips (out-of-protocol) | $121.74K (22.67% of REV) |
-| Annualised REV run-rate | $196.03M |
+| MEV tips (out-of-protocol) | $114.99K (21.68% of REV) |
+| Annualised REV run-rate | $193.57M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $109.98K |
+| Jito MEV Tips | $103.23K |
 | Harmonic | $9.69K |
 | bloXroute | $2.06K |
 
@@ -107,23 +107,23 @@ Fees earned by the 397 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $7.49M (up 4.97%) |
-| 7 days | $51.54M |
-| 30 days | $272.68M |
+| 24 hours | $7.55M (up 5.87%) |
+| 7 days | $52.25M |
+| 30 days | $273.39M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
 | PumpSwap | $1.64M |
 | pump.fun | $1.27M |
 | Solana | $415.33K |
-| Axiom | $355.55K |
+| Axiom | $373.68K |
 | Jupiter Perpetual Exchange | $328.25K |
 
 ## Tokenized assets
 
 | Metric | Value |
 | --- | --- |
-| Total tokenized RWA | $526.10M |
+| Total tokenized RWA | $526.09M |
 | Tokenized equities | $0 (0.0% of RWA) |
 | RWA protocols on Solana | 11 |
 
@@ -131,30 +131,30 @@ Fees earned by the 397 applications built on Solana -- DEXes, launchpads, wallet
 
 | Protocol | Value | Category |
 | --- | --- | --- |
-| OnRe | $290.04M | RWA |
+| OnRe | $290.00M | RWA |
 | Huma | $226.87M | RWA |
 | International Stable Currency | $2.41M | RWA |
-| Mansory | $2.27M | RWA |
+| Mansory | $2.29M | RWA |
 | Exceed Finance exUSDC | $1.89M | RWA |
-| Byzanlink RWA Markets | $957.04K | RWA |
-| KAIO | $774.60K | RWA |
-| Solayer USD | $638.83K | RWA |
-| Credible Finance | $249.30K | RWA |
-| TruCore | $11.17K | RWA |
+| Byzanlink RWA Markets | $959.44K | RWA |
+| KAIO | $774.58K | RWA |
+| Solayer USD | $638.76K | RWA |
+| Credible Finance | $243.27K | RWA |
+| TruCore | $11.18K | RWA |
 
 ### Top DEXes by 24h volume
 
 | DEX | Volume (24h) |
 | --- | --- |
-| Orca DEX | $217.14M |
-| BisonFi | $190.49M |
-| Raydium AMM | $172.21M |
-| Scorch | $134.08M |
-| Meteora DLMM | $112.97M |
+| Orca DEX | $213.24M |
+| BisonFi | $190.65M |
+| Raydium AMM | $149.45M |
+| Meteora DLMM | $119.43M |
+| Scorch | $104.62M |
 
 ## Supply
 
-Circulating 592,183,332 SOL of 638,224,802 total (92.79%).
+Circulating 592,183,221 SOL of 638,224,692 total (92.79%).
 
 ## Ecosystem growth (solana.com/data)
 
@@ -210,10 +210,10 @@ _Announcements only; replies and retweets filtered. The endpoint rate-limits int
 | Status | Count |
 | --- | --- |
 | Activated | 79 |
-| Review | 34 |
+| Review | 33 |
 | Idea | 12 |
 | Draft | 7 |
-| Withdrawn | 5 |
+| Withdrawn | 6 |
 | Accepted | 3 |
 | Living | 2 |
 | Implemented | 1 |

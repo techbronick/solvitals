@@ -1,29 +1,29 @@
 # Solana Ecosystem Report
 
-Generated 2026-11-27 21:43:00 UTC by SolVitals.
+Generated 2026-11-28 03:31:17 UTC by SolVitals.
 
 ## Alerts
 
-- [WARNING] **stablecoins_usd** — stablecoins_usd is 2.2 sigma below its 288-point mean
+No anomalies detected against configured thresholds and recent history.
 
 ## Network Performance
 
 | Metric | Value |
 | --- | --- |
-| Non-vote TPS | 1,470.63 |
-| Total TPS (incl. votes) | 1,470.63 |
+| Non-vote TPS | 1,228.73 |
+| Total TPS (incl. votes) | 1,228.73 |
 | Vote share of transactions | 0.00% |
-| Average slot time | 0.2154 s |
-| Current slot | 474,705,132 |
-| Block height | 452,717,766 |
+| Average slot time | 0.2144 s |
+| Current slot | 474,802,533 |
+| Block height | 452,815,045 |
 
 _Non-vote TPS is the figure that reflects user activity; consensus votes are transactions on Solana and inflate the raw count._
 
 ## Epoch
 
-Epoch **1098** — 85.45% complete (`#################...`), ~3.7 hours remaining.
+Epoch **1099** — 7.99% complete (`##..................`), ~23.7 hours remaining.
 
-Slot 369,132 of 432,000. Lifetime transaction count: 568,675,198,109.
+Slot 34,534 of 432,000. Lifetime transaction count: 568,706,720,797.
 
 ## Transaction costs and slot timing
 
@@ -41,19 +41,19 @@ _Priority fees are per compute unit in micro-lamports. Median total assumes a 20
 
 ### Watched account
 
-`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2402 SOL, 10 recent signatures, 10 with errors.
+`TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` (SPL Token program) — balance 0.2402 SOL, 10 recent signatures, 0 with errors.
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active validators | 654 |
-| Delinquent validators | 34 (4.94%) |
-| Stake held by delinquents | 255,036 SOL (0.060%) |
-| Total active stake | 423,952,415 SOL |
+| Delinquent validators | 11 (1.65%) |
+| Stake held by delinquents | 221,799 SOL (0.052%) |
+| Total active stake | 423,331,746 SOL |
 | Nakamoto coefficient | 18 |
 | Median commission | 5% |
-| Zero-commission validators | 216 |
+| Zero-commission validators | 217 |
 
 _The Nakamoto coefficient is the number of validators that would need to collude to control 33% of stake and halt consensus. Higher is more decentralised._
 
@@ -61,44 +61,44 @@ _The Nakamoto coefficient is the number of validators that would need to collude
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,815,245 | 3.966% | 0% |
-| 2 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 15,826,052 | 3.733% | 7% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,437,388 | 2.934% | 0% |
-| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,238,108 | 2.415% | 0% |
-| 5 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,920,637 | 2.34% | 10% |
-| 6 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,617,109 | 2.268% | 5% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,296,651 | 2.193% | 7% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 8,037,877 | 1.896% | 7% |
-| 9 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,972,141 | 1.645% | 0% |
-| 10 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,741,351 | 1.59% | 5% |
+| 1 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,820,639 | 3.973% | 0% |
+| 2 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 15,937,964 | 3.765% | 7% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,430,259 | 2.936% | 0% |
+| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 10,239,621 | 2.419% | 0% |
+| 5 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,920,125 | 2.343% | 10% |
+| 6 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 9,625,966 | 2.274% | 5% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,299,548 | 2.197% | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 8,045,358 | 1.9% | 7% |
+| 9 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,973,110 | 1.647% | 0% |
+| 10 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,346,579 | 1.499% | 5% |
 
 ## Economics
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $71.92 (up 0.40%) |
-| Market cap | $42.60B |
+| SOL price | $71.59 (down 1.89%) |
+| Market cap | $42.67B |
 | DeFi TVL | $4.64B |
 | TVL rank across chains | 2 |
-| DEX volume (24h) | $870.58M (down 42.38%) |
-| Stablecoin supply | $12.92B |
+| DEX volume (24h) | $885.19M (up 1.68%) |
+| Stablecoin supply | $13.12B |
 
 ### Real Economic Value (REV)
 
 | Component | 24h |
 | --- | --- |
-| **REV (total)** | **$432.12K** |
+| **REV (total)** | **$432.98K** |
 | Network fees | $332.65K |
-| MEV tips (out-of-protocol) | $99.48K (23.02% of REV) |
-| Annualised REV run-rate | $157.73M |
+| MEV tips (out-of-protocol) | $100.33K (23.17% of REV) |
+| Annualised REV run-rate | $158.04M |
 
 _REV is what the **network** captures. It is a different and much smaller figure than fees earned by applications built on Solana, which follow separately -- conflating the two overstates REV by more than 10x._
 
 | MEV source | Tips (24h) |
 | --- | --- |
-| Jito MEV Tips | $89.92K |
-| Harmonic | $7.79K |
-| bloXroute | $1.77K |
+| Jito MEV Tips | $92.05K |
+| Harmonic | $6.75K |
+| bloXroute | $1.53K |
 
 ### Application fees (distinct from REV)
 
@@ -106,17 +106,17 @@ Fees earned by the 397 applications built on Solana -- DEXes, launchpads, wallet
 
 | Window | Application fees |
 | --- | --- |
-| 24 hours | $6.15M (down 13.95%) |
-| 7 days | $50.93M |
-| 30 days | $270.06M |
+| 24 hours | $5.61M (down 8.53%) |
+| 7 days | $47.41M |
+| 30 days | $264.19M |
 
 | Top fee-earning app | Fees (24h) |
 | --- | --- |
-| PumpSwap | $1.42M |
-| pump.fun | $1.23M |
+| PumpSwap | $1.30M |
+| pump.fun | $1.20M |
 | Solana | $332.65K |
 | Axiom | $329.43K |
-| Collector Crypt | $207.05K |
+| Jupiter Perpetual Exchange | $240.69K |
 
 ## Tokenized assets
 
@@ -153,7 +153,7 @@ Fees earned by the 397 applications built on Solana -- DEXes, launchpads, wallet
 
 ## Supply
 
-Circulating 592,238,100 SOL of 638,285,374 total (92.79%).
+Circulating 592,430,580 SOL of 638,346,506 total (92.81%).
 
 ## Ecosystem growth (solana.com/data)
 
